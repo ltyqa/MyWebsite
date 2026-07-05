@@ -1,6 +1,5 @@
 ---
 import "../styles/global.css";
-import { timeline } from "../data/content";
 import {
   getGitHubActivities,
   getGitHubActivityChart,
@@ -51,10 +50,6 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
           <a href="#github">
             <span class="nav-icon">↗</span>
             活跃记录
-          </a>
-          <a href="#about">
-            <span class="nav-icon">●</span>
-            关于
           </a>
         </nav>
 
@@ -217,38 +212,6 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
 
             <div class="category-cloud">
               {categories.map((category) => <a href="/notes/">{category}</a>)}
-            </div>
-          </article>
-        </section>
-
-        <section class="dashboard-grid lower-grid" id="about">
-          <article class="panel profile-panel">
-            <p class="project-meta">关于这个网站</p>
-            <h2>它更像一个可更新的工作台。</h2>
-            <p>
-              项目负责展示能打开的成果，笔记负责保存当时的判断和方法。首页只保留最重要的状态，让你一眼知道最近发生了什么。
-            </p>
-          </article>
-
-          <article class="panel timeline-panel">
-            <div class="panel-head">
-              <div>
-                <p class="project-meta">路线</p>
-                <h2>下一步</h2>
-              </div>
-            </div>
-            <div class="timeline">
-              {
-                timeline.map(([date, title, body]) => (
-                  <article class="timeline-card">
-                    <p class="timeline-date">{date}</p>
-                    <div>
-                      <h3>{title}</h3>
-                      <p>{body}</p>
-                    </div>
-                  </article>
-                ))
-              }
             </div>
           </article>
         </section>
