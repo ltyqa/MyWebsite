@@ -3,6 +3,7 @@ import "../styles/global.css";
 import { timeline } from "../data/content";
 import {
   getGitHubActivities,
+  getGitHubActivityChart,
   getGitHubNotes,
   getGitHubProjects,
 } from "../data/github";
@@ -10,6 +11,7 @@ import {
 const projects = await getGitHubProjects();
 const notes = await getGitHubNotes();
 const activities = await getGitHubActivities();
+const activityChart = await getGitHubActivityChart();
 const latestProjects = projects.slice(0, 4);
 const latestNotes = notes.slice(0, 5);
 const latestActivity = activities[0];
@@ -130,10 +132,18 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
               <a class="panel-link" href="/projects/">查看项目</a>
             </div>
 
-            <div class="activity-chart" aria-hidden="true">
-              {Array.from({ length: 22 }).map((_, index) => (
-                <i style={`height: ${28 + ((index * 17) % 58)}%`}></i>
-              ))}
+            <div class="activity-chart" aria-label="最近 21 天 GitHub 提交统计">
+              {
+                activityChart.map((day) => (
+                  <div
+                    class={`chart-bar ${day.count === 0 ? "is-empty" : ""}`}
+                    title={`${day.label}: ${day.count} 次更新，网站 ${day.website} 次，笔记 ${day.notes} 次`}
+                  >
+                    <span style={`height: ${day.height}%`}></span>
+                    <small>{day.label}</small>
+                  </div>
+                ))
+              }
             </div>
 
             <div class="activity-feed compact-feed">

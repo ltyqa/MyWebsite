@@ -16,6 +16,7 @@ const localVaultPath = "C:\\Users\\12480\\Documents\\Obsidian Vault";
 let notesCache: Promise<SiteNote[]> | undefined;
 let projectsCache: Promise<Awaited<ReturnType<typeof loadGitHubProjects>>> | undefined;
 let activitiesCache: Promise<string[][]> | undefined;
+let activityChartCache: Promise<ActivityChartItem[]> | undefined;
 
 type GitHubRepo = {
   name: string;
@@ -48,6 +49,15 @@ type GitCommit = {
       date: string;
     };
   };
+};
+
+export type ActivityChartItem = {
+  date: string;
+  label: string;
+  count: number;
+  website: number;
+  notes: number;
+  height: number;
 };
 
 export type SiteNote = {
@@ -92,6 +102,17 @@ function formatDate(value: string) {
     month: "2-digit",
     day: "2-digit",
   }).format(new Date(value));
+}
+
+function formatShortDate(date: Date) {
+  return new Intl.DateTimeFormat("zh-CN", {
+    month: "2-digit",
+    day: "2-digit",
+  }).format(date);
+}
+
+function dateKey(date: Date) {
+  return date.toISOString().slice(0, 10);
 }
 
 function cleanTitle(path: string) {
@@ -349,6 +370,83 @@ async function loadGitHubActivities() {
   }
 }
 
+async function loadGitHubActivityChart(): Promise<ActivityChartItem[]> {
+  try {
+    const [siteCommits, noteCommits] = await Promise.all([
+      fetchJson<GitCommit[]>(`${apiBase}/repos/${owner}/${siteRepo}/commits?per_page=60`),
+      fetchJson<GitCommit[]>(`${apiBase}/repos/${owner}/${notesRepo}/commits?per_page=60`),
+    ]);
+    const allCommits = [...siteCommits, ...noteCommits];
+    const latestCommitDate = allCommits.reduce((latest, commit) => {
+      const date = new Date(commit.commit.committer.date);
+      return date > latest ? date : latest;
+    }, new Date(0));
+    const chartEnd = latestCommitDate.getTime() > 0 ? latestCommitDate : new Date();
+    chartEnd.setUTCHours(0, 0, 0, 0);
+
+    const days = createChartDays(chartEnd);
+    const dayMap = new Map(days.map((day) => [day.date, day]));
+
+    for (const commit of siteCommits) {
+      const day = dayMap.get(dateKey(new Date(commit.commit.committer.date)));
+      if (!day) continue;
+      day.website += 1;
+      day.count += 1;
+    }
+
+    for (const commit of noteCommits) {
+      const day = dayMap.get(dateKey(new Date(commit.commit.committer.date)));
+      if (!day) continue;
+      day.notes += 1;
+      day.count += 1;
+    }
+
+    return normalizeChartHeights(days);
+  } catch (error) {
+    logFallback("GitHub activity chart unavailable, using activity fallback.");
+
+    const chartEnd = new Date();
+    chartEnd.setUTCHours(0, 0, 0, 0);
+    const days = createChartDays(chartEnd);
+    const dayMap = new Map(days.map((day) => [day.date, day]));
+
+    for (const [date] of fallbackActivities) {
+      const parsed = new Date(date.replace(/\./g, "-").replace(/\//g, "-"));
+      const day = dayMap.get(dateKey(parsed));
+      if (!day) continue;
+      day.count += 1;
+      day.website += 1;
+    }
+
+    return normalizeChartHeights(days);
+  }
+}
+
+function createChartDays(endDate: Date): ActivityChartItem[] {
+  return Array.from({ length: 21 }, (_, index) => {
+    const date = new Date(endDate);
+    date.setDate(endDate.getDate() - (20 - index));
+
+    return {
+      date: dateKey(date),
+      label: formatShortDate(date),
+      count: 0,
+      website: 0,
+      notes: 0,
+      height: 14,
+    };
+  });
+}
+
+function normalizeChartHeights(days: ActivityChartItem[]) {
+  const maxCount = Math.max(1, ...days.map((day) => day.count));
+
+  return days.map((day) => ({
+    ...day,
+    height: day.count ? Math.max(18, Math.round((day.count / maxCount) * 100)) : 8,
+  }));
+}
+
 export async function getGitHubProjects() {
   projectsCache ||= loadGitHubProjects();
   return projectsCache;
@@ -362,4 +460,9 @@ export async function getGitHubNotes() {
 export async function getGitHubActivities() {
   activitiesCache ||= loadGitHubActivities();
   return activitiesCache;
+}
+
+export async function getGitHubActivityChart() {
+  activityChartCache ||= loadGitHubActivityChart();
+  return activityChartCache;
 }

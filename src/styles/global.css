@@ -1224,9 +1224,9 @@ h2 {
 }
 
 .activity-chart {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(21, minmax(0, 1fr));
   height: 210px;
-  align-items: end;
   gap: 10px;
   border-radius: 10px;
   background:
@@ -1235,12 +1235,43 @@ h2 {
   padding: 18px;
 }
 
-.activity-chart i {
-  flex: 1;
-  min-width: 7px;
+.chart-bar {
+  display: grid;
+  min-width: 0;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 8px;
+  align-items: end;
+}
+
+.chart-bar span {
+  display: block;
+  width: 100%;
   border-radius: 999px 999px 3px 3px;
   background: linear-gradient(180deg, rgba(47, 111, 237, 0.78), rgba(71, 192, 106, 0.34));
   box-shadow: 0 8px 18px rgba(47, 111, 237, 0.16);
+  transition:
+    filter 180ms ease,
+    transform 180ms ease;
+}
+
+.chart-bar:hover span {
+  filter: saturate(1.14);
+  transform: translateY(-2px);
+}
+
+.chart-bar.is-empty span {
+  background: rgba(80, 92, 114, 0.16);
+  box-shadow: none;
+}
+
+.chart-bar small {
+  overflow: hidden;
+  color: rgba(109, 116, 131, 0.72);
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: 10px;
+  text-align: center;
+  text-overflow: clip;
+  white-space: nowrap;
 }
 
 .compact-feed {
@@ -1650,11 +1681,11 @@ h2 {
 
   .activity-chart {
     height: 160px;
-    gap: 3px;
+    gap: 4px;
     padding: 12px;
   }
 
-  .activity-chart i {
-    min-width: 0;
+  .chart-bar small {
+    display: none;
   }
 }
