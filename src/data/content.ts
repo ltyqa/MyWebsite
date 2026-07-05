@@ -1,35 +1,11 @@
 export const projects = [
   {
-    name: "知页 Notes",
-    description: "一个给个人笔记准备的轻量阅读系统，专注于清晰的目录、标签和长文排版。",
-    stack: ["Astro", "Markdown", "GitHub"],
-    meta: "TypeScript / 内容系统 / 本周更新",
+    name: "MyWebsite",
+    description: "我的个人网站，用来展示项目、阅读笔记，并从 GitHub 自动同步最新内容。",
+    stack: ["Astro", "GitHub Actions", "Markdown"],
+    meta: "Astro / 个人网站 / 自动同步",
     status: "维护中",
-    link: "https://github.com/",
-  },
-  {
-    name: "静态部署手册",
-    description: "整理个人网站从构建、预览到上线的流程，把容易忘的部署细节固定下来。",
-    stack: ["Node", "CI", "OSS"],
-    meta: "Node.js / 自动化 / 可复用",
-    status: "稳定",
-    link: "https://github.com/",
-  },
-  {
-    name: "界面实验室",
-    description: "存放一些小而完整的界面练习：布局、动效、组件状态和视觉细节。",
-    stack: ["CSS", "Design", "Playground"],
-    meta: "CSS / 视觉实验 / 长期更新",
-    status: "实验中",
-    link: "https://github.com/",
-  },
-  {
-    name: "本地资料库",
-    description: "保存网页摘录、命令片段和问题记录，让零散资料可以被再次找到。",
-    stack: ["SQLite", "CLI", "Markdown"],
-    meta: "Go / 命令行 / 原型",
-    status: "打磨中",
-    link: "https://github.com/",
+    link: "https://github.com/ltyqa/MyWebsite",
   },
 ];
 
