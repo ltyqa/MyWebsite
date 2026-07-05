@@ -1706,6 +1706,24 @@ h2 {
     grid-template-columns: 1fr;
   }
 
+  .route-main .route-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .route-main .page-hero {
+    padding: 4px 0 14px;
+  }
+
+  .route-main h1 {
+    max-width: 100%;
+    font-size: clamp(32px, 8vw, 42px);
+  }
+
+  .route-main .route-hero-panel {
+    padding: 18px;
+  }
+
   .home-dashboard {
     grid-template-columns: 1fr;
   }
@@ -1841,6 +1859,13 @@ h2 {
 
   .dashboard-main {
     padding: 20px 16px 36px;
+  }
+
+  .route-main .project-row,
+  .route-main .notes-directory,
+  .route-main .note-card-large {
+    width: 100%;
+    min-width: 0;
   }
 
   .dashboard-topbar {
