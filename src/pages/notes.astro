@@ -63,9 +63,7 @@ const categories = ["全部", ...Array.from(new Set(notes.map((note) => note.cat
                     <span class="tag">{note.category}</span>
                     <span class="tag">Markdown</span>
                   </div>
-                  {"link" in note && (
-                    <a class="inline-link" href={note.link} target="_blank" rel="noreferrer">在 GitHub 阅读</a>
-                  )}
+                  <a class="inline-link" href={note.link}>在网站阅读</a>
                 </article>
               ))
             }

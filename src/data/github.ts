@@ -3,11 +3,19 @@ import {
   notes as fallbackNotes,
   projects as fallbackProjects,
 } from "./content";
+import { existsSync } from "node:fs";
+import { readdir, readFile } from "node:fs/promises";
+import { join, relative, sep } from "node:path";
 
 const owner = "ltyqa";
 const notesRepo = "MyNote";
 const siteRepo = "MyWebsite";
 const apiBase = "https://api.github.com";
+const rawBase = "https://raw.githubusercontent.com";
+const localVaultPath = "C:\\Users\\12480\\Documents\\Obsidian Vault";
+let notesCache: Promise<SiteNote[]> | undefined;
+let projectsCache: Promise<Awaited<ReturnType<typeof loadGitHubProjects>>> | undefined;
+let activitiesCache: Promise<string[][]> | undefined;
 
 type GitHubRepo = {
   name: string;
@@ -42,10 +50,27 @@ type GitCommit = {
   };
 };
 
-const headers = {
+export type SiteNote = {
+  title: string;
+  meta: string;
+  category: string;
+  excerpt: string;
+  link: string;
+  sourceUrl: string;
+  rawUrl: string;
+  path: string;
+  slug: string;
+  localPath?: string;
+};
+
+const headers: Record<string, string> = {
   Accept: "application/vnd.github+json",
   "User-Agent": "ltyqa-personal-site",
 };
+
+if (import.meta.env.GITHUB_TOKEN) {
+  headers.Authorization = `Bearer ${import.meta.env.GITHUB_TOKEN}`;
+}
 
 async function fetchJson<T>(url: string): Promise<T> {
   const response = await fetch(url, { headers });
@@ -55,6 +80,10 @@ async function fetchJson<T>(url: string): Promise<T> {
   }
 
   return response.json() as Promise<T>;
+}
+
+function logFallback(message: string) {
+  console.warn(`[site data] ${message}`);
 }
 
 function formatDate(value: string) {
@@ -76,6 +105,95 @@ function cleanTitle(path: string) {
 
 function categoryFromPath(path: string) {
   return decodeURIComponent(path).split("/")[0] || "笔记";
+}
+
+function slugFromPath(path: string) {
+  return path.replace(/\.md$/i, "");
+}
+
+function noteHref(slug: string) {
+  return `/notes/${slug
+    .split("/")
+    .map((part) => encodeURIComponent(part))
+    .join("/")}/`;
+}
+
+function githubBlobUrl(path: string) {
+  return `https://github.com/${owner}/${notesRepo}/blob/main/${path
+    .split("/")
+    .map(encodeURIComponent)
+    .join("/")}`;
+}
+
+function githubRawUrl(path: string) {
+  return `${rawBase}/${owner}/${notesRepo}/main/${path
+    .split("/")
+    .map(encodeURIComponent)
+    .join("/")}`;
+}
+
+function fallbackNoteHref(title: string) {
+  return `/notes/local/${encodeURIComponent(title)}/`;
+}
+
+async function listMarkdownFiles(dir: string): Promise<string[]> {
+  const entries = await readdir(dir, { withFileTypes: true });
+  const files = await Promise.all(
+    entries.map(async (entry) => {
+      const fullPath = join(dir, entry.name);
+
+      if (entry.isDirectory()) {
+        if (entry.name.startsWith(".")) return [];
+        return listMarkdownFiles(fullPath);
+      }
+
+      if (entry.isFile() && entry.name.endsWith(".md")) {
+        return [fullPath];
+      }
+
+      return [];
+    }),
+  );
+
+  return files.flat();
+}
+
+async function getLocalVaultNotes(): Promise<SiteNote[]> {
+  if (!existsSync(localVaultPath)) return [];
+
+  const files = await listMarkdownFiles(localVaultPath);
+
+  return files
+    .map((file) => {
+      const path = relative(localVaultPath, file).split(sep).join("/");
+      const category = categoryFromPath(path);
+      const slug = slugFromPath(path);
+
+      return {
+        title: cleanTitle(path),
+        meta: `${category} / ${estimateReadingTimeFromPath(path)}`,
+        category,
+        excerpt: `收在「${category}」里的笔记，适合回看概念、方法和当时的判断。`,
+        link: noteHref(slug),
+        sourceUrl: githubBlobUrl(path),
+        rawUrl: githubRawUrl(path),
+        path,
+        slug,
+        localPath: file,
+      };
+    })
+    .sort((a, b) => a.category.localeCompare(b.category, "zh-CN"));
+}
+
+function getFallbackNotes(): SiteNote[] {
+  return fallbackNotes.map((note) => ({
+    ...note,
+    link: fallbackNoteHref(note.title),
+    sourceUrl: "https://github.com/ltyqa/MyNote",
+    rawUrl: "",
+    path: `local/${note.title}.md`,
+    slug: `local/${note.title}`,
+  }));
 }
 
 function estimateReadingTimeFromPath(path: string) {
@@ -101,7 +219,7 @@ function repoDescription(repo: GitHubRepo) {
   return "公开项目仓库，保留代码、说明和持续更新的记录。";
 }
 
-export async function getGitHubProjects() {
+async function loadGitHubProjects() {
   try {
     const repos = await fetchJson<GitHubRepo[]>(
       `${apiBase}/users/${owner}/repos?sort=pushed&per_page=100`,
@@ -123,44 +241,86 @@ export async function getGitHubProjects() {
 
     return projects.length ? projects : fallbackProjects;
   } catch (error) {
-    console.warn(error);
+    logFallback("GitHub projects unavailable, using local fallback.");
     return fallbackProjects;
   }
 }
 
-export async function getGitHubNotes() {
+async function loadGitHubNotes() {
+  const localNotes = await getLocalVaultNotes();
+
+  if (localNotes.length) {
+    return localNotes;
+  }
+
   try {
     const tree = await fetchJson<GitTreeResponse>(
       `${apiBase}/repos/${owner}/${notesRepo}/git/trees/main?recursive=1`,
     );
 
-    const notes = tree.tree
+    const notes: SiteNote[] = tree.tree
       .filter((item) => item.type === "blob" && item.path.endsWith(".md"))
       .filter((item) => !item.path.startsWith("."))
       .map((item) => {
         const category = categoryFromPath(item.path);
+        const slug = slugFromPath(item.path);
 
         return {
           title: cleanTitle(item.path),
           meta: `${category} / ${estimateReadingTimeFromPath(item.path)}`,
           category,
           excerpt: `收在「${category}」里的笔记，适合回看概念、方法和当时的判断。`,
-          link: `https://github.com/${owner}/${notesRepo}/blob/main/${item.path
-            .split("/")
-            .map(encodeURIComponent)
-            .join("/")}`,
+          link: noteHref(slug),
+          sourceUrl: githubBlobUrl(item.path),
+          rawUrl: githubRawUrl(item.path),
+          path: item.path,
+          slug,
         };
       })
       .sort((a, b) => a.category.localeCompare(b.category, "zh-CN"));
 
     return notes.length ? notes : fallbackNotes;
   } catch (error) {
-    console.warn(error);
-    return fallbackNotes;
+    logFallback("GitHub notes unavailable, using local fallback.");
+    return getFallbackNotes();
   }
 }
 
-export async function getGitHubActivities() {
+export async function getGitHubNoteBySlug(slug: string) {
+  const notes = await getGitHubNotes();
+  const note = notes.find((item) => item.slug === slug);
+
+  if (!note) {
+    return undefined;
+  }
+
+  if (note.localPath) {
+    return {
+      ...note,
+      markdown: await readFile(note.localPath, "utf-8"),
+    };
+  }
+
+  if (!note.rawUrl) {
+    return {
+      ...note,
+      markdown: `# ${note.title}\n\n${note.excerpt}`,
+    };
+  }
+
+  const response = await fetch(note.rawUrl, { headers });
+
+  if (!response.ok) {
+    throw new Error(`Failed to fetch note markdown: ${response.status} ${note.rawUrl}`);
+  }
+
+  return {
+    ...note,
+    markdown: await response.text(),
+  };
+}
+
+async function loadGitHubActivities() {
   try {
     const commits = await fetchJson<GitCommit[]>(
       `${apiBase}/repos/${owner}/${siteRepo}/commits?per_page=2`,
@@ -184,7 +344,22 @@ export async function getGitHubActivities() {
 
     return items.length ? items.slice(0, 4) : fallbackActivities;
   } catch (error) {
-    console.warn(error);
+    logFallback("GitHub activity unavailable, using local fallback.");
     return fallbackActivities;
   }
+}
+
+export async function getGitHubProjects() {
+  projectsCache ||= loadGitHubProjects();
+  return projectsCache;
+}
+
+export async function getGitHubNotes() {
+  notesCache ||= loadGitHubNotes();
+  return notesCache;
+}
+
+export async function getGitHubActivities() {
+  activitiesCache ||= loadGitHubActivities();
+  return activitiesCache;
 }

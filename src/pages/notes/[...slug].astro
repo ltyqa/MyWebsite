@@ -1,0 +1,100 @@
+---
+import { marked } from "marked";
+import "../../styles/global.css";
+import { getGitHubNoteBySlug, getGitHubNotes } from "../../data/github";
+
+export async function getStaticPaths() {
+  const notes = await getGitHubNotes();
+
+  return notes.map((note) => ({
+    params: { slug: note.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+const note = slug ? await getGitHubNoteBySlug(slug) : undefined;
+
+if (!note) {
+  return Astro.redirect("/notes/");
+}
+
+function encodePath(path: string) {
+  return path.split("/").map(encodeURIComponent).join("/");
+}
+
+function rewriteMarkdownAssets(markdown: string) {
+  const baseDir = note.path.split("/").slice(0, -1).join("/");
+
+  return markdown.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (match, alt, src) => {
+    if (/^(https?:|data:|\/)/i.test(src)) return match;
+
+    const normalized = [baseDir, src]
+      .filter(Boolean)
+      .join("/")
+      .replace(/\/\.\//g, "/");
+
+    return `![${alt}](https://raw.githubusercontent.com/ltyqa/MyNote/main/${encodePath(normalized)})`;
+  });
+}
+
+const content = marked.parse(rewriteMarkdownAssets(note.markdown), {
+  async: false,
+  gfm: true,
+  breaks: false,
+});
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={note.excerpt} />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23151a18'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='30' font-family='Arial,sans-serif' fill='%23fffaf0'%3E%E7%AB%99%3C/text%3E%3C/svg%3E" />
+    <title>{note.title} | 笔记</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav page-shell" aria-label="主导航">
+        <a class="brand" href="/" aria-label="回到首页">
+          <span class="brand-mark">站</span>
+          <span>个人档案</span>
+        </a>
+        <div class="nav-links">
+          <a href="/projects/">项目</a>
+          <a href="/notes/">笔记</a>
+          <a href="/#github">活跃</a>
+          <a href="/#about">关于</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="article-hero">
+        <div class="page-shell article-shell">
+          <a class="inline-link" href="/notes/">返回笔记目录</a>
+          <p class="note-meta">{note.meta}</p>
+          <h1>{note.title}</h1>
+          <p class="hero-copy">{note.excerpt}</p>
+          <div class="tag-row">
+            <span class="tag">{note.category}</span>
+            <span class="tag">来自 MyNote</span>
+          </div>
+        </div>
+      </section>
+
+      <article class="page-shell article-shell article-body" set:html={content} />
+
+      <section class="section-tight">
+        <div class="page-shell article-shell final-cta">
+          <h2>原始笔记仍保留在 GitHub。</h2>
+          <div class="hero-actions" style="justify-content: center;">
+            <a class="button button-primary" href="/notes/">继续看笔记</a>
+            <a class="button button-secondary" href={note.sourceUrl} target="_blank" rel="noreferrer">
+              查看源文件
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

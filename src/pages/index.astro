@@ -71,9 +71,9 @@ const latestActivity = activities[0];
               <p class="project-meta">最新笔记</p>
               <h3>{featuredNote?.title || "笔记整理中"}</h3>
               <p>{featuredNote?.excerpt || "新的 Markdown 笔记会在这里出现。"}</p>
-              {featuredNote && "link" in featuredNote && (
-                <a class="inline-link" href={featuredNote.link} target="_blank" rel="noreferrer">
-                  阅读原文
+              {featuredNote && (
+                <a class="inline-link" href={featuredNote.link}>
+                  站内阅读
                 </a>
               )}
             </article>
@@ -153,9 +153,7 @@ const latestActivity = activities[0];
                   <p class="note-meta">{note.meta}</p>
                   <h3>{note.title}</h3>
                   <p>{note.excerpt}</p>
-                  {"link" in note && (
-                    <a class="inline-link" href={note.link} target="_blank" rel="noreferrer">阅读原文</a>
-                  )}
+                  <a class="inline-link" href={note.link}>站内阅读</a>
                 </article>
               ))
             }
