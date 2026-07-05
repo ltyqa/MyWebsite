@@ -1,0 +1,74 @@
+---
+import "../styles/global.css";
+import { projects } from "../data/content";
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="个人项目展示页，整理正在维护和打磨的作品。" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23151a18'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='30' font-family='Arial,sans-serif' fill='%23fffaf0'%3E%E7%AB%99%3C/text%3E%3C/svg%3E" />
+    <title>项目 | 我的个人网站</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav page-shell" aria-label="主导航">
+        <a class="brand" href="/" aria-label="回到首页">
+          <span class="brand-mark">站</span>
+          <span>个人档案</span>
+        </a>
+        <div class="nav-links">
+          <a href="/projects/">项目</a>
+          <a href="/notes/">笔记</a>
+          <a href="/#github">活跃</a>
+          <a href="/#about">关于</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="page-shell route-hero-grid">
+          <div>
+            <span class="eyebrow">作品目录</span>
+            <h1>做过的东西，<span>要能被再次打开。</span></h1>
+            <p class="hero-copy">
+              这里不追求数量，只放那些有明确用途、能说明思考过程，并且值得继续维护的项目。
+            </p>
+          </div>
+          <div class="route-hero-panel">
+            <p class="project-meta">筛选标准</p>
+            <h3>能运行、能解释、能继续改进。</h3>
+            <p>一个好的个人项目，应该让访问者很快知道它为什么存在。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-tight">
+        <div class="page-shell project-directory">
+          {
+            projects.map((project, index) => (
+              <article class={`project-row ${index === 0 ? "featured-row" : ""}`}>
+                <div>
+                  <p class="project-meta">{project.meta}</p>
+                  <h2>{project.name}</h2>
+                  <p>{project.description}</p>
+                </div>
+                <div class="project-row-side">
+                  <span class="status-pill">{project.status}</span>
+                  <div class="tag-row">
+                    {project.stack.map((item) => <span class="tag">{item}</span>)}
+                  </div>
+                  <a class="button button-secondary" href={project.link} target="_blank" rel="noreferrer">
+                    查看仓库
+                  </a>
+                </div>
+              </article>
+            ))
+          }
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
