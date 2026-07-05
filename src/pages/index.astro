@@ -1,7 +1,15 @@
 ---
 import "../styles/global.css";
-import { activities, notes, projects, timeline } from "../data/content";
+import { timeline } from "../data/content";
+import {
+  getGitHubActivities,
+  getGitHubNotes,
+  getGitHubProjects,
+} from "../data/github";
 
+const projects = await getGitHubProjects();
+const notes = await getGitHubNotes();
+const activities = await getGitHubActivities();
 const latestProjects = projects.slice(0, 2);
 const latestNotes = notes.slice(0, 3);
 ---
@@ -48,18 +56,18 @@ const latestNotes = notes.slice(0, 3);
           <div class="home-dashboard" aria-label="站点核心状态">
             <article class="status-card status-card-strong">
               <p class="project-meta">当前整理</p>
-              <h2>4 件作品，5 篇札记</h2>
-              <p>先把能代表思考和手感的内容留下来，再慢慢补齐细节。</p>
+              <h2>{projects.length} 件作品，{notes.length} 篇札记</h2>
+              <p>内容来自 GitHub 仓库，每次重新构建都会刷新到最新状态。</p>
             </article>
             <article class="status-card">
               <p class="project-meta">最近更新</p>
-              <h3>首页结构</h3>
-              <p>把项目和笔记移到独立页面，让首页只保留重要近况。</p>
+              <h3>{activities[0]?.[1] || "同步中"}</h3>
+              <p>{activities[0]?.[2] || "等待下一次仓库更新。"}</p>
             </article>
             <article class="status-card accent-card">
-              <p class="project-meta">接下来</p>
-              <h3>补作品细节</h3>
-              <p>为每个项目补截图、说明和可以直接访问的链接。</p>
+              <p class="project-meta">同步来源</p>
+              <h3>MyWebsite + MyNote</h3>
+              <p>项目来自 GitHub 公开仓库，笔记来自 MyNote 的 Markdown 文件。</p>
             </article>
           </div>
         </div>
@@ -114,6 +122,7 @@ const latestNotes = notes.slice(0, 3);
                   <div class="tag-row">
                     {project.stack.map((item) => <span class="tag">{item}</span>)}
                   </div>
+                  <a class="inline-link" href={project.link} target="_blank" rel="noreferrer">打开仓库</a>
                 </article>
               ))
             }
@@ -130,6 +139,9 @@ const latestNotes = notes.slice(0, 3);
                   <p class="note-meta">{note.meta}</p>
                   <h3>{note.title}</h3>
                   <p>{note.excerpt}</p>
+                  {"link" in note && (
+                    <a class="inline-link" href={note.link} target="_blank" rel="noreferrer">阅读原文</a>
+                  )}
                 </article>
               ))
             }

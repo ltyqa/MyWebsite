@@ -1,7 +1,8 @@
 ---
 import "../styles/global.css";
-import { notes } from "../data/content";
+import { getGitHubNotes } from "../data/github";
 
+const notes = await getGitHubNotes();
 const categories = ["全部", ...Array.from(new Set(notes.map((note) => note.category)))];
 ---
 
@@ -36,7 +37,7 @@ const categories = ["全部", ...Array.from(new Set(notes.map((note) => note.cat
             <span class="eyebrow">笔记目录</span>
             <h1>把问题背后的判断，<span>留下来。</span></h1>
             <p class="hero-copy">
-              写笔记不是为了显得勤奋，而是为了下次遇到相似问题时，能更快找回当时的思路。
+              这里会读取 MyNote 仓库里的 Markdown。以后你在 Obsidian 里新增笔记并推送到 GitHub，网站重新构建后就会出现在这里。
             </p>
           </div>
           <div class="route-hero-panel code-window">
@@ -62,6 +63,9 @@ const categories = ["全部", ...Array.from(new Set(notes.map((note) => note.cat
                     <span class="tag">{note.category}</span>
                     <span class="tag">Markdown</span>
                   </div>
+                  {"link" in note && (
+                    <a class="inline-link" href={note.link} target="_blank" rel="noreferrer">在 GitHub 阅读</a>
+                  )}
                 </article>
               ))
             }

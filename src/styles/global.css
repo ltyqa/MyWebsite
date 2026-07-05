@@ -458,6 +458,16 @@ h2 {
   font-weight: 700;
 }
 
+.inline-link {
+  display: inline-flex;
+  width: fit-content;
+  margin-top: 14px;
+  color: var(--green-dark);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
 .project-side {
   display: grid;
   gap: 16px;

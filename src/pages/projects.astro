@@ -1,6 +1,8 @@
 ---
 import "../styles/global.css";
-import { projects } from "../data/content";
+import { getGitHubProjects } from "../data/github";
+
+const projects = await getGitHubProjects();
 ---
 
 <html lang="zh-CN">
@@ -34,13 +36,13 @@ import { projects } from "../data/content";
             <span class="eyebrow">作品目录</span>
             <h1>做过的东西，<span>要能被再次打开。</span></h1>
             <p class="hero-copy">
-              这里不追求数量，只放那些有明确用途、能说明思考过程，并且值得继续维护的项目。
+              这里会读取 GitHub 上的公开仓库。以后新建项目、更新说明或继续提交代码，重新构建网站后就会同步显示。
             </p>
           </div>
           <div class="route-hero-panel">
             <p class="project-meta">筛选标准</p>
             <h3>能运行、能解释、能继续改进。</h3>
-            <p>一个好的个人项目，应该让访问者很快知道它为什么存在。</p>
+            <p>一个好的个人项目，应该让访问者很快知道它为什么存在，也能顺手打开源码。</p>
           </div>
         </div>
       </section>
@@ -63,6 +65,11 @@ import { projects } from "../data/content";
                   <a class="button button-secondary" href={project.link} target="_blank" rel="noreferrer">
                     查看仓库
                   </a>
+                  {project.homepage && (
+                    <a class="inline-link" href={project.homepage} target="_blank" rel="noreferrer">
+                      访问页面
+                    </a>
+                  )}
                 </div>
               </article>
             ))
