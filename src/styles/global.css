@@ -432,11 +432,21 @@ h2 {
 }
 
 .project-meta,
-.note-meta,
-.timeline-date {
+.note-meta {
   color: rgba(21, 26, 24, 0.54);
   font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
   font-size: 12px;
+}
+
+.timeline-date {
+  width: fit-content;
+  border-radius: 8px;
+  background: rgba(47, 111, 237, 0.08);
+  color: #5c6678;
+  padding: 7px 10px;
+  font-size: 13px;
+  font-weight: 850;
+  line-height: 1;
 }
 
 .project-copy h3,
@@ -653,12 +663,25 @@ h2 {
 
 .activity-item {
   display: grid;
-  grid-template-columns: 112px minmax(0, 1fr);
-  gap: 18px;
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: 20px;
+  align-items: center;
   border: 1px solid var(--line);
-  border-radius: 8px;
-  background: rgba(255, 253, 248, 0.74);
-  padding: 22px;
+  border-radius: 12px;
+  background: linear-gradient(145deg, rgba(248, 251, 255, 0.86), rgba(235, 241, 250, 0.72));
+  padding: 20px;
+  box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.72);
+}
+
+.activity-item h3 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.activity-item p:not(.timeline-date) {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 15px;
 }
 
 .page-hero {

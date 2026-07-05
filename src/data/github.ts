@@ -104,6 +104,34 @@ function formatDate(value: string) {
   }).format(new Date(value));
 }
 
+function formatActivityDate(value: string) {
+  return new Intl.DateTimeFormat("zh-CN", {
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date(value));
+}
+
+function describeCommit(message: string, source: "site" | "notes") {
+  const subject = message.split("\n")[0].trim().toLowerCase();
+
+  if (source === "notes") {
+    if (subject.includes("test") || subject.includes("retest")) return "验证笔记同步是否正常触发";
+    if (subject.includes("readme")) return "整理笔记仓库说明";
+    if (subject.includes("add")) return "新增一批笔记内容";
+    if (subject.includes("update") || subject.includes("sync")) return "更新笔记内容并同步到网站";
+    return "整理并同步公开笔记";
+  }
+
+  if (subject.includes("metric")) return "调整首页数据卡片的排版";
+  if (subject.includes("fake activity")) return "移除活跃图表里的模拟数据";
+  if (subject.includes("fallback")) return "修正项目列表的备用数据";
+  if (subject.includes("sidebar")) return "优化项目和笔记页的侧边栏";
+  if (subject.includes("icon")) return "统一首页图标风格";
+  if (subject.includes("note filter")) return "修复笔记筛选交互";
+  if (subject.includes("github")) return "调整 GitHub 内容同步";
+  return "更新网站内容和界面细节";
+}
+
 function formatShortDate(date: Date) {
   return new Intl.DateTimeFormat("zh-CN", {
     month: "2-digit",
@@ -353,14 +381,14 @@ async function loadGitHubActivities() {
 
     const items = [
       ...commits.map((commit) => [
-        formatDate(commit.commit.committer.date),
+        formatActivityDate(commit.commit.committer.date),
         "更新个人网站",
-        commit.commit.message.split("\n")[0],
+        describeCommit(commit.commit.message, "site"),
       ]),
       ...noteCommits.map((commit) => [
-        formatDate(commit.commit.committer.date),
+        formatActivityDate(commit.commit.committer.date),
         "同步笔记仓库",
-        commit.commit.message.split("\n")[0],
+        describeCommit(commit.commit.message, "notes"),
       ]),
     ];
 

@@ -34,7 +34,7 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
       <main class="dashboard-main">
         <header class="dashboard-topbar">
           <div>
-            <p class="project-meta">Dashboard</p>
+            <p class="project-meta">首页概览</p>
             <h1>最近在做什么，先放在首页。</h1>
           </div>
 
@@ -66,7 +66,7 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
               <p>笔记</p>
             </div>
             <strong>{notes.length}</strong>
-            <span class="metric-note">来自 MyNote Markdown</span>
+            <span class="metric-note">来自笔记仓库</span>
           </article>
 
           <article class="metric-card">
