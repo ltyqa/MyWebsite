@@ -108,6 +108,7 @@ function formatShortDate(date: Date) {
   return new Intl.DateTimeFormat("zh-CN", {
     month: "2-digit",
     day: "2-digit",
+    timeZone: "UTC",
   }).format(date);
 }
 
@@ -403,30 +404,18 @@ async function loadGitHubActivityChart(): Promise<ActivityChartItem[]> {
 
     return normalizeChartHeights(days);
   } catch (error) {
-    logFallback("GitHub activity chart unavailable, using activity fallback.");
+    logFallback("GitHub activity chart unavailable, showing empty chart.");
 
     const chartEnd = new Date();
     chartEnd.setUTCHours(0, 0, 0, 0);
-    const days = createChartDays(chartEnd);
-    const dayMap = new Map(days.map((day) => [day.date, day]));
-
-    for (const [, , , index] of fallbackActivities.map((item, itemIndex) => [...item, itemIndex])) {
-      const fallbackDate = new Date(chartEnd);
-      fallbackDate.setUTCDate(chartEnd.getUTCDate() - index);
-      const day = dayMap.get(dateKey(fallbackDate));
-      if (!day) continue;
-      day.count += 1;
-      day.website += 1;
-    }
-
-    return normalizeChartHeights(days);
+    return normalizeChartHeights(createChartDays(chartEnd));
   }
 }
 
 function createChartDays(endDate: Date): ActivityChartItem[] {
   return Array.from({ length: 21 }, (_, index) => {
     const date = new Date(endDate);
-    date.setDate(endDate.getDate() - (20 - index));
+    date.setUTCDate(endDate.getUTCDate() - (20 - index));
 
     return {
       date: dateKey(date),
