@@ -96,9 +96,9 @@ function repoStatus(repo: GitHubRepo) {
 
 function repoDescription(repo: GitHubRepo) {
   if (repo.description) return repo.description;
-  if (repo.name === siteRepo) return "这个个人网站本身，负责展示项目、笔记和最近近况。";
-  if (repo.name === notesRepo) return "我的公开笔记仓库，用来整理课程、工具和项目设计记录。";
-  return "一个公开仓库，保留项目代码、说明和后续更新记录。";
+  if (repo.name === siteRepo) return "个人网站的源码仓库，记录页面设计、内容同步和持续迭代。";
+  if (repo.name === notesRepo) return "公开笔记仓库，整理课程笔记、设计记录和工具方法。";
+  return "公开项目仓库，保留代码、说明和持续更新的记录。";
 }
 
 export async function getGitHubProjects() {
@@ -144,7 +144,7 @@ export async function getGitHubNotes() {
           title: cleanTitle(item.path),
           meta: `${category} / ${estimateReadingTimeFromPath(item.path)}`,
           category,
-          excerpt: `来自 MyNote 仓库的「${category}」笔记，点击可在 GitHub 中查看原文。`,
+          excerpt: `收在「${category}」里的笔记，适合回看概念、方法和当时的判断。`,
           link: `https://github.com/${owner}/${notesRepo}/blob/main/${item.path
             .split("/")
             .map(encodeURIComponent)

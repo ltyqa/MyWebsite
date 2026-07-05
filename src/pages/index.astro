@@ -12,6 +12,9 @@ const notes = await getGitHubNotes();
 const activities = await getGitHubActivities();
 const latestProjects = projects.slice(0, 2);
 const latestNotes = notes.slice(0, 3);
+const featuredProject = latestProjects[0];
+const featuredNote = latestNotes[0];
+const latestActivity = activities[0];
 ---
 
 <html lang="zh-CN">
@@ -55,19 +58,30 @@ const latestNotes = notes.slice(0, 3);
 
           <div class="home-dashboard" aria-label="站点核心状态">
             <article class="status-card status-card-strong">
-              <p class="project-meta">当前整理</p>
-              <h2>{projects.length} 件作品，{notes.length} 篇札记</h2>
-              <p>内容来自 GitHub 仓库，每次重新构建都会刷新到最新状态。</p>
+              <p class="project-meta">最新作品</p>
+              <h2>{featuredProject?.name || "作品整理中"}</h2>
+              <p>{featuredProject?.description || "正在补充项目说明和仓库链接。"}</p>
+              {featuredProject && (
+                <a class="inline-link" href={featuredProject.link} target="_blank" rel="noreferrer">
+                  打开仓库
+                </a>
+              )}
             </article>
             <article class="status-card">
-              <p class="project-meta">最近更新</p>
-              <h3>{activities[0]?.[1] || "同步中"}</h3>
-              <p>{activities[0]?.[2] || "等待下一次仓库更新。"}</p>
+              <p class="project-meta">最新笔记</p>
+              <h3>{featuredNote?.title || "笔记整理中"}</h3>
+              <p>{featuredNote?.excerpt || "新的 Markdown 笔记会在这里出现。"}</p>
+              {featuredNote && "link" in featuredNote && (
+                <a class="inline-link" href={featuredNote.link} target="_blank" rel="noreferrer">
+                  阅读原文
+                </a>
+              )}
             </article>
             <article class="status-card accent-card">
-              <p class="project-meta">同步来源</p>
-              <h3>MyWebsite + MyNote</h3>
-              <p>项目来自 GitHub 公开仓库，笔记来自 MyNote 的 Markdown 文件。</p>
+              <p class="project-meta">最近近况</p>
+              <h3>{latestActivity?.[1] || "持续更新"}</h3>
+              <p>{latestActivity?.[2] || "这里会记录最近的项目和笔记变化。"}</p>
+              <span class="status-count">{projects.length} 件作品 / {notes.length} 篇笔记</span>
             </article>
           </div>
         </div>

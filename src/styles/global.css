@@ -280,7 +280,13 @@ h1 span {
 }
 
 .status-card h2 {
-  font-size: clamp(32px, 4vw, 56px);
+  font-size: clamp(30px, 3.8vw, 52px);
+  line-height: 1.04;
+}
+
+.status-card h3 {
+  font-size: clamp(22px, 2.2vw, 30px);
+  line-height: 1.16;
 }
 
 .status-card p,
@@ -466,6 +472,17 @@ h2 {
   font-weight: 800;
   text-decoration: underline;
   text-underline-offset: 5px;
+}
+
+.status-count {
+  display: inline-flex;
+  width: fit-content;
+  border-radius: 999px;
+  background: rgba(21, 26, 24, 0.08);
+  color: var(--green-dark);
+  padding: 7px 10px;
+  font-size: 12px;
+  font-weight: 800;
 }
 
 .project-side {
