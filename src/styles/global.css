@@ -1198,15 +1198,19 @@ h2 {
 }
 
 .metric-card {
+  display: grid;
   min-height: 150px;
+  justify-items: center;
+  align-content: center;
   padding: 22px;
+  text-align: center;
 }
 
 .metric-head {
-  display: flex;
+  display: grid;
   align-items: center;
-  justify-content: space-between;
-  gap: 14px;
+  justify-items: center;
+  gap: 12px;
   color: #566074;
   font-weight: 900;
 }
@@ -1239,7 +1243,7 @@ h2 {
 
 .metric-card strong {
   display: block;
-  margin-top: 20px;
+  margin-top: 18px;
   font-size: clamp(30px, 4vw, 44px);
   line-height: 1;
   font-variant-numeric: tabular-nums;
