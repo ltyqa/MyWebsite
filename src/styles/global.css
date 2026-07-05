@@ -1216,6 +1216,7 @@ h2 {
 }
 
 .metric-icon {
+  position: relative;
   display: grid;
   width: 38px;
   height: 38px;
@@ -1223,6 +1224,74 @@ h2 {
   border-radius: 50%;
   background: rgba(248, 251, 255, 0.9);
   box-shadow: inset 3px 3px 8px rgba(82, 101, 130, 0.09), inset -4px -4px 10px rgba(255, 255, 255, 0.9);
+}
+
+.metric-icon::before,
+.metric-icon::after {
+  content: "";
+  position: absolute;
+  display: block;
+}
+
+.metric-icon-project::before {
+  width: 15px;
+  height: 15px;
+  border: 2px solid currentColor;
+  border-radius: 4px;
+  box-shadow:
+    -5px -5px 0 -2px currentColor,
+    5px 5px 0 -2px currentColor;
+}
+
+.metric-icon-note::before {
+  width: 14px;
+  height: 18px;
+  border: 2px solid currentColor;
+  border-radius: 4px;
+}
+
+.metric-icon-note::after {
+  top: 14px;
+  left: 13px;
+  width: 10px;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+  box-shadow: 0 5px 0 rgba(41, 145, 77, 0.52);
+}
+
+.metric-icon-active::before {
+  width: 18px;
+  height: 18px;
+  border-top: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+  transform: rotate(45deg) translate(-1px, 3px);
+}
+
+.metric-icon-active::after {
+  width: 18px;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+  transform: rotate(-45deg) translate(-1px, 2px);
+}
+
+.metric-icon-pulse::before {
+  width: 19px;
+  height: 10px;
+  border-bottom: 2px solid currentColor;
+  border-left: 2px solid currentColor;
+  border-radius: 0 0 0 8px;
+  transform: rotate(-12deg);
+}
+
+.metric-icon-pulse::after {
+  right: 12px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: currentColor;
+  box-shadow: -10px 4px 0 rgba(108, 111, 188, 0.45);
 }
 
 .metric-icon.cool {
@@ -1396,14 +1465,40 @@ h2 {
 }
 
 .row-icon {
+  position: relative;
   display: grid;
   width: 34px;
   height: 34px;
   place-items: center;
   border-radius: 9px;
-  background: rgba(47, 111, 237, 0.1);
+  background:
+    linear-gradient(145deg, rgba(248, 251, 255, 0.78), rgba(219, 229, 248, 0.72)),
+    rgba(47, 111, 237, 0.1);
   color: var(--blue);
   font-weight: 900;
+  box-shadow:
+    inset 2px 2px 5px rgba(82, 101, 130, 0.08),
+    inset -3px -3px 8px rgba(255, 255, 255, 0.82);
+}
+
+.row-icon::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border: 2px solid currentColor;
+  border-radius: 4px;
+  box-shadow: 0 0 0 4px rgba(47, 111, 237, 0.08);
+}
+
+.row-icon::after {
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(71, 192, 106, 0.9);
 }
 
 .list-row strong,

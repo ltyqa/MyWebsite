@@ -53,7 +53,7 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
         <section class="metric-grid" aria-label="站点概览">
           <article class="metric-card">
             <div class="metric-head">
-              <span class="metric-icon cool">▦</span>
+              <span class="metric-icon cool metric-icon-project" aria-hidden="true"></span>
               <p>项目</p>
             </div>
             <strong>{projects.length}</strong>
@@ -62,7 +62,7 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
 
           <article class="metric-card">
             <div class="metric-head">
-              <span class="metric-icon green">◇</span>
+              <span class="metric-icon green metric-icon-note" aria-hidden="true"></span>
               <p>笔记</p>
             </div>
             <strong>{notes.length}</strong>
@@ -71,7 +71,7 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
 
           <article class="metric-card">
             <div class="metric-head">
-              <span class="metric-icon coral">↗</span>
+              <span class="metric-icon coral metric-icon-active" aria-hidden="true"></span>
               <p>维护中</p>
             </div>
             <strong>{activeProjectCount}</strong>
@@ -80,7 +80,7 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
 
           <article class="metric-card">
             <div class="metric-head">
-              <span class="metric-icon violet">⌁</span>
+              <span class="metric-icon violet metric-icon-pulse" aria-hidden="true"></span>
               <p>最新动态</p>
             </div>
             <strong>{latestActivity?.[0] || "今日"}</strong>
@@ -140,7 +140,7 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
               {
                 latestProjects.map((project) => (
                   <a class="list-row" href={project.link} target="_blank" rel="noreferrer">
-                    <span class="row-icon">▣</span>
+                    <span class="row-icon" aria-hidden="true"></span>
                     <span>
                       <strong>{project.name}</strong>
                       <small>{project.description}</small>
