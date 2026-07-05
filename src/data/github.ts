@@ -410,9 +410,10 @@ async function loadGitHubActivityChart(): Promise<ActivityChartItem[]> {
     const days = createChartDays(chartEnd);
     const dayMap = new Map(days.map((day) => [day.date, day]));
 
-    for (const [date] of fallbackActivities) {
-      const parsed = new Date(date.replace(/\./g, "-").replace(/\//g, "-"));
-      const day = dayMap.get(dateKey(parsed));
+    for (const [, , , index] of fallbackActivities.map((item, itemIndex) => [...item, itemIndex])) {
+      const fallbackDate = new Date(chartEnd);
+      fallbackDate.setUTCDate(chartEnd.getUTCDate() - index);
+      const day = dayMap.get(dateKey(fallbackDate));
       if (!day) continue;
       day.count += 1;
       day.website += 1;

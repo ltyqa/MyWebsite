@@ -540,17 +540,35 @@ h2 {
   padding: 16px;
 }
 
-.note-rail a {
+.note-rail button {
   display: block;
+  width: 100%;
+  border: 0;
   border-radius: 8px;
+  background: transparent;
   padding: 12px;
   color: var(--muted);
+  cursor: pointer;
+  font: inherit;
   font-weight: 750;
+  text-align: left;
+  transition: transform 180ms ease;
 }
 
-.note-rail a:first-child {
-  background: var(--ink);
-  color: var(--paper);
+.note-rail button[aria-pressed="false"] {
+  background: transparent !important;
+  color: var(--muted);
+}
+
+.note-rail button:hover {
+  background: rgba(248, 251, 255, 0.58);
+  color: var(--blue);
+}
+
+.note-rail button.active,
+.note-rail button[aria-pressed="true"] {
+  background: var(--ink) !important;
+  color: var(--paper) !important;
 }
 
 .note-list {
@@ -571,6 +589,10 @@ h2 {
 
 .note-card h3 {
   font-size: 22px;
+}
+
+.note-card[hidden] {
+  display: none;
 }
 
 .note-preview {
@@ -1031,6 +1053,65 @@ h2 {
   width: 100%;
   min-width: 0;
   padding: 30px min(3vw, 38px) 48px;
+}
+
+.route-main {
+  padding-top: 26px;
+}
+
+.route-main .page-shell {
+  width: min(1120px, 100%);
+}
+
+.route-main .page-hero {
+  padding: 12px 0 18px;
+}
+
+.route-main .article-hero {
+  padding: 8px 0 22px;
+}
+
+.route-main h1 {
+  max-width: 640px;
+  margin-top: 16px;
+  font-size: clamp(34px, 3.9vw, 52px);
+  line-height: 1.12;
+  text-wrap: balance;
+}
+
+.route-main .article-shell h1 {
+  max-width: 840px;
+}
+
+.route-main .hero-copy {
+  max-width: 620px;
+  margin-top: 14px;
+  font-size: clamp(15px, 1.25vw, 17px);
+}
+
+.route-main .route-hero-grid {
+  align-items: center;
+  grid-template-columns: minmax(0, 0.95fr) minmax(320px, 1.05fr);
+  gap: 28px;
+  min-height: 0;
+}
+
+.route-main .route-hero-panel {
+  padding: 22px 24px;
+}
+
+.route-main .section-tight {
+  padding: 26px 0 52px;
+}
+
+.route-main .project-row h2,
+.route-main .note-card-large h2 {
+  font-size: clamp(28px, 3vw, 38px);
+  line-height: 1.12;
+}
+
+.route-main .code-window {
+  color: #516070;
 }
 
 .dashboard-topbar {
@@ -1532,7 +1613,9 @@ h2 {
     position: static;
   }
 
-  .note-rail a {
+  .note-rail button {
+    width: auto;
+    flex: 0 0 auto;
     white-space: nowrap;
   }
 }

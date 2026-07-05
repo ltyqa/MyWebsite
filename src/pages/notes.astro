@@ -38,13 +38,25 @@ const categories = ["全部", ...Array.from(new Set(notes.map((note) => note.cat
       <section class="section-tight">
         <div class="page-shell notes-directory">
           <aside class="note-rail directory-rail" aria-label="笔记分类">
-            {categories.map((category) => <a href="/notes/">{category}</a>)}
+            {
+              categories.map((category, index) => (
+                <button
+                  class={index === 0 ? "active" : ""}
+                  type="button"
+                  aria-pressed={index === 0 ? "true" : "false"}
+                  style={index === 0 ? "background: var(--ink); color: var(--paper);" : ""}
+                  data-category={category}
+                >
+                  {category}
+                </button>
+              ))
+            }
           </aside>
 
           <div class="note-list directory-list">
             {
               notes.map((note) => (
-                <article class="note-card note-card-large">
+                <article class="note-card note-card-large" data-note-category={note.category}>
                   <p class="note-meta">{note.meta}</p>
                   <h2>{note.title}</h2>
                   <p>{note.excerpt}</p>
@@ -61,5 +73,33 @@ const categories = ["全部", ...Array.from(new Set(notes.map((note) => note.cat
       </section>
       </main>
     </div>
+
+    <script>
+      const categoryButtons = document.querySelectorAll("[data-category]");
+      const noteCards = document.querySelectorAll("[data-note-category]");
+      const activeStyle = "background: var(--ink); color: var(--paper);";
+      const idleStyle = "background: transparent; color: var(--muted);";
+
+      categoryButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const category = button.getAttribute("data-category");
+
+          categoryButtons.forEach((item) => {
+            item.classList.remove("active");
+            item.setAttribute("aria-pressed", "false");
+            item.setAttribute("style", idleStyle);
+          });
+          button.classList.add("active");
+          button.setAttribute("aria-pressed", "true");
+          button.setAttribute("style", activeStyle);
+
+          noteCards.forEach((card) => {
+            const isVisible =
+              category === "全部" || card.getAttribute("data-note-category") === category;
+            card.toggleAttribute("hidden", !isVisible);
+          });
+        });
+      });
+    </script>
   </body>
 </html>
