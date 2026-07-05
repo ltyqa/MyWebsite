@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import DashboardSidebar from "../components/DashboardSidebar.astro";
 import {
   getGitHubActivities,
   getGitHubActivityChart,
@@ -28,37 +29,7 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
   </head>
   <body class="dashboard-body">
     <div class="app-shell">
-      <aside class="sidebar" aria-label="主导航">
-        <a class="brand brand-dashboard" href="/" aria-label="回到首页">
-          <span class="brand-mark">站</span>
-          <span>个人档案</span>
-        </a>
-
-        <nav class="side-nav">
-          <a class="active" href="/">
-            <span class="nav-icon">⌂</span>
-            首页
-          </a>
-          <a href="/projects/">
-            <span class="nav-icon">▦</span>
-            项目
-          </a>
-          <a href="/notes/">
-            <span class="nav-icon">◇</span>
-            笔记
-          </a>
-          <a href="#github">
-            <span class="nav-icon">↗</span>
-            活跃记录
-          </a>
-        </nav>
-
-        <div class="sidebar-card">
-          <p class="project-meta">同步来源</p>
-          <strong>MyWebsite + MyNote</strong>
-          <span>每次推送后自动整理成静态页面。</span>
-        </div>
-      </aside>
+      <DashboardSidebar active="home" />
 
       <main class="dashboard-main">
         <header class="dashboard-topbar">
