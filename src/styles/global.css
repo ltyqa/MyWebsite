@@ -1707,7 +1707,8 @@ h2 {
   }
 
   .route-main .route-hero-grid {
-    grid-template-columns: 1fr;
+    display: block;
+    grid-template-columns: 1fr !important;
     gap: 16px;
   }
 
@@ -1718,9 +1719,14 @@ h2 {
   .route-main h1 {
     max-width: 100%;
     font-size: clamp(32px, 8vw, 42px);
+    white-space: normal;
+    word-break: keep-all;
+    overflow-wrap: normal;
   }
 
   .route-main .route-hero-panel {
+    width: 100%;
+    margin-top: 16px;
     padding: 18px;
   }
 
@@ -1859,6 +1865,34 @@ h2 {
 
   .dashboard-main {
     padding: 20px 16px 36px;
+  }
+
+  .route-main {
+    padding-top: 12px;
+  }
+
+  .route-main .page-shell {
+    width: 100%;
+  }
+
+  .route-main .page-hero {
+    padding: 0 0 14px;
+  }
+
+  .route-main .route-hero-grid > * {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .route-main .eyebrow {
+    max-width: 100%;
+    white-space: nowrap;
+  }
+
+  .route-main .hero-copy {
+    max-width: 100%;
+    word-break: normal;
+    overflow-wrap: anywhere;
   }
 
   .route-main .project-row,
