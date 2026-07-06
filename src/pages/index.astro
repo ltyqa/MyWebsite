@@ -145,7 +145,10 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
                       <strong>{project.name}</strong>
                       <small>{project.description}</small>
                     </span>
-                    <em>{project.status}</em>
+                    <span class="row-action">
+                      <em>{project.status}</em>
+                      <b>打开 GitHub</b>
+                    </span>
                   </a>
                 ))
               }

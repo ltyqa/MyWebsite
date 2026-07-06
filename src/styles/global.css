@@ -1541,14 +1541,34 @@ h2 {
   white-space: nowrap;
 }
 
-.list-row em {
+.row-action {
+  display: grid;
+  justify-items: end;
+  gap: 6px;
+}
+
+.list-row em,
+.row-action b {
   border-radius: 999px;
-  background: rgba(71, 192, 106, 0.12);
-  color: var(--green-dark);
   padding: 5px 8px;
   font-size: 12px;
   font-style: normal;
   font-weight: 900;
+  white-space: nowrap;
+}
+
+.list-row em {
+  background: rgba(71, 192, 106, 0.12);
+  color: var(--green-dark);
+}
+
+.row-action b {
+  background: rgba(47, 111, 237, 0.1);
+  color: var(--blue);
+}
+
+.list-row:hover .row-action b {
+  background: rgba(47, 111, 237, 0.16);
 }
 
 .note-row {
@@ -1934,8 +1954,15 @@ h2 {
     grid-template-columns: 34px minmax(0, 1fr);
   }
 
-  .list-row em {
+  .row-action {
     grid-column: 2;
+    justify-items: start;
+    grid-auto-flow: column;
+    justify-content: start;
+  }
+
+  .list-row em,
+  .row-action b {
     width: fit-content;
   }
 
