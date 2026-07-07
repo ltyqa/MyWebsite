@@ -194,13 +194,27 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
       const shouldSkipIntro =
         document.documentElement.classList.contains("skip-home-intro") ||
         new URLSearchParams(window.location.search).get("skipIntro") === "1";
+      const openRoomView = (delay = 0) => {
+        window.setTimeout(() => {
+          const room = document.querySelector("[data-room-scene]");
+          if (!room) return;
+
+          if (window.matchMedia("(max-width: 980px)").matches) {
+            room.scrollTop = 0;
+            window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+            return;
+          }
+
+          room.scrollIntoView();
+        }, delay);
+      };
       let loaded = 0;
 
       if (shouldSkipIntro) {
         if (progress) progress.textContent = "100%";
         root?.classList.add("is-loaded", "is-room-open");
         sessionStorage.setItem("homeIntroSeen", "1");
-        window.setTimeout(() => document.querySelector("[data-room-scene]")?.scrollIntoView(), 0);
+        openRoomView();
       } else {
         const loaderTimer = window.setInterval(() => {
           loaded = Math.min(100, loaded + Math.ceil(Math.random() * 9));
@@ -217,7 +231,7 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
       openDoor?.addEventListener("click", () => {
         root?.classList.add("is-room-open");
         sessionStorage.setItem("homeIntroSeen", "1");
-        window.setTimeout(() => document.querySelector("[data-room-scene]")?.scrollIntoView(), 120);
+        openRoomView(120);
       });
 
       closeDoor?.addEventListener("click", () => {

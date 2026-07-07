@@ -2867,17 +2867,21 @@ h2 {
 @media (max-width: 980px) {
   .story-body {
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
   }
 
   .handdrawn-home {
-    overflow: visible;
+    min-height: 100dvh;
+    overflow: hidden;
     overflow-x: hidden;
   }
 
   .entrance-scene {
     min-height: 100svh;
-    padding-top: 6rem;
+    min-height: 100dvh;
+    display: grid;
+    place-items: center;
+    padding: 92px 18px 96px;
   }
 
   .sketch-tree,
@@ -2887,12 +2891,13 @@ h2 {
   }
 
   .room-scene {
-    position: relative;
-    display: grid;
+    position: fixed;
+    inset: 0;
+    display: block;
     min-height: 100dvh;
-    gap: 18px;
-    overflow: visible;
-    padding: 92px 18px 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
   }
 
   .room-ceiling,
@@ -2961,8 +2966,10 @@ h2 {
   }
 
   .portfolio-door {
-    width: min(280px, 78vw);
-    height: 390px;
+    width: min(300px, 76vw);
+    height: min(430px, 58svh);
+    justify-self: center;
+    align-self: center;
   }
 
   .paper-hint {
