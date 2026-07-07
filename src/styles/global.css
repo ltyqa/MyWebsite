@@ -2366,7 +2366,7 @@ h2 {
 .portfolio-door::before {
   position: absolute;
   left: 50%;
-  bottom: -48px;
+  bottom: -90px;
   z-index: -1;
   width: 122%;
   height: 58px;
@@ -2385,7 +2385,7 @@ h2 {
   position: absolute;
   left: 4%;
   right: 4%;
-  bottom: -55px;
+  bottom: -110px;
   z-index: -2;
   height: 24px;
   border-radius: 50%;
