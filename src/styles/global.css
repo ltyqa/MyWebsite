@@ -2331,7 +2331,7 @@ h2 {
 
 .wood-sign {
   position: absolute;
-  top: 13vh;
+  top: clamp(58px, 8vh, 86px);
   left: 50%;
   z-index: 4;
   border: 3px solid var(--sketch-ink);
@@ -2998,7 +2998,7 @@ h2 {
   }
 
   .wood-sign {
-    top: 13vh;
+    top: max(78px, 11svh);
     width: max-content;
     max-width: calc(100% - 32px);
     padding-inline: 1.3rem;
