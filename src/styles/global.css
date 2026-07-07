@@ -243,12 +243,120 @@ h1 span {
   background: var(--green);
 }
 
+.button-primary::before {
+  position: absolute;
+  inset: 5px;
+  border: 2px solid rgba(255, 253, 248, 0.62);
+  border-radius: inherit;
+  content: "";
+  opacity: 0;
+  pointer-events: none;
+  transform: scaleX(0.9);
+  transition:
+    opacity 180ms ease,
+    transform 220ms ease;
+}
+
+.button-primary:hover::before,
+.button-primary:focus-visible::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.button-primary:hover,
+.button-primary:focus-visible {
+  color: #fffdf8;
+  box-shadow:
+    0 14px 32px rgba(7, 87, 69, 0.24),
+    inset 0 -7px 0 rgba(247, 211, 111, 0.28);
+}
+
 .button-secondary {
   background: rgba(255, 255, 255, 0.44);
 }
 
 .button-secondary:hover {
   background: #fff;
+}
+
+.button,
+.inline-link,
+.note-rail button,
+.list-row,
+.note-row,
+.paper-nav a,
+.paper-mini-button,
+.poster-list a,
+.poster-note-list a,
+.poster-link,
+.sticky-cloud a {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.button::after,
+.inline-link::after,
+.note-rail button::after,
+.list-row::after,
+.note-row::after,
+.paper-nav a::after,
+.paper-mini-button::after,
+.poster-list a::after,
+.poster-note-list a::after,
+.poster-link::after,
+.sticky-cloud a::after {
+  position: absolute;
+  inset: -8px;
+  z-index: 0;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='96' viewBox='0 0 260 96' preserveAspectRatio='none'%3E%3Cg fill='none' stroke='%231a1a1a' stroke-linecap='round' stroke-linejoin='round'%3E%3Cg opacity='.17' stroke-width='3.4'%3E%3Cpath d='M-26 98 L1 78 L21 63 L42 43 L61 28 L84 -12'/%3E%3Cpath d='M15 106 L43 84 L65 67 L86 47 L108 29 L130 -12'/%3E%3Cpath d='M56 108 L86 83 L108 66 L130 44 L152 28 L174 -14'/%3E%3Cpath d='M98 108 L128 84 L151 64 L172 45 L195 26 L218 -14'/%3E%3Cpath d='M140 108 L170 84 L193 64 L214 45 L237 26 L282 -12'/%3E%3C/g%3E%3Cg opacity='.07' stroke-width='1.7'%3E%3Cpath d='M-22 96 L4 79 L24 64 L45 42 L64 30 L88 -10'/%3E%3Cpath d='M20 104 L47 85 L68 66 L90 48 L111 28 L134 -10'/%3E%3Cpath d='M61 106 L90 84 L111 65 L134 45 L155 29 L178 -12'/%3E%3Cpath d='M103 106 L132 85 L153 65 L176 46 L198 27 L222 -12'/%3E%3Cpath d='M145 106 L174 85 L196 65 L218 46 L240 27 L286 -10'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+    center / 100% 100% no-repeat;
+  content: "";
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-14px) rotate(-1deg);
+  transition:
+    opacity 180ms ease,
+    transform 220ms ease;
+}
+
+.button:hover::after,
+.button:focus-visible::after,
+.inline-link:hover::after,
+.inline-link:focus-visible::after,
+.note-rail button:hover::after,
+.note-rail button:focus-visible::after,
+.list-row:hover::after,
+.list-row:focus-visible::after,
+.note-row:hover::after,
+.note-row:focus-visible::after,
+.paper-nav a:hover::after,
+.paper-nav a:focus-visible::after,
+.paper-mini-button:hover::after,
+.paper-mini-button:focus-visible::after,
+.poster-list a:hover::after,
+.poster-list a:focus-visible::after,
+.poster-note-list a:hover::after,
+.poster-note-list a:focus-visible::after,
+.poster-link:hover::after,
+.poster-link:focus-visible::after,
+.sticky-cloud a:hover::after,
+.sticky-cloud a:focus-visible::after {
+  opacity: 1;
+  transform: translateX(0) rotate(-1deg);
+}
+
+.button-primary::after,
+.note-rail button.active::after,
+.note-rail button[aria-pressed="true"]::after {
+  display: none;
+}
+
+.note-rail button.active:hover,
+.note-rail button[aria-pressed="true"]:hover {
+  background: var(--ink) !important;
+  color: var(--paper) !important;
 }
 
 .hero-visual {
@@ -3181,6 +3289,12 @@ h2 {
   color: #faf7ef !important;
 }
 
+.notes-sketch-section .note-rail button.active:hover,
+.notes-sketch-section .note-rail button[aria-pressed="true"]:hover {
+  background: #1a1a1a !important;
+  color: #faf7ef !important;
+}
+
 .notes-sketch-section .note-list {
   gap: 18px;
   border: 0;
@@ -3452,6 +3566,29 @@ h2 {
   line-height: 1.7;
 }
 
+.projects-sketch-hero .eyebrow,
+.notes-sketch-hero .eyebrow,
+.author-hero .eyebrow {
+  border: 3px solid #1d1d1b;
+  border-radius: 3px 13px 4px 11px / 12px 4px 11px 3px;
+  background:
+    linear-gradient(rgba(255, 253, 248, 0.78), rgba(255, 253, 248, 0.78)),
+    repeating-linear-gradient(28deg, rgba(29, 29, 27, 0.035) 0 1px, transparent 1px 12px);
+  color: #1d1d1b;
+  padding: 10px 18px;
+  box-shadow: 4px 4px 0 rgba(29, 29, 27, 0.18);
+  font-size: clamp(22px, 3vw, 34px);
+  font-weight: 950;
+  line-height: 1;
+  transform: rotate(-0.8deg);
+}
+
+.projects-sketch-hero .eyebrow::before,
+.notes-sketch-hero .eyebrow::before,
+.author-hero .eyebrow::before {
+  display: none;
+}
+
 .projects-sketch-hero .route-hero-panel {
   border: 2px dashed rgba(28, 28, 27, 0.34);
   border-radius: 6px;
@@ -3512,6 +3649,39 @@ h2 {
   background: #1d1d1b;
   color: #fffdfa;
   box-shadow: 4px 4px 0 rgba(28, 28, 27, 0.18);
+}
+
+.projects-sketch-section .button::after {
+  display: none;
+}
+
+.projects-sketch-section .button::before {
+  position: absolute;
+  inset: 6px;
+  border: 2px solid rgba(255, 253, 250, 0.68);
+  border-radius: 2px;
+  content: "";
+  opacity: 0;
+  pointer-events: none;
+  transform: scaleX(0.88);
+  transition:
+    opacity 180ms ease,
+    transform 220ms ease;
+}
+
+.projects-sketch-section .button:hover,
+.projects-sketch-section .button:focus-visible {
+  background: #1d1d1b;
+  color: #fffdfa;
+  box-shadow:
+    4px 4px 0 rgba(28, 28, 27, 0.18),
+    inset 0 -7px 0 rgba(247, 211, 111, 0.34);
+}
+
+.projects-sketch-section .button:hover::before,
+.projects-sketch-section .button:focus-visible::before {
+  opacity: 1;
+  transform: scaleX(1);
 }
 
 .projects-sketch-section .inline-link {
@@ -3970,6 +4140,114 @@ h2 {
 .notes-sketch-article-hero .hero-copy,
 .notes-sketch-section .note-card-large p {
   color: rgba(29, 34, 48, 0.72);
+}
+
+.room-dashboard-main .poster-link,
+.projects-sketch-section .inline-link,
+.notes-sketch-section .inline-link,
+.notes-sketch-article .inline-link,
+.notes-sketch-article-hero .inline-link,
+.author-profile-card .inline-link {
+  border-bottom: 2px dashed #1d1d1b;
+  color: #1d1d1b;
+  text-decoration: none;
+  text-decoration-thickness: 0;
+  text-underline-offset: 0;
+}
+
+.room-dashboard-main .poster-link:hover,
+.room-dashboard-main .poster-link:focus-visible,
+.projects-sketch-section .inline-link:hover,
+.projects-sketch-section .inline-link:focus-visible,
+.notes-sketch-section .inline-link:hover,
+.notes-sketch-section .inline-link:focus-visible,
+.notes-sketch-article .inline-link:hover,
+.notes-sketch-article .inline-link:focus-visible,
+.notes-sketch-article-hero .inline-link:hover,
+.notes-sketch-article-hero .inline-link:focus-visible,
+.author-profile-card .inline-link:hover,
+.author-profile-card .inline-link:focus-visible {
+  color: #1d1d1b;
+}
+
+.notes-sketch-section .final-cta .button {
+  min-height: 78px;
+  border: 3px solid #1d1d1b;
+  border-radius: 4px 16px 5px 14px / 15px 5px 14px 4px;
+  padding: 0 34px;
+  color: #1d1d1b;
+  box-shadow: 6px 7px 0 rgba(29, 29, 27, 0.16);
+  font-size: clamp(22px, 2.2vw, 32px);
+  font-weight: 950;
+  transform: rotate(-0.35deg);
+}
+
+.notes-sketch-section .final-cta .button:nth-child(2n) {
+  transform: rotate(0.45deg);
+}
+
+.notes-sketch-section .final-cta .button::after {
+  display: none;
+}
+
+.notes-sketch-section .final-cta .button-primary {
+  background: #1d1d1b;
+  color: #fffdfa;
+}
+
+.notes-sketch-section .final-cta .button-secondary {
+  background:
+    linear-gradient(rgba(255, 253, 248, 0.84), rgba(255, 253, 248, 0.84)),
+    repeating-linear-gradient(28deg, rgba(29, 29, 27, 0.035) 0 1px, transparent 1px 12px);
+}
+
+.notes-sketch-section .final-cta .button-primary::before,
+.notes-sketch-section .final-cta .button-secondary::before {
+  position: absolute;
+  inset: 7px;
+  border: 2px solid currentColor;
+  border-radius: 2px 10px 3px 9px / 9px 3px 10px 2px;
+  content: "";
+  opacity: 0;
+  pointer-events: none;
+  transform: scaleX(0.9);
+  transition:
+    opacity 180ms ease,
+    transform 220ms ease;
+}
+
+.notes-sketch-section .final-cta .button:hover,
+.notes-sketch-section .final-cta .button:focus-visible {
+  color: #1d1d1b;
+  transform: translateY(-2px) rotate(-0.35deg);
+  box-shadow: 8px 9px 0 rgba(29, 29, 27, 0.18);
+}
+
+.notes-sketch-section .final-cta .button:nth-child(2n):hover,
+.notes-sketch-section .final-cta .button:nth-child(2n):focus-visible {
+  transform: translateY(-2px) rotate(0.45deg);
+}
+
+.notes-sketch-section .final-cta .button-primary:hover,
+.notes-sketch-section .final-cta .button-primary:focus-visible {
+  background: #1d1d1b;
+  color: #fffdfa;
+  box-shadow:
+    8px 9px 0 rgba(29, 29, 27, 0.18),
+    inset 0 -9px 0 rgba(247, 211, 111, 0.32);
+}
+
+.notes-sketch-section .final-cta .button-secondary:hover,
+.notes-sketch-section .final-cta .button-secondary:focus-visible {
+  background:
+    linear-gradient(rgba(255, 244, 197, 0.72), rgba(255, 244, 197, 0.72)),
+    repeating-linear-gradient(28deg, rgba(29, 29, 27, 0.04) 0 1px, transparent 1px 12px);
+}
+
+.notes-sketch-section .final-cta .button:hover::before,
+.notes-sketch-section .final-cta .button:focus-visible::before {
+  opacity: 1;
+  transform: scaleX(1);
 }
 
 @media (max-width: 980px) {
