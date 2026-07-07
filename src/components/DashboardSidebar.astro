@@ -1,19 +1,19 @@
 ---
 type Props = {
-  active?: "home" | "projects" | "notes" | "activity";
+  active?: "home" | "projects" | "notes" | "activity" | "about";
 };
 
 const { active = "home" } = Astro.props;
 ---
 
 <aside class="sidebar" aria-label="主导航">
-  <a class="brand brand-dashboard" href="/" aria-label="回到首页">
+  <a class="brand brand-dashboard" href="/?skipIntro=1" aria-label="回到首页">
     <span class="brand-mark">站</span>
     <span>个人档案</span>
   </a>
 
   <nav class="side-nav">
-    <a class={active === "home" ? "active" : ""} href="/">
+    <a class={active === "home" ? "active" : ""} href="/?skipIntro=1">
       <span class="nav-icon">⌂</span>
       首页
     </a>
@@ -25,7 +25,11 @@ const { active = "home" } = Astro.props;
       <span class="nav-icon">◇</span>
       笔记
     </a>
-    <a class={active === "activity" ? "active" : ""} href="/#github">
+    <a class={active === "about" ? "active" : ""} href="/about/">
+      <span class="nav-icon">◎</span>
+      作者信息
+    </a>
+    <a class={active === "activity" ? "active" : ""} href="/?skipIntro=1#room">
       <span class="nav-icon">↗</span>
       活跃记录
     </a>
@@ -37,3 +41,10 @@ const { active = "home" } = Astro.props;
     <span>推送后自动整理成静态页面</span>
   </div>
 </aside>
+
+<script>
+  document.querySelector(".side-nav a.active")?.scrollIntoView({
+    block: "nearest",
+    inline: "center",
+  });
+</script>

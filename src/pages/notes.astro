@@ -13,29 +13,31 @@ const categories = ["全部", ...Array.from(new Set(notes.map((note) => note.cat
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="个人中文笔记索引，整理技术实践、工具方法和项目复盘" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23151a18'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='30' font-family='Arial,sans-serif' fill='%23fffaf0'%3E%E7%AB%99%3C/text%3E%3C/svg%3E" />
-    <title>笔记 | 我的个人网站</title>
+    <title>我的笔记 | 我的个人网站</title>
   </head>
-  <body class="dashboard-body">
+  <body class="dashboard-body notes-sketch-body">
     <div class="app-shell">
       <DashboardSidebar active="notes" />
 
-      <main class="dashboard-main route-main">
-      <section class="page-hero">
+      <main class="dashboard-main route-main notes-sketch-main">
+      <section class="page-hero notes-sketch-hero">
         <div class="page-shell route-hero-grid">
           <div>
             <span class="eyebrow">笔记目录</span>
-            <h1>笔记索引</h1>
+            <h1>我的笔记</h1>
             <p class="hero-copy">
               这里读取 MyNote 仓库里的 Markdown，在 Obsidian 里新增笔记并推送到 GitHub 后，网站会在重新构建时同步更新
             </p>
           </div>
-          <div class="route-hero-panel code-window">
-            <code>notes / methods / deployment<br />整理判断，而不是堆积摘录<br />保持短、清楚、可复用</code>
+          <div class="route-hero-panel">
+            <p class="project-meta">笔记统计</p>
+            <h3>{notes.length} 篇笔记</h3>
+            <p>{categories.length - 1} 个分类</p>
           </div>
         </div>
       </section>
 
-      <section class="section-tight">
+      <section class="section-tight notes-sketch-section">
         <div class="page-shell notes-directory">
           <aside class="note-rail directory-rail" aria-label="笔记分类">
             {

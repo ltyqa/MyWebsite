@@ -1,0 +1,61 @@
+---
+import "../styles/global.css";
+import DashboardSidebar from "../components/DashboardSidebar.astro";
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="作者信息，展示个人姓名和所在大学" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23151a18'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='30' font-family='Arial,sans-serif' fill='%23fffaf0'%3E%E7%AB%99%3C/text%3E%3C/svg%3E" />
+    <title>作者信息 | 我的个人网站</title>
+  </head>
+  <body class="dashboard-body projects-sketch-body">
+    <div class="app-shell">
+      <DashboardSidebar active="about" />
+
+      <main class="dashboard-main route-main projects-sketch-main author-main">
+        <section class="page-hero projects-sketch-hero author-hero">
+          <div class="page-shell route-hero-grid">
+            <div>
+              <span class="eyebrow">作者信息</span>
+              <h1>关于我</h1>
+              <p class="hero-copy">
+                这里记录网站作者的基础信息，方便从项目和笔记回到真实的人
+              </p>
+            </div>
+            <div class="route-hero-panel author-card">
+              <p class="project-meta">档案概览</p>
+              <h3>作者信息</h3>
+              <p>相关信息收在下方档案卡片</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-tight projects-sketch-section">
+          <div class="page-shell author-profile">
+            <article class="project-row featured-row author-profile-card">
+              <div>
+                <p class="project-meta">个人档案</p>
+                <h2>李天熠</h2>
+                <p>浙江理工大学</p>
+              </div>
+              <div class="project-row-side">
+                <span class="status-pill">作者</span>
+                <div class="tag-row">
+                  <span class="tag">个人网站</span>
+                  <span class="tag">项目</span>
+                  <span class="tag">笔记</span>
+                </div>
+                <a class="button button-secondary" href="/?skipIntro=1">
+                  回到首页
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

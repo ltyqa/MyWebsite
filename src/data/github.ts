@@ -281,7 +281,7 @@ async function loadGitHubProjects() {
         name: repo.name,
         description: repoDescription(repo),
         stack: [repo.language || "Repository", ...(repo.topics || []).slice(0, 2)],
-        meta: `${repo.language || "GitHub"} / ${repo.stargazers_count} stars / ${formatDate(repo.pushed_at)}`,
+        meta: `${repo.language || "GitHub"} / ${repo.stargazers_count} 个标星 / ${formatDate(repo.pushed_at)}`,
         status: repoStatus(repo),
         link: repo.html_url,
         homepage: repo.homepage,

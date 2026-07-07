@@ -12,8 +12,8 @@ const projects = await getGitHubProjects();
 const notes = await getGitHubNotes();
 const activities = await getGitHubActivities();
 const activityChart = await getGitHubActivityChart();
-const latestProjects = projects.slice(0, 4);
-const latestNotes = notes.slice(0, 5);
+const latestProjects = projects.slice(0, 3);
+const latestNotes = notes.slice(0, 3);
 const latestActivity = activities[0];
 const activeProjectCount = projects.filter((project) => project.status === "维护中").length || projects.length;
 const categories = Array.from(new Set(notes.map((note) => note.category))).slice(0, 6);
@@ -24,172 +24,216 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="由 GitHub 自动同步的个人项目、笔记和近期动态" />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%232f6fed'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='30' font-family='Arial,sans-serif' fill='white'%3E%E7%AB%99%3C/text%3E%3C/svg%3E" />
-    <title>个人档案 | 首页</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23faf7ef'/%3E%3Cpath d='M14 17h36v30H14z' fill='none' stroke='%231a1a1a' stroke-width='4'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-size='22' font-family='Arial,sans-serif' fill='%231a1a1a'%3E站%3C/text%3E%3C/svg%3E" />
+    <title>个人档案 | 手绘房间</title>
+    <script>
+      (() => {
+        const shouldSkip =
+          new URLSearchParams(window.location.search).get("skipIntro") === "1" ||
+          sessionStorage.getItem("homeIntroSeen") === "1";
+
+        if (shouldSkip) {
+          document.documentElement.classList.add("skip-home-intro");
+        }
+      })();
+    </script>
   </head>
-  <body class="dashboard-body">
-    <div class="app-shell">
-      <DashboardSidebar active="home" />
+  <body class="story-body dashboard-body">
+    <div class="handdrawn-home" data-experience>
+      <section class="paper-loader" aria-label="加载中">
+        <div class="paper-loader__half paper-loader__half--left"></div>
+        <div class="paper-loader__half paper-loader__half--right"></div>
+        <svg class="paper-loader__crack" viewBox="0 0 140 900" aria-hidden="true">
+          <path d="M72 -20 L58 82 L95 160 L46 242 L70 330 L40 412 L84 492 L64 604 L82 716 L54 804 L76 930" />
+        </svg>
+        <div class="paper-loader__progress">
+          <span data-loader-progress>0%</span>
+        </div>
+      </section>
 
-      <main class="dashboard-main">
-        <header class="dashboard-topbar">
-          <div>
-            <p class="project-meta">首页概览</p>
-            <h1>近期更新</h1>
+      <section class="entrance-scene" aria-label="个人网站入口">
+        <div class="sketch-brick-wall" aria-hidden="true"></div>
+        <div class="sketch-tree" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="sketch-window" aria-hidden="true"></div>
+        <div class="sketch-planter" aria-hidden="true">
+          <i></i><i></i><i></i><i></i>
+        </div>
+
+        <nav class="paper-nav" aria-label="快速导航">
+          <a href="/projects/" aria-label="进入项目页">项目</a>
+          <a href="/notes/" aria-label="进入笔记页">笔记</a>
+          <a href="#room">房间</a>
+        </nav>
+
+        <div class="wood-sign" data-depth="0.2">个人档案</div>
+
+        <button class="portfolio-door" type="button" data-open-door aria-label="打开门，进入个人档案房间">
+          <span class="door-leaf door-leaf--left"></span>
+          <span class="door-leaf door-leaf--right"></span>
+          <span class="door-knob door-knob--left"></span>
+          <span class="door-knob door-knob--right"></span>
+        </button>
+
+      </section>
+
+      <main class="room-scene" id="room" data-room-scene data-parallax-scene aria-label="个人档案房间">
+        <div class="app-shell room-app-shell">
+          <DashboardSidebar active="home" />
+
+          <div class="dashboard-main room-dashboard-main">
+        <div class="room-controls">
+          <button class="paper-mini-button" type="button" data-close-door aria-label="回到门口">门口</button>
+          <a class="paper-mini-button" href="/projects/">项目</a>
+          <a class="paper-mini-button" href="/notes/">笔记</a>
+        </div>
+
+        <section class="poster-wall poster-wall--overview" aria-label="站点概览海报">
+          <p class="poster-kicker">首页概览</p>
+          <h1>近期更新</h1>
+          <div class="poster-stats">
+            <span><strong>{projects.length}</strong> 项目</span>
+            <span><strong>{notes.length}</strong> 笔记</span>
+            <span><strong>{activeProjectCount}</strong> 维护中</span>
+            <span><strong>{latestActivity?.[0] || "今日"}</strong> 最新动态</span>
           </div>
-
-          <div class="topbar-actions">
-            <label class="search-box">
-              <span>⌕</span>
-              <input type="search" placeholder="搜索项目或笔记..." aria-label="搜索项目或笔记" />
-            </label>
-            <a class="checkin" href="#github">
-              <span></span>
-              自动同步中
-            </a>
-          </div>
-        </header>
-
-        <section class="metric-grid" aria-label="站点概览">
-          <article class="metric-card">
-            <div class="metric-head">
-              <span class="metric-icon cool metric-icon-project" aria-hidden="true"></span>
-              <p>项目</p>
-            </div>
-            <strong>{projects.length}</strong>
-            <span class="metric-note">来自 GitHub 仓库</span>
-          </article>
-
-          <article class="metric-card">
-            <div class="metric-head">
-              <span class="metric-icon green metric-icon-note" aria-hidden="true"></span>
-              <p>笔记</p>
-            </div>
-            <strong>{notes.length}</strong>
-            <span class="metric-note">来自笔记仓库</span>
-          </article>
-
-          <article class="metric-card">
-            <div class="metric-head">
-              <span class="metric-icon coral metric-icon-active" aria-hidden="true"></span>
-              <p>维护中</p>
-            </div>
-            <strong>{activeProjectCount}</strong>
-            <span class="metric-note">近期仍有更新</span>
-          </article>
-
-          <article class="metric-card">
-            <div class="metric-head">
-              <span class="metric-icon violet metric-icon-pulse" aria-hidden="true"></span>
-              <p>最新动态</p>
-            </div>
-            <strong>{latestActivity?.[0] || "今日"}</strong>
-            <span class="metric-note">{latestActivity?.[1] || "等待同步"}</span>
-          </article>
         </section>
 
-        <section class="dashboard-grid" id="github">
-          <article class="panel panel-large">
-            <div class="panel-head">
-              <div>
-                <p class="project-meta">活跃记录</p>
-                <h2>更新记录</h2>
-              </div>
-              <a class="panel-link" href="/projects/">查看项目</a>
-            </div>
-
-            <div class="activity-chart" aria-label="最近 21 天 GitHub 提交统计">
-              {
-                activityChart.map((day) => (
-                  <div
-                    class={`chart-bar ${day.count === 0 ? "is-empty" : ""}`}
-                    title={`${day.label}: ${day.count} 次更新，网站 ${day.website} 次，笔记 ${day.notes} 次`}
-                  >
-                    <span style={`height: ${day.height}%`}></span>
-                    <small>{day.label}</small>
-                  </div>
-                ))
-              }
-            </div>
-
-            <div class="activity-feed compact-feed">
-              {
-                activities.map(([time, title, body]) => (
-                  <article class="activity-item">
-                    <p class="timeline-date">{time}</p>
-                    <div>
-                      <h3>{title}</h3>
-                      <p>{body}</p>
-                    </div>
-                  </article>
-                ))
-              }
-            </div>
-          </article>
-
-          <article class="panel">
-            <div class="panel-head">
-              <div>
-                <p class="project-meta">项目入口</p>
-                <h2>当前项目</h2>
-              </div>
-              <a class="panel-link" href="/projects/">全部</a>
-            </div>
-
-            <div class="dashboard-list">
-              {
-                latestProjects.map((project) => (
-                  <a class="list-row" href={project.link} target="_blank" rel="noreferrer">
-                    <span class="row-icon" aria-hidden="true"></span>
-                    <span>
-                      <strong>{project.name}</strong>
-                      <small>{project.description}</small>
-                    </span>
-                    <span class="row-action">
-                      <em>{project.status}</em>
-                      <b>打开 GitHub</b>
-                    </span>
-                  </a>
-                ))
-              }
-            </div>
-          </article>
-
-          <article class="panel note-panel">
-            <div class="panel-head">
-              <div>
-                <p class="project-meta">笔记阅读</p>
-                <h2>新近笔记</h2>
-              </div>
-              <a class="panel-link" href="/notes/">全部</a>
-            </div>
-
-            <div class="note-dashboard-list">
-              {
-                latestNotes.map((note) => (
-                  <a class="note-row" href={note.link}>
-                    <strong>{note.title}</strong>
-                    <span>{note.category} / {note.meta.split("/").pop()?.trim()}</span>
-                  </a>
-                ))
-              }
-            </div>
-          </article>
-
-          <article class="panel">
-            <div class="panel-head">
-              <div>
-                <p class="project-meta">分类</p>
-                <h2>笔记分类</h2>
-              </div>
-            </div>
-
-            <div class="category-cloud">
-              {categories.map((category) => <a href="/notes/">{category}</a>)}
-            </div>
-          </article>
+        <section class="poster-wall poster-wall--activity" aria-label="活跃记录海报">
+          <div class="poster-pin"></div>
+          <p class="poster-kicker">活跃记录</p>
+          <h2>更新记录</h2>
+          <div class="sketch-chart" aria-label="最近 21 天 GitHub 提交统计">
+            {
+              activityChart.map((day) => (
+                <span
+                  class={day.count === 0 ? "empty" : ""}
+                  style={`height:${day.height}%`}
+                  title={`${day.label}: ${day.count} 次更新，网站 ${day.website} 次，笔记 ${day.notes} 次`}
+                ></span>
+              ))
+            }
+          </div>
+          <div class="poster-feed">
+            {
+              activities.slice(0, 2).map(([time, title, body]) => (
+                <article>
+                  <time>{time}</time>
+                  <strong>{title}</strong>
+                  <p>{body}</p>
+                </article>
+              ))
+            }
+          </div>
         </section>
+
+        <section class="poster-wall poster-wall--projects" aria-label="当前项目海报">
+          <p class="poster-kicker">项目入口</p>
+          <h2>当前项目</h2>
+          <div class="poster-list">
+            {
+              latestProjects.map((project) => (
+                <a href={project.link} target="_blank" rel="noreferrer">
+                  <span>
+                    <strong>{project.name}</strong>
+                    <small>{project.description}</small>
+                  </span>
+                  <em>{project.status} / GitHub</em>
+                </a>
+              ))
+            }
+          </div>
+          <a class="poster-link" href="/projects/">查看项目页</a>
+        </section>
+
+        <section class="poster-wall poster-wall--notes" aria-label="新近笔记海报">
+          <div class="poster-pin poster-pin--blue"></div>
+          <p class="poster-kicker">笔记阅读</p>
+          <h2>新近笔记</h2>
+          <div class="poster-note-list">
+            {
+              latestNotes.map((note) => (
+                <a href={note.link}>
+                  <strong>{note.title}</strong>
+                  <span>{note.category} / {note.meta.split("/").pop()?.trim()}</span>
+                </a>
+              ))
+            }
+          </div>
+          <a class="poster-link" href="/notes/">进入笔记目录</a>
+        </section>
+
+        <section class="poster-wall poster-wall--categories" aria-label="笔记分类便签">
+          <p class="poster-kicker">分类</p>
+          <h2>笔记分类</h2>
+          <div class="sticky-cloud">
+            {categories.map((category) => <a href="/notes/">{category}</a>)}
+          </div>
+        </section>
+          </div>
+        </div>
       </main>
+
+      <noscript>
+        <main class="noscript-fallback">
+          <h1>个人档案</h1>
+          <p>请启用 JavaScript 来进入手绘房间。你仍然可以访问项目页和笔记页。</p>
+          <a href="/projects/">项目</a>
+          <a href="/notes/">笔记</a>
+        </main>
+      </noscript>
     </div>
+
+    <script>
+      const root = document.querySelector("[data-experience]");
+      const progress = document.querySelector("[data-loader-progress]");
+      const openDoor = document.querySelector("[data-open-door]");
+      const closeDoor = document.querySelector("[data-close-door]");
+      const parallaxScenes = document.querySelectorAll("[data-parallax-scene]");
+      const shouldSkipIntro =
+        document.documentElement.classList.contains("skip-home-intro") ||
+        new URLSearchParams(window.location.search).get("skipIntro") === "1";
+      let loaded = 0;
+
+      if (shouldSkipIntro) {
+        if (progress) progress.textContent = "100%";
+        root?.classList.add("is-loaded", "is-room-open");
+        sessionStorage.setItem("homeIntroSeen", "1");
+        window.setTimeout(() => document.querySelector("[data-room-scene]")?.scrollIntoView(), 0);
+      } else {
+        const loaderTimer = window.setInterval(() => {
+          loaded = Math.min(100, loaded + Math.ceil(Math.random() * 9));
+          if (progress) progress.textContent = `${loaded}%`;
+
+          if (loaded >= 100) {
+            window.clearInterval(loaderTimer);
+            sessionStorage.setItem("homeIntroSeen", "1");
+            window.setTimeout(() => root?.classList.add("is-loaded"), 260);
+          }
+        }, 70);
+      }
+
+      openDoor?.addEventListener("click", () => {
+        root?.classList.add("is-room-open");
+        sessionStorage.setItem("homeIntroSeen", "1");
+        window.setTimeout(() => document.querySelector("[data-room-scene]")?.scrollIntoView(), 120);
+      });
+
+      closeDoor?.addEventListener("click", () => {
+        document.documentElement.classList.remove("skip-home-intro");
+        root?.classList.remove("is-room-open");
+      });
+
+      window.addEventListener("pointermove", (event) => {
+        const mx = event.clientX / window.innerWidth - 0.5;
+        const my = event.clientY / window.innerHeight - 0.5;
+
+        parallaxScenes.forEach((scene) => {
+          scene.style.setProperty("--mx", mx.toFixed(3));
+          scene.style.setProperty("--my", my.toFixed(3));
+        });
+      });
+    </script>
   </body>
 </html>
