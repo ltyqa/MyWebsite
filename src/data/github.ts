@@ -6,6 +6,8 @@ import {
 import { existsSync } from "node:fs";
 import { readdir, readFile } from "node:fs/promises";
 import { join, relative, sep } from "node:path";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
 
 const owner = "ltyqa";
 const notesRepo = "MyNote";
@@ -13,6 +15,7 @@ const siteRepo = "MyWebsite";
 const apiBase = "https://api.github.com";
 const rawBase = "https://raw.githubusercontent.com";
 const localVaultPath = "C:\\Users\\12480\\Documents\\Obsidian Vault";
+const execFileAsync = promisify(execFile);
 let notesCache: Promise<SiteNote[]> | undefined;
 let projectsCache: Promise<Awaited<ReturnType<typeof loadGitHubProjects>>> | undefined;
 let activitiesCache: Promise<string[][]> | undefined;
@@ -49,6 +52,11 @@ type GitCommit = {
       date: string;
     };
   };
+};
+
+type LocalGitCommit = {
+  date: string;
+  message: string;
 };
 
 export type ActivityChartItem = {
@@ -130,6 +138,32 @@ function describeCommit(message: string, source: "site" | "notes") {
   if (subject.includes("note filter")) return "修复笔记筛选交互";
   if (subject.includes("github")) return "调整 GitHub 内容同步";
   return "更新网站内容和界面细节";
+}
+
+async function loadLocalGitCommits(limit: number): Promise<LocalGitCommit[]> {
+  try {
+    const { stdout } = await execFileAsync("git", [
+      "log",
+      `-${limit}`,
+      "--pretty=format:%cI%x09%s",
+    ]);
+
+    return stdout
+      .split("\n")
+      .map((line) => line.trim())
+      .filter(Boolean)
+      .map((line) => {
+        const [date, ...messageParts] = line.split("\t");
+
+        return {
+          date,
+          message: messageParts.join("\t"),
+        };
+      })
+      .filter((commit) => commit.date && commit.message);
+  } catch (error) {
+    return [];
+  }
 }
 
 function formatShortDate(date: Date) {
@@ -394,6 +428,17 @@ async function loadGitHubActivities() {
 
     return items.length ? items.slice(0, 4) : fallbackActivities;
   } catch (error) {
+    const localCommits = await loadLocalGitCommits(4);
+
+    if (localCommits.length) {
+      logFallback("GitHub activity unavailable, using local git commits.");
+      return localCommits.map((commit) => [
+        formatActivityDate(commit.date),
+        "更新个人网站",
+        describeCommit(commit.message, "site"),
+      ]);
+    }
+
     logFallback("GitHub activity unavailable, using local fallback.");
     return fallbackActivities;
   }
@@ -432,11 +477,33 @@ async function loadGitHubActivityChart(): Promise<ActivityChartItem[]> {
 
     return normalizeChartHeights(days);
   } catch (error) {
-    logFallback("GitHub activity chart unavailable, showing empty chart.");
+    const localCommits = await loadLocalGitCommits(60);
+    const latestCommitDate = localCommits.reduce((latest, commit) => {
+      const date = new Date(commit.date);
+      return date > latest ? date : latest;
+    }, new Date(0));
 
-    const chartEnd = new Date();
+    const chartEnd = latestCommitDate.getTime() > 0 ? latestCommitDate : new Date();
     chartEnd.setUTCHours(0, 0, 0, 0);
-    return normalizeChartHeights(createChartDays(chartEnd));
+    const days = createChartDays(chartEnd);
+
+    if (!localCommits.length) {
+      logFallback("GitHub activity chart unavailable, showing empty chart.");
+      return normalizeChartHeights(days);
+    }
+
+    logFallback("GitHub activity chart unavailable, using local git commits.");
+
+    const dayMap = new Map(days.map((day) => [day.date, day]));
+
+    for (const commit of localCommits) {
+      const day = dayMap.get(dateKey(new Date(commit.date)));
+      if (!day) continue;
+      day.website += 1;
+      day.count += 1;
+    }
+
+    return normalizeChartHeights(days);
   }
 }
 

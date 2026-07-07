@@ -34,6 +34,24 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
 
         if (shouldSkip) {
           document.documentElement.classList.add("skip-home-intro");
+
+          const style = document.createElement("style");
+          style.textContent = `
+            .paper-loader,
+            .entrance-scene {
+              display: none !important;
+            }
+
+            .room-scene {
+              opacity: 1 !important;
+              visibility: visible !important;
+              pointer-events: auto !important;
+              transform: none !important;
+              filter: none !important;
+              transition: none !important;
+            }
+          `;
+          document.head.appendChild(style);
         }
       })();
     </script>

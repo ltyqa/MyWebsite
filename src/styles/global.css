@@ -4343,3 +4343,119 @@ h2 {
       rgba(var(--warm-paper-line-rgb), 0.06) 7px
     );
 }
+
+/* Optimized markdown reading styles for notes-sketch-article */
+.notes-sketch-article p,
+.notes-sketch-article li {
+  color: #1d1d1b !important; /* Rich ink black for high contrast readability */
+  font-size: 16.5px;
+  line-height: 1.8;
+}
+
+.notes-sketch-article h1,
+.notes-sketch-article h2,
+.notes-sketch-article h3,
+.notes-sketch-article h4 {
+  color: #1d1d1b;
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+  font-weight: 800;
+}
+
+.notes-sketch-article h2 {
+  border-bottom: 2px dashed rgba(29, 29, 27, 0.24);
+  padding-bottom: 8px;
+  font-size: clamp(24px, 2.5vw, 32px);
+}
+
+.notes-sketch-article h3 {
+  font-size: clamp(20px, 2vw, 26px);
+}
+
+.notes-sketch-article ul,
+.notes-sketch-article ol {
+  margin-bottom: 1.4em;
+  padding-left: 1.6em;
+}
+
+.notes-sketch-article li {
+  margin-bottom: 0.5em;
+}
+
+/* Post-it styled Blockquotes */
+.notes-sketch-article blockquote {
+  border: 2px solid #1d1d1b !important;
+  border-left: 6px solid #1d1d1b !important;
+  border-radius: 4px;
+  background: #fffef0 !important; /* Soft sticky note yellow */
+  box-shadow: 4px 4px 0 rgba(29, 29, 27, 0.08);
+  padding: 16px 20px !important;
+  margin: 24px 0 !important;
+  transform: rotate(-0.5deg);
+}
+
+.notes-sketch-article blockquote p {
+  margin: 0;
+  color: #2d2d2b !important;
+  font-style: italic;
+}
+
+/* Sketch styled Tables */
+.notes-sketch-article table {
+  width: 100%;
+  margin: 28px 0;
+  border: 2px solid #1d1d1b;
+  border-radius: 4px;
+  border-collapse: collapse;
+  background: #fffdfb;
+  box-shadow: 4px 4px 0 rgba(29, 29, 27, 0.08);
+}
+
+.notes-sketch-article th {
+  background: rgba(247, 211, 111, 0.12); /* Warm yellow highlight */
+  border: 2px solid #1d1d1b;
+  border-bottom: 3px solid #1d1d1b;
+  padding: 12px 14px;
+  font-weight: 800;
+  color: #1d1d1b;
+}
+
+.notes-sketch-article td {
+  border: 1px dashed rgba(29, 29, 27, 0.24);
+  border-right: 2px solid #1d1d1b;
+  border-left: 2px solid #1d1d1b;
+  padding: 10px 14px;
+  color: #1d1d1b !important;
+}
+
+.notes-sketch-article tr:last-child td {
+  border-bottom: 2px solid #1d1d1b;
+}
+
+/* Code block adjustments */
+.notes-sketch-article code {
+  background: rgba(247, 211, 111, 0.15) !important; /* Soft yellow highlighter for inline code */
+  border: 1px solid rgba(29, 29, 27, 0.12);
+  color: #b83b2a !important; /* Distinct dark reddish ink for inline code */
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+}
+
+.notes-sketch-article pre {
+  background: #1e2430 !important; /* Sleek charcoal blackboard background */
+  border: 2px solid #1d1d1b !important;
+  box-shadow: 4px 4px 0 rgba(29, 29, 27, 0.08);
+  padding: 20px !important;
+  margin: 24px 0 !important;
+  border-radius: 6px !important;
+}
+
+.notes-sketch-article pre code {
+  background: transparent !important;
+  border: 0 !important;
+  color: #eaf8ec !important; /* Crisp code reading contrast */
+  padding: 0 !important;
+  font-size: 0.95em;
+}
