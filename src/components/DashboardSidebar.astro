@@ -55,8 +55,10 @@ const { active = "home" } = Astro.props;
 </aside>
 
 <script>
-  document.querySelector(".side-nav a.active")?.scrollIntoView({
-    block: "nearest",
-    inline: "center",
-  });
+  if (window.matchMedia("(max-width: 980px)").matches) {
+    document.querySelector(".side-nav a.active")?.scrollIntoView({
+      block: "nearest",
+      inline: "nearest",
+    });
+  }
 </script>

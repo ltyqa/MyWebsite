@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev --host 127.0.0.1",
-    "build": "astro build",
+    "clean": "node scripts/clean-dist.mjs",
+    "optimize:images": "node scripts/optimize-images.mjs",
+    "build": "npm run optimize:images && npm run clean && astro build",
     "preview": "astro preview --host 127.0.0.1"
   },
   "dependencies": {
@@ -13,5 +15,8 @@
     "astro": "^5.12.0",
     "marked": "^18.0.5",
     "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.3"
   }
 }

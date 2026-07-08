@@ -62,6 +62,7 @@
   const container = document.querySelector('.scroll-decorations-container');
   
   if (container) {
+    const shouldRenderDecorations = () => !window.matchMedia('(max-width: 980px)').matches;
     // 获取页面真实尺寸
     function getLayoutDimensions() {
       const docHeight = Math.max(
@@ -78,6 +79,10 @@
     // 采用 2D 碰撞检测的泊松盘简化算法，实现自然散落
     function regenerateDecorations() {
       container.innerHTML = '';
+
+      if (!shouldRenderDecorations()) {
+        return;
+      }
       
       const { width, height } = getLayoutDimensions();
       const acceptedItems = [];

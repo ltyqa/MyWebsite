@@ -244,7 +244,10 @@
       updateHomePage(state.data);
       updateProjectPage(state.data);
       updateNotesPage(state.data);
-      window.dispatchEvent(new Event("resize"));
+
+      if (document.querySelector(".scroll-decorations-container")) {
+        requestAnimationFrame(() => window.dispatchEvent(new Event("resize")));
+      }
     } catch (error) {
       document.documentElement.dataset.runtimeData = "fallback";
     }
