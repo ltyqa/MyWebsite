@@ -3209,10 +3209,17 @@ h2 {
   .sketch-brick-wall,
   .sketch-tree,
   .sketch-window,
-  .wood-sign,
   .paper-hint,
   .room-hint-card {
     transform: none;
+  }
+
+  .wood-sign {
+    transform: translateX(-50%) rotate(-1deg);
+  }
+
+  .entrance-hint-card {
+    transform: translateX(-50%);
   }
 
   .paper-loader__progress::before,
