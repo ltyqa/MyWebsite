@@ -3179,11 +3179,11 @@ h2 {
   .portfolio-door::before {
     width: 112%;
     height: 46px;
-    bottom: -40px;
+    bottom: -72px;
   }
 
   .portfolio-door::after {
-    bottom: -48px;
+    bottom: -82px;
   }
 
   .paper-hint {
