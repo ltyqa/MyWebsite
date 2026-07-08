@@ -1164,6 +1164,12 @@ h2 {
   font-size: 15px;
 }
 
+.nav-icon img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
 .sidebar-card {
   margin-top: auto;
   border-radius: 10px;
@@ -2678,6 +2684,14 @@ h2 {
   transition: none;
 }
 
+.skip-home-intro .entrance-scene *,
+.skip-home-intro .portfolio-door,
+.skip-home-intro .door-leaf,
+.skip-home-intro .paper-loader * {
+  animation: none;
+  transition: none;
+}
+
 .room-ceiling,
 .room-back-wall,
 .room-left-wall,
@@ -3420,11 +3434,21 @@ h2 {
 }
 
 .dashboard-body .brand-mark {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
   border: 2px solid #1d1d1b;
   border-radius: 5px;
   background: #ffffff;
   color: #1d1d1b;
   box-shadow: 4px 4px 0 rgba(28, 28, 27, 0.16);
+}
+
+.dashboard-body .brand-mark img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
 }
 
 .dashboard-body .side-nav {
@@ -3443,22 +3467,30 @@ h2 {
 .dashboard-body .side-nav a:hover,
 .dashboard-body .side-nav a.active {
   border-color: #1d1d1b;
-  background: rgba(255, 255, 255, 0.84);
+  background:
+    linear-gradient(rgba(255, 253, 248, 0.84), rgba(255, 253, 248, 0.84)),
+    repeating-linear-gradient(105deg, rgba(247, 211, 111, 0.18) 0 6px, transparent 6px 13px);
   color: #1d1d1b;
-  box-shadow: 5px 5px 0 rgba(28, 28, 27, 0.14);
+  box-shadow:
+    5px 5px 0 rgba(28, 28, 27, 0.14),
+    inset 0 -7px 0 rgba(247, 211, 111, 0.28);
   transform: rotate(-0.7deg) translateX(2px);
 }
 
 .dashboard-body .side-nav a.active::before {
   position: absolute;
-  left: -8px;
-  top: 50%;
-  width: 8px;
-  height: 8px;
-  border-radius: 999px;
-  background: #48bd72;
+  left: -12px;
+  top: 8px;
+  width: 14px;
+  height: calc(100% - 16px);
+  border: 2px solid rgba(29, 29, 27, 0.72);
+  border-radius: 2px 9px 3px 8px / 9px 2px 8px 3px;
+  background:
+    linear-gradient(rgba(255, 244, 184, 0.86), rgba(255, 244, 184, 0.86)),
+    repeating-linear-gradient(0deg, rgba(29, 29, 27, 0.07) 0 4px, transparent 4px 9px);
+  box-shadow: 2px 2px 0 rgba(28, 28, 27, 0.12);
   content: "";
-  transform: translateY(-50%);
+  transform: rotate(-3deg);
 }
 
 .dashboard-body .nav-icon {
@@ -3719,10 +3751,12 @@ h2 {
   }
 
   .dashboard-body .side-nav a.active::before {
-    left: 50%;
+    left: 14px;
     top: auto;
-    bottom: -8px;
-    transform: translateX(-50%);
+    bottom: -7px;
+    width: calc(100% - 28px);
+    height: 11px;
+    transform: rotate(-1deg);
   }
 
   .projects-sketch-hero .route-hero-grid,
