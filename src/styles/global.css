@@ -1092,21 +1092,25 @@ h2 {
 }
 
 .dashboard-body {
+  --dashboard-sidebar-width: 240px;
   overflow-x: hidden;
 }
 
 .app-shell {
-  display: grid;
+  display: block;
   width: 100%;
   min-height: 100dvh;
-  grid-template-columns: 240px minmax(0, 1fr);
+  padding-left: var(--dashboard-sidebar-width);
   overflow-x: hidden;
 }
 
 .sidebar {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  z-index: 30;
   display: flex;
+  width: var(--dashboard-sidebar-width);
   height: 100dvh;
   flex-direction: column;
   gap: 28px;
@@ -1962,11 +1966,12 @@ h2 {
 
 @media (max-width: 860px) {
   .app-shell {
-    grid-template-columns: 1fr;
+    padding-left: 0;
   }
 
   .sidebar {
     position: static;
+    width: auto;
     height: auto;
     padding: 16px;
   }
@@ -2644,10 +2649,11 @@ h2 {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-  transform: scale(1);
+  transform: none;
   filter: blur(0);
   overflow-x: hidden;
   overflow-y: auto;
+  perspective: none;
   transition:
     opacity 650ms ease,
     transform 650ms cubic-bezier(0.16, 1, 0.3, 1),
@@ -2668,6 +2674,7 @@ h2 {
   filter: none;
   overflow-x: hidden;
   overflow-y: auto;
+  perspective: none;
   transition: none;
 }
 
@@ -3264,6 +3271,8 @@ h2 {
 
 .notes-sketch-section .note-rail {
   position: sticky;
+  grid-column: 1;
+  grid-row: 1;
   top: 24px;
   padding: 18px;
   transform: rotate(-0.6deg);
@@ -3296,6 +3305,7 @@ h2 {
 }
 
 .notes-sketch-section .note-list {
+  grid-column: 2;
   gap: 18px;
   border: 0;
   background: transparent;
@@ -3374,8 +3384,14 @@ h2 {
 
   .notes-sketch-section .note-rail {
     position: relative;
+    grid-column: auto;
+    grid-row: auto;
     top: auto;
     transform: none;
+  }
+
+  .notes-sketch-section .note-list {
+    grid-column: auto;
   }
 
   .notes-sketch-hero .route-hero-grid,

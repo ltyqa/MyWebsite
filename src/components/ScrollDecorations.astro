@@ -1,0 +1,168 @@
+---
+// ScrollDecorations.astro
+// 用于在页面左侧空白处动态散落手绘风装饰物，采用 2D 碰撞校验算法确保随意感的同时绝对不重叠
+---
+
+<div class="scroll-decorations-container" aria-hidden="true"></div>
+
+<style>
+  .scroll-decorations-container {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 1; /* 位于背景上方，内容下方 */
+  }
+
+  @media (max-width: 980px) {
+    /* 窄屏或移动端布局下，分类列表会变为上下排列并折叠，因此隐藏背景装饰物以避免遮挡 */
+    .scroll-decorations-container {
+      display: none;
+    }
+  }
+
+  :global(.scroll-deco-item) {
+    position: absolute;
+    color: var(--sketch-ink, #1d1d1b);
+    opacity: 0;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    will-change: transform, opacity;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  :global(.scroll-deco-item svg) {
+    width: 100%;
+    height: 100%;
+  }
+</style>
+
+<script>
+  // 简笔手绘风格图形的 SVG 路径库
+  const SVGS = [
+    // 1. 五角星
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 L15.09 8.26 L22 9.27 L17 14.14 L18.18 21.02 L12 17.77 L5.82 21.02 L7 14.14 L2 9.27 L8.91 8.26 Z" /></svg>',
+    // 2. 纸飞机
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13 M22 2L15 22L11 13L2 9L22 2Z" /></svg>',
+    // 3. 云朵
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><g transform="translate(1.5, 1.5) scale(0.85)"><path d="M18 10h-.09A6 6 0 0 0 6 10.8a5 5 0 0 0 -2 9.2h15a5 5 0 0 0 1-9.98z" /></g></svg>',
+    // 4. 双叶草
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.5 1 9.8a7 7 0 0 1 -9 8.2z M19 2L9.8 11.2" /></svg>',
+    // 5. 咖啡杯
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1 M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z M6 2v2 M10 2v2 M14 2v2" /></svg>',
+    // 6. 铅笔
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z M15 5 l4 4" /></svg>',
+    // 7. 手绘笑脸
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><path d="M8 14s1.5 2 4 2 4-2 4-2 M9 9h.01 M15 9h.01" /></svg>'
+  ];
+
+  const container = document.querySelector('.scroll-decorations-container');
+  
+  if (container) {
+    // 获取页面真实尺寸
+    function getLayoutDimensions() {
+      const docHeight = Math.max(
+        document.body.scrollHeight,
+        document.documentElement.scrollHeight,
+        document.body.offsetHeight,
+        document.documentElement.offsetHeight
+      );
+      // 获取父容器宽度（即 content 区域宽度）
+      const width = container.clientWidth || (window.innerWidth - 240);
+      return { width, height: docHeight };
+    }
+
+    // 采用 2D 碰撞检测的泊松盘简化算法，实现自然散落
+    function regenerateDecorations() {
+      container.innerHTML = '';
+      
+      const { width, height } = getLayoutDimensions();
+      const acceptedItems = [];
+      const minDistance = 75; // 2D 像素距离约束。图标约 30-46px，此值能确保距离舒适且绝对不重叠
+
+      // 根据页面总高度动态计算目标装饰物总数（平均每 220px 放置一个）
+      const targetCount = Math.max(3, Math.floor(height / 220));
+      
+      // 限制最大尝试生成次数，防止死循环
+      const maxAttempts = targetCount * 12;
+      let attempts = 0;
+      let placedCount = 0;
+
+      while (placedCount < targetCount && attempts < maxAttempts) {
+        attempts++;
+
+        // 1. 随机生成候选点
+        // X 范围：左侧 2% ~ 24% 区域
+        const xPct = Math.random() * 22 + 2;
+        // Y 范围：避开最顶部 160px 和最底部 140px
+        const yPx = 160 + Math.random() * (height - 300);
+
+        // 将百分比 X 坐标转换为真实像素值，用于精确的 2D 距离计算
+        const xPx = (xPct / 100) * width;
+
+        // 2. 校验该点是否与已有所有点保持了安全距离
+        let isTooClose = false;
+        for (const item of acceptedItems) {
+          const dist = Math.hypot(xPx - item.xPx, yPx - item.yPx);
+          if (dist < minDistance) {
+            isTooClose = true;
+            break;
+          }
+        }
+
+        // 3. 如果距离合格，则接受并渲染该元素
+        if (!isTooClose) {
+          createItem(xPct, yPx);
+          acceptedItems.push({ xPx, yPx });
+          placedCount++;
+        }
+      }
+    }
+
+    // 创建 DOM 元素并应用随机大小、旋转和淡入
+    function createItem(x, y) {
+      const el = document.createElement('div');
+      el.className = 'scroll-deco-item';
+      
+      const size = Math.floor(Math.random() * 16) + 30;     // 尺寸 30px - 46px
+      const rotate = Math.floor(Math.random() * 40) - 20;   // 旋转 -20deg 到 20deg
+      const svg = SVGS[Math.floor(Math.random() * SVGS.length)];
+      
+      el.innerHTML = svg;
+      el.style.width = `${size}px`;
+      el.style.height = `${size}px`;
+      el.style.top = `${y}px`;
+      el.style.left = `${x}%`;
+      
+      el.style.transform = `scale(0.7) rotate(${rotate}deg)`;
+      container.appendChild(el);
+      
+      requestAnimationFrame(() => {
+        el.style.opacity = '0.15';
+        el.style.transform = `scale(1) rotate(${rotate}deg)`;
+      });
+    }
+
+    // 页面初始化生成
+    regenerateDecorations();
+
+    // 兼容分类切换：点击切换分类时，页面高度会迅速收缩。
+    // 我们在高度更新后，重新清空并计算生成，保证装饰物完全贴合新高度。
+    const noteRail = document.querySelector('.note-rail');
+    if (noteRail) {
+      noteRail.addEventListener('click', () => {
+        setTimeout(regenerateDecorations, 100);
+      });
+    }
+
+    // 窗口尺寸缩放防抖，重新对齐高度
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(regenerateDecorations, 150);
+    });
+  }
+</script>

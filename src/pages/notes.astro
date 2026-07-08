@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import DashboardSidebar from "../components/DashboardSidebar.astro";
 import { getGitHubNotes } from "../data/github";
+import ScrollDecorations from "../components/ScrollDecorations.astro";
 
 const notes = await getGitHubNotes();
 const categories = ["全部", ...Array.from(new Set(notes.map((note) => note.category)))];
@@ -20,7 +21,8 @@ const categories = ["全部", ...Array.from(new Set(notes.map((note) => note.cat
       <DashboardSidebar active="notes" />
 
       <main class="dashboard-main route-main notes-sketch-main">
-      <section class="page-hero notes-sketch-hero">
+        <ScrollDecorations />
+        <section class="page-hero notes-sketch-hero">
         <div class="page-shell route-hero-grid">
           <div>
             <span class="eyebrow">笔记目录</span>
