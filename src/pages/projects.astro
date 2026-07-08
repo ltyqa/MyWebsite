@@ -48,29 +48,11 @@ const projects = await getGitHubProjects();
                   <p class="project-meta">{project.meta}</p>
                   <h2>{project.name}</h2>
                   <p>{project.description}</p>
-                  <dl class="project-dossier">
-                    <div>
-                      <dt>档案编号</dt>
-                      <dd>{String(index + 1).padStart(2, "0")}</dd>
-                    </div>
-                    <div>
-                      <dt>当前状态</dt>
-                      <dd>{project.status}</dd>
-                    </div>
-                    <div>
-                      <dt>主要语言</dt>
-                      <dd>{project.stack[0] || "GitHub"}</dd>
-                    </div>
-                  </dl>
                 </div>
                 <div class="project-row-side">
                   <span class="status-pill">{project.status}</span>
                   <div class="tag-row">
                     {project.stack.map((item) => <span class="tag">{item}</span>)}
-                  </div>
-                  <div class="project-stamp" aria-label="项目来源">
-                    <span>GitHub</span>
-                    <strong>{project.homepage ? "可访问" : "源码"}</strong>
                   </div>
                   <a class="button button-secondary" href={project.link} target="_blank" rel="noreferrer">
                     查看仓库
