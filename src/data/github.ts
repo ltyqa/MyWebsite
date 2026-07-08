@@ -330,7 +330,7 @@ async function loadGitHubProjects() {
   }
 }
 
-async function loadGitHubNotes() {
+async function loadGitHubNotes(): Promise<SiteNote[]> {
   const localNotes = await getLocalVaultNotes();
 
   if (localNotes.length) {
@@ -363,7 +363,7 @@ async function loadGitHubNotes() {
       })
       .sort((a, b) => a.category.localeCompare(b.category, "zh-CN"));
 
-    return notes.length ? notes : fallbackNotes;
+    return notes.length ? notes : getFallbackNotes();
   } catch (error) {
     logFallback("GitHub notes unavailable, using local fallback.");
     return getFallbackNotes();
