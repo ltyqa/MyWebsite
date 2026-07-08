@@ -45,6 +45,17 @@ const categories = ["全部", ...Array.from(new Set(notes.map((note) => note.cat
       <section class="section-tight notes-sketch-section">
         <div class="page-shell notes-directory">
           <aside class="note-rail directory-rail" aria-label="笔记分类">
+            <div class="note-search">
+              <label for="note-search-input">搜索笔记</label>
+              <input
+                id="note-search-input"
+                type="search"
+                placeholder="标题、分类或摘要"
+                autocomplete="off"
+                data-note-search-input
+              />
+              <p data-note-count>{notes.length} 篇可读笔记</p>
+            </div>
             {
               categories.map((category, index) => (
                 <button
@@ -53,6 +64,7 @@ const categories = ["全部", ...Array.from(new Set(notes.map((note) => note.cat
                   aria-pressed={index === 0 ? "true" : "false"}
                   style={index === 0 ? "background: var(--ink); color: var(--paper);" : ""}
                   data-category={category}
+                  data-category-index={index}
                 >
                   {category}
                 </button>
@@ -63,7 +75,11 @@ const categories = ["全部", ...Array.from(new Set(notes.map((note) => note.cat
           <div class="note-list directory-list">
             {
               notes.map((note) => (
-                <article class="note-card note-card-large" data-note-category={note.category}>
+                <article
+                  class="note-card note-card-large"
+                  data-note-category={note.category}
+                  data-note-search={`${note.title} ${note.category} ${note.excerpt} ${note.meta}`.toLowerCase()}
+                >
                   <p class="note-meta">{note.meta}</p>
                   <h2>{note.title}</h2>
                   <p>{note.excerpt}</p>
@@ -84,12 +100,39 @@ const categories = ["全部", ...Array.from(new Set(notes.map((note) => note.cat
     <script>
       const categoryButtons = document.querySelectorAll("[data-category]");
       const noteCards = document.querySelectorAll("[data-note-category]");
+      const noteSearchInput = document.querySelector("[data-note-search-input]");
+      const noteCount = document.querySelector("[data-note-count]");
       const activeStyle = "background: var(--ink); color: var(--paper);";
       const idleStyle = "background: transparent; color: var(--muted);";
+      let activeCategory = categoryButtons[0]?.getAttribute("data-category") || "";
+      let activeCategoryIndex = "0";
+
+      const updateNotes = () => {
+        const query = noteSearchInput?.value.trim().toLowerCase() || "";
+        let visibleCount = 0;
+
+        noteCards.forEach((card) => {
+          const matchesCategory =
+            activeCategoryIndex === "0" ||
+            card.getAttribute("data-note-category") === activeCategory;
+          const matchesQuery = !query || card.getAttribute("data-note-search")?.includes(query);
+          const isVisible = matchesCategory && matchesQuery;
+
+          card.toggleAttribute("hidden", !isVisible);
+          if (isVisible) visibleCount += 1;
+        });
+
+        if (noteCount) {
+          noteCount.textContent = query
+            ? `${visibleCount} 篇匹配笔记`
+            : `${visibleCount} 篇可读笔记`;
+        }
+      };
 
       categoryButtons.forEach((button) => {
         button.addEventListener("click", () => {
-          const category = button.getAttribute("data-category");
+          activeCategory = button.getAttribute("data-category") || "";
+          activeCategoryIndex = button.getAttribute("data-category-index") || "0";
 
           categoryButtons.forEach((item) => {
             item.classList.remove("active");
@@ -99,14 +142,11 @@ const categories = ["全部", ...Array.from(new Set(notes.map((note) => note.cat
           button.classList.add("active");
           button.setAttribute("aria-pressed", "true");
           button.setAttribute("style", activeStyle);
-
-          noteCards.forEach((card) => {
-            const isVisible =
-              category === "全部" || card.getAttribute("data-note-category") === category;
-            card.toggleAttribute("hidden", !isVisible);
-          });
+          updateNotes();
         });
       });
+
+      noteSearchInput?.addEventListener("input", updateNotes);
     </script>
   </body>
 </html>
