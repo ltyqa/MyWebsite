@@ -44,6 +44,21 @@ body {
   line-height: 1.6;
 }
 
+html.is-entering-home-room,
+html.is-entering-home-room body,
+html.skip-home-intro,
+html.skip-home-intro body {
+  background: #faf7ef;
+}
+
+html.is-entering-home-room::view-transition-old(root),
+html.is-entering-home-room::view-transition-new(root),
+html.skip-home-intro::view-transition-old(root),
+html.skip-home-intro::view-transition-new(root) {
+  animation: none;
+  background: #faf7ef;
+}
+
 body::before {
   content: "";
   position: fixed;

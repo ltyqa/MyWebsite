@@ -28,7 +28,7 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
     <meta name="description" content="由 GitHub 自动同步的个人项目、笔记和近期动态" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23faf7ef'/%3E%3Cpath d='M14 17h36v30H14z' fill='none' stroke='%231a1a1a' stroke-width='4'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-size='22' font-family='Arial,sans-serif' fill='%231a1a1a'%3E站%3C/text%3E%3C/svg%3E" />
     <title>个人档案 | 手绘房间</title>
-    <script is:inline>
+    <script is:inline data-astro-rerun>
       (() => {
         const shouldSkip =
           new URLSearchParams(window.location.search).get("skipIntro") === "1" ||
@@ -36,35 +36,8 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
 
         if (shouldSkip) {
           document.documentElement.classList.add("skip-home-intro");
-
-          const style = document.createElement("style");
-          style.textContent = `
-            .paper-loader,
-            .entrance-scene {
-              display: none !important;
-            }
-
-            .room-scene {
-              opacity: 1 !important;
-              visibility: visible !important;
-              pointer-events: auto !important;
-              transform: none !important;
-              filter: none !important;
-              overflow-x: hidden !important;
-              overflow-y: auto !important;
-              perspective: none !important;
-              transition: none !important;
-            }
-
-            .entrance-scene *,
-            .portfolio-door,
-            .door-leaf,
-            .paper-loader * {
-              animation: none !important;
-              transition: none !important;
-            }
-          `;
-          document.head.appendChild(style);
+        } else {
+          document.documentElement.classList.remove("skip-home-intro");
         }
       })();
     </script>
@@ -217,95 +190,123 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
       </noscript>
     </div>
 
-    <script is:inline>
-      const root = document.querySelector("[data-experience]");
-      const progress = document.querySelector("[data-loader-progress]");
-      const openDoor = document.querySelector("[data-open-door]");
-      const closeDoor = document.querySelector("[data-close-door]");
-      const parallaxScenes = document.querySelectorAll("[data-parallax-scene]");
-      const canUseParallax =
-        parallaxScenes.length > 0 &&
-        window.matchMedia("(pointer: fine)").matches &&
-        !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      const shouldSkipIntro =
-        document.documentElement.classList.contains("skip-home-intro") ||
-        new URLSearchParams(window.location.search).get("skipIntro") === "1";
-      const openRoomView = (delay = 0) => {
-        window.setTimeout(() => {
-          const room = document.querySelector("[data-room-scene]");
-          if (!room) return;
+    <script is:inline data-astro-rerun>
+      (() => {
+        window.__homeExperienceCleanup?.();
 
-          if (window.matchMedia("(max-width: 980px)").matches) {
-            room.scrollTop = 0;
-            window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-            return;
-          }
-
-          room.scrollIntoView();
-        }, delay);
-      };
-      let loaded = 0;
-
-      if (shouldSkipIntro) {
-        if (progress) progress.textContent = "100%";
-        root?.classList.add("is-loaded", "is-room-open");
-        sessionStorage.setItem("homeIntroSeen", "1");
-        const room = document.querySelector("[data-room-scene]");
-        if (room) room.scrollTop = 0;
-        window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-      } else {
-        const loaderTimer = window.setInterval(() => {
-          loaded = Math.min(100, loaded + Math.ceil(Math.random() * 9));
-          if (progress) progress.textContent = `${loaded}%`;
-
-          if (loaded >= 100) {
-            window.clearInterval(loaderTimer);
-            sessionStorage.setItem("homeIntroSeen", "1");
-            window.setTimeout(() => root?.classList.add("is-loaded"), 260);
-          }
-        }, 70);
-      }
-
-      openDoor?.addEventListener("click", () => {
-        root?.classList.add("is-room-open");
-        sessionStorage.setItem("homeIntroSeen", "1");
-        openRoomView(120);
-      });
-
-      closeDoor?.addEventListener("click", () => {
-        document.documentElement.classList.remove("skip-home-intro");
-        root?.classList.remove("is-room-open");
-      });
-
-      if (canUseParallax) {
-        let pointerX = 0;
-        let pointerY = 0;
-        let parallaxFrame = 0;
-
-        const updateParallax = () => {
-          parallaxFrame = 0;
-          const mx = pointerX / window.innerWidth - 0.5;
-          const my = pointerY / window.innerHeight - 0.5;
-
-          parallaxScenes.forEach((scene) => {
-            scene.style.setProperty("--mx", mx.toFixed(3));
-            scene.style.setProperty("--my", my.toFixed(3));
-          });
+        const cleanupTasks = [];
+        window.__homeExperienceCleanup = () => {
+          cleanupTasks.splice(0).forEach((cleanup) => cleanup());
         };
 
-        window.addEventListener(
-          "pointermove",
-          (event) => {
+        const root = document.querySelector("[data-experience]");
+        if (!root) return;
+
+        const cleanupBeforeSwap = () => window.__homeExperienceCleanup?.();
+        document.addEventListener("astro:before-swap", cleanupBeforeSwap, { once: true });
+        cleanupTasks.push(() => document.removeEventListener("astro:before-swap", cleanupBeforeSwap));
+
+        const progress = document.querySelector("[data-loader-progress]");
+        const openDoor = document.querySelector("[data-open-door]");
+        const closeDoor = document.querySelector("[data-close-door]");
+        const parallaxScenes = document.querySelectorAll("[data-parallax-scene]");
+        const canUseParallax =
+          parallaxScenes.length > 0 &&
+          window.matchMedia("(pointer: fine)").matches &&
+          !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        const shouldSkipIntro =
+          document.documentElement.classList.contains("skip-home-intro") ||
+          new URLSearchParams(window.location.search).get("skipIntro") === "1";
+        const resetRoomScroll = () => {
+          const room = document.querySelector("[data-room-scene]");
+          if (room) room.scrollTop = 0;
+          window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+        };
+        const openRoomView = (delay = 0) => {
+          const roomTimer = window.setTimeout(() => {
+            const room = document.querySelector("[data-room-scene]");
+            if (!room) return;
+
+            if (window.matchMedia("(max-width: 980px)").matches) {
+              resetRoomScroll();
+              return;
+            }
+
+            room.scrollIntoView();
+          }, delay);
+
+          cleanupTasks.push(() => window.clearTimeout(roomTimer));
+        };
+        let loaded = 0;
+
+        if (shouldSkipIntro) {
+          if (progress) progress.textContent = "100%";
+          root.classList.add("is-loaded", "is-room-open");
+          sessionStorage.setItem("homeIntroSeen", "1");
+          resetRoomScroll();
+        } else {
+          const loaderTimer = window.setInterval(() => {
+            loaded = Math.min(100, loaded + Math.ceil(Math.random() * 9));
+            if (progress) progress.textContent = `${loaded}%`;
+
+            if (loaded >= 100) {
+              window.clearInterval(loaderTimer);
+              sessionStorage.setItem("homeIntroSeen", "1");
+
+              const loadedTimer = window.setTimeout(() => root.classList.add("is-loaded"), 260);
+              cleanupTasks.push(() => window.clearTimeout(loadedTimer));
+            }
+          }, 70);
+
+          cleanupTasks.push(() => window.clearInterval(loaderTimer));
+        }
+
+        const handleOpenDoor = () => {
+          root.classList.add("is-room-open");
+          sessionStorage.setItem("homeIntroSeen", "1");
+          openRoomView(120);
+        };
+        const handleCloseDoor = () => {
+          document.documentElement.classList.remove("skip-home-intro");
+          root.classList.remove("is-room-open");
+        };
+
+        openDoor?.addEventListener("click", handleOpenDoor);
+        closeDoor?.addEventListener("click", handleCloseDoor);
+        cleanupTasks.push(() => openDoor?.removeEventListener("click", handleOpenDoor));
+        cleanupTasks.push(() => closeDoor?.removeEventListener("click", handleCloseDoor));
+
+        if (canUseParallax) {
+          let pointerX = 0;
+          let pointerY = 0;
+          let parallaxFrame = 0;
+
+          const updateParallax = () => {
+            parallaxFrame = 0;
+            const mx = pointerX / window.innerWidth - 0.5;
+            const my = pointerY / window.innerHeight - 0.5;
+
+            parallaxScenes.forEach((scene) => {
+              scene.style.setProperty("--mx", mx.toFixed(3));
+              scene.style.setProperty("--my", my.toFixed(3));
+            });
+          };
+          const handlePointerMove = (event) => {
             pointerX = event.clientX;
             pointerY = event.clientY;
 
             if (!parallaxFrame) {
               parallaxFrame = window.requestAnimationFrame(updateParallax);
             }
-          },
-          { passive: true },
-        );
-      }
+          };
+
+          window.addEventListener("pointermove", handlePointerMove, { passive: true });
+          cleanupTasks.push(() => window.removeEventListener("pointermove", handlePointerMove));
+          cleanupTasks.push(() => {
+            if (parallaxFrame) window.cancelAnimationFrame(parallaxFrame);
+          });
+        }
+      })();
     </script>
   </body>
 </html>

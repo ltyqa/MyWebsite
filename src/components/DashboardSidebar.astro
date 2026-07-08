@@ -54,11 +54,56 @@ const { active = "home" } = Astro.props;
   </div>
 </aside>
 
-<script>
-  if (window.matchMedia("(max-width: 980px)").matches) {
-    document.querySelector(".side-nav a.active")?.scrollIntoView({
-      block: "nearest",
-      inline: "nearest",
-    });
-  }
+<script is:inline data-astro-rerun>
+  (() => {
+    window.__dashboardSidebarCleanup?.();
+
+    const cleanupTasks = [];
+    window.__dashboardSidebarCleanup = () => {
+      cleanupTasks.splice(0).forEach((cleanup) => cleanup());
+    };
+
+    const prepareHomeRoomDocument = (doc) => {
+      doc.documentElement.classList.add("skip-home-intro");
+      doc.querySelector("[data-experience]")?.classList.add("is-loaded", "is-room-open");
+
+      const progress = doc.querySelector("[data-loader-progress]");
+      if (progress) progress.textContent = "100%";
+    };
+
+    const markHomeNavigation = (event) => {
+      const link = event.target?.closest?.('a[href^="/?skipIntro=1"]');
+      if (!link) return;
+
+      window.__isEnteringHomeRoom = true;
+      document.documentElement.classList.add("skip-home-intro", "is-entering-home-room");
+      sessionStorage.setItem("homeIntroSeen", "1");
+    };
+
+    const handleBeforeSwap = (event) => {
+      if (!window.__isEnteringHomeRoom || !event.newDocument) return;
+      prepareHomeRoomDocument(event.newDocument);
+    };
+
+    document.addEventListener("pointerdown", markHomeNavigation, { capture: true });
+    document.addEventListener("click", markHomeNavigation, { capture: true });
+    document.addEventListener("astro:before-swap", handleBeforeSwap);
+    cleanupTasks.push(() => document.removeEventListener("pointerdown", markHomeNavigation, { capture: true }));
+    cleanupTasks.push(() => document.removeEventListener("click", markHomeNavigation, { capture: true }));
+    cleanupTasks.push(() => document.removeEventListener("astro:before-swap", handleBeforeSwap));
+
+    const clearHomeNavigation = () => {
+      window.__isEnteringHomeRoom = false;
+      document.documentElement.classList.remove("is-entering-home-room");
+    };
+    document.addEventListener("astro:page-load", clearHomeNavigation, { once: true });
+    cleanupTasks.push(() => document.removeEventListener("astro:page-load", clearHomeNavigation));
+
+    if (window.matchMedia("(max-width: 980px)").matches) {
+      document.querySelector(".side-nav a.active")?.scrollIntoView({
+        block: "nearest",
+        inline: "nearest",
+      });
+    }
+  })();
 </script>
