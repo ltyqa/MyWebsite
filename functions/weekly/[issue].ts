@@ -336,11 +336,15 @@ function replaceMain(shell: string, mainHtml: string) {
   );
 }
 
-async function loadShell(request: Request, env: Env) {
+function weeklyIndexRequest(request: Request) {
   const url = new URL(request.url);
-  url.pathname = "/weekly/";
+  url.pathname = "/weekly/index.html";
   url.search = "";
-  const response = await env.ASSETS.fetch(new Request(url.toString(), request));
+  return new Request(url.toString(), request);
+}
+
+async function loadShell(request: Request, env: Env) {
+  const response = await env.ASSETS.fetch(weeklyIndexRequest(request));
 
   if (!response.ok) {
     throw new Error("Unable to load weekly shell.");
@@ -351,6 +355,10 @@ async function loadShell(request: Request, env: Env) {
 
 export async function onRequestGet({ request, env, params }: { request: Request; env: Env; params: { issue?: string } }) {
   const issueParam = Array.isArray(params.issue) ? params.issue[0] : params.issue;
+  if (!issueParam) {
+    return env.ASSETS.fetch(weeklyIndexRequest(request));
+  }
+
   const issueNumber = Number(issueParam);
   const isValidIssueNumber = Number.isInteger(issueNumber) && issueNumber > 0;
   const shell = await loadShell(request, env);
