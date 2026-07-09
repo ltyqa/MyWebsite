@@ -3480,6 +3480,37 @@ h2 {
   }
 }
 
+@media (max-width: 640px), (pointer: coarse) {
+  .sketch-chart span {
+    position: static;
+  }
+
+  .sketch-chart span::before,
+  .sketch-chart span::after {
+    left: 50%;
+    right: auto;
+  }
+
+  .sketch-chart span::before {
+    bottom: calc(100% + 6px);
+  }
+
+  .sketch-chart span::after {
+    bottom: calc(100% + 12px);
+    width: max-content;
+    max-width: calc(100vw - 44px);
+  }
+
+  .sketch-chart span:hover::before,
+  .sketch-chart span:hover::after {
+    transform: translate(-50%, 0) rotate(-1deg);
+  }
+
+  .sketch-chart span:hover::before {
+    transform: translate(-50%, 0) rotate(45deg);
+  }
+}
+
 /* Hand-drawn note views */
 .notes-sketch-body {
   background:

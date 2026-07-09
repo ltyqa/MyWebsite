@@ -34,7 +34,9 @@ const { active = "home" } = Astro.props;
       笔记
     </a>
     <a class={active === "weekly" ? "active" : ""} href="/weekly/">
-      <span class="nav-icon nav-icon-text" aria-hidden="true">周</span>
+      <span class="nav-icon">
+        <img src="/images/icon-weekly.svg" alt="" aria-hidden="true" />
+      </span>
       每周新闻
     </a>
     <a class={active === "about" ? "active" : ""} href="/about/">
