@@ -3,16 +3,18 @@ import { marked } from "marked";
 import "../styles/global.css";
 import DashboardSidebar from "../components/DashboardSidebar.astro";
 import PageTransitions from "../components/PageTransitions.astro";
+import WeeklyReviewPanel from "../components/WeeklyReviewPanel.astro";
 import { getLatestWeeklyIssue } from "../data/weekly";
+import {
+  extractWeeklyReviewLinks,
+  proxyWeeklyImages,
+  removeWeeklyReviewSection,
+  stripWeeklyTitle,
+} from "../data/weeklyContent";
 
 const issue = await getLatestWeeklyIssue();
-const articleMarkdown = issue.markdown.replace(/^#\s+.+\r?\n+/, "");
-
-function proxyWeeklyImages(markdown: string) {
-  return markdown.replace(/!\[([^\]]*)\]\((https:\/\/cdn\.beekka\.com\/[^)]+)\)/g, (_match, alt, src) => {
-    return `![${alt}](/weekly-image?src=${encodeURIComponent(src)})`;
-  });
-}
+const articleMarkdown = removeWeeklyReviewSection(stripWeeklyTitle(issue.markdown));
+const reviewLinks = extractWeeklyReviewLinks(issue.markdown);
 
 const content = marked.parse(proxyWeeklyImages(articleMarkdown), {
   async: false,
@@ -56,6 +58,7 @@ const content = marked.parse(proxyWeeklyImages(articleMarkdown), {
         </section>
 
         <article class="page-shell article-shell article-body notes-sketch-article weekly-news-article" set:html={content} />
+        <WeeklyReviewPanel links={reviewLinks} />
       </main>
     </div>
   </body>

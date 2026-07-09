@@ -1,0 +1,74 @@
+---
+import type { WeeklyReviewLink } from "../data/weeklyContent";
+
+type Props = {
+  links: WeeklyReviewLink[];
+};
+
+const { links } = Astro.props;
+---
+
+<section class="page-shell article-shell weekly-review-panel" aria-labelledby="weekly-review-title">
+  <div class="weekly-review-header">
+    <p class="note-meta">站内阅读</p>
+    <h2 id="weekly-review-title">往年回顾</h2>
+  </div>
+
+  {
+    links.length > 0 ? (
+      <div class="weekly-review-links">
+        {links.map((link) => (
+          <a href={link.href}>
+            <span>{link.title}</span>
+            <em>#{link.issueNumber}</em>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <p class="weekly-review-empty">本期没有找到往年回顾链接。</p>
+    )
+  }
+
+  <form class="weekly-issue-jump" data-weekly-jump novalidate>
+    <label for="weekly-issue-input">按期号阅读</label>
+    <div class="weekly-issue-jump-row">
+      <input
+        id="weekly-issue-input"
+        name="issue"
+        type="text"
+        inputmode="numeric"
+        pattern="[0-9]*"
+        autocomplete="off"
+        placeholder="例如 355"
+        aria-describedby="weekly-issue-message"
+      />
+      <button type="submit">跳转</button>
+    </div>
+    <p id="weekly-issue-message" class="weekly-issue-message" data-weekly-jump-message aria-live="polite"></p>
+  </form>
+</section>
+
+<script is:inline data-astro-rerun>
+  (() => {
+    document.querySelectorAll("[data-weekly-jump]").forEach((form) => {
+      if (form.dataset.weeklyJumpBound === "1") return;
+      form.dataset.weeklyJumpBound = "1";
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const input = form.querySelector('input[name="issue"]');
+        const message = form.querySelector("[data-weekly-jump-message]");
+        const value = input?.value?.trim() || "";
+
+        if (!/^\d+$/.test(value)) {
+          if (message) message.textContent = "请输入数字期号";
+          input?.focus();
+          return;
+        }
+
+        window.location.href = `/weekly/${Number(value)}/`;
+      });
+    });
+  })();
+</script>

@@ -1,0 +1,123 @@
+---
+import { marked } from "marked";
+import "../../styles/global.css";
+import DashboardSidebar from "../../components/DashboardSidebar.astro";
+import PageTransitions from "../../components/PageTransitions.astro";
+import WeeklyReviewPanel from "../../components/WeeklyReviewPanel.astro";
+import {
+  getLatestWeeklyIssue,
+  getWeeklyIssueByNumber,
+  type WeeklyIssue,
+} from "../../data/weekly";
+import {
+  extractWeeklyReviewLinks,
+  proxyWeeklyImages,
+  removeWeeklyReviewSection,
+  stripWeeklyTitle,
+  type WeeklyReviewLink,
+} from "../../data/weeklyContent";
+
+export async function getStaticPaths() {
+  const latestIssue = await getLatestWeeklyIssue();
+  const reviewIssueNumbers = extractWeeklyReviewLinks(latestIssue.markdown).map((link) => link.issueNumber);
+  const issueNumbers = Array.from(new Set([latestIssue.number, ...reviewIssueNumbers]));
+
+  return issueNumbers.map((issueNumber) => ({
+    params: {
+      issue: String(issueNumber),
+    },
+  }));
+}
+
+const issueNumber = Number(Astro.params.issue);
+let issue: WeeklyIssue | undefined;
+let content = "";
+let reviewLinks: WeeklyReviewLink[] = [];
+let errorMessage = "";
+
+try {
+  issue = await getWeeklyIssueByNumber(issueNumber);
+  const articleMarkdown = removeWeeklyReviewSection(stripWeeklyTitle(issue.markdown));
+  reviewLinks = extractWeeklyReviewLinks(issue.markdown);
+  content = marked.parse(proxyWeeklyImages(articleMarkdown), {
+    async: false,
+    gfm: true,
+    breaks: false,
+  });
+} catch (error) {
+  Astro.response.status = 404;
+  errorMessage = Number.isInteger(issueNumber) && issueNumber > 0
+    ? `没有找到第 ${issueNumber} 期周刊。`
+    : "请输入有效的周刊期号。";
+}
+
+const pageTitle = issue ? `每周新闻 | ${issue.title}` : "每周新闻 | 未找到这一期";
+const pageDescription = issue
+  ? `来自 ruanyf/weekly 的第 ${issue.number} 期：${issue.title}`
+  : errorMessage;
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <PageTransitions />
+    <meta name="description" content={pageDescription} />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23151a18'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='30' font-family='Arial,sans-serif' fill='%23fffaf0'%3E%E7%AB%99%3C/text%3E%3C/svg%3E" />
+    <title>{pageTitle}</title>
+    <script src="/js/live-site-data.js" defer></script>
+  </head>
+  <body class="dashboard-body notes-sketch-body weekly-news-body">
+    <div class="app-shell">
+      <DashboardSidebar active="weekly" />
+
+      <main class="dashboard-main route-main notes-sketch-main weekly-news-main">
+        <section class="article-hero notes-sketch-article-hero weekly-news-hero">
+          <div class="page-shell article-shell">
+            <p class="note-meta">信息来源：ruanyf/weekly</p>
+            <h1>每周新闻</h1>
+            <p class="hero-copy">{issue?.title || errorMessage}</p>
+            {
+              issue && (
+                <>
+                  <div class="weekly-issue-meta">
+                    <span>第 {issue.number} 期</span>
+                    {
+                      issue.publishedAt ? (
+                        <time datetime={issue.publishedAt}>发布于 {issue.publishedLabel}</time>
+                      ) : (
+                        <span>{issue.publishedLabel}</span>
+                      )
+                    }
+                  </div>
+                  <div class="tag-row">
+                    <span class="tag">站内阅读</span>
+                    <span class="tag">GitHub 同步</span>
+                  </div>
+                  <a class="inline-link" href={issue.sourceUrl} target="_blank" rel="noreferrer">
+                    查看来源文件
+                  </a>
+                </>
+              )
+            }
+          </div>
+        </section>
+
+        {
+          issue ? (
+            <>
+              <article class="page-shell article-shell article-body notes-sketch-article weekly-news-article" set:html={content} />
+              <WeeklyReviewPanel links={reviewLinks} />
+            </>
+          ) : (
+            <section class="page-shell article-shell article-body notes-sketch-article weekly-news-article weekly-not-found">
+              <h2>没有找到这一期</h2>
+              <p>{errorMessage}</p>
+              <a class="inline-link" href="/weekly/">返回最新一期</a>
+            </section>
+          )
+        }
+      </main>
+    </div>
+  </body>
+</html>

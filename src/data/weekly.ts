@@ -31,8 +31,9 @@ export type WeeklyIssue = {
 };
 
 let weeklyCache: Promise<WeeklyIssue> | undefined;
+const weeklyIssueCache = new Map<number, Promise<WeeklyIssue>>();
+
 const fallbackIssueNumber = 402;
-const fallbackIssuePath = `docs/issue-${fallbackIssueNumber}.md`;
 const fallbackPublishedAt = "2026-07-03T02:23:53Z";
 
 const headers: Record<string, string> = {
@@ -67,6 +68,30 @@ function titleFromMarkdown(markdown: string, issueNumber: number) {
   return heading || `科技爱好者周刊（第 ${issueNumber} 期）`;
 }
 
+function issuePath(issueNumber: number) {
+  return `docs/issue-${issueNumber}.md`;
+}
+
+function rawIssueUrl(issueNumber: number) {
+  return `https://raw.githubusercontent.com/${weeklyOwner}/${weeklyRepo}/master/${issuePath(issueNumber)}`;
+}
+
+function sourceIssueUrl(issueNumber: number) {
+  return `https://github.com/${weeklyOwner}/${weeklyRepo}/blob/master/${issuePath(issueNumber)}`;
+}
+
+async function loadIssueCommit(path: string) {
+  try {
+    const commits = await fetchJson<GitCommit[]>(
+      `${apiBase}/repos/${weeklyOwner}/${weeklyRepo}/commits?path=${encodeURIComponent(path)}&per_page=1`,
+    );
+
+    return commits[0];
+  } catch (error) {
+    return undefined;
+  }
+}
+
 async function loadLatestWeeklyIssue(): Promise<WeeklyIssue> {
   try {
     const files = await fetchJson<GitHubContentItem[]>(
@@ -90,11 +115,9 @@ async function loadLatestWeeklyIssue(): Promise<WeeklyIssue> {
       throw new Error("Unable to find the latest ruanyf/weekly issue.");
     }
 
-    const [markdownResponse, commits] = await Promise.all([
+    const [markdownResponse, commit] = await Promise.all([
       fetch(latest.download_url, { headers }),
-      fetchJson<GitCommit[]>(
-        `${apiBase}/repos/${weeklyOwner}/${weeklyRepo}/commits?path=${encodeURIComponent(latest.path)}&per_page=1`,
-      ),
+      loadIssueCommit(latest.path),
     ]);
 
     if (!markdownResponse.ok) {
@@ -102,7 +125,6 @@ async function loadLatestWeeklyIssue(): Promise<WeeklyIssue> {
     }
 
     const markdown = await markdownResponse.text();
-    const commit = commits[0];
     const publishedAt = commit?.commit.committer.date || new Date().toISOString();
 
     return {
@@ -122,8 +144,8 @@ async function loadLatestWeeklyIssue(): Promise<WeeklyIssue> {
 }
 
 async function loadFallbackWeeklyIssue(): Promise<WeeklyIssue> {
-  const rawUrl = `https://raw.githubusercontent.com/${weeklyOwner}/${weeklyRepo}/master/${fallbackIssuePath}`;
-  const sourceUrl = `https://github.com/${weeklyOwner}/${weeklyRepo}/blob/master/${fallbackIssuePath}`;
+  const rawUrl = rawIssueUrl(fallbackIssueNumber);
+  const sourceUrl = sourceIssueUrl(fallbackIssueNumber);
   const response = await fetch(rawUrl, { headers });
 
   if (!response.ok) {
@@ -144,7 +166,51 @@ async function loadFallbackWeeklyIssue(): Promise<WeeklyIssue> {
   };
 }
 
+async function loadWeeklyIssueByNumber(issueNumber: number): Promise<WeeklyIssue> {
+  if (!Number.isInteger(issueNumber) || issueNumber <= 0) {
+    throw new Error(`Invalid weekly issue number: ${issueNumber}`);
+  }
+
+  if (issueNumber === fallbackIssueNumber) {
+    return loadFallbackWeeklyIssue();
+  }
+
+  const path = issuePath(issueNumber);
+  const rawUrl = rawIssueUrl(issueNumber);
+  const sourceUrl = sourceIssueUrl(issueNumber);
+  const [markdownResponse, commit] = await Promise.all([
+    fetch(rawUrl, { headers }),
+    loadIssueCommit(path),
+  ]);
+
+  if (!markdownResponse.ok) {
+    throw new Error(`Failed to fetch weekly issue ${issueNumber}: ${markdownResponse.status}`);
+  }
+
+  const markdown = await markdownResponse.text();
+  const publishedAt = commit?.commit.committer.date || "";
+
+  return {
+    number: issueNumber,
+    title: titleFromMarkdown(markdown, issueNumber),
+    markdown,
+    publishedAt,
+    publishedLabel: publishedAt ? formatDate(publishedAt) : "发布日期见源文件",
+    sourceUrl,
+    rawUrl,
+    commitUrl: commit?.html_url || sourceUrl,
+  };
+}
+
 export async function getLatestWeeklyIssue() {
   weeklyCache ||= loadLatestWeeklyIssue();
   return weeklyCache;
+}
+
+export async function getWeeklyIssueByNumber(issueNumber: number) {
+  if (!weeklyIssueCache.has(issueNumber)) {
+    weeklyIssueCache.set(issueNumber, loadWeeklyIssueByNumber(issueNumber));
+  }
+
+  return weeklyIssueCache.get(issueNumber)!;
 }
