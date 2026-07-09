@@ -38,22 +38,25 @@ const content = marked.parse(proxyWeeklyImages(articleMarkdown), {
       <DashboardSidebar active="weekly" />
 
       <main class="dashboard-main route-main notes-sketch-main weekly-news-main">
-        <section class="article-hero notes-sketch-article-hero weekly-news-hero">
-          <div class="page-shell article-shell">
-            <p class="note-meta">信息来源：ruanyf/weekly</p>
-            <h1>每周新闻</h1>
-            <p class="hero-copy">{issue.title}</p>
-            <div class="weekly-issue-meta">
-              <span>第 {issue.number} 期</span>
-              <time datetime={issue.publishedAt}>发布于 {issue.publishedLabel}</time>
+        <section class="page-hero projects-sketch-hero weekly-news-hero">
+          <div class="page-shell route-hero-grid">
+            <div>
+              <span class="eyebrow">每周新闻</span>
+              <h1>开源周刊</h1>
+              <p class="hero-copy">{issue.title}</p>
+              <div class="tag-row">
+                <span class="tag">最新一期</span>
+                <span class="tag">GitHub 同步</span>
+              </div>
+              <a class="inline-link" href={issue.sourceUrl} target="_blank" rel="noreferrer">
+                查看来源文件
+              </a>
             </div>
-            <div class="tag-row">
-              <span class="tag">最新一期</span>
-              <span class="tag">GitHub 同步</span>
+            <div class="route-hero-panel">
+              <p class="project-meta">本期信息</p>
+              <h3>第 {issue.number} 期</h3>
+              <p>发布于 {issue.publishedLabel}</p>
             </div>
-            <a class="inline-link" href={issue.sourceUrl} target="_blank" rel="noreferrer">
-              查看来源文件
-            </a>
           </div>
         </section>
 

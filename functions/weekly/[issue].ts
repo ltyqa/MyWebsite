@@ -275,18 +275,15 @@ function renderReviewPanel(links: WeeklyReviewLink[]) {
 
 function renderIssueMain(issue: WeeklyIssue, articleHtml: string, reviewLinks: WeeklyReviewLink[]) {
   const published = issue.publishedAt
-    ? `<time datetime="${escapeHtml(issue.publishedAt)}">发布于 ${escapeHtml(issue.publishedLabel)}</time>`
-    : `<span>${escapeHtml(issue.publishedLabel)}</span>`;
+    ? `发布于 ${escapeHtml(issue.publishedLabel)}`
+    : escapeHtml(issue.publishedLabel);
 
-  return `<section class="article-hero notes-sketch-article-hero weekly-news-hero">
-    <div class="page-shell article-shell">
-      <p class="note-meta">信息来源：ruanyf/weekly</p>
-      <h1>每周新闻</h1>
+  return `<section class="page-hero projects-sketch-hero weekly-news-hero">
+    <div class="page-shell route-hero-grid">
+      <div>
+      <span class="eyebrow">每周新闻</span>
+      <h1>开源周刊</h1>
       <p class="hero-copy">${escapeHtml(issue.title)}</p>
-      <div class="weekly-issue-meta">
-        <span>第 ${issue.number} 期</span>
-        ${published}
-      </div>
       <div class="tag-row">
         <span class="tag">动态读取</span>
         <span class="tag">GitHub 同步</span>
@@ -294,6 +291,12 @@ function renderIssueMain(issue: WeeklyIssue, articleHtml: string, reviewLinks: W
       <a class="inline-link" href="${issue.sourceUrl}" target="_blank" rel="noreferrer">
         查看来源文件
       </a>
+      </div>
+      <div class="route-hero-panel">
+        <p class="project-meta">本期信息</p>
+        <h3>第 ${issue.number} 期</h3>
+        <p>${published}</p>
+      </div>
     </div>
   </section>
   <article class="page-shell article-shell article-body notes-sketch-article weekly-news-article">${articleHtml}</article>
@@ -305,11 +308,18 @@ function renderNotFoundMain(issueNumber: number | undefined) {
     ? `没有找到第 ${issueNumber} 期周刊。`
     : "请输入有效的周刊期号。";
 
-  return `<section class="article-hero notes-sketch-article-hero weekly-news-hero">
-    <div class="page-shell article-shell">
-      <p class="note-meta">信息来源：ruanyf/weekly</p>
-      <h1>每周新闻</h1>
+  return `<section class="page-hero projects-sketch-hero weekly-news-hero">
+    <div class="page-shell route-hero-grid">
+      <div>
+      <span class="eyebrow">每周新闻</span>
+      <h1>开源周刊</h1>
       <p class="hero-copy">${message}</p>
+      </div>
+      <div class="route-hero-panel">
+        <p class="project-meta">本期信息</p>
+        <h3>未找到</h3>
+        <p>${message}</p>
+      </div>
     </div>
   </section>
   <section class="page-shell article-shell article-body notes-sketch-article weekly-news-article weekly-not-found">

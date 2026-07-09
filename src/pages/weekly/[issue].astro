@@ -72,32 +72,39 @@ const pageDescription = issue
       <DashboardSidebar active="weekly" />
 
       <main class="dashboard-main route-main notes-sketch-main weekly-news-main">
-        <section class="article-hero notes-sketch-article-hero weekly-news-hero">
-          <div class="page-shell article-shell">
-            <p class="note-meta">信息来源：ruanyf/weekly</p>
-            <h1>每周新闻</h1>
-            <p class="hero-copy">{issue?.title || errorMessage}</p>
+        <section class="page-hero projects-sketch-hero weekly-news-hero">
+          <div class="page-shell route-hero-grid">
+            <div>
+              <span class="eyebrow">每周新闻</span>
+              <h1>开源周刊</h1>
+              <p class="hero-copy">{issue?.title || errorMessage}</p>
+              {
+                issue && (
+                  <>
+                    <div class="tag-row">
+                      <span class="tag">站内阅读</span>
+                      <span class="tag">GitHub 同步</span>
+                    </div>
+                    <a class="inline-link" href={issue.sourceUrl} target="_blank" rel="noreferrer">
+                      查看来源文件
+                    </a>
+                  </>
+                )
+              }
+            </div>
             {
               issue && (
-                <>
-                  <div class="weekly-issue-meta">
-                    <span>第 {issue.number} 期</span>
+                <div class="route-hero-panel">
+                  <p class="project-meta">本期信息</p>
+                  <h3>第 {issue.number} 期</h3>
                     {
                       issue.publishedAt ? (
-                        <time datetime={issue.publishedAt}>发布于 {issue.publishedLabel}</time>
+                      <p>发布于 {issue.publishedLabel}</p>
                       ) : (
-                        <span>{issue.publishedLabel}</span>
+                      <p>{issue.publishedLabel}</p>
                       )
                     }
-                  </div>
-                  <div class="tag-row">
-                    <span class="tag">站内阅读</span>
-                    <span class="tag">GitHub 同步</span>
-                  </div>
-                  <a class="inline-link" href={issue.sourceUrl} target="_blank" rel="noreferrer">
-                    查看来源文件
-                  </a>
-                </>
+                </div>
               )
             }
           </div>
