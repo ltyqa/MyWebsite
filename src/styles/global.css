@@ -2920,6 +2920,7 @@ h2 {
 }
 
 .sketch-chart {
+  position: relative;
   display: grid;
   height: 82px;
   grid-template-columns: repeat(21, minmax(0, 1fr));
@@ -2927,18 +2928,206 @@ h2 {
   gap: 4px;
   margin-top: 12px;
   border-bottom: 3px solid var(--sketch-ink);
+  overflow: visible;
 }
 
 .sketch-chart span {
+  position: relative;
+  z-index: 0;
   min-height: 8px;
   border: 2px solid var(--sketch-ink);
   border-bottom: 0;
   background: repeating-linear-gradient(-45deg, rgba(47, 111, 237, 0.18) 0 4px, rgba(71, 192, 106, 0.18) 4px 8px);
+  cursor: help;
+  transform-origin: bottom center;
+  transition:
+    background 180ms ease,
+    box-shadow 180ms ease,
+    filter 180ms ease,
+    opacity 180ms ease,
+    transform 180ms ease;
 }
 
 .sketch-chart span.empty {
   background: rgba(26, 26, 26, 0.08);
   border-color: rgba(26, 26, 26, 0.22);
+}
+
+.handdrawn-home.is-room-open .sketch-chart span {
+  animation: sketch-chart-rise 680ms cubic-bezier(0.22, 1, 0.36, 1) backwards;
+  animation-delay: calc(var(--bar-index, 0) * 38ms);
+}
+
+.sketch-chart span:nth-child(1) {
+  --bar-index: 0;
+}
+
+.sketch-chart span:nth-child(2) {
+  --bar-index: 1;
+}
+
+.sketch-chart span:nth-child(3) {
+  --bar-index: 2;
+}
+
+.sketch-chart span:nth-child(4) {
+  --bar-index: 3;
+}
+
+.sketch-chart span:nth-child(5) {
+  --bar-index: 4;
+}
+
+.sketch-chart span:nth-child(6) {
+  --bar-index: 5;
+}
+
+.sketch-chart span:nth-child(7) {
+  --bar-index: 6;
+}
+
+.sketch-chart span:nth-child(8) {
+  --bar-index: 7;
+}
+
+.sketch-chart span:nth-child(9) {
+  --bar-index: 8;
+}
+
+.sketch-chart span:nth-child(10) {
+  --bar-index: 9;
+}
+
+.sketch-chart span:nth-child(11) {
+  --bar-index: 10;
+}
+
+.sketch-chart span:nth-child(12) {
+  --bar-index: 11;
+}
+
+.sketch-chart span:nth-child(13) {
+  --bar-index: 12;
+}
+
+.sketch-chart span:nth-child(14) {
+  --bar-index: 13;
+}
+
+.sketch-chart span:nth-child(15) {
+  --bar-index: 14;
+}
+
+.sketch-chart span:nth-child(16) {
+  --bar-index: 15;
+}
+
+.sketch-chart span:nth-child(17) {
+  --bar-index: 16;
+}
+
+.sketch-chart span:nth-child(18) {
+  --bar-index: 17;
+}
+
+.sketch-chart span:nth-child(19) {
+  --bar-index: 18;
+}
+
+.sketch-chart span:nth-child(20) {
+  --bar-index: 19;
+}
+
+.sketch-chart span:nth-child(21) {
+  --bar-index: 20;
+}
+
+.sketch-chart span::before,
+.sketch-chart span::after {
+  position: absolute;
+  left: 50%;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, 8px) rotate(-1deg);
+  transition:
+    opacity 160ms ease,
+    transform 180ms ease;
+}
+
+.sketch-chart span::before {
+  bottom: calc(100% + 6px);
+  z-index: 4;
+  width: 12px;
+  height: 12px;
+  border-right: 2px solid rgba(29, 29, 27, 0.72);
+  border-bottom: 2px solid rgba(29, 29, 27, 0.72);
+  background: #fff8d6;
+  content: "";
+  transform: translate(-50%, 10px) rotate(45deg);
+}
+
+.sketch-chart span::after {
+  bottom: calc(100% + 12px);
+  z-index: 5;
+  width: max-content;
+  max-width: min(240px, 62vw);
+  border: 2px solid rgba(29, 29, 27, 0.76);
+  border-radius: 5px 14px 4px 12px / 12px 4px 11px 5px;
+  background:
+    linear-gradient(rgba(255, 248, 214, 0.96), rgba(255, 248, 214, 0.96)),
+    repeating-linear-gradient(0deg, transparent 0 16px, rgba(29, 29, 27, 0.055) 16px 17px);
+  box-shadow: 5px 6px 0 rgba(29, 29, 27, 0.14);
+  color: #1d1d1b;
+  content: attr(title);
+  font-size: 12px;
+  font-weight: 850;
+  line-height: 1.35;
+  padding: 8px 10px;
+  white-space: normal;
+}
+
+.sketch-chart:has(span:hover) span:not(:hover) {
+  opacity: 0.48;
+  filter: grayscale(0.35);
+}
+
+.sketch-chart span:hover {
+  z-index: 3;
+  background:
+    linear-gradient(rgba(255, 244, 197, 0.62), rgba(255, 244, 197, 0.62)),
+    repeating-linear-gradient(-45deg, rgba(47, 111, 237, 0.35) 0 4px, rgba(71, 192, 106, 0.34) 4px 8px);
+  box-shadow:
+    0 0 0 3px rgba(247, 211, 111, 0.5),
+    4px -5px 0 rgba(29, 29, 27, 0.1);
+  filter: saturate(1.2);
+  transform: translateY(-4px) scaleX(1.14);
+}
+
+.sketch-chart span:hover::before,
+.sketch-chart span:hover::after {
+  opacity: 1;
+  transform: translate(-50%, 0) rotate(-1deg);
+}
+
+.sketch-chart span:hover::before {
+  transform: translate(-50%, 0) rotate(45deg);
+}
+
+@keyframes sketch-chart-rise {
+  0% {
+    opacity: 0;
+    transform: scaleY(0) translateY(10px);
+  }
+
+  65% {
+    opacity: 1;
+    transform: scaleY(1.08) translateY(-2px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scaleY(1) translateY(0);
+  }
 }
 
 .poster-feed,
@@ -3224,6 +3413,10 @@ h2 {
 
   .paper-loader__progress::before,
   .paper-loader__progress::after {
+    animation: none;
+  }
+
+  .handdrawn-home.is-room-open .sketch-chart span {
     animation: none;
   }
 }
