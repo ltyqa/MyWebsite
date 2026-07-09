@@ -2920,6 +2920,10 @@ h2 {
   --poster-rotate: 1deg;
 }
 
+.poster-wall--activity:has(.sketch-chart span:hover) {
+  z-index: 60;
+}
+
 .poster-wall--projects {
   right: 7%;
   top: 24%;
@@ -2975,6 +2979,7 @@ h2 {
 
 .sketch-chart {
   position: relative;
+  z-index: 1;
   display: grid;
   height: 82px;
   grid-template-columns: repeat(21, minmax(0, 1fr));
@@ -3146,7 +3151,7 @@ h2 {
 }
 
 .sketch-chart span:hover {
-  z-index: 3;
+  z-index: 20;
   background:
     linear-gradient(rgba(255, 244, 197, 0.62), rgba(255, 244, 197, 0.62)),
     repeating-linear-gradient(-45deg, rgba(47, 111, 237, 0.35) 0 4px, rgba(71, 192, 106, 0.34) 4px 8px);
@@ -3760,9 +3765,9 @@ h2 {
 }
 
 .weekly-review-header {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
   gap: 20px;
 }
 
@@ -3791,6 +3796,7 @@ h2 {
   font-size: clamp(16px, 1.7vw, 22px);
   font-weight: 900;
   line-height: 1;
+  margin-bottom: 5px;
   transform: rotate(1.2deg);
   transition:
     box-shadow 0.18s ease,
@@ -3938,11 +3944,14 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  min-width: 0;
 }
 
 .weekly-issue-jump input {
   min-height: 48px;
+  min-width: 0;
   flex: 1 1 180px;
+  max-width: 100%;
   border: 2px solid #1d1d1b;
   border-radius: 4px 12px 5px 10px / 10px 5px 12px 4px;
   background: rgba(255, 253, 248, 0.82);
@@ -3978,12 +3987,41 @@ h2 {
 
 @media (max-width: 640px) {
   .weekly-review-header {
-    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 12px;
+  }
+
+  .weekly-review-header h2 {
+    font-size: clamp(38px, 13vw, 52px);
   }
 
   .weekly-latest-link {
-    width: fit-content;
+    min-height: 42px;
+    gap: 7px;
+    justify-self: end;
+    margin-bottom: 4px;
+    padding: 0 11px;
+    font-size: clamp(14px, 4.2vw, 18px);
+  }
+
+  .weekly-latest-link em {
+    padding: 3px 5px 2px;
+  }
+
+  .weekly-issue-jump-row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .weekly-issue-jump input,
+  .weekly-issue-jump button {
+    width: 100%;
+  }
+
+  .weekly-issue-jump button {
     justify-self: start;
+    width: fit-content;
+    min-width: 112px;
   }
 }
 
