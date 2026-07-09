@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+
 :root {
   color-scheme: light;
+  --font-display-hand: "ZCOOL KuaiLe", "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", system-ui, sans-serif;
   --ink: #1d2433;
   --muted: #6d7483;
   --paper: #edf2f8;
@@ -42,6 +45,32 @@ body {
     system-ui,
     sans-serif;
   line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+.brand,
+.button,
+.inline-link,
+.paper-mini-button,
+.poster-kicker,
+.project-meta,
+.note-meta,
+.tag,
+.status-pill,
+.dashboard-body .brand-dashboard,
+.dashboard-body .side-nav a,
+.dashboard-body .sidebar-card,
+.dashboard-body .sidebar-card strong,
+.dashboard-body .sidebar-card span,
+.poster-wall h1,
+.poster-wall h2,
+.poster-feed strong,
+.poster-list strong,
+.poster-note-list strong,
+.sticky-cloud a {
+  font-family: var(--font-display-hand);
 }
 
 html.is-entering-home-room,
