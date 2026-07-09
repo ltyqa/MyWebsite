@@ -7,7 +7,14 @@ import { getLatestWeeklyIssue } from "../data/weekly";
 
 const issue = await getLatestWeeklyIssue();
 const articleMarkdown = issue.markdown.replace(/^#\s+.+\r?\n+/, "");
-const content = marked.parse(articleMarkdown, {
+
+function proxyWeeklyImages(markdown: string) {
+  return markdown.replace(/!\[([^\]]*)\]\((https:\/\/cdn\.beekka\.com\/[^)]+)\)/g, (_match, alt, src) => {
+    return `![${alt}](/weekly-image?src=${encodeURIComponent(src)})`;
+  });
+}
+
+const content = marked.parse(proxyWeeklyImages(articleMarkdown), {
   async: false,
   gfm: true,
   breaks: false,
