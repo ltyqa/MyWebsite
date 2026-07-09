@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Neucha|Patrick+Hand+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Neucha&family=Patrick+Hand+SC&family=ZCOOL+KuaiLe&family=ZCOOL+XiaoWei&display=swap");
 
 :root {
   color-scheme: light;
-  --font-sketch-body: "Neucha", "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", system-ui, sans-serif;
-  --font-sketch-title: "Patrick Hand SC", "Neucha", "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", system-ui, sans-serif;
+  --font-sketch-body: "ZCOOL XiaoWei", "Neucha", "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", system-ui, sans-serif;
+  --font-sketch-title: "ZCOOL KuaiLe", "Patrick Hand SC", "Neucha", "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", system-ui, sans-serif;
   --ink: #1d2433;
   --muted: #6d7483;
   --paper: #edf2f8;
@@ -57,6 +57,27 @@ h6,
 .note-meta,
 .tag,
 .status-pill {
+  font-family: var(--font-sketch-title);
+}
+
+.poster-wall,
+.poster-wall strong,
+.poster-wall small,
+.poster-wall em,
+.poster-wall time,
+.poster-feed p,
+.poster-list a,
+.poster-note-list a,
+.sticky-cloud a {
+  font-family: var(--font-sketch-body);
+}
+
+.poster-wall h1,
+.poster-wall h2,
+.poster-wall .poster-kicker,
+.poster-feed strong,
+.poster-list strong,
+.poster-note-list strong {
   font-family: var(--font-sketch-title);
 }
 
