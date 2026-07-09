@@ -338,7 +338,7 @@ function replaceMain(shell: string, mainHtml: string) {
 
 function weeklyIndexRequest(request: Request) {
   const url = new URL(request.url);
-  url.pathname = "/weekly/index.html";
+  url.pathname = "/weekly/";
   url.search = "";
   return new Request(url.toString(), request);
 }
