@@ -1,6 +1,6 @@
 ---
 type Props = {
-  active?: "home" | "projects" | "notes" | "activity" | "about";
+  active?: "home" | "projects" | "notes" | "weekly" | "about";
 };
 
 const { active = "home" } = Astro.props;
@@ -33,17 +33,15 @@ const { active = "home" } = Astro.props;
       </span>
       笔记
     </a>
+    <a class={active === "weekly" ? "active" : ""} href="/weekly/">
+      <span class="nav-icon nav-icon-text" aria-hidden="true">周</span>
+      每周新闻
+    </a>
     <a class={active === "about" ? "active" : ""} href="/about/">
       <span class="nav-icon">
         <img src="/images/icon-about.svg" alt="" aria-hidden="true" />
       </span>
       作者信息
-    </a>
-    <a class={active === "activity" ? "active" : ""} href="/?skipIntro=1#room">
-      <span class="nav-icon">
-        <img src="/images/icon-activity.svg" alt="" aria-hidden="true" />
-      </span>
-      活跃记录
     </a>
   </nav>
 

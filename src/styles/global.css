@@ -1186,6 +1186,15 @@ h2 {
   object-fit: contain;
 }
 
+.nav-icon-text {
+  place-items: center;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: 950;
+  line-height: 1;
+}
+
 .sidebar-card {
   margin-top: auto;
   border-radius: 10px;
@@ -3641,6 +3650,38 @@ h2 {
 .notes-sketch-article blockquote {
   border-left: 4px solid #1a1a1a;
   background: rgba(250, 247, 239, 0.76);
+}
+
+.weekly-issue-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 16px 0 14px;
+}
+
+.weekly-issue-meta span,
+.weekly-issue-meta time {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  border: 2px solid rgba(29, 29, 27, 0.72);
+  border-radius: 4px 12px 5px 10px / 10px 5px 12px 4px;
+  background:
+    linear-gradient(rgba(255, 248, 214, 0.82), rgba(255, 248, 214, 0.82)),
+    repeating-linear-gradient(105deg, rgba(29, 29, 27, 0.04) 0 4px, transparent 4px 11px);
+  color: #1d1d1b;
+  font-size: 13px;
+  font-weight: 900;
+  padding: 6px 10px;
+}
+
+.weekly-news-article img {
+  width: 100%;
+  height: auto;
+  margin: 18px 0;
+  border: 3px solid #1d1d1b !important;
+  border-radius: 4px !important;
+  box-shadow: 5px 6px 0 rgba(29, 29, 27, 0.12);
 }
 
 @media (max-width: 980px) {

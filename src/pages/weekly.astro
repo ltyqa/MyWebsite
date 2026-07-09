@@ -1,0 +1,55 @@
+---
+import { marked } from "marked";
+import "../styles/global.css";
+import DashboardSidebar from "../components/DashboardSidebar.astro";
+import PageTransitions from "../components/PageTransitions.astro";
+import { getLatestWeeklyIssue } from "../data/weekly";
+
+const issue = await getLatestWeeklyIssue();
+const articleMarkdown = issue.markdown.replace(/^#\s+.+\r?\n+/, "");
+const content = marked.parse(articleMarkdown, {
+  async: false,
+  gfm: true,
+  breaks: false,
+});
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <PageTransitions />
+    <meta name="description" content={`来自 ruanyf/weekly 的最新一期：${issue.title}`} />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23151a18'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='30' font-family='Arial,sans-serif' fill='%23fffaf0'%3E%E7%AB%99%3C/text%3E%3C/svg%3E" />
+    <title>每周新闻 | {issue.title}</title>
+    <script src="/js/live-site-data.js" defer></script>
+  </head>
+  <body class="dashboard-body notes-sketch-body weekly-news-body">
+    <div class="app-shell">
+      <DashboardSidebar active="weekly" />
+
+      <main class="dashboard-main route-main notes-sketch-main weekly-news-main">
+        <section class="article-hero notes-sketch-article-hero weekly-news-hero">
+          <div class="page-shell article-shell">
+            <p class="note-meta">信息来源：ruanyf/weekly</p>
+            <h1>每周新闻</h1>
+            <p class="hero-copy">{issue.title}</p>
+            <div class="weekly-issue-meta">
+              <span>第 {issue.number} 期</span>
+              <time datetime={issue.publishedAt}>发布于 {issue.publishedLabel}</time>
+            </div>
+            <div class="tag-row">
+              <span class="tag">最新一期</span>
+              <span class="tag">GitHub 同步</span>
+            </div>
+            <a class="inline-link" href={issue.sourceUrl} target="_blank" rel="noreferrer">
+              查看来源文件
+            </a>
+          </div>
+        </section>
+
+        <article class="page-shell article-shell article-body notes-sketch-article weekly-news-article" set:html={content} />
+      </main>
+    </div>
+  </body>
+</html>
