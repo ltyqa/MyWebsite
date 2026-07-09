@@ -4309,6 +4309,48 @@ h2 {
   box-shadow: none;
 }
 
+.weekly-news-hero .weekly-source-link {
+  position: relative;
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  margin-top: 10px;
+  border: 3px solid #1d1d1b;
+  border-radius: 4px 16px 5px 13px / 13px 5px 14px 4px;
+  background: #1d1d1b;
+  color: #fffdfa;
+  padding: 0 22px;
+  box-shadow: 5px 6px 0 rgba(29, 29, 27, 0.16);
+  font-size: clamp(18px, 1.8vw, 24px);
+  font-weight: 950;
+  line-height: 1;
+  text-decoration: none;
+  transform: rotate(-0.4deg);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    background 180ms ease,
+    color 180ms ease;
+}
+
+.weekly-news-hero .weekly-source-link::after {
+  display: inline-block;
+  margin-left: 10px;
+  color: #f5d66f;
+  content: "->";
+  transform: translateY(-1px);
+}
+
+.weekly-news-hero .weekly-source-link:hover,
+.weekly-news-hero .weekly-source-link:focus-visible {
+  background: #2f9b54;
+  color: #fffdfa;
+  box-shadow: 7px 8px 0 rgba(29, 29, 27, 0.18);
+  transform: translate(-1px, -2px) rotate(0.35deg);
+}
+
 .projects-sketch-section .project-directory {
   gap: 28px;
 }

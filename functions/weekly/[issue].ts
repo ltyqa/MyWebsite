@@ -284,11 +284,7 @@ function renderIssueMain(issue: WeeklyIssue, articleHtml: string, reviewLinks: W
       <span class="eyebrow">每周新闻</span>
       <h1>开源周刊</h1>
       <p class="hero-copy">${escapeHtml(issue.title)}</p>
-      <div class="tag-row">
-        <span class="tag">动态读取</span>
-        <span class="tag">GitHub 同步</span>
-      </div>
-      <a class="inline-link" href="${issue.sourceUrl}" target="_blank" rel="noreferrer">
+      <a class="weekly-source-link" href="${issue.sourceUrl}" target="_blank" rel="noreferrer">
         查看来源文件
       </a>
       </div>
