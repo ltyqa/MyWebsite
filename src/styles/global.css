@@ -1,9 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Neucha&family=Patrick+Hand+SC&family=ZCOOL+KuaiLe&family=ZCOOL+XiaoWei&display=swap");
-
 :root {
   color-scheme: light;
-  --font-sketch-body: "ZCOOL XiaoWei", "Neucha", "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", system-ui, sans-serif;
-  --font-sketch-title: "ZCOOL KuaiLe", "Patrick Hand SC", "Neucha", "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", system-ui, sans-serif;
   --ink: #1d2433;
   --muted: #6d7483;
   --paper: #edf2f8;
@@ -38,47 +34,14 @@ body {
     radial-gradient(circle at 88% 12%, rgba(71, 192, 106, 0.13), transparent 30rem),
     linear-gradient(135deg, #f7faff 0%, #e8eef7 46%, #f4f7fb 100%);
   color: var(--ink);
-  font-family: var(--font-sketch-body);
+  font-family:
+    "Microsoft YaHei UI",
+    "Microsoft YaHei",
+    "PingFang SC",
+    "Hiragino Sans GB",
+    system-ui,
+    sans-serif;
   line-height: 1.6;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.brand,
-.button,
-.inline-link,
-.paper-mini-button,
-.poster-kicker,
-.project-meta,
-.note-meta,
-.tag,
-.status-pill {
-  font-family: var(--font-sketch-title);
-}
-
-.poster-wall,
-.poster-wall strong,
-.poster-wall small,
-.poster-wall em,
-.poster-wall time,
-.poster-feed p,
-.poster-list a,
-.poster-note-list a,
-.sticky-cloud a {
-  font-family: var(--font-sketch-body);
-}
-
-.poster-wall h1,
-.poster-wall h2,
-.poster-wall .poster-kicker,
-.poster-feed strong,
-.poster-list strong,
-.poster-note-list strong {
-  font-family: var(--font-sketch-title);
 }
 
 html.is-entering-home-room,
@@ -2194,7 +2157,12 @@ h2 {
   background:
     linear-gradient(rgba(250, 247, 239, 0.84), rgba(250, 247, 239, 0.84)),
     repeating-linear-gradient(15deg, rgba(26, 26, 26, 0.025) 0 1px, transparent 1px 18px);
-  font-family: var(--font-sketch-body);
+  font-family:
+    "Microsoft YaHei UI",
+    "Microsoft YaHei",
+    "PingFang SC",
+    system-ui,
+    sans-serif;
 }
 
 .handdrawn-home h1,
