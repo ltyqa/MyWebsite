@@ -138,46 +138,71 @@ function stripWeeklyTitle(markdown: string) {
   return markdown.replace(/^#\s+.+\r?\n+/, "");
 }
 
-function getReviewSection(markdown: string) {
-  const heading = markdown.match(/^##\s+往年回顾\s*$/m);
-  if (!heading || heading.index === undefined) return "";
+function getReviewSectionRanges(markdown: string) {
+  const ranges: Array<{ start: number; end: number }> = [];
+  const headingPattern = /^##\s+(往年回顾|历史上的本周)\s*$/gm;
+  let heading: RegExpExecArray | null;
 
-  const section = markdown.slice(heading.index);
-  const done = section.match(/\r?\n[（(]完[）)]\s*$/m);
-  return done && done.index !== undefined ? section.slice(0, done.index) : section;
+  while ((heading = headingPattern.exec(markdown))) {
+    const start = heading.index;
+    const rest = markdown.slice(start);
+    const afterHeading = markdown.slice(headingPattern.lastIndex);
+    const nextHeading = afterHeading.match(/\r?\n##\s+/);
+    const done = rest.match(/\r?\n[（(]完[）)]\s*$/m);
+    const endCandidates = [
+      nextHeading?.index === undefined ? undefined : headingPattern.lastIndex + nextHeading.index,
+      done?.index === undefined ? undefined : start + done.index + done[0].length,
+    ].filter((value): value is number => typeof value === "number");
+
+    ranges.push({
+      start,
+      end: endCandidates.length ? Math.min(...endCandidates) : markdown.length,
+    });
+  }
+
+  return ranges;
+}
+
+function getReviewSections(markdown: string) {
+  return getReviewSectionRanges(markdown).map(({ start, end }) => markdown.slice(start, end));
 }
 
 function removeWeeklyReviewSection(markdown: string) {
-  const heading = markdown.match(/^##\s+往年回顾\s*$/m);
-  if (!heading || heading.index === undefined) return markdown;
+  const ranges = getReviewSectionRanges(markdown);
+  if (ranges.length === 0) return markdown;
 
-  const beforeReview = markdown.slice(0, heading.index).trimEnd();
-  const section = markdown.slice(heading.index);
-  const done = section.match(/\r?\n[（(]完[）)]\s*$/m);
+  let result = "";
+  let cursor = 0;
 
-  if (!done || done.index === undefined) return beforeReview;
+  for (const range of ranges) {
+    result += markdown.slice(cursor, range.start).trimEnd();
+    cursor = range.end;
+  }
 
-  const afterDone = section.slice(done.index + done[0].length).trimStart();
-  return [beforeReview, afterDone].filter(Boolean).join("\n\n");
+  result += markdown.slice(cursor).trimStart();
+  return result.trim();
 }
 
 function extractWeeklyReviewLinks(markdown: string): WeeklyReviewLink[] {
-  const section = getReviewSection(markdown);
+  const sections = getReviewSections(markdown);
   const links: WeeklyReviewLink[] = [];
   const seen = new Set<number>();
-  const linkPattern = /\[([^\]]+)\]\(([^)]+)\)\s*[（(]#(\d+)[）)]/g;
-  let match: RegExpExecArray | null;
+  const linkPattern = /\[([^\]]+)\]\(([^)]+)\)\s*[（(][^）)]*#\s*(\d+)[^）)]*[）)]/g;
 
-  while ((match = linkPattern.exec(section))) {
-    const issueNumber = Number(match[3]);
-    if (!Number.isInteger(issueNumber) || seen.has(issueNumber)) continue;
+  for (const section of sections) {
+    let match: RegExpExecArray | null;
 
-    seen.add(issueNumber);
-    links.push({
-      title: match[1].trim(),
-      issueNumber,
-      href: `/weekly/${issueNumber}/`,
-    });
+    while ((match = linkPattern.exec(section))) {
+      const issueNumber = Number(match[3]);
+      if (!Number.isInteger(issueNumber) || seen.has(issueNumber)) continue;
+
+      seen.add(issueNumber);
+      links.push({
+        title: match[1].trim(),
+        issueNumber,
+        href: `/weekly/${issueNumber}/`,
+      });
+    }
   }
 
   return links;
