@@ -10,8 +10,14 @@ const { links } = Astro.props;
 
 <section class="page-shell article-shell weekly-review-panel" aria-labelledby="weekly-review-title">
   <div class="weekly-review-header">
-    <p class="note-meta">站内阅读</p>
-    <h2 id="weekly-review-title">往年回顾</h2>
+    <div>
+      <p class="note-meta">站内阅读</p>
+      <h2 id="weekly-review-title">往年回顾</h2>
+    </div>
+    <a class="weekly-latest-link" href="/weekly/" aria-label="跳转到最新一期每周新闻">
+      <span>最新一期</span>
+      <em>NEW</em>
+    </a>
   </div>
 
   {

@@ -81,6 +81,7 @@ h3,
 .poster-note-list strong,
 .sticky-cloud a,
 .weekly-review-panel,
+.weekly-latest-link,
 .weekly-review-links a,
 .weekly-issue-jump label,
 .weekly-issue-jump input,
@@ -3758,11 +3759,74 @@ h2 {
   transform: rotate(-6deg);
 }
 
+.weekly-review-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
 .weekly-review-header h2 {
   margin: 4px 0 0;
   color: #1d1d1b;
   font-size: clamp(36px, 6vw, 70px);
   line-height: 1;
+}
+
+.weekly-latest-link {
+  position: relative;
+  display: inline-flex;
+  min-height: 48px;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 9px;
+  border: 3px solid #1d1d1b;
+  border-radius: 4px 14px 5px 12px / 13px 5px 12px 4px;
+  background:
+    linear-gradient(rgba(29, 29, 27, 0.94), rgba(29, 29, 27, 0.94)),
+    repeating-linear-gradient(28deg, rgba(255, 253, 248, 0.12) 0 2px, transparent 2px 11px);
+  color: #fffdfa;
+  padding: 0 14px;
+  box-shadow: 5px 6px 0 rgba(29, 29, 27, 0.18);
+  font-size: clamp(16px, 1.7vw, 22px);
+  font-weight: 900;
+  line-height: 1;
+  transform: rotate(1.2deg);
+  transition:
+    box-shadow 0.18s ease,
+    transform 0.18s ease,
+    background 0.18s ease;
+}
+
+.weekly-latest-link::before {
+  content: "";
+  position: absolute;
+  right: 18px;
+  top: -12px;
+  width: 44px;
+  height: 16px;
+  border: 2px solid rgba(29, 29, 27, 0.14);
+  background: rgba(247, 211, 111, 0.62);
+  transform: rotate(7deg);
+}
+
+.weekly-latest-link:hover,
+.weekly-latest-link:focus-visible {
+  background:
+    linear-gradient(rgba(38, 144, 74, 0.95), rgba(38, 144, 74, 0.95)),
+    repeating-linear-gradient(28deg, rgba(255, 253, 248, 0.14) 0 2px, transparent 2px 11px);
+  box-shadow: 7px 8px 0 rgba(29, 29, 27, 0.2);
+  outline: none;
+  transform: translateY(-2px) rotate(1.2deg);
+}
+
+.weekly-latest-link em {
+  border: 2px solid #fffdfa;
+  border-radius: 999px;
+  color: #fffdfa;
+  font-size: 0.65em;
+  font-style: normal;
+  padding: 4px 6px 3px;
 }
 
 .weekly-review-links {
@@ -3910,6 +3974,17 @@ h2 {
   margin: 0;
   color: #b83b2a;
   font-weight: 800;
+}
+
+@media (max-width: 640px) {
+  .weekly-review-header {
+    display: grid;
+  }
+
+  .weekly-latest-link {
+    width: fit-content;
+    justify-self: start;
+  }
 }
 
 @media (max-width: 980px) {
