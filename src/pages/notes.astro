@@ -44,6 +44,38 @@ const categories = ["全部", ...Array.from(new Set(notes.map((note) => note.cat
 
       <section class="section-tight notes-sketch-section">
         <div class="page-shell notes-directory">
+          <div class="note-search-panel" role="search" aria-label="搜索笔记">
+            <div class="note-search-control">
+              <svg viewBox="0 0 32 32" aria-hidden="true">
+                <circle cx="13.5" cy="13.5" r="8.5"></circle>
+                <path d="m20 20 7 7"></path>
+              </svg>
+              <input
+                id="note-search-input"
+                type="search"
+                inputmode="search"
+                autocomplete="off"
+                placeholder="搜索标题、分类或摘要"
+                aria-label="搜索笔记"
+                aria-controls="note-results"
+                data-note-search-input
+              />
+              <button
+                class="note-search-clear"
+                type="button"
+                aria-label="清除搜索关键词"
+                data-note-search-clear
+                hidden
+              >
+                清除
+              </button>
+            </div>
+            <div class="note-search-summary">
+              <p data-note-result-count aria-live="polite">共 {notes.length} 篇</p>
+              <span aria-hidden="true">Ctrl / ⌘ K</span>
+            </div>
+          </div>
+
           <aside class="note-rail directory-rail" aria-label="笔记分类">
             {
               categories.map((category, index) => (
@@ -59,10 +91,14 @@ const categories = ["全部", ...Array.from(new Set(notes.map((note) => note.cat
             }
           </aside>
 
-          <div class="note-list directory-list">
+          <div class="note-list directory-list" id="note-results">
             {
               notes.map((note) => (
-                <article class="note-card note-card-large" data-note-category={note.category}>
+                <article
+                  class="note-card note-card-large"
+                  data-note-category={note.category}
+                  data-note-search={`${note.title} ${note.category} ${note.excerpt} ${note.meta}`}
+                >
                   <p class="note-meta">{note.meta}</p>
                   <h2>{note.title}</h2>
                   <p>{note.excerpt}</p>
@@ -74,34 +110,132 @@ const categories = ["全部", ...Array.from(new Set(notes.map((note) => note.cat
                 </article>
               ))
             }
+            <div class="note-empty-state" data-note-empty-state hidden>
+              <p class="poster-kicker">没有匹配结果</p>
+              <h2>换个关键词试试</h2>
+              <p>当前关键词和分类下没有找到笔记，可以清除筛选后重新浏览。</p>
+              <button type="button" data-note-filter-reset>清除筛选</button>
+            </div>
           </div>
         </div>
       </section>
       </main>
     </div>
 
-    <script>
-      const categoryButtons = document.querySelectorAll("[data-category]");
-      const noteCards = document.querySelectorAll("[data-note-category]");
+    <script is:inline data-astro-rerun>
+      (() => {
+        window.__notesSearchCleanup?.();
 
-      categoryButtons.forEach((button) => {
-        button.addEventListener("click", () => {
-          const category = button.getAttribute("data-category");
+        const cleanupTasks = [];
+        window.__notesSearchCleanup = () => {
+          cleanupTasks.splice(0).forEach((cleanup) => cleanup());
+        };
 
-          categoryButtons.forEach((item) => {
-            item.classList.remove("active");
-            item.setAttribute("aria-pressed", "false");
+        const searchInput = document.querySelector("[data-note-search-input]");
+        const clearButton = document.querySelector("[data-note-search-clear]");
+        const resetButton = document.querySelector("[data-note-filter-reset]");
+        const resultCount = document.querySelector("[data-note-result-count]");
+        const emptyState = document.querySelector("[data-note-empty-state]");
+        const noteList = document.querySelector("#note-results");
+        const categoryButtons = Array.from(document.querySelectorAll("[data-category]"));
+        const noteCards = Array.from(document.querySelectorAll("[data-note-category]"));
+
+        if (!searchInput || !clearButton || !resetButton || !resultCount || !emptyState || !noteList) {
+          return;
+        }
+
+        let activeCategory = "全部";
+
+        const normalize = (value) => value.trim().toLocaleLowerCase("zh-CN");
+        const setActiveCategory = (category) => {
+          activeCategory = category || "全部";
+          categoryButtons.forEach((button) => {
+            const isActive = button.getAttribute("data-category") === activeCategory;
+            button.classList.toggle("active", isActive);
+            button.setAttribute("aria-pressed", String(isActive));
           });
-          button.classList.add("active");
-          button.setAttribute("aria-pressed", "true");
+        };
+
+        const applyFilters = () => {
+          const normalizedQuery = normalize(searchInput.value);
+          const queryTokens = normalizedQuery.split(/\s+/).filter(Boolean);
+          let visibleCount = 0;
 
           noteCards.forEach((card) => {
-            const isVisible =
-              category === "全部" || card.getAttribute("data-note-category") === category;
+            const matchesCategory =
+              activeCategory === "全部" ||
+              card.getAttribute("data-note-category") === activeCategory;
+            const searchValue = normalize(card.getAttribute("data-note-search") || "");
+            const matchesQuery = queryTokens.every((token) => searchValue.includes(token));
+            const isVisible = matchesCategory && matchesQuery;
+
             card.toggleAttribute("hidden", !isVisible);
+            if (isVisible) visibleCount += 1;
           });
+
+          const isDefaultView = activeCategory === "全部" && queryTokens.length === 0;
+          resultCount.textContent = isDefaultView
+            ? `共 ${noteCards.length} 篇`
+            : `找到 ${visibleCount} 篇`;
+          clearButton.toggleAttribute("hidden", searchInput.value.length === 0);
+          emptyState.toggleAttribute("hidden", visibleCount !== 0);
+          noteList.classList.toggle("is-empty", visibleCount === 0);
+        };
+
+        const handleSearchInput = () => applyFilters();
+        searchInput.addEventListener("input", handleSearchInput);
+        cleanupTasks.push(() => searchInput.removeEventListener("input", handleSearchInput));
+
+        categoryButtons.forEach((button) => {
+          const handleCategoryClick = () => {
+            setActiveCategory(button.getAttribute("data-category"));
+            applyFilters();
+          };
+          button.addEventListener("click", handleCategoryClick);
+          cleanupTasks.push(() => button.removeEventListener("click", handleCategoryClick));
         });
-      });
+
+        const handleClearSearch = () => {
+          searchInput.value = "";
+          applyFilters();
+          searchInput.focus();
+        };
+        clearButton.addEventListener("click", handleClearSearch);
+        cleanupTasks.push(() => clearButton.removeEventListener("click", handleClearSearch));
+
+        const handleResetFilters = () => {
+          searchInput.value = "";
+          setActiveCategory("全部");
+          applyFilters();
+          searchInput.focus();
+        };
+        resetButton.addEventListener("click", handleResetFilters);
+        cleanupTasks.push(() => resetButton.removeEventListener("click", handleResetFilters));
+
+        const handleKeyboardShortcut = (event) => {
+          const key = event.key.toLocaleLowerCase();
+          if ((event.ctrlKey || event.metaKey) && key === "k") {
+            event.preventDefault();
+            searchInput.focus();
+            searchInput.select();
+            return;
+          }
+
+          if (event.key === "Escape" && document.activeElement === searchInput) {
+            searchInput.value = "";
+            applyFilters();
+          }
+        };
+        document.addEventListener("keydown", handleKeyboardShortcut);
+        cleanupTasks.push(() => document.removeEventListener("keydown", handleKeyboardShortcut));
+
+        const handleBeforeSwap = () => window.__notesSearchCleanup?.();
+        document.addEventListener("astro:before-swap", handleBeforeSwap, { once: true });
+        cleanupTasks.push(() => document.removeEventListener("astro:before-swap", handleBeforeSwap));
+
+        setActiveCategory("全部");
+        applyFilters();
+      })();
     </script>
   </body>
 </html>

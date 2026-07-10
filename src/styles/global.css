@@ -5514,3 +5514,184 @@ h2 {
     grid-column: auto;
   }
 }
+
+/* Notes search */
+.notes-sketch-section .note-search-panel {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 18px;
+  padding: 15px 16px;
+  border: 3px solid #1d1d1b;
+  border-radius: 5px 15px 5px 13px / 13px 5px 14px 5px;
+  background:
+    linear-gradient(rgba(var(--warm-paper-card-rgb), 0.92), rgba(var(--warm-paper-card-rgb), 0.92)),
+    repeating-linear-gradient(0deg, transparent 0 23px, rgba(29, 29, 27, 0.045) 23px 24px);
+  box-shadow: 5px 6px 0 rgba(29, 29, 27, 0.08);
+}
+
+.notes-sketch-section .note-search-control {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr) auto;
+  min-height: 52px;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid #1d1d1b;
+  border-radius: 4px 11px 4px 10px / 10px 4px 11px 4px;
+  background: rgba(255, 253, 248, 0.76);
+  padding: 0 10px 0 14px;
+  transition:
+    background 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
+}
+
+.notes-sketch-section .note-search-control:focus-within {
+  background: #fffdfa;
+  box-shadow:
+    4px 5px 0 rgba(29, 29, 27, 0.13),
+    inset 0 -6px 0 rgba(247, 211, 111, 0.2);
+  transform: translateY(-1px);
+}
+
+.notes-sketch-section .note-search-control svg {
+  width: 26px;
+  height: 26px;
+  overflow: visible;
+  fill: none;
+  stroke: #1d1d1b;
+  stroke-linecap: round;
+  stroke-width: 2.4;
+}
+
+.notes-sketch-section .note-search-control input {
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #1d1d1b;
+  font-family: var(--font-ui);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.notes-sketch-section .note-search-control input::placeholder {
+  color: rgba(29, 29, 27, 0.52);
+}
+
+.notes-sketch-section .note-search-control input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.notes-sketch-section .note-search-clear,
+.notes-sketch-section .note-empty-state button {
+  min-height: 38px;
+  border: 2px solid #1d1d1b;
+  border-radius: 3px 9px 3px 8px / 8px 3px 9px 3px;
+  background: #2f9b54;
+  color: #fffdfa;
+  padding: 0 13px;
+  font-family: var(--font-ui);
+  font-weight: 700;
+  box-shadow: 3px 3px 0 rgba(29, 29, 27, 0.14);
+  cursor: pointer;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    background 180ms ease;
+}
+
+.notes-sketch-section .note-search-clear:hover,
+.notes-sketch-section .note-search-clear:focus-visible,
+.notes-sketch-section .note-empty-state button:hover,
+.notes-sketch-section .note-empty-state button:focus-visible {
+  background: #268847;
+  box-shadow: 4px 5px 0 rgba(29, 29, 27, 0.17);
+  transform: translate(-1px, -1px);
+}
+
+.notes-sketch-section .note-search-summary {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  white-space: nowrap;
+}
+
+.notes-sketch-section .note-search-summary p {
+  color: #1d1d1b;
+  font-weight: 700;
+}
+
+.notes-sketch-section .note-search-summary span {
+  border: 1px dashed rgba(29, 29, 27, 0.42);
+  border-radius: 3px;
+  padding: 3px 7px;
+  color: rgba(29, 29, 27, 0.58);
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 12px;
+}
+
+.notes-sketch-section .note-empty-state {
+  display: grid;
+  min-height: 280px;
+  place-items: center;
+  align-content: center;
+  gap: 12px;
+  border: 2px dashed rgba(29, 29, 27, 0.42);
+  border-radius: 5px 13px 5px 11px / 11px 5px 13px 5px;
+  background: rgba(var(--warm-paper-card-rgb), 0.72);
+  padding: 36px;
+  text-align: center;
+}
+
+.notes-sketch-section .note-empty-state[hidden],
+.notes-sketch-section .note-search-clear[hidden] {
+  display: none !important;
+}
+
+.notes-sketch-section .note-empty-state h2 {
+  color: #1d2230;
+  font-size: clamp(28px, 4vw, 42px);
+}
+
+.notes-sketch-section .note-empty-state > p:not(.poster-kicker) {
+  max-width: 34rem;
+  color: rgba(29, 34, 48, 0.68);
+}
+
+@media (max-width: 860px) {
+  .notes-sketch-section .note-search-panel {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .notes-sketch-section .note-search-summary {
+    justify-content: space-between;
+    padding: 0 2px;
+  }
+}
+
+@media (max-width: 380px) {
+  .notes-sketch-section .note-search-control {
+    grid-template-columns: 24px minmax(0, 1fr) auto;
+    gap: 8px;
+    padding-left: 10px;
+  }
+
+  .notes-sketch-section .note-search-control svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .notes-sketch-section .note-search-clear {
+    padding: 0 10px;
+  }
+
+  .notes-sketch-section .note-search-summary span {
+    display: none;
+  }
+}
