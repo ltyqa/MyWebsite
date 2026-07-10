@@ -3,6 +3,7 @@
 :root {
   color-scheme: light;
   --font-display-hand: "ZCOOL KuaiLe", "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", system-ui, sans-serif;
+  --font-ui: "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", system-ui, sans-serif;
   --ink: #1d2433;
   --muted: #6d7483;
   --paper: #edf2f8;
@@ -37,13 +38,7 @@ body {
     radial-gradient(circle at 88% 12%, rgba(71, 192, 106, 0.13), transparent 30rem),
     linear-gradient(135deg, #f7faff 0%, #e8eef7 46%, #f4f7fb 100%);
   color: var(--ink);
-  font-family:
-    "Microsoft YaHei UI",
-    "Microsoft YaHei",
-    "PingFang SC",
-    "Hiragino Sans GB",
-    system-ui,
-    sans-serif;
+  font-family: var(--font-ui);
   line-height: 1.6;
 }
 
@@ -51,6 +46,22 @@ h1,
 h2,
 h3,
 .brand,
+.dashboard-body .brand-dashboard,
+.route-hero-panel h3,
+.status-card h2,
+.status-card h3,
+.status-count,
+.poster-stats strong,
+.poster-wall h1,
+.poster-wall h2,
+.poster-feed strong,
+.poster-list strong,
+.poster-note-list strong {
+  font-family: var(--font-display-hand);
+}
+
+.dashboard-body .side-nav a,
+.dashboard-body .sidebar-card,
 .button,
 .inline-link,
 .paper-mini-button,
@@ -59,26 +70,9 @@ h3,
 .note-meta,
 .tag,
 .status-pill,
-.dashboard-body .brand-dashboard,
-.dashboard-body .side-nav a,
-.dashboard-body .sidebar-card,
-.dashboard-body .sidebar-card strong,
-.dashboard-body .sidebar-card span,
-.route-hero-panel,
-.route-hero-panel h3,
 .route-hero-panel p,
-.status-card,
-.status-card h2,
-.status-card h3,
 .status-card p,
-.status-count,
 .poster-stats span,
-.poster-stats strong,
-.poster-wall h1,
-.poster-wall h2,
-.poster-feed strong,
-.poster-list strong,
-.poster-note-list strong,
 .sticky-cloud a,
 .weekly-review-panel,
 .weekly-latest-link,
@@ -86,7 +80,15 @@ h3,
 .weekly-issue-jump label,
 .weekly-issue-jump input,
 .weekly-issue-jump button {
-  font-family: var(--font-display-hand);
+  font-family: var(--font-ui);
+}
+
+.project-meta,
+.note-meta,
+.poster-kicker,
+.status-pill {
+  font-weight: 600;
+  letter-spacing: 0.035em;
 }
 
 html.is-entering-home-room,
@@ -5093,8 +5095,8 @@ h2 {
   background: #2f9b54 !important;
   color: #fffdfa !important;
   box-shadow: 5px 6px 0 rgba(29, 29, 27, 0.18) !important;
-  font-family: var(--font-display-hand);
-  font-weight: 950;
+  font-family: var(--font-ui);
+  font-weight: 700;
   letter-spacing: 0;
   text-decoration: none;
 }
@@ -5152,8 +5154,8 @@ h2 {
   box-shadow:
     4px 5px 0 rgba(29, 29, 27, 0.18),
     inset 0 -6px 0 rgba(247, 211, 111, 0.24) !important;
-  font-family: var(--font-display-hand);
-  font-weight: 950;
+  font-family: var(--font-ui);
+  font-weight: 700;
 }
 
 .notes-sketch-section .note-rail button.active:hover,
