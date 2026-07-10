@@ -70,21 +70,17 @@
   function wireNoteFilters() {
     const categoryButtons = document.querySelectorAll("[data-category]");
     const noteCards = document.querySelectorAll("[data-note-category]");
-    const activeStyle = "background: var(--ink); color: var(--paper);";
-    const idleStyle = "background: transparent; color: var(--muted);";
 
     categoryButtons.forEach((button) => {
       button.addEventListener("click", () => {
         const category = button.getAttribute("data-category");
 
-        categoryButtons.forEach((item) => {
+          categoryButtons.forEach((item) => {
           item.classList.remove("active");
           item.setAttribute("aria-pressed", "false");
-          item.setAttribute("style", idleStyle);
         });
         button.classList.add("active");
         button.setAttribute("aria-pressed", "true");
-        button.setAttribute("style", activeStyle);
 
         noteCards.forEach((card) => {
           const isVisible =
@@ -125,7 +121,6 @@
             class="${index === 0 ? "active" : ""}"
             type="button"
             aria-pressed="${index === 0 ? "true" : "false"}"
-            style="${index === 0 ? "background: var(--ink); color: var(--paper);" : ""}"
             data-category="${attr(category)}"
           >
             ${text(category)}
