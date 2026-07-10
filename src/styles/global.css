@@ -5476,7 +5476,41 @@ h2 {
 }
 
 @media (max-width: 860px) {
+  .notes-sketch-section .note-rail {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    overflow: visible;
+    padding: 14px;
+  }
+
+  .notes-sketch-section .note-rail button {
+    width: 100%;
+    min-width: 0;
+    min-height: 48px;
+    margin: 0;
+    padding: 10px 12px;
+    white-space: normal;
+    text-align: center;
+    line-height: 1.35;
+    transform: none !important;
+  }
+
+  .notes-sketch-section .note-rail button:first-child {
+    grid-column: 1 / -1;
+  }
+
   .notes-sketch-section .note-card-large:not(:first-child) {
     padding: 22px 20px;
+  }
+}
+
+@media (max-width: 380px) {
+  .notes-sketch-section .note-rail {
+    grid-template-columns: 1fr;
+  }
+
+  .notes-sketch-section .note-rail button:first-child {
+    grid-column: auto;
   }
 }
