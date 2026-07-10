@@ -16,8 +16,27 @@ const activityChart = await getGitHubActivityChart();
 const latestProjects = projects.slice(0, 3);
 const latestNotes = notes.slice(0, 3);
 const latestActivity = activities[0];
-const activeProjectCount = projects.filter((project) => project.status === "维护中").length || projects.length;
-const categories = Array.from(new Set(notes.map((note) => note.category))).slice(0, 6);
+const allCategories = Array.from(new Set(notes.map((note) => note.category)));
+const categories = allCategories.slice(0, 6);
+const latestNote = latestNotes[0];
+
+function formatOverviewDate(value?: string) {
+  if (!value) return "今日";
+
+  const separatedDate = value.match(/(\d{1,2})\D+(\d{1,2})/);
+  if (separatedDate) {
+    return `${Number(separatedDate[1])} 月 ${Number(separatedDate[2])} 日`;
+  }
+
+  const compactDate = value.match(/^(\d{2})(\d{2})$/);
+  if (compactDate) {
+    return `${Number(compactDate[1])} 月 ${Number(compactDate[2])} 日`;
+  }
+
+  return value;
+}
+
+const latestActivityDate = formatOverviewDate(latestActivity?.[0]);
 ---
 
 <html lang="zh-CN">
@@ -98,11 +117,19 @@ const categories = Array.from(new Set(notes.map((note) => note.category))).slice
           <p class="poster-kicker">首页概览</p>
           <h1>近期更新</h1>
           <div class="poster-stats">
-            <span><strong>{projects.length}</strong> 项目</span>
-            <span><strong>{notes.length}</strong> 笔记</span>
-            <span><strong>{activeProjectCount}</strong> 维护中</span>
-            <span><strong>{latestActivity?.[0] || "今日"}</strong> 最新动态</span>
+            <span><strong>{projects.length}</strong> 个公开项目</span>
+            <span><strong>{notes.length}</strong> 篇笔记</span>
+            <span><strong>{allCategories.length}</strong> 个内容分类</span>
+            <span><strong>{latestActivityDate}</strong> 最近更新</span>
           </div>
+          <a
+            class="overview-primary-link"
+            href={latestNote?.link || "/notes/"}
+            aria-label={latestNote ? `阅读最新笔记：${latestNote.title}` : "浏览笔记目录"}
+          >
+            <span>{latestNote ? "阅读最新笔记" : "浏览笔记目录"}</span>
+            <em aria-hidden="true">→</em>
+          </a>
         </section>
 
         <section class="poster-wall poster-wall--activity" aria-label="活跃记录海报">
