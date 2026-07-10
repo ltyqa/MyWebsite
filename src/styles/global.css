@@ -5429,3 +5429,54 @@ h2 {
   padding: 0 !important;
   font-size: 0.95em;
 }
+
+/* Surface hierarchy: reserve the full tape-and-shadow treatment for featured
+   content, then progressively quiet supporting panels and repeated entries. */
+.room-dashboard-main .poster-wall--activity::after,
+.room-dashboard-main .poster-wall--projects::after,
+.room-dashboard-main .poster-wall--notes::after {
+  display: none;
+}
+
+.room-dashboard-main .poster-wall--activity,
+.room-dashboard-main .poster-wall--projects,
+.room-dashboard-main .poster-wall--notes {
+  box-shadow: 5px 6px 0 rgba(29, 29, 27, 0.07);
+}
+
+.room-dashboard-main .poster-wall--categories {
+  border-width: 2px;
+  border-style: dashed;
+  background:
+    linear-gradient(rgba(var(--warm-paper-card-rgb), 0.66), rgba(var(--warm-paper-card-rgb), 0.66)),
+    repeating-linear-gradient(0deg, transparent 0 24px, rgba(var(--warm-paper-line-rgb), 0.035) 24px 25px);
+  box-shadow: none;
+}
+
+.room-dashboard-main .poster-wall--categories::before,
+.room-dashboard-main .poster-wall--categories::after {
+  display: none;
+}
+
+.notes-sketch-section .note-card-large:not(:first-child) {
+  gap: 11px;
+  padding: 24px 26px;
+  border-width: 2px;
+  border-radius: 4px 10px 4px 9px / 9px 4px 10px 4px;
+  box-shadow: 2px 3px 0 rgba(29, 29, 27, 0.055);
+  transform: none;
+}
+
+.notes-sketch-section .note-card-large:not(:first-child)::before {
+  display: none;
+}
+
+.notes-sketch-section .note-card-large:first-child {
+  box-shadow: 7px 8px 0 rgba(29, 29, 27, 0.09);
+}
+
+@media (max-width: 860px) {
+  .notes-sketch-section .note-card-large:not(:first-child) {
+    padding: 22px 20px;
+  }
+}
