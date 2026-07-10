@@ -5145,6 +5145,7 @@ h2 {
 .notes-sketch-section .note-rail button[aria-pressed="true"],
 .note-rail button.active,
 .note-rail button[aria-pressed="true"] {
+  border: 2px solid #1d1d1b !important;
   border-color: #1d1d1b !important;
   background: #2f9b54 !important;
   color: #fffdfa !important;
@@ -5153,6 +5154,18 @@ h2 {
     inset 0 -6px 0 rgba(247, 211, 111, 0.24) !important;
   font-family: var(--font-display-hand);
   font-weight: 950;
+}
+
+.notes-sketch-section .note-rail button.active:hover,
+.notes-sketch-section .note-rail button.active:focus-visible,
+.notes-sketch-section .note-rail button[aria-pressed="true"]:hover,
+.notes-sketch-section .note-rail button[aria-pressed="true"]:focus-visible,
+.note-rail button.active:hover,
+.note-rail button.active:focus-visible,
+.note-rail button[aria-pressed="true"]:hover,
+.note-rail button[aria-pressed="true"]:focus-visible {
+  border: 2px solid #1d1d1b !important;
+  border-color: #1d1d1b !important;
 }
 
 @media (max-width: 980px) {
