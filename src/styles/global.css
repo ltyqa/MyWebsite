@@ -4803,6 +4803,12 @@ h2 {
   transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
+.ai-news-main .ai-update[hidden],
+.ai-news-main .ai-news-date[hidden],
+.ai-news-main .ai-news-no-results[hidden] {
+  display: none !important;
+}
+
 .ai-news-main .ai-update:nth-of-type(even) {
   transform: rotate(0.12deg);
 }
