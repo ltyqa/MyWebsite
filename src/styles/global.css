@@ -4776,10 +4776,9 @@ h2 {
   padding: 22px 24px;
   border: 2px solid rgba(29, 29, 27, 0.86);
   border-radius: 7px 4px 9px 5px;
-  background-color: #eee4d1;
-  background-image:
-    repeating-linear-gradient(0deg, transparent 0 24px, rgba(29, 29, 27, 0.045) 24px 25px),
-    radial-gradient(circle at 14% 20%, rgba(255, 244, 184, 0.3), transparent 40%);
+  background:
+    linear-gradient(rgba(var(--warm-paper-card-rgb), 0.9), rgba(var(--warm-paper-card-rgb), 0.9)),
+    repeating-linear-gradient(0deg, transparent 0 24px, rgba(var(--warm-paper-line-rgb), 0.045) 24px 25px);
   box-shadow: 7px 7px 0 rgba(28, 28, 27, 0.12);
 }
 
@@ -4797,10 +4796,9 @@ h2 {
   padding: clamp(22px, 3vw, 34px);
   border: 2px solid rgba(29, 29, 27, 0.88);
   border-radius: 5px 9px 6px 4px / 7px 5px 9px 6px;
-  background-color: #efe5d2;
-  background-image:
-    repeating-linear-gradient(0deg, transparent 0 25px, rgba(29, 29, 27, 0.05) 25px 26px),
-    radial-gradient(circle at 88% 12%, rgba(255, 244, 184, 0.26), transparent 38%);
+  background:
+    linear-gradient(rgba(var(--warm-paper-card-rgb), 0.9), rgba(var(--warm-paper-card-rgb), 0.9)),
+    repeating-linear-gradient(0deg, transparent 0 24px, rgba(var(--warm-paper-line-rgb), 0.045) 24px 25px);
   box-shadow: 8px 8px 0 rgba(28, 28, 27, 0.13);
   transition: transform 180ms ease, box-shadow 180ms ease;
 }
@@ -5571,15 +5569,6 @@ h2 {
 .dashboard-body .brand-mark {
   background: rgba(var(--warm-paper-card-rgb), 0.92);
 }
-
-.ai-news-main .ai-news-hero .route-hero-panel {
-  background-color: #eee4d1;
-  background-image:
-    repeating-linear-gradient(0deg, transparent 0 24px, rgba(var(--warm-paper-line-rgb), 0.045) 24px 25px),
-    radial-gradient(circle at 82% 14%, rgba(255, 244, 184, 0.28), transparent 42%);
-}
-
-
 
 .notes-sketch-section .note-card-large::before,
 .projects-sketch-hero .route-hero-grid::before,
