@@ -44,9 +44,9 @@ const generatedLabel = aiUpdatesGeneratedAt
           </div>
         </section>
 
-        <section class="section-tight ai-news-section" aria-labelledby="ai-news-list-title">
+        <section class="section-tight projects-sketch-section ai-news-section" aria-labelledby="ai-news-list-title">
           <div class="page-shell">
-            <div class="ai-news-toolbar">
+            <div class="project-row ai-news-toolbar">
               <div>
                 <p class="project-meta">按产品筛选</p>
                 <h2 id="ai-news-list-title">更新档案</h2>
@@ -73,7 +73,7 @@ const generatedLabel = aiUpdatesGeneratedAt
                   return (
                     <>
                       {date !== previousDate && <h3 class="ai-news-date" data-date-for={entry.product}>{date}</h3>}
-                      <article class="ai-update" data-ai-product={entry.product}>
+                      <article class="project-row ai-update" data-ai-product={entry.product}>
                         <div class="ai-update-meta">
                           <strong>{entry.product}</strong>
                           <span>{aiUpdateKindLabel(entry.kind)}</span>
