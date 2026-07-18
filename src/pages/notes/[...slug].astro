@@ -1,8 +1,8 @@
 ---
-import { marked } from "marked";
 import "../../styles/global.css";
 import DashboardSidebar from "../../components/DashboardSidebar.astro";
 import { getGitHubNoteBySlug, getGitHubNotes } from "../../data/github";
+import { renderMarkdown } from "../../lib/markdown";
 
 export async function getStaticPaths() {
   const notes = await getGitHubNotes();
@@ -18,13 +18,14 @@ const note = slug ? await getGitHubNoteBySlug(slug) : undefined;
 if (!note) {
   return Astro.redirect("/notes/");
 }
+const currentNote = note;
 
 function encodePath(path: string) {
   return path.split("/").map(encodeURIComponent).join("/");
 }
 
 function rewriteMarkdownAssets(markdown: string) {
-  const baseDir = note.path.split("/").slice(0, -1).join("/");
+  const baseDir = currentNote.path.split("/").slice(0, -1).join("/");
 
   return markdown.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (match, alt, src) => {
     if (/^(https?:|data:|\/)/i.test(src)) return match;
@@ -38,11 +39,7 @@ function rewriteMarkdownAssets(markdown: string) {
   });
 }
 
-const content = marked.parse(rewriteMarkdownAssets(note.markdown), {
-  async: false,
-  gfm: true,
-  breaks: false,
-});
+const content = renderMarkdown(rewriteMarkdownAssets(currentNote.markdown));
 ---
 
 <html lang="zh-CN">

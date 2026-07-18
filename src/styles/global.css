@@ -60,6 +60,215 @@ h3,
   font-family: var(--font-display-hand);
 }
 
+/* AI updates: editorial timeline that inherits the site's paper-and-ink system. */
+.ai-news-main {
+  min-width: 0;
+}
+
+.ai-news-hero h1 {
+  max-width: 8ch;
+}
+
+.ai-news-status h3 {
+  font-size: clamp(1.35rem, 2vw, 2rem);
+}
+
+.ai-news-section {
+  padding-bottom: 5rem;
+}
+
+.ai-news-toolbar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.ai-news-toolbar h2 {
+  margin: 0.2rem 0 0;
+  font-size: clamp(2rem, 5vw, 4.5rem);
+  line-height: 0.95;
+}
+
+.ai-news-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.55rem;
+}
+
+.ai-news-filters button {
+  border: 2px solid #1d1d1b;
+  border-radius: 0;
+  background: #fffdf6;
+  color: #1d1d1b;
+  padding: 0.65rem 1rem;
+  font: inherit;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 rgba(29, 29, 27, 0.16);
+  transition: transform 160ms ease, box-shadow 160ms ease, background-color 160ms ease;
+}
+
+.ai-news-filters button:hover,
+.ai-news-filters button:focus-visible {
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 0 rgba(29, 29, 27, 0.18);
+}
+
+.ai-news-filters button:focus-visible {
+  outline: 3px solid #de5a3d;
+  outline-offset: 3px;
+}
+
+.ai-news-filters button:active {
+  transform: translateY(1px);
+  box-shadow: 1px 1px 0 rgba(29, 29, 27, 0.16);
+}
+
+.ai-news-filters button.is-active {
+  background: #1d1d1b;
+  color: #fffdf6;
+}
+
+.ai-news-timeline {
+  display: grid;
+  grid-template-columns: minmax(7rem, 0.22fr) minmax(0, 1fr);
+  column-gap: clamp(1.5rem, 4vw, 4rem);
+}
+
+.ai-news-date {
+  grid-column: 1 / -1;
+  margin: 2.8rem 0 0;
+  padding: 0 0 0.75rem;
+  border-bottom: 3px solid #1d1d1b;
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: clamp(1.2rem, 2vw, 1.65rem);
+}
+
+.ai-news-date:first-child {
+  margin-top: 0;
+}
+
+.ai-update {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(7rem, 0.22fr) minmax(0, 1fr);
+  column-gap: clamp(1.5rem, 4vw, 4rem);
+  padding: 2rem 0;
+}
+
+.ai-update + .ai-update {
+  border-top: 1px dashed rgba(29, 29, 27, 0.32);
+}
+
+.ai-update-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 0.82rem;
+}
+
+.ai-update-meta strong {
+  border: 2px solid #1d1d1b;
+  padding: 0.25rem 0.48rem;
+  background: #de5a3d;
+  color: #fffdf6;
+}
+
+.ai-update-meta span,
+.ai-update-meta time {
+  color: rgba(29, 29, 27, 0.66);
+}
+
+.ai-update-copy h4 {
+  max-width: 26ch;
+  margin: 0;
+  font-size: clamp(1.45rem, 3vw, 2.4rem);
+  line-height: 1.15;
+}
+
+.ai-update-copy > p {
+  max-width: 72ch;
+  margin: 1rem 0;
+  line-height: 1.8;
+}
+
+.ai-translation-note {
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 0.82rem;
+  color: rgba(29, 29, 27, 0.62);
+}
+
+.ai-update-copy details {
+  max-width: 76ch;
+  margin: 1rem 0;
+}
+
+.ai-update-copy summary {
+  width: fit-content;
+  cursor: pointer;
+  font-weight: 900;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.ai-update-original {
+  margin-top: 0.8rem;
+  border-left: 4px solid #1d1d1b;
+  padding: 0.3rem 0 0.3rem 1rem;
+  color: rgba(29, 29, 27, 0.76);
+}
+
+.ai-update-original p {
+  line-height: 1.7;
+}
+
+.ai-news-empty,
+.ai-news-no-results {
+  border: 3px solid #1d1d1b;
+  background: #fffdf6;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  box-shadow: 5px 5px 0 rgba(29, 29, 27, 0.12);
+}
+
+.ai-news-empty h3 {
+  max-width: 24ch;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+@media (max-width: 720px) {
+  .ai-news-toolbar,
+  .ai-update {
+    grid-template-columns: 1fr;
+  }
+
+  .ai-news-filters {
+    justify-content: flex-start;
+  }
+
+  .ai-news-timeline {
+    grid-template-columns: 1fr;
+  }
+
+  .ai-update-meta {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ai-news-filters button {
+    transition: none;
+  }
+}
+
 .dashboard-body .side-nav a,
 .dashboard-body .sidebar-card,
 .button,

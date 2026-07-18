@@ -1,9 +1,9 @@
 ---
-import { marked } from "marked";
 import "../../styles/global.css";
 import DashboardSidebar from "../../components/DashboardSidebar.astro";
 import PageTransitions from "../../components/PageTransitions.astro";
 import WeeklyReviewPanel from "../../components/WeeklyReviewPanel.astro";
+import { renderMarkdown } from "../../lib/markdown";
 import {
   getLatestWeeklyIssue,
   getWeeklyIssueByNumber,
@@ -39,11 +39,7 @@ try {
   issue = await getWeeklyIssueByNumber(issueNumber);
   const articleMarkdown = removeWeeklyReviewSection(stripWeeklyTitle(issue.markdown));
   reviewLinks = extractWeeklyReviewLinks(issue.markdown);
-  content = marked.parse(proxyWeeklyImages(articleMarkdown), {
-    async: false,
-    gfm: true,
-    breaks: false,
-  });
+  content = renderMarkdown(proxyWeeklyImages(articleMarkdown));
 } catch (error) {
   Astro.response.status = 404;
   errorMessage = Number.isInteger(issueNumber) && issueNumber > 0
@@ -65,7 +61,7 @@ const pageDescription = issue
     <meta name="description" content={pageDescription} />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23151a18'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='30' font-family='Arial,sans-serif' fill='%23fffaf0'%3E%E7%AB%99%3C/text%3E%3C/svg%3E" />
     <title>{pageTitle}</title>
-    <script src="/js/live-site-data.js" defer></script>
+    <script is:inline src="/js/live-site-data.js" defer></script>
   </head>
   <body class="dashboard-body notes-sketch-body weekly-news-body">
     <div class="app-shell">

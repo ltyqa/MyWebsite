@@ -1,10 +1,10 @@
 ---
-import { marked } from "marked";
 import "../styles/global.css";
 import DashboardSidebar from "../components/DashboardSidebar.astro";
 import PageTransitions from "../components/PageTransitions.astro";
 import WeeklyReviewPanel from "../components/WeeklyReviewPanel.astro";
 import { getLatestWeeklyIssue } from "../data/weekly";
+import { renderMarkdown } from "../lib/markdown";
 import {
   extractWeeklyReviewLinks,
   proxyWeeklyImages,
@@ -16,11 +16,7 @@ const issue = await getLatestWeeklyIssue();
 const articleMarkdown = removeWeeklyReviewSection(stripWeeklyTitle(issue.markdown));
 const reviewLinks = extractWeeklyReviewLinks(issue.markdown);
 
-const content = marked.parse(proxyWeeklyImages(articleMarkdown), {
-  async: false,
-  gfm: true,
-  breaks: false,
-});
+const content = renderMarkdown(proxyWeeklyImages(articleMarkdown));
 ---
 
 <html lang="zh-CN">
@@ -31,7 +27,7 @@ const content = marked.parse(proxyWeeklyImages(articleMarkdown), {
     <meta name="description" content={`来自 ruanyf/weekly 的最新一期：${issue.title}`} />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23151a18'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='30' font-family='Arial,sans-serif' fill='%23fffaf0'%3E%E7%AB%99%3C/text%3E%3C/svg%3E" />
     <title>每周新闻 | {issue.title}</title>
-    <script src="/js/live-site-data.js" defer></script>
+    <script is:inline src="/js/live-site-data.js" defer></script>
   </head>
   <body class="dashboard-body notes-sketch-body weekly-news-body">
     <div class="app-shell">

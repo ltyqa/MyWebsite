@@ -59,9 +59,10 @@
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><path d="M8 14s1.5 2 4 2 4-2 4-2 M9 9h.01 M15 9h.01" /></svg>'
   ];
 
-  const container = document.querySelector('.scroll-decorations-container');
+  const container = document.querySelector<HTMLElement>('.scroll-decorations-container');
   
   if (container) {
+    const decorationContainer = container;
     const shouldRenderDecorations = () => !window.matchMedia('(max-width: 980px)').matches;
     // 获取页面真实尺寸
     function getLayoutDimensions() {
@@ -72,20 +73,20 @@
         document.documentElement.offsetHeight
       );
       // 获取父容器宽度（即 content 区域宽度）
-      const width = container.clientWidth || (window.innerWidth - 240);
+      const width = decorationContainer.clientWidth || (window.innerWidth - 240);
       return { width, height: docHeight };
     }
 
     // 采用 2D 碰撞检测的泊松盘简化算法，实现自然散落
     function regenerateDecorations() {
-      container.innerHTML = '';
+      decorationContainer.innerHTML = '';
 
       if (!shouldRenderDecorations()) {
         return;
       }
       
       const { width, height } = getLayoutDimensions();
-      const acceptedItems = [];
+      const acceptedItems: Array<{ xPx: number; yPx: number }> = [];
       const minDistance = 75; // 2D 像素距离约束。图标约 30-46px，此值能确保距离舒适且绝对不重叠
 
       // 根据页面总高度动态计算目标装饰物总数（平均每 220px 放置一个）
@@ -128,7 +129,7 @@
     }
 
     // 创建 DOM 元素并应用随机大小、旋转和淡入
-    function createItem(x, y) {
+    function createItem(x: number, y: number) {
       const el = document.createElement('div');
       el.className = 'scroll-deco-item';
       
@@ -143,7 +144,7 @@
       el.style.left = `${x}%`;
       
       el.style.transform = `scale(0.7) rotate(${rotate}deg)`;
-      container.appendChild(el);
+      decorationContainer.appendChild(el);
       
       requestAnimationFrame(() => {
         el.style.opacity = '0.15';
@@ -164,9 +165,9 @@
     }
 
     // 窗口尺寸缩放防抖，重新对齐高度
-    let resizeTimeout;
+    let resizeTimeout: ReturnType<typeof setTimeout> | undefined;
     window.addEventListener('resize', () => {
-      clearTimeout(resizeTimeout);
+      if (resizeTimeout) clearTimeout(resizeTimeout);
       resizeTimeout = setTimeout(regenerateDecorations, 150);
     });
   }

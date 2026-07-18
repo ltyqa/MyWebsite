@@ -1,0 +1,151 @@
+---
+import "../styles/global.css";
+import DashboardSidebar from "../components/DashboardSidebar.astro";
+import PageTransitions from "../components/PageTransitions.astro";
+import {
+  aiUpdateKindLabel,
+  aiUpdates,
+  aiUpdatesGeneratedAt,
+  formatAiUpdateDate,
+} from "../data/aiUpdates";
+
+const products = ["all", "GPT", "Claude", "Gemini"] as const;
+const generatedLabel = aiUpdatesGeneratedAt
+  ? formatAiUpdateDate(aiUpdatesGeneratedAt)
+  : "等待首次同步";
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <PageTransitions />
+    <meta name="description" content="聚合 GPT、Claude 与 Gemini 官方更新日志和新闻，提供中文机器翻译与原文链接。" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23151a18'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='30' font-family='Arial,sans-serif' fill='%23fffaf0'%3E%E7%AB%99%3C/text%3E%3C/svg%3E" />
+    <title>AI 动态 | GPT、Claude 与 Gemini</title>
+  </head>
+  <body class="dashboard-body ai-news-body">
+    <div class="app-shell">
+      <DashboardSidebar active="ai-news" />
+
+      <main class="dashboard-main route-main ai-news-main">
+        <section class="page-hero projects-sketch-hero ai-news-hero">
+          <div class="page-shell route-hero-grid">
+            <div>
+              <span class="eyebrow">官方信源聚合</span>
+              <h1>AI 动态</h1>
+              <p class="hero-copy">每天整理 GPT、Claude 与 Gemini 的产品、API 和模型更新。</p>
+            </div>
+            <div class="route-hero-panel ai-news-status">
+              <p class="project-meta">最近同步</p>
+              <h3>{generatedLabel}</h3>
+              <p>{aiUpdates.length} 条动态 / 保留最近 90 天</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-tight ai-news-section" aria-labelledby="ai-news-list-title">
+          <div class="page-shell">
+            <div class="ai-news-toolbar">
+              <div>
+                <p class="project-meta">按产品筛选</p>
+                <h2 id="ai-news-list-title">更新档案</h2>
+              </div>
+              <div class="ai-news-filters" role="group" aria-label="按产品筛选">
+                {products.map((product) => (
+                  <button
+                    class={product === "all" ? "is-active" : ""}
+                    type="button"
+                    data-ai-filter={product}
+                    aria-pressed={product === "all" ? "true" : "false"}
+                  >
+                    {product === "all" ? "全部" : product}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {aiUpdates.length ? (
+              <div class="ai-news-timeline" data-ai-timeline>
+                {aiUpdates.map((entry, index) => {
+                  const date = formatAiUpdateDate(entry.publishedAt);
+                  const previousDate = index ? formatAiUpdateDate(aiUpdates[index - 1].publishedAt) : "";
+                  return (
+                    <>
+                      {date !== previousDate && <h3 class="ai-news-date" data-date-for={entry.product}>{date}</h3>}
+                      <article class="ai-update" data-ai-product={entry.product}>
+                        <div class="ai-update-meta">
+                          <strong>{entry.product}</strong>
+                          <span>{aiUpdateKindLabel(entry.kind)}</span>
+                          <time datetime={entry.publishedAt}>{date}</time>
+                        </div>
+                        <div class="ai-update-copy">
+                          <h4>{entry.titleZh || entry.title}</h4>
+                          {entry.summaryZh ? <p>{entry.summaryZh}</p> : <p>{entry.summary}</p>}
+                          {entry.translationStatus !== "translated" && (
+                            <p class="ai-translation-note">中文翻译待同步，当前显示官方原文。</p>
+                          )}
+                          <details>
+                            <summary>查看官方原文</summary>
+                            <div class="ai-update-original">
+                              <strong>{entry.title}</strong>
+                              {entry.summary && <p>{entry.summary}</p>}
+                            </div>
+                          </details>
+                          <a class="inline-link" href={entry.url} target="_blank" rel="noreferrer noopener">
+                            前往官方来源
+                          </a>
+                        </div>
+                      </article>
+                    </>
+                  );
+                })}
+              </div>
+            ) : (
+              <div class="ai-news-empty">
+                <p class="project-meta">尚未同步</p>
+                <h3>第一次定时任务运行后，动态会出现在这里。</h3>
+                <p>数据只来自 OpenAI、Anthropic、Claude、Google 与 Google DeepMind 官方页面。</p>
+              </div>
+            )}
+            <p class="ai-news-no-results" data-ai-no-results hidden>这个筛选条件下暂时没有动态。</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      const buttons = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-ai-filter]"));
+      const entries = Array.from(document.querySelectorAll<HTMLElement>("[data-ai-product]"));
+      const dateHeadings = Array.from(document.querySelectorAll<HTMLElement>("[data-date-for]"));
+      const empty = document.querySelector<HTMLElement>("[data-ai-no-results]");
+
+      for (const button of buttons) {
+        button.addEventListener("click", () => {
+          const selected = button.dataset.aiFilter || "all";
+          let visibleCount = 0;
+          for (const candidate of buttons) {
+            const active = candidate === button;
+            candidate.classList.toggle("is-active", active);
+            candidate.setAttribute("aria-pressed", String(active));
+          }
+          for (const entry of entries) {
+            const visible = selected === "all" || entry.dataset.aiProduct === selected;
+            entry.hidden = !visible;
+            if (visible) visibleCount += 1;
+          }
+          for (const heading of dateHeadings) {
+            let sibling = heading.nextElementSibling;
+            let hasVisibleEntry = false;
+            while (sibling && !sibling.matches("[data-date-for]")) {
+              if (sibling.matches("[data-ai-product]") && !(sibling as HTMLElement).hidden) hasVisibleEntry = true;
+              sibling = sibling.nextElementSibling;
+            }
+            heading.hidden = !hasVisibleEntry;
+          }
+          if (empty) empty.hidden = visibleCount !== 0;
+        });
+      }
+    </script>
+  </body>
+</html>

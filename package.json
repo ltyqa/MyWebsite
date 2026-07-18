@@ -7,16 +7,23 @@
     "dev": "astro dev --host 127.0.0.1",
     "clean": "node scripts/clean-dist.mjs",
     "optimize:images": "node scripts/optimize-images.mjs",
+    "collect:ai": "node scripts/collect-ai-updates.mjs",
     "build": "npm run optimize:images && npm run clean && astro build",
+    "check": "astro check",
+    "test": "npm run check && npm run build",
     "preview": "astro preview --host 127.0.0.1"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "astro": "^5.12.0",
+    "cheerio": "^1.2.0",
+    "fast-xml-parser": "^5.10.1",
     "marked": "^18.0.5",
+    "sanitize-html": "^2.17.0",
     "typescript": "^5.8.3"
   },
   "devDependencies": {
+    "@types/sanitize-html": "^2.16.0",
     "sharp": "^0.35.3"
   }
 }

@@ -6,6 +6,7 @@ export const projects = [
     meta: "Astro / 个人网站 / 自动同步",
     status: "维护中",
     link: "https://github.com/ltyqa/MyWebsite",
+    homepage: null,
   },
 ];
 

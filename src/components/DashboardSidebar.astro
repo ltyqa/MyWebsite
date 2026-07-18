@@ -1,6 +1,6 @@
 ---
 type Props = {
-  active?: "home" | "projects" | "notes" | "weekly" | "about";
+  active?: "home" | "projects" | "notes" | "weekly" | "ai-news" | "about";
 };
 
 const { active = "home" } = Astro.props;
@@ -38,6 +38,12 @@ const { active = "home" } = Astro.props;
         <img src="/images/icon-weekly.svg" alt="" aria-hidden="true" />
       </span>
       每周新闻
+    </a>
+    <a class={active === "ai-news" ? "active" : ""} href="/ai-news/">
+      <span class="nav-icon">
+        <img src="/images/icon-activity.svg" alt="" aria-hidden="true" />
+      </span>
+      AI 动态
     </a>
     <a class={active === "about" ? "active" : ""} href="/about/">
       <span class="nav-icon">

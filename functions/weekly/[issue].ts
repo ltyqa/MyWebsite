@@ -1,4 +1,4 @@
-import { marked } from "marked";
+import { renderMarkdown } from "../../src/lib/markdown";
 
 const owner = "ruanyf";
 const repo = "weekly";
@@ -366,11 +366,7 @@ export async function onRequestGet({ request, env, params }: { request: Request;
 
     const issue = await loadWeeklyIssue(issueNumber, env);
     const articleMarkdown = removeWeeklyReviewSection(stripWeeklyTitle(issue.markdown));
-    const articleHtml = marked.parse(proxyWeeklyImages(articleMarkdown), {
-      async: false,
-      gfm: true,
-      breaks: false,
-    });
+    const articleHtml = renderMarkdown(proxyWeeklyImages(articleMarkdown));
     const reviewLinks = extractWeeklyReviewLinks(issue.markdown);
     const html = replaceMain(shell, renderIssueMain(issue, articleHtml, reviewLinks))
       .replace(/<title>[\s\S]*?<\/title>/, `<title>每周新闻 | ${escapeHtml(issue.title)}</title>`)
