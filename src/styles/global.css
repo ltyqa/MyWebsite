@@ -6658,9 +6658,10 @@ html[data-appearance="ink"] body .ai-news-filters button[aria-pressed="true"]:ho
   .appearance-theme-options label,
   .appearance-size-options label
 ) {
-  transition-property: translate, transform, filter, opacity, box-shadow, background-color, border-color, color;
-  transition-duration: 180ms;
-  transition-timing-function: ease;
+  transform-origin: 50% 100%;
+  transition-property: translate, rotate, transform, filter, opacity, box-shadow, background-color, border-color, color;
+  transition-duration: 220ms;
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -6673,8 +6674,12 @@ html[data-appearance="ink"] body .ai-news-filters button[aria-pressed="true"]:ho
     .appearance-theme-options label,
     .appearance-size-options label
   ):not(:disabled):hover {
-    translate: 0 -2px;
-    filter: brightness(1.08) saturate(1.04);
+    translate: 0 -4px;
+    rotate: -0.7deg;
+    filter:
+      brightness(1.045)
+      saturate(1.025)
+      drop-shadow(3px 5px 0 rgba(29, 29, 27, 0.14));
   }
 
   :where(
@@ -6687,7 +6692,24 @@ html[data-appearance="ink"] body .ai-news-filters button[aria-pressed="true"]:ho
     .appearance-size-options label
   ):not(:disabled):active {
     translate: 0 1px;
+    rotate: 0deg;
     filter: brightness(0.98);
     transition-duration: 80ms;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :where(
+    button,
+    .button,
+    .paper-mini-button,
+    .latest-note-link,
+    .ai-source-button,
+    .appearance-theme-options label,
+    .appearance-size-options label
+  ) {
+    translate: none !important;
+    rotate: none !important;
+    transition-duration: 0.01ms !important;
   }
 }
