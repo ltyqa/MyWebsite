@@ -6,6 +6,8 @@ import { XMLParser } from "fast-xml-parser";
 
 const DATA_PATH = resolve("src/data/ai-updates.json");
 const RETENTION_DAYS = 90;
+const EXTENDED_RETENTION_DAYS = 365;
+const EXTENDED_RETENTION_PRODUCTS = new Set(["Kimi", "DeepSeek", "豆包"]);
 const USER_AGENT = "ltyqa-ai-updates/1.0 (+https://mywebsite.pages.dev)";
 const xmlParser = new XMLParser({ ignoreAttributes: false, trimValues: true });
 const sourceById = new Map();
@@ -70,6 +72,34 @@ const sources = [
     format: "rss",
     keyword: /gemini|gemma|veo|imagen|google ai/i,
     url: "https://blog.google/technology/ai/rss/",
+  },
+  {
+    id: "kimi-platform",
+    company: "Moonshot AI",
+    product: "Kimi",
+    kind: "product",
+    format: "blog-index",
+    language: "zh",
+    url: "https://platform.kimi.com/blog",
+  },
+  {
+    id: "deepseek-api",
+    company: "DeepSeek",
+    product: "DeepSeek",
+    kind: "api",
+    format: "dated-html-nested",
+    language: "zh",
+    url: "https://api-docs.deepseek.com/zh-cn/updates",
+  },
+  {
+    id: "doubao-news",
+    company: "火山引擎",
+    product: "豆包",
+    kind: "product",
+    format: "volc-news",
+    language: "zh",
+    keyword: /豆包|Doubao|方舟.*模型|模型.*方舟/i,
+    url: "https://www.volcengine.com/news",
   },
 ];
 
@@ -214,6 +244,16 @@ async function fetchText(url) {
   return response.text();
 }
 
+async function fetchReaderMarkdown(url) {
+  const response = await fetch(`https://r.jina.ai/${url}`, {
+    headers: { Accept: "text/markdown", "User-Agent": USER_AGENT },
+    signal: AbortSignal.timeout(60000),
+  });
+  if (!response.ok) throw new Error(`Reader ${response.status}: ${response.statusText}`);
+  const raw = await response.text();
+  return raw.split("Markdown Content:").slice(1).join("Markdown Content:").trim();
+}
+
 async function collectRss(source) {
   const document = xmlParser.parse(await fetchText(source.url));
   const items = array(document?.rss?.channel?.item ?? document?.feed?.entry);
@@ -290,6 +330,78 @@ async function collectDatedHtml(source) {
   return results;
 }
 
+async function collectBlogIndex(source) {
+  const $ = cheerio.load(await fetchText(source.url));
+  const results = [];
+  $('a[href^="/blog/posts/"]').each((_index, anchor) => {
+    const title = cleanText($(anchor).text());
+    const publishedAt = $(anchor).closest("h3").next("time").attr("datetime");
+    const href = $(anchor).attr("href");
+    const normalized = normalizeEntry(source, {
+      title,
+      summary: title,
+      publishedAt,
+      url: new URL(href, source.url).href,
+    });
+    if (normalized) results.push(normalized);
+  });
+  return results;
+}
+
+async function collectNestedDatedHtml(source) {
+  const $ = cheerio.load(await fetchText(source.url));
+  const results = [];
+  $("h2").each((_index, heading) => {
+    const dateLabel = cleanText($(heading).text()).match(/20\d{2}-\d{2}-\d{2}/)?.[0];
+    if (!dateLabel) return;
+    const nodes = $(heading).nextUntil("h2");
+    const titles = nodes.filter("h3").map((_i, node) => cleanText($(node).text())).get();
+    const title = titles.join(" / ") || `${source.product} update`;
+    const content = cleanText(nodes.map((_i, node) => $(node).text()).get().join(" "));
+    const normalized = normalizeEntry(source, {
+      title,
+      summary: content.slice(0, 6000),
+      content,
+      publishedAt: dateLabel,
+      url: source.url,
+    });
+    if (normalized) results.push(normalized);
+  });
+  return results;
+}
+
+async function collectVolcNews(source) {
+  const markdown = await fetchReaderMarkdown(source.url);
+  const lines = markdown.split("\n").map((line) => line.trim()).filter(Boolean);
+  const results = [];
+  const dateLine = /^(新产品|新功能|产品迭代)\s+(20\d{2})(?:年|-)(\d{1,2})(?:月|-)(\d{1,2})日?$/;
+  for (let index = 2; index < lines.length; index += 1) {
+    const match = lines[index].match(dateLine);
+    if (!match) continue;
+    const title = lines[index - 1];
+    const category = lines[index - 2];
+    if (!source.keyword.test(title)) continue;
+    const publishedAt = `${match[2]}-${match[3].padStart(2, "0")}-${match[4].padStart(2, "0")}`;
+    const normalized = normalizeEntry(source, {
+      title,
+      summary: `${category} · ${match[1]}`,
+      content: `## ${title}\n\n${category} · ${match[1]}`,
+      publishedAt,
+      url: source.url,
+    });
+    if (normalized && !results.some((entry) => entry.id === normalized.id)) results.push(normalized);
+  }
+  return results;
+}
+
+async function collectSource(source) {
+  if (source.format === "rss") return collectRss(source);
+  if (source.format === "blog-index") return collectBlogIndex(source);
+  if (source.format === "dated-html-nested") return collectNestedDatedHtml(source);
+  if (source.format === "volc-news") return collectVolcNews(source);
+  return collectDatedHtml(source);
+}
+
 async function translate(entry) {
   const apiKey = process.env.DEEPSEEK_API_KEY;
   if (!apiKey) return entry;
@@ -357,7 +469,7 @@ export async function collectUpdates() {
 
   for (const source of sources) {
     try {
-      const entries = source.format === "rss" ? await collectRss(source) : await collectDatedHtml(source);
+      const entries = await collectSource(source);
       for (const [id, entry] of byId) {
         if (entry.sourceId === source.id) byId.delete(id);
       }
@@ -377,26 +489,40 @@ export async function collectUpdates() {
   if (successfulSources === 0) throw new Error("All AI update sources failed; existing data was preserved.");
 
   const cutoff = Date.now() - RETENTION_DAYS * 24 * 60 * 60 * 1000;
+  const extendedCutoff = Date.now() - EXTENDED_RETENTION_DAYS * 24 * 60 * 60 * 1000;
   const retained = [...byId.values()]
-    .filter((entry) => new Date(entry.publishedAt).getTime() >= cutoff)
+    .filter((entry) => {
+      const entryCutoff = EXTENDED_RETENTION_PRODUCTS.has(entry.product) ? extendedCutoff : cutoff;
+      return new Date(entry.publishedAt).getTime() >= entryCutoff;
+    })
     .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 
   for (let index = 0; index < retained.length; index += 1) {
     const source = sourceById.get(retained[index].sourceId);
+    if (source?.language === "zh") {
+      retained[index].titleZh = retained[index].titleZh || retained[index].title;
+      retained[index].summaryZh = retained[index].summaryZh || retained[index].summary;
+      if (retained[index].content) retained[index].contentZh = retained[index].content;
+      retained[index].translationStatus = "translated";
+    }
     if (source?.format === "dated-html" && retained[index].content && !retained[index].contentZh) {
       retained[index].contentZh = retained[index].summaryZh || "";
     }
   }
 
-  for (let index = 0; index < retained.length; index += 1) {
-    if (retained[index].content) continue;
-    try {
-      retained[index] = await collectArticleContent(retained[index]);
-      console.log(`[ai-updates] content ${retained[index].id}: ${retained[index].content.length} chars`);
-    } catch (error) {
-      console.warn(`[ai-updates] content ${retained[index].id}: ${error.message}`);
+  if (process.env.AI_SKIP_CONTENT !== "1") {
+    for (let index = 0; index < retained.length; index += 1) {
+      if (retained[index].content) continue;
+      try {
+        retained[index] = await collectArticleContent(retained[index]);
+        const source = sourceById.get(retained[index].sourceId);
+        if (source?.language === "zh") retained[index].contentZh = retained[index].content;
+        console.log(`[ai-updates] content ${retained[index].id}: ${retained[index].content.length} chars`);
+      } catch (error) {
+        console.warn(`[ai-updates] content ${retained[index].id}: ${error.message}`);
+      }
+      await wait(3200);
     }
-    await wait(3200);
   }
 
   for (let index = 0; index < retained.length; index += 1) {

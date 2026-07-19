@@ -1,6 +1,6 @@
 import data from "./ai-updates.json";
 
-export type AiProduct = "GPT" | "Claude" | "Gemini";
+export type AiProduct = "GPT" | "Claude" | "Gemini" | "Kimi" | "DeepSeek" | "豆包";
 export type AiUpdateKind = "product" | "api" | "news";
 
 export type AiUpdate = {

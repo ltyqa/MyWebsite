@@ -9,7 +9,7 @@ import {
   formatAiUpdateDate,
 } from "../data/aiUpdates";
 
-const products = ["all", "GPT", "Claude", "Gemini"] as const;
+const products = ["all", "GPT", "Claude", "Gemini", "Kimi", "DeepSeek", "豆包"] as const;
 const generatedLabel = aiUpdatesGeneratedAt
   ? formatAiUpdateDate(aiUpdatesGeneratedAt)
   : "等待首次同步";
@@ -39,7 +39,7 @@ const generatedLabel = aiUpdatesGeneratedAt
             <div class="route-hero-panel ai-news-status">
               <p class="project-meta">最近同步</p>
               <h3>{generatedLabel}</h3>
-              <p>{aiUpdates.length} 条动态 / 保留最近 90 天</p>
+              <p>{aiUpdates.length} 条动态 / 持续同步官方来源</p>
             </div>
           </div>
         </section>
