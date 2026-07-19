@@ -6760,12 +6760,18 @@ html[data-appearance="ink"] .entrance-scene {
   color: #eee9dc;
 }
 
-html[data-appearance="ink"] .room-scene,
-html[data-appearance="ink"] .room-dashboard-main {
+html[data-appearance="ink"] .room-scene {
   background:
     linear-gradient(rgba(18, 22, 25, 0.08), rgba(18, 22, 25, 0.08)),
     url("/images/room-sketch-night.png") center / cover no-repeat,
     #181b18;
+}
+
+html[data-appearance="ink"] .room-dashboard-main {
+  background:
+    repeating-linear-gradient(0deg, transparent 0 48px, rgba(238, 233, 220, 0.035) 48px 50px),
+    repeating-linear-gradient(90deg, transparent 0 72px, rgba(238, 233, 220, 0.03) 72px 74px),
+    rgba(24, 27, 24, 0.24);
 }
 
 html[data-appearance="ink"] .wood-sign,
@@ -6811,8 +6817,7 @@ html[data-appearance="ink"] .portfolio-door::after {
       #171a18;
   }
 
-  html[data-appearance="ink"] .room-scene,
-  html[data-appearance="ink"] .room-dashboard-main {
+  html[data-appearance="ink"] .room-scene {
     background:
       linear-gradient(rgba(18, 22, 25, 0.08), rgba(18, 22, 25, 0.08)),
       image-set(
