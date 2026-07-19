@@ -21,8 +21,8 @@ const { entry } = Astro.props as { entry: AiUpdate };
 const title = entry.titleZh || entry.title;
 const summary = entry.summaryZh || entry.summary;
 const date = formatAiUpdateDate(entry.publishedAt);
-const fullContent = entry.contentZh || entry.content || summary;
-const content = renderMarkdown(fullContent);
+const contentZh = renderMarkdown(entry.contentZh || summary);
+const contentEn = renderMarkdown(entry.content || entry.summary);
 ---
 
 <html lang="zh-CN">
@@ -53,8 +53,27 @@ const content = renderMarkdown(fullContent);
         </section>
 
         <article class="page-shell article-shell article-body notes-sketch-article ai-news-article">
-          <p class="ai-article-kicker">{entry.contentZh ? "中文全文" : "官方全文"}</p>
-          <div class="ai-news-full-content" set:html={content} />
+          <div class="ai-language-toolbar">
+            <button
+              class="ai-language-toggle"
+              type="button"
+              data-language="zh"
+              aria-label="切换为英文全文"
+              aria-pressed="false"
+            >
+              <span data-language-label="zh">中文</span>
+              <i aria-hidden="true">/</i>
+              <span data-language-label="en">EN</span>
+            </button>
+          </div>
+          <div class="ai-news-full-content ai-news-language-panel" data-language-panel="zh" set:html={contentZh} />
+          <div
+            class="ai-news-full-content ai-news-language-panel"
+            data-language-panel="en"
+            lang="en"
+            hidden
+            set:html={contentEn}
+          />
 
           <div class="ai-article-source">
             <p>本文内容采集自官方网站，排版和翻译可能与原页面存在差异。</p>
@@ -66,5 +85,32 @@ const content = renderMarkdown(fullContent);
         </article>
       </main>
     </div>
+    <script is:inline>
+      function bindAiLanguageToggle() {
+        const toggle = document.querySelector(".ai-language-toggle");
+        if (!(toggle instanceof HTMLButtonElement) || toggle.dataset.bound === "true") return;
+        toggle.dataset.bound = "true";
+        const panels = [...document.querySelectorAll("[data-language-panel]")];
+
+        function selectLanguage(language) {
+          toggle.dataset.language = language;
+          toggle.setAttribute("aria-pressed", String(language === "en"));
+          toggle.setAttribute("aria-label", language === "zh" ? "切换为英文全文" : "切换为中文全文");
+          panels.forEach((panel) => {
+            panel.hidden = panel.getAttribute("data-language-panel") !== language;
+          });
+          localStorage.setItem("ai-news-language", language);
+        }
+
+        const preferred = localStorage.getItem("ai-news-language");
+        selectLanguage(preferred === "en" ? "en" : "zh");
+        toggle.addEventListener("click", () => {
+          selectLanguage(toggle.dataset.language === "zh" ? "en" : "zh");
+        });
+      }
+
+      bindAiLanguageToggle();
+      document.addEventListener("astro:page-load", bindAiLanguageToggle);
+    </script>
   </body>
 </html>
