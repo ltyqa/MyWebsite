@@ -46,7 +46,7 @@ const latestActivityDate = formatOverviewDate(latestActivity?.[0]);
     <PageTransitions />
     <meta name="description" content="由 GitHub 自动同步的个人项目、笔记和近期动态" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23faf7ef'/%3E%3Cpath d='M14 17h36v30H14z' fill='none' stroke='%231a1a1a' stroke-width='4'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-size='22' font-family='Arial,sans-serif' fill='%231a1a1a'%3E站%3C/text%3E%3C/svg%3E" />
-    <title>个人档案 | 手绘房间</title>
+    <title>个人博客 | 手绘房间</title>
     <script is:inline data-astro-rerun>
       (() => {
         const shouldSkip =
@@ -91,9 +91,9 @@ const latestActivityDate = formatOverviewDate(latestActivity?.[0]);
           <a href="/weekly/" aria-label="进入每周新闻页">新闻</a>
         </nav>
 
-        <div class="wood-sign" data-depth="0.2">个人档案</div>
+        <div class="wood-sign" data-depth="0.2">个人博客</div>
 
-        <button class="portfolio-door" type="button" data-open-door aria-label="打开门，进入个人档案房间">
+        <button class="portfolio-door" type="button" data-open-door aria-label="打开门，进入个人博客房间">
           <span class="door-leaf door-leaf--left"></span>
           <span class="door-leaf door-leaf--right"></span>
           <span class="door-knob door-knob--left"></span>
@@ -102,7 +102,7 @@ const latestActivityDate = formatOverviewDate(latestActivity?.[0]);
 
       </section>
 
-      <main class="room-scene" id="room" data-room-scene data-parallax-scene aria-label="个人档案房间">
+      <main class="room-scene" id="room" data-room-scene data-parallax-scene aria-label="个人博客房间">
         <div class="app-shell room-app-shell">
           <DashboardSidebar active="home" />
 
@@ -209,7 +209,7 @@ const latestActivityDate = formatOverviewDate(latestActivity?.[0]);
 
       <noscript>
         <main class="noscript-fallback">
-          <h1>个人档案</h1>
+          <h1>个人博客</h1>
           <p>请启用 JavaScript 来进入手绘房间。你仍然可以访问项目页和笔记页。</p>
           <a href="/projects/">项目</a>
           <a href="/notes/">笔记</a>
