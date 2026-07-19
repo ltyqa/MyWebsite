@@ -6161,6 +6161,153 @@ html[data-motion="reduced"] *::after {
   }
 }
 
+/* Complete ink theme contrast layer. Keep this after component-specific rules so
+   legacy hard-coded light-theme colors cannot override the selected palette. */
+html[data-appearance="ink"] body {
+  background:
+    radial-gradient(circle at 16% 8%, rgba(82, 116, 176, 0.12), transparent 28rem),
+    radial-gradient(circle at 88% 12%, rgba(74, 145, 94, 0.1), transparent 30rem),
+    #20231f;
+  color: #eee9dc;
+}
+
+html[data-appearance="ink"] body :where(h1, h2, h3, h4, h5, h6, p, li, dt, dd, label, legend, time, strong) {
+  color: inherit;
+}
+
+html[data-appearance="ink"] :where(
+  .poster-kicker,
+  .project-meta,
+  .note-meta,
+  .hero-copy,
+  .ai-translation-note,
+  .ai-update-meta span,
+  .ai-update-meta time,
+  .poster-feed span,
+  .poster-note-list span,
+  .sidebar-card span,
+  .appearance-panel__heading p,
+  .appearance-panel legend,
+  .appearance-motion-option small
+) {
+  color: #b8b3a8 !important;
+}
+
+html[data-appearance="ink"] :where(
+  .poster-wall,
+  .poster-list a,
+  .poster-note-list a,
+  .poster-stats span,
+  .status-card,
+  .project-row,
+  .project-card,
+  .note-card,
+  .note-card-large,
+  .route-hero-panel,
+  .weekly-review-panel,
+  .notes-sketch-article,
+  .note-search-panel,
+  .note-empty-state,
+  .appearance-panel,
+  .appearance-trigger
+) {
+  border-color: rgba(238, 233, 220, 0.82) !important;
+  background-color: #2b2e29;
+  color: #eee9dc;
+  box-shadow: 5px 6px 0 rgba(0, 0, 0, 0.25);
+}
+
+html[data-appearance="ink"] :where(
+  .poster-list a,
+  .poster-note-list a,
+  .poster-stats span,
+  .project-row,
+  .note-card-large,
+  .route-hero-panel,
+  .note-search-panel,
+  .note-empty-state
+) {
+  background:
+    linear-gradient(rgba(43, 46, 41, 0.94), rgba(43, 46, 41, 0.94)),
+    repeating-linear-gradient(0deg, transparent 0 22px, rgba(238, 233, 220, 0.045) 22px 23px);
+}
+
+html[data-appearance="ink"] :where(.poster-list a, .poster-note-list a, .poster-stats span) :where(strong, span),
+html[data-appearance="ink"] :where(.status-card, .project-row, .note-card-large, .route-hero-panel) :where(h2, h3, h4, p, strong) {
+  color: #eee9dc !important;
+}
+
+html[data-appearance="ink"] .notes-sketch-section .note-search-control,
+html[data-appearance="ink"] .notes-sketch-section .note-search-control:focus-within {
+  border-color: rgba(238, 233, 220, 0.78);
+  background: #222520;
+  color: #eee9dc;
+  box-shadow: inset 0 -5px 0 rgba(120, 157, 91, 0.1);
+}
+
+html[data-appearance="ink"] .notes-sketch-section .note-search-control svg {
+  stroke: #eee9dc;
+}
+
+html[data-appearance="ink"] .notes-sketch-section .note-search-control input,
+html[data-appearance="ink"] .notes-sketch-section .note-search-summary p,
+html[data-appearance="ink"] .notes-sketch-section .note-empty-state h2 {
+  color: #eee9dc;
+}
+
+html[data-appearance="ink"] .notes-sketch-section .note-search-control input::placeholder,
+html[data-appearance="ink"] .notes-sketch-section .note-search-summary span,
+html[data-appearance="ink"] .notes-sketch-section .note-empty-state > p:not(.poster-kicker) {
+  color: #aaa69c;
+}
+
+html[data-appearance="ink"] .notes-sketch-article :where(p, li, h1, h2, h3, h4, th, td) {
+  color: #eee9dc !important;
+}
+
+html[data-appearance="ink"] .notes-sketch-article h2 {
+  border-bottom-color: rgba(238, 233, 220, 0.24);
+}
+
+html[data-appearance="ink"] .notes-sketch-article blockquote {
+  border-color: #d8c886 !important;
+  background: #38372e !important;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.22);
+}
+
+html[data-appearance="ink"] .notes-sketch-article blockquote p {
+  color: #f0e8c8 !important;
+}
+
+html[data-appearance="ink"] .notes-sketch-article table {
+  border-color: rgba(238, 233, 220, 0.75);
+  background: #262924;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.22);
+}
+
+html[data-appearance="ink"] .notes-sketch-article :where(th, td) {
+  border-color: rgba(238, 233, 220, 0.38);
+}
+
+html[data-appearance="ink"] .notes-sketch-article th {
+  background: rgba(216, 200, 134, 0.1);
+}
+
+html[data-appearance="ink"] .notes-sketch-article code:not(pre code) {
+  border-color: rgba(238, 233, 220, 0.16);
+  background: rgba(216, 200, 134, 0.12) !important;
+  color: #f0b09e !important;
+}
+
+html[data-appearance="ink"] :where(.tag, .status-pill, .sticky-cloud a, .eyebrow) {
+  color: #1d1d1b;
+}
+
+html[data-appearance="ink"] :where(.latest-note-link, .ai-source-button, .note-search-clear, .note-empty-state button) {
+  border-color: #151713 !important;
+  color: #fffdfa !important;
+}
+
 /* Notes search */
 .notes-sketch-section .note-rail {
   grid-row: 1 / span 2;
