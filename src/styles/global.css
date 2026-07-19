@@ -5145,7 +5145,7 @@ h2 {
   font-size: clamp(30px, 3vw, 42px);
 }
 
-.room-dashboard-main .overview-primary-link,
+.room-dashboard-main .latest-note-link,
 .projects-sketch-section .ai-source-button,
 .ai-article-source .ai-source-button {
   grid-column: 1;
@@ -5242,7 +5242,7 @@ h2 {
   padding-top: 1.5rem;
 }
 
-.room-dashboard-main .overview-primary-link em {
+.room-dashboard-main .latest-note-link em {
   font-family: var(--font-display-hand);
   font-size: 24px;
   font-style: normal;
@@ -5258,8 +5258,8 @@ h2 {
   transition: transform 180ms ease;
 }
 
-.room-dashboard-main .overview-primary-link:hover,
-.room-dashboard-main .overview-primary-link:focus-visible,
+.room-dashboard-main .latest-note-link:hover,
+.room-dashboard-main .latest-note-link:focus-visible,
 .projects-sketch-section .ai-source-button:hover,
 .projects-sketch-section .ai-source-button:focus-visible,
 .ai-article-source .ai-source-button:hover,
@@ -5269,8 +5269,8 @@ h2 {
   transform: translate(-1px, -2px) rotate(0.3deg);
 }
 
-.room-dashboard-main .overview-primary-link:hover em,
-.room-dashboard-main .overview-primary-link:focus-visible em,
+.room-dashboard-main .latest-note-link:hover em,
+.room-dashboard-main .latest-note-link:focus-visible em,
 .projects-sketch-section .ai-source-button:hover img,
 .projects-sketch-section .ai-source-button:focus-visible img,
 .ai-article-source .ai-source-button:hover img,
@@ -5278,7 +5278,7 @@ h2 {
   transform: translateX(3px);
 }
 
-.room-dashboard-main .overview-primary-link:active,
+.room-dashboard-main .latest-note-link:active,
 .projects-sketch-section .ai-source-button:active,
 .ai-article-source .ai-source-button:active {
   box-shadow: 3px 4px 0 rgba(29, 29, 27, 0.2);
@@ -5571,10 +5571,23 @@ h2 {
     grid-template-columns: 1fr;
   }
 
-  .room-dashboard-main .overview-primary-link {
+  .room-dashboard-main .latest-note-link {
     width: 100%;
     justify-content: space-between;
   }
+}
+
+.room-dashboard-main .poster-note-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.room-dashboard-main .poster-note-actions .latest-note-link,
+.room-dashboard-main .poster-note-actions .poster-link {
+  margin-top: 0;
 }
 
 /* Unified warm paper surface. This is the slightly aged, not-too-white card tone
