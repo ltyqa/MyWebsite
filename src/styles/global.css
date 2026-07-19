@@ -6849,6 +6849,70 @@ html[data-appearance="ink"] .portfolio-door::after {
   }
 }
 
+/* Keep the home dashboard legible against the warm, low-light paper theme. */
+html[data-appearance="ink"] .sketch-chart {
+  border-bottom-color: rgba(238, 233, 220, 0.78);
+}
+
+html[data-appearance="ink"] .sketch-chart span {
+  border-color: #d7c786;
+  background: repeating-linear-gradient(
+    -45deg,
+    #4f73ad 0 4px,
+    #4f73ad 4px 5px,
+    #527d5b 5px 9px
+  );
+  box-shadow: inset 0 0 0 1px rgba(18, 22, 20, 0.42);
+}
+
+html[data-appearance="ink"] .sketch-chart span.empty {
+  border-color: rgba(238, 233, 220, 0.36);
+  background: rgba(238, 233, 220, 0.1);
+  box-shadow: none;
+}
+
+html[data-appearance="ink"] .sketch-chart span:hover {
+  border-color: #f0dda0;
+  background: repeating-linear-gradient(
+    -45deg,
+    #688ac0 0 4px,
+    #688ac0 4px 5px,
+    #65946d 5px 9px
+  );
+  box-shadow:
+    0 0 0 3px rgba(215, 199, 134, 0.3),
+    4px -5px 0 rgba(0, 0, 0, 0.24);
+}
+
+html[data-appearance="ink"] .sketch-chart span::before {
+  border-color: #d7c786;
+  background: #343831;
+}
+
+html[data-appearance="ink"] .sketch-chart span::after {
+  border-color: #d7c786;
+  background: #343831;
+  color: #f3eddd;
+}
+
+html[data-appearance="ink"] .room-dashboard-main :is(.poster-list, .poster-note-list) a:hover,
+html[data-appearance="ink"] .room-dashboard-main :is(.poster-list, .poster-note-list) a:focus-visible {
+  border-color: #d7c786;
+  background: #343a33 !important;
+  color: #f3eddd !important;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.42);
+}
+
+html[data-appearance="ink"] .room-dashboard-main :is(.poster-list, .poster-note-list) a:hover :where(strong, span, small, em),
+html[data-appearance="ink"] .room-dashboard-main :is(.poster-list, .poster-note-list) a:focus-visible :where(strong, span, small, em) {
+  color: #f3eddd !important;
+}
+
+html[data-appearance="ink"] .room-dashboard-main :is(.poster-list, .poster-note-list) a:hover :where(small, em),
+html[data-appearance="ink"] .room-dashboard-main :is(.poster-list, .poster-note-list) a:focus-visible :where(small, em) {
+  color: rgba(243, 237, 221, 0.72) !important;
+}
+
 /* Mouse-only tactile feedback for button-like controls. */
 :where(
   button,
