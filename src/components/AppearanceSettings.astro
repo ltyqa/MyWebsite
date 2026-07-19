@@ -155,6 +155,15 @@
         trigger.focus();
       }
     };
+    const handleExternalAppearanceChange = (event) => {
+      const next = event.detail;
+      if (!next || !validThemes.has(next.theme) || !validSizes.has(next.size)) return;
+      applySettings({
+        theme: next.theme,
+        size: next.size,
+        motion: typeof next.motion === "boolean" ? next.motion : settings.motion,
+      }, false);
+    };
 
     trigger.addEventListener("click", togglePanel);
     container.querySelector("[data-appearance-close]")?.addEventListener("click", closePanel);
@@ -162,12 +171,14 @@
     container.addEventListener("change", handleChange);
     document.addEventListener("pointerdown", handleOutsideClick);
     document.addEventListener("keydown", handleKeydown);
+    window.addEventListener("site:appearance-change", handleExternalAppearanceChange);
     applySettings(settings, false);
 
     window.__appearanceSettingsCleanup = () => {
       window.clearTimeout(closeTimer);
       document.removeEventListener("pointerdown", handleOutsideClick);
       document.removeEventListener("keydown", handleKeydown);
+      window.removeEventListener("site:appearance-change", handleExternalAppearanceChange);
     };
   })();
 </script>

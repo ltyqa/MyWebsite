@@ -2655,6 +2655,48 @@ h2 {
   gap: 10px;
 }
 
+.entrance-theme-toggle {
+  position: fixed;
+  top: 18px;
+  left: 22px;
+  z-index: 41;
+  display: inline-flex;
+  min-height: 46px;
+  align-items: center;
+  gap: 9px;
+  border: 2px solid var(--sketch-ink);
+  border-radius: 14px 4px 16px 5px / 5px 15px 4px 14px;
+  padding: 7px 13px 7px 8px;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.72)),
+    repeating-linear-gradient(28deg, rgba(26, 26, 26, 0.04) 0 1px, transparent 1px 14px);
+  box-shadow: 3px 4px 0 rgba(26, 26, 26, 0.16);
+  color: var(--sketch-ink);
+  cursor: pointer;
+}
+
+.entrance-theme-toggle span {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 950;
+}
+
+.entrance-theme-toggle strong {
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.entrance-theme-toggle:hover,
+.entrance-theme-toggle:focus-visible {
+  transform: translateY(-2px) rotate(-0.6deg);
+  box-shadow: 5px 6px 0 rgba(26, 26, 26, 0.2);
+}
+
 .paper-nav a,
 .paper-mini-button {
   display: inline-flex;
@@ -3623,6 +3665,13 @@ h2 {
 
   .paper-nav {
     gap: 6px;
+  }
+
+  .entrance-theme-toggle {
+    top: auto;
+    bottom: 18px;
+    left: 14px;
+    min-height: 42px;
   }
 
   .paper-nav a {
@@ -6712,6 +6761,7 @@ html[data-appearance="ink"] .door-leaf,
 html[data-appearance="ink"] .portfolio-door::before,
 html[data-appearance="ink"] .paper-nav a,
 html[data-appearance="ink"] .paper-mini-button,
+html[data-appearance="ink"] .entrance-theme-toggle,
 html[data-appearance="ink"] .appearance-theme-options label,
 html[data-appearance="ink"] .appearance-size-options label {
   border-color: rgba(238, 233, 220, 0.84);

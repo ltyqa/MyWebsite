@@ -95,6 +95,17 @@ const entranceNavigation = siteNavigation.filter((item) => item.key !== "home");
           }
         </nav>
 
+        <button
+          class="entrance-theme-toggle"
+          type="button"
+          data-entrance-theme-toggle
+          aria-label="切换为夜间模式"
+          aria-pressed="false"
+        >
+          <span aria-hidden="true" data-theme-toggle-mark>☀</span>
+          <strong data-theme-toggle-label>日间模式</strong>
+        </button>
+
         <div class="wood-sign" data-depth="0.2">个人博客</div>
 
         <button class="portfolio-door" type="button" data-open-door aria-label="打开门，进入个人博客房间">
@@ -242,6 +253,9 @@ const entranceNavigation = siteNavigation.filter((item) => item.key !== "home");
         const progress = document.querySelector("[data-loader-progress]");
         const openDoor = document.querySelector("[data-open-door]");
         const closeDoor = document.querySelector("[data-close-door]");
+        const themeToggle = document.querySelector("[data-entrance-theme-toggle]");
+        const themeToggleMark = themeToggle?.querySelector("[data-theme-toggle-mark]");
+        const themeToggleLabel = themeToggle?.querySelector("[data-theme-toggle-label]");
         const parallaxScenes = document.querySelectorAll("[data-parallax-scene]");
         const canUseParallax =
           parallaxScenes.length > 0 &&
@@ -303,11 +317,40 @@ const entranceNavigation = siteNavigation.filter((item) => item.key !== "home");
           document.documentElement.classList.remove("skip-home-intro");
           root.classList.remove("is-room-open");
         };
+        const syncThemeToggle = () => {
+          const isInk = document.documentElement.dataset.appearance === "ink";
+          themeToggle?.setAttribute("aria-pressed", String(isInk));
+          themeToggle?.setAttribute("aria-label", isInk ? "切换为日间模式" : "切换为夜间模式");
+          if (themeToggleMark) themeToggleMark.textContent = isInk ? "☾" : "☀";
+          if (themeToggleLabel) themeToggleLabel.textContent = isInk ? "夜间模式" : "日间模式";
+        };
+        const handleThemeToggle = () => {
+          const storageKey = "site-appearance-v1";
+          let saved = {};
+          try {
+            saved = JSON.parse(localStorage.getItem(storageKey) || "{}");
+          } catch {}
+
+          const theme = document.documentElement.dataset.appearance === "ink" ? "paper" : "ink";
+          const next = {
+            theme,
+            size: ["small", "standard", "large"].includes(saved.size) ? saved.size : "standard",
+            motion: typeof saved.motion === "boolean" ? saved.motion : true,
+          };
+          localStorage.setItem(storageKey, JSON.stringify(next));
+          document.documentElement.dataset.appearance = theme;
+          document.documentElement.style.colorScheme = theme === "ink" ? "dark" : "light";
+          window.dispatchEvent(new CustomEvent("site:appearance-change", { detail: next }));
+          syncThemeToggle();
+        };
 
         openDoor?.addEventListener("click", handleOpenDoor);
         closeDoor?.addEventListener("click", handleCloseDoor);
+        themeToggle?.addEventListener("click", handleThemeToggle);
+        syncThemeToggle();
         cleanupTasks.push(() => openDoor?.removeEventListener("click", handleOpenDoor));
         cleanupTasks.push(() => closeDoor?.removeEventListener("click", handleCloseDoor));
+        cleanupTasks.push(() => themeToggle?.removeEventListener("click", handleThemeToggle));
 
         if (canUseParallax) {
           let pointerX = 0;
