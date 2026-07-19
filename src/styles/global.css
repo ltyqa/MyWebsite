@@ -5661,9 +5661,12 @@ html[data-font-size="large"] {
 .appearance-panel {
   position: fixed;
   left: calc(var(--dashboard-sidebar-width, 240px) + 18px);
-  bottom: 22px;
+  top: 22px;
+  bottom: auto;
   z-index: 30;
   width: min(360px, calc(100vw - 32px));
+  max-height: calc(100dvh - 44px);
+  overflow-y: auto;
   border: 3px solid var(--sketch-ink, #1a1a1a);
   border-radius: 6px 18px 7px 14px / 15px 7px 16px 6px;
   padding: 22px;
@@ -5925,7 +5928,9 @@ html[data-motion="reduced"] *::after {
 
   .appearance-panel {
     left: 50%;
-    bottom: 16px;
+    top: 16px;
+    bottom: auto;
+    max-height: calc(100dvh - 32px);
     transform: translateX(-50%);
   }
 }
