@@ -139,10 +139,18 @@ h3,
 }
 
 .ai-update-meta strong {
-  border: 2px solid #1d1d1b;
-  padding: 0.25rem 0.48rem;
+  min-width: 5.5rem;
+  border: 3px solid #1d1d1b;
+  border-radius: 3px 11px 4px 9px / 9px 4px 10px 3px;
+  padding: 0.55rem 0.9rem 0.48rem;
   background: #de5a3d;
   color: #fffdf6;
+  box-shadow: 4px 5px 0 rgba(29, 29, 27, 0.16);
+  font-family: var(--font-display-hand);
+  font-size: 1rem;
+  line-height: 1;
+  text-align: center;
+  transform: rotate(-0.7deg);
 }
 
 .ai-update-meta span,
