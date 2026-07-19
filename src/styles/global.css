@@ -6507,3 +6507,93 @@ html[data-appearance="ink"] :where(.latest-note-link, .ai-source-button, .note-s
     display: none;
   }
 }
+
+/* Final dark-mode guard: the site predates theming and some components still
+   declare ink colors directly. In ink mode, readable light text is the default;
+   only deliberately light, colored labels opt back into dark ink below. */
+html[data-appearance="ink"] body :where(
+  main,
+  section,
+  article,
+  aside,
+  nav,
+  header,
+  footer,
+  div,
+  a,
+  span,
+  p,
+  strong,
+  em,
+  small,
+  time,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ul,
+  ol,
+  li,
+  dl,
+  dt,
+  dd,
+  label,
+  legend,
+  input,
+  textarea,
+  summary,
+  table,
+  th,
+  td
+) {
+  color: #eee9dc !important;
+}
+
+html[data-appearance="ink"] body :where(
+  .poster-kicker,
+  .project-meta,
+  .note-meta,
+  .hero-copy,
+  .poster-feed span,
+  .poster-list span,
+  .poster-note-list span,
+  .sidebar-card > p,
+  .sidebar-card > span,
+  .appearance-panel__heading p,
+  .appearance-panel legend,
+  .appearance-motion-option small
+) {
+  color: #b8b3a8 !important;
+}
+
+html[data-appearance="ink"] body :where(
+  .tag,
+  .status-pill,
+  .sticky-cloud a,
+  .eyebrow
+),
+html[data-appearance="ink"] body :where(
+  .tag,
+  .status-pill,
+  .sticky-cloud a,
+  .eyebrow
+) :where(span, strong) {
+  color: #1d1d1b !important;
+}
+
+html[data-appearance="ink"] body :where(
+  .latest-note-link,
+  .ai-source-button,
+  .note-search-clear,
+  .note-empty-state button
+),
+html[data-appearance="ink"] body :where(
+  .latest-note-link,
+  .ai-source-button,
+  .note-search-clear,
+  .note-empty-state button
+) :where(span, strong, em) {
+  color: #fffdfa !important;
+}
