@@ -2,4 +2,23 @@
 import { ClientRouter } from "astro:transitions";
 ---
 
+<script is:inline>
+  (() => {
+    try {
+      const saved = JSON.parse(localStorage.getItem("site-appearance-v1") || "{}");
+      const theme = ["paper", "ink", "clean"].includes(saved.theme) ? saved.theme : "paper";
+      const size = ["small", "standard", "large"].includes(saved.size) ? saved.size : "standard";
+      const motion = typeof saved.motion === "boolean" ? saved.motion : true;
+      document.documentElement.dataset.appearance = theme;
+      document.documentElement.dataset.fontSize = size;
+      document.documentElement.dataset.motion = motion ? "full" : "reduced";
+      document.documentElement.style.colorScheme = theme === "ink" ? "dark" : "light";
+    } catch {
+      document.documentElement.dataset.appearance = "paper";
+      document.documentElement.dataset.fontSize = "standard";
+      document.documentElement.dataset.motion = "full";
+    }
+  })();
+</script>
+
 <ClientRouter fallback="swap" />

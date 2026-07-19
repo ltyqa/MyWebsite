@@ -1,5 +1,6 @@
 ---
 import { siteNavigation, type SiteNavKey } from "../data/navigation";
+import AppearanceSettings from "./AppearanceSettings.astro";
 
 type Props = {
   active?: SiteNavKey;
@@ -34,6 +35,8 @@ const { active = "home" } = Astro.props;
     <strong>项目 · 笔记 · 周刊</strong>
     <span>记录开发实践，整理学习笔记与 AI 动态</span>
   </div>
+
+  <AppearanceSettings />
 </aside>
 
 <script is:inline data-astro-rerun>

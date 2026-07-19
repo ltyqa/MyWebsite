@@ -1,0 +1,154 @@
+<div class="appearance-settings" data-appearance-settings>
+  <button
+    class="appearance-trigger"
+    type="button"
+    aria-expanded="false"
+    aria-controls="appearance-panel"
+    data-appearance-trigger
+  >
+    <span aria-hidden="true">✦</span>
+    外观设置
+  </button>
+
+  <section class="appearance-panel" id="appearance-panel" aria-label="外观设置" hidden data-appearance-panel>
+    <div class="appearance-panel__heading">
+      <div>
+        <p>显示偏好</p>
+        <h2>调整外观</h2>
+      </div>
+      <button type="button" aria-label="关闭外观设置" data-appearance-close>×</button>
+    </div>
+
+    <fieldset>
+      <legend>配色</legend>
+      <div class="appearance-theme-options">
+        <label>
+          <input type="radio" name="appearance-theme" value="paper" checked />
+          <span class="appearance-swatch appearance-swatch--paper" aria-hidden="true"></span>
+          原始纸张
+        </label>
+        <label>
+          <input type="radio" name="appearance-theme" value="ink" />
+          <span class="appearance-swatch appearance-swatch--ink" aria-hidden="true"></span>
+          夜间墨色
+        </label>
+        <label>
+          <input type="radio" name="appearance-theme" value="clean" />
+          <span class="appearance-swatch appearance-swatch--clean" aria-hidden="true"></span>
+          清爽白纸
+        </label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>字号</legend>
+      <div class="appearance-size-options">
+        <label><input type="radio" name="appearance-size" value="small" />小</label>
+        <label><input type="radio" name="appearance-size" value="standard" checked />标准</label>
+        <label><input type="radio" name="appearance-size" value="large" />大</label>
+      </div>
+    </fieldset>
+
+    <label class="appearance-motion-option">
+      <span><strong>页面动效</strong><small>关闭后减少转场与装饰动画</small></span>
+      <input type="checkbox" checked data-appearance-motion />
+    </label>
+
+    <button class="appearance-reset" type="button" data-appearance-reset>恢复默认</button>
+  </section>
+</div>
+
+<script is:inline data-astro-rerun>
+  (() => {
+    window.__appearanceSettingsCleanup?.();
+
+    const root = document.documentElement;
+    const container = document.querySelector("[data-appearance-settings]");
+    if (!container) return;
+
+    const storageKey = "site-appearance-v1";
+    const defaults = { theme: "paper", size: "standard", motion: true };
+    const validThemes = new Set(["paper", "ink", "clean"]);
+    const validSizes = new Set(["small", "standard", "large"]);
+
+    const readSettings = () => {
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "{}");
+        return {
+          theme: validThemes.has(saved.theme) ? saved.theme : defaults.theme,
+          size: validSizes.has(saved.size) ? saved.size : defaults.size,
+          motion: typeof saved.motion === "boolean" ? saved.motion : defaults.motion,
+        };
+      } catch {
+        return { ...defaults };
+      }
+    };
+
+    let settings = readSettings();
+    const panel = container.querySelector("[data-appearance-panel]");
+    const trigger = container.querySelector("[data-appearance-trigger]");
+    const motionInput = container.querySelector("[data-appearance-motion]");
+
+    const applySettings = (next, persist = true) => {
+      settings = next;
+      root.dataset.appearance = settings.theme;
+      root.dataset.fontSize = settings.size;
+      root.dataset.motion = settings.motion ? "full" : "reduced";
+      root.style.colorScheme = settings.theme === "ink" ? "dark" : "light";
+
+      container.querySelector(`input[name="appearance-theme"][value="${settings.theme}"]`)?.setAttribute("checked", "");
+      container.querySelectorAll('input[name="appearance-theme"]').forEach((input) => {
+        input.checked = input.value === settings.theme;
+      });
+      container.querySelectorAll('input[name="appearance-size"]').forEach((input) => {
+        input.checked = input.value === settings.size;
+      });
+      motionInput.checked = settings.motion;
+
+      if (persist) localStorage.setItem(storageKey, JSON.stringify(settings));
+    };
+
+    const closePanel = () => {
+      panel.hidden = true;
+      trigger.setAttribute("aria-expanded", "false");
+    };
+
+    const togglePanel = () => {
+      panel.hidden = !panel.hidden;
+      trigger.setAttribute("aria-expanded", String(!panel.hidden));
+      if (!panel.hidden) panel.querySelector("input:checked")?.focus();
+    };
+
+    const handleChange = (event) => {
+      const input = event.target;
+      if (!(input instanceof HTMLInputElement)) return;
+      if (input.name === "appearance-theme") applySettings({ ...settings, theme: input.value });
+      if (input.name === "appearance-size") applySettings({ ...settings, size: input.value });
+      if (input.matches("[data-appearance-motion]")) applySettings({ ...settings, motion: input.checked });
+    };
+
+    const handleOutsideClick = (event) => {
+      if (!panel.hidden && !container.contains(event.target)) closePanel();
+    };
+
+    const handleKeydown = (event) => {
+      if (event.key === "Escape" && !panel.hidden) {
+        closePanel();
+        trigger.focus();
+      }
+    };
+
+    trigger.addEventListener("click", togglePanel);
+    container.querySelector("[data-appearance-close]")?.addEventListener("click", closePanel);
+    container.querySelector("[data-appearance-reset]")?.addEventListener("click", () => applySettings({ ...defaults }));
+    container.addEventListener("change", handleChange);
+    document.addEventListener("pointerdown", handleOutsideClick);
+    document.addEventListener("keydown", handleKeydown);
+    applySettings(settings, false);
+
+    window.__appearanceSettingsCleanup = () => {
+      document.removeEventListener("pointerdown", handleOutsideClick);
+      document.removeEventListener("keydown", handleKeydown);
+    };
+  })();
+</script>

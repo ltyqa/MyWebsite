@@ -5611,6 +5611,297 @@ h2 {
   }
 }
 
+/* Appearance controls: persistent, site-wide display preferences. */
+html[data-font-size="small"] {
+  font-size: 14px;
+}
+
+html[data-font-size="standard"] {
+  font-size: 16px;
+}
+
+html[data-font-size="large"] {
+  font-size: 18px;
+}
+
+.appearance-settings {
+  position: relative;
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+.appearance-trigger {
+  display: flex;
+  width: 100%;
+  min-height: 44px;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid var(--sketch-ink, #1a1a1a);
+  border-radius: 4px 10px 5px 8px / 8px 4px 9px 5px;
+  padding: 8px 13px;
+  background: var(--warm-paper-card, #f6f1e7);
+  color: var(--sketch-ink, #1a1a1a);
+  box-shadow: 4px 5px 0 rgba(29, 29, 27, 0.12);
+  font: 700 14px/1 var(--font-ui);
+  cursor: pointer;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.appearance-trigger span {
+  color: var(--sketch-green, #2e9d5b);
+  font-size: 20px;
+}
+
+.appearance-trigger:hover,
+.appearance-trigger:focus-visible {
+  transform: translate(-1px, -1px) rotate(-0.25deg);
+  box-shadow: 5px 6px 0 rgba(29, 29, 27, 0.16);
+}
+
+.appearance-panel {
+  position: fixed;
+  left: calc(var(--dashboard-sidebar-width, 240px) + 18px);
+  bottom: 22px;
+  z-index: 30;
+  width: min(360px, calc(100vw - 32px));
+  border: 3px solid var(--sketch-ink, #1a1a1a);
+  border-radius: 6px 18px 7px 14px / 15px 7px 16px 6px;
+  padding: 22px;
+  background: var(--warm-paper-card, #f6f1e7);
+  color: var(--sketch-ink, #1a1a1a);
+  box-shadow: 9px 11px 0 rgba(29, 29, 27, 0.18);
+}
+
+.appearance-panel[hidden] {
+  display: none;
+}
+
+.appearance-panel__heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 14px;
+  border-bottom: 2px dashed currentColor;
+}
+
+.appearance-panel__heading p,
+.appearance-panel legend {
+  color: var(--sketch-muted, #646464);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.appearance-panel__heading h2 {
+  margin-top: 2px;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.appearance-panel__heading button {
+  border: 0;
+  padding: 0 3px;
+  background: transparent;
+  color: inherit;
+  font-size: 30px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.appearance-panel fieldset {
+  margin: 18px 0 0;
+  border: 0;
+  padding: 0;
+}
+
+.appearance-panel legend {
+  margin-bottom: 9px;
+}
+
+.appearance-theme-options,
+.appearance-size-options {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 7px;
+}
+
+.appearance-theme-options label,
+.appearance-size-options label {
+  display: grid;
+  min-width: 0;
+  place-items: center;
+  gap: 5px;
+  border: 2px solid rgba(29, 29, 27, 0.3);
+  border-radius: 4px 8px 4px 7px;
+  padding: 9px 5px;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+
+.appearance-theme-options label:has(input:checked),
+.appearance-size-options label:has(input:checked) {
+  border-color: var(--sketch-ink, #1a1a1a);
+  background: rgba(47, 111, 237, 0.1);
+  box-shadow: 3px 3px 0 rgba(29, 29, 27, 0.12);
+}
+
+.appearance-theme-options input,
+.appearance-size-options input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.appearance-swatch {
+  display: block;
+  width: 32px;
+  height: 20px;
+  border: 2px solid #1a1a1a;
+  border-radius: 2px 5px 2px 4px;
+}
+
+.appearance-swatch--paper { background: #faf7ef; }
+.appearance-swatch--ink { background: #242722; }
+.appearance-swatch--clean { background: #fff; }
+
+.appearance-motion-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+.appearance-motion-option span {
+  display: grid;
+}
+
+.appearance-motion-option small {
+  color: var(--sketch-muted, #646464);
+}
+
+.appearance-motion-option input {
+  width: 42px;
+  height: 22px;
+  accent-color: var(--sketch-green, #2e9d5b);
+}
+
+.appearance-reset {
+  width: 100%;
+  margin-top: 18px;
+  border: 0;
+  border-bottom: 2px dashed currentColor;
+  padding: 8px;
+  background: transparent;
+  color: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+html[data-appearance="clean"] {
+  --paper: #f7f8fa;
+  --paper-strong: #ffffff;
+  --mist: #eef1f4;
+  --surface: rgba(255, 255, 255, 0.88);
+  --surface-solid: #ffffff;
+  --sketch-paper: #ffffff;
+  --sketch-paper-dark: #f0f2f4;
+  --warm-paper-card: #ffffff;
+  --warm-paper-card-rgb: 255, 255, 255;
+}
+
+html[data-appearance="clean"] body,
+html[data-appearance="clean"] .dashboard-body,
+html[data-appearance="clean"] .handdrawn-home {
+  background-color: #f6f8fa;
+}
+
+html[data-appearance="ink"] {
+  --ink: #f1ede3;
+  --muted: #b9b5aa;
+  --paper: #20231f;
+  --paper-strong: #292c27;
+  --mist: #30332e;
+  --line: rgba(245, 240, 228, 0.16);
+  --surface: rgba(37, 40, 35, 0.9);
+  --surface-solid: #292c27;
+  --sketch-ink: #eee9dc;
+  --sketch-muted: #b8b3a8;
+  --sketch-paper: #242722;
+  --sketch-paper-dark: #30332d;
+  --warm-paper-card: #2b2e29;
+  --warm-paper-card-rgb: 43, 46, 41;
+  --warm-paper-line-rgb: 238, 233, 220;
+}
+
+html[data-appearance="ink"] body,
+html[data-appearance="ink"] .dashboard-body,
+html[data-appearance="ink"] .handdrawn-home,
+html[data-appearance="ink"] .room-dashboard-main {
+  background-color: #20231f;
+  color: #eee9dc;
+}
+
+html[data-appearance="ink"] .sidebar,
+html[data-appearance="ink"] .poster-wall,
+html[data-appearance="ink"] .status-card,
+html[data-appearance="ink"] .project-card,
+html[data-appearance="ink"] .note-card,
+html[data-appearance="ink"] .route-hero-panel,
+html[data-appearance="ink"] .weekly-review-panel {
+  color: #eee9dc;
+}
+
+html[data-appearance="ink"] .dashboard-body .sidebar {
+  border-right-color: rgba(238, 233, 220, 0.18);
+  background:
+    linear-gradient(rgba(238, 233, 220, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(238, 233, 220, 0.03) 1px, transparent 1px),
+    rgba(31, 34, 30, 0.96);
+  background-size: 34px 34px;
+}
+
+html[data-appearance="ink"] .dashboard-body .brand-dashboard,
+html[data-appearance="ink"] .dashboard-body .side-nav a {
+  color: #eee9dc;
+}
+
+html[data-appearance="ink"] img:not(.brand-mark img) {
+  opacity: 0.88;
+}
+
+html[data-motion="reduced"] *,
+html[data-motion="reduced"] *::before,
+html[data-motion="reduced"] *::after {
+  scroll-behavior: auto !important;
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+}
+
+@media (max-width: 980px) {
+  .appearance-settings {
+    width: auto;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .appearance-trigger {
+    width: auto;
+    white-space: nowrap;
+  }
+
+  .appearance-panel {
+    left: 50%;
+    bottom: 16px;
+    transform: translateX(-50%);
+  }
+}
+
 /* Unified warm paper surface. This is the slightly aged, not-too-white card tone
    used across poster cards, note cards and project cards. */
 :root {
