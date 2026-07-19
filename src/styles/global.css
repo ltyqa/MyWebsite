@@ -5661,9 +5661,9 @@ html[data-font-size="large"] {
 .appearance-panel {
   position: fixed;
   left: calc(var(--dashboard-sidebar-width, 240px) + 18px);
-  top: 22px;
-  bottom: auto;
-  z-index: 30;
+  top: auto;
+  bottom: 22px;
+  z-index: 1000;
   width: min(360px, calc(100vw - 32px));
   max-height: calc(100dvh - 44px);
   overflow-y: auto;
@@ -5928,8 +5928,8 @@ html[data-motion="reduced"] *::after {
 
   .appearance-panel {
     left: 50%;
-    top: 16px;
-    bottom: auto;
+    top: auto;
+    bottom: 16px;
     max-height: calc(100dvh - 32px);
     transform: translateX(-50%);
   }
