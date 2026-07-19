@@ -5156,7 +5156,7 @@ h2 {
 
 .ai-language-toggle {
   display: inline-grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   overflow: hidden;
   border: 3px solid #1d1d1b;
@@ -5179,9 +5179,8 @@ h2 {
   transition: background 180ms ease, color 180ms ease;
 }
 
-.ai-language-toggle i {
-  color: rgba(29, 29, 27, 0.42);
-  font-style: normal;
+.ai-language-toggle [data-language-label="en"] {
+  border-left: 2px solid #1d1d1b;
 }
 
 .ai-language-toggle[data-language="zh"] [data-language-label="zh"],
