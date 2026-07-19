@@ -99,6 +99,7 @@ const entranceNavigation = siteNavigation.filter((item) => item.key !== "home");
           class="entrance-theme-toggle"
           type="button"
           data-entrance-theme-toggle
+          data-theme-toggle
           aria-label="切换为夜间模式"
           aria-pressed="false"
         >
@@ -123,6 +124,15 @@ const entranceNavigation = siteNavigation.filter((item) => item.key !== "home");
           <div class="dashboard-main room-dashboard-main">
         <div class="room-controls">
           <button class="paper-mini-button" type="button" data-close-door aria-label="回到门口">门口</button>
+          <button
+            class="room-theme-toggle"
+            type="button"
+            data-theme-toggle
+            aria-label="切换为夜间模式"
+            aria-pressed="false"
+          >
+            <img src="/images/theme-sun.png" alt="" width="48" height="48" data-theme-toggle-image />
+          </button>
           <a class="paper-mini-button" href="/projects/">项目</a>
           <a class="paper-mini-button" href="/notes/">笔记</a>
         </div>
@@ -252,8 +262,7 @@ const entranceNavigation = siteNavigation.filter((item) => item.key !== "home");
         const progress = document.querySelector("[data-loader-progress]");
         const openDoor = document.querySelector("[data-open-door]");
         const closeDoor = document.querySelector("[data-close-door]");
-        const themeToggle = document.querySelector("[data-entrance-theme-toggle]");
-        const themeToggleImage = themeToggle?.querySelector("[data-theme-toggle-image]");
+        const themeToggles = document.querySelectorAll("[data-theme-toggle]");
         const parallaxScenes = document.querySelectorAll("[data-parallax-scene]");
         const canUseParallax =
           parallaxScenes.length > 0 &&
@@ -317,11 +326,12 @@ const entranceNavigation = siteNavigation.filter((item) => item.key !== "home");
         };
         const syncThemeToggle = () => {
           const isInk = document.documentElement.dataset.appearance === "ink";
-          themeToggle?.setAttribute("aria-pressed", String(isInk));
-          themeToggle?.setAttribute("aria-label", isInk ? "切换为日间模式" : "切换为夜间模式");
-          if (themeToggleImage) {
-            themeToggleImage.src = isInk ? "/images/theme-moon.png" : "/images/theme-sun.png";
-          }
+          themeToggles.forEach((toggle) => {
+            toggle.setAttribute("aria-pressed", String(isInk));
+            toggle.setAttribute("aria-label", isInk ? "切换为日间模式" : "切换为夜间模式");
+            const image = toggle.querySelector("[data-theme-toggle-image]");
+            if (image) image.src = isInk ? "/images/theme-moon.png" : "/images/theme-sun.png";
+          });
         };
         const handleThemeToggle = () => {
           const storageKey = "site-appearance-v1";
@@ -345,11 +355,11 @@ const entranceNavigation = siteNavigation.filter((item) => item.key !== "home");
 
         openDoor?.addEventListener("click", handleOpenDoor);
         closeDoor?.addEventListener("click", handleCloseDoor);
-        themeToggle?.addEventListener("click", handleThemeToggle);
+        themeToggles.forEach((toggle) => toggle.addEventListener("click", handleThemeToggle));
         syncThemeToggle();
         cleanupTasks.push(() => openDoor?.removeEventListener("click", handleOpenDoor));
         cleanupTasks.push(() => closeDoor?.removeEventListener("click", handleCloseDoor));
-        cleanupTasks.push(() => themeToggle?.removeEventListener("click", handleThemeToggle));
+        cleanupTasks.push(() => themeToggles.forEach((toggle) => toggle.removeEventListener("click", handleThemeToggle)));
 
         if (canUseParallax) {
           let pointerX = 0;
