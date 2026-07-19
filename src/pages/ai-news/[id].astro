@@ -1,0 +1,74 @@
+---
+import "../../styles/global.css";
+import DashboardSidebar from "../../components/DashboardSidebar.astro";
+import PageTransitions from "../../components/PageTransitions.astro";
+import {
+  aiUpdateKindLabel,
+  aiUpdates,
+  formatAiUpdateDate,
+  type AiUpdate,
+} from "../../data/aiUpdates";
+
+export function getStaticPaths() {
+  return aiUpdates.map((entry) => ({
+    params: { id: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props as { entry: AiUpdate };
+const title = entry.titleZh || entry.title;
+const summary = entry.summaryZh || entry.summary;
+const date = formatAiUpdateDate(entry.publishedAt);
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <PageTransitions />
+    <meta name="description" content={summary} />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23151a18'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='30' font-family='Arial,sans-serif' fill='%23fffaf0'%3E%E7%AB%99%3C/text%3E%3C/svg%3E" />
+    <title>{title} | AI 动态</title>
+  </head>
+  <body class="dashboard-body notes-sketch-body ai-news-body">
+    <div class="app-shell">
+      <DashboardSidebar active="ai-news" />
+
+      <main class="dashboard-main route-main notes-sketch-main ai-news-article-main">
+        <section class="article-hero notes-sketch-article-hero">
+          <div class="page-shell article-shell">
+            <a class="inline-link" href="/ai-news/">返回 AI 动态</a>
+            <p class="note-meta">{entry.product} · {aiUpdateKindLabel(entry.kind)} · {date}</p>
+            <h1>{title}</h1>
+            <p class="hero-copy">来自 {entry.company} 的官方更新，已整理为站内阅读版本。</p>
+            <div class="tag-row">
+              <span class="tag">{entry.product}</span>
+              <span class="tag">官方动态</span>
+            </div>
+          </div>
+        </section>
+
+        <article class="page-shell article-shell article-body notes-sketch-article ai-news-article">
+          <p class="ai-article-kicker">中文整理</p>
+          <h2>{title}</h2>
+          <p>{summary}</p>
+
+          <hr />
+
+          <p class="ai-article-kicker">官方原文摘要</p>
+          <h2 lang="en">{entry.title}</h2>
+          {entry.summary && <p lang="en">{entry.summary}</p>}
+
+          <div class="ai-article-source">
+            <p>站内页面提供标题与摘要整理，完整内容以官方网站为准。</p>
+            <a class="ai-source-button" href={entry.url} target="_blank" rel="noreferrer noopener">
+              <span>阅读官方全文</span>
+              <img src="/images/arrow-right-sketch.svg" alt="" aria-hidden="true" />
+            </a>
+          </div>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>

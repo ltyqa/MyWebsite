@@ -169,11 +169,6 @@ h3,
   color: rgba(29, 29, 27, 0.62);
 }
 
-.ai-update-copy .ai-update-details {
-  max-width: 76ch;
-  margin: 1rem 0;
-}
-
 .ai-source-button {
   list-style: none;
   cursor: pointer;
@@ -186,21 +181,6 @@ h3,
 
 .ai-source-button::marker {
   content: "";
-}
-
-.ai-update-details[open] > .ai-source-button img {
-  transform: rotate(90deg);
-}
-
-.ai-update-original {
-  margin-top: 0.8rem;
-  border-left: 4px solid #1d1d1b;
-  padding: 0.3rem 0 0.3rem 1rem;
-  color: rgba(29, 29, 27, 0.76);
-}
-
-.ai-update-original p {
-  line-height: 1.7;
 }
 
 .ai-news-empty,
@@ -5145,7 +5125,8 @@ h2 {
 }
 
 .room-dashboard-main .overview-primary-link,
-.projects-sketch-section .ai-source-button {
+.projects-sketch-section .ai-source-button,
+.ai-article-source .ai-source-button {
   grid-column: 1;
   display: inline-flex;
   width: fit-content;
@@ -5167,6 +5148,27 @@ h2 {
     background 180ms ease;
 }
 
+.ai-news-article .ai-article-kicker {
+  margin-bottom: 0.35rem;
+  color: rgba(29, 29, 27, 0.58) !important;
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.ai-news-article hr {
+  margin: clamp(2rem, 5vw, 3.5rem) 0;
+  border: 0;
+  border-top: 2px dashed rgba(29, 29, 27, 0.3);
+}
+
+.ai-article-source {
+  margin-top: clamp(2rem, 5vw, 3.5rem);
+  border-top: 2px solid #1d1d1b;
+  padding-top: 1.5rem;
+}
+
 .room-dashboard-main .overview-primary-link em {
   font-family: var(--font-display-hand);
   font-size: 24px;
@@ -5175,7 +5177,8 @@ h2 {
   transition: transform 180ms ease;
 }
 
-.projects-sketch-section .ai-source-button img {
+.projects-sketch-section .ai-source-button img,
+.ai-article-source .ai-source-button img {
   width: 32px;
   height: 20px;
   object-fit: contain;
@@ -5185,7 +5188,9 @@ h2 {
 .room-dashboard-main .overview-primary-link:hover,
 .room-dashboard-main .overview-primary-link:focus-visible,
 .projects-sketch-section .ai-source-button:hover,
-.projects-sketch-section .ai-source-button:focus-visible {
+.projects-sketch-section .ai-source-button:focus-visible,
+.ai-article-source .ai-source-button:hover,
+.ai-article-source .ai-source-button:focus-visible {
   background: #268847;
   box-shadow: 7px 8px 0 rgba(29, 29, 27, 0.2);
   transform: translate(-1px, -2px) rotate(0.3deg);
@@ -5194,17 +5199,15 @@ h2 {
 .room-dashboard-main .overview-primary-link:hover em,
 .room-dashboard-main .overview-primary-link:focus-visible em,
 .projects-sketch-section .ai-source-button:hover img,
-.projects-sketch-section .ai-source-button:focus-visible img {
+.projects-sketch-section .ai-source-button:focus-visible img,
+.ai-article-source .ai-source-button:hover img,
+.ai-article-source .ai-source-button:focus-visible img {
   transform: translateX(3px);
 }
 
-.projects-sketch-section .ai-update-details[open] > .ai-source-button:hover img,
-.projects-sketch-section .ai-update-details[open] > .ai-source-button:focus-visible img {
-  transform: translateX(3px) rotate(90deg);
-}
-
 .room-dashboard-main .overview-primary-link:active,
-.projects-sketch-section .ai-source-button:active {
+.projects-sketch-section .ai-source-button:active,
+.ai-article-source .ai-source-button:active {
   box-shadow: 3px 4px 0 rgba(29, 29, 27, 0.2);
   transform: translateY(1px);
 }
