@@ -5585,9 +5585,30 @@ h2 {
   margin-top: 16px;
 }
 
-.room-dashboard-main .poster-note-actions .latest-note-link,
+.room-dashboard-main .poster-note-actions .latest-note-link {
+  position: absolute;
+  top: clamp(20px, 2.5vw, 30px);
+  right: clamp(20px, 2.5vw, 30px);
+  z-index: 2;
+  width: auto;
+  min-height: 44px;
+  margin-top: 0;
+  padding-inline: 15px;
+}
+
 .room-dashboard-main .poster-note-actions .poster-link {
   margin-top: 0;
+}
+
+@media (max-width: 620px) {
+  .room-dashboard-main .poster-wall--notes {
+    padding-top: 76px;
+  }
+
+  .room-dashboard-main .poster-note-actions .latest-note-link {
+    top: 18px;
+    right: 18px;
+  }
 }
 
 /* Unified warm paper surface. This is the slightly aged, not-too-white card tone
