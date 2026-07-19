@@ -6584,3 +6584,33 @@ html[data-appearance="ink"] body :where(
 ) :where(span, strong, em) {
   color: #fffdfa !important;
 }
+
+/* Category and product filter buttons have legacy !important ink colors.
+   Override them explicitly for every interactive state in night mode. */
+html[data-appearance="ink"] body .notes-sketch-section .note-rail button,
+html[data-appearance="ink"] body .ai-news-filters button {
+  border-color: rgba(238, 233, 220, 0.68) !important;
+  background: #2b2e29 !important;
+  color: #eee9dc !important;
+  box-shadow: 2px 3px 0 rgba(0, 0, 0, 0.24);
+}
+
+html[data-appearance="ink"] body .notes-sketch-section .note-rail button:hover,
+html[data-appearance="ink"] body .notes-sketch-section .note-rail button:focus-visible,
+html[data-appearance="ink"] body .ai-news-filters button:hover,
+html[data-appearance="ink"] body .ai-news-filters button:focus-visible {
+  border-color: #d8c886 !important;
+  background: #3a3b32 !important;
+  color: #fff8df !important;
+}
+
+html[data-appearance="ink"] body .notes-sketch-section .note-rail button.active,
+html[data-appearance="ink"] body .notes-sketch-section .note-rail button[aria-pressed="true"],
+html[data-appearance="ink"] body .ai-news-filters button[aria-pressed="true"],
+html[data-appearance="ink"] body .notes-sketch-section .note-rail button.active:hover,
+html[data-appearance="ink"] body .notes-sketch-section .note-rail button[aria-pressed="true"]:hover,
+html[data-appearance="ink"] body .ai-news-filters button[aria-pressed="true"]:hover {
+  border-color: #151713 !important;
+  background: #2f9b54 !important;
+  color: #fffdfa !important;
+}
