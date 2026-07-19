@@ -169,18 +169,27 @@ h3,
   color: rgba(29, 29, 27, 0.62);
 }
 
-.ai-update-copy details {
+.ai-update-copy .ai-update-details {
   max-width: 76ch;
   margin: 1rem 0;
 }
 
-.ai-update-copy summary {
-  width: fit-content;
+.ai-source-button {
+  list-style: none;
   cursor: pointer;
-  font-weight: 900;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 4px;
+  text-decoration: none;
+}
+
+.ai-source-button::-webkit-details-marker {
+  display: none;
+}
+
+.ai-source-button::marker {
+  content: "";
+}
+
+.ai-update-details[open] > .ai-source-button em {
+  transform: rotate(90deg);
 }
 
 .ai-update-original {
@@ -5135,7 +5144,8 @@ h2 {
   font-size: clamp(30px, 3vw, 42px);
 }
 
-.room-dashboard-main .overview-primary-link {
+.room-dashboard-main .overview-primary-link,
+.projects-sketch-section .ai-source-button {
   grid-column: 1;
   display: inline-flex;
   width: fit-content;
@@ -5157,7 +5167,8 @@ h2 {
     background 180ms ease;
 }
 
-.room-dashboard-main .overview-primary-link em {
+.room-dashboard-main .overview-primary-link em,
+.projects-sketch-section .ai-source-button em {
   font-family: var(--font-display-hand);
   font-size: 24px;
   font-style: normal;
@@ -5166,18 +5177,28 @@ h2 {
 }
 
 .room-dashboard-main .overview-primary-link:hover,
-.room-dashboard-main .overview-primary-link:focus-visible {
+.room-dashboard-main .overview-primary-link:focus-visible,
+.projects-sketch-section .ai-source-button:hover,
+.projects-sketch-section .ai-source-button:focus-visible {
   background: #268847;
   box-shadow: 7px 8px 0 rgba(29, 29, 27, 0.2);
   transform: translate(-1px, -2px) rotate(0.3deg);
 }
 
 .room-dashboard-main .overview-primary-link:hover em,
-.room-dashboard-main .overview-primary-link:focus-visible em {
+.room-dashboard-main .overview-primary-link:focus-visible em,
+.projects-sketch-section .ai-source-button:hover em,
+.projects-sketch-section .ai-source-button:focus-visible em {
   transform: translateX(3px);
 }
 
-.room-dashboard-main .overview-primary-link:active {
+.projects-sketch-section .ai-update-details[open] > .ai-source-button:hover em,
+.projects-sketch-section .ai-update-details[open] > .ai-source-button:focus-visible em {
+  transform: translateX(3px) rotate(90deg);
+}
+
+.room-dashboard-main .overview-primary-link:active,
+.projects-sketch-section .ai-source-button:active {
   box-shadow: 3px 4px 0 rgba(29, 29, 27, 0.2);
   transform: translateY(1px);
 }

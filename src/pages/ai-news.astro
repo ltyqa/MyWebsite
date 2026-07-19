@@ -85,15 +85,19 @@ const generatedLabel = aiUpdatesGeneratedAt
                           {entry.translationStatus !== "translated" && (
                             <p class="ai-translation-note">中文翻译待同步，当前显示官方原文。</p>
                           )}
-                          <details>
-                            <summary>查看官方原文</summary>
+                          <details class="ai-update-details">
+                            <summary class="ai-source-button">
+                              <span>查看官方原文</span>
+                              <em aria-hidden="true">→</em>
+                            </summary>
                             <div class="ai-update-original">
                               <strong>{entry.title}</strong>
                               {entry.summary && <p>{entry.summary}</p>}
                             </div>
                           </details>
-                          <a class="inline-link" href={entry.url} target="_blank" rel="noreferrer noopener">
-                            前往官方来源
+                          <a class="ai-source-button" href={entry.url} target="_blank" rel="noreferrer noopener">
+                            <span>前往官方来源</span>
+                            <em aria-hidden="true">→</em>
                           </a>
                         </div>
                       </article>
