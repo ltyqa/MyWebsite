@@ -25,17 +25,12 @@
         <label>
           <input type="radio" name="appearance-theme" value="paper" checked />
           <span class="appearance-swatch appearance-swatch--paper" aria-hidden="true"></span>
-          原始纸张
+          日间模式
         </label>
         <label>
           <input type="radio" name="appearance-theme" value="ink" />
           <span class="appearance-swatch appearance-swatch--ink" aria-hidden="true"></span>
-          夜间墨色
-        </label>
-        <label>
-          <input type="radio" name="appearance-theme" value="clean" />
-          <span class="appearance-swatch appearance-swatch--clean" aria-hidden="true"></span>
-          清爽白纸
+          夜间模式
         </label>
       </div>
     </fieldset>
@@ -68,7 +63,7 @@
 
     const storageKey = "site-appearance-v1";
     const defaults = { theme: "paper", size: "standard", motion: true };
-    const validThemes = new Set(["paper", "ink", "clean"]);
+    const validThemes = new Set(["paper", "ink"]);
     const validSizes = new Set(["small", "standard", "large"]);
 
     const readSettings = () => {

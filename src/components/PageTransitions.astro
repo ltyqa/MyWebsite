@@ -6,7 +6,7 @@ import { ClientRouter } from "astro:transitions";
   (() => {
     try {
       const saved = JSON.parse(localStorage.getItem("site-appearance-v1") || "{}");
-      const theme = ["paper", "ink", "clean"].includes(saved.theme) ? saved.theme : "paper";
+      const theme = saved.theme === "ink" ? "ink" : "paper";
       const size = ["small", "standard", "large"].includes(saved.size) ? saved.size : "standard";
       const motion = typeof saved.motion === "boolean" ? saved.motion : true;
       document.documentElement.dataset.appearance = theme;

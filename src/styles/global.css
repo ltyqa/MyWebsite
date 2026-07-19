@@ -5719,7 +5719,12 @@ html[data-font-size="large"] {
   margin-bottom: 9px;
 }
 
-.appearance-theme-options,
+.appearance-theme-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 7px;
+}
+
 .appearance-size-options {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -5765,7 +5770,6 @@ html[data-font-size="large"] {
 
 .appearance-swatch--paper { background: #faf7ef; }
 .appearance-swatch--ink { background: #242722; }
-.appearance-swatch--clean { background: #fff; }
 
 .appearance-motion-option {
   display: flex;
@@ -5800,24 +5804,6 @@ html[data-font-size="large"] {
   color: inherit;
   font-weight: 800;
   cursor: pointer;
-}
-
-html[data-appearance="clean"] {
-  --paper: #f7f8fa;
-  --paper-strong: #ffffff;
-  --mist: #eef1f4;
-  --surface: rgba(255, 255, 255, 0.88);
-  --surface-solid: #ffffff;
-  --sketch-paper: #ffffff;
-  --sketch-paper-dark: #f0f2f4;
-  --warm-paper-card: #ffffff;
-  --warm-paper-card-rgb: 255, 255, 255;
-}
-
-html[data-appearance="clean"] body,
-html[data-appearance="clean"] .dashboard-body,
-html[data-appearance="clean"] .handdrawn-home {
-  background-color: #f6f8fa;
 }
 
 html[data-appearance="ink"] {
@@ -6541,6 +6527,7 @@ html[data-appearance="ink"] body :where(
   dd,
   label,
   legend,
+  button,
   input,
   textarea,
   summary,
