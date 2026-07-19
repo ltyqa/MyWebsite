@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import DashboardSidebar from "../components/DashboardSidebar.astro";
 import PageTransitions from "../components/PageTransitions.astro";
+import { siteNavigation } from "../data/navigation";
 import {
   getGitHubActivities,
   getGitHubActivityChart,
@@ -37,6 +38,7 @@ function formatOverviewDate(value?: string) {
 }
 
 const latestActivityDate = formatOverviewDate(latestActivity?.[0]);
+const entranceNavigation = siteNavigation.filter((item) => item.key !== "home");
 ---
 
 <html lang="zh-CN">
@@ -86,9 +88,11 @@ const latestActivityDate = formatOverviewDate(latestActivity?.[0]);
         </div>
 
         <nav class="paper-nav" aria-label="快速导航">
-          <a href="/projects/" aria-label="进入项目页">项目</a>
-          <a href="/notes/" aria-label="进入笔记页">笔记</a>
-          <a href="/weekly/" aria-label="进入每周新闻页">新闻</a>
+          {
+            entranceNavigation.map((item) => (
+              <a href={item.href} aria-label={`进入${item.label}页`}>{item.entranceLabel}</a>
+            ))
+          }
         </nav>
 
         <div class="wood-sign" data-depth="0.2">个人博客</div>

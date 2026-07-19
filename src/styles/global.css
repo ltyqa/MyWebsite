@@ -3621,6 +3621,19 @@ h2 {
     justify-content: center;
   }
 
+  .paper-nav {
+    gap: 6px;
+  }
+
+  .paper-nav a {
+    min-width: 0;
+    min-height: 42px;
+    flex: 1 1 0;
+    padding-inline: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
   .wood-sign {
     top: max(62px, 8svh);
     width: max-content;
