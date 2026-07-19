@@ -9,7 +9,7 @@ import {
   formatAiUpdateDate,
 } from "../data/aiUpdates";
 
-const products = ["all", "GPT", "Claude", "Gemini", "Kimi", "DeepSeek", "豆包"] as const;
+const products = ["all", "GPT", "Claude", "Gemini", "DeepSeek"] as const;
 const generatedLabel = aiUpdatesGeneratedAt
   ? formatAiUpdateDate(aiUpdatesGeneratedAt)
   : "等待首次同步";

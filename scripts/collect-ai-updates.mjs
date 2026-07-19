@@ -7,7 +7,7 @@ import { XMLParser } from "fast-xml-parser";
 const DATA_PATH = resolve("src/data/ai-updates.json");
 const RETENTION_DAYS = 90;
 const EXTENDED_RETENTION_DAYS = 365;
-const EXTENDED_RETENTION_PRODUCTS = new Set(["Kimi", "DeepSeek", "豆包"]);
+const EXTENDED_RETENTION_PRODUCTS = new Set(["DeepSeek"]);
 const USER_AGENT = "ltyqa-ai-updates/1.0 (+https://mywebsite.pages.dev)";
 const xmlParser = new XMLParser({ ignoreAttributes: false, trimValues: true });
 const sourceById = new Map();
@@ -74,15 +74,6 @@ const sources = [
     url: "https://blog.google/technology/ai/rss/",
   },
   {
-    id: "kimi-platform",
-    company: "Moonshot AI",
-    product: "Kimi",
-    kind: "product",
-    format: "blog-index",
-    language: "zh",
-    url: "https://platform.kimi.com/blog",
-  },
-  {
     id: "deepseek-api",
     company: "DeepSeek",
     product: "DeepSeek",
@@ -90,16 +81,6 @@ const sources = [
     format: "dated-html-nested",
     language: "zh",
     url: "https://api-docs.deepseek.com/zh-cn/updates",
-  },
-  {
-    id: "doubao-news",
-    company: "火山引擎",
-    product: "豆包",
-    kind: "product",
-    format: "volc-news",
-    language: "zh",
-    keyword: /豆包|Doubao|方舟.*模型|模型.*方舟/i,
-    url: "https://www.volcengine.com/news",
   },
 ];
 
@@ -490,7 +471,9 @@ export async function collectUpdates() {
 
   const cutoff = Date.now() - RETENTION_DAYS * 24 * 60 * 60 * 1000;
   const extendedCutoff = Date.now() - EXTENDED_RETENTION_DAYS * 24 * 60 * 60 * 1000;
+  const activeSourceIds = new Set(sources.map((source) => source.id));
   const retained = [...byId.values()]
+    .filter((entry) => activeSourceIds.has(entry.sourceId))
     .filter((entry) => {
       const entryCutoff = EXTENDED_RETENTION_PRODUCTS.has(entry.product) ? extendedCutoff : cutoff;
       return new Date(entry.publishedAt).getTime() >= entryCutoff;
