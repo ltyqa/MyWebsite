@@ -5775,6 +5775,17 @@ html[data-font-size="large"] {
   font-weight: 700;
   text-align: center;
   cursor: pointer;
+  --appearance-option-tilt: -0.35deg;
+  transform-origin: 50% 100%;
+}
+
+.appearance-theme-options label:nth-child(2n),
+.appearance-size-options label:nth-child(2n) {
+  --appearance-option-tilt: 0.4deg;
+}
+
+.appearance-size-options label:nth-child(3n) {
+  --appearance-option-tilt: -0.25deg;
 }
 
 .appearance-theme-options label:has(input:checked),
@@ -6646,9 +6657,7 @@ html[data-appearance="ink"] body .ai-news-filters button[aria-pressed="true"]:ho
   color: #fffdfa !important;
 }
 
-/* Mouse-only tactile feedback for every button-like control. Individual
-   components keep their own colors and rotations; translate/filter compose
-   with those styles without replacing them. */
+/* Mouse-only tactile feedback for button-like controls. */
 :where(
   button,
   .button,
@@ -6658,9 +6667,15 @@ html[data-appearance="ink"] body .ai-news-filters button[aria-pressed="true"]:ho
   .appearance-theme-options label,
   .appearance-size-options label
 ) {
-  transform-origin: 50% 100%;
-  transition-property: translate, rotate, transform, filter, opacity, box-shadow, background-color, border-color, color;
-  transition-duration: 220ms;
+  transition-property: translate, transform, filter, opacity, box-shadow, background-color, border-color, color;
+  transition-duration: 180ms;
+  transition-timing-function: ease;
+}
+
+.appearance-theme-options label,
+.appearance-size-options label {
+  transition-property: translate, rotate, filter, box-shadow, background-color, border-color, color;
+  transition-duration: 240ms;
   transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -6674,12 +6689,8 @@ html[data-appearance="ink"] body .ai-news-filters button[aria-pressed="true"]:ho
     .appearance-theme-options label,
     .appearance-size-options label
   ):not(:disabled):hover {
-    translate: 0 -4px;
-    rotate: -0.7deg;
-    filter:
-      brightness(1.045)
-      saturate(1.025)
-      drop-shadow(3px 5px 0 rgba(29, 29, 27, 0.14));
+    translate: 0 -2px;
+    filter: brightness(1.08) saturate(1.04);
   }
 
   :where(
@@ -6692,22 +6703,29 @@ html[data-appearance="ink"] body .ai-news-filters button[aria-pressed="true"]:ho
     .appearance-size-options label
   ):not(:disabled):active {
     translate: 0 1px;
-    rotate: 0deg;
     filter: brightness(0.98);
     transition-duration: 80ms;
+  }
+
+  .appearance-theme-options label:hover,
+  .appearance-size-options label:hover {
+    translate: 0 -5px;
+    rotate: var(--appearance-option-tilt);
+    filter: brightness(1.035) saturate(1.02);
+    box-shadow: 6px 8px 0 rgba(29, 29, 27, 0.18);
+  }
+
+  .appearance-theme-options label:active,
+  .appearance-size-options label:active {
+    translate: 0 1px;
+    rotate: 0deg;
+    box-shadow: 2px 3px 0 rgba(29, 29, 27, 0.12);
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  :where(
-    button,
-    .button,
-    .paper-mini-button,
-    .latest-note-link,
-    .ai-source-button,
-    .appearance-theme-options label,
-    .appearance-size-options label
-  ) {
+  .appearance-theme-options label,
+  .appearance-size-options label {
     translate: none !important;
     rotate: none !important;
     transition-duration: 0.01ms !important;
