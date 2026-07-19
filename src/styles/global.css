@@ -5676,6 +5676,37 @@ html[data-font-size="large"] {
   display: none;
 }
 
+.appearance-panel.is-opening {
+  animation: appearance-panel-in 240ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.appearance-panel.is-closing {
+  pointer-events: none;
+  animation: appearance-panel-out 220ms cubic-bezier(0.4, 0, 0.8, 0.2) both;
+}
+
+@keyframes appearance-panel-in {
+  from {
+    opacity: 0;
+    translate: 0 34px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes appearance-panel-out {
+  from {
+    opacity: 1;
+    translate: 0 0;
+  }
+  to {
+    opacity: 0;
+    translate: 0 34px;
+  }
+}
+
 .appearance-panel__heading {
   display: flex;
   align-items: flex-start;

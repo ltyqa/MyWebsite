@@ -83,6 +83,7 @@
     const panel = container.querySelector("[data-appearance-panel]");
     const trigger = container.querySelector("[data-appearance-trigger]");
     const motionInput = container.querySelector("[data-appearance-motion]");
+    let closeTimer;
 
     const applySettings = (next, persist = true) => {
       settings = next;
@@ -104,14 +105,36 @@
     };
 
     const closePanel = () => {
-      panel.hidden = true;
+      if (panel.hidden || panel.classList.contains("is-closing")) return;
       trigger.setAttribute("aria-expanded", "false");
+      panel.classList.remove("is-opening");
+
+      if (!settings.motion) {
+        panel.hidden = true;
+        return;
+      }
+
+      panel.classList.add("is-closing");
+      closeTimer = window.setTimeout(() => {
+        panel.hidden = true;
+        panel.classList.remove("is-closing");
+      }, 260);
+    };
+
+    const openPanel = () => {
+      window.clearTimeout(closeTimer);
+      panel.classList.remove("is-closing");
+      panel.hidden = false;
+      trigger.setAttribute("aria-expanded", "true");
+      panel.classList.remove("is-opening");
+      void panel.offsetWidth;
+      panel.classList.add("is-opening");
+      panel.querySelector("input:checked")?.focus();
     };
 
     const togglePanel = () => {
-      panel.hidden = !panel.hidden;
-      trigger.setAttribute("aria-expanded", String(!panel.hidden));
-      if (!panel.hidden) panel.querySelector("input:checked")?.focus();
+      if (trigger.getAttribute("aria-expanded") === "true") closePanel();
+      else openPanel();
     };
 
     const handleChange = (event) => {
@@ -142,6 +165,7 @@
     applySettings(settings, false);
 
     window.__appearanceSettingsCleanup = () => {
+      window.clearTimeout(closeTimer);
       document.removeEventListener("pointerdown", handleOutsideClick);
       document.removeEventListener("keydown", handleKeydown);
     };
