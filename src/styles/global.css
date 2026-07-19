@@ -5767,28 +5767,16 @@ h2 {
    content, then progressively quiet supporting panels and repeated entries. */
 .room-dashboard-main .poster-wall--activity::after,
 .room-dashboard-main .poster-wall--projects::after,
-.room-dashboard-main .poster-wall--notes::after {
+.room-dashboard-main .poster-wall--notes::after,
+.room-dashboard-main .poster-wall--categories::after {
   display: none;
 }
 
 .room-dashboard-main .poster-wall--activity,
 .room-dashboard-main .poster-wall--projects,
-.room-dashboard-main .poster-wall--notes {
-  box-shadow: 5px 6px 0 rgba(29, 29, 27, 0.07);
-}
-
+.room-dashboard-main .poster-wall--notes,
 .room-dashboard-main .poster-wall--categories {
-  border-width: 2px;
-  border-style: dashed;
-  background:
-    linear-gradient(rgba(var(--warm-paper-card-rgb), 0.66), rgba(var(--warm-paper-card-rgb), 0.66)),
-    repeating-linear-gradient(0deg, transparent 0 24px, rgba(var(--warm-paper-line-rgb), 0.035) 24px 25px);
-  box-shadow: none;
-}
-
-.room-dashboard-main .poster-wall--categories::before,
-.room-dashboard-main .poster-wall--categories::after {
-  display: none;
+  box-shadow: 5px 6px 0 rgba(29, 29, 27, 0.07);
 }
 
 .notes-sketch-section .note-card-large:not(:first-child) {
