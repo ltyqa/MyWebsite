@@ -11,6 +11,8 @@ export type AiUpdate = {
   kind: AiUpdateKind;
   title: string;
   summary: string;
+  content?: string;
+  contentZh?: string;
   titleZh: string;
   summaryZh: string;
   translationStatus: "pending" | "translated" | "failed";

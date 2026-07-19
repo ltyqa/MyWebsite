@@ -8,6 +8,7 @@ import {
   formatAiUpdateDate,
   type AiUpdate,
 } from "../../data/aiUpdates";
+import { renderMarkdown } from "../../lib/markdown";
 
 export function getStaticPaths() {
   return aiUpdates.map((entry) => ({
@@ -20,6 +21,8 @@ const { entry } = Astro.props as { entry: AiUpdate };
 const title = entry.titleZh || entry.title;
 const summary = entry.summaryZh || entry.summary;
 const date = formatAiUpdateDate(entry.publishedAt);
+const fullContent = entry.contentZh || entry.content || summary;
+const content = renderMarkdown(fullContent);
 ---
 
 <html lang="zh-CN">
@@ -50,18 +53,11 @@ const date = formatAiUpdateDate(entry.publishedAt);
         </section>
 
         <article class="page-shell article-shell article-body notes-sketch-article ai-news-article">
-          <p class="ai-article-kicker">中文整理</p>
-          <h2>{title}</h2>
-          <p>{summary}</p>
-
-          <hr />
-
-          <p class="ai-article-kicker">官方原文摘要</p>
-          <h2 lang="en">{entry.title}</h2>
-          {entry.summary && <p lang="en">{entry.summary}</p>}
+          <p class="ai-article-kicker">{entry.contentZh ? "中文全文" : "官方全文"}</p>
+          <div class="ai-news-full-content" set:html={content} />
 
           <div class="ai-article-source">
-            <p>站内页面提供标题与摘要整理，完整内容以官方网站为准。</p>
+            <p>本文内容采集自官方网站，排版和翻译可能与原页面存在差异。</p>
             <a class="ai-source-button" href={entry.url} target="_blank" rel="noreferrer noopener">
               <span>阅读官方全文</span>
               <img src="/images/arrow-right-sketch.svg" alt="" aria-hidden="true" />

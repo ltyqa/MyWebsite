@@ -8,6 +8,7 @@ const DATA_PATH = resolve("src/data/ai-updates.json");
 const RETENTION_DAYS = 90;
 const USER_AGENT = "ltyqa-ai-updates/1.0 (+https://mywebsite.pages.dev)";
 const xmlParser = new XMLParser({ ignoreAttributes: false, trimValues: true });
+const sourceById = new Map();
 
 const sources = [
   {
@@ -72,6 +73,12 @@ const sources = [
   },
 ];
 
+for (const source of sources) sourceById.set(source.id, source);
+
+function wait(milliseconds) {
+  return new Promise((resolveWait) => setTimeout(resolveWait, milliseconds));
+}
+
 function array(value) {
   if (value === undefined || value === null) return [];
   return Array.isArray(value) ? value : [value];
@@ -111,6 +118,8 @@ function normalizeEntry(source, entry) {
     kind: source.kind,
     title,
     summary,
+    content: entry.content || (source.format === "dated-html" ? summary : ""),
+    contentZh: "",
     titleZh: "",
     summaryZh: "",
     translationStatus: "pending",
@@ -118,6 +127,79 @@ function normalizeEntry(source, entry) {
     url,
     collectedAt: new Date().toISOString(),
   };
+}
+
+async function collectArticleContent(entry) {
+  if (entry.content) return entry;
+  const readerUrl = `https://r.jina.ai/${entry.url}`;
+  const response = await fetch(readerUrl, {
+    headers: {
+      Accept: "text/markdown",
+      "User-Agent": USER_AGENT,
+    },
+    signal: AbortSignal.timeout(60000),
+  });
+  if (!response.ok) throw new Error(`Reader ${response.status}: ${response.statusText}`);
+  const raw = await response.text();
+  const content = raw.split("Markdown Content:").slice(1).join("Markdown Content:").trim();
+  if (content.length < 200) throw new Error("Reader returned no usable article content");
+  return { ...entry, content: content.slice(0, 80000) };
+}
+
+function contentChunks(markdown, maxLength = 7000) {
+  const blocks = markdown.split(/\n{2,}/);
+  const chunks = [];
+  let current = "";
+  for (const block of blocks) {
+    if (current && current.length + block.length + 2 > maxLength) {
+      chunks.push(current);
+      current = "";
+    }
+    if (block.length > maxLength) {
+      if (current) chunks.push(current);
+      for (let offset = 0; offset < block.length; offset += maxLength) {
+        chunks.push(block.slice(offset, offset + maxLength));
+      }
+      current = "";
+    } else {
+      current = current ? `${current}\n\n${block}` : block;
+    }
+  }
+  if (current) chunks.push(current);
+  return chunks;
+}
+
+async function translateContent(markdown) {
+  const apiKey = process.env.DEEPSEEK_API_KEY;
+  if (!apiKey || !markdown) return "";
+  const translated = [];
+  for (const chunk of contentChunks(markdown)) {
+    const response = await fetch("https://api.deepseek.com/chat/completions", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        model: process.env.DEEPSEEK_MODEL || "deepseek-chat",
+        temperature: 0.1,
+        messages: [
+          {
+            role: "system",
+            content: "将以下科技文章忠实翻译为简体中文。保留 Markdown 标题、列表、链接、图片和代码格式；不总结、不删减、不扩写。只返回译文。",
+          },
+          { role: "user", content: chunk },
+        ],
+      }),
+      signal: AbortSignal.timeout(90000),
+    });
+    if (!response.ok) throw new Error(`DeepSeek content ${response.status}: ${await response.text()}`);
+    const payload = await response.json();
+    const text = payload.choices?.[0]?.message?.content?.trim();
+    if (!text) throw new Error("DeepSeek returned empty article content");
+    translated.push(text);
+  }
+  return translated.join("\n\n");
 }
 
 async function fetchText(url) {
@@ -212,6 +294,11 @@ async function translate(entry) {
   const apiKey = process.env.DEEPSEEK_API_KEY;
   if (!apiKey) return entry;
 
+  const contentZh = entry.contentZh || await translateContent(entry.content);
+  if (entry.translationStatus === "translated" && entry.titleZh) {
+    return { ...entry, contentZh };
+  }
+
   const response = await fetch("https://api.deepseek.com/chat/completions", {
     method: "POST",
     headers: {
@@ -243,6 +330,7 @@ async function translate(entry) {
     ...entry,
     titleZh: translated.titleZh.trim(),
     summaryZh: (translated.summaryZh || "").trim(),
+    contentZh,
     translationStatus: "translated",
   };
 }
@@ -294,7 +382,25 @@ export async function collectUpdates() {
     .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 
   for (let index = 0; index < retained.length; index += 1) {
-    if (retained[index].translationStatus === "translated") continue;
+    const source = sourceById.get(retained[index].sourceId);
+    if (source?.format === "dated-html" && retained[index].content && !retained[index].contentZh) {
+      retained[index].contentZh = retained[index].summaryZh || "";
+    }
+  }
+
+  for (let index = 0; index < retained.length; index += 1) {
+    if (retained[index].content) continue;
+    try {
+      retained[index] = await collectArticleContent(retained[index]);
+      console.log(`[ai-updates] content ${retained[index].id}: ${retained[index].content.length} chars`);
+    } catch (error) {
+      console.warn(`[ai-updates] content ${retained[index].id}: ${error.message}`);
+    }
+    await wait(3200);
+  }
+
+  for (let index = 0; index < retained.length; index += 1) {
+    if (retained[index].translationStatus === "translated" && retained[index].contentZh) continue;
     try {
       retained[index] = await translate(retained[index]);
     } catch (error) {
