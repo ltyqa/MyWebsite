@@ -6645,3 +6645,49 @@ html[data-appearance="ink"] body .ai-news-filters button[aria-pressed="true"]:ho
   background: #2f9b54 !important;
   color: #fffdfa !important;
 }
+
+/* Mouse-only tactile feedback for every button-like control. Individual
+   components keep their own colors and rotations; translate/filter compose
+   with those styles without replacing them. */
+:where(
+  button,
+  .button,
+  .paper-mini-button,
+  .latest-note-link,
+  .ai-source-button,
+  .appearance-theme-options label,
+  .appearance-size-options label
+) {
+  transition-property: translate, transform, filter, opacity, box-shadow, background-color, border-color, color;
+  transition-duration: 180ms;
+  transition-timing-function: ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  :where(
+    button,
+    .button,
+    .paper-mini-button,
+    .latest-note-link,
+    .ai-source-button,
+    .appearance-theme-options label,
+    .appearance-size-options label
+  ):not(:disabled):hover {
+    translate: 0 -2px;
+    filter: brightness(1.08) saturate(1.04);
+  }
+
+  :where(
+    button,
+    .button,
+    .paper-mini-button,
+    .latest-note-link,
+    .ai-source-button,
+    .appearance-theme-options label,
+    .appearance-size-options label
+  ):not(:disabled):active {
+    translate: 0 1px;
+    filter: brightness(0.98);
+    transition-duration: 80ms;
+  }
+}
