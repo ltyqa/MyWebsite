@@ -6753,11 +6753,19 @@ html[data-appearance="ink"] .paper-loader__progress::after {
 }
 
 html[data-appearance="ink"] .entrance-scene {
+  --sketch-ink: #c5b178;
+  --sketch-muted: #a99a70;
   background:
     linear-gradient(rgba(17, 22, 25, 0.06), rgba(17, 22, 25, 0.06)),
     url("/images/entrance-sketch-night.png") center / cover no-repeat,
     #171a18;
   color: #eee9dc;
+}
+
+html[data-appearance="ink"] .entrance-scene :where(.wood-sign, .door-leaf, .paper-nav a),
+html[data-appearance="ink"] .entrance-scene .portfolio-door::before {
+  border-color: #b8a56f;
+  color: #d2c18c;
 }
 
 html[data-appearance="ink"] .room-scene {
