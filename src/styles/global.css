@@ -6728,8 +6728,8 @@ html[data-appearance="ink"] body:not(.story-body) {
   background:
     linear-gradient(rgba(238, 233, 220, 0.035) 1px, transparent 1px),
     linear-gradient(90deg, rgba(238, 233, 220, 0.03) 1px, transparent 1px),
-    linear-gradient(rgba(26, 30, 27, 0.72), rgba(26, 30, 27, 0.72)),
-    url("/images/room-sketch.png") center / cover fixed no-repeat,
+    linear-gradient(rgba(18, 22, 25, 0.08), rgba(18, 22, 25, 0.08)),
+    url("/images/room-sketch-night.png") center / cover fixed no-repeat,
     #1b1e1b;
   background-size: 52px 52px, 52px 52px, auto, cover, auto;
 }
@@ -6754,16 +6754,17 @@ html[data-appearance="ink"] .paper-loader__progress::after {
 
 html[data-appearance="ink"] .entrance-scene {
   background:
-    linear-gradient(rgba(17, 22, 19, 0.6), rgba(17, 22, 19, 0.6)),
-    url("/images/entrance-sketch.png") center / cover no-repeat,
+    linear-gradient(rgba(17, 22, 25, 0.06), rgba(17, 22, 25, 0.06)),
+    url("/images/entrance-sketch-night.png") center / cover no-repeat,
     #171a18;
   color: #eee9dc;
 }
 
-html[data-appearance="ink"] .room-scene {
+html[data-appearance="ink"] .room-scene,
+html[data-appearance="ink"] .room-dashboard-main {
   background:
-    linear-gradient(rgba(19, 24, 21, 0.58), rgba(19, 24, 21, 0.58)),
-    url("/images/room-sketch.png") center / cover no-repeat,
+    linear-gradient(rgba(18, 22, 25, 0.08), rgba(18, 22, 25, 0.08)),
+    url("/images/room-sketch-night.png") center / cover no-repeat,
     #181b18;
 }
 
@@ -6799,23 +6800,24 @@ html[data-appearance="ink"] .portfolio-door::after {
   background: rgba(0, 0, 0, 0.38);
 }
 
-@supports (background-image: image-set(url("/images/room-sketch.webp") type("image/webp"))) {
+@supports (background-image: image-set(url("/images/room-sketch-night.webp") type("image/webp"))) {
   html[data-appearance="ink"] .entrance-scene {
     background:
-      linear-gradient(rgba(17, 22, 19, 0.6), rgba(17, 22, 19, 0.6)),
+      linear-gradient(rgba(17, 22, 25, 0.06), rgba(17, 22, 25, 0.06)),
       image-set(
-        url("/images/entrance-sketch.webp") type("image/webp"),
-        url("/images/entrance-sketch.png") type("image/png")
+        url("/images/entrance-sketch-night.webp") type("image/webp"),
+        url("/images/entrance-sketch-night.png") type("image/png")
       ) center / cover no-repeat,
       #171a18;
   }
 
-  html[data-appearance="ink"] .room-scene {
+  html[data-appearance="ink"] .room-scene,
+  html[data-appearance="ink"] .room-dashboard-main {
     background:
-      linear-gradient(rgba(19, 24, 21, 0.62), rgba(19, 24, 21, 0.62)),
+      linear-gradient(rgba(18, 22, 25, 0.08), rgba(18, 22, 25, 0.08)),
       image-set(
-        url("/images/room-sketch.webp") type("image/webp"),
-        url("/images/room-sketch.png") type("image/png")
+        url("/images/room-sketch-night.webp") type("image/webp"),
+        url("/images/room-sketch-night.png") type("image/png")
       ) center / cover no-repeat,
       #181b18;
   }
@@ -6824,10 +6826,10 @@ html[data-appearance="ink"] .portfolio-door::after {
     background:
       linear-gradient(rgba(238, 233, 220, 0.035) 1px, transparent 1px),
       linear-gradient(90deg, rgba(238, 233, 220, 0.03) 1px, transparent 1px),
-      linear-gradient(rgba(26, 30, 27, 0.72), rgba(26, 30, 27, 0.72)),
+      linear-gradient(rgba(18, 22, 25, 0.08), rgba(18, 22, 25, 0.08)),
       image-set(
-        url("/images/room-sketch.webp") type("image/webp"),
-        url("/images/room-sketch.png") type("image/png")
+        url("/images/room-sketch-night.webp") type("image/webp"),
+        url("/images/room-sketch-night.png") type("image/png")
       ) center / cover fixed no-repeat,
       #1b1e1b;
     background-size: 52px 52px, 52px 52px, auto, cover, auto;
