@@ -188,7 +188,7 @@ h3,
   content: "";
 }
 
-.ai-update-details[open] > .ai-source-button em {
+.ai-update-details[open] > .ai-source-button img {
   transform: rotate(90deg);
 }
 
@@ -5167,12 +5167,18 @@ h2 {
     background 180ms ease;
 }
 
-.room-dashboard-main .overview-primary-link em,
-.projects-sketch-section .ai-source-button em {
+.room-dashboard-main .overview-primary-link em {
   font-family: var(--font-display-hand);
   font-size: 24px;
   font-style: normal;
   line-height: 1;
+  transition: transform 180ms ease;
+}
+
+.projects-sketch-section .ai-source-button img {
+  width: 32px;
+  height: 20px;
+  object-fit: contain;
   transition: transform 180ms ease;
 }
 
@@ -5187,13 +5193,13 @@ h2 {
 
 .room-dashboard-main .overview-primary-link:hover em,
 .room-dashboard-main .overview-primary-link:focus-visible em,
-.projects-sketch-section .ai-source-button:hover em,
-.projects-sketch-section .ai-source-button:focus-visible em {
+.projects-sketch-section .ai-source-button:hover img,
+.projects-sketch-section .ai-source-button:focus-visible img {
   transform: translateX(3px);
 }
 
-.projects-sketch-section .ai-update-details[open] > .ai-source-button:hover em,
-.projects-sketch-section .ai-update-details[open] > .ai-source-button:focus-visible em {
+.projects-sketch-section .ai-update-details[open] > .ai-source-button:hover img,
+.projects-sketch-section .ai-update-details[open] > .ai-source-button:focus-visible img {
   transform: translateX(3px) rotate(90deg);
 }
 
