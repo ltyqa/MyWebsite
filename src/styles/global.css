@@ -6254,6 +6254,47 @@ html[data-motion="reduced"] *::after {
   }
 }
 
+/* Let the shared room artwork show through on inner pages. The former stacked
+   cream overlays read as a white veil and made these pages unlike the home. */
+.projects-sketch-main::before {
+  background: rgba(250, 247, 239, 0.14);
+}
+
+.notes-sketch-body {
+  background:
+    linear-gradient(rgba(28, 28, 27, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(28, 28, 27, 0.03) 1px, transparent 1px),
+    linear-gradient(rgba(250, 247, 239, 0.16), rgba(250, 247, 239, 0.16)),
+    url("/images/room-sketch.png") center / cover fixed no-repeat,
+    #faf7ef;
+  background-size: 52px 52px, 52px 52px, auto, cover, auto;
+}
+
+.notes-sketch-main {
+  background:
+    radial-gradient(circle at 15% 12%, rgba(255, 239, 198, 0.12), transparent 32%),
+    radial-gradient(circle at 84% 20%, rgba(190, 222, 214, 0.1), transparent 34%);
+}
+
+.notes-sketch-main::before {
+  background: radial-gradient(circle at 80% 72%, rgba(26, 26, 26, 0.035), transparent 24rem);
+}
+
+@supports (background-image: image-set(url("/images/room-sketch.webp") type("image/webp"))) {
+  .notes-sketch-body {
+    background:
+      linear-gradient(rgba(28, 28, 27, 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(28, 28, 27, 0.03) 1px, transparent 1px),
+      linear-gradient(rgba(250, 247, 239, 0.16), rgba(250, 247, 239, 0.16)),
+      image-set(
+        url("/images/room-sketch.webp") type("image/webp"),
+        url("/images/room-sketch.png") type("image/png")
+      ) center / cover fixed no-repeat,
+      #faf7ef;
+    background-size: 52px 52px, 52px 52px, auto, cover, auto;
+  }
+}
+
 /* Complete ink theme contrast layer. Keep this after component-specific rules so
    legacy hard-coded light-theme colors cannot override the selected palette. */
 html[data-appearance="ink"] body {
@@ -6732,6 +6773,20 @@ html[data-appearance="ink"] body:not(.story-body) {
     url("/images/room-sketch-night.png") center / cover fixed no-repeat,
     #1b1e1b;
   background-size: 52px 52px, 52px 52px, auto, cover, auto;
+}
+
+html[data-appearance="ink"] .projects-sketch-main::before {
+  background: rgba(18, 22, 25, 0.08);
+}
+
+html[data-appearance="ink"] .notes-sketch-main {
+  background:
+    radial-gradient(circle at 15% 12%, rgba(197, 177, 120, 0.045), transparent 32%),
+    radial-gradient(circle at 84% 20%, rgba(88, 128, 96, 0.04), transparent 34%);
+}
+
+html[data-appearance="ink"] .notes-sketch-main::before {
+  background: radial-gradient(circle at 80% 72%, rgba(0, 0, 0, 0.08), transparent 24rem);
 }
 
 html[data-appearance="ink"] .paper-loader,
