@@ -6662,6 +6662,118 @@ html[data-appearance="ink"] body .ai-news-filters button[aria-pressed="true"]:ho
   color: #fffdfa !important;
 }
 
+/* Night scene layer. Keep the original hand-drawn artwork visible instead of
+   replacing it with a flat fill, then recolor the physical paper surfaces. */
+html[data-appearance="ink"] body:not(.story-body) {
+  background:
+    linear-gradient(rgba(238, 233, 220, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(238, 233, 220, 0.03) 1px, transparent 1px),
+    linear-gradient(rgba(26, 30, 27, 0.72), rgba(26, 30, 27, 0.72)),
+    url("/images/room-sketch.png") center / cover fixed no-repeat,
+    #1b1e1b;
+  background-size: 52px 52px, 52px 52px, auto, cover, auto;
+}
+
+html[data-appearance="ink"] .paper-loader,
+html[data-appearance="ink"] .paper-loader__half {
+  background:
+    linear-gradient(rgba(31, 35, 31, 0.94), rgba(31, 35, 31, 0.94)),
+    repeating-linear-gradient(112deg, rgba(238, 233, 220, 0.045) 0 2px, transparent 2px 36px);
+  color: #eee9dc;
+}
+
+html[data-appearance="ink"] .paper-loader__crack {
+  stroke: #eee9dc;
+  filter: drop-shadow(1px 1px 0 rgba(0, 0, 0, 0.55));
+}
+
+html[data-appearance="ink"] .paper-loader__progress::before,
+html[data-appearance="ink"] .paper-loader__progress::after {
+  border-color: rgba(238, 233, 220, 0.64);
+}
+
+html[data-appearance="ink"] .entrance-scene {
+  background:
+    linear-gradient(rgba(17, 22, 19, 0.6), rgba(17, 22, 19, 0.6)),
+    url("/images/entrance-sketch.png") center / cover no-repeat,
+    #171a18;
+  color: #eee9dc;
+}
+
+html[data-appearance="ink"] .room-scene {
+  background:
+    linear-gradient(rgba(19, 24, 21, 0.58), rgba(19, 24, 21, 0.58)),
+    url("/images/room-sketch.png") center / cover no-repeat,
+    #181b18;
+}
+
+html[data-appearance="ink"] .wood-sign,
+html[data-appearance="ink"] .door-leaf,
+html[data-appearance="ink"] .portfolio-door::before,
+html[data-appearance="ink"] .paper-nav a,
+html[data-appearance="ink"] .paper-mini-button,
+html[data-appearance="ink"] .appearance-theme-options label,
+html[data-appearance="ink"] .appearance-size-options label {
+  border-color: rgba(238, 233, 220, 0.84);
+  background:
+    linear-gradient(rgba(43, 46, 41, 0.94), rgba(43, 46, 41, 0.94)),
+    repeating-linear-gradient(28deg, rgba(238, 233, 220, 0.05) 0 1px, transparent 1px 14px);
+  color: #eee9dc;
+  box-shadow: 4px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+html[data-appearance="ink"] .appearance-theme-options label:has(input:checked),
+html[data-appearance="ink"] .appearance-size-options label:has(input:checked) {
+  border-color: #eee9dc;
+  background:
+    linear-gradient(rgba(60, 65, 58, 0.96), rgba(60, 65, 58, 0.96)),
+    repeating-linear-gradient(28deg, rgba(238, 233, 220, 0.06) 0 1px, transparent 1px 14px);
+  box-shadow: 4px 5px 0 rgba(0, 0, 0, 0.38);
+}
+
+html[data-appearance="ink"] .door-leaf {
+  box-shadow: inset 0 0 0 14px rgba(238, 233, 220, 0.035);
+}
+
+html[data-appearance="ink"] .portfolio-door::after {
+  background: rgba(0, 0, 0, 0.38);
+}
+
+@supports (background-image: image-set(url("/images/room-sketch.webp") type("image/webp"))) {
+  html[data-appearance="ink"] .entrance-scene {
+    background:
+      linear-gradient(rgba(17, 22, 19, 0.6), rgba(17, 22, 19, 0.6)),
+      image-set(
+        url("/images/entrance-sketch.webp") type("image/webp"),
+        url("/images/entrance-sketch.png") type("image/png")
+      ) center / cover no-repeat,
+      #171a18;
+  }
+
+  html[data-appearance="ink"] .room-scene {
+    background:
+      linear-gradient(rgba(19, 24, 21, 0.62), rgba(19, 24, 21, 0.62)),
+      image-set(
+        url("/images/room-sketch.webp") type("image/webp"),
+        url("/images/room-sketch.png") type("image/png")
+      ) center / cover no-repeat,
+      #181b18;
+  }
+
+  html[data-appearance="ink"] body:not(.story-body) {
+    background:
+      linear-gradient(rgba(238, 233, 220, 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(238, 233, 220, 0.03) 1px, transparent 1px),
+      linear-gradient(rgba(26, 30, 27, 0.72), rgba(26, 30, 27, 0.72)),
+      image-set(
+        url("/images/room-sketch.webp") type("image/webp"),
+        url("/images/room-sketch.png") type("image/png")
+      ) center / cover fixed no-repeat,
+      #1b1e1b;
+    background-size: 52px 52px, 52px 52px, auto, cover, auto;
+  }
+}
+
 /* Mouse-only tactile feedback for button-like controls. */
 :where(
   button,
