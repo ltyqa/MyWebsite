@@ -6295,23 +6295,11 @@ html[data-motion="reduced"] *::after {
 .chat-identity input {
   width: 100%;
   min-width: 0;
-  border: 0;
-  border-bottom: 2px solid rgba(29, 29, 27, 0.58);
-  outline: none;
-  background: transparent;
-  color: var(--ink);
-  padding: 5px 4px 4px;
-  font: inherit;
+  min-height: 44px;
+  padding: 9px 11px;
   font-size: 13px;
-  transition: border-color 160ms ease, background-color 160ms ease;
 }
 
-.chat-identity input:focus {
-  border-color: #1d1d1b;
-  background: rgba(247, 211, 111, 0.16);
-}
-
-.chat-identity input::placeholder,
 .chat-identity span {
   color: var(--muted);
 }
@@ -6334,11 +6322,9 @@ html[data-motion="reduced"] *::after {
   gap: 10px;
 }
 
-.chat-input-row textarea {
+.chat-input-row textarea,
+.chat-identity input {
   width: 100%;
-  min-height: 48px;
-  max-height: 144px;
-  resize: none;
   border: 2px solid #1d1d1b;
   border-radius: 4px 11px 4px 10px / 10px 4px 11px 4px;
   outline: none;
@@ -6350,12 +6336,20 @@ html[data-motion="reduced"] *::after {
   transition: border-color 160ms ease, box-shadow 160ms ease;
 }
 
-.chat-input-row textarea::placeholder {
+.chat-input-row textarea {
+  min-height: 48px;
+  max-height: 144px;
+  resize: none;
+}
+
+.chat-input-row textarea::placeholder,
+.chat-identity input::placeholder {
   color: #687083;
   opacity: 1;
 }
 
-.chat-input-row textarea:focus {
+.chat-input-row textarea:focus,
+.chat-identity input:focus {
   border-color: #1d1d1b;
   box-shadow:
     4px 5px 0 rgba(29, 29, 27, 0.13),
@@ -6379,7 +6373,8 @@ html[data-motion="reduced"] *::after {
 }
 
 .chat-input-row button:disabled,
-.chat-input-row textarea:disabled {
+.chat-input-row textarea:disabled,
+.chat-identity input:disabled {
   cursor: wait;
   opacity: 0.68;
 }
@@ -6404,6 +6399,7 @@ html[data-appearance="ink"] .chat-header {
 
 html[data-appearance="ink"] .chat-bubble,
 html[data-appearance="ink"] .chat-input-row textarea,
+html[data-appearance="ink"] .chat-identity input,
 html[data-appearance="ink"] .chat-clear,
 html[data-appearance="ink"] .chat-prompts button,
 html[data-appearance="ink"] .chat-message [data-chat-retry] {
@@ -6411,16 +6407,12 @@ html[data-appearance="ink"] .chat-message [data-chat-retry] {
   color: #eee9dc;
 }
 
-html[data-appearance="ink"] .chat-identity input {
-  border-color: rgba(238, 233, 220, 0.58);
-  color: #eee9dc;
-}
-
 html[data-appearance="ink"] .chat-message--user .chat-bubble {
   background: rgba(62, 91, 66, 0.9);
 }
 
-html[data-appearance="ink"] .chat-input-row textarea::placeholder {
+html[data-appearance="ink"] .chat-input-row textarea::placeholder,
+html[data-appearance="ink"] .chat-identity input::placeholder {
   color: #b9b5aa;
 }
 
