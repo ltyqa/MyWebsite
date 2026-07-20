@@ -1,0 +1,275 @@
+---
+import "../styles/global.css";
+import DashboardSidebar from "../components/DashboardSidebar.astro";
+import PageTransitions from "../components/PageTransitions.astro";
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <PageTransitions />
+    <meta name="description" content="与网站的 OpenClaw AI 助手对话" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23151a18'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='30' font-family='Arial,sans-serif' fill='%23fffaf0'%3E%E7%AB%99%3C/text%3E%3C/svg%3E" />
+    <title>AI 聊天 | 我的个人网站</title>
+  </head>
+  <body class="dashboard-body chat-body">
+    <div class="app-shell">
+      <DashboardSidebar active="chat" />
+
+      <main class="dashboard-main chat-main">
+        <section class="chat-page" aria-labelledby="chat-title">
+          <header class="chat-header">
+            <div>
+              <p class="project-meta">OPENCLAW ASSISTANT</p>
+              <h1 id="chat-title">和我的 AI 聊聊</h1>
+              <p>可以从项目、笔记和网站内容开始提问。</p>
+            </div>
+            <button class="chat-clear" type="button" data-chat-clear aria-label="清空当前对话">
+              清空对话
+            </button>
+          </header>
+
+          <div class="chat-workspace">
+            <aside class="chat-guide" aria-label="对话建议">
+              <div>
+                <p class="project-meta">你可以这样问</p>
+                <div class="chat-prompts">
+                  <button type="button" data-chat-prompt="介绍一下这个网站的主要内容">介绍这个网站</button>
+                  <button type="button" data-chat-prompt="最近有哪些值得阅读的笔记？">推荐几篇笔记</button>
+                  <button type="button" data-chat-prompt="帮我概括作者做过的项目">看看作者的项目</button>
+                </div>
+              </div>
+              <p class="chat-privacy">请勿发送密码、密钥或其他敏感信息。</p>
+            </aside>
+
+            <section class="chat-panel" aria-label="聊天窗口">
+              <div class="chat-thread" data-chat-thread role="log" aria-live="polite" aria-relevant="additions">
+                <div class="chat-welcome" data-chat-welcome>
+                  <span class="chat-avatar" aria-hidden="true">AI</span>
+                  <div>
+                    <h2>你好，我在这里。</h2>
+                    <p>选择左侧问题，或者直接在下方输入你想了解的内容。</p>
+                  </div>
+                </div>
+              </div>
+
+              <form class="chat-composer" data-chat-form>
+                <label for="chat-input">发送消息</label>
+                <div class="chat-input-row">
+                  <textarea
+                    id="chat-input"
+                    name="message"
+                    rows="1"
+                    maxlength="4000"
+                    placeholder="输入你的问题..."
+                    autocomplete="off"
+                    required
+                    data-chat-input
+                  ></textarea>
+                  <button type="submit" data-chat-submit>发送</button>
+                </div>
+                <p class="chat-helper" data-chat-helper>按 Enter 发送，Shift + Enter 换行</p>
+              </form>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
+
+<script is:inline data-astro-rerun>
+  (() => {
+    window.__chatPageCleanup?.();
+
+    const form = document.querySelector("[data-chat-form]");
+    const input = document.querySelector("[data-chat-input]");
+    const thread = document.querySelector("[data-chat-thread]");
+    const submit = document.querySelector("[data-chat-submit]");
+    const clear = document.querySelector("[data-chat-clear]");
+    const helper = document.querySelector("[data-chat-helper]");
+    const prompts = [...document.querySelectorAll("[data-chat-prompt]")];
+    if (!form || !input || !thread || !submit || !clear || !helper) return;
+
+    const storageKey = "site-openclaw-chat-v1";
+    let messages = [];
+    let conversationId = crypto.randomUUID();
+    let pending = false;
+    let abortController;
+
+    const escapeHtml = (value) => {
+      const node = document.createElement("div");
+      node.textContent = value;
+      return node.innerHTML;
+    };
+
+    const formatText = (value) => escapeHtml(value).replace(/\n/g, "<br>");
+
+    const save = () => {
+      localStorage.setItem(storageKey, JSON.stringify({ messages, conversationId }));
+    };
+
+    const scrollToLatest = () => {
+      thread.scrollTo({
+        top: thread.scrollHeight,
+        behavior: document.documentElement.dataset.motion === "reduced" ? "auto" : "smooth",
+      });
+    };
+
+    const renderMessage = (message, options = {}) => {
+      thread.querySelector("[data-chat-welcome]")?.remove();
+      const article = document.createElement("article");
+      article.className = `chat-message chat-message--${message.role}${options.error ? " is-error" : ""}`;
+      article.dataset.chatMessage = "";
+      article.innerHTML = `
+        <span class="chat-avatar" aria-hidden="true">${message.role === "user" ? "你" : "AI"}</span>
+        <div class="chat-bubble">
+          <p>${formatText(message.content)}</p>
+          ${options.error ? '<button type="button" data-chat-retry>重新发送</button>' : ""}
+        </div>
+      `;
+      thread.append(article);
+      scrollToLatest();
+      return article;
+    };
+
+    const renderPending = () => {
+      const article = document.createElement("article");
+      article.className = "chat-message chat-message--assistant chat-message--pending";
+      article.dataset.chatPending = "";
+      article.innerHTML = `
+        <span class="chat-avatar" aria-hidden="true">AI</span>
+        <div class="chat-bubble" aria-label="AI 正在思考">
+          <span></span><span></span><span></span>
+        </div>
+      `;
+      thread.append(article);
+      scrollToLatest();
+    };
+
+    const setPending = (next) => {
+      pending = next;
+      input.disabled = next;
+      submit.disabled = next;
+      submit.textContent = next ? "思考中" : "发送";
+      helper.textContent = next ? "正在等待 OpenClaw 回复" : "按 Enter 发送，Shift + Enter 换行";
+    };
+
+    const resizeInput = () => {
+      input.style.height = "auto";
+      input.style.height = `${Math.min(input.scrollHeight, 144)}px`;
+    };
+
+    const send = async (text) => {
+      const content = text.trim();
+      if (!content || pending) return;
+
+      thread.querySelector(".chat-message.is-error")?.remove();
+      const userMessage = { role: "user", content };
+      messages.push(userMessage);
+      renderMessage(userMessage);
+      input.value = "";
+      resizeInput();
+      setPending(true);
+      renderPending();
+      save();
+
+      abortController = new AbortController();
+      try {
+        const response = await fetch("/api/openclaw-chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ messages, conversationId }),
+          signal: abortController.signal,
+        });
+        const data = await response.json().catch(() => ({}));
+        if (!response.ok) throw new Error(data.message || "聊天服务暂时不可用，请稍后再试。");
+
+        const assistantMessage = { role: "assistant", content: data.reply };
+        messages.push(assistantMessage);
+        conversationId = data.conversationId || conversationId;
+        thread.querySelector("[data-chat-pending]")?.remove();
+        renderMessage(assistantMessage);
+        save();
+      } catch (error) {
+        thread.querySelector("[data-chat-pending]")?.remove();
+        if (error.name !== "AbortError") {
+          renderMessage(
+            { role: "assistant", content: error.message || "消息发送失败，请稍后重试。" },
+            { error: true },
+          );
+        }
+      } finally {
+        setPending(false);
+        input.focus();
+      }
+    };
+
+    const handleSubmit = (event) => {
+      event.preventDefault();
+      send(input.value);
+    };
+
+    const handleInputKeydown = (event) => {
+      if (event.key === "Enter" && !event.shiftKey && !event.isComposing) {
+        event.preventDefault();
+        form.requestSubmit();
+      }
+    };
+
+    const handleThreadClick = (event) => {
+      if (!event.target.closest("[data-chat-retry]")) return;
+      const lastUserMessage = [...messages].reverse().find((message) => message.role === "user");
+      if (!lastUserMessage) return;
+      thread.querySelector(".chat-message.is-error")?.remove();
+      messages = messages.slice(0, messages.lastIndexOf(lastUserMessage));
+      send(lastUserMessage.content);
+    };
+
+    const clearConversation = () => {
+      abortController?.abort();
+      messages = [];
+      conversationId = crypto.randomUUID();
+      localStorage.removeItem(storageKey);
+      thread.innerHTML = `
+        <div class="chat-welcome" data-chat-welcome>
+          <span class="chat-avatar" aria-hidden="true">AI</span>
+          <div><h2>新的对话已准备好。</h2><p>从一个问题开始，我会接着聊下去。</p></div>
+        </div>
+      `;
+      setPending(false);
+      input.focus();
+    };
+
+    try {
+      const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+      if (saved && Array.isArray(saved.messages)) {
+        messages = saved.messages.filter((message) =>
+          message && ["user", "assistant"].includes(message.role) && typeof message.content === "string"
+        ).slice(-12);
+        conversationId = typeof saved.conversationId === "string" ? saved.conversationId : conversationId;
+        messages.forEach((message) => renderMessage(message));
+      }
+    } catch {
+      localStorage.removeItem(storageKey);
+    }
+
+    form.addEventListener("submit", handleSubmit);
+    input.addEventListener("input", resizeInput);
+    input.addEventListener("keydown", handleInputKeydown);
+    clear.addEventListener("click", clearConversation);
+    thread.addEventListener("click", handleThreadClick);
+    prompts.forEach((button) => button.addEventListener("click", () => send(button.dataset.chatPrompt || "")));
+    resizeInput();
+
+    window.__chatPageCleanup = () => {
+      abortController?.abort();
+      form.removeEventListener("submit", handleSubmit);
+      input.removeEventListener("input", resizeInput);
+      input.removeEventListener("keydown", handleInputKeydown);
+      clear.removeEventListener("click", clearConversation);
+      thread.removeEventListener("click", handleThreadClick);
+    };
+  })();
+</script>

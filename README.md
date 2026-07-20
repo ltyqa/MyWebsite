@@ -32,6 +32,9 @@ npm run build
 - `GITHUB_TOKEN`：可选，提高 GitHub API 请求额度。
 - `DEEPSEEK_API_KEY`：可选，为 AI 官方动态生成中文翻译；未配置时保留英文原文。
 - `DEEPSEEK_MODEL`：可选，默认使用 `deepseek-chat`。
+- `OPENCLAW_BASE_URL`：OpenClaw Gateway 的 HTTPS 地址，不含 `/v1`。
+- `OPENCLAW_TOKEN`：OpenClaw Gateway Token，仅配置为 Cloudflare 服务端密钥。
+- `OPENCLAW_MODEL`：可选，默认使用 `openclaw/default`。
 - `SITE_URL`：可选，站点正式地址；默认使用 `https://mywebsite.pages.dev`。
 - `CLOUDFLARE_ACCOUNT_ID`：GitHub Actions 部署使用。
 - `CLOUDFLARE_API_TOKEN`：GitHub Actions 部署使用。
@@ -44,6 +47,8 @@ npm run build
 - `src/data`：构建阶段的 GitHub 和周刊数据读取。
 - `functions`：Cloudflare Pages Functions 运行时接口。
 - `/api/site-data`：运行时站点数据。
+- `/api/openclaw-chat`：网站聊天页使用的 OpenClaw 服务端代理。
+- `/chat/`：AI 聊天交互页面。
 - `/notes/*`：笔记页面及动态回退。
 - `/weekly/*`：周刊页面及动态回退。
 - `/ai-news/`：GPT、Claude 与 Gemini 官方更新聚合，保留最近 90 天。

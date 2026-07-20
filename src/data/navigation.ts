@@ -1,11 +1,12 @@
-export type SiteNavKey = "home" | "projects" | "notes" | "weekly" | "ai-news" | "about";
+export type SiteNavKey = "home" | "projects" | "notes" | "weekly" | "ai-news" | "chat" | "about";
 
 export type SiteNavItem = {
   key: SiteNavKey;
   label: string;
   entranceLabel: string;
   href: string;
-  icon: string;
+  icon?: string;
+  iconText?: string;
 };
 
 export const siteNavigation: SiteNavItem[] = [
@@ -43,6 +44,13 @@ export const siteNavigation: SiteNavItem[] = [
     entranceLabel: "AI 动态",
     href: "/ai-news/",
     icon: "/images/icon-activity.svg",
+  },
+  {
+    key: "chat",
+    label: "AI 聊天",
+    entranceLabel: "AI 聊天",
+    href: "/chat/",
+    iconText: "聊",
   },
   {
     key: "about",

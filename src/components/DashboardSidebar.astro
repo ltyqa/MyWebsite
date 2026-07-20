@@ -21,9 +21,13 @@ const { active = "home" } = Astro.props;
     {
       siteNavigation.map((item) => (
         <a class={active === item.key ? "active" : ""} href={item.href}>
-          <span class="nav-icon">
-            <img src={item.icon} alt="" aria-hidden="true" />
-          </span>
+          {item.icon ? (
+            <span class="nav-icon">
+              <img src={item.icon} alt="" aria-hidden="true" />
+            </span>
+          ) : (
+            <span class="nav-icon nav-icon-text" aria-hidden="true">{item.iconText}</span>
+          )}
           {item.label}
         </a>
       ))
