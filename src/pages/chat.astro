@@ -154,9 +154,6 @@ import PageTransitions from "../components/PageTransitions.astro";
       <div class="chat-message-actions" aria-label="回答操作">
         <button type="button" data-chat-copy="${message.id}">复制</button>
         <button type="button" data-chat-regenerate="${message.id}">重新生成</button>
-        <button type="button" data-chat-continue>继续展开</button>
-        <button type="button" data-chat-feedback="good" data-message-id="${message.id}" aria-label="这个回答有帮助">有帮助</button>
-        <button type="button" data-chat-feedback="bad" data-message-id="${message.id}" aria-label="这个回答没有帮助">没帮助</button>
       </div>
     ` : "";
 
@@ -334,23 +331,6 @@ import PageTransitions from "../components/PageTransitions.astro";
       messages.forEach((message) => renderMessage(message));
     };
 
-    const submitFeedback = async (button, helpful, messageId) => {
-      const message = messages.find((item) => item.id === messageId);
-      button.closest(".chat-message-actions")?.querySelectorAll("[data-chat-feedback]")
-        .forEach((item) => item.classList.remove("is-selected"));
-      button.classList.add("is-selected");
-      button.textContent = helpful ? "已记录有帮助" : "已记录没帮助";
-      await fetch("/api/openclaw-feedback", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          helpful,
-          conversationId,
-          messagePreview: message?.content || "",
-        }),
-      }).catch(() => {});
-    };
-
     const handleThreadClick = async (event) => {
       const target = event.target.closest("button");
       if (!target || pending) return;
@@ -383,14 +363,6 @@ import PageTransitions from "../components/PageTransitions.astro";
         return;
       }
 
-      if (target.matches("[data-chat-continue]")) {
-        send("请继续展开上一条回答，并补充更具体的信息和相关站内来源。");
-        return;
-      }
-
-      if (target.matches("[data-chat-feedback]")) {
-        await submitFeedback(target, target.dataset.chatFeedback === "good", target.dataset.messageId);
-      }
     };
 
     const checkHealth = async () => {

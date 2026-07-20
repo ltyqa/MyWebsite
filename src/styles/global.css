@@ -6442,8 +6442,7 @@ html[data-motion="reduced"] *::after {
   transition: color 150ms ease, background-color 150ms ease, transform 150ms ease;
 }
 
-.chat-message-actions button:hover,
-.chat-message-actions button.is-selected {
+.chat-message-actions button:hover {
   background: rgba(247, 211, 111, 0.24);
   color: var(--ink);
   transform: translateY(-1px);
@@ -6637,8 +6636,7 @@ html[data-appearance="ink"] .chat-message-actions {
   border-color: rgba(238, 233, 220, 0.22);
 }
 
-html[data-appearance="ink"] .chat-message-actions button:hover,
-html[data-appearance="ink"] .chat-message-actions button.is-selected {
+html[data-appearance="ink"] .chat-message-actions button:hover {
   color: #eee9dc;
 }
 
