@@ -6005,9 +6005,6 @@ html[data-motion="reduced"] *::after {
   gap: 24px;
   border: 3px solid #1d1d1b;
   border-radius: 6px 14px 5px 12px / 12px 5px 14px 6px;
-  background:
-    linear-gradient(rgba(255, 253, 248, 0.76), rgba(255, 253, 248, 0.76)),
-    repeating-linear-gradient(22deg, rgba(29, 29, 27, 0.026) 0 1px, transparent 1px 20px);
   box-shadow: 7px 8px 0 rgba(28, 28, 27, 0.13);
   padding: 20px 24px 18px;
   transform: rotate(-0.18deg);
@@ -6091,9 +6088,6 @@ html[data-motion="reduced"] *::after {
   position: relative;
   border: 3px solid #1d1d1b;
   border-radius: 6px 14px 5px 12px / 12px 5px 14px 6px;
-  background:
-    linear-gradient(rgba(255, 253, 248, 0.78), rgba(250, 247, 239, 0.78)),
-    repeating-linear-gradient(0deg, transparent 0 24px, rgba(29, 29, 27, 0.045) 24px 25px);
   box-shadow: 7px 8px 0 rgba(28, 28, 27, 0.13);
 }
 
@@ -6355,17 +6349,11 @@ html[data-motion="reduced"] *::after {
 html[data-appearance="ink"] .chat-guide,
 html[data-appearance="ink"] .chat-panel {
   border-color: rgba(238, 233, 220, 0.78);
-  background:
-    linear-gradient(rgba(43, 46, 41, 0.94), rgba(43, 46, 41, 0.94)),
-    repeating-linear-gradient(0deg, transparent 0 24px, rgba(238, 233, 220, 0.045) 24px 25px);
   box-shadow: 7px 8px 0 rgba(0, 0, 0, 0.28);
 }
 
 html[data-appearance="ink"] .chat-header {
   border-color: rgba(238, 233, 220, 0.78);
-  background:
-    linear-gradient(rgba(43, 46, 41, 0.94), rgba(43, 46, 41, 0.94)),
-    repeating-linear-gradient(22deg, rgba(238, 233, 220, 0.04) 0 1px, transparent 1px 20px);
   box-shadow: 7px 8px 0 rgba(0, 0, 0, 0.28);
 }
 
@@ -6548,6 +6536,9 @@ html[data-appearance="ink"] .chat-input-row textarea::placeholder {
 .notes-sketch-article,
 .author-hero .route-hero-grid,
 .author-profile-card,
+.chat-header,
+.chat-guide,
+.chat-panel,
 .dashboard-body .sidebar-card {
   background:
     linear-gradient(rgba(var(--warm-paper-card-rgb), 0.9), rgba(var(--warm-paper-card-rgb), 0.9)),
@@ -6877,6 +6868,9 @@ html[data-appearance="ink"] :where(
   .notes-sketch-article,
   .note-search-panel,
   .note-empty-state,
+  .chat-header,
+  .chat-guide,
+  .chat-panel,
   .appearance-panel,
   .appearance-trigger
 ) {
@@ -6894,7 +6888,10 @@ html[data-appearance="ink"] :where(
   .note-card-large,
   .route-hero-panel,
   .note-search-panel,
-  .note-empty-state
+  .note-empty-state,
+  .chat-header,
+  .chat-guide,
+  .chat-panel
 ) {
   background:
     linear-gradient(rgba(43, 46, 41, 0.94), rgba(43, 46, 41, 0.94)),
