@@ -6130,6 +6130,10 @@ html[data-motion="reduced"] *::after {
   transform: rotate(-0.45deg);
 }
 
+.chat-prompts button:nth-child(4) {
+  transform: rotate(0.35deg);
+}
+
 .chat-privacy {
   margin: 0;
   color: var(--muted);
