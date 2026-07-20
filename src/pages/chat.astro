@@ -94,7 +94,19 @@ import PageTransitions from "../components/PageTransitions.astro";
   </body>
 </html>
 
-<script is:inline data-astro-rerun>
+<script>
+  import { renderMarkdown } from "../lib/markdown";
+
+  declare global {
+    interface Window {
+      __renderChatMarkdown?: typeof renderMarkdown;
+    }
+  }
+
+  window.__renderChatMarkdown = renderMarkdown;
+</script>
+
+<script is:inline type="module" data-astro-rerun>
   (() => {
     window.__chatPageCleanup?.();
 
@@ -122,6 +134,14 @@ import PageTransitions from "../components/PageTransitions.astro";
 
     const formatText = (value) => escapeHtml(value).replace(/\n/g, "<br>");
 
+    const formatMessage = (message) => {
+      if (message.role !== "assistant" || typeof window.__renderChatMarkdown !== "function") {
+        return `<p>${formatText(message.content)}</p>`;
+      }
+
+      return `<div class="chat-markdown">${window.__renderChatMarkdown(message.content)}</div>`;
+    };
+
     const save = () => {
       localStorage.setItem(storageKey, JSON.stringify({
         messages,
@@ -145,7 +165,7 @@ import PageTransitions from "../components/PageTransitions.astro";
       article.innerHTML = `
         <span class="chat-avatar" aria-hidden="true">${message.role === "user" ? "你" : "AI"}</span>
         <div class="chat-bubble">
-          <p>${formatText(message.content)}</p>
+          ${formatMessage(message)}
           ${options.error ? '<button type="button" data-chat-retry>重新发送</button>' : ""}
         </div>
       `;
