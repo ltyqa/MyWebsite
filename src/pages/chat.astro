@@ -55,6 +55,19 @@ import PageTransitions from "../components/PageTransitions.astro";
               </div>
 
               <form class="chat-composer" data-chat-form>
+                <div class="chat-identity">
+                  <label for="chat-name">希望怎么称呼你</label>
+                  <input
+                    id="chat-name"
+                    name="visitorName"
+                    type="text"
+                    maxlength="24"
+                    placeholder="访客（默认）"
+                    autocomplete="nickname"
+                    data-chat-name
+                  />
+                  <span>留空时，AI 会称呼你为“访客”</span>
+                </div>
                 <label for="chat-input">发送消息</label>
                 <div class="chat-input-row">
                   <textarea
@@ -89,8 +102,9 @@ import PageTransitions from "../components/PageTransitions.astro";
     const submit = document.querySelector("[data-chat-submit]");
     const clear = document.querySelector("[data-chat-clear]");
     const helper = document.querySelector("[data-chat-helper]");
+    const nameInput = document.querySelector("[data-chat-name]");
     const prompts = [...document.querySelectorAll("[data-chat-prompt]")];
-    if (!form || !input || !thread || !submit || !clear || !helper) return;
+    if (!form || !input || !nameInput || !thread || !submit || !clear || !helper) return;
 
     const storageKey = "site-openclaw-chat-v1";
     let messages = [];
@@ -107,7 +121,11 @@ import PageTransitions from "../components/PageTransitions.astro";
     const formatText = (value) => escapeHtml(value).replace(/\n/g, "<br>");
 
     const save = () => {
-      localStorage.setItem(storageKey, JSON.stringify({ messages, conversationId }));
+      localStorage.setItem(storageKey, JSON.stringify({
+        messages,
+        conversationId,
+        visitorName: nameInput.value.trim(),
+      }));
     };
 
     const scrollToLatest = () => {
@@ -151,6 +169,7 @@ import PageTransitions from "../components/PageTransitions.astro";
     const setPending = (next) => {
       pending = next;
       input.disabled = next;
+      nameInput.disabled = next;
       submit.disabled = next;
       submit.textContent = next ? "思考中" : "发送";
       helper.textContent = next ? "正在等待 OpenClaw 回复" : "按 Enter 发送，Shift + Enter 换行";
@@ -180,7 +199,11 @@ import PageTransitions from "../components/PageTransitions.astro";
         const response = await fetch("/api/openclaw-chat", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ messages, conversationId }),
+          body: JSON.stringify({
+            messages,
+            conversationId,
+            visitorName: nameInput.value.trim(),
+          }),
           signal: abortController.signal,
         });
         const data = await response.json().catch(() => ({}));
@@ -249,6 +272,7 @@ import PageTransitions from "../components/PageTransitions.astro";
           message && ["user", "assistant"].includes(message.role) && typeof message.content === "string"
         ).slice(-12);
         conversationId = typeof saved.conversationId === "string" ? saved.conversationId : conversationId;
+        nameInput.value = typeof saved.visitorName === "string" ? saved.visitorName.slice(0, 24) : "";
         messages.forEach((message) => renderMessage(message));
       }
     } catch {
@@ -258,6 +282,7 @@ import PageTransitions from "../components/PageTransitions.astro";
     form.addEventListener("submit", handleSubmit);
     input.addEventListener("input", resizeInput);
     input.addEventListener("keydown", handleInputKeydown);
+    nameInput.addEventListener("input", save);
     clear.addEventListener("click", clearConversation);
     thread.addEventListener("click", handleThreadClick);
     prompts.forEach((button) => button.addEventListener("click", () => send(button.dataset.chatPrompt || "")));
@@ -268,6 +293,7 @@ import PageTransitions from "../components/PageTransitions.astro";
       form.removeEventListener("submit", handleSubmit);
       input.removeEventListener("input", resizeInput);
       input.removeEventListener("keydown", handleInputKeydown);
+      nameInput.removeEventListener("input", save);
       clear.removeEventListener("click", clearConversation);
       thread.removeEventListener("click", handleThreadClick);
     };
