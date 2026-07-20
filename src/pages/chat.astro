@@ -40,7 +40,22 @@ import PageTransitions from "../components/PageTransitions.astro";
                   <button type="button" data-chat-prompt="帮我概括作者做过的项目">看看作者的项目</button>
                 </div>
               </div>
-              <p class="chat-privacy">请勿发送密码、密钥或其他敏感信息。</p>
+              <div class="chat-guide-footer">
+                <div class="chat-identity">
+                  <label for="chat-name">希望怎么称呼你</label>
+                  <input
+                    id="chat-name"
+                    name="visitorName"
+                    type="text"
+                    maxlength="24"
+                    placeholder="访客（默认）"
+                    autocomplete="nickname"
+                    data-chat-name
+                  />
+                  <span>留空时使用“访客”</span>
+                </div>
+                <p class="chat-privacy">请勿发送密码、密钥或其他敏感信息。</p>
+              </div>
             </aside>
 
             <section class="chat-panel" aria-label="聊天窗口">
@@ -55,19 +70,6 @@ import PageTransitions from "../components/PageTransitions.astro";
               </div>
 
               <form class="chat-composer" data-chat-form>
-                <div class="chat-identity">
-                  <label for="chat-name">希望怎么称呼你</label>
-                  <input
-                    id="chat-name"
-                    name="visitorName"
-                    type="text"
-                    maxlength="24"
-                    placeholder="访客（默认）"
-                    autocomplete="nickname"
-                    data-chat-name
-                  />
-                  <span>留空时，AI 会称呼你为“访客”</span>
-                </div>
                 <label for="chat-input">发送消息</label>
                 <div class="chat-input-row">
                   <textarea
