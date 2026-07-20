@@ -50,7 +50,7 @@ export const siteNavigation: SiteNavItem[] = [
     label: "AI 聊天",
     entranceLabel: "AI 聊天",
     href: "/chat/",
-    iconText: "聊",
+    icon: "/images/icon-chat.svg",
   },
   {
     key: "about",
