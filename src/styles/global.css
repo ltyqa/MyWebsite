@@ -6040,6 +6040,33 @@ html[data-motion="reduced"] *::after {
   color: var(--muted);
 }
 
+.chat-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.chat-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.chat-status > span {
+  width: 9px;
+  height: 9px;
+  border: 2px solid #1d1d1b;
+  border-radius: 50%;
+  background: #e2b75f;
+}
+
+.chat-status.is-online > span { background: #4cab69; }
+.chat-status.is-offline > span { background: #df7666; }
+
 .chat-clear,
 .chat-prompts button,
 .chat-message [data-chat-retry] {
@@ -6394,6 +6421,34 @@ html[data-motion="reduced"] *::after {
   font-size: 12px;
 }
 
+.chat-message-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+  padding-top: 9px;
+  border-top: 1px dashed rgba(29, 29, 27, 0.26);
+}
+
+.chat-message-actions button {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  padding: 3px 5px;
+  font: inherit;
+  font-size: 11px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: color 150ms ease, background-color 150ms ease, transform 150ms ease;
+}
+
+.chat-message-actions button:hover,
+.chat-message-actions button.is-selected {
+  background: rgba(247, 211, 111, 0.24);
+  color: var(--ink);
+  transform: translateY(-1px);
+}
+
 .chat-message--pending .chat-bubble {
   display: flex;
   min-width: 68px;
@@ -6568,9 +6623,22 @@ html[data-appearance="ink"] .chat-markdown pre {
   background: rgba(0, 0, 0, 0.2);
 }
 
+.chat-input-row button.is-stop {
+  background: #c96658;
+}
+
 html[data-appearance="ink"] .chat-markdown a[href^="/"] {
   border-color: rgba(238, 233, 220, 0.78);
   background: rgba(62, 91, 66, 0.9);
+  color: #eee9dc;
+}
+
+html[data-appearance="ink"] .chat-message-actions {
+  border-color: rgba(238, 233, 220, 0.22);
+}
+
+html[data-appearance="ink"] .chat-message-actions button:hover,
+html[data-appearance="ink"] .chat-message-actions button.is-selected {
   color: #eee9dc;
 }
 

@@ -25,9 +25,14 @@ import PageTransitions from "../components/PageTransitions.astro";
               <h1 id="chat-title">和我的 AI 聊聊</h1>
               <p>可以从项目、笔记和网站内容开始提问。</p>
             </div>
-            <button class="chat-clear" type="button" data-chat-clear aria-label="清空当前对话">
-              清空对话
-            </button>
+            <div class="chat-header-actions">
+              <span class="chat-status is-checking" data-chat-status role="status">
+                <span aria-hidden="true"></span>正在检查
+              </span>
+              <button class="chat-clear" type="button" data-chat-clear aria-label="清空当前对话">
+                清空对话
+              </button>
+            </div>
           </header>
 
           <div class="chat-workspace">
@@ -118,14 +123,16 @@ import PageTransitions from "../components/PageTransitions.astro";
     const clear = document.querySelector("[data-chat-clear]");
     const helper = document.querySelector("[data-chat-helper]");
     const nameInput = document.querySelector("[data-chat-name]");
+    const status = document.querySelector("[data-chat-status]");
     const prompts = [...document.querySelectorAll("[data-chat-prompt]")];
-    if (!form || !input || !nameInput || !thread || !submit || !clear || !helper) return;
+    if (!form || !input || !nameInput || !thread || !submit || !clear || !helper || !status) return;
 
     const storageKey = "site-openclaw-chat-v1";
     let messages = [];
     let conversationId = crypto.randomUUID();
     let pending = false;
     let abortController;
+    let healthTimer;
 
     const escapeHtml = (value) => {
       const node = document.createElement("div");
@@ -142,6 +149,16 @@ import PageTransitions from "../components/PageTransitions.astro";
 
       return `<div class="chat-markdown">${window.__renderChatMarkdown(message.content)}</div>`;
     };
+
+    const messageActions = (message) => message.role === "assistant" ? `
+      <div class="chat-message-actions" aria-label="回答操作">
+        <button type="button" data-chat-copy="${message.id}">复制</button>
+        <button type="button" data-chat-regenerate="${message.id}">重新生成</button>
+        <button type="button" data-chat-continue>继续展开</button>
+        <button type="button" data-chat-feedback="good" data-message-id="${message.id}" aria-label="这个回答有帮助">有帮助</button>
+        <button type="button" data-chat-feedback="bad" data-message-id="${message.id}" aria-label="这个回答没有帮助">没帮助</button>
+      </div>
+    ` : "";
 
     const save = () => {
       localStorage.setItem(storageKey, JSON.stringify({
@@ -160,19 +177,29 @@ import PageTransitions from "../components/PageTransitions.astro";
 
     const renderMessage = (message, options = {}) => {
       thread.querySelector("[data-chat-welcome]")?.remove();
+      message.id ||= crypto.randomUUID();
       const article = document.createElement("article");
       article.className = `chat-message chat-message--${message.role}${options.error ? " is-error" : ""}`;
       article.dataset.chatMessage = "";
+      article.dataset.messageId = message.id;
       article.innerHTML = `
         <span class="chat-avatar" aria-hidden="true">${message.role === "user" ? "你" : "AI"}</span>
         <div class="chat-bubble">
           ${formatMessage(message)}
           ${options.error ? '<button type="button" data-chat-retry>重新发送</button>' : ""}
+          ${!options.error && !options.streaming ? messageActions(message) : ""}
         </div>
       `;
       thread.append(article);
       scrollToLatest();
       return article;
+    };
+
+    const updateStreamingMessage = (article, message, finished = false) => {
+      const bubble = article.querySelector(".chat-bubble");
+      if (!bubble) return;
+      bubble.innerHTML = `${formatMessage(message)}${finished ? messageActions(message) : ""}`;
+      scrollToLatest();
     };
 
     const renderPending = () => {
@@ -193,9 +220,9 @@ import PageTransitions from "../components/PageTransitions.astro";
       pending = next;
       input.disabled = next;
       nameInput.disabled = next;
-      submit.disabled = next;
-      submit.textContent = next ? "思考中" : "发送";
-      helper.textContent = next ? "正在等待 OpenClaw 回复" : "按 Enter 发送，Shift + Enter 换行";
+      submit.classList.toggle("is-stop", next);
+      submit.textContent = next ? "停止" : "发送";
+      helper.textContent = next ? "正在接收 OpenClaw 回复，可随时停止" : "按 Enter 发送，Shift + Enter 换行";
     };
 
     const resizeInput = () => {
@@ -208,7 +235,7 @@ import PageTransitions from "../components/PageTransitions.astro";
       if (!content || pending) return;
 
       thread.querySelector(".chat-message.is-error")?.remove();
-      const userMessage = { role: "user", content };
+      const userMessage = { id: crypto.randomUUID(), role: "user", content };
       messages.push(userMessage);
       renderMessage(userMessage);
       input.value = "";
@@ -229,14 +256,44 @@ import PageTransitions from "../components/PageTransitions.astro";
           }),
           signal: abortController.signal,
         });
-        const data = await response.json().catch(() => ({}));
-        if (!response.ok) throw new Error(data.message || "聊天服务暂时不可用，请稍后再试。");
+        if (!response.ok || !response.body) {
+          const data = await response.json().catch(() => ({}));
+          throw new Error(data.message || "聊天服务暂时不可用，请稍后再试。");
+        }
 
-        const assistantMessage = { role: "assistant", content: data.reply };
-        messages.push(assistantMessage);
-        conversationId = data.conversationId || conversationId;
+        conversationId = response.headers.get("X-Conversation-Id") || conversationId;
+        const assistantMessage = { id: crypto.randomUUID(), role: "assistant", content: "" };
         thread.querySelector("[data-chat-pending]")?.remove();
-        renderMessage(assistantMessage);
+        const article = renderMessage(assistantMessage, { streaming: true });
+        const reader = response.body.getReader();
+        const decoder = new TextDecoder();
+        let buffer = "";
+
+        while (true) {
+          const { value, done } = await reader.read();
+          buffer += decoder.decode(value || new Uint8Array(), { stream: !done });
+          const lines = buffer.split("\n");
+          buffer = done ? "" : lines.pop() || "";
+
+          for (const line of lines) {
+            if (!line.startsWith("data:")) continue;
+            const data = line.slice(5).trim();
+            if (!data || data === "[DONE]") continue;
+            try {
+              const chunk = JSON.parse(data);
+              const delta = chunk.choices?.[0]?.delta?.content;
+              if (typeof delta === "string") {
+                assistantMessage.content += delta;
+                updateStreamingMessage(article, assistantMessage);
+              }
+            } catch {}
+          }
+          if (done) break;
+        }
+
+        if (!assistantMessage.content.trim()) throw new Error("OpenClaw 没有返回可显示的内容。");
+        messages.push(assistantMessage);
+        updateStreamingMessage(article, assistantMessage, true);
         save();
       } catch (error) {
         thread.querySelector("[data-chat-pending]")?.remove();
@@ -245,6 +302,10 @@ import PageTransitions from "../components/PageTransitions.astro";
             { role: "assistant", content: error.message || "消息发送失败，请稍后重试。" },
             { error: true },
           );
+        } else {
+          const streamingArticle = thread.querySelector('.chat-message--assistant:last-of-type');
+          const partial = streamingArticle?.querySelector('.chat-markdown')?.textContent?.trim();
+          if (partial) helper.textContent = "已停止生成";
         }
       } finally {
         setPending(false);
@@ -254,6 +315,10 @@ import PageTransitions from "../components/PageTransitions.astro";
 
     const handleSubmit = (event) => {
       event.preventDefault();
+      if (pending) {
+        abortController?.abort();
+        return;
+      }
       send(input.value);
     };
 
@@ -264,13 +329,82 @@ import PageTransitions from "../components/PageTransitions.astro";
       }
     };
 
-    const handleThreadClick = (event) => {
-      if (!event.target.closest("[data-chat-retry]")) return;
-      const lastUserMessage = [...messages].reverse().find((message) => message.role === "user");
-      if (!lastUserMessage) return;
-      thread.querySelector(".chat-message.is-error")?.remove();
-      messages = messages.slice(0, messages.lastIndexOf(lastUserMessage));
-      send(lastUserMessage.content);
+    const rerenderMessages = () => {
+      thread.innerHTML = "";
+      messages.forEach((message) => renderMessage(message));
+    };
+
+    const submitFeedback = async (button, helpful, messageId) => {
+      const message = messages.find((item) => item.id === messageId);
+      button.closest(".chat-message-actions")?.querySelectorAll("[data-chat-feedback]")
+        .forEach((item) => item.classList.remove("is-selected"));
+      button.classList.add("is-selected");
+      button.textContent = helpful ? "已记录有帮助" : "已记录没帮助";
+      await fetch("/api/openclaw-feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          helpful,
+          conversationId,
+          messagePreview: message?.content || "",
+        }),
+      }).catch(() => {});
+    };
+
+    const handleThreadClick = async (event) => {
+      const target = event.target.closest("button");
+      if (!target || pending) return;
+
+      if (target.matches("[data-chat-retry]")) {
+        const lastUserMessage = [...messages].reverse().find((message) => message.role === "user");
+        if (!lastUserMessage) return;
+        thread.querySelector(".chat-message.is-error")?.remove();
+        messages = messages.slice(0, messages.lastIndexOf(lastUserMessage));
+        send(lastUserMessage.content);
+        return;
+      }
+
+      if (target.matches("[data-chat-copy]")) {
+        const message = messages.find((item) => item.id === target.dataset.chatCopy);
+        if (!message) return;
+        await navigator.clipboard.writeText(message.content);
+        target.textContent = "已复制";
+        setTimeout(() => { target.textContent = "复制"; }, 1400);
+        return;
+      }
+
+      if (target.matches("[data-chat-regenerate]")) {
+        const index = messages.findIndex((item) => item.id === target.dataset.chatRegenerate);
+        const userMessage = index > 0 ? messages[index - 1] : null;
+        if (!userMessage || userMessage.role !== "user") return;
+        messages = messages.slice(0, index - 1);
+        rerenderMessages();
+        send(userMessage.content);
+        return;
+      }
+
+      if (target.matches("[data-chat-continue]")) {
+        send("请继续展开上一条回答，并补充更具体的信息和相关站内来源。");
+        return;
+      }
+
+      if (target.matches("[data-chat-feedback]")) {
+        await submitFeedback(target, target.dataset.chatFeedback === "good", target.dataset.messageId);
+      }
+    };
+
+    const checkHealth = async () => {
+      status.className = "chat-status is-checking";
+      status.innerHTML = '<span aria-hidden="true"></span>正在检查';
+      try {
+        const response = await fetch("/api/openclaw-health", { cache: "no-store" });
+        if (!response.ok) throw new Error();
+        status.className = "chat-status is-online";
+        status.innerHTML = '<span aria-hidden="true"></span>助手在线';
+      } catch {
+        status.className = "chat-status is-offline";
+        status.innerHTML = '<span aria-hidden="true"></span>助手离线';
+      }
     };
 
     const clearConversation = () => {
@@ -310,6 +444,8 @@ import PageTransitions from "../components/PageTransitions.astro";
     thread.addEventListener("click", handleThreadClick);
     prompts.forEach((button) => button.addEventListener("click", () => send(button.dataset.chatPrompt || "")));
     resizeInput();
+    checkHealth();
+    healthTimer = setInterval(checkHealth, 60_000);
 
     window.__chatPageCleanup = () => {
       abortController?.abort();
@@ -319,6 +455,7 @@ import PageTransitions from "../components/PageTransitions.astro";
       nameInput.removeEventListener("input", save);
       clear.removeEventListener("click", clearConversation);
       thread.removeEventListener("click", handleThreadClick);
+      clearInterval(healthTimer);
     };
   })();
 </script>

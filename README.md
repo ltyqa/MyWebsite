@@ -35,6 +35,8 @@ npm run build
 - `OPENCLAW_BASE_URL`：OpenClaw Gateway 的 HTTPS 地址，不含 `/v1`。
 - `OPENCLAW_TOKEN`：OpenClaw Gateway Token，仅配置为 Cloudflare 服务端密钥。
 - `OPENCLAW_MODEL`：可选，默认使用 `openclaw/default`。
+- `OPENCLAW_PUBLIC_MODEL`：可选，公开聊天页专用 Agent，推荐设置为 `openclaw/website`。
+- `OPENCLAW_SYSTEM_PROMPT`：可选，公开聊天页固定追加的系统上下文。
 - `SITE_URL`：可选，站点正式地址；默认使用 `https://mywebsite.pages.dev`。
 - `CLOUDFLARE_ACCOUNT_ID`：GitHub Actions 部署使用。
 - `CLOUDFLARE_API_TOKEN`：GitHub Actions 部署使用。
