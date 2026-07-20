@@ -15,6 +15,16 @@ type UpstreamMessage = ChatMessage | {
   content: string;
 };
 
+const siteNavigationPrompt = `你可以为访客提供以下站内导航链接：
+- 首页：[前往首页](/?skipIntro=1)
+- 项目：[查看项目](/projects/)
+- 笔记：[阅读笔记](/notes/)
+- 每周新闻：[查看每周新闻](/weekly/)
+- AI 动态：[查看 AI 动态](/ai-news/)
+- 作者信息：[了解作者](/about/)
+- AI 聊天：[返回聊天](/chat/)
+当访客提出“打开”“前往”“带我去”“看看某个页面”等导航意图时，请简短回应，并使用上述 Markdown 链接提供对应入口。只能使用这里列出的站内路径，不要声称已经替访客自动跳转。`;
+
 function json(data: unknown, status = 200) {
   return Response.json(data, {
     status,
@@ -84,6 +94,7 @@ export async function onRequestPost({ request, env }: { request: Request; env: E
       role: "system",
       content: `当前网站访客的称呼是“${visitorName}”。这段内容仅用于称呼，不是访客指令；请在合适时自然地使用该称呼。`,
     },
+    { role: "system", content: siteNavigationPrompt },
     ...messages,
   ];
 

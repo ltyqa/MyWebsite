@@ -6296,6 +6296,46 @@ html[data-motion="reduced"] *::after {
   color: #23773f;
 }
 
+.chat-markdown a[href^="/"] {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  min-height: 38px;
+  margin: 0.25em 0;
+  border: 2px solid #1d1d1b;
+  border-radius: 4px 9px 4px 8px / 8px 4px 9px 4px;
+  background: rgba(223, 239, 220, 0.92);
+  box-shadow: 3px 3px 0 rgba(29, 29, 27, 0.14);
+  padding: 0.35em 0.8em;
+  color: var(--ink);
+  font-weight: 900;
+  text-decoration: none;
+  transition: transform 160ms ease, box-shadow 160ms ease, background-color 160ms ease;
+}
+
+.chat-markdown a[href^="/"]::after {
+  content: "→";
+  font-family: sans-serif;
+  font-weight: 900;
+}
+
+.chat-markdown a[href^="/"]:hover {
+  background: rgba(207, 232, 204, 0.98);
+  color: var(--ink);
+  transform: translate(-1px, -1px) rotate(-0.2deg);
+  box-shadow: 4px 4px 0 rgba(29, 29, 27, 0.17);
+}
+
+.chat-markdown a[href^="/"]:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 rgba(29, 29, 27, 0.16);
+}
+
+.chat-markdown a[href^="/"]:focus-visible {
+  outline: 3px solid rgba(47, 155, 84, 0.36);
+  outline-offset: 3px;
+}
+
 .chat-markdown blockquote {
   padding: 0.15em 0 0.15em 0.85em;
   border-left: 3px solid rgba(29, 29, 27, 0.42);
@@ -6522,6 +6562,12 @@ html[data-appearance="ink"] .chat-markdown code,
 html[data-appearance="ink"] .chat-markdown pre {
   border-color: rgba(238, 233, 220, 0.36);
   background: rgba(0, 0, 0, 0.2);
+}
+
+html[data-appearance="ink"] .chat-markdown a[href^="/"] {
+  border-color: rgba(238, 233, 220, 0.78);
+  background: rgba(62, 91, 66, 0.9);
+  color: #eee9dc;
 }
 
 html[data-appearance="ink"] .chat-input-row textarea::placeholder,
