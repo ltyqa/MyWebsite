@@ -3,6 +3,8 @@ import "../styles/global.css";
 import DashboardSidebar from "../components/DashboardSidebar.astro";
 import PageTransitions from "../components/PageTransitions.astro";
 import { siteNavigation } from "../data/navigation";
+import { aiUpdates, formatAiUpdateDate } from "../data/aiUpdates";
+import { getLatestWeeklyIssue } from "../data/weekly";
 import {
   getGitHubActivities,
   getGitHubActivityChart,
@@ -17,6 +19,8 @@ const activityChart = await getGitHubActivityChart();
 const latestProjects = projects.slice(0, 3);
 const latestNotes = notes.slice(0, 3);
 const latestActivity = activities[0];
+const latestAiUpdate = aiUpdates[0];
+const latestWeeklyIssue = await getLatestWeeklyIssue();
 const allCategories = Array.from(new Set(notes.map((note) => note.category)));
 const categories = allCategories.slice(0, 6);
 const latestNote = latestNotes[0];
@@ -227,6 +231,48 @@ const entranceNavigation = siteNavigation.filter((item) => item.key !== "home");
           <h2>笔记分类</h2>
           <div class="sticky-cloud">
             {categories.map((category) => <a href="/notes/">{category}</a>)}
+          </div>
+        </section>
+
+        <section class="poster-wall poster-wall--features" aria-labelledby="home-features-title">
+          <p class="poster-kicker">更多内容</p>
+          <h2 id="home-features-title">探索更多</h2>
+          <div class="home-feature-grid">
+            <a class="home-feature-card home-feature-card--ai" href="/ai-news/">
+              <img src="/images/icon-activity.svg" alt="" width="42" height="42" />
+              <span class="home-feature-copy">
+                <strong>AI 动态</strong>
+                <small>{latestAiUpdate ? `${formatAiUpdateDate(latestAiUpdate.publishedAt)} · ${latestAiUpdate.titleZh || latestAiUpdate.title}` : "追踪主流模型与产品更新"}</small>
+              </span>
+              <em>查看动态</em>
+            </a>
+
+            <a class="home-feature-card home-feature-card--weekly" href="/weekly/">
+              <img src="/images/icon-weekly.svg" alt="" width="42" height="42" />
+              <span class="home-feature-copy">
+                <strong>每周新闻</strong>
+                <small>第 {latestWeeklyIssue.number} 期 · {latestWeeklyIssue.title}</small>
+              </span>
+              <em>阅读本期</em>
+            </a>
+
+            <a class="home-feature-card" href="/chat/">
+              <img src="/images/icon-chat.svg" alt="" width="42" height="42" />
+              <span class="home-feature-copy">
+                <strong>AI 聊天</strong>
+                <small>和站内 AI 助手聊聊项目、笔记与网站内容</small>
+              </span>
+              <em>开始对话</em>
+            </a>
+
+            <a class="home-feature-card" href="/about/">
+              <img src="/images/icon-about.svg" alt="" width="42" height="42" />
+              <span class="home-feature-copy">
+                <strong>关于作者</strong>
+                <small>了解这个网站的作者、方向与联系方式</small>
+              </span>
+              <em>认识我</em>
+            </a>
           </div>
         </section>
           </div>
