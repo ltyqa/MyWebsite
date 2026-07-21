@@ -39,6 +39,7 @@ type GitTreeItem = {
   path: string;
   type: "blob" | "tree";
   url: string;
+  size?: number;
 };
 
 type GitTreeResponse = {
@@ -260,10 +261,11 @@ async function getLocalVaultNotes(): Promise<SiteNote[]> {
       const category = categoryFromPath(path);
       const slug = slugFromPath(path);
       const fileStat = await stat(file);
+      const markdown = await readFile(file, "utf-8");
 
       return {
         title: cleanTitle(path),
-        meta: `${category} / ${estimateReadingTimeFromPath(path)}`,
+        meta: `${category} / ${estimateReadingTime(markdown)}`,
         category,
         excerpt: `收在「${category}」里的笔记，适合回看概念、方法和当时的判断`,
         link: noteHref(slug),
@@ -290,9 +292,20 @@ function getFallbackNotes(): SiteNote[] {
   }));
 }
 
-function estimateReadingTimeFromPath(path: string) {
-  const base = Math.max(4, Math.min(12, Math.round(path.length / 12)));
-  return `${base} 分钟`;
+function estimateReadingTime(markdown: string) {
+  const readableText = markdown
+    .replace(/^---[\s\S]*?---/m, " ")
+    .replace(/```[\s\S]*?```/g, " ")
+    .replace(/https?:\/\/\S+/g, " ");
+  const chineseCharacters = readableText.match(/[\u3400-\u9fff]/g)?.length || 0;
+  const latinWords = readableText.match(/[A-Za-z0-9]+(?:['’-][A-Za-z0-9]+)*/g)?.length || 0;
+  const minutes = Math.max(1, Math.ceil(chineseCharacters / 400 + latinWords / 220));
+  return `约 ${minutes} 分钟`;
+}
+
+function estimateReadingTimeFromBytes(bytes = 0) {
+  const minutes = Math.max(1, Math.ceil(bytes / 1200));
+  return `约 ${minutes} 分钟`;
 }
 
 function repoStatus(repo: GitHubRepo) {
@@ -361,7 +374,7 @@ async function loadGitHubNotes(): Promise<SiteNote[]> {
 
         return {
           title: cleanTitle(item.path),
-          meta: `${category} / ${estimateReadingTimeFromPath(item.path)}`,
+          meta: `${category} / ${estimateReadingTimeFromBytes(item.size)}`,
           category,
           excerpt: `收在「${category}」里的笔记，适合回看概念、方法和当时的判断`,
           link: noteHref(slug),
