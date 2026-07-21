@@ -4960,13 +4960,12 @@ h2 {
 
 .home-feature-grid {
   display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
   margin-top: 20px;
 }
 
 .home-feature-card {
-  grid-column: span 5;
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center;
@@ -4979,11 +4978,6 @@ h2 {
   color: var(--sketch-ink);
   text-decoration: none;
   transition: transform 160ms ease, box-shadow 160ms ease, background-color 160ms ease;
-}
-
-.home-feature-card--ai,
-.home-feature-card--weekly {
-  grid-column: span 7;
 }
 
 .home-feature-card img {
@@ -5096,9 +5090,7 @@ html[data-appearance="ink"] .home-feature-card:focus-visible {
   }
 
   .room-dashboard-main .poster-wall--features,
-  .home-feature-card,
-  .home-feature-card--ai,
-  .home-feature-card--weekly {
+  .home-feature-card {
     grid-column: 1;
   }
 

@@ -4,7 +4,7 @@ import DashboardSidebar from "../components/DashboardSidebar.astro";
 import PageTransitions from "../components/PageTransitions.astro";
 import { siteNavigation } from "../data/navigation";
 import { aiUpdates, formatAiUpdateDate } from "../data/aiUpdates";
-import { getLatestWeeklyIssue } from "../data/weekly";
+import { getLatestWeeklyIssueSummary } from "../data/weekly";
 import {
   getGitHubActivities,
   getGitHubActivityChart,
@@ -20,7 +20,7 @@ const latestProjects = projects.slice(0, 3);
 const latestNotes = notes.slice(0, 3);
 const latestActivity = activities[0];
 const latestAiUpdate = aiUpdates[0];
-const latestWeeklyIssue = await getLatestWeeklyIssue();
+const latestWeeklyIssue = await getLatestWeeklyIssueSummary();
 const allCategories = Array.from(new Set(notes.map((note) => note.category)));
 const categories = allCategories.slice(0, 6);
 const latestNote = latestNotes[0];

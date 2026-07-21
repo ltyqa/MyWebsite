@@ -207,6 +207,22 @@ export async function getLatestWeeklyIssue() {
   return weeklyCache;
 }
 
+export async function getLatestWeeklyIssueSummary() {
+  try {
+    const issue = await getLatestWeeklyIssue();
+    return {
+      number: issue.number,
+      title: issue.title,
+    };
+  } catch (error) {
+    console.warn("[weekly data] Weekly content unavailable, using pinned homepage metadata.");
+    return {
+      number: fallbackIssueNumber,
+      title: `科技爱好者周刊（第 ${fallbackIssueNumber} 期）`,
+    };
+  }
+}
+
 export async function getWeeklyIssueByNumber(issueNumber: number) {
   if (!weeklyIssueCache.has(issueNumber)) {
     weeklyIssueCache.set(issueNumber, loadWeeklyIssueByNumber(issueNumber));

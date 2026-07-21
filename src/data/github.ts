@@ -4,7 +4,7 @@ import {
   projects as fallbackProjects,
 } from "./content";
 import { existsSync } from "node:fs";
-import { readdir, readFile } from "node:fs/promises";
+import { readdir, readFile, stat } from "node:fs/promises";
 import { join, relative, sep } from "node:path";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
@@ -46,12 +46,19 @@ type GitTreeResponse = {
 };
 
 type GitCommit = {
+  sha: string;
   commit: {
     message: string;
     committer: {
       date: string;
     };
   };
+};
+
+type GitCommitDetails = GitCommit & {
+  files?: Array<{
+    filename: string;
+  }>;
 };
 
 type LocalGitCommit = {
@@ -79,6 +86,7 @@ export type SiteNote = {
   path: string;
   slug: string;
   localPath?: string;
+  updatedAt?: string;
 };
 
 const headers: Record<string, string> = {
@@ -247,11 +255,11 @@ async function getLocalVaultNotes(): Promise<SiteNote[]> {
 
   const files = await listMarkdownFiles(localVaultPath);
 
-  return files
-    .map((file) => {
+  const notes = await Promise.all(files.map(async (file) => {
       const path = relative(localVaultPath, file).split(sep).join("/");
       const category = categoryFromPath(path);
       const slug = slugFromPath(path);
+      const fileStat = await stat(file);
 
       return {
         title: cleanTitle(path),
@@ -264,9 +272,11 @@ async function getLocalVaultNotes(): Promise<SiteNote[]> {
         path,
         slug,
         localPath: file,
+        updatedAt: fileStat.mtime.toISOString(),
       };
-    })
-    .sort((a, b) => a.category.localeCompare(b.category, "zh-CN"));
+    }));
+
+  return notes.sort((a, b) => (b.updatedAt || "").localeCompare(a.updatedAt || ""));
 }
 
 function getFallbackNotes(): SiteNote[] {
@@ -360,8 +370,35 @@ async function loadGitHubNotes(): Promise<SiteNote[]> {
           path: item.path,
           slug,
         };
-      })
-      .sort((a, b) => a.category.localeCompare(b.category, "zh-CN"));
+      });
+
+    const recentCommits = await fetchJson<GitCommit[]>(
+      `${apiBase}/repos/${owner}/${notesRepo}/commits?per_page=8`,
+    );
+    const commitDetailResults = await Promise.allSettled(
+      recentCommits.map((commit) =>
+        fetchJson<GitCommitDetails>(`${apiBase}/repos/${owner}/${notesRepo}/commits/${commit.sha}`),
+      ),
+    );
+    const commitDetails = commitDetailResults.flatMap((result) =>
+      result.status === "fulfilled" ? [result.value] : [],
+    );
+    const updatedAtByPath = new Map<string, string>();
+
+    for (const commit of commitDetails) {
+      for (const file of commit.files || []) {
+        if (!file.filename.endsWith(".md") || updatedAtByPath.has(file.filename)) continue;
+        updatedAtByPath.set(file.filename, commit.commit.committer.date);
+      }
+    }
+
+    notes.forEach((note) => {
+      note.updatedAt = updatedAtByPath.get(note.path);
+    });
+    notes.sort((a, b) => {
+      const dateOrder = (b.updatedAt || "").localeCompare(a.updatedAt || "");
+      return dateOrder || a.category.localeCompare(b.category, "zh-CN");
+    });
 
     return notes.length ? notes : getFallbackNotes();
   } catch (error) {
