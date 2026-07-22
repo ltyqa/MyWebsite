@@ -1,6 +1,7 @@
 # 个人网站
 
 基于 Astro 和 Cloudflare Pages Functions 的个人网站，用于展示项目、同步 GitHub 笔记和阅读每周内容。
+访问网址为：https://www.ltyqaon.com/
 
 ## 技术栈
 
