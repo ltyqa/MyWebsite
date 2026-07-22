@@ -1,0 +1,9 @@
+[Unit]
+Description=Reconcile public GitHub repositories with the knowledge index
+After=docker.service
+
+[Service]
+Type=oneshot
+EnvironmentFile=/srv/knowledge/.env
+ExecStart=/usr/bin/curl -fsS -X POST -H "Authorization: Bearer ${KNOWLEDGE_PRIMARY_API_KEY}" http://127.0.0.1:8088/api/knowledge/v1/admin/sync
+

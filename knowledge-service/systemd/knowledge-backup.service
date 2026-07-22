@@ -1,0 +1,7 @@
+[Unit]
+Description=Back up the knowledge graph and vector index
+
+[Service]
+Type=oneshot
+ExecStart=/srv/knowledge/scripts/backup.sh
+

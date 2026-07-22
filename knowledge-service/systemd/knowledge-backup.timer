@@ -1,0 +1,10 @@
+[Unit]
+Description=Weekly knowledge index backup
+
+[Timer]
+OnCalendar=weekly
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+
