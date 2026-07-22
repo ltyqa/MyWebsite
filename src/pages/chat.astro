@@ -161,7 +161,7 @@ import PageTransitions from "../components/PageTransitions.astro";
     ` : "";
 
     const save = () => {
-      localStorage.setItem(storageKey, JSON.stringify({
+      sessionStorage.setItem(storageKey, JSON.stringify({
         messages,
         conversationId,
         visitorName: nameInput.value.trim(),
@@ -399,7 +399,7 @@ import PageTransitions from "../components/PageTransitions.astro";
       abortController?.abort();
       messages = [];
       conversationId = crypto.randomUUID();
-      localStorage.removeItem(storageKey);
+      sessionStorage.removeItem(storageKey);
       thread.innerHTML = `
         <div class="chat-welcome" data-chat-welcome>
           <span class="chat-avatar" aria-hidden="true">AI</span>
@@ -411,7 +411,8 @@ import PageTransitions from "../components/PageTransitions.astro";
     };
 
     try {
-      const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+      localStorage.removeItem(storageKey);
+      const saved = JSON.parse(sessionStorage.getItem(storageKey) || "null");
       if (saved && Array.isArray(saved.messages)) {
         messages = saved.messages.filter((message) =>
           message && ["user", "assistant"].includes(message.role) && typeof message.content === "string"
@@ -421,7 +422,7 @@ import PageTransitions from "../components/PageTransitions.astro";
         messages.forEach((message) => renderMessage(message));
       }
     } catch {
-      localStorage.removeItem(storageKey);
+      sessionStorage.removeItem(storageKey);
     }
 
     form.addEventListener("submit", handleSubmit);

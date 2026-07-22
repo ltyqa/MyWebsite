@@ -1,0 +1,11 @@
+{
+  "session": {
+    "maintenance": {
+      "mode": "enforce",
+      "pruneAfter": "1h",
+      "maxEntries": 50,
+      "resetArchiveRetention": "1h",
+      "maxDiskBytes": "50mb"
+    }
+  }
+}

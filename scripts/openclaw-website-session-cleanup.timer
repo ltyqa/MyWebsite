@@ -1,0 +1,11 @@
+[Unit]
+Description=Clean expired OpenClaw website sessions every 10 minutes
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=10min
+Persistent=true
+RandomizedDelaySec=30s
+
+[Install]
+WantedBy=timers.target
