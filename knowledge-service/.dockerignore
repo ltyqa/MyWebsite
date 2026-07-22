@@ -1,0 +1,8 @@
+.env
+data/
+backups/
+**/__pycache__/
+**/*.pyc
+tests/
+systemd/
+scripts/
