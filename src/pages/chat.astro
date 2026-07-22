@@ -110,6 +110,7 @@ import PageTransitions from "../components/PageTransitions.astro";
   }
 
   window.__renderChatMarkdown = renderMarkdown;
+  window.dispatchEvent(new CustomEvent("site:chat-markdown-ready"));
 </script>
 
 <script is:inline type="module" data-astro-rerun>
@@ -133,6 +134,8 @@ import PageTransitions from "../components/PageTransitions.astro";
     let pending = false;
     let abortController;
     let healthTimer;
+    let streamingMessage;
+    let streamingArticle;
 
     const escapeHtml = (value) => {
       const node = document.createElement("div");
@@ -262,6 +265,8 @@ import PageTransitions from "../components/PageTransitions.astro";
         const assistantMessage = { id: crypto.randomUUID(), role: "assistant", content: "" };
         thread.querySelector("[data-chat-pending]")?.remove();
         const article = renderMessage(assistantMessage, { streaming: true });
+        streamingMessage = assistantMessage;
+        streamingArticle = article;
         const reader = response.body.getReader();
         const decoder = new TextDecoder();
         let buffer = "";
@@ -291,6 +296,8 @@ import PageTransitions from "../components/PageTransitions.astro";
         if (!assistantMessage.content.trim()) throw new Error("OpenClaw 没有返回可显示的内容。");
         messages.push(assistantMessage);
         updateStreamingMessage(article, assistantMessage, true);
+        streamingMessage = undefined;
+        streamingArticle = undefined;
         save();
       } catch (error) {
         thread.querySelector("[data-chat-pending]")?.remove();
@@ -329,6 +336,15 @@ import PageTransitions from "../components/PageTransitions.astro";
     const rerenderMessages = () => {
       thread.innerHTML = "";
       messages.forEach((message) => renderMessage(message));
+    };
+
+    const handleMarkdownReady = () => {
+      if (streamingMessage && streamingArticle?.isConnected) {
+        updateStreamingMessage(streamingArticle, streamingMessage);
+        return;
+      }
+
+      if (messages.length > 0) rerenderMessages();
     };
 
     const handleThreadClick = async (event) => {
@@ -414,6 +430,7 @@ import PageTransitions from "../components/PageTransitions.astro";
     nameInput.addEventListener("input", save);
     clear.addEventListener("click", clearConversation);
     thread.addEventListener("click", handleThreadClick);
+    window.addEventListener("site:chat-markdown-ready", handleMarkdownReady);
     prompts.forEach((button) => button.addEventListener("click", () => send(button.dataset.chatPrompt || "")));
     resizeInput();
     checkHealth();
@@ -427,6 +444,7 @@ import PageTransitions from "../components/PageTransitions.astro";
       nameInput.removeEventListener("input", save);
       clear.removeEventListener("click", clearConversation);
       thread.removeEventListener("click", handleThreadClick);
+      window.removeEventListener("site:chat-markdown-ready", handleMarkdownReady);
       clearInterval(healthTimer);
     };
   })();
