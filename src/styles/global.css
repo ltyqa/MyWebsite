@@ -2212,10 +2212,22 @@ h2 {
   }
 
   .sidebar {
-    position: static;
+    position: relative;
     width: auto;
     height: auto;
     padding: 16px;
+  }
+
+  .sidebar .brand-dashboard {
+    width: fit-content;
+    max-width: calc(100% - 132px);
+  }
+
+  .sidebar .appearance-settings {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 1;
   }
 
   .side-nav {
@@ -5092,6 +5104,10 @@ html[data-appearance="ink"] .home-feature-card:focus-visible {
   .room-dashboard-main .poster-wall--features,
   .home-feature-card {
     grid-column: 1;
+  }
+
+  .room-dashboard-main .poster-wall--features {
+    order: 999;
   }
 
   .home-feature-grid {
