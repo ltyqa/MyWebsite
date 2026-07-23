@@ -193,7 +193,7 @@ function cleanTitle(path: string) {
     .pop()
     ?.replace(/\.md$/i, "");
 
-  return fileName?.replace(/^\d+\s*/, "") || path;
+  return fileName?.replace(/^\d+\s+/, "") || path;
 }
 
 function categoryFromPath(path: string) {
