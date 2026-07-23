@@ -5,8 +5,3 @@ dist/
 *.log
 .env
 .env.*
-knowledge-service/data/
-knowledge-service/.env
-knowledge-service/backups/
-__pycache__/
-*.pyc
