@@ -249,31 +249,38 @@ async function loadNotes(env: Env) {
 }
 
 async function loadActivities(env: Env) {
-  const [siteCommits, noteCommits] = await Promise.all([
-    fetchJson<GitCommit[]>(`${apiBase}/repos/${owner}/${siteRepo}/commits?per_page=60`, env),
-    fetchJson<GitCommit[]>(`${apiBase}/repos/${owner}/${notesRepo}/commits?per_page=60`, env),
+  const [initialSiteCommits, initialNoteCommits] = await Promise.all([
+    fetchJson<GitCommit[]>(`${apiBase}/repos/${owner}/${siteRepo}/commits?per_page=100&page=1`, env),
+    fetchJson<GitCommit[]>(`${apiBase}/repos/${owner}/${notesRepo}/commits?per_page=100&page=1`, env),
   ]);
 
   const activities = [
-    ...siteCommits.slice(0, 2).map((commit) => [
+    ...initialSiteCommits.slice(0, 2).map((commit) => [
       formatActivityDate(commit.commit.committer.date),
       "更新个人网站",
       describeCommit(commit.commit.message, "site"),
     ]),
-    ...noteCommits.slice(0, 2).map((commit) => [
+    ...initialNoteCommits.slice(0, 2).map((commit) => [
       formatActivityDate(commit.commit.committer.date),
       "同步笔记仓库",
       describeCommit(commit.commit.message, "notes"),
     ]),
   ];
 
-  const allCommits = [...siteCommits, ...noteCommits];
+  const allCommits = [...initialSiteCommits, ...initialNoteCommits];
   const latestCommitDate = allCommits.reduce((latest, commit) => {
     const date = new Date(commit.commit.committer.date);
     return date > latest ? date : latest;
   }, new Date(0));
   const chartEnd = latestCommitDate.getTime() > 0 ? latestCommitDate : new Date();
   chartEnd.setUTCHours(0, 0, 0, 0);
+
+  const chartStart = new Date(chartEnd);
+  chartStart.setUTCDate(chartEnd.getUTCDate() - 20);
+  const [siteCommits, noteCommits] = await Promise.all([
+    fetchCommitsForChart(siteRepo, initialSiteCommits, chartStart, env),
+    fetchCommitsForChart(notesRepo, initialNoteCommits, chartStart, env),
+  ]);
 
   const days = createChartDays(chartEnd);
   const dayMap = new Map(days.map((day) => [day.date, day]));
@@ -296,6 +303,36 @@ async function loadActivities(env: Env) {
     activities: activities.slice(0, 4),
     activityChart: normalizeChartHeights(days),
   };
+}
+
+async function fetchCommitsForChart(
+  repo: string,
+  firstPage: GitCommit[],
+  chartStart: Date,
+  env: Env,
+): Promise<GitCommit[]> {
+  const commits = [...firstPage];
+  const oldestDate = (items: GitCommit[]) =>
+    items.reduce(
+      (oldest, item) => {
+        const date = new Date(item.commit.committer.date);
+        return date < oldest ? date : oldest;
+      },
+      new Date(),
+    );
+
+  for (let page = 2; page <= 10 && commits.length; page += 1) {
+    if (oldestDate(commits) <= chartStart) break;
+
+    const nextPage = await fetchJson<GitCommit[]>(
+      `${apiBase}/repos/${owner}/${repo}/commits?per_page=100&page=${page}`,
+      env,
+    );
+    if (!nextPage.length) break;
+    commits.push(...nextPage);
+  }
+
+  return commits;
 }
 
 export async function onRequestGet({ env }: { env: Env }) {
