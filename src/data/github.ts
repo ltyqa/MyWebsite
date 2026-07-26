@@ -496,17 +496,26 @@ async function loadGitHubActivities() {
 
 async function loadGitHubActivityChart(): Promise<ActivityChartItem[]> {
   try {
-    const [siteCommits, noteCommits] = await Promise.all([
-      fetchJson<GitCommit[]>(`${apiBase}/repos/${owner}/${siteRepo}/commits?per_page=60`),
-      fetchJson<GitCommit[]>(`${apiBase}/repos/${owner}/${notesRepo}/commits?per_page=60`),
+    const [initialSiteCommits, initialNoteCommits] = await Promise.all([
+      fetchJson<GitCommit[]>(`${apiBase}/repos/${owner}/${siteRepo}/commits?per_page=100&page=1`),
+      fetchJson<GitCommit[]>(`${apiBase}/repos/${owner}/${notesRepo}/commits?per_page=100&page=1`),
     ]);
-    const allCommits = [...siteCommits, ...noteCommits];
+    const allCommits = [...initialSiteCommits, ...initialNoteCommits];
     const latestCommitDate = allCommits.reduce((latest, commit) => {
       const date = new Date(commit.commit.committer.date);
       return date > latest ? date : latest;
     }, new Date(0));
     const chartEnd = latestCommitDate.getTime() > 0 ? latestCommitDate : new Date();
     chartEnd.setUTCHours(0, 0, 0, 0);
+
+    // Recent automated syncs can fill a page in only a few days. Keep paging
+    // until the entire 21-day chart window is covered.
+    const chartStart = new Date(chartEnd);
+    chartStart.setUTCDate(chartEnd.getUTCDate() - 20);
+    const [siteCommits, noteCommits] = await Promise.all([
+      fetchCommitsForChart(siteRepo, initialSiteCommits, chartStart),
+      fetchCommitsForChart(notesRepo, initialNoteCommits, chartStart),
+    ]);
 
     const days = createChartDays(chartEnd);
     const dayMap = new Map(days.map((day) => [day.date, day]));
@@ -555,6 +564,37 @@ async function loadGitHubActivityChart(): Promise<ActivityChartItem[]> {
 
     return normalizeChartHeights(days);
   }
+}
+
+async function fetchCommitsForChart(
+  repo: string,
+  firstPage: GitCommit[],
+  chartStart: Date,
+): Promise<GitCommit[]> {
+  const commits = [...firstPage];
+  const oldestDate = (items: GitCommit[]) =>
+    items.reduce(
+      (oldest, item) => {
+        const date = new Date(item.commit.committer.date);
+        return date < oldest ? date : oldest;
+      },
+      new Date(),
+    );
+
+  // GitHub returns commits newest first. Ten pages is a deliberate guard
+  // against an unexpectedly large repository while comfortably covering the
+  // chart window for this site.
+  for (let page = 2; page <= 10 && commits.length; page += 1) {
+    if (oldestDate(commits) <= chartStart) break;
+
+    const nextPage = await fetchJson<GitCommit[]>(
+      `${apiBase}/repos/${owner}/${repo}/commits?per_page=100&page=${page}`,
+    );
+    if (!nextPage.length) break;
+    commits.push(...nextPage);
+  }
+
+  return commits;
 }
 
 function createChartDays(endDate: Date): ActivityChartItem[] {
