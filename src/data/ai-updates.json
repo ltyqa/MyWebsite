@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-01T05:45:16.150Z",
+  "updatedAt": "2026-08-02T04:53:00.915Z",
   "sources": [
     {
       "id": "openai-news",
@@ -67,7 +67,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T07:00:00.000Z",
       "url": "https://openai.com/index/unive",
-      "collectedAt": "2026-08-01T05:44:29.595Z"
+      "collectedAt": "2026-08-02T04:52:55.259Z"
     },
     {
       "id": "45bbaccf8d941517f323",
@@ -84,7 +84,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "collectedAt": "2026-08-01T05:44:29.596Z"
+      "collectedAt": "2026-08-02T04:52:55.260Z"
     },
     {
       "id": "af15e83e5c304730063b",
@@ -101,7 +101,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-01T05:44:34.686Z"
+      "collectedAt": "2026-08-02T04:53:00.901Z"
     },
     {
       "id": "b1fe0fa429937e85b2ef",
@@ -118,7 +118,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T15:00:59.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "collectedAt": "2026-08-01T05:44:31.855Z"
+      "collectedAt": "2026-08-02T04:52:57.970Z"
     },
     {
       "id": "56f1d8a8c0f3af9fdd08",
@@ -135,7 +135,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T10:00:00.000Z",
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "collectedAt": "2026-08-01T05:44:29.598Z"
+      "collectedAt": "2026-08-02T04:52:55.261Z"
     },
     {
       "id": "cfbf6b8394b6edd2d1cc",
@@ -152,7 +152,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://openai.com/index/avatarin",
-      "collectedAt": "2026-08-01T05:44:29.599Z"
+      "collectedAt": "2026-08-02T04:52:55.261Z"
     },
     {
       "id": "13c5281530ee4a6f4537",
@@ -169,7 +169,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-01T05:44:31.536Z"
+      "collectedAt": "2026-08-02T04:52:57.565Z"
     },
     {
       "id": "8aaceda53f7fc93dbf60",
@@ -186,7 +186,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T15:00:00.000Z",
       "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-      "collectedAt": "2026-08-01T05:44:29.599Z"
+      "collectedAt": "2026-08-02T04:52:55.262Z"
     },
     {
       "id": "002458279ec72570fffb",
@@ -203,7 +203,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "collectedAt": "2026-08-01T05:44:29.600Z"
+      "collectedAt": "2026-08-02T04:52:55.263Z"
     },
     {
       "id": "4c8b6c772be707078bbd",
@@ -220,7 +220,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "collectedAt": "2026-08-01T05:44:29.602Z"
+      "collectedAt": "2026-08-02T04:52:55.264Z"
     },
     {
       "id": "ca98ace8cf1a2a8d7872",
@@ -237,7 +237,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-08-01T05:44:31.130Z"
+      "collectedAt": "2026-08-02T04:52:57.139Z"
     },
     {
       "id": "bf370c7e47952f2da5c5",
@@ -254,7 +254,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-28T16:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "collectedAt": "2026-08-01T05:44:32.110Z"
+      "collectedAt": "2026-08-02T04:52:58.327Z"
     },
     {
       "id": "57b8f529f115263ec820",
@@ -271,7 +271,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-28T13:21:37.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-      "collectedAt": "2026-08-01T05:44:31.855Z"
+      "collectedAt": "2026-08-02T04:52:57.970Z"
     },
     {
       "id": "bc5ed3298105125d299c",
@@ -288,7 +288,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-27T03:30:00.000Z",
       "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "collectedAt": "2026-08-01T05:44:29.605Z"
+      "collectedAt": "2026-08-02T04:52:55.265Z"
     },
     {
       "id": "cb2584c1c5ba09bcd3a3",
@@ -305,7 +305,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-01T05:44:30.124Z"
+      "collectedAt": "2026-08-02T04:52:55.938Z"
     },
     {
       "id": "b363cad12be0dd76a830",
@@ -322,7 +322,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.809Z"
+      "collectedAt": "2026-08-02T04:52:56.761Z"
     },
     {
       "id": "c7991759e1e4a5d32f85",
@@ -339,7 +339,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-23T00:00:00.000Z",
       "url": "https://openai.com/index/health-in-chatgpt",
-      "collectedAt": "2026-08-01T05:44:29.606Z"
+      "collectedAt": "2026-08-02T04:52:55.266Z"
     },
     {
       "id": "6ccf2d78b5e86593806b",
@@ -356,7 +356,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T13:00:00.000Z",
       "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "collectedAt": "2026-08-01T05:44:29.607Z"
+      "collectedAt": "2026-08-02T04:52:55.267Z"
     },
     {
       "id": "658d60926ab2360afa2e",
@@ -373,7 +373,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T05:30:00.000Z",
       "url": "https://openai.com/index/introducing-openai-presence",
-      "collectedAt": "2026-08-01T05:44:29.608Z"
+      "collectedAt": "2026-08-02T04:52:55.268Z"
     },
     {
       "id": "c7e36c4d5f5533523bd4",
@@ -390,7 +390,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://openai.com/index/ntt-data",
-      "collectedAt": "2026-08-01T05:44:29.608Z"
+      "collectedAt": "2026-08-02T04:52:55.269Z"
     },
     {
       "id": "a300ec7a4d7064f7179d",
@@ -407,7 +407,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.809Z"
+      "collectedAt": "2026-08-02T04:52:56.762Z"
     },
     {
       "id": "afa41d5e8e9237f5cad2",
@@ -424,7 +424,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "collectedAt": "2026-08-01T05:44:29.609Z"
+      "collectedAt": "2026-08-02T04:52:55.269Z"
     },
     {
       "id": "176c2b61d3ba4a32ae38",
@@ -441,7 +441,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T15:16:30.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
-      "collectedAt": "2026-08-01T05:44:31.856Z"
+      "collectedAt": "2026-08-02T04:52:57.970Z"
     },
     {
       "id": "8b4028e43de92d3eef53",
@@ -458,7 +458,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T07:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "collectedAt": "2026-08-01T05:44:29.609Z"
+      "collectedAt": "2026-08-02T04:52:55.270Z"
     },
     {
       "id": "9e20c4d4744505bf3590",
@@ -475,7 +475,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-08-01T05:44:31.130Z"
+      "collectedAt": "2026-08-02T04:52:57.139Z"
     },
     {
       "id": "7ac3cf4e7948165dd06b",
@@ -492,7 +492,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-01T05:44:31.536Z"
+      "collectedAt": "2026-08-02T04:52:57.565Z"
     },
     {
       "id": "5237ec62c64502e0362e",
@@ -509,7 +509,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-20T10:00:00.000Z",
       "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "collectedAt": "2026-08-01T05:44:29.610Z"
+      "collectedAt": "2026-08-02T04:52:55.270Z"
     },
     {
       "id": "6fa040e6804071ffc67f",
@@ -526,7 +526,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-17T15:00:11.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
-      "collectedAt": "2026-08-01T05:44:31.856Z"
+      "collectedAt": "2026-08-02T04:52:57.970Z"
     },
     {
       "id": "453be2383653038965c7",
@@ -543,7 +543,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-17T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.810Z"
+      "collectedAt": "2026-08-02T04:52:56.763Z"
     },
     {
       "id": "37604a6bafa43b2cef23",
@@ -560,7 +560,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-      "collectedAt": "2026-08-01T05:44:29.610Z"
+      "collectedAt": "2026-08-02T04:52:55.271Z"
     },
     {
       "id": "ad99c0d7682ecec8de3d",
@@ -577,7 +577,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-      "collectedAt": "2026-08-01T05:44:32.110Z"
+      "collectedAt": "2026-08-02T04:52:58.328Z"
     },
     {
       "id": "58b103e4e418272fdf21",
@@ -594,7 +594,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T07:00:00.000Z",
       "url": "https://openai.com/index/codex-collaborator-creative-team",
-      "collectedAt": "2026-08-01T05:44:29.610Z"
+      "collectedAt": "2026-08-02T04:52:55.271Z"
     },
     {
       "id": "3e27101964501d6d280e",
@@ -611,7 +611,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-15T10:00:00.000Z",
       "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "collectedAt": "2026-08-01T05:44:29.611Z"
+      "collectedAt": "2026-08-02T04:52:55.271Z"
     },
     {
       "id": "064bc65fa5f9349bb063",
@@ -628,7 +628,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.810Z"
+      "collectedAt": "2026-08-02T04:52:56.763Z"
     },
     {
       "id": "7244b498c233bfdaf01c",
@@ -645,7 +645,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "collectedAt": "2026-08-01T05:44:29.611Z"
+      "collectedAt": "2026-08-02T04:52:55.272Z"
     },
     {
       "id": "456add788856ffcb6127",
@@ -662,7 +662,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "collectedAt": "2026-08-01T05:44:29.612Z"
+      "collectedAt": "2026-08-02T04:52:55.272Z"
     },
     {
       "id": "9ef49567f47481113df8",
@@ -679,7 +679,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-01T05:44:30.125Z"
+      "collectedAt": "2026-08-02T04:52:55.939Z"
     },
     {
       "id": "02a4b9621f0b60b565aa",
@@ -696,7 +696,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.811Z"
+      "collectedAt": "2026-08-02T04:52:56.763Z"
     },
     {
       "id": "eb3326089562a28362a2",
@@ -713,7 +713,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-13T12:37:28.000Z",
       "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-      "collectedAt": "2026-08-01T05:44:31.856Z"
+      "collectedAt": "2026-08-02T04:52:57.971Z"
     },
     {
       "id": "1e5af8ca0d8bc5e26703",
@@ -730,7 +730,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://openai.com/academy/getting-started",
-      "collectedAt": "2026-08-01T05:44:29.612Z"
+      "collectedAt": "2026-08-02T04:52:55.273Z"
     },
     {
       "id": "7735ad0dbb31b9a6729b",
@@ -747,7 +747,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-01T05:44:30.125Z"
+      "collectedAt": "2026-08-02T04:52:55.940Z"
     },
     {
       "id": "3cb521040949bbeed24b",
@@ -764,7 +764,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.811Z"
+      "collectedAt": "2026-08-02T04:52:56.764Z"
     },
     {
       "id": "b7ede73bbb83c239838d",
@@ -781,7 +781,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T13:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "collectedAt": "2026-08-01T05:44:29.613Z"
+      "collectedAt": "2026-08-02T04:52:55.273Z"
     },
     {
       "id": "cd73a370d60dec12bb60",
@@ -798,7 +798,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "collectedAt": "2026-08-01T05:44:29.613Z"
+      "collectedAt": "2026-08-02T04:52:55.274Z"
     },
     {
       "id": "3a73e1016004964e66d6",
@@ -815,7 +815,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6",
-      "collectedAt": "2026-08-01T05:44:29.614Z"
+      "collectedAt": "2026-08-02T04:52:55.274Z"
     },
     {
       "id": "0cc76793af620f7bb10c",
@@ -832,7 +832,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/bio-bug-bounty",
-      "collectedAt": "2026-08-01T05:44:29.614Z"
+      "collectedAt": "2026-08-02T04:52:55.275Z"
     },
     {
       "id": "6756ae3b0445393cf58b",
@@ -849,7 +849,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-01T05:44:30.126Z"
+      "collectedAt": "2026-08-02T04:52:55.940Z"
     },
     {
       "id": "74a441f786f49a59775d",
@@ -866,7 +866,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T13:00:00.000Z",
       "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "collectedAt": "2026-08-01T05:44:29.615Z"
+      "collectedAt": "2026-08-02T04:52:55.276Z"
     },
     {
       "id": "4acf2eda2e0fe738f5c1",
@@ -883,7 +883,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-live",
-      "collectedAt": "2026-08-01T05:44:29.615Z"
+      "collectedAt": "2026-08-02T04:52:55.276Z"
     },
     {
       "id": "5432c0edbd62ccd22a23",
@@ -900,7 +900,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.811Z"
+      "collectedAt": "2026-08-02T04:52:56.764Z"
     },
     {
       "id": "ef10e031dc3b0f027fe5",
@@ -917,7 +917,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T08:54:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "collectedAt": "2026-08-01T05:44:32.111Z"
+      "collectedAt": "2026-08-02T04:52:58.328Z"
     },
     {
       "id": "ae43b3314d8877dd3dce",
@@ -934,7 +934,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://openai.com/index/australian-payments-plus",
-      "collectedAt": "2026-08-01T05:44:29.616Z"
+      "collectedAt": "2026-08-02T04:52:55.276Z"
     },
     {
       "id": "4c936674f4b219ed493a",
@@ -951,7 +951,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://openai.com/index/mufg",
-      "collectedAt": "2026-08-01T05:44:29.616Z"
+      "collectedAt": "2026-08-02T04:52:55.277Z"
     },
     {
       "id": "02a4337d96c12bd29af9",
@@ -968,7 +968,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-01T05:44:30.126Z"
+      "collectedAt": "2026-08-02T04:52:55.941Z"
     },
     {
       "id": "e31b8759deb751b7046f",
@@ -985,7 +985,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-06T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-01T05:44:31.537Z"
+      "collectedAt": "2026-08-02T04:52:57.566Z"
     },
     {
       "id": "d9953405a7b98f544a26",
@@ -1002,7 +1002,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-02T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.812Z"
+      "collectedAt": "2026-08-02T04:52:56.764Z"
     },
     {
       "id": "15cd354e84a42a0e6b8f",
@@ -1019,7 +1019,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-01T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-01T05:44:30.127Z"
+      "collectedAt": "2026-08-02T04:52:55.941Z"
     },
     {
       "id": "b61b2637e688ad2bd25d",
@@ -1036,7 +1036,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.812Z"
+      "collectedAt": "2026-08-02T04:52:56.765Z"
     },
     {
       "id": "746aab7bf7ed89a86fa8",
@@ -1053,7 +1053,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T16:02:40.000Z",
       "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-      "collectedAt": "2026-08-01T05:44:31.856Z"
+      "collectedAt": "2026-08-02T04:52:57.971Z"
     },
     {
       "id": "a3f03aca463e82452f66",
@@ -1070,7 +1070,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T09:00:00.000Z",
       "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "collectedAt": "2026-08-01T05:44:29.616Z"
+      "collectedAt": "2026-08-02T04:52:55.277Z"
     },
     {
       "id": "fe2f0670eaeafcdb3ad2",
@@ -1087,7 +1087,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "collectedAt": "2026-08-01T05:44:29.617Z"
+      "collectedAt": "2026-08-02T04:52:55.277Z"
     },
     {
       "id": "eb22f73482b9a1f24d91",
@@ -1104,7 +1104,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-genebench-pro",
-      "collectedAt": "2026-08-01T05:44:29.617Z"
+      "collectedAt": "2026-08-02T04:52:55.278Z"
     },
     {
       "id": "25e6e4a270cd66f9b185",
@@ -1121,7 +1121,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-01T05:44:30.127Z"
+      "collectedAt": "2026-08-02T04:52:55.942Z"
     },
     {
       "id": "48675c3bf72ad5f0130b",
@@ -1138,7 +1138,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.813Z"
+      "collectedAt": "2026-08-02T04:52:56.765Z"
     },
     {
       "id": "87e0d903c3ade9f63cb9",
@@ -1155,7 +1155,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-08-01T05:44:31.130Z"
+      "collectedAt": "2026-08-02T04:52:57.139Z"
     },
     {
       "id": "88b542cd5d98fc76107a",
@@ -1172,7 +1172,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-01T05:44:31.537Z"
+      "collectedAt": "2026-08-02T04:52:57.566Z"
     },
     {
       "id": "6e59d8aafa7323d938d6",
@@ -1189,7 +1189,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-29T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.813Z"
+      "collectedAt": "2026-08-02T04:52:56.766Z"
     },
     {
       "id": "e724c51a1bdace040134",
@@ -1206,7 +1206,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-26T10:00:00.000Z",
       "url": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "collectedAt": "2026-08-01T05:44:29.618Z"
+      "collectedAt": "2026-08-02T04:52:55.278Z"
     },
     {
       "id": "9f7c2a8b44846309cebe",
@@ -1223,7 +1223,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.813Z"
+      "collectedAt": "2026-08-02T04:52:56.766Z"
     },
     {
       "id": "dfb466b9c1abc7508953",
@@ -1240,7 +1240,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-01T05:44:30.128Z"
+      "collectedAt": "2026-08-02T04:52:55.942Z"
     },
     {
       "id": "f5c353fcba8d18826546",
@@ -1257,7 +1257,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-25T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.813Z"
+      "collectedAt": "2026-08-02T04:52:56.766Z"
     },
     {
       "id": "4dc045a657edc4379886",
@@ -1274,7 +1274,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-24T16:30:01.000Z",
       "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-      "collectedAt": "2026-08-01T05:44:31.856Z"
+      "collectedAt": "2026-08-02T04:52:57.971Z"
     },
     {
       "id": "5e93061480ea98dc8eab",
@@ -1291,7 +1291,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-24T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-01T05:44:31.537Z"
+      "collectedAt": "2026-08-02T04:52:57.566Z"
     },
     {
       "id": "ac21b6b84e065abf715a",
@@ -1308,7 +1308,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-23T17:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-immunology-mystery",
-      "collectedAt": "2026-08-01T05:44:29.618Z"
+      "collectedAt": "2026-08-02T04:52:55.279Z"
     },
     {
       "id": "2beb6e83d413eee747a3",
@@ -1325,7 +1325,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-23T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-01T05:44:30.128Z"
+      "collectedAt": "2026-08-02T04:52:55.943Z"
     },
     {
       "id": "4ee0a46d008431f74c6f",
@@ -1342,7 +1342,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T10:00:00.000Z",
       "url": "https://openai.com/index/daybreak-securing-the-world",
-      "collectedAt": "2026-08-01T05:44:29.619Z"
+      "collectedAt": "2026-08-02T04:52:55.279Z"
     },
     {
       "id": "f1af487b8667894c5069",
@@ -1359,7 +1359,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T00:00:00.000Z",
       "url": "https://openai.com/index/codex-maxxing-long-running-work",
-      "collectedAt": "2026-08-01T05:44:29.619Z"
+      "collectedAt": "2026-08-02T04:52:55.280Z"
     },
     {
       "id": "ecb75c71ae3d46eb61c5",
@@ -1376,7 +1376,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.814Z"
+      "collectedAt": "2026-08-02T04:52:56.766Z"
     },
     {
       "id": "4fba785fb3527574518d",
@@ -1393,7 +1393,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-21T23:00:00.000Z",
       "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "collectedAt": "2026-08-01T05:44:29.619Z"
+      "collectedAt": "2026-08-02T04:52:55.280Z"
     },
     {
       "id": "a744e1d203989e6af98f",
@@ -1410,7 +1410,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T17:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "collectedAt": "2026-08-01T05:44:29.620Z"
+      "collectedAt": "2026-08-02T04:52:55.280Z"
     },
     {
       "id": "4451d1f4fabd696490a6",
@@ -1427,7 +1427,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T11:00:00.000Z",
       "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "collectedAt": "2026-08-01T05:44:29.620Z"
+      "collectedAt": "2026-08-02T04:52:55.281Z"
     },
     {
       "id": "1145e5f5fbfda4f778bc",
@@ -1444,7 +1444,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T08:00:00.000Z",
       "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "collectedAt": "2026-08-01T05:44:29.620Z"
+      "collectedAt": "2026-08-02T04:52:55.281Z"
     },
     {
       "id": "b360a839b1ef98e71882",
@@ -1461,7 +1461,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.814Z"
+      "collectedAt": "2026-08-02T04:52:56.767Z"
     },
     {
       "id": "1c76d41068a26bd369b1",
@@ -1478,7 +1478,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T10:00:00.000Z",
       "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "collectedAt": "2026-08-01T05:44:29.621Z"
+      "collectedAt": "2026-08-02T04:52:55.281Z"
     },
     {
       "id": "5da9598fb41c1ac93e58",
@@ -1495,7 +1495,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-life-sci-bench",
-      "collectedAt": "2026-08-01T05:44:29.621Z"
+      "collectedAt": "2026-08-02T04:52:55.282Z"
     },
     {
       "id": "c264a8015cf38e7b022d",
@@ -1512,7 +1512,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-01T05:44:31.537Z"
+      "collectedAt": "2026-08-02T04:52:57.566Z"
     },
     {
       "id": "463a3f23df3be39852c2",
@@ -1529,7 +1529,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-16T00:00:00.000Z",
       "url": "https://openai.com/index/deployment-simulation",
-      "collectedAt": "2026-08-01T05:44:29.621Z"
+      "collectedAt": "2026-08-02T04:52:55.282Z"
     },
     {
       "id": "c1c4940bb85560fc0599",
@@ -1546,7 +1546,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.814Z"
+      "collectedAt": "2026-08-02T04:52:56.767Z"
     },
     {
       "id": "9d55e1d372b6a64c37a3",
@@ -1563,7 +1563,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-15T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-01T05:44:31.538Z"
+      "collectedAt": "2026-08-02T04:52:57.567Z"
     },
     {
       "id": "ed2a24d67723105da4dc",
@@ -1580,7 +1580,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-14T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-openai-partner-network",
-      "collectedAt": "2026-08-01T05:44:29.621Z"
+      "collectedAt": "2026-08-02T04:52:55.282Z"
     },
     {
       "id": "b5b7f9b007b543013769",
@@ -1597,7 +1597,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-12T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-01T05:44:30.129Z"
+      "collectedAt": "2026-08-02T04:52:55.943Z"
     },
     {
       "id": "5cf8d01eeb345b1be05a",
@@ -1614,7 +1614,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "collectedAt": "2026-08-01T05:44:29.622Z"
+      "collectedAt": "2026-08-02T04:52:55.283Z"
     },
     {
       "id": "c24b9d70e899a62f23fe",
@@ -1631,7 +1631,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://openai.com/index/bbva",
-      "collectedAt": "2026-08-01T05:44:29.622Z"
+      "collectedAt": "2026-08-02T04:52:55.283Z"
     },
     {
       "id": "46d6755fb18785fef07a",
@@ -1648,7 +1648,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://openai.com/index/openai-to-acquire-ona",
-      "collectedAt": "2026-08-01T05:44:29.623Z"
+      "collectedAt": "2026-08-02T04:52:55.283Z"
     },
     {
       "id": "2f865cea4009ebb80597",
@@ -1665,7 +1665,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.815Z"
+      "collectedAt": "2026-08-02T04:52:56.767Z"
     },
     {
       "id": "271132d8a2041b336c61",
@@ -1682,7 +1682,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T20:00:00.000Z",
       "url": "https://openai.com/index/openai-on-oracle-cloud",
-      "collectedAt": "2026-08-01T05:44:29.623Z"
+      "collectedAt": "2026-08-02T04:52:55.284Z"
     },
     {
       "id": "dd8ef022bc1c3f2bcd4e",
@@ -1699,7 +1699,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T16:24:11.000Z",
       "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
-      "collectedAt": "2026-08-01T05:44:31.856Z"
+      "collectedAt": "2026-08-02T04:52:57.971Z"
     },
     {
       "id": "55b4277f4767ea97239e",
@@ -1716,7 +1716,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T12:00:00.000Z",
       "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-      "collectedAt": "2026-08-01T05:44:29.623Z"
+      "collectedAt": "2026-08-02T04:52:55.284Z"
     },
     {
       "id": "c294c90b25ad2202d7ea",
@@ -1733,7 +1733,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.815Z"
+      "collectedAt": "2026-08-02T04:52:56.767Z"
     },
     {
       "id": "3f596d04752d28827a43",
@@ -1750,7 +1750,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T15:16:25.000Z",
       "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
-      "collectedAt": "2026-08-01T05:44:31.856Z"
+      "collectedAt": "2026-08-02T04:52:57.976Z"
     },
     {
       "id": "9e66a7e36eb33f1bf16e",
@@ -1767,7 +1767,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T14:10:19.000Z",
       "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
-      "collectedAt": "2026-08-01T05:44:31.861Z"
+      "collectedAt": "2026-08-02T04:52:57.976Z"
     },
     {
       "id": "85c8f77c366cd8be2604",
@@ -1784,7 +1784,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T12:00:00.000Z",
       "url": "https://openai.com/index/nextdoor",
-      "collectedAt": "2026-08-01T05:44:29.624Z"
+      "collectedAt": "2026-08-02T04:52:55.285Z"
     },
     {
       "id": "cf7da16f8eca08cdd1c8",
@@ -1801,7 +1801,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T10:00:00.000Z",
       "url": "https://openai.com/index/notion",
-      "collectedAt": "2026-08-01T05:44:29.624Z"
+      "collectedAt": "2026-08-02T04:52:55.285Z"
     },
     {
       "id": "38f6e05061513bd3e053",
@@ -1818,7 +1818,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-01T05:44:30.130Z"
+      "collectedAt": "2026-08-02T04:52:55.944Z"
     },
     {
       "id": "ac48cd08f7d2aaf4a683",
@@ -1835,7 +1835,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.815Z"
+      "collectedAt": "2026-08-02T04:52:56.768Z"
     },
     {
       "id": "43924ddd68dd8e3d134b",
@@ -1852,7 +1852,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-08T13:04:59.000Z",
       "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
-      "collectedAt": "2026-08-01T05:44:31.861Z"
+      "collectedAt": "2026-08-02T04:52:57.976Z"
     },
     {
       "id": "68f3aa2ed2cfc2244c4a",
@@ -1869,7 +1869,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.816Z"
+      "collectedAt": "2026-08-02T04:52:56.768Z"
     },
     {
       "id": "c02a905db735d39710d2",
@@ -1886,7 +1886,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-04T12:00:00.000Z",
       "url": "https://openai.com/index/endava-frontiers",
-      "collectedAt": "2026-08-01T05:44:29.625Z"
+      "collectedAt": "2026-08-02T04:52:55.287Z"
     },
     {
       "id": "38059fa473644001da1a",
@@ -1903,7 +1903,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-04T09:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-memory-dreaming",
-      "collectedAt": "2026-08-01T05:44:29.626Z"
+      "collectedAt": "2026-08-02T04:52:55.287Z"
     },
     {
       "id": "1ff31f480209a0625382",
@@ -1920,7 +1920,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-03T13:15:00.000Z",
       "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-      "collectedAt": "2026-08-01T05:44:29.627Z"
+      "collectedAt": "2026-08-02T04:52:55.288Z"
     },
     {
       "id": "f7ef456d13b5ed4351b1",
@@ -1937,7 +1937,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-03T12:00:00.000Z",
       "url": "https://openai.com/index/wasmer",
-      "collectedAt": "2026-08-01T05:44:29.627Z"
+      "collectedAt": "2026-08-02T04:52:55.288Z"
     },
     {
       "id": "87eb9b7def118c7239f6",
@@ -1954,7 +1954,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T10:00:00.000Z",
       "url": "https://openai.com/academy/chatgpt-sites",
-      "collectedAt": "2026-08-01T05:44:29.628Z"
+      "collectedAt": "2026-08-02T04:52:55.289Z"
     },
     {
       "id": "e5a668bd62c058849392",
@@ -1971,7 +1971,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T09:00:00.000Z",
       "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
-      "collectedAt": "2026-08-01T05:44:29.629Z"
+      "collectedAt": "2026-08-02T04:52:55.289Z"
     },
     {
       "id": "7ee67cf7dcc20a136696",
@@ -1988,7 +1988,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T02:00:00.000Z",
       "url": "https://openai.com/index/codex-for-knowledge-work",
-      "collectedAt": "2026-08-01T05:44:29.630Z"
+      "collectedAt": "2026-08-02T04:52:55.290Z"
     },
     {
       "id": "213597c4d3ffa9f51981",
@@ -2005,7 +2005,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-01T05:44:30.130Z"
+      "collectedAt": "2026-08-02T04:52:55.944Z"
     },
     {
       "id": "3b73a6fb9c76285ceb5c",
@@ -2022,7 +2022,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.816Z"
+      "collectedAt": "2026-08-02T04:52:56.769Z"
     },
     {
       "id": "0a10d1c0ed76d649c722",
@@ -2039,7 +2039,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-01T16:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
-      "collectedAt": "2026-08-01T05:44:32.112Z"
+      "collectedAt": "2026-08-02T04:52:58.329Z"
     },
     {
       "id": "3a8f7bdc5206ab63c0b4",
@@ -2056,7 +2056,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-01T10:00:00.000Z",
       "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "collectedAt": "2026-08-01T05:44:29.631Z"
+      "collectedAt": "2026-08-02T04:52:55.290Z"
     },
     {
       "id": "d255c7e41d2db2d5efc1",
@@ -2073,7 +2073,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-01T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-01T05:44:31.538Z"
+      "collectedAt": "2026-08-02T04:52:57.567Z"
     },
     {
       "id": "d2d0a47c7dcbe870f337",
@@ -2090,7 +2090,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-29T19:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
-      "collectedAt": "2026-08-01T05:44:32.112Z"
+      "collectedAt": "2026-08-02T04:52:58.329Z"
     },
     {
       "id": "9447216aa6f601811c1f",
@@ -2107,7 +2107,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-29T12:00:00.000Z",
       "url": "https://openai.com/index/braintrust",
-      "collectedAt": "2026-08-01T05:44:29.632Z"
+      "collectedAt": "2026-08-02T04:52:55.291Z"
     },
     {
       "id": "f213cc251ccd5d0a4deb",
@@ -2124,7 +2124,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-29T03:00:00.000Z",
       "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
-      "collectedAt": "2026-08-01T05:44:29.632Z"
+      "collectedAt": "2026-08-02T04:52:55.291Z"
     },
     {
       "id": "21fcae17dbfddc7ddf29",
@@ -2141,7 +2141,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-29T00:00:00.000Z",
       "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
-      "collectedAt": "2026-08-01T05:44:29.633Z"
+      "collectedAt": "2026-08-02T04:52:55.291Z"
     },
     {
       "id": "6c159d46886403d320f5",
@@ -2158,7 +2158,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-29T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.816Z"
+      "collectedAt": "2026-08-02T04:52:56.769Z"
     },
     {
       "id": "6876d8edf8713f0c88fe",
@@ -2175,7 +2175,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-28T12:00:00.000Z",
       "url": "https://openai.com/index/endava",
-      "collectedAt": "2026-08-01T05:44:29.633Z"
+      "collectedAt": "2026-08-02T04:52:55.291Z"
     },
     {
       "id": "e1e2d0df79414a2a8d33",
@@ -2192,7 +2192,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-28T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-01T05:44:30.131Z"
+      "collectedAt": "2026-08-02T04:52:55.945Z"
     },
     {
       "id": "cd205c2f5b0042a97538",
@@ -2209,7 +2209,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-28T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.817Z"
+      "collectedAt": "2026-08-02T04:52:56.770Z"
     },
     {
       "id": "0842b6d99cf78a356b33",
@@ -2226,7 +2226,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-28T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-01T05:44:31.539Z"
+      "collectedAt": "2026-08-02T04:52:57.568Z"
     },
     {
       "id": "f1a96da28929946e4af1",
@@ -2243,7 +2243,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-27T11:00:00.000Z",
       "url": "https://openai.com/index/cisco",
-      "collectedAt": "2026-08-01T05:44:29.633Z"
+      "collectedAt": "2026-08-02T04:52:55.292Z"
     },
     {
       "id": "ddae68d5f9c5e049aac8",
@@ -2260,7 +2260,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-27T07:00:00.000Z",
       "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
-      "collectedAt": "2026-08-01T05:44:29.634Z"
+      "collectedAt": "2026-08-02T04:52:55.292Z"
     },
     {
       "id": "bf308c20529ac6c49581",
@@ -2277,7 +2277,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-27T00:00:00.000Z",
       "url": "https://openai.com/index/warp",
-      "collectedAt": "2026-08-01T05:44:29.634Z"
+      "collectedAt": "2026-08-02T04:52:55.292Z"
     },
     {
       "id": "66313d43dcbc98ef9539",
@@ -2294,7 +2294,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-27T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.818Z"
+      "collectedAt": "2026-08-02T04:52:56.770Z"
     },
     {
       "id": "76cdcdfe1cddcbe5abb1",
@@ -2311,7 +2311,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "url": "https://openai.com/index/ai-first-hire-small-business",
-      "collectedAt": "2026-08-01T05:44:29.634Z"
+      "collectedAt": "2026-08-02T04:52:55.293Z"
     },
     {
       "id": "c5b40794df0e03a53a03",
@@ -2328,7 +2328,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
-      "collectedAt": "2026-08-01T05:44:29.635Z"
+      "collectedAt": "2026-08-02T04:52:55.293Z"
     },
     {
       "id": "a6e9571612cdf2f6fbf6",
@@ -2345,7 +2345,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-01T05:44:31.539Z"
+      "collectedAt": "2026-08-02T04:52:57.568Z"
     },
     {
       "id": "0641f65b356343333ec4",
@@ -2362,7 +2362,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-22T00:00:00.000Z",
       "url": "https://openai.com/index/virgin-atlantic",
-      "collectedAt": "2026-08-01T05:44:29.635Z"
+      "collectedAt": "2026-08-02T04:52:55.293Z"
     },
     {
       "id": "a461ab5bdb0ad417cf56",
@@ -2379,7 +2379,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-22T00:00:00.000Z",
       "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
-      "collectedAt": "2026-08-01T05:44:29.635Z"
+      "collectedAt": "2026-08-02T04:52:55.294Z"
     },
     {
       "id": "3edd439cbe1407e59c84",
@@ -2396,7 +2396,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-21T12:00:00.000Z",
       "url": "https://openai.com/index/adventhealth",
-      "collectedAt": "2026-08-01T05:44:29.635Z"
+      "collectedAt": "2026-08-02T04:52:55.294Z"
     },
     {
       "id": "0b1c2cc4a6a3969edc2e",
@@ -2413,7 +2413,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-21T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-01T05:44:30.132Z"
+      "collectedAt": "2026-08-02T04:52:55.946Z"
     },
     {
       "id": "9f418b7a326c782637b6",
@@ -2430,7 +2430,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-20T00:00:00.000Z",
       "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
-      "collectedAt": "2026-08-01T05:44:29.636Z"
+      "collectedAt": "2026-08-02T04:52:55.294Z"
     },
     {
       "id": "b4f09bb82a6149a7a949",
@@ -2447,7 +2447,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-20T00:00:00.000Z",
       "url": "https://openai.com/index/ramp",
-      "collectedAt": "2026-08-01T05:44:29.636Z"
+      "collectedAt": "2026-08-02T04:52:55.294Z"
     },
     {
       "id": "bddc56bf731805620bf1",
@@ -2464,7 +2464,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-19T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.818Z"
+      "collectedAt": "2026-08-02T04:52:56.771Z"
     },
     {
       "id": "3a4684a491f58ba7061f",
@@ -2481,7 +2481,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-19T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-08-01T05:44:31.131Z"
+      "collectedAt": "2026-08-02T04:52:57.141Z"
     },
     {
       "id": "bb5d218d5cbcc745cb7f",
@@ -2498,7 +2498,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-19T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-01T05:44:31.540Z"
+      "collectedAt": "2026-08-02T04:52:57.569Z"
     },
     {
       "id": "6e6476fa96b68d35ebe7",
@@ -2515,7 +2515,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-18T10:00:00.000Z",
       "url": "https://openai.com/index/dell-codex-enterprise-partnership",
-      "collectedAt": "2026-08-01T05:44:29.637Z"
+      "collectedAt": "2026-08-02T04:52:55.295Z"
     },
     {
       "id": "6e08511a4fa2db8727f9",
@@ -2532,7 +2532,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.819Z"
+      "collectedAt": "2026-08-02T04:52:56.771Z"
     },
     {
       "id": "5ea9471715ea7f33f378",
@@ -2549,7 +2549,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-17T19:50:57.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-omni/",
-      "collectedAt": "2026-08-01T05:44:31.862Z"
+      "collectedAt": "2026-08-02T04:52:57.977Z"
     },
     {
       "id": "584d6a831a422b043bc8",
@@ -2566,7 +2566,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-17T13:50:34.000Z",
       "url": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/",
-      "collectedAt": "2026-08-01T05:44:31.862Z"
+      "collectedAt": "2026-08-02T04:52:57.977Z"
     },
     {
       "id": "fd258446218ca1933768",
@@ -2583,7 +2583,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-16T00:00:00.000Z",
       "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
-      "collectedAt": "2026-08-01T05:44:29.637Z"
+      "collectedAt": "2026-08-02T04:52:55.295Z"
     },
     {
       "id": "899eb5cc9f195e4dc76c",
@@ -2600,7 +2600,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-15T22:50:12.000Z",
       "url": "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/",
-      "collectedAt": "2026-08-01T05:44:31.862Z"
+      "collectedAt": "2026-08-02T04:52:57.978Z"
     },
     {
       "id": "d4527ac3a92cdc97b305",
@@ -2617,7 +2617,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
-      "collectedAt": "2026-08-01T05:44:29.637Z"
+      "collectedAt": "2026-08-02T04:52:55.296Z"
     },
     {
       "id": "990abf4863fad4799d8b",
@@ -2634,7 +2634,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "url": "https://openai.com/index/databricks",
-      "collectedAt": "2026-08-01T05:44:29.637Z"
+      "collectedAt": "2026-08-02T04:52:55.296Z"
     },
     {
       "id": "3e9b1ea0812b6a1a55e3",
@@ -2651,7 +2651,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "url": "https://openai.com/index/personal-finance-chatgpt",
-      "collectedAt": "2026-08-01T05:44:29.638Z"
+      "collectedAt": "2026-08-02T04:52:55.296Z"
     },
     {
       "id": "4a831b96139fd36d9471",
@@ -2668,7 +2668,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-14T20:30:00.000Z",
       "url": "https://openai.com/index/sea-david-chen",
-      "collectedAt": "2026-08-01T05:44:29.638Z"
+      "collectedAt": "2026-08-02T04:52:55.296Z"
     },
     {
       "id": "748874936f7ba843bc3e",
@@ -2685,7 +2685,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-14T13:00:00.000Z",
       "url": "https://openai.com/index/work-with-codex-from-anywhere",
-      "collectedAt": "2026-08-01T05:44:29.638Z"
+      "collectedAt": "2026-08-02T04:52:55.297Z"
     },
     {
       "id": "05e3035adbae05defe20",
@@ -2702,7 +2702,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-14T00:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
-      "collectedAt": "2026-08-01T05:44:29.639Z"
+      "collectedAt": "2026-08-02T04:52:55.297Z"
     },
     {
       "id": "b5a426ae8280b2c82c2a",
@@ -2719,7 +2719,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-13T11:00:00.000Z",
       "url": "https://openai.com/index/building-codex-windows-sandbox",
-      "collectedAt": "2026-08-01T05:44:29.639Z"
+      "collectedAt": "2026-08-02T04:52:55.297Z"
     },
     {
       "id": "709f9ecf7f4c14a5e968",
@@ -2736,7 +2736,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-13T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.819Z"
+      "collectedAt": "2026-08-02T04:52:56.771Z"
     },
     {
       "id": "f21563e28c6eff44c6bf",
@@ -2753,7 +2753,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-12T15:00:00.000Z",
       "url": "https://openai.com/academy/how-finance-teams-use-codex",
-      "collectedAt": "2026-08-01T05:44:29.639Z"
+      "collectedAt": "2026-08-02T04:52:55.298Z"
     },
     {
       "id": "e3d807f729525378aff3",
@@ -2770,7 +2770,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-12T14:40:07.000Z",
       "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
-      "collectedAt": "2026-08-01T05:44:31.862Z"
+      "collectedAt": "2026-08-02T04:52:57.978Z"
     },
     {
       "id": "aed1d550099979e79874",
@@ -2787,7 +2787,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-12T00:00:00.000Z",
       "url": "https://openai.com/index/what-parameter-golf-taught-us",
-      "collectedAt": "2026-08-01T05:44:29.640Z"
+      "collectedAt": "2026-08-02T04:52:55.298Z"
     },
     {
       "id": "b32d7acdc5f49c3fc8c1",
@@ -2804,7 +2804,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-12T00:00:00.000Z",
       "url": "https://openai.com/index/nvidia",
-      "collectedAt": "2026-08-01T05:44:29.640Z"
+      "collectedAt": "2026-08-02T04:52:55.300Z"
     },
     {
       "id": "871b254e2a1328715563",
@@ -2821,7 +2821,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-12T00:00:00.000Z",
       "url": "https://openai.com/index/autoscout24",
-      "collectedAt": "2026-08-01T05:44:29.643Z"
+      "collectedAt": "2026-08-02T04:52:55.300Z"
     },
     {
       "id": "0bbc1ddab04b596e6f99",
@@ -2838,7 +2838,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-12T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.820Z"
+      "collectedAt": "2026-08-02T04:52:56.772Z"
     },
     {
       "id": "f01c281685dbff0ae42a",
@@ -2855,7 +2855,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-11T15:00:00.000Z",
       "url": "https://openai.com/signals/research/2026q1-update",
-      "collectedAt": "2026-08-01T05:44:29.643Z"
+      "collectedAt": "2026-08-02T04:52:55.301Z"
     },
     {
       "id": "f4126e20ef02a9a130e0",
@@ -2872,7 +2872,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-11T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.820Z"
+      "collectedAt": "2026-08-02T04:52:56.772Z"
     },
     {
       "id": "cd588a0fe5d002239a6a",
@@ -2889,7 +2889,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-08T12:30:00.000Z",
       "url": "https://openai.com/index/running-codex-safely",
-      "collectedAt": "2026-08-01T05:44:29.644Z"
+      "collectedAt": "2026-08-02T04:52:55.301Z"
     },
     {
       "id": "9da75362fd94f58348cb",
@@ -2906,7 +2906,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-07T13:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-      "collectedAt": "2026-08-01T05:44:29.644Z"
+      "collectedAt": "2026-08-02T04:52:55.301Z"
     },
     {
       "id": "a85e45ec64d171874029",
@@ -2923,7 +2923,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-07T11:00:00.000Z",
       "url": "https://openai.com/index/parloa",
-      "collectedAt": "2026-08-01T05:44:29.644Z"
+      "collectedAt": "2026-08-02T04:52:55.302Z"
     },
     {
       "id": "49f9c0fa1eff8ff85985",
@@ -2940,7 +2940,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-07T10:00:00.000Z",
       "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
-      "collectedAt": "2026-08-01T05:44:29.645Z"
+      "collectedAt": "2026-08-02T04:52:55.302Z"
     },
     {
       "id": "00c3164626f5d10a2508",
@@ -2957,7 +2957,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-07T00:00:00.000Z",
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "collectedAt": "2026-08-01T05:44:29.645Z"
+      "collectedAt": "2026-08-02T04:52:55.302Z"
     },
     {
       "id": "900c9eeea7cb4adfd49b",
@@ -2974,7 +2974,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-07T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
-      "collectedAt": "2026-08-01T05:44:29.645Z"
+      "collectedAt": "2026-08-02T04:52:55.302Z"
     },
     {
       "id": "1c1b6ba4897510beca7b",
@@ -2991,7 +2991,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-07T00:00:00.000Z",
       "url": "https://openai.com/index/simplex",
-      "collectedAt": "2026-08-01T05:44:29.645Z"
+      "collectedAt": "2026-08-02T04:52:55.303Z"
     },
     {
       "id": "94b727ff048fb195bb65",
@@ -3008,7 +3008,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-07T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-01T05:44:31.540Z"
+      "collectedAt": "2026-08-02T04:52:57.570Z"
     },
     {
       "id": "e8bedecd5788bc2733de",
@@ -3025,7 +3025,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-06T10:43:49.000Z",
       "url": "https://deepmind.google/blog/alphaevolve-impact/",
-      "collectedAt": "2026-08-01T05:44:31.862Z"
+      "collectedAt": "2026-08-02T04:52:57.978Z"
     },
     {
       "id": "cf6436c12d92a7caed65",
@@ -3042,7 +3042,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-06T08:00:00.000Z",
       "url": "https://openai.com/index/how-chatgpt-protects-privacy",
-      "collectedAt": "2026-08-01T05:44:29.645Z"
+      "collectedAt": "2026-08-02T04:52:55.303Z"
     },
     {
       "id": "474f315cfec162362422",
@@ -3059,7 +3059,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-06T00:00:00.000Z",
       "url": "https://openai.com/index/singular-bank",
-      "collectedAt": "2026-08-01T05:44:29.646Z"
+      "collectedAt": "2026-08-02T04:52:55.303Z"
     },
     {
       "id": "fe718bb877b5a07d61fd",
@@ -3076,7 +3076,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-06T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
-      "collectedAt": "2026-08-01T05:44:29.646Z"
+      "collectedAt": "2026-08-02T04:52:55.304Z"
     },
     {
       "id": "94924671cb9bb00f178f",
@@ -3093,7 +3093,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-06T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-b2b-signals",
-      "collectedAt": "2026-08-01T05:44:29.647Z"
+      "collectedAt": "2026-08-02T04:52:55.304Z"
     },
     {
       "id": "80da267eefdb073bf744",
@@ -3110,7 +3110,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-06T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.821Z"
+      "collectedAt": "2026-08-02T04:52:56.772Z"
     },
     {
       "id": "9109be6cd5eebbf006dc",
@@ -3127,7 +3127,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-06T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-01T05:44:31.541Z"
+      "collectedAt": "2026-08-02T04:52:57.570Z"
     },
     {
       "id": "1024e505cec9c42a3f5a",
@@ -3144,7 +3144,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-05T10:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-5-instant-system-card",
-      "collectedAt": "2026-08-01T05:44:29.647Z"
+      "collectedAt": "2026-08-02T04:52:55.304Z"
     },
     {
       "id": "4f978ee5e06888759ed9",
@@ -3161,7 +3161,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-05T10:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-5-instant",
-      "collectedAt": "2026-08-01T05:44:29.647Z"
+      "collectedAt": "2026-08-02T04:52:55.304Z"
     },
     {
       "id": "5bcfc2d19e3e5efdad28",
@@ -3178,7 +3178,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-05T10:00:00.000Z",
       "url": "https://openai.com/index/mrc-supercomputer-networking",
-      "collectedAt": "2026-08-01T05:44:29.648Z"
+      "collectedAt": "2026-08-02T04:52:55.304Z"
     },
     {
       "id": "0df266a722c2ade603a1",
@@ -3195,7 +3195,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-05T00:00:00.000Z",
       "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
-      "collectedAt": "2026-08-01T05:44:29.648Z"
+      "collectedAt": "2026-08-02T04:52:55.305Z"
     },
     {
       "id": "ceecae20d64131dfdc08",
@@ -3212,58 +3212,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-05T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-01T05:44:31.541Z"
-    },
-    {
-      "id": "eefdc3f4592782feb76c",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "How OpenAI delivers low-latency voice AI at scale",
-      "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
-      "content": "Voice AI only feels natural if conversation moves at the speed of speech. When the network gets in the way, people hear it immediately as awkward pauses, clipped interruptions, or delayed barge-in. That matters for ChatGPT voice, for developers building with the Realtime API, for agents working in interactive workflows, and for models that need to process audio while a user is still talking.\n\nAt OpenAI’s scale, that translates into three concrete requirements:\n\n*   Global reach for more than 900 million weekly active users\n*   Fast connection setup so a user can start speaking as soon as a session begins\n*   Low and stable media round-trip time, with low jitter and packet loss, so turn-taking feels crisp\n\nThe team at OpenAI responsible for real-time AI interactions recently rearchitected our WebRTC stack to address three constraints that started to collide at scale: one-port-per-session media termination does not fit OpenAI infrastructure well, stateful ICE (Interactive Connectivity Establishment) and DTLS (Datagram Transport Layer Security) sessions need stable ownership, and global routing has to keep first-hop latency low. In this post, we walk through the split _relay plus transceiver_ architecture we built to preserve standard WebRTC behavior for clients while changing how packets are routed inside OpenAI’s infrastructure.\n\n## WebRTC lets us make real-time AI products\n\nWebRTC is an open standard for sending low-latency audio, video, and data between browsers, mobile apps, and servers. It’s often associated with peer-to-peer calling, but it’s also a practical foundation for client-to-server real-time systems because it standardizes the hard parts of interactive media: ICE for connectivity establishment and NAT (Network Address Translation) traversal, DTLS and SRTP (Secure Real-time Transport Protocol) for encrypted transport, codec negotiation for compressing and decoding audio, RTCP (Real-time Transport Control Protocol) for quality control, and client-side features such as echo cancellation and jitter buffering.\n\nThat standardization matters for AI products. Without WebRTC, every client would need a different answer for how to establish connectivity across NATs, encrypt media, negotiate codecs (the coder-decoders selected for transmission and decompression) and adapt to changing network conditions. With WebRTC, we can build on a protocol stack that’s already implemented across browsers and mobile platforms, focusing our own work on the infrastructure that connects real-time media to models.\n\nWe also build on the WebRTC ecosystem itself, including mature open-source implementations and the standard work that keeps browsers, mobile apps, and servers interoperable. Foundational work by Justin Uberti (one of WebRTC’s original architects) and Sean DuBois (creator and maintainer of Pion) made it possible for teams like ours to build on battle-tested media infrastructure rather than reinvent low-level transport, encryption, and congestion-control behavior. We’re fortunate that both Justin and Sean are now colleagues here at OpenAI, helping guide how we bring WebRTC and real-time AI closer together.\n\nFor AI, the most important property is that audio arrives as a continuous stream. A spoken agent can begin transcribing, reasoning, calling tools, or generating speech while the user is still talking, instead of waiting for a full upload. That’s the difference between a system that feels conversational and one that feels like push-to-talk.\n\nOnce we chose WebRTC, the next question was where to terminate it (where we’d accept and own the WebRTC connection—for example, at the edge) and how to connect those sessions to the inference backend. Termination matters because it determines how we handle real-time session state, media transport, routing, latency, and failure isolation.\n\nAn _SFU_, or selective forwarding unit, is a media server that receives one WebRTC stream from each participant and selectively forwards streams to the others. In this model, the SFU terminates a separate WebRTC connection for every participant, and the AI joins as another participant in the session. That can be a good fit for products that are inherently multiparty, such as group calls, classrooms, or collaborative meetings. It keeps audio codecs, RTCP messages, data channels, recording, and per-stream policy in one place.1\n\nEven in client-to-AI products, an SFU is often the default starting point because it lets teams reuse one proven system for signaling, media routing, recording, observability, and future extensions such as human handoff or adding more participants.\n\nOur workload is different. Most sessions are 1:1—one user talking to one model, or one application talking to one real-time agent—with latency sensitivity on every turn. For that shape of traffic, we chose a _transceiver_ model: a WebRTC edge service terminates the client connection and then converts media and events into simpler internal protocols for model inference, transcription, speech generation, tool use, and orchestration.\n\nIn this design, the transceiver is the only service that owns the WebRTC session state, including ICE connectivity checks, the DTLS handshake, SRTP encryption keys, and session lifecycle. “Termination” here means the transceiver is the endpoint that completes those handshakes and encrypts or decrypts the media. Keeping that state in one place made session ownership easier to reason about, and it let backend services scale like ordinary services instead of acting as WebRTC peers themselves.\n\n## The core deployment problem: WebRTC meets Kubernetes\n\nAfter choosing the transceiver model, our first implementation was a single Go service built on Pion that handled both signaling and media termination. It powers ChatGPT voice, the Realtime API’s WebRTC endpoint, and a number of research projects.\n\nOperationally, the transceiver service does two jobs:\n\n*   Signaling: SDP negotiation, codec selection, ICE credentials, and session setup\n*   Media: Terminating downstream WebRTC connections and maintaining upstream connections to backend services for inference and orchestration\n\nWe wanted the service to run like the rest of our infrastructure: on Kubernetes, where workloads can scale up and down, and move across hosts as demand changes. But the conventional one-port-per-session WebRTC model fits that environment poorly, because it depends on large public UDP port ranges that are difficult to expose, secure, and preserve as pods are added, removed, or rescheduled.2\n\n### Port exhaustion\n\nThe first problem was the one-port-per-session model itself. At high concurrency, that means exposing and managing very large UDP port ranges.\n\n*   Cloud load balancers and Kubernetes services are not designed around tens of thousands of public UDP ports per service. Each additional range adds operational complexity in load balancer config, health checking, firewall policy, and rollout safety.3\n*   Large UDP port ranges are hard to secure because they expand the externally reachable surface area and make network policy harder to audit.\n*   They’re also a poor fit for autoscaling. Pods are constantly added, removed, and rescheduled in Kubernetes. Requiring each pod to reserve and advertise a large stable port range makes that elasticity brittle.4\n\nThis is why many WebRTC systems move toward a single UDP port per server, with application-level demultiplexing behind that port.5\n\n### State stickiness\n\nSingle-port-per-server designs solve port count, but they introduce a second problem: preserving ownership of each session across a fleet.\n\nICE and DTLS are stateful protocols. The process that created a session needs to keep receiving that session’s packets so it can validate connectivity checks, complete the DTLS handshake, decrypt SRTP, and process later session changes such as ICE restarts. If packets for the same session land on a different process, setup can fail or media can break.\n\nThat gave us a specific target: expose a small, fixed UDP surface to the public internet, while still routing every packet to the transceiver that owns the corresponding WebRTC session.\n\nWe evaluated several ways to get there, including TURN (Traversal Using Relays around NAT), where an edge relay terminates client allocations and forwards traffic on their behalf.2\n\n**Approach****Pros****Cons**\nUnique IP:port per session (also known as native direct UDP)Direct client-to-server media path\n\nNo forwarding layer in the data path Requires one public UDP port per session\n\nLarge port ranges are difficult to expose and secure\n\nPoor fit for Kubernetes and cloud load balancers\nUnique IP:port per server Much smaller public UDP footprint than per-session exposure\n\nOne shared socket per server can demultiplex many sessions Works cleanly on a single host, but not across a shared load-balanced fleet by itself\n\nSession demultiplexing on a single host only helps after a packet reaches that host; across a load-balanced fleet, the first packet can still land on the wrong instance, so you still need a deterministic way to steer each session to the process that owns it\nTURN relay (protocol-terminating)Clients only need to reach the TURN relay address and port\n\nCan centralize policy at the edge TURN allocations add setup round trips\n\nMoving or recovering allocations across TURN servers is still difficult\nStateless forwarder + stateful terminator (OpenAI’s relay + transceiver)Small public UDP footprint\n\nTransceiver still owns the full WebRTC session Adds one forwarding hop before media reaches the owning transceiver\n\nRequires custom coordination between relay and transceiver\n\n## Architecture overview: relay + transceiver\n\nThe architecture we shipped splits packet routing from protocol termination. Signaling still reaches the transceiver for session setup, while media enters through the relay first. The relay is a lightweight UDP forwarding layer with a small public footprint, and the transceiver is the stateful WebRTC endpoint behind it.\n\nThe relay does not decrypt media, run ICE state machines, or participate in codec negotiation. It reads enough packet metadata to choose a destination, then forwards the packet to the transceiver that owns the session. The transceiver still sees a normal WebRTC flow and still owns all protocol state. From the client’s perspective, nothing about the WebRTC session changes.\n\n## Routing on ICE credentials\n\nFirst-packet routing is the key step in this setup. A relay has to route the first packet from a client before any session exists on the packet path itself rather than by pausing on an external lookup service.\n\nEvery WebRTC session already carries a protocol-native routing hook: the ICE username fragment, or _ufrag_, a short identifier exchanged during session setup and echoed in STUN connectivity checks. We generate the server-side ufrag so it contains just enough routing metadata for relay to infer the destination cluster and owning transceiver.\n\nDuring signaling, the transceiver allocates session state and returns a shared relay VIP and UDP port in the SDP answer. A VIP is a virtual IP address fronting the relay fleet; combined with the port, it gives the client a single stable destination, such as `203.0.113.10:3478`, even though many relay instances sit behind it. The client’s first media-path packet is usually a STUN (Session Traversal Utilities for NAT) binding request, which ICE uses to verify that packets can reach the advertised address.\n\nRelay parses just enough of that first STUN packet to read the server ufrag, decode the routing hint, and forward the packet to the owning transceiver. Each transceiver listens on a shared UDP socket, meaning one operating system endpoint bound to an internal IP:port, not one socket per session. After the relay creates a session from the client’s source IP:port to that transceiver destination, subsequent DTLS, RTP, and RTCP packets flow within the session without re-decoding the ufrag.\n\nThe relay’s session is purposefully minimal, consisting only of an in-memory session to inform packet forwarding, along with necessary counters for monitoring and timers for session expiration and cleanup. This design choice maintains packet routing directly on the packet path. If a relay restarts and loses the session, the next STUN packet rebuilds the session from the ufrag routing hint. To make it even more reliable, a Redis cache is employed to hold the mapping of _<client IP + Port, transceiver IP + Port>_ once the route is established so that it can be recovered much earlier, before the next STUN packet arrives.\n\n## Global Relay and geo-steered signaling\n\nOnce we reduced the public UDP surface to a small number of stable addresses and ports, we could deploy the same relay pattern globally. Global Relay is our fleet of geographically distributed relay ingress points that all implement the same packet-forwarding behavior.\n\nBroad geographic ingress shortens the first client-to-OpenAI hop because a packet can enter our network at a relay close to the user, in both geography and network topology, instead of crossing the public internet to a distant region first. In practical terms, that means lower latency, less jitter, and fewer avoidable loss bursts before traffic reaches our backbone.6\n\nWe use Cloudflare geo and proximity steering for signaling so the initial HTTP or WebSocket request reaches a nearby transceiver cluster. The request context dictates the session’s location and which Global Relay ingress point is advertised to the client. The SDP answer provides the Global Relay address, while the ufrag contains sufficient information for Global Relay to route media to the designated cluster and relay to route to the destination transceiver.\n\nTogether, geo-steered signaling and Global Relay put both setup and media on a nearby entry path while keeping the session anchored to one transceiver. That reduces the round-trip time for signaling and for the first ICE connectivity check, which directly shortens how long a user waits before speech can start.\n\n## Relay implementation and performance\n\nWe wrote the relay service in Go and kept the implementation narrow on purpose. On Linux, the kernel’s networking stack receives UDP packets from the machine’s network interface and delivers them to a socket, the operating system endpoint that a process reads after binding an IP:Port. Relay runs in userspace, so a regular Go process reads packet headers from that socket, updates a small amount of flow state, and forwards packets without terminating WebRTC. We did not need any kernel-bypass framework, which would let a userspace process poll network queues directly for higher packet rates but also add operational complexity.\n\nKey design choices:\n\n*   **No protocol termination:** Relay parses only STUN headers/ufrag; it uses cached state for subsequent DTLS, RTP, and RTCP, keeping packets opaque.\n*   **Ephemeral state:** It maintains a small, short-timeout, in-memory map of client address to transceiver destination for flow state and observability.\n*   **Horizontal scalability:** Multiple relay instances run in parallel behind a load balancer. State is not hard WebRTC state, so restarts cause minimal traffic drops and quick flow recovery.\n\nEfficiency measures:\n\n*   `SO_REUSEPORT` is a Linux socket option that allows multiple relay workers on the same machine to bind the same UDP port. The kernel then distributes incoming packets across those workers, which avoids a single read-loop bottleneck.\n*   `runtime.LockOSThread` pins each UDP-reading goroutine to a specific OS thread. Combined with `SO_REUSEPORT`, that tends to keep packets from the same flow (the source and destination IP:Port plus protocol) on the same CPU core, improving cache locality and reducing context switching.\n*   Pre-allocated buffers and minimal copying keep parsing and allocation overhead low to avoid garbage collection in Go.\n\nThis implementation handled our global real-time media traffic with a relatively small relay footprint, so we kept the simpler design instead of taking on a kernel bypass route.\n\n## Results and learnings\n\nThis architecture lets us run WebRTC media in Kubernetes without exposing thousands of UDP ports. That matters because a smaller and fixed UDP surface is easier to secure and load balance, and it lets the infrastructure scale without reserving large public port ranges. With better infra support from Kubernetes and more security due to smaller surface area, this design also preserves standard WebRTC behavior for clients and confirms that an SFU-less design was the right default for our workload. Most of our sessions are point-to-point, latency-sensitive, and easier to scale when inference services don’t need to behave like WebRTC peers.\n\nThe broader lesson is that the best place to add complexity is in a thin routing layer, not in every backend service, and not in custom client behavior. Encoding routing metadata into a protocol-native field gave us deterministic first-packet routing, a small public UDP footprint, and enough flexibility to place ingress close to users around the world.\n\nA few choices were especially important:\n\n*   Preserve protocol semantics at the edge. Clients still speak standard WebRTC, which keeps browser and mobile interoperability intact.\n*   Keep hard session states in one place. Transceiver owns ICE, DTLS, SRTP, and session lifecycle; relay only forwards packets.\n*   Route on information already present in setup. The ICE ufrag gave us a first-packet routing hook without adding a hot-path lookup dependency.\n*   Optimize for the common case before reaching for kernel bypass. A narrow Go implementation with careful use of `SO_REUSEPORT`, thread pinning, and low-allocation parsing was enough for our workload.\n\nReal-time voice AI only works when infrastructure makes latency feel invisible. For us, that meant changing the shape of our WebRTC deployment without changing what clients expect from WebRTC itself.",
-      "contentZh": "语音AI只有在对话以语音速度进行时才会感觉自然。当网络出现干扰时，人们会立刻察觉到尴尬的停顿、被截断的插话或延迟的打断。这对ChatGPT语音、使用Realtime API进行开发的开发者、在交互式工作流中运行的智能体，以及需要在用户说话时处理音频的模型来说都至关重要。\n\n在OpenAI的规模下，这转化为三个具体需求：\n\n*   全球覆盖，服务超过9亿周活跃用户\n*   快速连接建立，使用户能在会话开始时立即开始说话\n*   低且稳定的媒体往返时间，低抖动和低丢包率，使轮流发言感觉干脆利落\n\n负责实时AI交互的OpenAI团队最近重新设计了我们的WebRTC架构，以解决在规模化时开始相互冲突的三个限制：每会话单端口的媒体终止方式不适合OpenAI的基础设施，有状态的ICE（交互式连接建立）和DTLS（数据报传输层安全）会话需要稳定的所有权，而全球路由必须保持第一跳的低延迟。在这篇文章中，我们将详细介绍我们构建的分体式**中继加收发器**架构，该架构在改变数据包在OpenAI基础设施内部路由方式的同时，为客户保留了标准的WebRTC行为。\n\n## WebRTC让我们能够打造实时AI产品\n\nWebRTC是一个开放标准，用于在浏览器、移动应用和服务器之间发送低延迟的音频、视频和数据。它通常与点对点通话相关联，但它也是客户端到服务器实时系统的实用基础，因为它标准化了交互式媒体的难点部分：用于连接建立和NAT（网络地址转换）穿越的ICE、用于加密传输的DTLS和SRTP（安全实时传输协议）、用于压缩和解码音频的编解码器协商、用于质量控制的RTCP（实时传输控制协议），以及回声消除和抖动缓冲等客户端功能。\n\n这种标准化对AI产品至关重要。没有WebRTC，每个客户端都需要针对如何跨NAT建立连接、加密媒体、协商编解码器（为传输和解压缩而选择的编码器-解码器）以及适应变化的网络条件给出不同的答案。有了WebRTC，我们可以构建在浏览器和移动平台上已经实现的协议栈之上，将我们自己的工作重点放在将实时媒体连接到模型的基础设施上。\n\n我们还构建在WebRTC生态系统本身之上，包括成熟的开放源代码实现以及确保浏览器、移动应用和服务器互操作的标准工作。Justin Uberti（WebRTC的原始架构师之一）和Sean DuBois（Pion的创建者和维护者）的基础性工作，使得像我们这样的团队能够构建在久经考验的媒体基础设施之上，而不是重新发明底层的传输、加密和拥塞控制行为。我们很幸运，Justin和Sean现在都是OpenAI的同事，帮助我们指导如何将WebRTC和实时AI更紧密地结合在一起。\n\n对于AI来说，最重要的特性是音频作为连续流到达。一个语音智能体可以在用户还在说话时就开始转录、推理、调用工具或生成语音，而不是等待完整的上传。这就是一个感觉像对话的系统与一个感觉像按键通话的系统之间的区别。\n\n一旦我们选择了WebRTC，下一个问题就是在哪里终止它（我们在哪里接受并拥有WebRTC连接——例如，在边缘），以及如何将这些会话连接到推理后端。终止很重要，因为它决定了我们如何处理实时会话状态、媒体传输、路由、延迟和故障隔离。\n\n**SFU**，即选择性转发单元，是一种媒体服务器，它从每个参与者接收一个WebRTC流，并选择性地将流转发给其他参与者。在这种模型中，SFU为每个参与者终止一个单独的WebRTC连接，而AI作为会话中的另一个参与者加入。这对于本质上是多方参与的产品（如群组通话、教室或协作会议）来说可能是一个很好的选择。它将音频编解码器、RTCP消息、数据通道、录制和每流策略集中在一个地方。¹\n\n即使在客户端到AI的产品中，SFU也常常是默认的起点，因为它允许团队重复使用一个经过验证的系统来处理信令、媒体路由、录制、可观测性以及未来的扩展，例如人工交接或添加更多参与者。\n\n我们的工作负载不同。大多数会话是1:1的——一个用户与一个模型对话，或一个应用程序与一个实时智能体对话——每次轮流对话都对延迟敏感。对于这种流量模式，我们选择了**收发器**模型：一个WebRTC边缘服务终止客户端连接，然后将媒体和事件转换为更简单的内部协议，用于模型推理、转录、语音生成、工具使用和编排。\n\n在这种设计中，收发器是唯一拥有WebRTC会话状态的服务，包括ICE连接性检查、DTLS握手、SRTP加密密钥和会话生命周期。这里的“终止”意味着收发器是完成这些握手并加密或解密媒体的端点。将状态保持在一个地方使得会话所有权更容易推理，并允许后端服务像普通服务一样扩展，而不是自身充当WebRTC对等体。\n\n## 核心部署问题：WebRTC遇上Kubernetes\n\n在选择了收发器模型后，我们的第一个实现是一个基于Pion构建的单一Go服务，它同时处理信令和媒体终止。它为ChatGPT语音、Realtime API的WebRTC端点以及许多研究项目提供支持。\n\n在操作上，收发器服务执行两项工作：\n\n*   信令：SDP协商、编解码器选择、ICE凭证和会话设置\n*   媒体：终止下游WebRTC连接并维护到后端服务的上游连接，用于推理和编排\n\n我们希望该服务像我们基础设施的其他部分一样运行：在Kubernetes上，工作负载可以上下扩展，并根据需求变化在主机之间移动。但是，传统的每会话单端口WebRTC模型很难适应这种环境，因为它依赖于大型公共UDP端口范围，而这些端口范围在Pod被添加、移除或重新调度时难以暴露、保护和保留。²\n\n### 端口耗尽\n\n第一个问题就是每会话单端口模型本身。在高并发下，这意味着需要暴露和管理非常大的UDP端口范围。\n\n*   云负载均衡器和 Kubernetes 服务并非围绕每个服务数万个公共 UDP 端口而设计。每个额外端口范围都会增加负载均衡器配置、健康检查、防火墙策略和发布安全方面的运维复杂性。3\n*   大型 UDP 端口范围难以保障安全，因为它们扩大了外部可达的攻击面，并使网络策略更难以审计。\n*   它们也不适合自动扩缩容。在 Kubernetes 中，Pod 会不断被添加、移除和重新调度。要求每个 Pod 预留并通告一个大的稳定端口范围会使这种弹性变得脆弱。4\n\n这就是为什么许多 WebRTC 系统转向每个服务器使用单个 UDP 端口，并在该端口之后进行应用层多路复用。5\n\n### 状态粘性\n\n每服务器单端口的设计解决了端口数量问题，但引入了第二个问题：在整个集群中保持每个会话的所有权。\n\nICE 和 DTLS 是有状态协议。创建会话的进程需要持续接收该会话的数据包，以便验证连通性检查、完成 DTLS 握手、解密 SRTP 以及处理后续的会话变更（如 ICE 重启）。如果同一会话的数据包落在不同的进程上，设置可能会失败，或者媒体流可能会中断。\n\n这给了我们一个具体目标：向公共互联网暴露一个小的、固定的 UDP 表面，同时将每个数据包路由到拥有相应 WebRTC 会话的收发器。\n\n我们评估了几种实现方法，包括 TURN（使用中继绕过 NAT 的遍历），其中边缘中继终止客户端分配并代表其转发流量。2\n\n**方法** | **优点** | **缺点**\n--- | --- | ---\n每会话唯一 IP:端口（也称为原生直接 UDP） | 客户端到服务器的直接媒体路径<br>数据路径中无转发层 | 每个会话需要一个公共 UDP 端口<br>大的端口范围难以暴露和保障安全<br>不适合 Kubernetes 和云负载均衡器\n每服务器唯一 IP:端口 | 公共 UDP 占用比每会话暴露小得多<br>每个服务器一个共享套接字可多路复用多个会话 | 在单台主机上工作良好，但本身无法跨共享负载均衡集群工作<br>单台主机上的会话多路复用仅在数据包到达该主机后才有帮助；在负载均衡集群中，第一个数据包仍可能落在错误的实例上，因此你仍然需要一种确定性的方法将每个会话引导到拥有它的进程\nTURN 中继（协议终止） | 客户端只需到达 TURN 中继地址和端口<br>可以在边缘集中管理策略 | TURN 分配增加了设置往返时间<br>跨 TURN 服务器移动或恢复分配仍然困难\n无状态转发器 + 有状态终止器（OpenAI 的中继 + 收发器） | 公共 UDP 占用小<br>收发器仍拥有完整的 WebRTC 会话 | 在媒体到达拥有它的收发器之前增加了一跳转发<br>需要中继和收发器之间的自定义协调\n\n## 架构概览：中继 + 收发器\n\n我们发布的架构将数据包路由与协议终止分离开来。信令仍然到达收发器进行会话设置，而媒体则首先通过中继进入。中继是一个轻量级的 UDP 转发层，具有较小的公共占用空间，而收发器是其后面的有状态 WebRTC 端点。\n\n中继不解密媒体、不运行 ICE 状态机，也不参与编解码器协商。它读取足够的数据包元数据以选择目的地，然后将数据包转发给拥有该会话的收发器。收发器仍然看到正常的 WebRTC 流，并且仍然拥有所有协议状态。从客户端的角度来看，WebRTC 会话没有任何变化。\n\n## 基于 ICE 凭据的路由\n\n首包路由是此设置中的关键步骤。中继必须在数据包路径上存在任何会话之前，将来自客户端的第一个数据包路由出去，而不是通过暂停在外部查找服务上来实现。\n\n每个 WebRTC 会话已经携带了一个协议原生的路由钩子：ICE 用户名片段（_ufrag_），这是在会话设置期间交换并在 STUN 连通性检查中回显的短标识符。我们生成服务器端的 ufrag，使其包含足够的路由元数据，以便中继推断出目标集群和拥有它的收发器。\n\n在信令过程中，收发器分配会话状态，并在 SDP 应答中返回一个共享的中继 VIP 和 UDP 端口。VIP 是中继集群前面的虚拟 IP 地址；与端口结合，它为客户端提供了一个单一的稳定目的地，例如 `203.0.113.10:3478`，即使后面有许多中继实例。客户端的第一个媒体路径数据包通常是 STUN（NAT 的会话遍历工具）绑定请求，ICE 使用它来验证数据包能否到达通告的地址。\n\n中继解析第一个 STUN 数据包中足够的信息，以读取服务器 ufrag，解码路由提示，并将数据包转发给拥有它的收发器。每个收发器监听一个共享的 UDP 套接字，这意味着一个绑定到内部 IP:端口 的操作系统端点，而不是每个会话一个套接字。在中继从客户端的源 IP:端口 到该收发器目的地创建一个会话后，后续的 DTLS、RTP 和 RTCP 数据包将在该会话内流动，而无需重新解码 ufrag。\n\n中继的会话被有意设计得最小化，仅包含一个内存中的会话用于指导数据包转发，以及必要的计数器用于监控和定时器用于会话过期和清理。这种设计选择使得数据包路由直接位于数据包路径上。如果中继重启并丢失了会话，下一个 STUN 数据包将根据 ufrag 路由提示重建会话。为了使其更加可靠，一旦路由建立，就会使用 Redis 缓存来保存 `<客户端 IP + 端口, 收发器 IP + 端口>` 的映射，以便在下一个 STUN 数据包到达之前更早地恢复它。\n\n## 全球中继和地理导向的信令\n\n一旦我们将公共 UDP 表面减少到少量稳定的地址和端口，我们就可以在全球范围内部署相同的中继模式。全球中继是我们地理分布的中继入口点集群，所有这些入口点都实现相同的数据包转发行为。\n\n广泛的地理入口缩短了客户端到 OpenAI 的第一跳，因为数据包可以在地理和网络拓扑上都靠近用户的中继处进入我们的网络，而不是首先穿越公共互联网到达遥远的区域。实际上，这意味着在流量到达我们的骨干网之前，延迟更低、抖动更少，以及更少的可避免的突发丢包。6\n\n我们使用 Cloudflare 的地理位置和邻近性转向功能进行信令传输，使初始 HTTP 或 WebSocket 请求能够到达附近的收发器集群。请求上下文决定了会话的位置以及向客户端通告的 Global Relay 入口点。SDP 应答提供了 Global Relay 地址，而 ufrag 则包含足够的信息，使 Global Relay 能够将媒体路由到指定集群，并将中继路由到目标收发器。\n\n结合地理转向信令和 Global Relay，设置和媒体都通过就近的入口路径传输，同时将会话锚定在一个收发器上。这减少了信令和首次 ICE 连接检查的往返时间，从而直接缩短了用户在语音开始前的等待时间。\n\n## 中继实现与性能\n\n我们用 Go 编写了中继服务，并有意识地保持了实现的精简。在 Linux 上，内核网络栈从机器网络接口接收 UDP 数据包，并将其传递到套接字——即进程在绑定 IP:Port 后读取的操作系统端点。中继运行在用户空间，因此一个普通的 Go 进程从该套接字读取数据包头，更新少量流状态，并转发数据包，而不终止 WebRTC。我们不需要任何内核旁路框架，这种框架虽然允许用户空间进程直接轮询网络队列以获得更高的数据包速率，但也会增加操作复杂性。\n\n关键设计选择：\n\n*   **无协议终止：** 中继仅解析 STUN 头部/ufrag；它使用缓存状态处理后续的 DTLS、RTP 和 RTCP，保持数据包的不透明性。\n*   **临时状态：** 它维护一个小的、短超时的内存映射，将客户端地址映射到收发器目的地，用于流状态和可观测性。\n*   **水平可扩展性：** 多个中继实例在负载均衡器后并行运行。状态并非硬性 WebRTC 状态，因此重启会导致最小的流量中断和快速的流恢复。\n\n效率措施：\n\n*   `SO_REUSEPORT` 是一个 Linux 套接字选项，允许同一台机器上的多个中继工作进程绑定同一个 UDP 端口。内核随后将传入的数据包分发到这些工作进程，从而避免了单个读取循环的瓶颈。\n*   `runtime.LockOSThread` 将每个 UDP 读取的 goroutine 固定到特定的操作系统线程。结合 `SO_REUSEPORT`，这倾向于将同一流（源和目标 IP:Port 加协议）的数据包保持在同一个 CPU 核心上，提高了缓存局部性并减少了上下文切换。\n*   预分配缓冲区和最小化复制降低了解析和分配开销，避免了 Go 中的垃圾回收。\n\n这种实现以相对较小的中继占用处理了我们的全球实时媒体流量，因此我们保留了更简单的设计，而不是采用内核旁路方案。\n\n## 结果与经验\n\n这种架构使我们能够在 Kubernetes 中运行 WebRTC 媒体，而无需暴露数千个 UDP 端口。这很重要，因为更小且固定的 UDP 表面更容易保障安全和进行负载均衡，并且允许基础设施在不预留大量公共端口范围的情况下进行扩展。借助 Kubernetes 更好的基础设施支持以及由于更小的表面积带来的更高安全性，这种设计还保留了客户端标准的 WebRTC 行为，并确认了无 SFU 的设计是我们工作负载的正确默认选择。我们的大多数会话是点对点的、对延迟敏感的，并且在推理服务不需要像 WebRTC 对等体那样运行时更容易扩展。\n\n更广泛的教训是，增加复杂性的最佳位置是在一个薄的路由层中，而不是在每个后端服务中，也不是在自定义客户端行为中。将路由元数据编码到协议原生字段中，为我们提供了确定性的首包路由、较小的公共 UDP 表面积以及足够的灵活性，使入口点能够靠近全球各地的用户。\n\n几个选择尤为重要：\n\n*   在边缘保留协议语义。客户端仍然使用标准 WebRTC，从而保持了浏览器和移动设备的互操作性。\n*   将硬性会话状态集中在一个地方。收发器拥有 ICE、DTLS、SRTP 和会话生命周期；中继仅转发数据包。\n*   基于设置中已有的信息进行路由。ICE ufrag 为我们提供了一个首包路由钩子，而无需添加热路径查找依赖。\n*   在考虑内核旁路之前，先针对常见情况进行优化。一个精简的 Go 实现，结合谨慎使用 `SO_REUSEPORT`、线程固定和低分配解析，足以应对我们的工作负载。\n\n实时语音 AI 只有在基础设施使延迟变得不可察觉时才能发挥作用。对我们来说，这意味着改变 WebRTC 部署的形态，而不改变客户端对 WebRTC 本身的期望。",
-      "titleZh": "OpenAI如何大规模提供低延迟语音AI",
-      "summaryZh": "OpenAI如何重建其WebRTC堆栈，以低延迟、全球规模和流畅的对话轮换支持实时语音AI。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-05-04T00:00:00.000Z",
-      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
-      "collectedAt": "2026-08-01T05:44:29.649Z"
-    },
-    {
-      "id": "9ee6d18f2180d3a965b0",
-      "sourceId": "claude-platform",
-      "company": "Anthropic",
-      "product": "Claude",
-      "kind": "api",
-      "title": "Workload Identity Federation is now generally available.",
-      "summary": "Workload Identity Federation is now generally available. Authenticate workloads to the Claude API with short-lived OIDC tokens from your own identity provider (AWS IAM, Google Cloud, GitHub Actions, Kubernetes, Microsoft Entra ID, Okta, SPIFFE, and more) instead of long-lived static API keys. Configure issuers and federation rules in the Claude Console, and the SDK handles token exchange and refresh automatically. See Authentication.",
-      "content": "Workload Identity Federation is now generally available. Authenticate workloads to the Claude API with short-lived OIDC tokens from your own identity provider (AWS IAM, Google Cloud, GitHub Actions, Kubernetes, Microsoft Entra ID, Okta, SPIFFE, and more) instead of long-lived static API keys. Configure issuers and federation rules in the Claude Console, and the SDK handles token exchange and refresh automatically. See Authentication.",
-      "contentZh": "工作负载身份联合现已正式发布。您可以使用来自自有身份提供商（AWS IAM、Google Cloud、GitHub Actions、Kubernetes、Microsoft Entra ID、Okta、SPIFFE 等）的短期 OIDC 令牌，对 Claude API 进行工作负载身份验证，而无需使用长期有效的静态 API 密钥。在 Claude 控制台中配置颁发者和联合规则，SDK 将自动处理令牌交换与刷新。详见身份验证。",
-      "titleZh": "工作负载身份联合现已正式可用。",
-      "summaryZh": "工作负载身份联合现已正式可用。使用来自您自己的身份提供商（AWS IAM、Google Cloud、GitHub Actions、Kubernetes、Microsoft Entra ID、Okta、SPIFFE 等）的短期 OIDC 令牌对工作负载进行 Claude API 身份验证，而不是使用长期有效的静态 API 密钥。在 Claude 控制台中配置颁发者和联合规则，SDK 会自动处理令牌交换和刷新。请参阅身份验证。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-05-04T00:00:00.000Z",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-01T05:44:30.821Z"
-    },
-    {
-      "id": "b5ec3dfb0968eea42fd0",
-      "sourceId": "gemini-api",
-      "company": "Google",
-      "product": "Gemini",
-      "kind": "api",
-      "title": "Launched event-driven Webhooks support in the Gemini API to replace polling workflows for the Batch API and long-running operations.",
-      "summary": "Launched event-driven Webhooks support in the Gemini API to replace polling workflows for the Batch API and long-running operations.",
-      "content": "Launched event-driven Webhooks support in the Gemini API to replace polling workflows for the Batch API and long-running operations.",
-      "contentZh": "在 Gemini API 中推出了事件驱动的 Webhooks 支持，以替代 Batch API 和长时间运行操作的轮询工作流。",
-      "titleZh": "在Gemini API中推出事件驱动的Webhooks支持，以替代批处理API和长时间运行操作的轮询工作流。",
-      "summaryZh": "在Gemini API中推出事件驱动的Webhooks支持，以替代批处理API和长时间运行操作的轮询工作流。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-05-04T00:00:00.000Z",
-      "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-01T05:44:31.542Z"
+      "collectedAt": "2026-08-02T04:52:57.570Z"
     },
     {
       "id": "118693cb868e1641c9c1",
@@ -3280,7 +3229,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-04-24T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-01T05:44:34.686Z"
+      "collectedAt": "2026-08-02T04:53:00.902Z"
     },
     {
       "id": "aeb9a0b6e961ddd9394e",
@@ -3297,7 +3246,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-12-01T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-01T05:44:34.687Z"
+      "collectedAt": "2026-08-02T04:53:00.902Z"
     },
     {
       "id": "f43c8f46501ee2e8d8ed",
@@ -3314,7 +3263,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-09-29T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-01T05:44:34.687Z"
+      "collectedAt": "2026-08-02T04:53:00.903Z"
     },
     {
       "id": "de42c19b7c54bb0dc7ec",
@@ -3331,7 +3280,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-09-22T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-01T05:44:34.687Z"
+      "collectedAt": "2026-08-02T04:53:00.903Z"
     },
     {
       "id": "76cf3c1ca30cb079d970",
@@ -3348,7 +3297,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-08-21T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-01T05:44:34.688Z"
+      "collectedAt": "2026-08-02T04:53:00.903Z"
     }
   ]
 }
