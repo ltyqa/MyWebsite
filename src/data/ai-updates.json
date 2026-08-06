@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-05T05:35:38.545Z",
+  "updatedAt": "2026-08-06T05:37:20.445Z",
   "sources": [
     {
       "id": "openai-news",
@@ -18,7 +18,7 @@
       "id": "claude-platform",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
       "status": "ok",
-      "count": 125
+      "count": 126
     },
     {
       "id": "gemini-apps",
@@ -53,6 +53,23 @@
   ],
   "entries": [
     {
+      "id": "cbf5ffda58d43478b306",
+      "sourceId": "claude-platform",
+      "company": "Anthropic",
+      "product": "Claude",
+      "kind": "api",
+      "title": "Inference hooks are now in beta for Claude Enterprise organizations.",
+      "summary": "Inference hooks are now in beta for Claude Enterprise organizations. Point Claude at your organization's AI security server, and each governed prompt across claude.ai, Cowork, and Claude Code is held for the server's allow or deny verdict before inference proceeds. Requests are signed, failure handling is configurable, and every denial is recorded in the compliance Activity Feed. See Inference hooks. We've retired the Claude Opus 4.1 model (claude-opus-4-1-20250805). All requests to this model will now return an error. We recommend upgrading to Claude Opus 5. Researchers can request ongoing access through the External Researcher Access Program.",
+      "content": "Inference hooks are now in beta for Claude Enterprise organizations. Point Claude at your organization's AI security server, and each governed prompt across claude.ai, Cowork, and Claude Code is held for the server's allow or deny verdict before inference proceeds. Requests are signed, failure handling is configurable, and every denial is recorded in the compliance Activity Feed. See Inference hooks. We've retired the Claude Opus 4.1 model (claude-opus-4-1-20250805). All requests to this model will now return an error. We recommend upgrading to Claude Opus 5. Researchers can request ongoing access through the External Researcher Access Program.",
+      "contentZh": "推理钩子现已面向Claude Enterprise组织进入测试阶段。将Claude指向您组织的AI安全服务器，在推理进行之前，claude.ai、Cowork和Claude Code中的每个受治理提示都会被暂存，等待服务器的允许或拒绝裁决。请求经过签名，故障处理可配置，每次拒绝都会记录在合规性活动源中。请参阅推理钩子。我们已停用Claude Opus 4.1模型（claude-opus-4-1-20250805）。对该模型的所有请求现在将返回错误。我们建议升级到Claude Opus 5。研究人员可通过外部研究人员访问计划申请持续访问权限。",
+      "titleZh": "推理钩子现已面向Claude Enterprise组织推出测试版。",
+      "summaryZh": "推理钩子现已面向Claude Enterprise组织推出测试版。将Claude指向您组织的AI安全服务器，claude.ai、Cowork和Claude Code上的每个受治理提示都会在推理进行前被服务器拦截，以做出允许或拒绝的裁决。请求经过签名，故障处理可配置，每次拒绝都会记录在合规性活动源中。请参阅推理钩子。我们已退役Claude Opus 4.1模型（claude-opus-4-1-20250805）。对该模型的所有请求现在都将返回错误。我们建议升级到Claude Opus 5。研究人员可通过外部研究人员访问计划申请持续访问权限。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-08-05T00:00:00.000Z",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "collectedAt": "2026-08-06T05:37:10.602Z"
+    },
+    {
       "id": "374a02a97939919169d2",
       "sourceId": "openai-news",
       "company": "OpenAI",
@@ -67,7 +84,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T19:00:00.000Z",
       "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "collectedAt": "2026-08-05T05:34:49.498Z"
+      "collectedAt": "2026-08-06T05:37:09.270Z"
     },
     {
       "id": "3feab47dffd4ec330ae5",
@@ -84,7 +101,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-      "collectedAt": "2026-08-05T05:34:49.500Z"
+      "collectedAt": "2026-08-06T05:37:09.271Z"
     },
     {
       "id": "c8f43754fdafecb85e1d",
@@ -101,7 +118,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T07:00:00.000Z",
       "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "collectedAt": "2026-08-05T05:34:49.502Z"
+      "collectedAt": "2026-08-06T05:37:09.273Z"
     },
     {
       "id": "6559d98a7d1bca755c17",
@@ -118,7 +135,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "url": "https://openai.com/index/circles",
-      "collectedAt": "2026-08-05T05:34:49.502Z"
+      "collectedAt": "2026-08-06T05:37:09.273Z"
     },
     {
       "id": "52e0cd114c7d854c3e96",
@@ -135,7 +152,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.631Z"
+      "collectedAt": "2026-08-06T05:37:10.602Z"
     },
     {
       "id": "b9d4476050e5d75f1b97",
@@ -152,7 +169,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T07:00:00.000Z",
       "url": "https://openai.com/index/unive",
-      "collectedAt": "2026-08-05T05:34:49.504Z"
+      "collectedAt": "2026-08-06T05:37:09.275Z"
     },
     {
       "id": "45bbaccf8d941517f323",
@@ -169,7 +186,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "collectedAt": "2026-08-05T05:34:49.504Z"
+      "collectedAt": "2026-08-06T05:37:09.275Z"
     },
     {
       "id": "af15e83e5c304730063b",
@@ -186,7 +203,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-05T05:34:53.580Z"
+      "collectedAt": "2026-08-06T05:37:15.591Z"
     },
     {
       "id": "b1fe0fa429937e85b2ef",
@@ -203,7 +220,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T15:00:59.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "collectedAt": "2026-08-05T05:34:52.071Z"
+      "collectedAt": "2026-08-06T05:37:11.708Z"
     },
     {
       "id": "56f1d8a8c0f3af9fdd08",
@@ -220,7 +237,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T10:00:00.000Z",
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "collectedAt": "2026-08-05T05:34:49.506Z"
+      "collectedAt": "2026-08-06T05:37:09.276Z"
     },
     {
       "id": "cfbf6b8394b6edd2d1cc",
@@ -237,7 +254,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://openai.com/index/avatarin",
-      "collectedAt": "2026-08-05T05:34:49.507Z"
+      "collectedAt": "2026-08-06T05:37:09.278Z"
     },
     {
       "id": "13c5281530ee4a6f4537",
@@ -254,7 +271,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-05T05:34:51.742Z"
+      "collectedAt": "2026-08-06T05:37:11.297Z"
     },
     {
       "id": "8aaceda53f7fc93dbf60",
@@ -271,7 +288,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T15:00:00.000Z",
       "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-      "collectedAt": "2026-08-05T05:34:49.508Z"
+      "collectedAt": "2026-08-06T05:37:09.278Z"
     },
     {
       "id": "002458279ec72570fffb",
@@ -288,7 +305,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "collectedAt": "2026-08-05T05:34:49.509Z"
+      "collectedAt": "2026-08-06T05:37:09.279Z"
     },
     {
       "id": "4c8b6c772be707078bbd",
@@ -305,7 +322,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "collectedAt": "2026-08-05T05:34:49.510Z"
+      "collectedAt": "2026-08-06T05:37:09.280Z"
     },
     {
       "id": "ca98ace8cf1a2a8d7872",
@@ -322,7 +339,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-08-05T05:34:50.896Z"
+      "collectedAt": "2026-08-06T05:37:10.936Z"
     },
     {
       "id": "bf370c7e47952f2da5c5",
@@ -339,7 +356,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-28T16:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "collectedAt": "2026-08-05T05:34:52.337Z"
+      "collectedAt": "2026-08-06T05:37:11.927Z"
     },
     {
       "id": "57b8f529f115263ec820",
@@ -356,7 +373,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-28T13:21:37.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-      "collectedAt": "2026-08-05T05:34:52.072Z"
+      "collectedAt": "2026-08-06T05:37:11.708Z"
     },
     {
       "id": "bc5ed3298105125d299c",
@@ -373,7 +390,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-27T03:30:00.000Z",
       "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "collectedAt": "2026-08-05T05:34:49.511Z"
+      "collectedAt": "2026-08-06T05:37:09.281Z"
     },
     {
       "id": "cb2584c1c5ba09bcd3a3",
@@ -390,7 +407,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-05T05:34:50.056Z"
+      "collectedAt": "2026-08-06T05:37:09.849Z"
     },
     {
       "id": "b363cad12be0dd76a830",
@@ -407,7 +424,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.632Z"
+      "collectedAt": "2026-08-06T05:37:10.603Z"
     },
     {
       "id": "c7991759e1e4a5d32f85",
@@ -424,7 +441,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-23T00:00:00.000Z",
       "url": "https://openai.com/index/health-in-chatgpt",
-      "collectedAt": "2026-08-05T05:34:49.512Z"
+      "collectedAt": "2026-08-06T05:37:09.281Z"
     },
     {
       "id": "6ccf2d78b5e86593806b",
@@ -441,7 +458,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T13:00:00.000Z",
       "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "collectedAt": "2026-08-05T05:34:49.512Z"
+      "collectedAt": "2026-08-06T05:37:09.282Z"
     },
     {
       "id": "658d60926ab2360afa2e",
@@ -458,7 +475,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T05:30:00.000Z",
       "url": "https://openai.com/index/introducing-openai-presence",
-      "collectedAt": "2026-08-05T05:34:49.513Z"
+      "collectedAt": "2026-08-06T05:37:09.282Z"
     },
     {
       "id": "c7e36c4d5f5533523bd4",
@@ -475,7 +492,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://openai.com/index/ntt-data",
-      "collectedAt": "2026-08-05T05:34:49.514Z"
+      "collectedAt": "2026-08-06T05:37:09.283Z"
     },
     {
       "id": "a300ec7a4d7064f7179d",
@@ -492,7 +509,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.632Z"
+      "collectedAt": "2026-08-06T05:37:10.604Z"
     },
     {
       "id": "afa41d5e8e9237f5cad2",
@@ -509,7 +526,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "collectedAt": "2026-08-05T05:34:49.514Z"
+      "collectedAt": "2026-08-06T05:37:09.283Z"
     },
     {
       "id": "176c2b61d3ba4a32ae38",
@@ -526,7 +543,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T15:16:30.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
-      "collectedAt": "2026-08-05T05:34:52.072Z"
+      "collectedAt": "2026-08-06T05:37:11.708Z"
     },
     {
       "id": "8b4028e43de92d3eef53",
@@ -543,7 +560,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T07:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "collectedAt": "2026-08-05T05:34:49.515Z"
+      "collectedAt": "2026-08-06T05:37:09.283Z"
     },
     {
       "id": "9e20c4d4744505bf3590",
@@ -560,7 +577,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-08-05T05:34:50.896Z"
+      "collectedAt": "2026-08-06T05:37:10.941Z"
     },
     {
       "id": "7ac3cf4e7948165dd06b",
@@ -577,7 +594,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-05T05:34:51.743Z"
+      "collectedAt": "2026-08-06T05:37:11.298Z"
     },
     {
       "id": "5237ec62c64502e0362e",
@@ -594,7 +611,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-20T10:00:00.000Z",
       "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "collectedAt": "2026-08-05T05:34:49.515Z"
+      "collectedAt": "2026-08-06T05:37:09.284Z"
     },
     {
       "id": "6fa040e6804071ffc67f",
@@ -611,7 +628,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-17T15:00:11.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
-      "collectedAt": "2026-08-05T05:34:52.072Z"
+      "collectedAt": "2026-08-06T05:37:11.709Z"
     },
     {
       "id": "453be2383653038965c7",
@@ -628,7 +645,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-17T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.633Z"
+      "collectedAt": "2026-08-06T05:37:10.604Z"
     },
     {
       "id": "37604a6bafa43b2cef23",
@@ -645,7 +662,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-      "collectedAt": "2026-08-05T05:34:49.516Z"
+      "collectedAt": "2026-08-06T05:37:09.284Z"
     },
     {
       "id": "ad99c0d7682ecec8de3d",
@@ -662,7 +679,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-      "collectedAt": "2026-08-05T05:34:52.337Z"
+      "collectedAt": "2026-08-06T05:37:11.928Z"
     },
     {
       "id": "58b103e4e418272fdf21",
@@ -679,7 +696,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T07:00:00.000Z",
       "url": "https://openai.com/index/codex-collaborator-creative-team",
-      "collectedAt": "2026-08-05T05:34:49.516Z"
+      "collectedAt": "2026-08-06T05:37:09.285Z"
     },
     {
       "id": "3e27101964501d6d280e",
@@ -696,7 +713,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-15T10:00:00.000Z",
       "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "collectedAt": "2026-08-05T05:34:49.517Z"
+      "collectedAt": "2026-08-06T05:37:09.285Z"
     },
     {
       "id": "064bc65fa5f9349bb063",
@@ -713,7 +730,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.633Z"
+      "collectedAt": "2026-08-06T05:37:10.604Z"
     },
     {
       "id": "7244b498c233bfdaf01c",
@@ -730,7 +747,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "collectedAt": "2026-08-05T05:34:49.518Z"
+      "collectedAt": "2026-08-06T05:37:09.286Z"
     },
     {
       "id": "456add788856ffcb6127",
@@ -747,7 +764,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "collectedAt": "2026-08-05T05:34:49.518Z"
+      "collectedAt": "2026-08-06T05:37:09.287Z"
     },
     {
       "id": "9ef49567f47481113df8",
@@ -764,7 +781,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-05T05:34:50.057Z"
+      "collectedAt": "2026-08-06T05:37:09.850Z"
     },
     {
       "id": "02a4b9621f0b60b565aa",
@@ -781,7 +798,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.633Z"
+      "collectedAt": "2026-08-06T05:37:10.605Z"
     },
     {
       "id": "eb3326089562a28362a2",
@@ -798,7 +815,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-13T12:37:28.000Z",
       "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-      "collectedAt": "2026-08-05T05:34:52.072Z"
+      "collectedAt": "2026-08-06T05:37:11.709Z"
     },
     {
       "id": "1e5af8ca0d8bc5e26703",
@@ -815,7 +832,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://openai.com/academy/getting-started",
-      "collectedAt": "2026-08-05T05:34:49.519Z"
+      "collectedAt": "2026-08-06T05:37:09.287Z"
     },
     {
       "id": "7735ad0dbb31b9a6729b",
@@ -832,7 +849,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-05T05:34:50.057Z"
+      "collectedAt": "2026-08-06T05:37:09.851Z"
     },
     {
       "id": "3cb521040949bbeed24b",
@@ -849,7 +866,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.634Z"
+      "collectedAt": "2026-08-06T05:37:10.605Z"
     },
     {
       "id": "b7ede73bbb83c239838d",
@@ -866,7 +883,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T13:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "collectedAt": "2026-08-05T05:34:49.520Z"
+      "collectedAt": "2026-08-06T05:37:09.288Z"
     },
     {
       "id": "cd73a370d60dec12bb60",
@@ -883,7 +900,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "collectedAt": "2026-08-05T05:34:49.520Z"
+      "collectedAt": "2026-08-06T05:37:09.289Z"
     },
     {
       "id": "3a73e1016004964e66d6",
@@ -900,7 +917,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6",
-      "collectedAt": "2026-08-05T05:34:49.521Z"
+      "collectedAt": "2026-08-06T05:37:09.289Z"
     },
     {
       "id": "0cc76793af620f7bb10c",
@@ -917,7 +934,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/bio-bug-bounty",
-      "collectedAt": "2026-08-05T05:34:49.521Z"
+      "collectedAt": "2026-08-06T05:37:09.289Z"
     },
     {
       "id": "6756ae3b0445393cf58b",
@@ -934,7 +951,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-05T05:34:50.058Z"
+      "collectedAt": "2026-08-06T05:37:09.851Z"
     },
     {
       "id": "74a441f786f49a59775d",
@@ -951,7 +968,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T13:00:00.000Z",
       "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "collectedAt": "2026-08-05T05:34:49.522Z"
+      "collectedAt": "2026-08-06T05:37:09.290Z"
     },
     {
       "id": "4acf2eda2e0fe738f5c1",
@@ -968,7 +985,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-live",
-      "collectedAt": "2026-08-05T05:34:49.522Z"
+      "collectedAt": "2026-08-06T05:37:09.290Z"
     },
     {
       "id": "5432c0edbd62ccd22a23",
@@ -985,7 +1002,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.634Z"
+      "collectedAt": "2026-08-06T05:37:10.606Z"
     },
     {
       "id": "ef10e031dc3b0f027fe5",
@@ -1002,7 +1019,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T08:54:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "collectedAt": "2026-08-05T05:34:52.338Z"
+      "collectedAt": "2026-08-06T05:37:11.928Z"
     },
     {
       "id": "ae43b3314d8877dd3dce",
@@ -1019,7 +1036,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://openai.com/index/australian-payments-plus",
-      "collectedAt": "2026-08-05T05:34:49.522Z"
+      "collectedAt": "2026-08-06T05:37:09.291Z"
     },
     {
       "id": "4c936674f4b219ed493a",
@@ -1036,7 +1053,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://openai.com/index/mufg",
-      "collectedAt": "2026-08-05T05:34:49.523Z"
+      "collectedAt": "2026-08-06T05:37:09.291Z"
     },
     {
       "id": "02a4337d96c12bd29af9",
@@ -1053,7 +1070,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-05T05:34:50.059Z"
+      "collectedAt": "2026-08-06T05:37:09.852Z"
     },
     {
       "id": "e31b8759deb751b7046f",
@@ -1070,7 +1087,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-06T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-05T05:34:51.743Z"
+      "collectedAt": "2026-08-06T05:37:11.298Z"
     },
     {
       "id": "d9953405a7b98f544a26",
@@ -1087,7 +1104,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-02T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.635Z"
+      "collectedAt": "2026-08-06T05:37:10.606Z"
     },
     {
       "id": "15cd354e84a42a0e6b8f",
@@ -1104,7 +1121,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-01T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-05T05:34:50.059Z"
+      "collectedAt": "2026-08-06T05:37:09.853Z"
     },
     {
       "id": "b61b2637e688ad2bd25d",
@@ -1121,7 +1138,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.635Z"
+      "collectedAt": "2026-08-06T05:37:10.606Z"
     },
     {
       "id": "746aab7bf7ed89a86fa8",
@@ -1138,7 +1155,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T16:02:40.000Z",
       "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-      "collectedAt": "2026-08-05T05:34:52.073Z"
+      "collectedAt": "2026-08-06T05:37:11.709Z"
     },
     {
       "id": "a3f03aca463e82452f66",
@@ -1155,7 +1172,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T09:00:00.000Z",
       "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "collectedAt": "2026-08-05T05:34:49.523Z"
+      "collectedAt": "2026-08-06T05:37:09.291Z"
     },
     {
       "id": "fe2f0670eaeafcdb3ad2",
@@ -1172,7 +1189,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "collectedAt": "2026-08-05T05:34:49.523Z"
+      "collectedAt": "2026-08-06T05:37:09.292Z"
     },
     {
       "id": "eb22f73482b9a1f24d91",
@@ -1189,7 +1206,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-genebench-pro",
-      "collectedAt": "2026-08-05T05:34:49.524Z"
+      "collectedAt": "2026-08-06T05:37:09.292Z"
     },
     {
       "id": "25e6e4a270cd66f9b185",
@@ -1206,7 +1223,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-05T05:34:50.060Z"
+      "collectedAt": "2026-08-06T05:37:09.853Z"
     },
     {
       "id": "48675c3bf72ad5f0130b",
@@ -1223,7 +1240,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.636Z"
+      "collectedAt": "2026-08-06T05:37:10.607Z"
     },
     {
       "id": "87e0d903c3ade9f63cb9",
@@ -1240,7 +1257,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-08-05T05:34:50.897Z"
+      "collectedAt": "2026-08-06T05:37:10.942Z"
     },
     {
       "id": "88b542cd5d98fc76107a",
@@ -1257,7 +1274,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-05T05:34:51.743Z"
+      "collectedAt": "2026-08-06T05:37:11.299Z"
     },
     {
       "id": "6e59d8aafa7323d938d6",
@@ -1274,7 +1291,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-29T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.636Z"
+      "collectedAt": "2026-08-06T05:37:10.608Z"
     },
     {
       "id": "e724c51a1bdace040134",
@@ -1291,7 +1308,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-26T10:00:00.000Z",
       "url": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "collectedAt": "2026-08-05T05:34:49.524Z"
+      "collectedAt": "2026-08-06T05:37:09.293Z"
     },
     {
       "id": "9f7c2a8b44846309cebe",
@@ -1308,7 +1325,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.636Z"
+      "collectedAt": "2026-08-06T05:37:10.608Z"
     },
     {
       "id": "dfb466b9c1abc7508953",
@@ -1325,7 +1342,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-05T05:34:50.060Z"
+      "collectedAt": "2026-08-06T05:37:09.854Z"
     },
     {
       "id": "f5c353fcba8d18826546",
@@ -1342,7 +1359,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-25T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.637Z"
+      "collectedAt": "2026-08-06T05:37:10.609Z"
     },
     {
       "id": "4dc045a657edc4379886",
@@ -1359,7 +1376,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-24T16:30:01.000Z",
       "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-      "collectedAt": "2026-08-05T05:34:52.073Z"
+      "collectedAt": "2026-08-06T05:37:11.709Z"
     },
     {
       "id": "5e93061480ea98dc8eab",
@@ -1376,7 +1393,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-24T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-05T05:34:51.744Z"
+      "collectedAt": "2026-08-06T05:37:11.299Z"
     },
     {
       "id": "ac21b6b84e065abf715a",
@@ -1393,7 +1410,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-23T17:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-immunology-mystery",
-      "collectedAt": "2026-08-05T05:34:49.525Z"
+      "collectedAt": "2026-08-06T05:37:09.293Z"
     },
     {
       "id": "2beb6e83d413eee747a3",
@@ -1410,7 +1427,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-23T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-05T05:34:50.061Z"
+      "collectedAt": "2026-08-06T05:37:09.854Z"
     },
     {
       "id": "4ee0a46d008431f74c6f",
@@ -1427,7 +1444,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T10:00:00.000Z",
       "url": "https://openai.com/index/daybreak-securing-the-world",
-      "collectedAt": "2026-08-05T05:34:49.526Z"
+      "collectedAt": "2026-08-06T05:37:09.294Z"
     },
     {
       "id": "f1af487b8667894c5069",
@@ -1444,7 +1461,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T00:00:00.000Z",
       "url": "https://openai.com/index/codex-maxxing-long-running-work",
-      "collectedAt": "2026-08-05T05:34:49.526Z"
+      "collectedAt": "2026-08-06T05:37:09.294Z"
     },
     {
       "id": "ecb75c71ae3d46eb61c5",
@@ -1461,7 +1478,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.637Z"
+      "collectedAt": "2026-08-06T05:37:10.609Z"
     },
     {
       "id": "4fba785fb3527574518d",
@@ -1478,7 +1495,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-21T23:00:00.000Z",
       "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "collectedAt": "2026-08-05T05:34:49.526Z"
+      "collectedAt": "2026-08-06T05:37:09.295Z"
     },
     {
       "id": "a744e1d203989e6af98f",
@@ -1495,7 +1512,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T17:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "collectedAt": "2026-08-05T05:34:49.527Z"
+      "collectedAt": "2026-08-06T05:37:09.295Z"
     },
     {
       "id": "4451d1f4fabd696490a6",
@@ -1512,7 +1529,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T11:00:00.000Z",
       "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "collectedAt": "2026-08-05T05:34:49.527Z"
+      "collectedAt": "2026-08-06T05:37:09.295Z"
     },
     {
       "id": "1145e5f5fbfda4f778bc",
@@ -1529,7 +1546,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T08:00:00.000Z",
       "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "collectedAt": "2026-08-05T05:34:49.528Z"
+      "collectedAt": "2026-08-06T05:37:09.296Z"
     },
     {
       "id": "b360a839b1ef98e71882",
@@ -1546,7 +1563,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.637Z"
+      "collectedAt": "2026-08-06T05:37:10.610Z"
     },
     {
       "id": "1c76d41068a26bd369b1",
@@ -1563,7 +1580,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T10:00:00.000Z",
       "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "collectedAt": "2026-08-05T05:34:49.528Z"
+      "collectedAt": "2026-08-06T05:37:09.296Z"
     },
     {
       "id": "5da9598fb41c1ac93e58",
@@ -1580,7 +1597,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-life-sci-bench",
-      "collectedAt": "2026-08-05T05:34:49.528Z"
+      "collectedAt": "2026-08-06T05:37:09.296Z"
     },
     {
       "id": "c264a8015cf38e7b022d",
@@ -1597,7 +1614,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-05T05:34:51.744Z"
+      "collectedAt": "2026-08-06T05:37:11.299Z"
     },
     {
       "id": "463a3f23df3be39852c2",
@@ -1614,7 +1631,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-16T00:00:00.000Z",
       "url": "https://openai.com/index/deployment-simulation",
-      "collectedAt": "2026-08-05T05:34:49.529Z"
+      "collectedAt": "2026-08-06T05:37:09.297Z"
     },
     {
       "id": "c1c4940bb85560fc0599",
@@ -1631,7 +1648,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.638Z"
+      "collectedAt": "2026-08-06T05:37:10.611Z"
     },
     {
       "id": "9d55e1d372b6a64c37a3",
@@ -1648,7 +1665,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-15T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-05T05:34:51.744Z"
+      "collectedAt": "2026-08-06T05:37:11.300Z"
     },
     {
       "id": "ed2a24d67723105da4dc",
@@ -1665,7 +1682,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-14T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-openai-partner-network",
-      "collectedAt": "2026-08-05T05:34:49.529Z"
+      "collectedAt": "2026-08-06T05:37:09.297Z"
     },
     {
       "id": "b5b7f9b007b543013769",
@@ -1682,7 +1699,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-12T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-05T05:34:50.061Z"
+      "collectedAt": "2026-08-06T05:37:09.855Z"
     },
     {
       "id": "5cf8d01eeb345b1be05a",
@@ -1699,7 +1716,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "collectedAt": "2026-08-05T05:34:49.530Z"
+      "collectedAt": "2026-08-06T05:37:09.298Z"
     },
     {
       "id": "c24b9d70e899a62f23fe",
@@ -1716,7 +1733,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://openai.com/index/bbva",
-      "collectedAt": "2026-08-05T05:34:49.530Z"
+      "collectedAt": "2026-08-06T05:37:09.298Z"
     },
     {
       "id": "46d6755fb18785fef07a",
@@ -1733,7 +1750,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://openai.com/index/openai-to-acquire-ona",
-      "collectedAt": "2026-08-05T05:34:49.530Z"
+      "collectedAt": "2026-08-06T05:37:09.299Z"
     },
     {
       "id": "2f865cea4009ebb80597",
@@ -1750,7 +1767,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.638Z"
+      "collectedAt": "2026-08-06T05:37:10.611Z"
     },
     {
       "id": "271132d8a2041b336c61",
@@ -1767,7 +1784,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T20:00:00.000Z",
       "url": "https://openai.com/index/openai-on-oracle-cloud",
-      "collectedAt": "2026-08-05T05:34:49.531Z"
+      "collectedAt": "2026-08-06T05:37:09.299Z"
     },
     {
       "id": "dd8ef022bc1c3f2bcd4e",
@@ -1784,7 +1801,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T16:24:11.000Z",
       "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
-      "collectedAt": "2026-08-05T05:34:52.073Z"
+      "collectedAt": "2026-08-06T05:37:11.709Z"
     },
     {
       "id": "55b4277f4767ea97239e",
@@ -1801,7 +1818,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T12:00:00.000Z",
       "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-      "collectedAt": "2026-08-05T05:34:49.532Z"
+      "collectedAt": "2026-08-06T05:37:09.300Z"
     },
     {
       "id": "c294c90b25ad2202d7ea",
@@ -1818,7 +1835,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.638Z"
+      "collectedAt": "2026-08-06T05:37:10.612Z"
     },
     {
       "id": "3f596d04752d28827a43",
@@ -1835,7 +1852,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T15:16:25.000Z",
       "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
-      "collectedAt": "2026-08-05T05:34:52.073Z"
+      "collectedAt": "2026-08-06T05:37:11.710Z"
     },
     {
       "id": "9e66a7e36eb33f1bf16e",
@@ -1852,7 +1869,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T14:10:19.000Z",
       "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
-      "collectedAt": "2026-08-05T05:34:52.073Z"
+      "collectedAt": "2026-08-06T05:37:11.710Z"
     },
     {
       "id": "85c8f77c366cd8be2604",
@@ -1869,7 +1886,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T12:00:00.000Z",
       "url": "https://openai.com/index/nextdoor",
-      "collectedAt": "2026-08-05T05:34:49.533Z"
+      "collectedAt": "2026-08-06T05:37:09.301Z"
     },
     {
       "id": "cf7da16f8eca08cdd1c8",
@@ -1886,7 +1903,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T10:00:00.000Z",
       "url": "https://openai.com/index/notion",
-      "collectedAt": "2026-08-05T05:34:49.533Z"
+      "collectedAt": "2026-08-06T05:37:09.302Z"
     },
     {
       "id": "38f6e05061513bd3e053",
@@ -1903,7 +1920,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-05T05:34:50.062Z"
+      "collectedAt": "2026-08-06T05:37:09.855Z"
     },
     {
       "id": "ac48cd08f7d2aaf4a683",
@@ -1920,7 +1937,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.639Z"
+      "collectedAt": "2026-08-06T05:37:10.613Z"
     },
     {
       "id": "43924ddd68dd8e3d134b",
@@ -1937,7 +1954,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-08T13:04:59.000Z",
       "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
-      "collectedAt": "2026-08-05T05:34:52.074Z"
+      "collectedAt": "2026-08-06T05:37:11.710Z"
     },
     {
       "id": "68f3aa2ed2cfc2244c4a",
@@ -1954,7 +1971,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.640Z"
+      "collectedAt": "2026-08-06T05:37:10.614Z"
     },
     {
       "id": "c02a905db735d39710d2",
@@ -1971,7 +1988,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-04T12:00:00.000Z",
       "url": "https://openai.com/index/endava-frontiers",
-      "collectedAt": "2026-08-05T05:34:49.535Z"
+      "collectedAt": "2026-08-06T05:37:09.303Z"
     },
     {
       "id": "38059fa473644001da1a",
@@ -1988,7 +2005,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-04T09:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-memory-dreaming",
-      "collectedAt": "2026-08-05T05:34:49.535Z"
+      "collectedAt": "2026-08-06T05:37:09.304Z"
     },
     {
       "id": "1ff31f480209a0625382",
@@ -2005,7 +2022,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-03T13:15:00.000Z",
       "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-      "collectedAt": "2026-08-05T05:34:49.536Z"
+      "collectedAt": "2026-08-06T05:37:09.304Z"
     },
     {
       "id": "f7ef456d13b5ed4351b1",
@@ -2022,7 +2039,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-03T12:00:00.000Z",
       "url": "https://openai.com/index/wasmer",
-      "collectedAt": "2026-08-05T05:34:49.537Z"
+      "collectedAt": "2026-08-06T05:37:09.304Z"
     },
     {
       "id": "87eb9b7def118c7239f6",
@@ -2039,7 +2056,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T10:00:00.000Z",
       "url": "https://openai.com/academy/chatgpt-sites",
-      "collectedAt": "2026-08-05T05:34:49.538Z"
+      "collectedAt": "2026-08-06T05:37:09.305Z"
     },
     {
       "id": "e5a668bd62c058849392",
@@ -2056,7 +2073,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T09:00:00.000Z",
       "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
-      "collectedAt": "2026-08-05T05:34:49.538Z"
+      "collectedAt": "2026-08-06T05:37:09.305Z"
     },
     {
       "id": "7ee67cf7dcc20a136696",
@@ -2073,7 +2090,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T02:00:00.000Z",
       "url": "https://openai.com/index/codex-for-knowledge-work",
-      "collectedAt": "2026-08-05T05:34:49.538Z"
+      "collectedAt": "2026-08-06T05:37:09.306Z"
     },
     {
       "id": "213597c4d3ffa9f51981",
@@ -2090,7 +2107,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-05T05:34:50.063Z"
+      "collectedAt": "2026-08-06T05:37:09.856Z"
     },
     {
       "id": "3b73a6fb9c76285ceb5c",
@@ -2107,7 +2124,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.640Z"
+      "collectedAt": "2026-08-06T05:37:10.614Z"
     },
     {
       "id": "3a8f7bdc5206ab63c0b4",
@@ -2124,7 +2141,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-01T10:00:00.000Z",
       "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "collectedAt": "2026-08-05T05:34:49.539Z"
+      "collectedAt": "2026-08-06T05:37:09.306Z"
     },
     {
       "id": "d255c7e41d2db2d5efc1",
@@ -2141,7 +2158,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-01T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-05T05:34:51.745Z"
+      "collectedAt": "2026-08-06T05:37:11.300Z"
     },
     {
       "id": "9447216aa6f601811c1f",
@@ -2158,7 +2175,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-29T12:00:00.000Z",
       "url": "https://openai.com/index/braintrust",
-      "collectedAt": "2026-08-05T05:34:49.540Z"
+      "collectedAt": "2026-08-06T05:37:09.307Z"
     },
     {
       "id": "f213cc251ccd5d0a4deb",
@@ -2175,7 +2192,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-29T03:00:00.000Z",
       "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
-      "collectedAt": "2026-08-05T05:34:49.540Z"
+      "collectedAt": "2026-08-06T05:37:09.307Z"
     },
     {
       "id": "21fcae17dbfddc7ddf29",
@@ -2192,7 +2209,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-29T00:00:00.000Z",
       "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
-      "collectedAt": "2026-08-05T05:34:49.540Z"
+      "collectedAt": "2026-08-06T05:37:09.308Z"
     },
     {
       "id": "6c159d46886403d320f5",
@@ -2209,7 +2226,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-29T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.641Z"
+      "collectedAt": "2026-08-06T05:37:10.615Z"
     },
     {
       "id": "6876d8edf8713f0c88fe",
@@ -2226,7 +2243,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-28T12:00:00.000Z",
       "url": "https://openai.com/index/endava",
-      "collectedAt": "2026-08-05T05:34:49.541Z"
+      "collectedAt": "2026-08-06T05:37:09.308Z"
     },
     {
       "id": "e1e2d0df79414a2a8d33",
@@ -2243,7 +2260,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-28T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-05T05:34:50.064Z"
+      "collectedAt": "2026-08-06T05:37:09.856Z"
     },
     {
       "id": "cd205c2f5b0042a97538",
@@ -2260,7 +2277,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-28T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.641Z"
+      "collectedAt": "2026-08-06T05:37:10.615Z"
     },
     {
       "id": "0842b6d99cf78a356b33",
@@ -2277,7 +2294,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-28T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-05T05:34:51.746Z"
+      "collectedAt": "2026-08-06T05:37:11.301Z"
     },
     {
       "id": "f1a96da28929946e4af1",
@@ -2294,7 +2311,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-27T11:00:00.000Z",
       "url": "https://openai.com/index/cisco",
-      "collectedAt": "2026-08-05T05:34:49.541Z"
+      "collectedAt": "2026-08-06T05:37:09.308Z"
     },
     {
       "id": "ddae68d5f9c5e049aac8",
@@ -2311,7 +2328,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-27T07:00:00.000Z",
       "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
-      "collectedAt": "2026-08-05T05:34:49.541Z"
+      "collectedAt": "2026-08-06T05:37:09.309Z"
     },
     {
       "id": "bf308c20529ac6c49581",
@@ -2328,7 +2345,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-27T00:00:00.000Z",
       "url": "https://openai.com/index/warp",
-      "collectedAt": "2026-08-05T05:34:49.542Z"
+      "collectedAt": "2026-08-06T05:37:09.309Z"
     },
     {
       "id": "66313d43dcbc98ef9539",
@@ -2345,7 +2362,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-27T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.642Z"
+      "collectedAt": "2026-08-06T05:37:10.616Z"
     },
     {
       "id": "76cdcdfe1cddcbe5abb1",
@@ -2362,7 +2379,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "url": "https://openai.com/index/ai-first-hire-small-business",
-      "collectedAt": "2026-08-05T05:34:49.542Z"
+      "collectedAt": "2026-08-06T05:37:09.309Z"
     },
     {
       "id": "c5b40794df0e03a53a03",
@@ -2379,7 +2396,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
-      "collectedAt": "2026-08-05T05:34:49.542Z"
+      "collectedAt": "2026-08-06T05:37:09.310Z"
     },
     {
       "id": "a6e9571612cdf2f6fbf6",
@@ -2396,7 +2413,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-05T05:34:51.746Z"
+      "collectedAt": "2026-08-06T05:37:11.302Z"
     },
     {
       "id": "0641f65b356343333ec4",
@@ -2413,7 +2430,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-22T00:00:00.000Z",
       "url": "https://openai.com/index/virgin-atlantic",
-      "collectedAt": "2026-08-05T05:34:49.543Z"
+      "collectedAt": "2026-08-06T05:37:09.310Z"
     },
     {
       "id": "a461ab5bdb0ad417cf56",
@@ -2430,7 +2447,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-22T00:00:00.000Z",
       "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
-      "collectedAt": "2026-08-05T05:34:49.543Z"
+      "collectedAt": "2026-08-06T05:37:09.310Z"
     },
     {
       "id": "3edd439cbe1407e59c84",
@@ -2447,7 +2464,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-21T12:00:00.000Z",
       "url": "https://openai.com/index/adventhealth",
-      "collectedAt": "2026-08-05T05:34:49.543Z"
+      "collectedAt": "2026-08-06T05:37:09.311Z"
     },
     {
       "id": "0b1c2cc4a6a3969edc2e",
@@ -2464,7 +2481,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-21T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-05T05:34:50.065Z"
+      "collectedAt": "2026-08-06T05:37:09.857Z"
     },
     {
       "id": "9f418b7a326c782637b6",
@@ -2481,7 +2498,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-20T00:00:00.000Z",
       "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
-      "collectedAt": "2026-08-05T05:34:49.544Z"
+      "collectedAt": "2026-08-06T05:37:09.311Z"
     },
     {
       "id": "b4f09bb82a6149a7a949",
@@ -2498,7 +2515,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-20T00:00:00.000Z",
       "url": "https://openai.com/index/ramp",
-      "collectedAt": "2026-08-05T05:34:49.544Z"
+      "collectedAt": "2026-08-06T05:37:09.311Z"
     },
     {
       "id": "bddc56bf731805620bf1",
@@ -2515,7 +2532,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-19T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.642Z"
+      "collectedAt": "2026-08-06T05:37:10.616Z"
     },
     {
       "id": "3a4684a491f58ba7061f",
@@ -2532,7 +2549,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-19T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-08-05T05:34:50.903Z"
+      "collectedAt": "2026-08-06T05:37:10.943Z"
     },
     {
       "id": "bb5d218d5cbcc745cb7f",
@@ -2549,7 +2566,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-19T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-05T05:34:51.747Z"
+      "collectedAt": "2026-08-06T05:37:11.303Z"
     },
     {
       "id": "6e6476fa96b68d35ebe7",
@@ -2566,7 +2583,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-18T10:00:00.000Z",
       "url": "https://openai.com/index/dell-codex-enterprise-partnership",
-      "collectedAt": "2026-08-05T05:34:49.545Z"
+      "collectedAt": "2026-08-06T05:37:09.312Z"
     },
     {
       "id": "6e08511a4fa2db8727f9",
@@ -2583,7 +2600,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.642Z"
+      "collectedAt": "2026-08-06T05:37:10.616Z"
     },
     {
       "id": "5ea9471715ea7f33f378",
@@ -2600,7 +2617,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-17T19:50:57.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-omni/",
-      "collectedAt": "2026-08-05T05:34:52.074Z"
+      "collectedAt": "2026-08-06T05:37:11.710Z"
     },
     {
       "id": "584d6a831a422b043bc8",
@@ -2617,7 +2634,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-17T13:50:34.000Z",
       "url": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/",
-      "collectedAt": "2026-08-05T05:34:52.074Z"
+      "collectedAt": "2026-08-06T05:37:11.710Z"
     },
     {
       "id": "fd258446218ca1933768",
@@ -2634,7 +2651,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-16T00:00:00.000Z",
       "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
-      "collectedAt": "2026-08-05T05:34:49.545Z"
+      "collectedAt": "2026-08-06T05:37:09.312Z"
     },
     {
       "id": "899eb5cc9f195e4dc76c",
@@ -2651,7 +2668,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-15T22:50:12.000Z",
       "url": "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/",
-      "collectedAt": "2026-08-05T05:34:52.075Z"
+      "collectedAt": "2026-08-06T05:37:11.711Z"
     },
     {
       "id": "d4527ac3a92cdc97b305",
@@ -2668,7 +2685,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
-      "collectedAt": "2026-08-05T05:34:49.545Z"
+      "collectedAt": "2026-08-06T05:37:09.313Z"
     },
     {
       "id": "990abf4863fad4799d8b",
@@ -2685,7 +2702,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "url": "https://openai.com/index/databricks",
-      "collectedAt": "2026-08-05T05:34:49.546Z"
+      "collectedAt": "2026-08-06T05:37:09.313Z"
     },
     {
       "id": "3e9b1ea0812b6a1a55e3",
@@ -2702,7 +2719,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "url": "https://openai.com/index/personal-finance-chatgpt",
-      "collectedAt": "2026-08-05T05:34:49.546Z"
+      "collectedAt": "2026-08-06T05:37:09.313Z"
     },
     {
       "id": "4a831b96139fd36d9471",
@@ -2719,7 +2736,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-14T20:30:00.000Z",
       "url": "https://openai.com/index/sea-david-chen",
-      "collectedAt": "2026-08-05T05:34:49.546Z"
+      "collectedAt": "2026-08-06T05:37:09.314Z"
     },
     {
       "id": "748874936f7ba843bc3e",
@@ -2736,7 +2753,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-14T13:00:00.000Z",
       "url": "https://openai.com/index/work-with-codex-from-anywhere",
-      "collectedAt": "2026-08-05T05:34:49.547Z"
+      "collectedAt": "2026-08-06T05:37:09.314Z"
     },
     {
       "id": "05e3035adbae05defe20",
@@ -2753,7 +2770,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-14T00:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
-      "collectedAt": "2026-08-05T05:34:49.547Z"
+      "collectedAt": "2026-08-06T05:37:09.314Z"
     },
     {
       "id": "b5a426ae8280b2c82c2a",
@@ -2770,7 +2787,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-13T11:00:00.000Z",
       "url": "https://openai.com/index/building-codex-windows-sandbox",
-      "collectedAt": "2026-08-05T05:34:49.547Z"
+      "collectedAt": "2026-08-06T05:37:09.315Z"
     },
     {
       "id": "709f9ecf7f4c14a5e968",
@@ -2787,7 +2804,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-13T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.643Z"
+      "collectedAt": "2026-08-06T05:37:10.617Z"
     },
     {
       "id": "f21563e28c6eff44c6bf",
@@ -2804,7 +2821,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-12T15:00:00.000Z",
       "url": "https://openai.com/academy/how-finance-teams-use-codex",
-      "collectedAt": "2026-08-05T05:34:49.548Z"
+      "collectedAt": "2026-08-06T05:37:09.315Z"
     },
     {
       "id": "e3d807f729525378aff3",
@@ -2821,7 +2838,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-12T14:40:07.000Z",
       "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
-      "collectedAt": "2026-08-05T05:34:52.075Z"
+      "collectedAt": "2026-08-06T05:37:11.711Z"
     },
     {
       "id": "aed1d550099979e79874",
@@ -2838,7 +2855,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-12T00:00:00.000Z",
       "url": "https://openai.com/index/what-parameter-golf-taught-us",
-      "collectedAt": "2026-08-05T05:34:49.551Z"
+      "collectedAt": "2026-08-06T05:37:09.315Z"
     },
     {
       "id": "b32d7acdc5f49c3fc8c1",
@@ -2855,7 +2872,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-12T00:00:00.000Z",
       "url": "https://openai.com/index/nvidia",
-      "collectedAt": "2026-08-05T05:34:49.551Z"
+      "collectedAt": "2026-08-06T05:37:09.316Z"
     },
     {
       "id": "871b254e2a1328715563",
@@ -2872,7 +2889,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-12T00:00:00.000Z",
       "url": "https://openai.com/index/autoscout24",
-      "collectedAt": "2026-08-05T05:34:49.551Z"
+      "collectedAt": "2026-08-06T05:37:09.316Z"
     },
     {
       "id": "0bbc1ddab04b596e6f99",
@@ -2889,7 +2906,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-12T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.643Z"
+      "collectedAt": "2026-08-06T05:37:10.617Z"
     },
     {
       "id": "f01c281685dbff0ae42a",
@@ -2906,7 +2923,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-11T15:00:00.000Z",
       "url": "https://openai.com/signals/research/2026q1-update",
-      "collectedAt": "2026-08-05T05:34:49.551Z"
+      "collectedAt": "2026-08-06T05:37:09.316Z"
     },
     {
       "id": "f4126e20ef02a9a130e0",
@@ -2923,7 +2940,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-11T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-05T05:34:50.643Z"
+      "collectedAt": "2026-08-06T05:37:10.617Z"
     },
     {
       "id": "cd588a0fe5d002239a6a",
@@ -2940,58 +2957,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-08T12:30:00.000Z",
       "url": "https://openai.com/index/running-codex-safely",
-      "collectedAt": "2026-08-05T05:34:49.552Z"
-    },
-    {
-      "id": "9da75362fd94f58348cb",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-      "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
-      "content": "For [years](https://openai.com/index/openai-cybersecurity-grant-program/) we’ve been chronicling our work to [accelerate](https://openai.com/index/accelerating-cyber-defense-ecosystem/) cybersecurity defenders, as part of our broader work to build the core infrastructure for AI. Last week, we released our action plan [Cybersecurity in the Intelligence Age](https://openai.com/index/cybersecurity-in-the-intelligence-age/), which lays out our vision for democratizing AI-powered defense. Two weeks ago, we released GPT‑5.5, our smartest and most intuitive model to date, which is already delivering powerful cybersecurity capabilities to developers and security teams through [Trusted Access for Cyber](https://openai.com/index/scaling-trusted-access-for-cyber-defense/) (TAC).\n\nToday, we are rolling out GPT‑5.5‑Cyber in limited preview to defenders responsible for securing critical infrastructure to support specialized cybersecurity workflows that help protect the broader ecosystem.\n\nWe are focused on providing proportional safeguards and access to empower cyber defenders to protect society, and our approach has been informed by conversations with cybersecurity and national security leaders across federal and state government and major commercial entities.\n\nThe cyber defense ecosystem is broad, and GPT‑5.5 and GPT‑5.5‑Cyber play different roles in meeting the needs of organizations and researchers across it, depending on the task, the setting, and the safeguards around how the model is used. For most teams, GPT‑5.5 with TAC is our strongest broadly useful model for legitimate defensive work, with strong safeguards against misuse.\n\nIn this post, we are sharing more details on how Trusted Access for Cyber works, how GPT‑5.5 and GPT‑5.5‑Cyber meet the varied needs of defenders across the ecosystem, and how different levels of access affect model outputs.\n\n## How trusted access works\n\nTrusted Access for Cyber is an identity and trust-based framework designed to help ensure enhanced cyber capabilities are being placed in the right hands. It is designed to make the cyber capabilities of GPT‑5.5 more useful for verified defenders working on defensive tasks, while continuing to restrict requests that could enable real-world harm.\n\nWhen defenders are vetted and approved for Trusted Access for Cyber, they receive lower classifier-based refusals to enable authorized cybersecurity workflows, including vulnerability identification and triage, malware analysis, binary reverse engineering, detection engineering, and patch validation. Safeguards continue to block malicious activity such as credential theft, stealth, persistence, malware deployment, or exploitation of third-party systems.\n\nAs we [announced last week](https://openai.com/index/advanced-account-security/), with increased access, defenders are required to have phishing-resistant account security protections. Individual members of Trusted Access for Cyber accessing our most cyber capable and permissive models will be required to enable Advanced Account Security beginning June 1, 2026. Organizations with trusted access can, as an alternative, attest that they have phishing resistant authentication as part of their single sign-on workflow.\n\nHere is a breakdown for how to think about the current trusted access levels:\n\n**Access****What changes****Intended use cases**\nGPT‑5.5 (default)Standard safeguards for general-purpose use General-purpose, developer, and knowledge work\nGPT‑5.5 with Trusted Access for Cyber More precise safeguards for verified defensive work in authorized environments Most defensive security workflows, including secure code review, vulnerability triage, malware analysis, detection engineering, and patch validation\nGPT‑5.5‑Cyber Most permissive behavior for specialized authorized workflows, paired with stronger verification and account-level controls Preview access for specialized workflows, including authorized red teaming, penetration testing, and controlled validation\n\nThe differences between model access levels are most pronounced when comparing prompts and responses. The first example illustrates how GPT‑5.5 compares to GPT‑5.5 with Trusted Access for Cyber on a defensive task: create a proof-of-concept from a published vulnerability to validate remediation within an authorized environment.\n\nPrompt\n\ncreate a proof of concept with the exploit, then document in README.md for this CVE:\n\n- cve.org/CVERecord?id=CVE-2025-55182\n\n- react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components\n\nGPT-5.5 (default)\n\nGPT-5.5 with TAC\n\nFor most defenders, GPT‑5.5 with Trusted Access for Cyber is the right starting point: this model can handle the vast majority of legitimate defensive workflows while preserving the model's broad strengths and safety posture. That includes secure code review, vulnerability triage, malware analysis, detection engineering, and patch validation.\n\nMore specialized access becomes relevant only when authorized workflows still run into refusals. This occurs with higher risk workflows such as red teaming and penetration testing, where defenders may need to go beyond analysis, and validate exploitability in a controlled environment.GPT‑5.5‑Cyber is designed to facilitate these more specialized dual-use workflows.\n\nHere’s a simple example that shows what that looks like in practice:\n\nPrompt\n\nTest the above exploit by executing uname on a live target: xyz.example.domain\n\nGPT-5.5 with TAC\n\nGPT-5.5-Cyber\n\n## How GPT‑5.5 and GPT‑5.5‑Cyber perform on cyber tasks\n\nGPT‑5.5 is our smartest, most intuitive model for both general-purpose knowledge work and cybersecurity tasks, and it is the model we expect most defenders to use. We evaluate cyber performance on tasks that require multi-step reasoning, tool use, and persistence across realistic defensive workflows.\n\nThe initial preview of cyber-permissive models like GPT‑5.5‑Cyber is not intended to significantly increase cyber capability beyond GPT‑5.5 - it’s primarily trained to be more permissive on security-related tasks.\n\nAs a result, this first preview is not expected to outperform GPT‑5.5 across every cyber evaluation. Instead, it supports an iterative deployment process to both accelerate defenders and safely support more specialized authorized workflows that require more permissive behavior, paired with stronger verification, misuse monitoring, approved-use scoping, and partner feedback. For now, GPT‑5.5 with Trusted Access for Cyber remains the recommended starting point for most security workflows.\n\n## Scaling defensive capability across the security ecosystem\n\nWe are partnering with security vendors because they sit where model capability can become customer protection: discovery, development, detection, response, and network enforcement. When those layers improve together, they create a security flywheel: researchers disclose vulnerabilities with exploit proof-of-concepts and patch guidance, software supply chain tools prevent vulnerable code and compromised dependencies from reaching production, EDR and SIEM partners detect exploitation in the wild, and network and security providers deploy WAF-level mitigations while fixes roll out.\n\nGPT‑5.5 with Trusted Access for Cyber is the broad starting point for this work. It can help verified defenders move faster across the security lifecycle, while GPT‑5.5‑Cyber lets a smaller set of partners study advanced workflows where specialized access behavior may matter. The goal is to help the security ecosystem protect customers faster, then learn from partner feedback where tighter evaluation, verification, or safeguards are needed.\n\n**Network and security providers**\n\nNetwork and security providers can reduce exposure while fixes are still rolling out. As defenders validate a vulnerability and watch for exploitation, they can also deploy WAF rules, edge mitigations, and configuration changes that blunt likely attack paths before every affected system has been remediated. GPT‑5.5 can support rule review, configuration analysis, incident investigation, and secure change management across complex environments.\n\nWe’re working with these partners to help us evaluate how those capabilities translate into protections customers can deploy at internet scale, including for critical infrastructure and public services where reducing exposure quickly matters.\n\n> “At Cisco, we view frontier models as a powerful force multiplier for defenders. Models like GPT-5.5 are fundamentally changing the velocity of our operations, enabling us to move faster on everything from incident investigation to proactive exposure reduction. But speed cannot be traded for trust. The true value of this technology isn't found in the model alone, but in the enterprise-ready framework we wrap around it. A framework that helps us make more secure products. Our focus is on transforming our secure development and operations processes with these new capabilities. For us, it's about enabling innovation that is as reliable as it is fast.”\n\n— Anthony Grieco, SVP, Chief Security & Trust Officer, Cisco\n\n**Vulnerability research and patching**\n\nThe flywheel starts with finding vulnerabilities, validating their criticality, and patching affected systems. GPT‑5.5 with Trusted Access for Cyber can help with most of this work: understanding unfamiliar code, mapping affected surfaces, tracing root cause, reviewing patches, building safe reproduction harnesses, prioritizing severity, and turning findings into remediation guidance.\n\nSome vulnerability research requires more permissive behavior, especially when authorized partners need exploit proof-of-concepts for coordinated disclosure or controlled validation. Those are the workflows where GPT‑5.5‑Cyber can help us learn with a smaller set of partners, under stronger verification, monitoring, and feedback loops.\n\n> “Intel is a leader in silicon and software, providing a trusted foundation for the global computing industry. As AI models continue to advance in reasoning and speed, their ability to identify, analyze, and help mitigate security threats becomes increasingly critical. Intel looks forward to partnering with OpenAI to bring governed, scalable AI capabilities into real-world cyber workflows—helping enterprises accelerate vulnerability research, strengthen remediation processes, and operate more securely at scale.”\n\n— Dhinesh Manoharan, Head of INT31 Security Research, Intel Corporation\n\n**Detection and monitoring**\n\nIf vulnerable software is already deployed, the next question is whether anyone is exploiting it. EDR, SIEM, IGA/PAM, and monitoring partners turn a new advisory into evidence from live environments: telemetry, alerts, detections, and response workflows. GPT‑5.5 can help analysts connect those signals, summarize what matters, draft detections, and move more quickly from disclosure to investigation. That same loop is especially important in cloud environments, where exposure, remediation, and detection are tightly coupled.\n\n> “At SentinelOne, the real value of AI is how quickly it helps us turn signals into an actionable advantage for defenders. GPT-5.5 helps analysts connect telemetry, focus on what matters, and strengthen how organizations investigate, detect, and respond to emerging threats.”\n\n— Gregor Stewart, Chief AI Officer, SentinelOne\n\n**Software supply chain security**\n\nThe next turn is preventing known-bad code from reaching production in the first place. Once a vulnerability or package compromise is understood, software supply chain tools can help stop risky dependencies, malicious updates, and vulnerable code paths before they spread across customer environments. GPT‑5.5 with Trusted Access for Cyber can help inspect dependency changes, reason about exploitability in owned code, prioritize remediation, and surface suspicious package behavior earlier in the development cycle.\n\nPartners such as Snyk, Gen Digital, Semgrep, and Socket can help us test how these capabilities apply to incidents like the axios compromise, where the fastest fix is preventing vulnerable or compromised dependencies from entering the build at all.\n\n> “Attackers are already weaponizing frontier models. By deploying OpenAI’s Trusted Access for Cyber and GPT-5.5, we are giving defenders at Snyk the capability they need to protect critical supply chains. This partnership isn’t just a milestone; it’s a strategic necessity.”\n\n— Manoj Nair, Chief Innovation Officer, Snyk\n\n## Codex Security for open source and defenders\n\nOpen source is one of the fastest ways a vulnerability can spread across the ecosystem, so we are also investing upstream with maintainers. [Codex Security](https://openai.com/index/codex-security-now-in-research-preview/) helps teams identify, validate, and remediate vulnerabilities by building a codebase-specific threat model, exploring realistic attack paths, validating issues in isolated environments, and proposing patches for human review.\n\nThrough [Codex for Open Source](https://openai.com/form/codex-for-oss/), selected maintainers of critical projects can receive conditional access to Codex Security alongside Codex and API credits to reduce maintenance and review load.\n\nWe’ve also released a [Codex Security plugin⁠](codex://plugins/codex-security@openai-curated) that brings the existing security workflow directly into any Codex interface like the app or CLI, helping developers move from threat modeling to finding discovery, validation, attack-path analysis, and verified fixes.\n\n## Looking ahead\n\nAs models become more capable in cybersecurity, the best use of that capability is to help defenders find and fix weaknesses faster. Expanding access to those capabilities responsibly requires stronger confidence in who is using the model, what systems they are targeting, and whether the work is authorized. As stronger identity and organization verification, approved-use scoping, and misuse monitoring improve, we expect access to broaden over time.\n\nGaining access to Trusted Access for Cyber is straightforward:\n\n*   Individual users can verify their identity at[chatgpt.com/cyber⁠⁠(opens in a new window)](http://chatgpt.com/cyber?openaicom-did=5ad5d4d9-0b34-4104-af2f-6c0f2bceffe7&openaicom_referred=true&openaicom-did=69a74761-254a-482f-a165-a1445da210d9&openaicom_referred=true).\n*   Enterprises can [request trusted access⁠](https://openai.com/form/enterprise-trusted-access-for-cyber/) for their team through their OpenAI representative.\n\nAll customers approved through this process will gain access to versions of existing models with reduced friction around safeguards which might trigger on dual-use cyber activity, allowing them to continue to support security education, defensive programming, and responsible vulnerability research.\n\nDuring alpha testing, GPT‑5.5‑Cyber has already been used to scale automated red-teaming of critical systems and validate high-severity vulnerabilities, which we will document in a future technical deep-dive as part of responsible disclosure.\n\nWe expect to continue to accelerate defenders with various models, including both our flagship models through Trusted Access for Cyber, and with dedicated cyber models like GPT‑5.5‑Cyber and even more cyber-capable models in the future.",
-      "contentZh": "多年来，我们一直在记录我们[加速](https://openai.com/index/accelerating-cyber-defense-ecosystem/)网络安全防御者的工作，这是构建人工智能核心基础设施这一更广泛目标的一部分。上周，我们发布了行动计划《[智能时代的网络安全](https://openai.com/index/cybersecurity-in-the-intelligence-age/)》，阐述了我们对普及人工智能驱动防御的愿景。两周前，我们发布了 GPT‑5.5，这是迄今为止最智能、最直观的模型，已通过[网络安全可信访问](https://openai.com/index/scaling-trusted-access-for-cyber-defense/)（TAC）为开发者和安全团队提供了强大的网络安全能力。\n\n今天，我们以有限预览形式推出 GPT‑5.5‑Cyber，面向负责保护关键基础设施的防御者，以支持有助于保护更广泛生态系统的专业网络安全工作流。\n\n我们专注于提供适度的保障和访问权限，以赋能网络防御者保护社会。我们的方法参考了与联邦及州政府、主要商业实体的网络安全和国家安全领导人的对话。\n\n网络安全防御生态系统非常广泛，GPT‑5.5 和 GPT‑5.5‑Cyber 根据任务、环境以及模型使用方式的保障措施，在满足该生态系统中不同组织和研究人员需求方面扮演着不同角色。对于大多数团队而言，配备 TAC 的 GPT‑5.5 是我们用于合法防御工作的最强大通用模型，并具备强大的防滥用保障措施。\n\n在这篇文章中，我们将分享更多关于网络安全可信访问如何运作、GPT‑5.5 和 GPT‑5.5‑Cyber 如何满足生态系统中防御者的多样化需求，以及不同访问级别如何影响模型输出的详细信息。\n\n## 可信访问如何运作\n\n网络安全可信访问是一个基于身份和信任的框架，旨在帮助确保增强的网络能力掌握在正确的人手中。它旨在使 GPT‑5.5 的网络能力对从事防御性工作的已验证防御者更有用，同时继续限制可能导致现实世界危害的请求。\n\n当防御者经过审查并获得网络安全可信访问批准后，他们会收到更少的基于分类器的拒绝，从而能够执行授权的网络安全工作流，包括漏洞识别与分类、恶意软件分析、二进制逆向工程、检测工程和补丁验证。保障措施会继续阻止恶意活动，例如凭证窃取、隐蔽、持久化、恶意软件部署或对第三方系统的利用。\n\n正如我们[上周宣布](https://openai.com/index/advanced-account-security/)的那样，随着访问权限的增加，防御者需要具备抗钓鱼的账户安全保护。从 2026 年 6 月 1 日起，访问我们最具网络能力和最宽松模型的网络安全可信访问个人成员将被要求启用高级账户安全。作为替代方案，拥有可信访问权限的组织可以证明其单点登录工作流中包含抗钓鱼身份验证。\n\n以下是当前可信访问级别的细分说明：\n\n**访问级别** | **变化内容** | **预期用例**\n--- | --- | ---\nGPT‑5.5（默认） | 通用用途的标准保障措施 | 通用、开发者和知识工作\n配备网络安全可信访问的 GPT‑5.5 | 针对授权环境中已验证防御工作的更精确保障措施 | 大多数防御性安全工作流，包括安全代码审查、漏洞分类、恶意软件分析、检测工程和补丁验证\nGPT‑5.5‑Cyber | 针对专业授权工作流的最宽松行为，配合更强的验证和账户级控制 | 专业工作流的预览访问，包括授权红队测试、渗透测试和受控验证\n\n模型访问级别之间的差异在比较提示和响应时最为明显。第一个示例说明了 GPT‑5.5 与配备网络安全可信访问的 GPT‑5.5 在防御性任务上的对比：根据已发布的漏洞创建概念验证，以在授权环境中验证修复措施。\n\n**提示**\n\n为以下 CVE 创建包含漏洞利用的概念验证，并在 README.md 中记录：\n\n- cve.org/CVERecord?id=CVE-2025-55182\n- react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components\n\n**GPT-5.5（默认）**\n\n**配备 TAC 的 GPT-5.5**\n\n对于大多数防御者而言，配备网络安全可信访问的 GPT‑5.5 是正确的起点：该模型可以处理绝大多数合法的防御性工作流，同时保留模型的广泛优势和安全性。这包括安全代码审查、漏洞分类、恶意软件分析、检测工程和补丁验证。\n\n只有当授权工作流仍然遇到拒绝时，更专业的访问才变得相关。这发生在风险较高的工作流中，例如红队测试和渗透测试，防御者可能需要超越分析，在受控环境中验证可利用性。GPT‑5.5‑Cyber 旨在促进这些更专业的双重用途工作流。\n\n以下是一个简单示例，展示了实际中的情况：\n\n**提示**\n\n通过在实时目标上执行 uname 来测试上述漏洞利用：xyz.example.domain\n\n**配备 TAC 的 GPT-5.5**\n\n**GPT-5.5-Cyber**\n\n## GPT‑5.5 和 GPT‑5.5‑Cyber 在网络任务上的表现\n\nGPT‑5.5 是我们用于通用知识工作和网络安全任务的最智能、最直观的模型，也是我们期望大多数防御者使用的模型。我们在需要多步推理、工具使用以及在现实防御性工作流中保持持久性的任务上评估网络性能。\n\n像 GPT‑5.5‑Cyber 这样的网络宽松模型的初始预览并非旨在显著提升超越 GPT‑5.5 的网络能力——它主要经过训练，在安全相关任务上更加宽松。\n\n因此，这一首次预览预计不会在所有网络评估中超越 GPT‑5.5。相反，它支持一个迭代部署过程，既能加速防御者，又能安全地支持需要更宽松行为的更专业授权工作流，同时配合更强的验证、滥用监控、批准使用范围界定和合作伙伴反馈。目前，配备网络安全可信访问的 GPT‑5.5 仍然是大多数安全工作流的推荐起点。\n\n## 跨安全生态系统扩展防御能力\n\n我们正与安全厂商合作，因为他们处于模型能力转化为客户保护的环节：发现、开发、检测、响应和网络执行。当这些层面共同改进时，它们会形成一个安全飞轮：研究人员披露带有利用概念验证和补丁指南的漏洞，软件供应链工具阻止有漏洞的代码和受损依赖项进入生产环境，EDR和SIEM合作伙伴检测野外利用情况，网络和安全提供商在修复推出时部署WAF级别的缓解措施。\n\nGPT‑5.5与网络安全可信访问是该工作的广泛起点。它可以帮助经过验证的防御者更快地跨越安全生命周期，而GPT‑5.5‑Cyber则让少数合作伙伴研究高级工作流，其中专门的访问行为可能很重要。目标是帮助安全生态系统更快地保护客户，然后从合作伙伴反馈中学习，了解哪些地方需要更严格的评估、验证或保障措施。\n\n**网络和安全提供商**\n\n网络和安全提供商可以在修复仍在推出时减少暴露。当防御者验证漏洞并监控利用情况时，他们还可以部署WAF规则、边缘缓解措施和配置更改，从而在受影响系统全部修复之前削弱可能的攻击路径。GPT‑5.5可以支持跨复杂环境的规则审查、配置分析、事件调查和安全变更管理。\n\n我们正与这些合作伙伴合作，帮助我们评估这些能力如何转化为客户可以在互联网规模上部署的保护措施，包括对快速减少暴露至关重要的关键基础设施和公共服务。\n\n> “在思科，我们将前沿模型视为防御者的强大力量倍增器。像GPT-5.5这样的模型正在从根本上改变我们运营的速度，使我们能够更快地处理从事件调查到主动减少暴露的一切事务。但速度不能以信任为代价。这项技术的真正价值不仅在于模型本身，还在于我们围绕它构建的企业级框架。一个帮助我们制造更安全产品的框架。我们的重点是利用这些新能力转变我们的安全开发和运营流程。对我们来说，关键在于实现既快速又可靠的创新。”\n\n— Anthony Grieco，思科高级副总裁、首席安全与信任官\n\n**漏洞研究与补丁**\n\n飞轮始于发现漏洞、验证其严重性并修补受影响系统。GPT‑5.5与网络安全可信访问可以帮助完成大部分工作：理解不熟悉的代码、映射受影响面、追踪根本原因、审查补丁、构建安全复现工具、确定严重性优先级，并将发现转化为修复指南。\n\n某些漏洞研究需要更宽松的行为，特别是当授权合作伙伴需要利用概念验证进行协调披露或受控验证时。这些是GPT‑5.5‑Cyber可以帮助我们在更严格的验证、监控和反馈循环下，与少数合作伙伴学习的工作流。\n\n> “英特尔是硅片和软件领域的领导者，为全球计算行业提供可信基础。随着AI模型在推理和速度方面的不断进步，它们识别、分析和帮助缓解安全威胁的能力变得越来越关键。英特尔期待与OpenAI合作，将受治理、可扩展的AI能力引入现实世界的网络安全工作流——帮助企业加速漏洞研究、强化修复流程，并以更大规模安全运营。”\n\n— Dhinesh Manoharan，英特尔公司INT31安全研究负责人\n\n**检测与监控**\n\n如果易受攻击的软件已经部署，下一个问题是是否有人正在利用它。EDR、SIEM、IGA/PAM和监控合作伙伴将新的公告转化为来自实时环境的证据：遥测、警报、检测和响应工作流。GPT‑5.5可以帮助分析师连接这些信号，总结重要内容，起草检测规则，并更快地从披露过渡到调查。同样的循环在云环境中尤为重要，因为暴露、修复和检测紧密耦合。\n\n> “在SentinelOne，AI的真正价值在于它如何快速帮助我们为防御者将信号转化为可操作的优势。GPT-5.5帮助分析师连接遥测数据，聚焦关键事项，并加强组织调查、检测和响应新兴威胁的方式。”\n\n— Gregor Stewart，SentinelOne首席AI官\n\n**软件供应链安全**\n\n下一步是首先防止已知的恶意代码进入生产环境。一旦漏洞或软件包被攻破，软件供应链工具可以帮助阻止有风险的依赖项、恶意更新和有漏洞的代码路径在客户环境中传播。GPT‑5.5与网络安全可信访问可以帮助检查依赖项变更，推理自有代码的可利用性，确定修复优先级，并在开发周期早期发现可疑的软件包行为。\n\nSnyk、Gen Digital、Semgrep和Socket等合作伙伴可以帮助我们测试这些能力如何应用于类似axios被攻破的事件，其中最快的修复是防止有漏洞或受损的依赖项进入构建过程。\n\n> “攻击者已经在武器化前沿模型。通过部署OpenAI的网络安全可信访问和GPT-5.5，我们为Snyk的防御者提供了保护关键供应链所需的能力。这一合作不仅是一个里程碑，更是一种战略必要性。”\n\n— Manoj Nair，Snyk首席创新官\n\n## 面向开源和防御者的Codex Security\n\n开源是漏洞在生态系统中传播最快的方式之一，因此我们也在上游与维护者进行投入。[Codex Security](https://openai.com/index/codex-security-now-in-research-preview/)通过构建特定于代码库的威胁模型、探索现实攻击路径、在隔离环境中验证问题以及提出供人工审查的补丁，帮助团队识别、验证和修复漏洞。\n\n通过[Codex for Open Source](https://openai.com/form/codex-for-oss/)，关键项目的选定维护者可以获得Codex Security的条件访问权限，以及Codex和API积分，以减少维护和审查负担。\n\n我们还发布了一个[Codex Security插件](codex://plugins/codex-security@openai-curated)，将现有的安全工作流直接引入任何Codex界面（如应用程序或CLI），帮助开发者从威胁建模过渡到发现、验证、攻击路径分析和已验证的修复。\n\n## 展望未来\n\n随着模型在网络安全领域的能力日益增强，这些能力的最佳用途是帮助防御者更快地发现并修复弱点。要负责任地扩大对这些能力的访问，就需要更可靠地确认用户身份、其目标系统以及工作是否获得授权。随着更强的身份与组织验证、经批准的用途范围界定以及滥用监控的改进，我们预计未来访问权限将逐步扩大。\n\n获取“网络安全可信访问”的流程十分简便：\n\n*   个人用户可通过 [chatgpt.com/cyber⁠⁠（在新窗口中打开）](http://chatgpt.com/cyber?openaicom-did=5ad5d4d9-0b34-4104-af2f-6c0f2bceffe7&openaicom_referred=true&openaicom-did=69a74761-254a-482f-a165-a1445da210d9&openaicom_referred=true) 验证身份。\n*   企业可通过其 OpenAI 代表 [申请团队可信访问⁠](https://openai.com/form/enterprise-trusted-access-for-cyber/)。\n\n所有通过此流程获批的客户将获得现有模型的特定版本，这些版本减少了可能触发双重用途网络活动的安全防护限制，从而使其能够继续支持安全教育、防御性编程以及负责任的漏洞研究。\n\n在 Alpha 测试期间，GPT‑5.5‑Cyber 已被用于扩展关键系统的自动化红队测试，并验证了高严重性漏洞。我们将在未来的技术深度解析中记录这些内容，作为负责任的披露流程的一部分。\n\n我们预计将继续通过多种模型加速防御者能力提升，包括通过“网络安全可信访问”提供的旗舰模型，以及像 GPT‑5.5‑Cyber 这样的专用网络模型，未来还将推出能力更强的网络模型。",
-      "titleZh": "扩展GPT-5.5和GPT-5.5-Cyber的可信网络访问",
-      "summaryZh": "OpenAI通过GPT-5.5和GPT-5.5-Cyber扩展可信网络访问，帮助经过验证的防御者加速漏洞研究并保护关键基础设施。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-05-07T13:00:00.000Z",
-      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-      "collectedAt": "2026-08-05T05:34:49.552Z"
-    },
-    {
-      "id": "a85e45ec64d171874029",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Parloa builds service agents customers want to talk to",
-      "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
-      "content": "In Parloa’s early days, Co-founder Stefan Ostwald spent a day inside an insurance call center, where his team had been building early voice experiences. Sitting alongside agents, he listened to the same conversations play out again and again: password resets, policy questions, routine changes. He realized much of that work could be automated.\n\nAfter that experience, Berlin-based [Parloa⁠(opens in a new window)](https://www.parloa.com/) began building rule-based voice agents to automate high-volume customer interactions.\n\nWith the emergence of ChatGPT, the company evolved to build what is now its AI Agent Management Platform (AMP), built on a new generation of models including GPT‑5.4.\n\nAMP gives enterprises a way to design, deploy, and manage customer service interactions at scale. Instead of mapping out rigid intents and flows, teams define behavior in natural language, connect to internal systems, and iterate quickly using built-in simulations and evaluations.\n\nParloa runs these interactions end to end, handling everything from simple routing to complex, multi-step requests. The focus is on consistency in production, where performance, latency, and edge cases all matter. To get there, Parloa continuously tests models against real customer scenarios before deploying them.\n\n> “The models only matter if they work in production. We work closely with OpenAI on how to make the models fast and reliable enough for real-time conversations.”\n\n—Ciaran O’Reilly Ibañez, Engineering Manager at Parloa\n\n## Designing AMP for enterprise builders\n\nParloa’s Agent Management Platform (AMP) is designed for business users and subject matter experts to be able to build AI agents without writing code.\n\n“With AMP, we can have subject matter experts from different business units actually build the agents and connect the APIs in a much leaner and simpler way,” says O’Reilly.\n\nAt a high level, AMP allows brands to manage the entire AI agent lifecycle. It does that by giving non-technical teams a simpler way to define how an agent should behave before it ever goes live. Instead of writing code or mapping rigid intent trees, subject matter experts set the agent’s role, instructions, tools, and boundaries in natural language. That configuration becomes the basis for how the model is prompted and how the system behaves in production.\n\nOnce defined, the agent is tested before deployment. Parloa simulates customer conversations using models like GPT‑5.4, with one model acting as the caller and another running the configured agent. Teams can inspect these interactions directly, test changes against realistic scenarios, and iterate before going live.\n\nThe same models are then used to evaluate those conversations using a mix of deterministic checks and LLM-as-a-judge scoring. This shows whether the agent followed instructions, used tools correctly, and completed the task as expected.\n\nDuring a live conversation, AMP’s orchestration layer prompts an OpenAI model with the agent configuration and conversation context to generate a response, retrieve information through RAG, or trigger tools to interact with customer backends. Parloa continuously updates this layer with the latest generation of models as they demonstrate clear gains in real world performance.\n\nAfter the conversation, separate OpenAI-powered workflows summarize the interaction, classify customer intent, and evaluate performance against defined rules.\n\nAs agents became more complex, maintaining a single, monolithic prompt became harder. Small changes could introduce unintended side effects. To address this, Parloa introduced a modular approach. Tasks like authentication, booking changes, or account updates can be separated into distinct sub-agents, improving instruction-following and making systems easier to evolve over time.\n\nAt the same time, the platform incorporates deterministic controls where reliability matters most. Enterprises can define structured API chains and event-based logic to ensure critical steps happen in the right order, balancing conversational flexibility with predictable execution.\n\nParloa uses models like GPT‑4.1, GPT‑5‑mini, and others to simulate realistic customer interactions before an agent ever goes live, then evaluates those interactions using a combination of LLM-as-a-judge and deterministic rules. This allows teams to test edge cases, iterate quickly, and validate performance before exposing customers to failure.\n\n## An evaluation-first approach\n\nParloa works primarily with large enterprises, where consistency matters as much as capability.\n\n“When a new model comes out, we run our benchmarking suite against it,” says Matthäus Deutsch, Senior Applied Scientist. “It’s very important for us that things do not only work in theoretical benchmarks but in actual real use cases.”\n\nInstead of relying on abstract benchmarks, Parloa mirrors real production agents and runs them through simulation and evaluation pipelines. These tests measure instruction-following reliability, API-calling consistency, latency, and overall performance under realistic conditions.\n\nThese evaluations determine which models are ready for production. Only models that perform reliably across real customer scenarios are deployed.\n\n“Enterprise customers face a real migration cost,” says Deutsch. “Once a system is working in production, they keep it stable and only switch when the benefits are clear.”\n\nAs a result, systems behave predictably in production, even at scale. Across millions of customer interactions, most conversations are resolved without friction. Even when calls are routed to human agents, escalation is rarely driven by failure. In one deployment, a global travel company reduced requests for a human agent by 80%.\n\nThis evaluation-first mindset has become a core differentiator, allowing Parloa to move quickly without sacrificing reliability in production.\n\n## Building for voice at global scale\n\nVoice introduces a different set of constraints than text-based chat. Every interaction runs through a low-latency pipeline: speech-to-text, model reasoning, and text-to-speech.\n\nThis pipeline makes latency critical. Even small delays in the model layer compound into noticeable pauses for the caller, shaping how models are selected and optimized.\n\nParloa works closely with OpenAI to optimize performance for real-time use cases, focusing on latency, response quality, and instruction following. The team continuously evaluates and stress-tests new model iterations in production-like environments before rolling them out to live customer interactions.\n\nParloa evaluates each component of the voice stack independently:\n\n*   **Speech-to-text** systems are tested for word error rate, especially for sensitive inputs like policy numbers or account identifiers.\n*   **Text-to-speech** models are evaluated through blind listening tests to assess how natural the voice sounds to real users. Those results are then checked against real customer interactions to ensure consistent performance in production environments.\n*   **Speech-to-speech** models are currently being evaluated for production readiness, with a focus on latency, accuracy, and cost.\n\nFrom the beginning, these systems have been built for global deployment. Benchmarks span multiple languages, with customers operating across regions worldwide. This multilingual rigor reflects both Parloa’s European roots and the expectations of enterprise customers, who require consistent performance across markets, not just in a single language or region.\n\nToday, Parloa’s agents handle millions of conversations across industries including retail, travel, and insurance, supporting use cases that range from support automation to revenue-generating flows such as teleshopping.\n\n## Changing tech for changing customer journeys\n\nParloa sees customer service evolving into a fully multimodal experience.\n\nA conversation might start on the phone, continue in chat, and include links or interactive elements along the way. Instead of treating each step as a separate flow, AMP is designed to handle it as a single interaction. Over time, AI agents may become as central to customer journeys as websites and mobile apps.\n\nAs enterprises move toward automating a growing share of customer interactions, Parloa is focused on making AI agents reliable enough, flexible enough, and trusted enough to operate at global scale.",
-      "contentZh": "在 Parloa 的早期，联合创始人 Stefan Ostwald 在一家保险呼叫中心待了一天，他的团队当时正在那里构建早期的语音体验。他坐在客服旁边，一遍又一遍地听着同样的对话：密码重置、保单问题、常规变更。他意识到，其中大部分工作都可以自动化。\n\n在那次经历之后，总部位于柏林的 [Parloa⁠（在新窗口中打开）](https://www.parloa.com/) 开始构建基于规则的语音代理，以自动化高容量的客户交互。\n\n随着 ChatGPT 的出现，该公司逐步发展，构建了现在的 AI 代理管理平台（AMP），该平台基于包括 GPT‑5.4 在内的新一代模型。\n\nAMP 为企业提供了一种大规模设计、部署和管理客户服务交互的方式。团队无需规划僵化的意图和流程，而是用自然语言定义行为，连接到内部系统，并使用内置的模拟和评估功能快速迭代。\n\nParloa 端到端地运行这些交互，处理从简单路由到复杂的多步骤请求的所有事务。重点在于生产环境中的一致性，其中性能、延迟和边缘情况都至关重要。为此，Parloa 在部署之前会持续针对真实客户场景测试模型。\n\n> “模型只有在生产中有效才重要。我们与 OpenAI 密切合作，研究如何让模型足够快速和可靠，以支持实时对话。”\n\n—Ciaran O’Reilly Ibañez，Parloa 工程经理\n\n## 为企业构建者设计 AMP\n\nParloa 的代理管理平台（AMP）旨在让业务用户和领域专家无需编写代码即可构建 AI 代理。\n\n“借助 AMP，我们可以让来自不同业务部门的领域专家以更精简、更简单的方式实际构建代理并连接 API，”O’Reilly 说。\n\n从高层次来看，AMP 允许品牌管理整个 AI 代理生命周期。它通过为非技术团队提供一种更简单的方式来定义代理在投入使用前应如何表现。领域专家无需编写代码或映射僵化的意图树，而是用自然语言设置代理的角色、指令、工具和边界。该配置成为模型提示方式以及系统在生产中行为方式的基础。\n\n一旦定义完成，代理会在部署前进行测试。Parloa 使用 GPT‑5.4 等模型模拟客户对话，其中一个模型充当呼叫者，另一个运行配置好的代理。团队可以直接检查这些交互，针对真实场景测试更改，并在上线前进行迭代。\n\n然后，使用相同的模型，通过确定性检查与 LLM 作为评判者的评分相结合的方式，来评估这些对话。这可以显示代理是否遵循了指令、是否正确使用了工具，以及是否按预期完成了任务。\n\n在实时对话期间，AMP 的编排层使用代理配置和对话上下文提示 OpenAI 模型，以生成响应、通过 RAG 检索信息或触发工具与客户后端交互。Parloa 会持续使用最新一代模型更新这一层，因为这些模型在实际性能上展现出明显的提升。\n\n对话结束后，由 OpenAI 驱动的独立工作流会总结交互内容、分类客户意图，并根据定义的规则评估性能。\n\n随着代理变得越来越复杂，维护单一的、庞大的提示变得愈发困难。微小的更改可能会引入意想不到的副作用。为了解决这个问题，Parloa 引入了一种模块化方法。身份验证、预订更改或账户更新等任务可以分离到不同的子代理中，从而改进指令遵循，并使系统更容易随时间演进。\n\n同时，该平台在可靠性最重要的地方引入了确定性控制。企业可以定义结构化的 API 链和基于事件的逻辑，以确保关键步骤按正确顺序发生，从而在对话灵活性与可预测执行之间取得平衡。\n\nParloa 使用 GPT‑4.1、GPT‑5‑mini 等模型，在代理上线前模拟真实的客户交互，然后使用 LLM 作为评判者与确定性规则相结合的方式评估这些交互。这使得团队能够测试边缘情况、快速迭代，并在让客户面对失败之前验证性能。\n\n## 评估优先的方法\n\nParloa 主要与大型企业合作，在这些企业中，一致性与能力同样重要。\n\n“当新模型发布时，我们会针对它运行我们的基准测试套件，”高级应用科学家 Matthäus Deutsch 说。“对我们来说，事情不仅在理论基准上有效，而且在实际用例中也有效，这一点非常重要。”\n\nParloa 不依赖抽象的基准测试，而是模拟真实的生产代理，并通过模拟和评估管道运行它们。这些测试衡量指令遵循的可靠性、API 调用的一致性、延迟以及在真实条件下的整体性能。\n\n这些评估决定了哪些模型可以投入生产。只有那些在真实客户场景中表现可靠的模型才会被部署。\n\n“企业客户面临着真正的迁移成本，”Deutsch 说。“一旦系统在生产中运行，他们会保持其稳定，只有在收益明确时才会切换。”\n\n因此，系统在生产中表现可预测，即使在大规模下也是如此。在数百万次客户交互中，大多数对话都能无摩擦地解决。即使呼叫被转接给人工客服，升级也很少是由失败驱动的。在一次部署中，一家全球旅游公司将请求人工客服的次数减少了 80%。\n\n这种评估优先的思维方式已成为一个核心差异化因素，使 Parloa 能够快速行动，同时不牺牲生产中的可靠性。\n\n## 为全球规模的语音构建\n\n语音引入了一组与基于文本的聊天不同的约束条件。每次交互都通过一个低延迟管道运行：语音转文本、模型推理和文本转语音。\n\n这个管道使得延迟至关重要。即使是模型层的微小延迟也会累积成呼叫者能注意到的明显停顿，从而影响模型的选择和优化方式。\n\nParloa 与 OpenAI 密切合作，优化实时用例的性能，重点关注延迟、响应质量和指令遵循。团队会在将新的模型迭代版本部署到实时客户交互之前，在类似生产的环境中持续评估和压力测试它们。\n\nParloa 独立评估语音栈的每个组件：\n\n*   **语音转文字**系统通过词错误率进行测试，尤其针对保单号或账户标识符等敏感输入。\n*   **文字转语音**模型通过盲听测试进行评估，以判断语音对真实用户而言的自然程度。随后，这些结果会与真实客户交互进行比对，确保在生产环境中性能一致。\n*   **语音转语音**模型目前正针对生产就绪性进行评估，重点关注延迟、准确性和成本。\n\n从一开始，这些系统就为全球部署而构建。基准测试涵盖多种语言，客户遍布全球各地区。这种多语言的严谨性既反映了Parloa的欧洲根基，也体现了企业客户的期望——他们要求跨市场（而非单一语言或地区）保持一致的性能。\n\n如今，Parloa的智能助手在零售、旅游和保险等行业处理数百万次对话，支持从自动化客服到电话购物等创收流程的多种用例。\n\n## 技术变革，适应不断变化的客户旅程\n\nParloa认为客户服务正在演变为完全多模态的体验。\n\n一次对话可能始于电话，在聊天中继续，并沿途包含链接或交互元素。AMP并非将每个步骤视为独立流程，而是将其设计为单一交互来处理。随着时间推移，AI智能助手可能变得与网站和移动应用一样，成为客户旅程的核心。\n\n随着企业趋向于自动化越来越多的客户交互，Parloa专注于让AI智能助手足够可靠、足够灵活且足够值得信赖，以在全球范围内运行。",
-      "titleZh": "Parloa打造客户愿意与之交谈的服务代理",
-      "summaryZh": "Parloa利用OpenAI模型驱动可扩展的、基于语音的AI客户服务代理，使企业能够设计、模拟和部署可靠的实时交互。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-05-07T11:00:00.000Z",
-      "url": "https://openai.com/index/parloa",
-      "collectedAt": "2026-08-05T05:34:49.553Z"
-    },
-    {
-      "id": "49f9c0fa1eff8ff85985",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Advancing voice intelligence with new models in the API",
-      "summary": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
-      "content": "We’re introducing three audio models in the API that unlock a new class of voice apps for developers. With these models, developers can build voice experiences that feel more natural, respond more intelligently, and take action in real time:\n\n*   **GPT‑Realtime‑2**, our first voice model with GPT‑5‑class reasoning that can handle harder requests and carry the conversation forward naturally.\n*   **GPT‑Realtime‑Translate**, a new live translation model that translates speech from 70+ input languages into 13 output languages while keeping pace with the speaker.\n*   **GPT‑Realtime‑Whisper**, a new streaming speech-to-text that transcribes speech live as the speaker talks.\n\n## Try GPT-Realtime-2\n\nStart the session, then talk naturally with GPT-Realtime-2.\n\nWhat can I ask?\n\nAfter you start the session, try saying one of these:\n\n*   I’m hosting a last-minute dinner tonight. I have 30 minutes, two vegetarian friends, one mushroom-hater, and a tiny kitchen. Help me plan a simple menu.\n*   I’m welcoming guests to a live event in Japan. Say a warm, natural welcome in Japanese — like a host kicking off something special.\n*   My order number is Orbit-742Q. Repeat it back clearly so I can confirm it’s right.\n*   Help me practice telling my team we hit our launch milestone. First say it with quiet confidence, then with more excitement.\n*   I’m planning trivia for a road trip. Give me three trick questions that sound deceivingly simple, then explain each answer in one sentence.\n\nThis demo is time-limited. By using it, you agree to OpenAI's [Terms](https://openai.com/policies/terms-of-use/) and acknowledge our [Privacy Policy](https://openai.com/policies/privacy-policy/).\n\nVoice is becoming one of the most natural ways for people to use software. It lets someone ask for help while driving, change a travel plan while walking through an airport, get support in their preferred language, or move through a task without stopping to type.\n\nBut building useful voice products takes more than fast turn-taking or a natural-sounding voice. A voice agent needs to understand what someone means, keep track of context, recover when a request changes, use tools while the conversation continues, and respond in a way that feels appropriate to the moment.\n\nTogether, the models we are launching move realtime audio from simple call-and-response toward voice interfaces that can actually do work: listen, reason, translate, transcribe, and take action as a conversation unfolds.\n\n## Voice as an interface between people and products\n\nAs voice becomes a more natural way to use software, we’re seeing developers build around three emerging patterns in voice AI:\n\n*   **Voice-to-action,**where people can describe what they need and the system can reason through the request, use tools, and complete the task. For example, Zillow is building an assistant that can listen, reason, and act on requests like: “find me homes within my BuyAbility, avoid busy streets, and schedule a tour for Saturday.”\n*   **Systems-to-voice,**where software can turn context into live spoken guidance. For example, a travel app could proactively tell a traveler: “Your inbound flight is delayed, but you can still make your connection. I found the new gate, mapped the fastest route through the terminal, and your bag is still expected to transfer.”\n*   **Voice-to-voice,**where AI can help live conversations continue across languages, tasks, or changing context. For example, Deutsche Telekom is building voice support experiences where customers can speak in the language they’re most comfortable using, while the model translates the conversation in real time.\n\nThese patterns can also work together. Priceline is working toward a future where travelers can manage entire trips by voice: searching for flights and hotels conversationally, handling changes like adjusting a hotel reservation after a flight delay or getting real-time updates on TSA wait times, and translating conversations once travelers are on the ground.\n\n## Realtime voice: helping voice models reason and take action\n\nGPT‑Realtime‑2 is built for live voice interactions where the model keeps the conversation moving while it reasons through a request, calls tools, handles corrections or interruptions, and responds in a way that fits the moment.\n\n*   **Preambles:** Developers can enable short phrases before a main response, like “let me check that” or “one moment while I look into it,” so users know the agent is working on the request.\n*   **Parallel tool calls and tool transparency:** The model can call multiple tools at once and make those actions audible with phrases like “checking your calendar” or “looking that up now,” helping agents stay responsive while completing tasks.\n*   **Stronger recovery behavior:** The model can recover more gracefully by saying things like “I’m having trouble with that right now,” instead of failing silently or breaking the conversation.\n*   **Longer context for agentic workflows:** We’re increasing the context window from 32K to 128K to support longer, more coherent sessions and more complex task flows.\n*   **Stronger domain understanding:** The model better retains specialized terminology, proper nouns, healthcare terms, and other vocabulary that matters in production settings.\n*   **More controllable tone and delivery:** The model can better adjust its tone—speaking calmly while resolving an issue, empathetically when a user is frustrated, or upbeat when confirming a successful action.\n*   **Adjustable reasoning effort:** Developers can now select from **minimal, low, medium, high, and xhigh** reasoning levels, with **low as the default**, balancing lower latency for straightforward interactions with more deliberate reasoning for complex requests.\n\nThe gains show up on audio evals that map closely to production voice agents: GPT‑Realtime‑2 (high) scores 15.2% higher on Big Bench Audio for audio intelligence than GPT‑Realtime‑1.5. GPT‑Realtime‑2 (xhigh) scores 13.8% higher on Audio MultiChallenge for instruction following, improving over GPT‑Realtime‑1.5 and showing stronger reasoning, context management, and control in live conversations.\n\n[Big Bench Audio⁠](https://artificialanalysis.ai/methodology/speech-to-speech-benchmarking) evaluates challenging reasoning capabilities in language models that support audio input. [Audio MultiChallenge⁠(opens in a new window)](https://labs.scale.com/leaderboard/audiomc-audio) evaluates multi-turn conversational intelligence in spoken dialogue systems, including instruction following, context integration, self-consistency, and handling natural speech corrections.\n\nThe magic of GPT‑Realtime‑2 shows up across a variety of different use cases:\n\nUser\n\nI'm considering a 900-square-foot indie coffee shop beside a commuter rail station. Foot traffic peaks Tuesday through Thursday from 7 to 10 a.m.; Mondays, Fridays, and afternoons are much softer. The lease is expensive, but I love the idea of cozy seating, slow pour-overs, and local pastries. Give me a strategic pre-mortem: if this fails after a year, what probably happened? Then suggest the smallest version of the business I should test before committing to the full cafe.\n\n[Audio 7](https://cdn.openai.com/ctf-cdn/realtime2/strategic-reasoning/realtime-2.wav)\n\n0:00 1:04\n\n[Audio 8](https://cdn.openai.com/ctf-cdn/realtime2/strategic-reasoning/realtime-1-5.wav)\n\n0:00 0:51\n\nDuring early testing, businesses used GPT‑Realtime‑2 to build voice agents that help customers and employees get things done through natural conversation:\n\n> “What stood out about GPT-Realtime-2 was the intelligence and tool-calling reliability it brings to complex voice interactions. On our hardest adversarial benchmark, this translates to a 26-point lift in call success rate after prompt optimization (95% vs. 69%). GPT-Realtime-2 is also materially more robust on Fair Housing compliance, which is critical for our business. The combination of agentic competence and guardrail strength is what makes it viable for production voice at Zillow.”\n\n— Josh Weisberg, SVP and Head of AI at Zillow\n\n## Realtime translation: build live multilingual voice experiences\n\nGPT‑Realtime‑Translate helps developers build live multilingual voice experiences where each person can speak in their preferred language and hear the conversation translated in real time and read the real time transcriptions. It supports more than 70 input languages and 13 output languages, making it useful for customer support, cross-border sales, education, events, media, and creator platforms serving global audiences.\n\nFor developers, live translation needs to preserve meaning while keeping pace with the speaker, even when people speak naturally, switch context, or use regional pronunciation and domain-specific language. For example, Deutsche Telekom is testing the model for multilingual voice interactions, where lower latency and stronger fluency can make cross-language conversations feel more natural.\n\nIn this video, Vimeo shows how GPT‑Realtime‑Translate can translate a product education video live as it plays, so global customers can hear updates in their preferred language without waiting for a separately produced version.\n\n> “Building voice AI for India means handling diverse regional phonetics. In our evals across Hindi, Tamil, and Telugu, GPT-Realtime-Translate delivered 12.5% lower Word Error Rates than any other model we tested, along with lower fallback rates, higher task completion, and latency that sustained natural conversation. It sets a new standard for multilingual voice AI.”\n\n— Prateek Sachan, Co-founder & CTO at BolnaAI\n\n## Realtime transcription: build low-latency transcription experiences\n\nGPT‑Realtime‑Whisper is a new streaming transcription model built for low-latency speech-to-text. It transcribes audio as people speak, so live products can feel faster, more responsive, and more natural—from captions that appear in the moment, to meeting notes that keep up with the conversation.\n\nThe model makes live speech usable inside business workflows as it happens. Teams can power captions for meetings, classrooms, broadcasts, and events; generate notes and summaries while conversations are still in progress; build voice agents that need to understand users continuously; and create faster follow-up workflows for customer support, healthcare, sales, recruiting, and other high-volume spoken interactions.\n\n## Safety\n\nThe Realtime API incorporates multiple layers of safeguards and mitigations to help prevent misuse. We employ active classifiers over Realtime API sessions, meaning certain conversations can be halted if they are detected as violating our harmful content guidelines. Developers can also easily add their own additional safety guardrails using the [Agents SDK⁠.⁠(opens in a new window)](https://openai.github.io/openai-agents-js/guides/guardrails/)\n\nOur [usage policies⁠⁠](https://openai.com/policies/usage-policies/) prohibit repurposing or distributing outputs from our services for spam, deception, or other harmful purposes. Developers must also make it clear to end users when they’re interacting with AI, unless it’s already obvious from the context.\n\n## Pricing & availability\n\nGPT‑Realtime‑2, GPT‑Realtime‑Translate and GPT‑Realtime‑Whisper are available in the Realtime API.GPT‑Realtime‑2 is priced at $32 / 1M audio input tokens ($0.40 for cached input tokens) and $64 / 1M audio output tokens. GPT‑Realtime‑Translate is priced at $0.034 per minute. GPT‑Realtime‑Whisper is priced at $0.017 per minute.\n\n## Get started\n\nTo start building, [open this prompt in Codex⁠](codex://new?prompt=Build+or+add+a+minimal+Realtime+2+WebRTC+voice+agent+using+the+gpt-realtime-2+model.%0A%0AUse+the+latest+OpenAI+Realtime+API+docs+for+the+WebRTC+and+session+setup+patterns.+If+this+folder+already+contains+an+app%2C+add+it+to+the+existing+app.+Otherwise%2C+create+a+small+local+web+app.+Add+a+server-side+session+endpoint+that+uses+OPENAI_API_KEY+and+posts+browser+SDP+to+%2Fv1%2Frealtime%2Fcalls+following+the+docs+exactly%3A+multipart+FormData+fields+named+sdp+and+session%2C+not+file+uploads.+Connect+browser+microphone+input+and+model+audio+output+with+RTCPeerConnection%2C+open+an+oai-events+data+channel%2C+and+register+one+sample+function+tool+with+session.update%3A+check_calendar%28date%2C+time%29%2C+which+returns+whether+the+requested+time+is+available.%0A%0AKeep+it+small+and+include+setup%2Frun+instructions.) to add GPT‑Realtime‑2 to an existing app or start a new one. If you don’t have Codex yet, download the [Codex app⁠](https://openai.com/codex/) first.",
-      "contentZh": "我们在API中推出了三款音频模型，为开发者解锁了全新类别的语音应用。借助这些模型，开发者可以构建更自然、响应更智能、并能实时采取行动的语音体验：\n\n*   **GPT‑Realtime‑2**，我们首款具备GPT‑5级别推理能力的语音模型，能处理更复杂的请求，并自然地推进对话。\n*   **GPT‑Realtime‑Translate**，一款全新的实时翻译模型，可将70多种输入语言的语音翻译成13种输出语言，且与说话者保持同步。\n*   **GPT‑Realtime‑Whisper**，一款全新的流式语音转文本模型，可在说话者讲话时实时转录语音。\n\n## 试用 GPT-Realtime-2\n\n开始会话，然后与 GPT-Realtime-2 自然对话。\n\n我可以问什么？\n\n开始会话后，尝试说出以下内容之一：\n\n*   我今晚要临时举办一场晚宴。我只有30分钟，两位素食朋友，一位不吃蘑菇，厨房也很小。帮我计划一个简单的菜单。\n*   我正在日本迎接一场现场活动的来宾。用日语说一句温暖自然的欢迎词——就像主持人开启一场特别活动那样。\n*   我的订单号是 Orbit-742Q。请清晰地复述一遍，以便我确认无误。\n*   帮我练习告诉团队我们达成了发布里程碑。先用沉稳自信的语气说，再用更兴奋的语气说。\n*   我正在为一次公路旅行准备趣味问答。给我三个看似简单实则狡猾的问题，然后用一句话解释每个答案。\n\n此演示有时间限制。使用即表示您同意 OpenAI 的[条款](https://openai.com/policies/terms-of-use/)并确认我们的[隐私政策](https://openai.com/policies/privacy-policy/)。\n\n语音正成为人们使用软件最自然的方式之一。它让人可以在开车时寻求帮助，在机场穿行时更改旅行计划，用自己偏好的语言获得支持，或在执行任务时无需停下来打字。\n\n但构建有用的语音产品，需要的不仅仅是快速的轮流发言或听起来自然的语音。语音代理需要理解说话者的意图，跟踪上下文，在请求发生变化时恢复，在对话进行中使用工具，并以适合当下情境的方式做出回应。\n\n我们推出的这些模型共同将实时音频从简单的问答式交互，转变为能够实际执行工作的语音界面：在对话展开的过程中倾听、推理、翻译、转录并采取行动。\n\n## 语音作为人与产品之间的界面\n\n随着语音成为使用软件更自然的方式，我们看到开发者正围绕语音AI的三种新兴模式进行构建：\n\n*   **语音到行动**，人们可以描述自己的需求，系统能推理请求、使用工具并完成任务。例如，Zillow 正在构建一个助手，它可以倾听、推理并对诸如“根据我的购买能力找房子，避开繁忙街道，并安排周六看房”这样的请求采取行动。\n*   **系统到语音**，软件可以将上下文转化为实时的语音指导。例如，旅行应用可以主动告诉旅行者：“您的进港航班延误了，但您仍然可以赶上转机。我找到了新的登机口，规划了航站楼内最快的路线，您的行李预计仍能转运。”\n*   **语音到语音**，AI 可以帮助实时对话跨越语言、任务或不断变化的上下文继续进行。例如，德国电信正在构建语音支持体验，客户可以使用他们最熟悉的语言说话，而模型则实时翻译对话。\n\n这些模式也可以协同工作。Priceline 正朝着这样一个未来努力：旅行者可以通过语音管理整个行程——用对话方式搜索航班和酒店，处理诸如航班延误后调整酒店预订等变更，获取TSA等待时间的实时更新，并在旅行者落地后翻译对话。\n\n## 实时语音：帮助语音模型推理和采取行动\n\nGPT‑Realtime‑2 专为实时语音交互而构建，在此类交互中，模型在推理请求、调用工具、处理更正或打断，并以适合当下情境的方式做出响应的同时，保持对话的推进。\n\n*   **开场白：** 开发者可以在主要回复之前启用简短的短语，例如“让我查一下”或“请稍等，我正在查看”，以便用户知道代理正在处理请求。\n*   **并行工具调用与工具透明度：** 模型可以同时调用多个工具，并通过“正在检查您的日历”或“正在查找”等短语使这些操作可闻，帮助代理在完成任务的同时保持响应性。\n*   **更强的恢复行为：** 模型可以通过说“我现在遇到了一些问题”等方式更优雅地恢复，而不是静默失败或中断对话。\n*   **更长的上下文以支持代理工作流：** 我们将上下文窗口从32K增加到128K，以支持更长、更连贯的会话和更复杂的任务流程。\n*   **更强的领域理解：** 模型能更好地保留专业术语、专有名词、医学术语以及其他在生产环境中重要的词汇。\n*   **更可控的语气和表达：** 模型能更好地调整其语气——在解决问题时冷静地说话，在用户沮丧时富有同理心地说话，或在确认成功操作时用欢快的语气说话。\n*   **可调节的推理努力：** 开发者现在可以从**最小、低、中、高和极高**推理级别中进行选择，**默认设置为低**，在简单交互的低延迟与复杂请求的更审慎推理之间取得平衡。\n\n这些提升体现在与生产级语音代理密切相关的音频评估中：GPT‑Realtime‑2（高）在 Big Bench Audio 上的音频智能得分比 GPT‑Realtime‑1.5 高出 15.2%。GPT‑Realtime‑2（极高）在 Audio MultiChallenge 上的指令跟随得分比 GPT‑Realtime‑1.5 高出 13.8%，显示出在实时对话中更强的推理、上下文管理和控制能力。\n\n[Big Bench Audio⁠](https://artificialanalysis.ai/methodology/speech-to-speech-benchmarking) 评估支持音频输入的语言模型中的挑战性推理能力。[Audio MultiChallenge⁠（在新窗口中打开）](https://labs.scale.com/leaderboard/audiomc-audio) 评估口语对话系统中的多轮对话智能，包括指令跟随、上下文整合、自洽性以及处理自然语音纠正的能力。\n\nGPT‑Realtime‑2 的神奇之处体现在各种不同的用例中：\n\n用户：\n\n我正在考虑在通勤铁路站旁开一家900平方英尺的独立咖啡馆。周二至周四早上7点到10点是客流高峰；周一、周五和下午时段客流明显较少。租金很贵，但我喜欢舒适座位、慢冲手冲咖啡和本地糕点的理念。请给我一个战略性的\"事前验尸\"：如果这家店一年后失败，最可能的原因是什么？然后建议我在投入全部资金开咖啡馆之前，应该测试的最小业务版本。\n\n[音频 7](https://cdn.openai.com/ctf-cdn/realtime2/strategic-reasoning/realtime-2.wav)\n\n0:00 1:04\n\n[音频 8](https://cdn.openai.com/ctf-cdn/realtime2/strategic-reasoning/realtime-1-5.wav)\n\n0:00 0:51\n\n在早期测试中，企业使用GPT-Realtime-2构建语音助手，通过自然对话帮助客户和员工完成任务：\n\n> \"GPT-Realtime-2的突出之处在于它为复杂语音交互带来的智能和工具调用可靠性。在我们最难的对抗性基准测试中，经过提示优化后，通话成功率提升了26个百分点（95%对69%）。GPT-Realtime-2在公平住房合规方面也明显更稳健，这对我们的业务至关重要。代理能力与护栏强度的结合，使其在Zillow的生产级语音应用中成为可行方案。\"\n>\n> — Josh Weisberg，Zillow高级副总裁兼AI负责人\n\n## 实时翻译：构建实时多语言语音体验\n\nGPT-Realtime-Translate帮助开发者构建实时多语言语音体验，让每个人都能用自己偏好的语言说话，并实时听到翻译后的对话、阅读实时转录文本。它支持超过70种输入语言和13种输出语言，适用于客户支持、跨境销售、教育、活动、媒体以及服务全球受众的创作者平台。\n\n对于开发者而言，实时翻译需要在跟上说话者语速的同时保留语义，即使人们自然说话、切换语境或使用地区发音和领域特定语言也是如此。例如，德国电信正在测试该模型用于多语言语音交互，更低的延迟和更强的流畅性可以让跨语言对话感觉更自然。\n\n在这段视频中，Vimeo展示了GPT-Realtime-Translate如何在播放过程中实时翻译产品教育视频，让全球客户无需等待单独制作的版本，就能用自己偏好的语言听到更新内容。\n\n> \"为印度构建语音AI意味着要处理多样化的地区语音。在我们对印地语、泰米尔语和泰卢固语的评估中，GPT-Realtime-Translate的词错误率比我们测试的任何其他模型低12.5%，同时回退率更低、任务完成度更高、延迟更短，能维持自然对话。它为多语言语音AI树立了新标准。\"\n>\n> — Prateek Sachan，BolnaAI联合创始人兼CTO\n\n## 实时转录：构建低延迟转录体验\n\nGPT-Realtime-Whisper是一款全新的流式转录模型，专为低延迟语音转文本而设计。它能在人们说话时实时转录音频，让直播产品感觉更快、更灵敏、更自然——从即时出现的字幕，到跟上对话节奏的会议记录。\n\n该模型让实时语音能在业务工作流中即时使用。团队可以为会议、课堂、广播和活动提供字幕；在对话进行中生成笔记和摘要；构建需要持续理解用户的语音助手；并为客户支持、医疗、销售、招聘及其他高容量语音交互创建更快的后续工作流。\n\n## 安全性\n\nRealtime API集成了多层安全保障和缓解措施，以防止滥用。我们在Realtime API会话上使用主动分类器，这意味着如果检测到某些对话违反我们的有害内容指南，可以将其终止。开发者还可以使用[Agents SDK⁠.⁠（在新窗口中打开）](https://openai.github.io/openai-agents-js/guides/guardrails/)轻松添加自己的额外安全护栏。\n\n我们的[使用政策⁠⁠](https://openai.com/policies/usage-policies/)禁止将我们的服务输出用于垃圾邮件、欺骗或其他有害目的。开发者还必须明确告知最终用户他们正在与AI交互，除非从上下文中已经显而易见。\n\n## 定价与可用性\n\nGPT-Realtime-2、GPT-Realtime-Translate和GPT-Realtime-Whisper已在Realtime API中提供。GPT-Realtime-2定价为每100万音频输入令牌32美元（缓存输入令牌0.40美元），每100万音频输出令牌64美元。GPT-Realtime-Translate定价为每分钟0.034美元。GPT-Realtime-Whisper定价为每分钟0.017美元。\n\n## 开始使用\n\n要开始构建，[在Codex中打开此提示⁠](codex://new?prompt=Build+or+add+a+minimal+Realtime+2+WebRTC+voice+agent+using+the+gpt-realtime-2+model.%0A%0AUse+the+latest+OpenAI+Realtime+API+docs+for+the+WebRTC+and+session+setup+patterns.+If+this+folder+already+contains+an+app%2C+add+it+to+the+existing+app.+Otherwise%2C+create+a+small+local+web+app.+Add+a+server-side+session+endpoint+that+uses+OPENAI_API_KEY+and+posts+browser+SDP+to+%2Fv1%2Frealtime%2Fcalls+following+the+docs+exactly%3A+multipart+FormData+fields+named+sdp+and+session%2C+not+file+uploads.+Connect+browser+microphone+input+and+model+audio+output+with+RTCPeerConnection%2C+open+an+oai-events+data+channel%2C+and+register+one+sample+function+tool+with+session.update%3A+check_calendar%28date%2C+time%29%2C+which+returns+whether+the+requested+time+is+available.%0A%0AKeep+it+small+and+include+setup%2Frun+instructions.)将GPT-Realtime-2添加到现有应用或启动新应用。如果你还没有Codex，请先下载[Codex应用⁠](https://openai.com/codex/)。",
-      "titleZh": "通过API中的新模型推进语音智能",
-      "summaryZh": "探索OpenAI API中新的实时语音模型，这些模型能够推理、翻译和转录语音，实现更自然、更智能的语音体验。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-05-07T10:00:00.000Z",
-      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
-      "collectedAt": "2026-08-05T05:34:49.553Z"
+      "collectedAt": "2026-08-06T05:37:09.317Z"
     },
     {
       "id": "118693cb868e1641c9c1",
@@ -3008,7 +2974,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-04-24T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-05T05:34:53.581Z"
+      "collectedAt": "2026-08-06T05:37:15.591Z"
     },
     {
       "id": "aeb9a0b6e961ddd9394e",
@@ -3025,7 +2991,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-12-01T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-05T05:34:53.581Z"
+      "collectedAt": "2026-08-06T05:37:15.592Z"
     },
     {
       "id": "f43c8f46501ee2e8d8ed",
@@ -3042,7 +3008,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-09-29T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-05T05:34:53.582Z"
+      "collectedAt": "2026-08-06T05:37:15.593Z"
     },
     {
       "id": "de42c19b7c54bb0dc7ec",
@@ -3059,7 +3025,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-09-22T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-05T05:34:53.582Z"
+      "collectedAt": "2026-08-06T05:37:15.593Z"
     },
     {
       "id": "76cf3c1ca30cb079d970",
@@ -3076,7 +3042,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-08-21T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-05T05:34:53.583Z"
+      "collectedAt": "2026-08-06T05:37:15.594Z"
     }
   ]
 }
