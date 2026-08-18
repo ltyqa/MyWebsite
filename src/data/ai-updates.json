@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-17T03:38:51.196Z",
+  "updatedAt": "2026-08-18T03:35:06.286Z",
   "sources": [
     {
       "id": "openai-news",
@@ -42,7 +42,7 @@
       "id": "google-ai-news",
       "url": "https://blog.google/technology/ai/rss/",
       "status": "ok",
-      "count": 3
+      "count": 4
     },
     {
       "id": "deepseek-api",
@@ -52,6 +52,23 @@
     }
   ],
   "entries": [
+    {
+      "id": "87f8e936f22002253f15",
+      "sourceId": "google-ai-news",
+      "company": "Google",
+      "product": "Gemini",
+      "kind": "news",
+      "title": "Get closer to the game with Gemini and Pixel",
+      "summary": "Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and Smartphone Technology.",
+      "content": "[Skip to main content](https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/#jump-content)\n\n[![Image 1: Google](https://blog.google/static/blogv2/images/super-g-aurora.svg?version=pr20260729-1718)](https://blog.google/ \"News from Google\")\nGet closer to the game with Gemini and Pixel\n\n*    Innovation & AI \n*    Products & platforms \n*    Company news \n*   [Feed](https://blog.google/feed)\n\n[Subscribe](https://blog.google/newsletter-subscribe/)\n\n Back \n### Innovation & AI\n\n[See all in Innovation & AI](https://blog.google/innovation-and-ai/)\n*    Models & Research \n    *   [Google DeepMind](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/)\n    *   [Google Research](https://blog.google/innovation-and-ai/models-and-research/google-research/)\n    *   [Google Labs](https://blog.google/innovation-and-ai/models-and-research/google-labs/)\n    *   [Gemini models](https://blog.google/innovation-and-ai/models-and-research/gemini-models/)\n    *   [Quantum computing](https://blog.google/innovation-and-ai/models-and-research/quantum-computing/)\n    *   [See all](https://blog.google/innovation-and-ai/models-and-research/)\n\n*    Products \n    *   [Developer tools](https://blog.google/innovation-and-ai/technology/developers-tools/)\n    *   [Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/)\n    *   [Gemini Notebook](https://blog.google/innovation-and-ai/products/gemini-notebook/)\n    *   [See all](https://blog.google/innovation-and-ai/products/)\n\n*    Infrastructure & cloud \n    *   [Global network](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/)\n    *   [Google Cloud](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/)\n    *   [See all](https://blog.google/innovation-and-ai/infrastructure-and-cloud/)\n\n*    Technology \n    *   [Safety & Security](https://blog.google/innovation-and-ai/technology/safety-security/)\n    *   [Health](https://blog.google/innovation-and-ai/technology/health/)\n    *   [See all](https://blog.google/innovation-and-ai/technology/)\n\n* * *\n\nLearn more:\n\n*   [Google DeepMind blog](https://deepmind.google/blog/)\n*   [Google Research blog](https://research.google/blog/)\n*   [Google Developers blog](https://developers.googleblog.com/)\n*   [Google Cloud blog](https://cloud.google.com/blog)\n\n Back \n### Products & platforms\n\n[See all in Products & platforms](https://blog.google/products-and-platforms/)\n*    Products \n    *   [Search](https://blog.google/products-and-platforms/products/search/)\n    *   [Maps](https://blog.google/products-and-platforms/products/maps/)\n    *   [Chrome](https://blog.google/products-and-platforms/products/chrome/)\n    *   [Google Health](https://blog.google/products-and-platforms/products/google-health/)\n    *   [Google Workspace](https://blog.google/products-and-platforms/products/workspace/)\n    *   [Learning & Education](https://blog.google/products-and-platforms/products/education/)\n    *   [Shopping](https://blog.google/products-and-platforms/products/shopping/)\n    *   [See all](https://blog.google/products-and-platforms/products/)\n\n*    Platforms \n    *   [Android](https://blog.google/products-and-platforms/platforms/android/)\n    *   [Google Play](https://blog.google/products-and-platforms/platforms/google-play/)\n    *   [Wear OS](https://blog.google/products-and-platforms/platforms/wear-os/)\n    *   [See all](https://blog.google/products-and-platforms/platforms/)\n\n*    Devices \n    *   [Pixel](https://blog.google/products-and-platforms/devices/pixel/)\n    *   [Google Nest](https://blog.google/products-and-platforms/devices/google-nest/)\n    *   [Fitbit](https://blog.google/products-and-platforms/devices/fitbit/)\n    *   [Chromebooks](https://blog.google/products-and-platforms/devices/chromebooks/)\n    *   [See all](https://blog.google/products-and-platforms/devices/)\n\n* * *\n\nLearn more:\n\n*   [Google Ads & Commerce blog](https://blog.google/products/ads-commerce/)\n*   [Waze blog](https://blog.google/waze/)\n\n Back \n### Company news\n\n[See all in Company news](https://blog.google/company-news/)\n*    Outreach & initiatives \n    *   [Creating opportunity](https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/)\n    *   [Safety & security](https://blog.google/innovation-and-ai/technology/safety-security/)\n    *   [Google.org](https://blog.google/company-news/outreach-and-initiatives/google-org/)\n    *   [Public policy](https://blog.google/company-news/outreach-and-initiatives/public-policy/)\n    *   [Sustainability](https://blog.google/company-news/outreach-and-initiatives/sustainability/)\n    *   [Health](https://blog.google/innovation-and-ai/technology/health/)\n    *   [See all](https://blog.google/company-news/outreach-and-initiatives/)\n\n*    Leadership \n    *   [Sundar Pichai, CEO](https://blog.google/authors/sundar-pichai/)\n    *   [More authors](https://blog.google/authors/)\n    *   [See all](https://blog.google/authors/)\n\n*    Inside Google \n    *   [Around the globe](https://blog.google/company-news/inside-google/around-the-globe/)\n    *   [Life at Google](https://blog.google/company-news/inside-google/life-at-google/)\n    *   [See all](https://blog.google/company-news/inside-google/)\n\n* * *\n\nLearn more:\n\n*   [Google Security blog](https://blog.google/security/)\n\n*    Innovation & AI \n\n### Innovation & AI\n\n[See all in Innovation & AI](https://blog.google/innovation-and-ai/) \n\n    *   Models & Research\n\n        *   [Google DeepMind](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/)\n        *   [Google Research](https://blog.google/innovation-and-ai/models-and-research/google-research/)\n        *   [Google Labs](https://blog.google/innovation-and-ai/models-and-research/google-labs/)\n        *   [Gemini models](https://blog.google/innovation-and-ai/models-and-research/gemini-models/)\n        *   [Quantum computing](https://blog.google/innovation-and-ai/models-and-research/quantum-computing/)\n        *   [See all](https://blog.google/innovation-and-ai/models-and-research/ \"See all Models & Research articles\")\n\n    *   Products\n\n        *   [Developer tools](https://blog.google/innovation-and-ai/technology/developers-tools/)\n        *   [Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/)\n        *   [Gemini Notebook](https://blog.google/innovation-and-ai/products/gemini-notebook/)\n        *   [See all](https://blog.google/innovation-and-ai/products/ \"See all Products articles\")\n\n    *   Infrastructure & cloud\n\n        *   [Global network](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/)\n        *   [Google Cloud](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/)\n        *   [See all](https://blog.google/innovation-and-ai/infrastructure-and-cloud/ \"See all Infrastructure & cloud articles\")\n\n    *   Technology\n\n        *   [Safety & Security](https://blog.google/innovation-and-ai/technology/safety-security/)\n        *   [Health](https://blog.google/innovation-and-ai/technology/health/)\n        *   [See all](https://blog.google/innovation-and-ai/technology/ \"See all Technology articles\")\n\nLearn more:\n\n[Google DeepMind blog](https://deepmind.google/blog/)[Google Research blog](https://research.google/blog/)[Google Developers blog](https://developers.googleblog.com/)[Google Cloud blog](https://cloud.google.com/blog)\n\n*    Products & platforms \n\n### Products & platforms\n\n[See all in Products & platforms](https://blog.google/products-and-platforms/) \n\n    *   Products\n\n        *   [Search](https://blog.google/products-and-platforms/products/search/)\n        *   [Maps](https://blog.google/products-and-platforms/products/maps/)\n        *   [Chrome](https://blog.google/products-and-platforms/products/chrome/)\n        *   [Google Health](https://blog.google/products-and-platforms/products/google-health/)\n        *   [Google Workspace](https://blog.google/products-and-platforms/products/workspace/)\n        *   [Learning & Education](https://blog.google/products-and-platforms/products/education/)\n        *   [Shopping](https://blog.google/products-and-platforms/products/shopping/)\n        *   [See all](https://blog.google/products-and-platforms/products/ \"See all Products articles\")\n\n    *   Platforms\n\n        *   [Android](https://blog.google/products-and-platforms/platforms/android/)\n        *   [Google Play](https://blog.google/products-and-platforms/platforms/google-play/)\n        *   [Wear OS](https://blog.google/products-and-platforms/platforms/wear-os/)\n        *   [See all](https://blog.google/products-and-platforms/platforms/ \"See all Platforms articles\")\n\n    *   Devices\n\n        *   [Pixel](https://blog.google/products-and-platforms/devices/pixel/)\n        *   [Google Nest](https://blog.google/products-and-platforms/devices/google-nest/)\n        *   [Fitbit](https://blog.google/products-and-platforms/devices/fitbit/)\n        *   [Chromebooks](https://blog.google/products-and-platforms/devices/chromebooks/)\n        *   [See all](https://blog.google/products-and-platforms/devices/ \"See all Devices articles\")\n\nLearn more:\n\n[Google Ads & Commerce blog](https://blog.google/products/ads-commerce/)[Waze blog](https://blog.google/waze/)\n\n*    Company news \n\n### Company news\n\n[See all in Company news](https://blog.google/company-news/) \n\n    *   Outreach & initiatives\n\n        *   [Creating opportunity](https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/)\n        *   [Safety & security](https://blog.google/innovation-and-ai/technology/safety-security/)\n        *   [Google.org](https://blog.google/company-news/outreach-and-initiatives/google-org/)\n        *   [Public policy](https://blog.google/company-news/outreach-and-initiatives/public-policy/)\n        *   [Sustainability](https://blog.google/company-news/outreach-and-initiatives/sustainability/)\n        *   [Health](https://blog.google/innovation-and-ai/technology/health/)\n        *   [See all](https://blog.google/company-news/outreach-and-initiatives/ \"See all Outreach & initiatives articles\")\n\n    *   Leadership\n\n        *   [Sundar Pichai, CEO](https://blog.google/authors/sundar-pichai/)\n        *   [More authors](https://blog.google/authors/)\n        *   [See all](https://blog.google/authors/ \"See all Leadership articles\")\n\n    *   Inside Google\n\n        *   [Around the globe](https://blog.google/company-news/inside-google/around-the-globe/)\n        *   [Life at Google](https://blog.google/company-news/inside-google/life-at-google/)\n        *   [See all](https://blog.google/company-news/inside-google/ \"See all Inside Google articles\")\n\nLearn more:\n\n[Google Security blog](https://blog.google/security/)\n\n*   [Feed](https://blog.google/feed)\n\nGet closer to the game with Gemini and Pixel\n\n[Share](https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n\n[x.com](https://twitter.com/intent/tweet?text=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel%20%40google&url=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)[Facebook](https://www.facebook.com/sharer/sharer.php?caption=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel&u=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)[LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/&title=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel)[Mail](mailto:?subject=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel&body=Check%20out%20this%20article%20on%20the%20Keyword:%0A%0AGet%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel%0A%0AGoogle%20Gemini%20and%20Pixel%20partner%20with%20five%20global%20football%20clubs%20to%20elevate%20the%20fan%20matchday%20experience%20through%20AI%20and%20%20Smartphone%20Technology.%0A%0Ahttps://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n\nCopy link\n\n [] \n\nPreferences\n*     \n\nLinks\n*   [Images](https://blog.google/image-library/ \"Images\")\n*   [RSS feed](https://blog.google/rss/)\n\n*   [x.com](https://twitter.com/intent/tweet?text=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel%20%40google&url=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n*   [Facebook](https://www.facebook.com/sharer/sharer.php?caption=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel&u=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n*   [LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/&title=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel)\n*   [Mail](mailto:?subject=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel&body=Check%20out%20this%20article%20on%20the%20Keyword:%0A%0AGet%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel%0A%0AGoogle%20Gemini%20and%20Pixel%20partner%20with%20five%20global%20football%20clubs%20to%20elevate%20the%20fan%20matchday%20experience%20through%20AI%20and%20%20Smartphone%20Technology.%0A%0Ahttps://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n*   Copy link \n\nSubscribe\n\nBreadcrumb\n1.   [Home](https://blog.google/ \"The Keyword\")\n2.   [Products & Platforms](https://blog.google/products-and-platforms/)\n3.   [Products](https://blog.google/products-and-platforms/products/)\n4.   [Gemini](https://blog.google/products-and-platforms/products/gemini/)\n\n# Get closer to the game with Gemini and Pixel\n\nAug 17, 2026\n\n|\n3 min read\n\n*   [x.com](https://twitter.com/intent/tweet?text=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel%20%40google&url=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n*   [Facebook](https://www.facebook.com/sharer/sharer.php?caption=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel&u=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n*   [LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/&title=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel)\n*   [Mail](mailto:?subject=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel&body=Check%20out%20this%20article%20on%20the%20Keyword:%0A%0AGet%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel%0A%0AGoogle%20Gemini%20and%20Pixel%20partner%20with%20five%20global%20football%20clubs%20to%20elevate%20the%20fan%20matchday%20experience%20through%20AI%20and%20%20Smartphone%20Technology.%0A%0Ahttps://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n*   Copy link \n\nGemini and Pixel have announced new long-term partnerships with Arsenal FC, FC Barcelona, FC Bayern München, Liverpool FC, and Paris Saint-Germain to bring fans closer to the game through AI personal intelligence and smartphone technology.\n\n* * *\n\nEileen Mannion\n\nVP, Marketing UKI and EMEA Devices and Services\n\n Share \n\n*   [x.com](https://twitter.com/intent/tweet?text=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel%20%40google&url=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n*   [Facebook](https://www.facebook.com/sharer/sharer.php?caption=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel&u=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n*   [LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/&title=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel)\n*   [Mail](mailto:?subject=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel&body=Check%20out%20this%20article%20on%20the%20Keyword:%0A%0AGet%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel%0A%0AGoogle%20Gemini%20and%20Pixel%20partner%20with%20five%20global%20football%20clubs%20to%20elevate%20the%20fan%20matchday%20experience%20through%20AI%20and%20%20Smartphone%20Technology.%0A%0Ahttps://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n*   Copy link \n\n* * *\n\n![Image 2: Low-angle view of a soccer player kicking a ball mid-air against a bright blue sky, with grass flying from their cleats.](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P8.width-200.format-webp.webp)\n\n[Audio 3](https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_85962_umbriel_2026_08_17_08_00_52.mp3)\n\n Listen to article \n\n[[duration]] minutes\n\nThis content is generated by Google AI. Generative AI is experimental\n\nVoice Umbriel Speed 1X\n\nVoice Umbriel Gacrux\n\nSpeed 0.75X 1X 1.5X 2X\n\n Read AI-generated summary \n\nGoogle is partnering with five iconic football clubs—Arsenal, FC Barcelona, FC Bayern München, Liverpool, and Paris Saint-Germain—to bring fans closer to the action. You can now use Gemini for deep match insights and Pixel cameras for exclusive, behind-the-scenes content that highlights both men’s and women’s teams. Follow the official club and Google social media channels to see this new content and access exclusive team wallpapers.\n\n Summaries were generated by Google AI. Generative AI is experimental. \n\n*   Google’s \"Get closer to the game with Gemini and Pixel\" highlights new football partnerships.\n*   Gemini provides fans with deep match insights, stats, and instant answers during games.\n*   Pixel cameras will capture exclusive, behind-the-scenes content for fans to enjoy.\n*   These partnerships aim to boost global visibility for women’s football teams.\n*   You can now access official club wallpapers to customize your Pixel device.\n\n Summaries were generated by Google AI. Generative AI is experimental. \n\nGoogle is partnering with five famous football clubs to bring fans closer to the action. You can use Gemini to get quick stats and insights about your favorite teams. They’re also using Pixel cameras to share cool, behind-the-scenes content from both men’s and women’s matches. This partnership aims to give women’s football the extra attention it deserves.\n\n Summaries were generated by Google AI. Generative AI is experimental. \n\n#### Explore other styles:\n\n*    General summary \n*    Bullet points \n*    Basic explainer \n\nWe’re launching new long-term partnerships with five of the world’s most iconic football clubs: Arsenal FC, FC Barcelona, FC Bayern München, Liverpool FC, and Paris Saint-Germain. As their Official Consumer AI and Official Smartphone Partner, Gemini and Pixel are coming together to help put fans right at the heart of the action.\n\n## Supercharging match days with Gemini\n\nFootball culture is fueled by the stories that define the game, both on and off the pitch. With Gemini as their personal assistant, supporters can dive deeper into match and club insights and stay connected to the moments that matter most.\n\nWhether you’re dissecting a mid-game formation change in the midst of a European club clash or settling a post-match debate with precise head-to-head history, Gemini’s advanced agentic capabilities proactively handle tasks on your behalf and put answers right in your hands, keeping you at the heart of the action.\n\n## Bringing you a new angle on the game with Pixel\n\nAs the Official Smartphone Partner, Google Pixel is working with club media teams to capture all the raw, unfiltered moments and emotions behind the scenes of the match.\n\nThrough our signature [\"Shot on Pixel\" series](https://www.instagram.com/reel/DYkOuhVK1Zm/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==), club social teams will use Pixel’s camera with our AI tools to share fresh, authentic perspectives. Plus, you can already show your colors by customizing your Pixel 11 device with official club wallpapers.\n\n## Raising the visibility of women's football\n\nA fundamental part of these partnerships is our commitment to help closing the visibility gap in women’s football. Record-breaking crowds are watching women's tournaments, yet the game still lacks the media coverage and visibility it deserves.\n\nBy partnering equally across both men’s and women’s teams, we are putting our technology to work to help change that. Together with the clubs we will capture jaw dropping pitch-side action, produce unforgettable content, and amplify the reach of the women’s game globally - driving the visibility needed to help inspire the next generation of players and fans.\n\nAcross our partner clubs\n\nWe are incredibly proud to collaborate with Arsenal FC, FC Barcelona, FC Bayern München, Liverpool FC and Paris Saint-Germain - clubs that represent the very best of football heritage and community across Europe's top leagues. Together, we will deliver exclusive behind-the-scenes content, matchday insights and new AI-powered fan experiences to bring supporters closer to the stories and stats that define their favorite teams.\n\n![Image 3: Line up of brand logos.](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero.width-1200.format-webp.webp)\n\nFollow our partner clubs' official channels — [Arsenal FC](https://www.instagram.com/arsenal/), [FC Barcelona](https://www.instagram.com/fcbarcelona/), [FC Bayern München,](https://www.instagram.com/fcbayern/)[Liverpool FC](https://www.instagram.com/liverpoolfc/) and [Paris Saint-Germain](https://www.instagram.com/psg/) and @GooglePixel and @GoogleGemini — to see these stories unfold and get closer to the game this season.\n\nPOSTED IN:\n\n*   [Gemini](https://blog.google/products-and-platforms/products/gemini/)\n*   [Pixel](https://blog.google/products-and-platforms/devices/pixel/)\n*   [AI](https://blog.google/innovation-and-ai/technology/ai/)\n*   [Google in Europe](https://blog.google/company-news/inside-google/around-the-globe/google-europe/)\n\n## Related stories\n\n[![Image 4](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-he.2e16d0ba.fill-300x300.format-webp.webp) Google Workspace ### Bring your spreadsheet data to life with Sheets canvas By Eric Birnbaum](https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/)\n\n[![Image 5](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MagicCapture.2e16d0ba.fill-300x300.format-webp.webp) Pixel ### Stay present while taking pictures with Magic Capture on Pixel 11.](https://blog.google/products-and-platforms/devices/pixel/pixel-11-magic-capture/)\n\n[![Image 6](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_G_HiLite.2e16d0ba.fill-300x300.format-webp.webp) Pixel ### Get updates while your Pixel 11 Pro is face down with HiLight.](https://blog.google/products-and-platforms/devices/pixel/pixel-11-pro-hilight/)\n\n[![Image 7](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pixel_11_Pro_Fold_Soc.2e16d0ba.fill-300x300.format-webp.webp) Pixel ### Google’s most sophisticated foldable: Pixel 11 Pro Fold By Justin Savich](https://blog.google/products-and-platforms/devices/pixel/pixel-11-pro-fold/)\n\n[![Image 8](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/newest_Pixel_devices_.2e16d0ba.fill-300x300.format-webp.webp) Pixel ### Here’s your first look at the newest Pixel devices.](https://blog.google/products-and-platforms/devices/pixel/new-pixel-devices-2026/)\n\n[![Image 9](https://i.ytimg.com/vi_webp/nd5s2AUUHSc/maxresdefault.webp) Pixel ### Here are 3 ways your Pixel just got even more helpful.](https://blog.google/products-and-platforms/devices/pixel/pixel-11-helpful-updates-features/)\n\n## Get the latest news from Google in your inbox\n\nSign up for our newsletters with product updates, event information, special offers, and more.\n\n![Image 10](https://blog.google/static/blogv2/images/alert_error_form.svg)\n\nSubscribe\n\nDone. Just one step more.\n\nCheck your inbox to confirm your subscription.\n\nYou can also subscribe with a different email address.\n\nYour information will be used in accordance with [Google's privacy policy.](https://policies.google.com/privacy) You may opt out at any time.\n\n[](https://www.google.com/)\n*   [Privacy](https://policies.google.com/privacy)\n*   [Terms](https://policies.google.com/terms)\n*   [Help](https://support.google.com/)\n*    \n*    \n\n*   [](https://www.instagram.com/google/)\n*   [](https://twitter.com/google)\n*   [](https://www.youtube.com/google)\n*   [](https://www.facebook.com/Google)\n*   [](https://www.linkedin.com/company/google)",
+      "contentZh": "[跳转到主要内容](https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/#jump-content)\n\n[![图片1：Google](https://blog.google/static/blogv2/images/super-g-aurora.svg?version=pr20260729-1718)](https://blog.google/ \"来自 Google 的新闻\")\n借助 Gemini 和 Pixel，更贴近比赛\n\n*   创新与 AI \n*   产品与平台 \n*   公司新闻 \n*   [信息流](https://blog.google/feed)\n\n[订阅](https://blog.google/newsletter-subscribe/)\n\n 返回 \n### 创新与 AI\n\n[查看创新与 AI 全部内容](https://blog.google/innovation-and-ai/)\n*   模型与研究 \n    *   [Google DeepMind](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/)\n    *   [Google Research](https://blog.google/innovation-and-ai/models-and-research/google-research/)\n    *   [Google Labs](https://blog.google/innovation-and-ai/models-and-research/google-labs/)\n    *   [Gemini 模型](https://blog.google/innovation-and-ai/models-and-research/gemini-models/)\n    *   [量子计算](https://blog.google/innovation-and-ai/models-and-research/quantum-computing/)\n    *   [查看全部](https://blog.google/innovation-and-ai/models-and-research/)\n\n*   产品 \n    *   [开发者工具](https://blog.google/innovation-and-ai/technology/developers-tools/)\n    *   [Gemini 应用](https://blog.google/innovation-and-ai/products/gemini-app/)\n    *   [Gemini Notebook](https://blog.google/innovation-and-ai/products/gemini-notebook/)\n    *   [查看全部](https://blog.google/innovation-and-ai/products/)\n\n*   基础设施与云 \n    *   [全球网络](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/)\n    *   [Google Cloud](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/)\n    *   [查看全部](https://blog.google/innovation-and-ai/infrastructure-and-cloud/)\n\n*   技术 \n    *   [安全与隐私](https://blog.google/innovation-and-ai/technology/safety-security/)\n    *   [健康](https://blog.google/innovation-and-ai/technology/health/)\n    *   [查看全部](https://blog.google/innovation-and-ai/technology/)\n\n* * *\n\n了解更多：\n\n*   [Google DeepMind 博客](https://deepmind.google/blog/)\n*   [Google Research 博客](https://research.google/blog/)\n*   [Google Developers 博客](https://developers.googleblog.com/)\n*   [Google Cloud 博客](https://cloud.google.com/blog)\n\n 返回 \n### 产品与平台\n\n[查看产品与平台全部内容](https://blog.google/products-and-platforms/)\n*   产品 \n    *   [搜索](https://blog.google/products-and-platforms/products/search/)\n    *   [地图](https://blog.google/products-and-platforms/products/maps/)\n    *   [Chrome](https://blog.google/products-and-platforms/products/chrome/)\n    *   [Google Health](https://blog.google/products-and-platforms/products/google-health/)\n    *   [Google Workspace](https://blog.google/products-and-platforms/products/workspace/)\n    *   [学习与教育](https://blog.google/products-and-platforms/products/education/)\n    *   [购物](https://blog.google/products-and-platforms/products/shopping/)\n    *   [查看全部](https://blog.google/products-and-platforms/products/)\n\n*   平台 \n    *   [Android](https://blog.google/products-and-platforms/platforms/android/)\n    *   [Google Play](https://blog.google/products-and-platforms/platforms/google-play/)\n    *   [Wear OS](https://blog.google/products-and-platforms/platforms/wear-os/)\n    *   [查看全部](https://blog.google/products-and-platforms/platforms/)\n\n*   设备 \n    *   [Pixel](https://blog.google/products-and-platforms/devices/pixel/)\n    *   [Google Nest](https://blog.google/products-and-platforms/devices/google-nest/)\n    *   [Fitbit](https://blog.google/products-and-platforms/devices/fitbit/)\n    *   [Chromebooks](https://blog.google/products-and-platforms/devices/chromebooks/)\n    *   [查看全部](https://blog.google/products-and-platforms/devices/)\n\n* * *\n\n了解更多：\n\n*   [Google Ads & Commerce 博客](https://blog.google/products/ads-commerce/)\n*   [Waze 博客](https://blog.google/waze/)\n\n 返回 \n### 公司新闻\n\n[查看公司新闻全部内容](https://blog.google/company-news/)\n*   外展与倡议 \n    *   [创造机会](https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/)\n    *   [安全与隐私](https://blog.google/innovation-and-ai/technology/safety-security/)\n    *   [Google.org](https://blog.google/company-news/outreach-and-initiatives/google-org/)\n    *   [公共政策](https://blog.google/company-news/outreach-and-initiatives/public-policy/)\n    *   [可持续发展](https://blog.google/company-news/outreach-and-initiatives/sustainability/)\n    *   [健康](https://blog.google/innovation-and-ai/technology/health/)\n    *   [查看全部](https://blog.google/company-news/outreach-and-initiatives/)\n\n*   领导层 \n    *   [Sundar Pichai，首席执行官](https://blog.google/authors/sundar-pichai/)\n    *   [更多作者](https://blog.google/authors/)\n    *   [查看全部](https://blog.google/authors/)\n\n*   走进 Google \n    *   [全球动态](https://blog.google/company-news/inside-google/around-the-globe/)\n    *   [Google 生活](https://blog.google/company-news/inside-google/life-at-google/)\n    *   [查看全部](https://blog.google/company-news/inside-google/)\n\n* * *\n\n了解更多：\n\n*   [Google 安全博客](https://blog.google/security/)\n\n*   创新与 AI \n\n### 创新与 AI\n\n[查看创新与 AI 全部内容](https://blog.google/innovation-and-ai/) \n\n    *   模型与研究\n\n        *   [Google DeepMind](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/)\n        *   [Google Research](https://blog.google/innovation-and-ai/models-and-research/google-research/)\n        *   [Google Labs](https://blog.google/innovation-and-ai/models-and-research/google-labs/)\n        *   [Gemini 模型](https://blog.google/innovation-and-ai/models-and-research/gemini-models/)\n        *   [量子计算](https://blog.google/innovation-and-ai/models-and-research/quantum-computing/)\n        *   [查看全部](https://blog.google/innovation-and-ai/models-and-research/ \"查看模型与研究全部文章\")\n\n    *   产品\n\n        *   [开发者工具](https://blog.google/innovation-and-ai/technology/developers-tools/)\n        *   [Gemini 应用](https://blog.google/innovation-and-ai/products/gemini-app/)\n        *   [Gemini Notebook](https://blog.google/innovation-and-ai/products/gemini-notebook/)\n        *   [查看全部](https://blog.google/innovation-and-ai/products/ \"查看产品全部文章\")\n\n    *   基础设施与云\n\n        *   [全球网络](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/)\n        *   [Google Cloud](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/)\n        *   [查看全部](https://blog.google/innovation-and-ai/infrastructure-and-cloud/ \"查看基础设施与云全部文章\")\n\n    *   技术\n\n*   [安全与保障](https://blog.google/innovation-and-ai/technology/safety-security/)\n*   [健康](https://blog.google/innovation-and-ai/technology/health/)\n*   [查看全部](https://blog.google/innovation-and-ai/technology/ \"查看所有技术文章\")\n\n了解更多：\n\n[Google DeepMind 博客](https://deepmind.google/blog/)[Google Research 博客](https://research.google/blog/)[Google Developers 博客](https://developers.googleblog.com/)[Google Cloud 博客](https://cloud.google.com/blog)\n\n*   产品与平台\n\n### 产品与平台\n\n[查看产品与平台中的全部内容](https://blog.google/products-and-platforms/) \n\n    *   产品\n\n        *   [搜索](https://blog.google/products-and-platforms/products/search/)\n        *   [地图](https://blog.google/products-and-platforms/products/maps/)\n        *   [Chrome](https://blog.google/products-and-platforms/products/chrome/)\n        *   [Google Health](https://blog.google/products-and-platforms/products/google-health/)\n        *   [Google Workspace](https://blog.google/products-and-platforms/products/workspace/)\n        *   [学习与教育](https://blog.google/products-and-platforms/products/education/)\n        *   [购物](https://blog.google/products-and-platforms/products/shopping/)\n        *   [查看全部](https://blog.google/products-and-platforms/products/ \"查看所有产品文章\")\n\n    *   平台\n\n        *   [Android](https://blog.google/products-and-platforms/platforms/android/)\n        *   [Google Play](https://blog.google/products-and-platforms/platforms/google-play/)\n        *   [Wear OS](https://blog.google/products-and-platforms/platforms/wear-os/)\n        *   [查看全部](https://blog.google/products-and-platforms/platforms/ \"查看所有平台文章\")\n\n    *   设备\n\n        *   [Pixel](https://blog.google/products-and-platforms/devices/pixel/)\n        *   [Google Nest](https://blog.google/products-and-platforms/devices/google-nest/)\n        *   [Fitbit](https://blog.google/products-and-platforms/devices/fitbit/)\n        *   [Chromebooks](https://blog.google/products-and-platforms/devices/chromebooks/)\n        *   [查看全部](https://blog.google/products-and-platforms/devices/ \"查看所有设备文章\")\n\n了解更多：\n\n[Google Ads & Commerce 博客](https://blog.google/products/ads-commerce/)[Waze 博客](https://blog.google/waze/)\n\n*   公司新闻\n\n### 公司新闻\n\n[查看公司新闻中的全部内容](https://blog.google/company-news/) \n\n    *   外展与倡议\n\n        *   [创造机会](https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/)\n        *   [安全与保障](https://blog.google/innovation-and-ai/technology/safety-security/)\n        *   [Google.org](https://blog.google/company-news/outreach-and-initiatives/google-org/)\n        *   [公共政策](https://blog.google/company-news/outreach-and-initiatives/public-policy/)\n        *   [可持续发展](https://blog.google/company-news/outreach-and-initiatives/sustainability/)\n        *   [健康](https://blog.google/innovation-and-ai/technology/health/)\n        *   [查看全部](https://blog.google/company-news/outreach-and-initiatives/ \"查看所有外展与倡议文章\")\n\n    *   领导层\n\n        *   [桑达尔·皮查伊，首席执行官](https://blog.google/authors/sundar-pichai/)\n        *   [更多作者](https://blog.google/authors/)\n        *   [查看全部](https://blog.google/authors/ \"查看所有领导层文章\")\n\n    *   谷歌内部\n\n        *   [全球动态](https://blog.google/company-news/inside-google/around-the-globe/)\n        *   [谷歌生活](https://blog.google/company-news/inside-google/life-at-google/)\n        *   [查看全部](https://blog.google/company-news/inside-google/ \"查看所有谷歌内部文章\")\n\n了解更多：\n\n[Google Security 博客](https://blog.google/security/)\n\n*   [订阅源](https://blog.google/feed)\n\n使用 Gemini 和 Pixel 更贴近比赛\n\n[分享](https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n\n[x.com](https://twitter.com/intent/tweet?text=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel%20%40google&url=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)[Facebook](https://www.facebook.com/sharer/sharer.php?caption=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel&u=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)[LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/&title=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel)[邮件](mailto:?subject=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel&body=Check%20out%20this%20article%20on%20the%20Keyword:%0A%0AGet%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel%0A%0AGoogle%20Gemini%20and%20Pixel%20partner%20with%20five%20global%20football%20clubs%20to%20elevate%20the%20fan%20matchday%20experience%20through%20AI%20and%20%20Smartphone%20Technology.%0A%0Ahttps://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n\n复制链接\n\n [] \n\n偏好\n*     \n\n链接\n*   [图片](https://blog.google/image-library/ \"图片\")\n*   [RSS 订阅源](https://blog.google/rss/)\n\n*   [x.com](https://twitter.com/intent/tweet?text=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel%20%40google&url=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n*   [Facebook](https://www.facebook.com/sharer/sharer.php?caption=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel&u=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n*   [LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/&title=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel)\n*   [邮件](mailto:?subject=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel&body=Check%20out%20this%20article%20on%20the%20Keyword:%0A%0AGet%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel%0A%0AGoogle%20Gemini%20and%20Pixel%20partner%20with%20five%20global%20football%20clubs%20to%20elevate%20the%20fan%20matchday%20experience%20through%20AI%20and%20%20Smartphone%20Technology.%0A%0Ahttps://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n*   复制链接\n\n订阅\n\n面包屑导航\n1.   [首页](https://blog.google/ \"The Keyword\")\n2.   [产品与平台](https://blog.google/products-and-platforms/)\n3.   [产品](https://blog.google/products-and-platforms/products/)\n4.   [Gemini](https://blog.google/products-and-platforms/products/gemini/)\n\n# 使用 Gemini 和 Pixel 更贴近比赛\n\n2026年8月17日\n\n|\n3 分钟阅读\n\n*   [x.com](https://twitter.com/intent/tweet?text=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel%20%40google&url=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n*   [Facebook](https://www.facebook.com/sharer/sharer.php?caption=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel&u=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n*   [LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/&title=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel)\n*   [Mail](mailto:?subject=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel&body=Check%20out%20this%20article%20on%20the%20Keyword:%0A%0AGet%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel%0A%0AGoogle%20Gemini%20and%20Pixel%20partner%20with%20five%20global%20football%20clubs%20to%20elevate%20the%20fan%20matchday%20experience%20through%20AI%20and%20%20Smartphone%20Technology.%0A%0Ahttps://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n*   复制链接\n\nGemini 和 Pixel 已宣布与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部建立新的长期合作伙伴关系，通过 AI 个人智能和智能手机技术让球迷更贴近比赛。\n\n* * *\n\nEileen Mannion\n\n英国、爱尔兰及欧洲、中东和非洲地区设备与服务营销副总裁\n\n 分享\n\n*   [x.com](https://twitter.com/intent/tweet?text=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel%20%40google&url=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n*   [Facebook](https://www.facebook.com/sharer/sharer.php?caption=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel&u=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n*   [LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/&title=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel)\n*   [Mail](mailto:?subject=Get%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel&body=Check%20out%20this%20article%20on%20the%20Keyword:%0A%0AGet%20closer%20to%20the%20game%20with%20Gemini%20and%20Pixel%0A%0AGoogle%20Gemini%20and%20Pixel%20partner%20with%20five%20global%20football%20clubs%20to%20elevate%20the%20fan%20matchday%20experience%20through%20AI%20and%20%20Smartphone%20Technology.%0A%0Ahttps://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/)\n*   复制链接\n\n* * *\n\n![图片 2：低角度视角，一名足球运动员在明亮的蓝天下凌空踢球，草屑从球鞋上飞溅。](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P8.width-200.format-webp.webp)\n\n[音频 3](https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_85962_umbriel_2026_08_17_08_00_52.mp3)\n\n 收听文章\n\n[[duration]] 分钟\n\n此内容由 Google AI 生成。生成式 AI 处于实验阶段。\n\n语音 Umbriel 速度 1X\n\n语音 Umbriel Gacrux\n\n速度 0.75X 1X 1.5X 2X\n\n 阅读 AI 生成的摘要\n\nGoogle 正在与五家标志性足球俱乐部——阿森纳、巴塞罗那、拜仁慕尼黑、利物浦和巴黎圣日耳曼——合作，让球迷更贴近比赛。您现在可以使用 Gemini 获取深入的比赛洞察，并使用 Pixel 相机观看独家幕后内容，这些内容同时涵盖男足和女足球队。关注官方俱乐部和 Google 社交媒体渠道，查看这些新内容并获取专属球队壁纸。\n\n 摘要由 Google AI 生成。生成式 AI 处于实验阶段。\n\n*   Google 的“使用 Gemini 和 Pixel 更贴近比赛”重点介绍了新的足球合作伙伴关系。\n*   Gemini 为球迷提供深入的比赛洞察、统计数据以及比赛期间的即时解答。\n*   Pixel 相机将捕捉独家幕后内容供球迷欣赏。\n*   这些合作伙伴关系旨在提升女足球队的全球知名度。\n*   您现在可以获取官方俱乐部壁纸来个性化您的 Pixel 设备。\n\n 摘要由 Google AI 生成。生成式 AI 处于实验阶段。\n\nGoogle 正在与五家著名足球俱乐部合作，让球迷更贴近比赛。您可以使用 Gemini 快速获取有关您喜爱球队的统计数据和洞察。他们还使用 Pixel 相机分享男足和女足比赛的精彩幕后内容。这一合作伙伴关系旨在为女足带来其应得的额外关注。\n\n 摘要由 Google AI 生成。生成式 AI 处于实验阶段。\n\n#### 探索其他风格：\n\n*   通用摘要\n*   要点列表\n*   基础解释\n\n我们正在与全球五家最具标志性的足球俱乐部——阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部——启动新的长期合作伙伴关系。作为其官方消费者 AI 和官方智能手机合作伙伴，Gemini 和 Pixel 携手合作，帮助球迷置身于比赛的核心。\n\n## 借助 Gemini 提升比赛日体验\n\n足球文化由定义这项运动的故事所驱动，无论是在场内还是场外。有了 Gemini 作为个人助理，球迷可以更深入地了解比赛和俱乐部洞察，并始终与最重要的时刻保持连接。\n\n无论您是在欧洲俱乐部对决中剖析中场的阵型变化，还是用精确的历史交锋记录解决赛后争论，Gemini 先进的智能体能力都能主动为您处理任务，并将答案直接呈现在您手中，让您始终处于比赛的核心。\n\n## 借助 Pixel 为您带来全新的比赛视角\n\n作为官方智能手机合作伙伴，Google Pixel 正在与俱乐部媒体团队合作，捕捉比赛幕后所有原始、未经修饰的瞬间和情感。\n\n通过我们标志性的 [“Shot on Pixel”系列](https://www.instagram.com/reel/DYkOuhVK1Zm/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)，俱乐部社交媒体团队将使用 Pixel 的相机和我们的 AI 工具，分享新鲜、真实的视角。此外，您现在已经可以通过使用官方俱乐部壁纸个性化您的 Pixel 11 设备来展示您的球队色彩。\n\n## 提升女足运动的可见度\n\n这些合作伙伴关系的一个基本组成部分是我们致力于帮助缩小女足运动中可见度差距的承诺。创纪录的观众正在观看女足赛事，但这项运动仍然缺乏其应得的媒体报道和可见度。\n\n通过与男足和女足团队的平等合作，我们将技术付诸实践，助力改变现状。与俱乐部携手，我们将捕捉令人惊叹的场边精彩瞬间，制作难忘的内容，并扩大女足运动的全球影响力——提升所需的可见度，以激励下一代球员和球迷。\n\n在我们的合作俱乐部中\n\n我们非常自豪能与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部合作——这些俱乐部代表了欧洲顶级联赛中足球传统与社区精神的精髓。我们将共同提供独家幕后内容、比赛日洞察以及全新的人工智能驱动球迷体验，让支持者更贴近定义他们心爱球队的故事和统计数据。\n\n![图片3：品牌标志排列。](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero.width-1200.format-webp.webp)\n\n关注我们合作俱乐部的官方频道——[阿森纳足球俱乐部](https://www.instagram.com/arsenal/)、[巴塞罗那足球俱乐部](https://www.instagram.com/fcbarcelona/)、[拜仁慕尼黑足球俱乐部](https://www.instagram.com/fcbayern/)、[利物浦足球俱乐部](https://www.instagram.com/liverpoolfc/)和[巴黎圣日耳曼足球俱乐部](https://www.instagram.com/psg/)以及@GooglePixel和@GoogleGemini——见证这些故事的展开，并在本赛季更贴近比赛。\n\n发布于：\n\n*   [Gemini](https://blog.google/products-and-platforms/products/gemini/)\n*   [Pixel](https://blog.google/products-and-platforms/devices/pixel/)\n*   [AI](https://blog.google/innovation-and-ai/technology/ai/)\n*   [Google在欧洲](https://blog.google/company-news/inside-google/around-the-globe/google-europe/)\n\n## 相关故事\n\n[![图片4](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-he.2e16d0ba.fill-300x300.format-webp.webp) Google Workspace ### 使用Sheets画布让您的电子表格数据栩栩如生 作者：Eric Birnbaum](https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/)\n\n[![图片5](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MagicCapture.2e16d0ba.fill-300x300.format-webp.webp) Pixel ### 使用Pixel 11上的Magic Capture拍照时保持在场感。](https://blog.google/products-and-platforms/devices/pixel/pixel-11-magic-capture/)\n\n[![图片6](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_G_HiLite.2e16d0ba.fill-300x300.format-webp.webp) Pixel ### 使用HiLight在Pixel 11 Pro屏幕朝下时获取更新。](https://blog.google/products-and-platforms/devices/pixel/pixel-11-pro-hilight/)\n\n[![图片7](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pixel_11_Pro_Fold_Soc.2e16d0ba.fill-300x300.format-webp.webp) Pixel ### Google最精密的折叠屏手机：Pixel 11 Pro Fold 作者：Justin Savich](https://blog.google/products-and-platforms/devices/pixel/pixel-11-pro-fold/)\n\n[![图片8](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/newest_Pixel_devices_.2e16d0ba.fill-300x300.format-webp.webp) Pixel ### 这是您对最新Pixel设备的第一眼预览。](https://blog.google/products-and-platforms/devices/pixel/new-pixel-devices-2026/)\n\n[![图片9](https://i.ytimg.com/vi_webp/nd5s2AUUHSc/maxresdefault.webp) Pixel ### 以下是您的Pixel变得更实用的3种方式。](https://blog.google/products-and-platforms/devices/pixel/pixel-11-helpful-updates-features/)\n\n## 在您的收件箱中获取Google的最新资讯\n\n订阅我们的新闻通讯，获取产品更新、活动信息、特别优惠等。\n\n![图片10](https://blog.google/static/blogv2/images/alert_error_form.svg)\n\n订阅\n\n完成。还差一步。\n\n检查您的收件箱以确认订阅。\n\n您也可以使用其他电子邮件地址订阅。\n\n您的信息将按照[Google的隐私政策](https://policies.google.com/privacy)使用。您可以随时退出。\n\n[](https://www.google.com/)\n*   [隐私](https://policies.google.com/privacy)\n*   [条款](https://policies.google.com/terms)\n*   [帮助](https://support.google.com/)\n*    \n*    \n\n*   [](https://www.instagram.com/google/)\n*   [](https://twitter.com/google)\n*   [](https://www.youtube.com/google)\n*   [](https://www.facebook.com/Google)\n*   [](https://www.linkedin.com/company/google)",
+      "titleZh": "借助Gemini和Pixel，更贴近比赛",
+      "summaryZh": "Google Gemini与Pixel携手五家全球足球俱乐部，通过AI和智能手机技术提升球迷的比赛日体验。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-08-17T08:00:00.000Z",
+      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+      "collectedAt": "2026-08-18T03:33:58.056Z"
+    },
     {
       "id": "628f79672cb28599f754",
       "sourceId": "deepmind-news",
@@ -67,7 +84,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T17:04:18.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "collectedAt": "2026-08-17T03:38:49.060Z"
+      "collectedAt": "2026-08-18T03:33:57.742Z"
     },
     {
       "id": "8637785710012aa19327",
@@ -84,7 +101,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T11:00:00.000Z",
       "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "collectedAt": "2026-08-17T03:38:44.402Z"
+      "collectedAt": "2026-08-18T03:33:54.549Z"
     },
     {
       "id": "12d8fd2a91a610822616",
@@ -101,7 +118,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T10:00:00.000Z",
       "url": "https://openai.com/index/previewing-ultrafast",
-      "collectedAt": "2026-08-17T03:38:44.403Z"
+      "collectedAt": "2026-08-18T03:33:54.551Z"
     },
     {
       "id": "ff9329e42a201fd379a6",
@@ -118,7 +135,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-17T03:38:48.561Z"
+      "collectedAt": "2026-08-18T03:33:57.339Z"
     },
     {
       "id": "68c4c83c983d7ad01b30",
@@ -135,7 +152,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-17T03:38:51.175Z"
+      "collectedAt": "2026-08-18T03:34:00.791Z"
     },
     {
       "id": "5437747d9f7a7fa2a89b",
@@ -152,7 +169,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T06:00:00.000Z",
       "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "collectedAt": "2026-08-17T03:38:44.405Z"
+      "collectedAt": "2026-08-18T03:33:54.552Z"
     },
     {
       "id": "1024017ea20ba53c7f72",
@@ -169,7 +186,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "url": "https://openai.com/index/ringcentral",
-      "collectedAt": "2026-08-17T03:38:44.406Z"
+      "collectedAt": "2026-08-18T03:33:54.552Z"
     },
     {
       "id": "d9485ecefcc38cea5418",
@@ -186,7 +203,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "collectedAt": "2026-08-17T03:38:44.407Z"
+      "collectedAt": "2026-08-18T03:33:54.553Z"
     },
     {
       "id": "8825eb211c3d1692966b",
@@ -203,7 +220,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "collectedAt": "2026-08-17T03:38:44.408Z"
+      "collectedAt": "2026-08-18T03:33:54.553Z"
     },
     {
       "id": "e253abe92338c77fff32",
@@ -220,7 +237,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.923Z"
+      "collectedAt": "2026-08-18T03:33:56.384Z"
     },
     {
       "id": "f50ed5f93da49347ecb6",
@@ -237,7 +254,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T12:00:00.000Z",
       "url": "https://openai.com/index/model-ml",
-      "collectedAt": "2026-08-17T03:38:44.409Z"
+      "collectedAt": "2026-08-18T03:33:54.555Z"
     },
     {
       "id": "288f6994afc6cc6de385",
@@ -254,7 +271,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T10:00:00.000Z",
       "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
-      "collectedAt": "2026-08-17T03:38:44.410Z"
+      "collectedAt": "2026-08-18T03:33:54.556Z"
     },
     {
       "id": "734c538c439aa3199cf2",
@@ -271,7 +288,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T10:00:00.000Z",
       "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "collectedAt": "2026-08-17T03:38:44.411Z"
+      "collectedAt": "2026-08-18T03:33:54.557Z"
     },
     {
       "id": "02e8effaacedb8dbc2e1",
@@ -288,7 +305,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/premium-seats-chatgpt-business",
-      "collectedAt": "2026-08-17T03:38:44.412Z"
+      "collectedAt": "2026-08-18T03:33:54.558Z"
     },
     {
       "id": "8eb1e6a0a260fe518fb3",
@@ -305,7 +322,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-      "collectedAt": "2026-08-17T03:38:44.413Z"
+      "collectedAt": "2026-08-18T03:33:54.558Z"
     },
     {
       "id": "2c74e7c8cea6a2ece6de",
@@ -322,7 +339,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/zapier",
-      "collectedAt": "2026-08-17T03:38:44.414Z"
+      "collectedAt": "2026-08-18T03:33:54.558Z"
     },
     {
       "id": "968261fb57a0f452cb28",
@@ -339,7 +356,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.924Z"
+      "collectedAt": "2026-08-18T03:33:56.385Z"
     },
     {
       "id": "4b892749f4ed6e711322",
@@ -356,7 +373,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-07T09:00:00.000Z",
       "url": "https://openai.com/index/hsp-gruppe",
-      "collectedAt": "2026-08-17T03:38:44.415Z"
+      "collectedAt": "2026-08-18T03:33:54.559Z"
     },
     {
       "id": "f08640315c18fbc4f31c",
@@ -373,7 +390,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.925Z"
+      "collectedAt": "2026-08-18T03:33:56.386Z"
     },
     {
       "id": "d5755c0b97cd8308ee54",
@@ -390,7 +407,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T10:00:00.000Z",
       "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "collectedAt": "2026-08-17T03:38:44.415Z"
+      "collectedAt": "2026-08-18T03:33:54.559Z"
     },
     {
       "id": "0121f2aaabdbc2fbef18",
@@ -407,7 +424,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-      "collectedAt": "2026-08-17T03:38:44.415Z"
+      "collectedAt": "2026-08-18T03:33:54.560Z"
     },
     {
       "id": "ac5d129bc56db5435253",
@@ -424,7 +441,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-17T03:38:45.189Z"
+      "collectedAt": "2026-08-18T03:33:55.172Z"
     },
     {
       "id": "cbf5ffda58d43478b306",
@@ -441,7 +458,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.925Z"
+      "collectedAt": "2026-08-18T03:33:56.386Z"
     },
     {
       "id": "374a02a97939919169d2",
@@ -458,7 +475,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T19:00:00.000Z",
       "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "collectedAt": "2026-08-17T03:38:44.416Z"
+      "collectedAt": "2026-08-18T03:33:54.560Z"
     },
     {
       "id": "3feab47dffd4ec330ae5",
@@ -475,7 +492,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-      "collectedAt": "2026-08-17T03:38:44.416Z"
+      "collectedAt": "2026-08-18T03:33:54.560Z"
     },
     {
       "id": "c8f43754fdafecb85e1d",
@@ -492,7 +509,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T07:00:00.000Z",
       "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "collectedAt": "2026-08-17T03:38:44.416Z"
+      "collectedAt": "2026-08-18T03:33:54.561Z"
     },
     {
       "id": "6559d98a7d1bca755c17",
@@ -509,7 +526,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "url": "https://openai.com/index/circles",
-      "collectedAt": "2026-08-17T03:38:44.417Z"
+      "collectedAt": "2026-08-18T03:33:54.561Z"
     },
     {
       "id": "1b43c9e867bdb362c0cc",
@@ -526,7 +543,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.926Z"
+      "collectedAt": "2026-08-18T03:33:56.387Z"
     },
     {
       "id": "52e0cd114c7d854c3e96",
@@ -543,7 +560,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.926Z"
+      "collectedAt": "2026-08-18T03:33:56.387Z"
     },
     {
       "id": "b9d4476050e5d75f1b97",
@@ -560,7 +577,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T07:00:00.000Z",
       "url": "https://openai.com/index/unive",
-      "collectedAt": "2026-08-17T03:38:44.417Z"
+      "collectedAt": "2026-08-18T03:33:54.561Z"
     },
     {
       "id": "45bbaccf8d941517f323",
@@ -577,7 +594,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "collectedAt": "2026-08-17T03:38:44.418Z"
+      "collectedAt": "2026-08-18T03:33:54.562Z"
     },
     {
       "id": "af15e83e5c304730063b",
@@ -594,7 +611,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-17T03:38:51.176Z"
+      "collectedAt": "2026-08-18T03:34:00.792Z"
     },
     {
       "id": "b1fe0fa429937e85b2ef",
@@ -611,7 +628,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T15:00:59.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "collectedAt": "2026-08-17T03:38:49.060Z"
+      "collectedAt": "2026-08-18T03:33:57.742Z"
     },
     {
       "id": "56f1d8a8c0f3af9fdd08",
@@ -628,7 +645,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T10:00:00.000Z",
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "collectedAt": "2026-08-17T03:38:44.418Z"
+      "collectedAt": "2026-08-18T03:33:54.562Z"
     },
     {
       "id": "cfbf6b8394b6edd2d1cc",
@@ -645,7 +662,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://openai.com/index/avatarin",
-      "collectedAt": "2026-08-17T03:38:44.418Z"
+      "collectedAt": "2026-08-18T03:33:54.563Z"
     },
     {
       "id": "13c5281530ee4a6f4537",
@@ -662,7 +679,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-17T03:38:48.561Z"
+      "collectedAt": "2026-08-18T03:33:57.340Z"
     },
     {
       "id": "8aaceda53f7fc93dbf60",
@@ -679,7 +696,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T15:00:00.000Z",
       "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-      "collectedAt": "2026-08-17T03:38:44.419Z"
+      "collectedAt": "2026-08-18T03:33:54.563Z"
     },
     {
       "id": "002458279ec72570fffb",
@@ -696,7 +713,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "collectedAt": "2026-08-17T03:38:44.419Z"
+      "collectedAt": "2026-08-18T03:33:54.564Z"
     },
     {
       "id": "4c8b6c772be707078bbd",
@@ -713,7 +730,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "collectedAt": "2026-08-17T03:38:44.420Z"
+      "collectedAt": "2026-08-18T03:33:54.564Z"
     },
     {
       "id": "ca98ace8cf1a2a8d7872",
@@ -730,7 +747,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-08-17T03:38:48.027Z"
+      "collectedAt": "2026-08-18T03:33:56.762Z"
     },
     {
       "id": "bf370c7e47952f2da5c5",
@@ -747,7 +764,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-28T16:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "collectedAt": "2026-08-17T03:38:49.370Z"
+      "collectedAt": "2026-08-18T03:33:58.057Z"
     },
     {
       "id": "57b8f529f115263ec820",
@@ -764,7 +781,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-28T13:21:37.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-      "collectedAt": "2026-08-17T03:38:49.060Z"
+      "collectedAt": "2026-08-18T03:33:57.743Z"
     },
     {
       "id": "bc5ed3298105125d299c",
@@ -781,7 +798,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-27T03:30:00.000Z",
       "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "collectedAt": "2026-08-17T03:38:44.420Z"
+      "collectedAt": "2026-08-18T03:33:54.565Z"
     },
     {
       "id": "cb2584c1c5ba09bcd3a3",
@@ -798,7 +815,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-17T03:38:45.190Z"
+      "collectedAt": "2026-08-18T03:33:55.173Z"
     },
     {
       "id": "b363cad12be0dd76a830",
@@ -815,7 +832,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.926Z"
+      "collectedAt": "2026-08-18T03:33:56.388Z"
     },
     {
       "id": "c7991759e1e4a5d32f85",
@@ -832,7 +849,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-23T00:00:00.000Z",
       "url": "https://openai.com/index/health-in-chatgpt",
-      "collectedAt": "2026-08-17T03:38:44.421Z"
+      "collectedAt": "2026-08-18T03:33:54.565Z"
     },
     {
       "id": "6ccf2d78b5e86593806b",
@@ -849,7 +866,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T13:00:00.000Z",
       "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "collectedAt": "2026-08-17T03:38:44.422Z"
+      "collectedAt": "2026-08-18T03:33:54.566Z"
     },
     {
       "id": "658d60926ab2360afa2e",
@@ -866,7 +883,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T05:30:00.000Z",
       "url": "https://openai.com/index/introducing-openai-presence",
-      "collectedAt": "2026-08-17T03:38:44.422Z"
+      "collectedAt": "2026-08-18T03:33:54.566Z"
     },
     {
       "id": "c7e36c4d5f5533523bd4",
@@ -883,7 +900,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://openai.com/index/ntt-data",
-      "collectedAt": "2026-08-17T03:38:44.422Z"
+      "collectedAt": "2026-08-18T03:33:54.566Z"
     },
     {
       "id": "a300ec7a4d7064f7179d",
@@ -900,7 +917,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.927Z"
+      "collectedAt": "2026-08-18T03:33:56.388Z"
     },
     {
       "id": "afa41d5e8e9237f5cad2",
@@ -917,7 +934,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "collectedAt": "2026-08-17T03:38:44.423Z"
+      "collectedAt": "2026-08-18T03:33:54.567Z"
     },
     {
       "id": "176c2b61d3ba4a32ae38",
@@ -934,7 +951,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T15:16:30.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
-      "collectedAt": "2026-08-17T03:38:49.061Z"
+      "collectedAt": "2026-08-18T03:33:57.743Z"
     },
     {
       "id": "8b4028e43de92d3eef53",
@@ -951,7 +968,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T07:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "collectedAt": "2026-08-17T03:38:44.423Z"
+      "collectedAt": "2026-08-18T03:33:54.567Z"
     },
     {
       "id": "9e20c4d4744505bf3590",
@@ -968,7 +985,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-08-17T03:38:48.028Z"
+      "collectedAt": "2026-08-18T03:33:56.762Z"
     },
     {
       "id": "7ac3cf4e7948165dd06b",
@@ -985,7 +1002,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-17T03:38:48.562Z"
+      "collectedAt": "2026-08-18T03:33:57.340Z"
     },
     {
       "id": "5237ec62c64502e0362e",
@@ -1002,7 +1019,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-20T10:00:00.000Z",
       "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "collectedAt": "2026-08-17T03:38:44.423Z"
+      "collectedAt": "2026-08-18T03:33:54.567Z"
     },
     {
       "id": "6fa040e6804071ffc67f",
@@ -1019,7 +1036,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-17T15:00:11.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
-      "collectedAt": "2026-08-17T03:38:49.061Z"
+      "collectedAt": "2026-08-18T03:33:57.743Z"
     },
     {
       "id": "453be2383653038965c7",
@@ -1036,7 +1053,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-17T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.927Z"
+      "collectedAt": "2026-08-18T03:33:56.388Z"
     },
     {
       "id": "37604a6bafa43b2cef23",
@@ -1053,7 +1070,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-      "collectedAt": "2026-08-17T03:38:44.424Z"
+      "collectedAt": "2026-08-18T03:33:54.568Z"
     },
     {
       "id": "ad99c0d7682ecec8de3d",
@@ -1070,7 +1087,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-      "collectedAt": "2026-08-17T03:38:49.371Z"
+      "collectedAt": "2026-08-18T03:33:58.058Z"
     },
     {
       "id": "58b103e4e418272fdf21",
@@ -1087,7 +1104,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T07:00:00.000Z",
       "url": "https://openai.com/index/codex-collaborator-creative-team",
-      "collectedAt": "2026-08-17T03:38:44.424Z"
+      "collectedAt": "2026-08-18T03:33:54.568Z"
     },
     {
       "id": "3e27101964501d6d280e",
@@ -1104,7 +1121,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-15T10:00:00.000Z",
       "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "collectedAt": "2026-08-17T03:38:44.425Z"
+      "collectedAt": "2026-08-18T03:33:54.569Z"
     },
     {
       "id": "064bc65fa5f9349bb063",
@@ -1121,41 +1138,41 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.927Z"
+      "collectedAt": "2026-08-18T03:33:56.389Z"
     },
     {
-      "id": "7244b498c233bfdaf01c",
+      "id": "58cd43a6843f5828b315",
       "sourceId": "openai-news",
       "company": "OpenAI",
       "product": "GPT",
       "kind": "news",
-      "title": "How data science teams use ChatGPT Work",
-      "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-      "content": "[Skip to main content](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex#main)\n\n[](https://openai.com/)\n\n*   [Research](https://openai.com/research/index/)\n*   Products\n*   [Business](https://openai.com/business/)\n*   [Developers](https://openai.com/api/)\n*   [Company](https://openai.com/about/)\n*   [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nLog in[Try ChatGPT(opens in a new window)](https://chatgpt.com/?openaicom-did=abea835c-2a7d-4767-a2da-90054709dab9&openaicom_referred=true)\n\n*   Research\n*   Products\n*   Business\n*   Developers\n*   Company\n*   [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nHow data science teams use ChatGPT Work | OpenAI\n\nJuly 14, 2026\n\nOpenAI Academy\n\n# How data science teams use ChatGPT Work\n\nSee how data science teams can use ChatGPT Work to turn questions, dashboards, and raw data into review-ready analysis assets.\n\n[Download ChatGPT Work(opens in a new window)](https://chatgpt.com/codex/for-work/?openaicom-did=abea835c-2a7d-4767-a2da-90054709dab9&openaicom_referred=true)\n\nListen to article 0:52\n\n[Audio 2](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex)\n\nShare\n\nWatch the on-demand webinar\n\n*   [Watch the on-demand webinar](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex#watch-the-on-demand-webinar) \n*   [Top ChatGPT Work use cases for data science teams](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex#top-chatgpt-work-use-cases-for-data-science-teams) \n\n*   [Watch the on-demand webinar](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex#watch-the-on-demand-webinar) \n*   [Top ChatGPT Work use cases for data science teams](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex#top-chatgpt-work-use-cases-for-data-science-teams) \n\nWith ChatGPT Work, data science teams can turn scattered inputs into usable analysis assets faster. Starting from dashboards, metric definitions, exports, experiment notes, and business context, ChatGPT Work helps assemble a first draft of the deliverable—including charts, caveats, source links, and review questions—so teams can validate the work and share it with confidence.\n\n## Watch the on-demand webinar\n\nWatch **_How finance teams use Codex_** on-demand [**here**⁠(opens in a new window)](https://academy.openai.com/home/clubs/work-users-ynjqu/videos/how-data-science-teams-use-codex-recording-2026-05-28).\n\n**Note:** This webinar was recorded when these workflows lived in the former Codex app. You can now follow along using ChatGPT Work at chatgpt.com or in the ChatGPT desktop app.\n\n## Top ChatGPT Work use cases for data science teams\n\nReady to try ChatGPT Work on real data science work? Check out our use cases [here.⁠(opens in a new window)](https://learn.chatgpt.com/use-cases/collections/data-science)\n\n## Continue learning with OpenAI Academy\n\nDiscover additional guides and resources to help you build practical AI skills.\n\n[View all topics](https://openai.com/academy/)[Explore ChatGPT Work(opens in a new window)](https://learn.chatgpt.com/docs/get-started-with-work)\n\n## Keep reading\n\n[View all](https://openai.com/news/)\n\n![Image 1: How sales teams use Codex > card image](https://images.ctfassets.net/kftzwdyauwt9/1O4te2wMh6O77eDV6kapG3/02845b054a09297b9fada40c4cc9a71f/sales_teams.png?w=3840&q=90&fm=webp)\n\n[How sales teams use ChatGPT Work | OpenAI OpenAI Academy Jul 14, 2026](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex/)\n\n![Image 2: Academy > Getting started > Cover Image](https://images.ctfassets.net/kftzwdyauwt9/1Xk9723QKj2Vb9dC6RMebS/5e588c112042794e62178a224eaff418/getting-started.png?w=3840&q=90&fm=webp)\n\n[Getting started with ChatGPT | OpenAI OpenAI Academy Jul 10, 2026](https://openai.com/academy/getting-started/)\n\n![Image 3: sites](https://images.ctfassets.net/kftzwdyauwt9/6fIs1au2N2RynrKQ3eXg0q/15d0fd6fc8d2b24837bed23fc76fc8c4/sites.png?w=3840&q=90&fm=webp)\n\n[ChatGPT Sites OpenAI Academy Jun 2, 2026](https://openai.com/academy/chatgpt-sites/)\n\nResearch\n*   [Research Index](https://openai.com/research/index/)\n*   [Research Overview](https://openai.com/research/)\n*   [Economic Research](https://openai.com/signals/)\n\nLatest Advancements\n*   [GPT-5.6](https://openai.com/index/gpt-5-6/)\n*   [GPT-5.5](https://openai.com/index/introducing-gpt-5-5/)\n*   [GPT-5.4](https://openai.com/index/introducing-gpt-5-4/)\n\nSafety\n*   [Safety Approach](https://openai.com/safety/)\n*   [Deployment Safety(opens in a new window)](https://deploymentsafety.openai.com/)\n*   [Security & Privacy](https://openai.com/security-and-privacy/)\n*   [Trust & Transparency](https://openai.com/trust-and-transparency/)\n\nProducts\n*   [ChatGPT(opens in a new window)](https://chatgpt.com/?openaicom-did=abea835c-2a7d-4767-a2da-90054709dab9&openaicom_referred=true)\n*   [ChatGPT Business(opens in a new window)](https://chatgpt.com/business/?openaicom-did=abea835c-2a7d-4767-a2da-90054709dab9&openaicom_referred=true)\n*   [ChatGPT Enterprise(opens in a new window)](https://chatgpt.com/business/enterprise/?openaicom-did=abea835c-2a7d-4767-a2da-90054709dab9&openaicom_referred=true)\n*   [ChatGPT for Education(opens in a new window)](https://chatgpt.com/business/education/?openaicom-did=abea835c-2a7d-4767-a2da-90054709dab9&openaicom_referred=true)\n*   [Codex](https://openai.com/codex/)\n*   [Release Notes](https://openai.com/products/release-notes/)\n\nAPI Platform\n*   [Overview](https://openai.com/api/)\n*   [API Log In(opens in a new window)](https://platform.openai.com/login)\n*   [Docs(opens in a new window)](https://developers.openai.com/api/docs)\n\nBusiness\n*   [Overview](https://openai.com/business/)\n*   [Solutions](https://openai.com/solutions/)\n*   [Resources](https://openai.com/business/learn/)\n*   [Customer Stories](https://openai.com/business/customer-stories/)\n*   [Partner Network](https://openai.com/business/partners/)\n*   [Contact Sales](https://openai.com/contact-sales/)\n\nDevelopers\n*   [Apps SDK(opens in a new window)](https://developers.openai.com/apps-sdk)\n*   [Open Models](https://openai.com/open-models/)\n*   [Docs(opens in a new window)](https://developers.openai.com/)\n*   [Resources(opens in a new window)](https://developers.openai.com/learn)\n*   [Developer Forum(opens in a new window)](https://community.openai.com/)\n\nCompany\n*   [About Us](https://openai.com/about/)\n*   [Our Charter](https://openai.com/charter/)\n*   [Careers](https://openai.com/careers/)\n*   [News](https://openai.com/news/)\n\nSupport\n*   [Help Center(opens in a new window)](https://help.openai.com/)\n\nMore\n*   [Stories](https://openai.com/stories/)\n*   [Academy](https://openai.com/academy/)\n*   [Supply Co.](https://openai.com/supply/)\n*   [Livestreams](https://openai.com/live/)\n*   [Podcast](https://openai.com/podcast/)\n*   [RSS](https://openai.com/news/rss.xml)\n\nTerms & Policies\n*   [Terms of Use](https://openai.com/policies/terms-of-use/)\n*   [Privacy Policy](https://openai.com/policies/privacy-policy/)\n*   [Other Policies](https://openai.com/policies/)\n\n[(opens in a new window)](https://x.com/OpenAI)[(opens in a new window)](https://www.youtube.com/OpenAI)[(opens in a new window)](https://www.linkedin.com/company/openai)[(opens in a new window)](https://github.com/openai)[(opens in a new window)](https://www.instagram.com/openai/)[(opens in a new window)](https://www.tiktok.com/@openai)[(opens in a new window)](https://discord.gg/openai)\n\nOpenAI © 2015–2026 Your privacy choices\n\nEnglish United States",
-      "contentZh": "[跳转到主要内容](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex#main)\n\n[](https://openai.com/)\n\n*   [研究](https://openai.com/research/index/)\n*   产品\n*   [商业](https://openai.com/business/)\n*   [开发者](https://openai.com/api/)\n*   [公司](https://openai.com/about/)\n*   [基金会（在新窗口中打开）](https://openaifoundation.org/)\n\n登录[尝试 ChatGPT（在新窗口中打开）](https://chatgpt.com/?openaicom-did=abea835c-2a7d-4767-a2da-90054709dab9&openaicom_referred=true)\n\n*   研究\n*   产品\n*   商业\n*   开发者\n*   公司\n*   [基金会（在新窗口中打开）](https://openaifoundation.org/)\n\n数据科学团队如何使用 ChatGPT Work | OpenAI\n\n2026年7月14日\n\nOpenAI Academy\n\n# 数据科学团队如何使用 ChatGPT Work\n\n了解数据科学团队如何利用 ChatGPT Work，将问题、仪表盘和原始数据转化为可供审阅的分析资产。\n\n[下载 ChatGPT Work（在新窗口中打开）](https://chatgpt.com/codex/for-work/?openaicom-did=abea835c-2a7d-4767-a2da-90054709dab9&openaicom_referred=true)\n\n收听文章 0:52\n\n[音频 2](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex)\n\n分享\n\n观看点播网络研讨会\n\n*   [观看点播网络研讨会](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex#watch-the-on-demand-webinar) \n*   [数据科学团队的 ChatGPT Work 主要用例](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex#top-chatgpt-work-use-cases-for-data-science-teams) \n\n*   [观看点播网络研讨会](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex#watch-the-on-demand-webinar) \n*   [数据科学团队的 ChatGPT Work 主要用例](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex#top-chatgpt-work-use-cases-for-data-science-teams) \n\n借助 ChatGPT Work，数据科学团队可以更快地将分散的输入转化为可用的分析资产。从仪表盘、指标定义、导出数据、实验笔记和业务背景出发，ChatGPT Work 帮助组装出交付物的初稿——包括图表、注意事项、来源链接和审阅问题——从而使团队能够验证工作并自信地分享。\n\n## 观看点播网络研讨会\n\n点击[**此处**（在新窗口中打开）](https://academy.openai.com/home/clubs/work-users-ynjqu/videos/how-data-science-teams-use-codex-recording-2026-05-28)观看点播网络研讨会 **_金融团队如何使用 Codex_**。\n\n**注意：** 本次网络研讨会录制时，这些工作流程位于之前的 Codex 应用中。您现在可以在 chatgpt.com 或 ChatGPT 桌面应用中通过 ChatGPT Work 进行跟随操作。\n\n## 数据科学团队的 ChatGPT Work 主要用例\n\n准备好将 ChatGPT Work 应用于实际数据科学工作了吗？请点击[此处（在新窗口中打开）](https://learn.chatgpt.com/use-cases/collections/data-science)查看我们的用例。\n\n## 继续通过 OpenAI Academy 学习\n\n发现更多指南和资源，帮助您构建实用的 AI 技能。\n\n[查看所有主题](https://openai.com/academy/)[探索 ChatGPT Work（在新窗口中打开）](https://learn.chatgpt.com/docs/get-started-with-work)\n\n## 继续阅读\n\n[查看全部](https://openai.com/news/)\n\n![图片 1：销售团队如何使用 Codex > 卡片图片](https://images.ctfassets.net/kftzwdyauwt9/1O4te2wMh6O77eDV6kapG3/02845b054a09297b9fada40c4cc9a71f/sales_teams.png?w=3840&q=90&fm=webp)\n\n[销售团队如何使用 ChatGPT Work | OpenAI OpenAI Academy 2026年7月14日](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex/)\n\n![图片 2：Academy > 入门 > 封面图片](https://images.ctfassets.net/kftzwdyauwt9/1Xk9723QKj2Vb9dC6RMebS/5e588c112042794e62178a224eaff418/getting-started.png?w=3840&q=90&fm=webp)\n\n[ChatGPT 入门 | OpenAI OpenAI Academy 2026年7月10日](https://openai.com/academy/getting-started/)\n\n![图片 3：站点](https://images.ctfassets.net/kftzwdyauwt9/6fIs1au2N2RynrKQ3eXg0q/15d0fd6fc8d2b24837bed23fc76fc8c4/sites.png?w=3840&q=90&fm=webp)\n\n[ChatGPT 站点 OpenAI Academy 2026年6月2日](https://openai.com/academy/chatgpt-sites/)\n\n研究\n*   [研究索引](https://openai.com/research/index/)\n*   [研究概览](https://openai.com/research/)\n*   [经济研究](https://openai.com/signals/)\n\n最新进展\n*   [GPT-5.6](https://openai.com/index/gpt-5-6/)\n*   [GPT-5.5](https://openai.com/index/introducing-gpt-5-5/)\n*   [GPT-5.4](https://openai.com/index/introducing-gpt-5-4/)\n\n安全\n*   [安全方法](https://openai.com/safety/)\n*   [部署安全（在新窗口中打开）](https://deploymentsafety.openai.com/)\n*   [安全与隐私](https://openai.com/security-and-privacy/)\n*   [信任与透明度](https://openai.com/trust-and-transparency/)\n\n产品\n*   [ChatGPT（在新窗口中打开）](https://chatgpt.com/?openaicom-did=abea835c-2a7d-4767-a2da-90054709dab9&openaicom_referred=true)\n*   [ChatGPT Business（在新窗口中打开）](https://chatgpt.com/business/?openaicom-did=abea835c-2a7d-4767-a2da-90054709dab9&openaicom_referred=true)\n*   [ChatGPT Enterprise（在新窗口中打开）](https://chatgpt.com/business/enterprise/?openaicom-did=abea835c-2a7d-4767-a2da-90054709dab9&openaicom_referred=true)\n*   [ChatGPT for Education（在新窗口中打开）](https://chatgpt.com/business/education/?openaicom-did=abea835c-2a7d-4767-a2da-90054709dab9&openaicom_referred=true)\n*   [Codex](https://openai.com/codex/)\n*   [发布说明](https://openai.com/products/release-notes/)\n\nAPI 平台\n*   [概览](https://openai.com/api/)\n*   [API 登录（在新窗口中打开）](https://platform.openai.com/login)\n*   [文档（在新窗口中打开）](https://developers.openai.com/api/docs)\n\n商业\n*   [概览](https://openai.com/business/)\n*   [解决方案](https://openai.com/solutions/)\n*   [资源](https://openai.com/business/learn/)\n*   [客户案例](https://openai.com/business/customer-stories/)\n*   [合作伙伴网络](https://openai.com/business/partners/)\n*   [联系销售](https://openai.com/contact-sales/)\n\n开发者\n*   [应用 SDK（在新窗口中打开）](https://developers.openai.com/apps-sdk)\n*   [开放模型](https://openai.com/open-models/)\n*   [文档（在新窗口中打开）](https://developers.openai.com/)\n*   [资源（在新窗口中打开）](https://developers.openai.com/learn)\n*   [开发者论坛（在新窗口中打开）](https://community.openai.com/)\n\n公司\n*   [关于我们](https://openai.com/about/)\n*   [我们的章程](https://openai.com/charter/)\n*   [职业机会](https://openai.com/careers/)\n*   [新闻](https://openai.com/news/)\n\n支持\n*   [帮助中心（在新窗口中打开）](https://help.openai.com/)\n\n更多\n*   [故事](https://openai.com/stories/)\n*   [Academy](https://openai.com/academy/)\n*   [周边商店](https://openai.com/supply/)\n*   [直播](https://openai.com/live/)\n*   [播客](https://openai.com/podcast/)\n*   [RSS](https://openai.com/news/rss.xml)\n\n条款与政策\n*   [使用条款](https://openai.com/policies/terms-of-use/)\n*   [隐私政策](https://openai.com/policies/privacy-policy/)\n*   [其他政策](https://openai.com/policies/)\n\n[（在新窗口中打开）](https://x.com/OpenAI)[（在新窗口中打开）](https://www.youtube.com/OpenAI)[（在新窗口中打开）](https://www.linkedin.com/company/openai)[（在新窗口中打开）](https://github.com/openai)[（在新窗口中打开）](https://www.instagram.com/openai/)[（在新窗口中打开）](https://www.tiktok.com/@openai)[（在新窗口中打开）](https://discord.gg/openai)\n\nOpenAI © 2015–2026 您的隐私选择\n\nEnglish United States",
-      "titleZh": "数据科学团队如何使用ChatGPT Work",
-      "summaryZh": "了解数据科学团队如何利用ChatGPT Work，从实际工作输入中构建根本原因简报、影响报告、KPI备忘录、范围分析和仪表板规范。",
+      "title": "Data science workflows with ChatGPT Work",
+      "summary": "Learn practical ChatGPT Work workflows for root-cause briefs, KPI memos, scoped analyses, and dashboard specifications.",
+      "content": "[Skip to main content](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#main)\n\n[](https://openai.com/)\n\n*   [Research](https://openai.com/research/index/)\n*   Products\n*   [Business](https://openai.com/business/)\n*   [Developers](https://openai.com/api/)\n*   [Company](https://openai.com/about/)\n*   [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nLog in[Try ChatGPT(opens in a new window)](https://chatgpt.com/)\n\n*   Research\n*   Products\n*   Business\n*   Developers\n*   Company\n*   [Foundation(opens in a new window)](https://openaifoundation.org/)\n\n[Try ChatGPT(opens in a new window)](https://chatgpt.com/)Login\n\nOpenAI\n\nJuly 14, 2026\n\nOpenAI Academy\n\n# Data science workflows with ChatGPT Work\n\nSee how data science teams can use ChatGPT Work to turn questions, dashboards, and raw data into review-ready analysis assets.\n\n[Download ChatGPT Work(opens in a new window)](https://chatgpt.com/codex/for-work/)\n\nLoading…\n\n[Audio 2](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex)\n\nShare\n\nWatch the on-demand webinar\n\n*   [Watch the on-demand webinar](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#watch-the-on-demand-webinar)\n*   [Top ChatGPT Work use cases for data science teams](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#top-chatgpt-work-use-cases-for-data-science-teams)\n\n*   [Watch the on-demand webinar](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#watch-the-on-demand-webinar)\n*   [Top ChatGPT Work use cases for data science teams](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#top-chatgpt-work-use-cases-for-data-science-teams)\n\nWith ChatGPT Work, data science teams can turn scattered inputs into usable analysis assets faster. Starting from dashboards, metric definitions, exports, experiment notes, and business context, ChatGPT Work helps assemble a first draft of the deliverable—including charts, caveats, source links, and review questions—so teams can validate the work and share it with confidence.\n\n## Watch the on-demand webinar\n\nWatch **_How data science teams use Codex_** on-demand [**here**⁠(opens in a new window)](https://academy.openai.com/home/clubs/work-users-ynjqu/videos/how-data-science-teams-use-codex-recording-2026-05-28).\n\n**Note:** This webinar was recorded when these workflows lived in the former Codex app. You can now follow along using ChatGPT Work at chatgpt.com or in the ChatGPT desktop app.\n\n## Top ChatGPT Work use cases for data science teams\n\nReady to try ChatGPT Work on real data science work? Check out our use cases [here.⁠(opens in a new window)](https://learn.chatgpt.com/use-cases/collections/data-science)\n\nFor related tools and guidance, explore [ChatGPT solutions for data teams](https://openai.com/business/solutions/data/) and [the Databricks integration](https://openai.com/business/plugins/databricks/).\n\n## Continue learning with OpenAI Academy\n\nDiscover additional guides and resources to help you build practical AI skills.\n\n[View all topics](https://openai.com/academy/)[Explore ChatGPT Work(opens in a new window)](https://learn.chatgpt.com/docs/get-started-with-work)\n\n## Keep reading\n\n[View all](https://openai.com/news/)\n\n![Image 1: How sales teams use Codex > card image](https://images.ctfassets.net/kftzwdyauwt9/1O4te2wMh6O77eDV6kapG3/02845b054a09297b9fada40c4cc9a71f/sales_teams.png?w=3840&q=90&fm=webp)\n\n[How sales teams use ChatGPT Work | OpenAI OpenAI Academy Jul 14, 2026](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex/)\n\n![Image 2: Academy > Getting started > Cover Image](https://images.ctfassets.net/kftzwdyauwt9/1Xk9723QKj2Vb9dC6RMebS/5e588c112042794e62178a224eaff418/getting-started.png?w=3840&q=90&fm=webp)\n\n[Getting started with ChatGPT | OpenAI OpenAI Academy Jul 10, 2026](https://openai.com/academy/getting-started/)\n\n![Image 3: sites](https://images.ctfassets.net/kftzwdyauwt9/6fIs1au2N2RynrKQ3eXg0q/15d0fd6fc8d2b24837bed23fc76fc8c4/sites.png?w=3840&q=90&fm=webp)\n\n[ChatGPT Sites OpenAI Academy Jun 2, 2026](https://openai.com/academy/chatgpt-sites/)\n\nResearch\n*   [Research Index](https://openai.com/research/index/)\n*   [Research Overview](https://openai.com/research/)\n*   [Economic Research](https://openai.com/signals/)\n\nLatest Advancements\n*   [GPT-5.6](https://openai.com/index/gpt-5-6/)\n*   [GPT-5.5](https://openai.com/index/introducing-gpt-5-5/)\n*   [GPT-5.4](https://openai.com/index/introducing-gpt-5-4/)\n\nSafety\n*   [Safety Approach](https://openai.com/safety/)\n*   [Deployment Safety(opens in a new window)](https://deploymentsafety.openai.com/)\n*   [Security & Privacy](https://openai.com/security-and-privacy/)\n*   [Trust & Transparency](https://openai.com/trust-and-transparency/)\n\nProducts\n*   [ChatGPT(opens in a new window)](https://chatgpt.com/)\n*   [ChatGPT Business(opens in a new window)](https://chatgpt.com/business/)\n*   [ChatGPT Enterprise(opens in a new window)](https://chatgpt.com/business/enterprise/)\n*   [ChatGPT for Education(opens in a new window)](https://chatgpt.com/business/education/)\n*   [Codex](https://openai.com/codex/)\n*   [Release Notes](https://openai.com/products/release-notes/)\n\nAPI Platform\n*   [Overview](https://openai.com/api/)\n*   [API Log In(opens in a new window)](https://platform.openai.com/login)\n*   [Docs(opens in a new window)](https://developers.openai.com/api/docs)\n\nBusiness\n*   [Overview](https://openai.com/business/)\n*   [Solutions](https://openai.com/solutions/)\n*   [Resources](https://openai.com/business/learn/)\n*   [Customer Stories](https://openai.com/business/customer-stories/)\n*   [Partner Network](https://openai.com/business/partners/)\n*   [Contact Sales](https://openai.com/contact-sales/)\n\nDevelopers\n*   [Apps SDK(opens in a new window)](https://developers.openai.com/apps-sdk)\n*   [Open Models](https://openai.com/open-models/)\n*   [Docs(opens in a new window)](https://developers.openai.com/)\n*   [Resources(opens in a new window)](https://developers.openai.com/learn)\n*   [Developer Forum(opens in a new window)](https://community.openai.com/)\n\nCompany\n*   [About Us](https://openai.com/about/)\n*   [Our Charter](https://openai.com/charter/)\n*   [Careers](https://openai.com/careers/)\n*   [News](https://openai.com/news/)\n\nSupport\n*   [Help Center(opens in a new window)](https://help.openai.com/)\n\nMore\n*   [Stories](https://openai.com/stories/)\n*   [Academy](https://openai.com/academy/)\n*   [Supply Co.](https://openai.com/supply/)\n*   [Livestreams](https://openai.com/live/)\n*   [Podcast](https://openai.com/podcast/)\n*   [RSS](https://openai.com/news/rss.xml)\n\nTerms & Policies\n*   [Terms of Use](https://openai.com/policies/terms-of-use/)\n*   [Privacy Policy](https://openai.com/policies/privacy-policy/)\n*   [Other Policies](https://openai.com/policies/)\n\n[(opens in a new window)](https://x.com/OpenAI)[(opens in a new window)](https://www.youtube.com/OpenAI)[(opens in a new window)](https://www.linkedin.com/company/openai)[(opens in a new window)](https://github.com/openai)[(opens in a new window)](https://www.instagram.com/openai/)[(opens in a new window)](https://www.tiktok.com/@openai)[(opens in a new window)](https://discord.gg/openai)\n\nOpenAI © 2015–2026 Your privacy choices\n\nEnglish United States",
+      "contentZh": "[跳转到主要内容](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#main)\n\n[](https://openai.com/)\n\n*   [研究](https://openai.com/research/index/)\n*   产品\n*   [商业](https://openai.com/business/)\n*   [开发者](https://openai.com/api/)\n*   [公司](https://openai.com/about/)\n*   [基金会（在新窗口中打开）](https://openaifoundation.org/)\n\n登录[试用 ChatGPT（在新窗口中打开）](https://chatgpt.com/)\n\n*   研究\n*   产品\n*   商业\n*   开发者\n*   公司\n*   [基金会（在新窗口中打开）](https://openaifoundation.org/)\n\n[试用 ChatGPT（在新窗口中打开）](https://chatgpt.com/)登录\n\nOpenAI\n\n2026年7月14日\n\nOpenAI Academy\n\n# 数据科学团队使用 ChatGPT Work 的工作流程\n\n了解数据科学团队如何使用 ChatGPT Work 将问题、仪表板和原始数据转化为可供审阅的分析资产。\n\n[下载 ChatGPT Work（在新窗口中打开）](https://chatgpt.com/codex/for-work/)\n\n加载中…\n\n[音频 2](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex)\n\n分享\n\n观看点播网络研讨会\n\n*   [观看点播网络研讨会](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#watch-the-on-demand-webinar)\n*   [数据科学团队使用 ChatGPT Work 的主要用例](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#top-chatgpt-work-use-cases-for-data-science-teams)\n\n*   [观看点播网络研讨会](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#watch-the-on-demand-webinar)\n*   [数据科学团队使用 ChatGPT Work 的主要用例](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#top-chatgpt-work-use-cases-for-data-science-teams)\n\n借助 ChatGPT Work，数据科学团队可以更快地将零散的输入转化为可用的分析资产。从仪表板、指标定义、导出数据、实验笔记和业务背景出发，ChatGPT Work 帮助整合出交付物的初稿——包括图表、注意事项、来源链接和审阅问题——使团队能够验证工作成果并自信地分享。\n\n## 观看点播网络研讨会\n\n在此处⁠（在新窗口中打开）观看 **_数据科学团队如何使用 Codex_** 的点播视频。\n\n**注意：** 本次网络研讨会录制时，这些工作流程位于之前的 Codex 应用中。您现在可以在 chatgpt.com 或 ChatGPT 桌面应用中使用 ChatGPT Work 进行同样的操作。\n\n## 数据科学团队使用 ChatGPT Work 的主要用例\n\n准备好将 ChatGPT Work 应用于真实的数据科学工作了吗？在此处⁠（在新窗口中打开）查看我们的用例。\n\n如需相关工具和指南，请探索 [面向数据团队的 ChatGPT 解决方案](https://openai.com/business/solutions/data/) 和 [Databricks 集成](https://openai.com/business/plugins/databricks/)。\n\n## 继续通过 OpenAI Academy 学习\n\n发现更多指南和资源，帮助您构建实用的 AI 技能。\n\n[查看所有主题](https://openai.com/academy/)[探索 ChatGPT Work（在新窗口中打开）](https://learn.chatgpt.com/docs/get-started-with-work)\n\n## 继续阅读\n\n[查看全部](https://openai.com/news/)\n\n![图片 1：销售团队如何使用 Codex > 卡片图片](https://images.ctfassets.net/kftzwdyauwt9/1O4te2wMh6O77eDV6kapG3/02845b054a09297b9fada40c4cc9a71f/sales_teams.png?w=3840&q=90&fm=webp)\n\n[销售团队如何使用 ChatGPT Work | OpenAI OpenAI Academy 2026年7月14日](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex/)\n\n![图片 2：Academy > 入门 > 封面图片](https://images.ctfassets.net/kftzwdyauwt9/1Xk9723QKj2Vb9dC6RMebS/5e588c112042794e62178a224eaff418/getting-started.png?w=3840&q=90&fm=webp)\n\n[ChatGPT 入门 | OpenAI OpenAI Academy 2026年7月10日](https://openai.com/academy/getting-started/)\n\n![图片 3：站点](https://images.ctfassets.net/kftzwdyauwt9/6fIs1au2N2RynrKQ3eXg0q/15d0fd6fc8d2b24837bed23fc76fc8c4/sites.png?w=3840&q=90&fm=webp)\n\n[ChatGPT Sites OpenAI Academy 2026年6月2日](https://openai.com/academy/chatgpt-sites/)\n\n研究\n*   [研究索引](https://openai.com/research/index/)\n*   [研究概览](https://openai.com/research/)\n*   [经济研究](https://openai.com/signals/)\n\n最新进展\n*   [GPT-5.6](https://openai.com/index/gpt-5-6/)\n*   [GPT-5.5](https://openai.com/index/introducing-gpt-5-5/)\n*   [GPT-5.4](https://openai.com/index/introducing-gpt-5-4/)\n\n安全\n*   [安全方法](https://openai.com/safety/)\n*   [部署安全（在新窗口中打开）](https://deploymentsafety.openai.com/)\n*   [安全与隐私](https://openai.com/security-and-privacy/)\n*   [信任与透明度](https://openai.com/trust-and-transparency/)\n\n产品\n*   [ChatGPT（在新窗口中打开）](https://chatgpt.com/)\n*   [ChatGPT Business（在新窗口中打开）](https://chatgpt.com/business/)\n*   [ChatGPT Enterprise（在新窗口中打开）](https://chatgpt.com/business/enterprise/)\n*   [ChatGPT for Education（在新窗口中打开）](https://chatgpt.com/business/education/)\n*   [Codex](https://openai.com/codex/)\n*   [发布说明](https://openai.com/products/release-notes/)\n\nAPI 平台\n*   [概览](https://openai.com/api/)\n*   [API 登录（在新窗口中打开）](https://platform.openai.com/login)\n*   [文档（在新窗口中打开）](https://developers.openai.com/api/docs)\n\n商业\n*   [概览](https://openai.com/business/)\n*   [解决方案](https://openai.com/solutions/)\n*   [资源](https://openai.com/business/learn/)\n*   [客户案例](https://openai.com/business/customer-stories/)\n*   [合作伙伴网络](https://openai.com/business/partners/)\n*   [联系销售](https://openai.com/contact-sales/)\n\n开发者\n*   [Apps SDK（在新窗口中打开）](https://developers.openai.com/apps-sdk)\n*   [开放模型](https://openai.com/open-models/)\n*   [文档（在新窗口中打开）](https://developers.openai.com/)\n*   [资源（在新窗口中打开）](https://developers.openai.com/learn)\n*   [开发者论坛（在新窗口中打开）](https://community.openai.com/)\n\n公司\n*   [关于我们](https://openai.com/about/)\n*   [我们的章程](https://openai.com/charter/)\n*   [招聘](https://openai.com/careers/)\n*   [新闻](https://openai.com/news/)\n\n支持\n*   [帮助中心（在新窗口中打开）](https://help.openai.com/)\n\n更多\n*   [故事](https://openai.com/stories/)\n*   [Academy](https://openai.com/academy/)\n*   [周边商店](https://openai.com/supply/)\n*   [直播](https://openai.com/live/)\n*   [播客](https://openai.com/podcast/)\n*   [RSS](https://openai.com/news/rss.xml)\n\n条款与政策\n*   [使用条款](https://openai.com/policies/terms-of-use/)\n*   [隐私政策](https://openai.com/policies/privacy-policy/)\n*   [其他政策](https://openai.com/policies/)\n\n[(在新窗口中打开)](https://x.com/OpenAI)[(在新窗口中打开)](https://www.youtube.com/OpenAI)[(在新窗口中打开)](https://www.linkedin.com/company/openai)[(在新窗口中打开)](https://github.com/openai)[(在新窗口中打开)](https://www.instagram.com/openai/)[(在新窗口中打开)](https://www.tiktok.com/@openai)[(在新窗口中打开)](https://discord.gg/openai)\n\nOpenAI © 2015–2026 您的隐私选择\n\n英语 美国",
+      "titleZh": "使用ChatGPT Work的数据科学工作流",
+      "summaryZh": "了解用于根本原因简报、KPI备忘录、范围分析和仪表板规格的实用ChatGPT Work工作流。",
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "collectedAt": "2026-08-17T03:38:44.426Z"
+      "url": "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex",
+      "collectedAt": "2026-08-18T03:33:54.569Z"
     },
     {
-      "id": "456add788856ffcb6127",
+      "id": "2a84bed91691bdac7e9f",
       "sourceId": "openai-news",
       "company": "OpenAI",
       "product": "GPT",
       "kind": "news",
-      "title": "How sales teams use ChatGPT Work",
-      "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-      "content": "How sales teams use ChatGPT Work | OpenAI\n\nJuly 14, 2026\n\nOpenAI Academy\n\nExplore how sales teams can use ChatGPT Work to turn account context, customer conversations, and deal signals into pipeline briefs, meeting packs, forecast reviews, and account plans.\n\nListen to article 1:28\n\nSales work often lives across CRM fields, call notes, email threads, Slack discussions, decks, customer docs, and account signals. ChatGPT Work helps pull that context together and produce the first usable version of the artifact, whether that is a prioritized account brief, meeting prep packet, forecast risk review, account strategy pack, or stalled-deal diagnosis. Sellers and managers still own the relationship strategy and judgment; ChatGPT Work helps get the working draft in front of the team faster.\n\n## Watch the on-demand webinar\n\n**Note:** This webinar was recorded when these workflows lived in the former Codex app. You can now follow along using ChatGPT Work at chatgpt.com or in the ChatGPT desktop app.\n\n## Install the sales plugin for ChatGPT Work\n\nThe ChatGPT Work**sales plugin**helps sales teams bring customer context into the work that moves deals forward. Sales teams can find high-priority accounts and signals, prepare for customer meetings, complete follow-ups, update customer records, build close plans, and review deals at risk using tools like Salesforce, HubSpot, Slack, Outreach, Clay, Rox, and Actively. Already have ChatGPT Work installed? Click [**here**⁠(opens in a new window)](https://chatgpt.com/plugins/share/22ec24462a4a410bba1c56c099f6101c?openaicom-did=47078035-8f41-430e-9170-1cacc37a6cb3&openaicom_referred=true) to install the Sales plugin.\n\n## Top ChatGPT Work use cases for sales teams",
-      "contentZh": "# 销售团队如何使用 ChatGPT Work | OpenAI\n\n2026年7月14日\n\nOpenAI Academy\n\n探索销售团队如何利用 ChatGPT Work，将客户背景、对话记录和交易信号转化为管道简报、会议资料包、预测回顾和客户计划。\n\n收听文章 1:28\n\n销售工作通常分散在 CRM 字段、通话记录、邮件线程、Slack 讨论、演示文稿、客户文档和客户信号中。ChatGPT Work 能够整合这些背景信息，并生成可用的初版工作成果——无论是优先级客户简报、会议准备资料包、预测风险回顾、客户策略包，还是停滞交易诊断。销售人员和经理仍然负责关系策略和判断；ChatGPT Work 帮助团队更快地获得工作草稿。\n\n## 观看点播网络研讨会\n\n**注意：** 本次网络研讨会录制时，这些工作流程运行在之前的 Codex 应用中。现在您可以在 chatgpt.com 或 ChatGPT 桌面应用中使用 ChatGPT Work 进行同样的操作。\n\n## 安装 ChatGPT Work 销售插件\n\nChatGPT Work **销售插件**帮助销售团队将客户背景信息引入推动交易进展的工作中。销售团队可以利用 Salesforce、HubSpot、Slack、Outreach、Clay、Rox 和 Actively 等工具，查找高优先级客户和信号、准备客户会议、完成跟进、更新客户记录、制定结案计划以及审查有风险的交易。已安装 ChatGPT Work？点击[**此处⁠（在新窗口中打开）**](https://chatgpt.com/plugins/share/22ec24462a4a410bba1c56c099f6101c?openaicom-did=47078035-8f41-430e-9170-1cacc37a6cb3&openaicom_referred=true)安装销售插件。\n\n## 销售团队使用 ChatGPT Work 的顶级用例",
-      "titleZh": "销售团队如何使用ChatGPT Work",
-      "summaryZh": "了解销售团队如何利用ChatGPT Work，从实际工作输入中创建管道简报、会议准备包、预测审查、客户计划和停滞交易诊断。",
+      "title": "Sales workflows with ChatGPT Work",
+      "summary": "Learn practical ChatGPT Work workflows for pipeline briefs, meeting prep, account plans, forecast reviews, and deal diagnosis.",
+      "content": "OpenAI\n\nJuly 14, 2026\n\nOpenAI Academy\n\nExplore how sales teams can use ChatGPT Work to turn account context, customer conversations, and deal signals into pipeline briefs, meeting packs, forecast reviews, and account plans.\n\n*   [Watch the on-demand webinar](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex#watch-the-on-demand-webinar)\n*   [Install the sales plugin for ChatGPT Work](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex#install-the-sales-plugin-for-chatgpt-work)\n*   [Top ChatGPT Work use cases for sales teams](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex#top-chatgpt-work-use-cases-for-sales-teams)\n\nSales work often lives across CRM fields, call notes, email threads, Slack discussions, decks, customer docs, and account signals. ChatGPT Work helps pull that context together and produce the first usable version of the artifact, whether that is a prioritized account brief, meeting prep packet, forecast risk review, account strategy pack, or stalled-deal diagnosis. Sellers and managers still own the relationship strategy and judgment; ChatGPT Work helps get the working draft in front of the team faster.\n\n## Watch the on-demand webinar\n\n![Image 1: Cover image for How sales teams use Codex webinar](https://images.ctfassets.net/kftzwdyauwt9/4uAF2eygEqdddeqvA8dpx9/cd35d0ea2fc231128bd48f3a87ca2792/How_sales_teams_use_Codex.jpg?w=3840&q=90&fm=webp)\n\n**Note:** This webinar was recorded when these workflows lived in the former Codex app. You can now follow along using ChatGPT Work at chatgpt.com or in the ChatGPT desktop app.\n\n## Install the sales plugin for ChatGPT Work\n\nThe ChatGPT Work**sales plugin**helps sales teams bring customer context into the work that moves deals forward. Sales teams can find high-priority accounts and signals, prepare for customer meetings, complete follow-ups, update customer records, build close plans, and review deals at risk using tools like Salesforce, HubSpot, Slack, Outreach, Clay, Rox, and Actively. Already have ChatGPT Work installed? Click [**here**⁠(opens in a new window)](https://chatgpt.com/plugins/share/22ec24462a4a410bba1c56c099f6101c) to install the Sales plugin.\n\n## Top ChatGPT Work use cases for sales teams",
+      "contentZh": "OpenAI\n\n2026年7月14日\n\nOpenAI Academy\n\n了解销售团队如何利用ChatGPT Work将客户背景、客户对话和交易信号转化为管道简报、会议资料包、预测审查和客户计划。\n\n*   [观看点播网络研讨会](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex#watch-the-on-demand-webinar)\n*   [为ChatGPT Work安装销售插件](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex#install-the-sales-plugin-for-chatgpt-work)\n*   [面向销售团队的ChatGPT Work热门用例](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex#top-chatgpt-work-use-cases-for-sales-teams)\n\n销售工作通常分散在CRM字段、通话记录、电子邮件线程、Slack讨论、演示文稿、客户文档和客户信号中。ChatGPT Work有助于整合这些背景信息，并生成成果物的首个可用版本，无论是优先级客户简报、会议准备资料包、预测风险审查、客户策略包，还是停滞交易诊断。销售人员和经理仍然负责关系策略和判断；ChatGPT Work帮助团队更快地获得工作草稿。\n\n## 观看点播网络研讨会\n\n![图片1：销售团队如何使用Codex网络研讨会封面图](https://images.ctfassets.net/kftzwdyauwt9/4uAF2eygEqdddeqvA8dpx9/cd35d0ea2fc231128bd48f3a87ca2792/How_sales_teams_use_Codex.jpg?w=3840&q=90&fm=webp)\n\n**注意：** 本次网络研讨会录制时，这些工作流程位于之前的Codex应用中。您现在可以在chatgpt.com或ChatGPT桌面应用中使用ChatGPT Work进行同样的操作。\n\n## 为ChatGPT Work安装销售插件\n\nChatGPT Work**销售插件**帮助销售团队将客户背景信息引入推动交易进展的工作中。销售团队可以使用Salesforce、HubSpot、Slack、Outreach、Clay、Rox和Actively等工具，查找高优先级客户和信号、准备客户会议、完成后续跟进、更新客户记录、制定成交计划，并审查有风险的交易。已经安装了ChatGPT Work？点击[**此处⁠（在新窗口中打开）**](https://chatgpt.com/plugins/share/22ec24462a4a410bba1c56c099f6101c)安装销售插件。\n\n## 面向销售团队的ChatGPT Work热门用例",
+      "titleZh": "使用ChatGPT Work的销售工作流程",
+      "summaryZh": "了解ChatGPT Work在管道简报、会议准备、客户计划、预测审查和交易诊断方面的实用工作流程。",
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
-      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "collectedAt": "2026-08-17T03:38:44.426Z"
+      "url": "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
+      "collectedAt": "2026-08-18T03:33:54.569Z"
     },
     {
       "id": "9ef49567f47481113df8",
@@ -1172,7 +1189,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-17T03:38:45.191Z"
+      "collectedAt": "2026-08-18T03:33:55.174Z"
     },
     {
       "id": "02a4b9621f0b60b565aa",
@@ -1189,7 +1206,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.928Z"
+      "collectedAt": "2026-08-18T03:33:56.389Z"
     },
     {
       "id": "eb3326089562a28362a2",
@@ -1206,7 +1223,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-13T12:37:28.000Z",
       "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-      "collectedAt": "2026-08-17T03:38:49.061Z"
+      "collectedAt": "2026-08-18T03:33:57.743Z"
     },
     {
       "id": "1e5af8ca0d8bc5e26703",
@@ -1223,7 +1240,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://openai.com/academy/getting-started",
-      "collectedAt": "2026-08-17T03:38:44.427Z"
+      "collectedAt": "2026-08-18T03:33:54.570Z"
     },
     {
       "id": "7735ad0dbb31b9a6729b",
@@ -1240,7 +1257,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-17T03:38:45.191Z"
+      "collectedAt": "2026-08-18T03:33:55.174Z"
     },
     {
       "id": "3cb521040949bbeed24b",
@@ -1257,7 +1274,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.928Z"
+      "collectedAt": "2026-08-18T03:33:56.389Z"
     },
     {
       "id": "b7ede73bbb83c239838d",
@@ -1274,7 +1291,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T13:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "collectedAt": "2026-08-17T03:38:44.427Z"
+      "collectedAt": "2026-08-18T03:33:54.570Z"
     },
     {
       "id": "cd73a370d60dec12bb60",
@@ -1291,7 +1308,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "collectedAt": "2026-08-17T03:38:44.428Z"
+      "collectedAt": "2026-08-18T03:33:54.570Z"
     },
     {
       "id": "3a73e1016004964e66d6",
@@ -1308,7 +1325,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6",
-      "collectedAt": "2026-08-17T03:38:44.428Z"
+      "collectedAt": "2026-08-18T03:33:54.571Z"
     },
     {
       "id": "0cc76793af620f7bb10c",
@@ -1325,7 +1342,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/bio-bug-bounty",
-      "collectedAt": "2026-08-17T03:38:44.428Z"
+      "collectedAt": "2026-08-18T03:33:54.571Z"
     },
     {
       "id": "6756ae3b0445393cf58b",
@@ -1342,7 +1359,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-17T03:38:45.192Z"
+      "collectedAt": "2026-08-18T03:33:55.175Z"
     },
     {
       "id": "74a441f786f49a59775d",
@@ -1359,7 +1376,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T13:00:00.000Z",
       "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "collectedAt": "2026-08-17T03:38:44.429Z"
+      "collectedAt": "2026-08-18T03:33:54.571Z"
     },
     {
       "id": "4acf2eda2e0fe738f5c1",
@@ -1376,7 +1393,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-live",
-      "collectedAt": "2026-08-17T03:38:44.429Z"
+      "collectedAt": "2026-08-18T03:33:54.572Z"
     },
     {
       "id": "5432c0edbd62ccd22a23",
@@ -1393,7 +1410,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.928Z"
+      "collectedAt": "2026-08-18T03:33:56.389Z"
     },
     {
       "id": "ef10e031dc3b0f027fe5",
@@ -1410,7 +1427,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T08:54:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "collectedAt": "2026-08-17T03:38:49.371Z"
+      "collectedAt": "2026-08-18T03:33:58.058Z"
     },
     {
       "id": "ae43b3314d8877dd3dce",
@@ -1427,7 +1444,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://openai.com/index/australian-payments-plus",
-      "collectedAt": "2026-08-17T03:38:44.430Z"
+      "collectedAt": "2026-08-18T03:33:54.572Z"
     },
     {
       "id": "4c936674f4b219ed493a",
@@ -1444,7 +1461,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://openai.com/index/mufg",
-      "collectedAt": "2026-08-17T03:38:44.430Z"
+      "collectedAt": "2026-08-18T03:33:54.572Z"
     },
     {
       "id": "02a4337d96c12bd29af9",
@@ -1461,7 +1478,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-17T03:38:45.192Z"
+      "collectedAt": "2026-08-18T03:33:55.175Z"
     },
     {
       "id": "e31b8759deb751b7046f",
@@ -1478,7 +1495,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-06T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-17T03:38:48.562Z"
+      "collectedAt": "2026-08-18T03:33:57.341Z"
     },
     {
       "id": "d9953405a7b98f544a26",
@@ -1495,7 +1512,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-02T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.929Z"
+      "collectedAt": "2026-08-18T03:33:56.390Z"
     },
     {
       "id": "15cd354e84a42a0e6b8f",
@@ -1512,7 +1529,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-01T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-17T03:38:45.193Z"
+      "collectedAt": "2026-08-18T03:33:55.176Z"
     },
     {
       "id": "b61b2637e688ad2bd25d",
@@ -1529,7 +1546,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.929Z"
+      "collectedAt": "2026-08-18T03:33:56.390Z"
     },
     {
       "id": "746aab7bf7ed89a86fa8",
@@ -1546,7 +1563,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T16:02:40.000Z",
       "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-      "collectedAt": "2026-08-17T03:38:49.061Z"
+      "collectedAt": "2026-08-18T03:33:57.744Z"
     },
     {
       "id": "a3f03aca463e82452f66",
@@ -1563,7 +1580,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T09:00:00.000Z",
       "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "collectedAt": "2026-08-17T03:38:44.430Z"
+      "collectedAt": "2026-08-18T03:33:54.573Z"
     },
     {
       "id": "fe2f0670eaeafcdb3ad2",
@@ -1580,7 +1597,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "collectedAt": "2026-08-17T03:38:44.431Z"
+      "collectedAt": "2026-08-18T03:33:54.573Z"
     },
     {
       "id": "eb22f73482b9a1f24d91",
@@ -1597,7 +1614,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-genebench-pro",
-      "collectedAt": "2026-08-17T03:38:44.431Z"
+      "collectedAt": "2026-08-18T03:33:54.573Z"
     },
     {
       "id": "25e6e4a270cd66f9b185",
@@ -1614,7 +1631,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-17T03:38:45.193Z"
+      "collectedAt": "2026-08-18T03:33:55.176Z"
     },
     {
       "id": "a01fc084bf5f7a63e0f5",
@@ -1631,7 +1648,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.940Z"
+      "collectedAt": "2026-08-18T03:33:56.405Z"
     },
     {
       "id": "87e0d903c3ade9f63cb9",
@@ -1648,7 +1665,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-08-17T03:38:48.028Z"
+      "collectedAt": "2026-08-18T03:33:56.763Z"
     },
     {
       "id": "88b542cd5d98fc76107a",
@@ -1665,7 +1682,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-17T03:38:48.563Z"
+      "collectedAt": "2026-08-18T03:33:57.341Z"
     },
     {
       "id": "6e59d8aafa7323d938d6",
@@ -1682,7 +1699,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-29T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.941Z"
+      "collectedAt": "2026-08-18T03:33:56.405Z"
     },
     {
       "id": "e724c51a1bdace040134",
@@ -1699,7 +1716,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-26T10:00:00.000Z",
       "url": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "collectedAt": "2026-08-17T03:38:44.432Z"
+      "collectedAt": "2026-08-18T03:33:54.574Z"
     },
     {
       "id": "9f7c2a8b44846309cebe",
@@ -1716,7 +1733,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.941Z"
+      "collectedAt": "2026-08-18T03:33:56.405Z"
     },
     {
       "id": "dfb466b9c1abc7508953",
@@ -1733,7 +1750,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-17T03:38:45.194Z"
+      "collectedAt": "2026-08-18T03:33:55.176Z"
     },
     {
       "id": "f5c353fcba8d18826546",
@@ -1750,7 +1767,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-25T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.941Z"
+      "collectedAt": "2026-08-18T03:33:56.406Z"
     },
     {
       "id": "4dc045a657edc4379886",
@@ -1767,7 +1784,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-24T16:30:01.000Z",
       "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-      "collectedAt": "2026-08-17T03:38:49.062Z"
+      "collectedAt": "2026-08-18T03:33:57.744Z"
     },
     {
       "id": "5e93061480ea98dc8eab",
@@ -1784,7 +1801,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-24T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-17T03:38:48.563Z"
+      "collectedAt": "2026-08-18T03:33:57.342Z"
     },
     {
       "id": "ac21b6b84e065abf715a",
@@ -1801,7 +1818,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-23T17:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-immunology-mystery",
-      "collectedAt": "2026-08-17T03:38:44.433Z"
+      "collectedAt": "2026-08-18T03:33:54.575Z"
     },
     {
       "id": "2beb6e83d413eee747a3",
@@ -1818,7 +1835,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-23T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-17T03:38:45.194Z"
+      "collectedAt": "2026-08-18T03:33:55.177Z"
     },
     {
       "id": "4ee0a46d008431f74c6f",
@@ -1835,7 +1852,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T10:00:00.000Z",
       "url": "https://openai.com/index/daybreak-securing-the-world",
-      "collectedAt": "2026-08-17T03:38:44.434Z"
+      "collectedAt": "2026-08-18T03:33:54.576Z"
     },
     {
       "id": "f1af487b8667894c5069",
@@ -1852,7 +1869,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T00:00:00.000Z",
       "url": "https://openai.com/index/codex-maxxing-long-running-work",
-      "collectedAt": "2026-08-17T03:38:44.435Z"
+      "collectedAt": "2026-08-18T03:33:54.576Z"
     },
     {
       "id": "ecb75c71ae3d46eb61c5",
@@ -1869,7 +1886,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.941Z"
+      "collectedAt": "2026-08-18T03:33:56.406Z"
     },
     {
       "id": "4fba785fb3527574518d",
@@ -1886,7 +1903,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-21T23:00:00.000Z",
       "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "collectedAt": "2026-08-17T03:38:44.435Z"
+      "collectedAt": "2026-08-18T03:33:54.577Z"
     },
     {
       "id": "a744e1d203989e6af98f",
@@ -1903,7 +1920,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T17:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "collectedAt": "2026-08-17T03:38:44.436Z"
+      "collectedAt": "2026-08-18T03:33:54.577Z"
     },
     {
       "id": "4451d1f4fabd696490a6",
@@ -1920,7 +1937,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T11:00:00.000Z",
       "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "collectedAt": "2026-08-17T03:38:44.436Z"
+      "collectedAt": "2026-08-18T03:33:54.578Z"
     },
     {
       "id": "1145e5f5fbfda4f778bc",
@@ -1937,7 +1954,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T08:00:00.000Z",
       "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "collectedAt": "2026-08-17T03:38:44.437Z"
+      "collectedAt": "2026-08-18T03:33:54.578Z"
     },
     {
       "id": "b360a839b1ef98e71882",
@@ -1954,7 +1971,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.942Z"
+      "collectedAt": "2026-08-18T03:33:56.406Z"
     },
     {
       "id": "1c76d41068a26bd369b1",
@@ -1971,7 +1988,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T10:00:00.000Z",
       "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "collectedAt": "2026-08-17T03:38:44.437Z"
+      "collectedAt": "2026-08-18T03:33:54.578Z"
     },
     {
       "id": "5da9598fb41c1ac93e58",
@@ -1988,7 +2005,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-life-sci-bench",
-      "collectedAt": "2026-08-17T03:38:44.437Z"
+      "collectedAt": "2026-08-18T03:33:54.579Z"
     },
     {
       "id": "c264a8015cf38e7b022d",
@@ -2005,7 +2022,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-17T03:38:48.564Z"
+      "collectedAt": "2026-08-18T03:33:57.342Z"
     },
     {
       "id": "463a3f23df3be39852c2",
@@ -2022,7 +2039,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-16T00:00:00.000Z",
       "url": "https://openai.com/index/deployment-simulation",
-      "collectedAt": "2026-08-17T03:38:44.438Z"
+      "collectedAt": "2026-08-18T03:33:54.579Z"
     },
     {
       "id": "c1c4940bb85560fc0599",
@@ -2039,7 +2056,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.942Z"
+      "collectedAt": "2026-08-18T03:33:56.406Z"
     },
     {
       "id": "9d55e1d372b6a64c37a3",
@@ -2056,7 +2073,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-15T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-17T03:38:48.565Z"
+      "collectedAt": "2026-08-18T03:33:57.343Z"
     },
     {
       "id": "ed2a24d67723105da4dc",
@@ -2073,7 +2090,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-14T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-openai-partner-network",
-      "collectedAt": "2026-08-17T03:38:44.438Z"
+      "collectedAt": "2026-08-18T03:33:54.579Z"
     },
     {
       "id": "b5b7f9b007b543013769",
@@ -2090,7 +2107,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-12T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-17T03:38:45.195Z"
+      "collectedAt": "2026-08-18T03:33:55.177Z"
     },
     {
       "id": "5cf8d01eeb345b1be05a",
@@ -2107,7 +2124,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "collectedAt": "2026-08-17T03:38:44.438Z"
+      "collectedAt": "2026-08-18T03:33:54.579Z"
     },
     {
       "id": "c24b9d70e899a62f23fe",
@@ -2124,7 +2141,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://openai.com/index/bbva",
-      "collectedAt": "2026-08-17T03:38:44.439Z"
+      "collectedAt": "2026-08-18T03:33:54.580Z"
     },
     {
       "id": "46d6755fb18785fef07a",
@@ -2141,7 +2158,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://openai.com/index/openai-to-acquire-ona",
-      "collectedAt": "2026-08-17T03:38:44.439Z"
+      "collectedAt": "2026-08-18T03:33:54.580Z"
     },
     {
       "id": "2f865cea4009ebb80597",
@@ -2158,7 +2175,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.943Z"
+      "collectedAt": "2026-08-18T03:33:56.407Z"
     },
     {
       "id": "271132d8a2041b336c61",
@@ -2175,7 +2192,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T20:00:00.000Z",
       "url": "https://openai.com/index/openai-on-oracle-cloud",
-      "collectedAt": "2026-08-17T03:38:44.439Z"
+      "collectedAt": "2026-08-18T03:33:54.580Z"
     },
     {
       "id": "dd8ef022bc1c3f2bcd4e",
@@ -2192,7 +2209,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T16:24:11.000Z",
       "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
-      "collectedAt": "2026-08-17T03:38:49.062Z"
+      "collectedAt": "2026-08-18T03:33:57.744Z"
     },
     {
       "id": "55b4277f4767ea97239e",
@@ -2209,7 +2226,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T12:00:00.000Z",
       "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-      "collectedAt": "2026-08-17T03:38:44.439Z"
+      "collectedAt": "2026-08-18T03:33:54.581Z"
     },
     {
       "id": "c294c90b25ad2202d7ea",
@@ -2226,7 +2243,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.943Z"
+      "collectedAt": "2026-08-18T03:33:56.407Z"
     },
     {
       "id": "3f596d04752d28827a43",
@@ -2243,7 +2260,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T15:16:25.000Z",
       "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
-      "collectedAt": "2026-08-17T03:38:49.062Z"
+      "collectedAt": "2026-08-18T03:33:57.744Z"
     },
     {
       "id": "9e66a7e36eb33f1bf16e",
@@ -2260,7 +2277,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T14:10:19.000Z",
       "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
-      "collectedAt": "2026-08-17T03:38:49.062Z"
+      "collectedAt": "2026-08-18T03:33:57.744Z"
     },
     {
       "id": "85c8f77c366cd8be2604",
@@ -2277,7 +2294,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T12:00:00.000Z",
       "url": "https://openai.com/index/nextdoor",
-      "collectedAt": "2026-08-17T03:38:44.440Z"
+      "collectedAt": "2026-08-18T03:33:54.581Z"
     },
     {
       "id": "cf7da16f8eca08cdd1c8",
@@ -2294,7 +2311,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T10:00:00.000Z",
       "url": "https://openai.com/index/notion",
-      "collectedAt": "2026-08-17T03:38:44.440Z"
+      "collectedAt": "2026-08-18T03:33:54.581Z"
     },
     {
       "id": "38f6e05061513bd3e053",
@@ -2311,7 +2328,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-17T03:38:45.195Z"
+      "collectedAt": "2026-08-18T03:33:55.178Z"
     },
     {
       "id": "ac48cd08f7d2aaf4a683",
@@ -2328,7 +2345,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.944Z"
+      "collectedAt": "2026-08-18T03:33:56.408Z"
     },
     {
       "id": "43924ddd68dd8e3d134b",
@@ -2345,7 +2362,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-08T13:04:59.000Z",
       "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
-      "collectedAt": "2026-08-17T03:38:49.063Z"
+      "collectedAt": "2026-08-18T03:33:57.745Z"
     },
     {
       "id": "68f3aa2ed2cfc2244c4a",
@@ -2362,7 +2379,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.944Z"
+      "collectedAt": "2026-08-18T03:33:56.408Z"
     },
     {
       "id": "c02a905db735d39710d2",
@@ -2379,7 +2396,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-04T12:00:00.000Z",
       "url": "https://openai.com/index/endava-frontiers",
-      "collectedAt": "2026-08-17T03:38:44.441Z"
+      "collectedAt": "2026-08-18T03:33:54.582Z"
     },
     {
       "id": "38059fa473644001da1a",
@@ -2396,7 +2413,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-04T09:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-memory-dreaming",
-      "collectedAt": "2026-08-17T03:38:44.441Z"
+      "collectedAt": "2026-08-18T03:33:54.582Z"
     },
     {
       "id": "1ff31f480209a0625382",
@@ -2413,7 +2430,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-03T13:15:00.000Z",
       "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-      "collectedAt": "2026-08-17T03:38:44.441Z"
+      "collectedAt": "2026-08-18T03:33:54.583Z"
     },
     {
       "id": "f7ef456d13b5ed4351b1",
@@ -2430,7 +2447,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-03T12:00:00.000Z",
       "url": "https://openai.com/index/wasmer",
-      "collectedAt": "2026-08-17T03:38:44.442Z"
+      "collectedAt": "2026-08-18T03:33:54.583Z"
     },
     {
       "id": "87eb9b7def118c7239f6",
@@ -2447,7 +2464,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T10:00:00.000Z",
       "url": "https://openai.com/academy/chatgpt-sites",
-      "collectedAt": "2026-08-17T03:38:44.442Z"
+      "collectedAt": "2026-08-18T03:33:54.583Z"
     },
     {
       "id": "e5a668bd62c058849392",
@@ -2464,7 +2481,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T09:00:00.000Z",
       "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
-      "collectedAt": "2026-08-17T03:38:44.442Z"
+      "collectedAt": "2026-08-18T03:33:54.584Z"
     },
     {
       "id": "7ee67cf7dcc20a136696",
@@ -2481,7 +2498,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T02:00:00.000Z",
       "url": "https://openai.com/index/codex-for-knowledge-work",
-      "collectedAt": "2026-08-17T03:38:44.443Z"
+      "collectedAt": "2026-08-18T03:33:54.584Z"
     },
     {
       "id": "213597c4d3ffa9f51981",
@@ -2498,7 +2515,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-17T03:38:45.196Z"
+      "collectedAt": "2026-08-18T03:33:55.178Z"
     },
     {
       "id": "3b73a6fb9c76285ceb5c",
@@ -2515,7 +2532,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.944Z"
+      "collectedAt": "2026-08-18T03:33:56.409Z"
     },
     {
       "id": "3a8f7bdc5206ab63c0b4",
@@ -2532,7 +2549,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-01T10:00:00.000Z",
       "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "collectedAt": "2026-08-17T03:38:44.443Z"
+      "collectedAt": "2026-08-18T03:33:54.584Z"
     },
     {
       "id": "d255c7e41d2db2d5efc1",
@@ -2549,7 +2566,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-01T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-17T03:38:48.565Z"
+      "collectedAt": "2026-08-18T03:33:57.344Z"
     },
     {
       "id": "9447216aa6f601811c1f",
@@ -2566,7 +2583,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-29T12:00:00.000Z",
       "url": "https://openai.com/index/braintrust",
-      "collectedAt": "2026-08-17T03:38:44.444Z"
+      "collectedAt": "2026-08-18T03:33:54.585Z"
     },
     {
       "id": "f213cc251ccd5d0a4deb",
@@ -2583,7 +2600,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-29T03:00:00.000Z",
       "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
-      "collectedAt": "2026-08-17T03:38:44.444Z"
+      "collectedAt": "2026-08-18T03:33:54.585Z"
     },
     {
       "id": "21fcae17dbfddc7ddf29",
@@ -2600,7 +2617,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-29T00:00:00.000Z",
       "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
-      "collectedAt": "2026-08-17T03:38:44.444Z"
+      "collectedAt": "2026-08-18T03:33:54.586Z"
     },
     {
       "id": "6c159d46886403d320f5",
@@ -2617,7 +2634,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-29T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.944Z"
+      "collectedAt": "2026-08-18T03:33:56.409Z"
     },
     {
       "id": "6876d8edf8713f0c88fe",
@@ -2634,7 +2651,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-28T12:00:00.000Z",
       "url": "https://openai.com/index/endava",
-      "collectedAt": "2026-08-17T03:38:44.445Z"
+      "collectedAt": "2026-08-18T03:33:54.586Z"
     },
     {
       "id": "e1e2d0df79414a2a8d33",
@@ -2651,7 +2668,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-28T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-17T03:38:45.196Z"
+      "collectedAt": "2026-08-18T03:33:55.179Z"
     },
     {
       "id": "cd205c2f5b0042a97538",
@@ -2668,7 +2685,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-28T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.945Z"
+      "collectedAt": "2026-08-18T03:33:56.409Z"
     },
     {
       "id": "0842b6d99cf78a356b33",
@@ -2685,7 +2702,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-28T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-17T03:38:48.566Z"
+      "collectedAt": "2026-08-18T03:33:57.344Z"
     },
     {
       "id": "f1a96da28929946e4af1",
@@ -2702,7 +2719,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-27T11:00:00.000Z",
       "url": "https://openai.com/index/cisco",
-      "collectedAt": "2026-08-17T03:38:44.445Z"
+      "collectedAt": "2026-08-18T03:33:54.586Z"
     },
     {
       "id": "ddae68d5f9c5e049aac8",
@@ -2719,7 +2736,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-27T07:00:00.000Z",
       "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
-      "collectedAt": "2026-08-17T03:38:44.445Z"
+      "collectedAt": "2026-08-18T03:33:54.587Z"
     },
     {
       "id": "bf308c20529ac6c49581",
@@ -2736,7 +2753,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-27T00:00:00.000Z",
       "url": "https://openai.com/index/warp",
-      "collectedAt": "2026-08-17T03:38:44.446Z"
+      "collectedAt": "2026-08-18T03:33:54.587Z"
     },
     {
       "id": "66313d43dcbc98ef9539",
@@ -2753,7 +2770,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-27T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-17T03:38:45.945Z"
+      "collectedAt": "2026-08-18T03:33:56.410Z"
     },
     {
       "id": "76cdcdfe1cddcbe5abb1",
@@ -2770,7 +2787,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "url": "https://openai.com/index/ai-first-hire-small-business",
-      "collectedAt": "2026-08-17T03:38:44.446Z"
+      "collectedAt": "2026-08-18T03:33:54.587Z"
     },
     {
       "id": "c5b40794df0e03a53a03",
@@ -2787,7 +2804,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
-      "collectedAt": "2026-08-17T03:38:44.446Z"
+      "collectedAt": "2026-08-18T03:33:54.588Z"
     },
     {
       "id": "a6e9571612cdf2f6fbf6",
@@ -2804,7 +2821,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-17T03:38:48.567Z"
+      "collectedAt": "2026-08-18T03:33:57.345Z"
     },
     {
       "id": "0641f65b356343333ec4",
@@ -2821,7 +2838,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-22T00:00:00.000Z",
       "url": "https://openai.com/index/virgin-atlantic",
-      "collectedAt": "2026-08-17T03:38:44.447Z"
+      "collectedAt": "2026-08-18T03:33:54.588Z"
     },
     {
       "id": "a461ab5bdb0ad417cf56",
@@ -2838,7 +2855,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-22T00:00:00.000Z",
       "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
-      "collectedAt": "2026-08-17T03:38:44.447Z"
+      "collectedAt": "2026-08-18T03:33:54.588Z"
     },
     {
       "id": "3edd439cbe1407e59c84",
@@ -2855,7 +2872,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-21T12:00:00.000Z",
       "url": "https://openai.com/index/adventhealth",
-      "collectedAt": "2026-08-17T03:38:44.447Z"
+      "collectedAt": "2026-08-18T03:33:54.589Z"
     },
     {
       "id": "0b1c2cc4a6a3969edc2e",
@@ -2872,41 +2889,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-21T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-17T03:38:45.197Z"
-    },
-    {
-      "id": "9f418b7a326c782637b6",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "summary": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
-      "content": "For nearly 80 years, mathematicians have studied a deceptively simple question: if you place $n$ points in the plane, how many pairs of points can be exactly distance $1$ apart?\n\nThis is the planar unit distance problem, first posed by Paul Erdős in 1946. It is one of the best-known questions in combinatorial geometry, easy to state and remarkably difficult to resolve. The 2005 book _Research Problems in Discrete Geometry_, by Brass, Moser, and Pach, calls it “possibly the best known (and simplest to explain) problem in combinatorial geometry.” Noga Alon, a leading combinatorialist at Princeton, describes it as “one of Erdős’ favorite problems.” Erdős even offered a monetary prize for resolving this problem.\n\nToday, we share a breakthrough on the unit distance problem. Since Erdős’s original work, the prevailing belief has been that the “square grid” constructions depicted further below were essentially optimal for maximizing the number of unit-distance pairs. An internal OpenAI model has disproved this longstanding conjecture, providing an infinite family of examples that yield a polynomial improvement. The proof has been checked by a group of external mathematicians. They have also written a companion paper explaining the argument and providing further background and context for the significance of the result.\n\nThe result is also notable for how it was found. The proof came from a new general-purpose reasoning model, rather than from a system trained specifically for mathematics, scaffolded to search through proof strategies, or targeted at the unit distance problem in particular. As part of a broader effort to test whether advanced models can contribute to frontier research, we evaluated it on a collection of Erdős problems. In this case, it produced a proof resolving the open problem.\n\nThis proof is an important milestone for the math and AI communities. It marks the first time that a prominent open problem, central to a subfield of mathematics, has been solved autonomously by AI. It also demonstrates the depth of reasoning these systems now support. Mathematics provides a particularly clear testbed for reasoning: the problems are precise, potential proofs can be checked, and a long argument only works if the reasoning holds together from beginning to end. The method by which the problem was solved is also notable. The proof brings unexpected, sophisticated ideas from algebraic number theory to bear on an elementary geometric question.\n\nFields medalist Tim Gowers, writing in the companion paper, calls the result “a milestone in AI mathematics.” According to leading number theorist Arul Shankar, “In my opinion this paper demonstrates that current AI models go beyond just helpers to human mathematicians – they are capable of having original ingenious ideas, and then carrying them out to fruition”.\n\nMathematicians on the result\n\n1 of 4\n\n_Previously known construction of many unit distances from a rescaled square grid._\n\n## The unit distance problem\n\nLet $u \\left(\\right. n \\left.\\right)$ be the largest possible number of unit-distance pairs among $n$ points in the plane. Examples attaining linear growth rate are easy to construct: placing $n$ points in a line gives $n - 1$ pairs, while a square grid gives about $2 n$ pairs. The previously best known construction, coming from a rescaled square grid, turns out to give even more: $n^{1 + C / log ⁡ log ⁡ \\left(\\right. n \\left.\\right)}$ for a constant $C$. Since $log ⁡ log ⁡ \\left(\\right. n \\left.\\right)$ tends to infinity with $n$, the additional term in the exponent tends to $0$, meaning these constructions achieve growth only slightly faster than linear. For decades, it was widely believed that this rate was essentially the best possible, and no construction could improve significantly over the square grid. In technical terms, Erdős conjectured an upper bound of $n^{1 + o \\left(\\right. 1 \\left.\\right)}$ in which the additional $o \\left(\\right. 1 \\left.\\right)$ indicates a term tending to $0$ with $n$.\nOur new result disproves this conjecture. More precisely, for infinitely many values of\n\n$n$, the proof constructs configurations of $n$ points with at least $n^{1 + \\delta}$ unit-distance pairs, for some fixed exponent $\\delta > 0$. (The original AI proof does not give an explicit $\\delta$, but a forthcoming refinement due to Princeton mathematics professor Will Sawin has shown one can take $\\delta = 0.014$.)\nThe history of the problem helps to see why the result is surprising. The best known lower bound had been essentially unchanged since Erdős’s original 1946 construction. The best upper bound,\n\n$O \\left(\\right. n^{4 / 3} \\left.\\right)$, dates to work by Spencer, Szemerédi, and Trotter in 1984, and despite later refinements and related structural work by Székely, Katz and Silier, Pach, Raz, and Solymosi and by others, the upper bound has remained essentially unchanged. As evidence in favor of the conjecture, Matoušek and Alon-Bucić-Sauermann studied the problem with non-Euclidean distances in the plane, and proved that \"most\" of these non-Euclidean distances obey the conjecture in some sense.\nSurprisingly, the key ingredients of the construction come from a very different part of mathematics known as algebraic number theory, which studies concepts like factorization in extensions of the integers known as algebraic number fields.\n\n_After verifying the initial proof, we investigated the success rate of our models on this problem with varying amounts of test-time compute. The results are shown here._\n\n## New techniques from algebraic number theory\n\nAt a high level, the proof begins with a familiar geometric idea and pushes it in an unexpected direction.\n\nErdős’s original lower bound can be understood through the Gaussian integers: numbers of the form $a + b i$, where $a$ and $b$ are integers and $i$ is the square root of $- 1$. The Gaussian integers extend the ordinary integers and, like them, enjoy properties such a unique factorization into primes. Such extensions of the ordinary integers or rationals are known as algebraic number fields. The new argument replaces the Gaussian integers by more complicated generalizations from algebraic number theory with richer symmetries that can create many more unit-length differences.\n\nThe precise argument uses tools such as infinite class field towers and Golod–Shafarevich theory to show the number fields required for the argument actually exist. These ideas were well-known to algebraic number theorists, but it came as a great surprise that these concepts have implications for geometric questions in the Euclidean plane.\n\n## What this means for mathematics\n\nThis result marks an important moment in the interaction between AI and mathematics: an AI system has autonomously resolved a longstanding open problem at the center of an active field. It also offers an early glimpse of a new kind of collaboration between AI and human mathematicians. In this case, the companion work by external mathematicians paints a substantially richer picture than the original solution alone.\n\nAs Thomas Bloom writes in the companion note:\n\n“_When assessing the importance and influence of an AI-generated proof, a question I ask myself is: has this taught us something new about the problem? Do we understand discrete geometry better now? I think the answer is a moderated yes: this shows that there is a lot more that number theoretic constructions have to say about these sorts of questions than we suspected; moreover, that the number theory required can be very deep. No doubt many algebraic number theorists will be taking a close look at other open problems in discrete geometry in the coming months._”\n\nThe unexpected connection between algebraic number theory and discrete geometry revealed by the solution is part of what makes the result notable. It does not simply settle a specific conjecture, but may provide mathematicians with a bridge to begin exploring further related problems.\n\nBloom also points toward a broader possibility:\n\n“_The frontiers of knowledge are very spiky, and no doubt the coming months and years will see similar successes in many other areas of mathematics, where long-standing open problems are resolved by an AI revealing unexpected connections and pushing the existing technical machinery to its limit. AI is helping us to more fully explore the cathedral of mathematics we have build over the centuries; what other unseen wonders are waiting in the wings?_”\n\nThis result provides a promising example: AI contributing not only a solution, but a mathematical discovery whose significance becomes clearer and richer through subsequent human understanding.\n\n## Why this matters\n\nThe takeaway is bigger than this particular result. Better mathematical reasoning can make AI a stronger research partner: something that can hold together difficult lines of thought, connect ideas across distant areas of knowledge, surface promising paths experts may not have prioritized, and help researchers make progress on problems that would otherwise be too complex or time-intensive to tackle.\n\nThose capabilities matter beyond mathematics. If a model can keep a complicated argument coherent, connect ideas across distant areas of knowledge, and produce work that survives expert scrutiny, those are also useful abilities in biology, physics, materials science, engineering, and medicine, and they are part of our longer-term path toward more automated research: systems that can help scientists and engineers explore more ideas and pursue harder technical questions.\n\nAI is about to start taking a very serious role in the creative parts of research, and most importantly AI research itself. While this progress is not unexpected, it reinforces the urgency we feel about understanding this next phase of AI development, the challenges of aligning very intelligent systems, and the future of human-AI collaboration.\n\nThat future still depends on human judgment. Expertise becomes more valuable, not less. AI can help search, suggest, and verify. People choose the problems that matter, interpret the results, and decide what questions to pursue next.",
-      "contentZh": "近80年来，数学家们一直在研究一个看似简单的问题：若在平面上放置 $n$ 个点，其中有多少对点恰好相距 $1$ 个单位距离？\n\n这便是平面单位距离问题，最早由保罗·埃尔德什于1946年提出。它是组合几何学中最著名的问题之一，表述简单却极难解决。2005年由布拉什、莫泽和帕赫合著的《离散几何研究问题》一书称其为“组合几何学中可能最著名（且最易解释）的问题”。普林斯顿大学著名组合学家诺加·阿隆将其描述为“埃尔德什最喜爱的问题之一”。埃尔德什甚至为此问题设立了奖金。\n\n今天，我们分享单位距离问题的一项突破。自埃尔德什的原创工作以来，普遍认为下文展示的“方格”构造在最大化单位距离对数方面基本是最优的。一个OpenAI内部模型推翻了这一长期存在的猜想，给出了一个无限族例子，实现了多项式级别的改进。该证明已由一组外部数学家验证。他们还撰写了一篇配套论文，解释论证过程，并为该结果的重要性提供进一步背景和语境。\n\n这一结果的发现方式也值得关注。该证明来自一个新型通用推理模型，而非专门为数学训练的系统，也非通过搜索证明策略构建，更非针对单位距离问题定制。作为评估先进模型能否为前沿研究做出贡献的更广泛努力的一部分，我们在一系列埃尔德什问题上对其进行了测试。在此案例中，它产出了一个解决开放问题的证明。\n\n这一证明对数学界和人工智能界而言是一个重要里程碑。它标志着人工智能首次自主解决了一个数学子领域中的核心著名开放问题。同时，它也展示了这些系统如今所支持的推理深度。数学为推理提供了一个特别清晰的试验场：问题精确，潜在证明可被验证，且长篇论证只有在推理从头到尾连贯一致时才成立。该问题的解决方式同样值得关注。该证明将代数数论中意想不到的复杂思想引入了一个基础几何问题。\n\n菲尔兹奖得主蒂莫西·高尔斯在配套论文中称这一结果为“人工智能数学的里程碑”。著名数论学家阿鲁尔·尚卡尔表示：“在我看来，这篇论文表明当前的人工智能模型已超越人类数学家的助手角色——它们能够产生原创的巧妙想法，并将其付诸实现。”\n\n数学家们对该结果的评价\n\n1 / 4\n\n*此前已知的通过缩放方格构造大量单位距离的方法。*\n\n## 单位距离问题\n\n设 $u \\left(\\right. n \\left.\\right)$ 为平面上 $n$ 个点中单位距离对的最大可能数量。实现线性增长率的例子很容易构造：将 $n$ 个点排成一条直线可得 $n - 1$ 对，而一个方格网格可得约 $2 n$ 对。此前已知的最佳构造来自缩放后的方格网格，结果甚至更多：对于常数 $C$，可达 $n^{1 + C / \\log \\log \\left(\\right. n \\left.\\right)}$。由于 $\\log \\log \\left(\\right. n \\left.\\right)$ 随 $n$ 趋于无穷，指数中的附加项趋于 $0$，意味着这些构造的增长仅略快于线性。几十年来，人们普遍认为这一速率基本是最优的，且没有任何构造能显著优于方格网格。用专业术语来说，埃尔德什猜想上界为 $n^{1 + o \\left(\\right. 1 \\left.\\right)}$，其中附加的 $o \\left(\\right. 1 \\left.\\right)$ 表示随 $n$ 趋于 $0$ 的项。\n我们的新结果推翻了这一猜想。更精确地说，对于无穷多个 $n$ 值，该证明构造了 $n$ 个点的配置，其中单位距离对至少为 $n^{1 + \\delta}$，其中 $\\delta > 0$ 为某个固定指数。（原始AI证明未给出显式 $\\delta$，但普林斯顿大学数学教授威尔·索温即将发表的改进表明可取 $\\delta = 0.014$。）\n该问题的历史有助于理解为何这一结果令人惊讶。自埃尔德什1946年原始构造以来，已知最佳下界基本未变。最佳上界 $O \\left(\\right. n^{4 / 3} \\left.\\right)$ 可追溯到1984年斯宾塞、塞迈雷迪和特罗特的工作，尽管后来塞凯伊、卡茨和西利尔、帕赫、拉兹和索约莫西等人进行了改进及相关结构研究，上界基本保持不变。作为支持猜想的证据，马托乌谢克和阿隆-布契奇-绍尔曼研究了平面中非欧几里得距离的问题，并在某种意义上证明了“大多数”此类非欧几里得距离服从该猜想。\n\n令人惊讶的是，该构造的关键要素来自数学中一个截然不同的领域——代数数论，它研究整数扩展（即代数数域）中的因式分解等概念。\n\n*在验证初始证明后，我们研究了模型在该问题上随测试时计算量变化的成功率。结果如图所示。*\n\n## 来自代数数论的新技术\n\n从高层次看，该证明始于一个熟悉的几何思想，并将其推向意想不到的方向。\n\n埃尔德什的原始下界可通过高斯整数理解：形如 $a + b i$ 的数，其中 $a$ 和 $b$ 为整数，$i$ 为 $-1$ 的平方根。高斯整数扩展了普通整数，并像它们一样具有唯一质因数分解等性质。普通整数或有理数的此类扩展被称为代数数域。新论证用代数数论中更复杂的推广取代了高斯整数，这些推广具有更丰富的对称性，能产生更多单位长度差。\n\n精确论证使用了无穷类域塔和戈洛德-沙法列维奇理论等工具，以证明论证所需的数域确实存在。这些思想对代数数论学家而言是众所周知的，但令人大为惊讶的是，这些概念对欧几里得平面中的几何问题具有影响。\n\n## 这对数学意味着什么\n\n这一结果标志着人工智能与数学互动的重要时刻：一个AI系统自主解决了一个活跃领域中心长期悬而未决的开放问题。它也初步展现了AI与人类数学家之间新型合作的可能。在此案例中，外部数学家撰写的配套论文比原始解决方案本身描绘了更为丰富的图景。\n\n正如托马斯·布鲁姆在配套笔记中所写：\n\n“_在评估AI生成的证明的重要性和影响力时，我问自己的一个问题是：它是否让我们对问题有了新的认识？我们现在是否更好地理解了离散几何？我认为答案是适度的肯定：这表明数论构造在这类问题上的作用比我们预想的要大得多；此外，所需的数论知识可能非常深奥。毫无疑问，未来几个月许多代数数论学家将密切关注离散几何中的其他开放问题。_”\n\n该解决方案揭示的代数数论与离散几何之间的意外联系，正是其引人注目的原因之一。它不仅解决了一个具体猜想，还可能为数学家提供一座桥梁，以探索更多相关问题。\n\n布鲁姆还指出了更广泛的可能性：\n\n“_知识的边界非常崎岖，毫无疑问，未来几个月和几年里，数学的其他许多领域也将出现类似的成功案例：AI通过揭示意想不到的联系并将现有技术手段推向极限，解决长期存在的开放问题。AI正在帮助我们更充分地探索我们几个世纪以来建造的数学大教堂；还有哪些未被发现的奇观在等待登场？_”\n\n这一结果提供了一个有希望的范例：AI不仅贡献了一个解决方案，还带来了一项数学发现，其意义通过后续的人类理解变得更加清晰和丰富。\n\n## 为何重要\n\n其意义远不止于这一具体结果。更强的数学推理能力可以使AI成为更强大的研究伙伴：能够整合复杂的思路，连接遥远知识领域中的想法，揭示专家可能未优先考虑的有前景路径，并帮助研究人员在原本过于复杂或耗时的问题上取得进展。\n\n这些能力在数学之外同样重要。如果一个模型能够保持复杂论证的一致性，连接遥远知识领域中的想法，并产出经得起专家审查的成果，那么这些能力在生物学、物理学、材料科学、工程学和医学中同样有用，它们也是我们迈向更自动化研究的长远路径的一部分：帮助科学家和工程师探索更多想法、攻克更难技术问题的系统。\n\nAI即将在研究中的创造性部分扮演非常严肃的角色，最重要的是在AI研究本身。虽然这一进展并不出人意料，但它强化了我们对理解AI发展下一阶段、对齐非常智能的系统所面临的挑战，以及人机协作未来的紧迫感。\n\n这一未来仍然依赖于人类的判断。专业知识变得更有价值，而非更少。AI可以帮助搜索、建议和验证。而人类选择重要的问题，解读结果，并决定下一步要探索什么问题。",
-      "titleZh": "OpenAI模型否定了离散几何中的一个核心猜想",
-      "summaryZh": "一个OpenAI模型解决了80年历史的单位距离问题，否定了离散几何中的一个主要猜想，标志着人工智能驱动数学的一个里程碑。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-05-20T00:00:00.000Z",
-      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
-      "collectedAt": "2026-08-17T03:38:44.447Z"
-    },
-    {
-      "id": "b4f09bb82a6149a7a949",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "How Ramp engineers accelerate code review with Codex",
-      "summary": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
-      "content": "At Ramp, engineers are using Codex with GPT‑5.5 to accelerate code review and develop internal agentic tooling, helping teams get substantive pull request feedback in minutes instead of hours. Thanks to its reasoning capabilities, Codex with GPT‑5.5 is uniquely able to reduce the amount of manual, hands-on work they’d otherwise have to do.\n\n> “Codex code review catches things that I miss and that other engineers miss and that other AI code reviewers definitely miss.”\n\n—Austin Ray, AI DevEx at Ramp\n\n## Running code reviews that teams can rely on\n\nRamp’s AI Developer Experience team is using Codex to improve software development velocity and code quality.\n\n“Codex code review is industry gold standard. We’ve been relying on it for a long time here at Ramp,” explains Austin Ray, who leads AI DevEx. “It’s incredible, and our engineers ask for it by name. They look forward to its comments on every PR, and it’s become a mandatory part of a lot of code review flows.”\n\nRamp engineers who used to wait hours for a first review can now get substantive feedback from Codex in minutes. Codex stands apart from other tools because it deeply reasons against the codebase, resulting in what Ray describes as “a level of thoroughness that most human reviewers don’t have time for.”\n\nCodex matches this depth with an experience that, Ray says, “meets engineers where they are.” Engineers who prefer to work close to the metal can work from the CLI, and the Codex app provides visual cues, utilities, and additional features for those who want them. Ray, typically a CLI user, felt drawn to the app. “It feels like the app shepherds you toward higher productivity in your engineering workflows,” Ray says.\n\n> “Codex with GPT-5.5 is incredibly adept at dealing with that complexity in a way that would take me a ton of mental effort, a lot of sleep, and a lot of single-minded focus on the problem to figure out.”\n\n—Austin Ray, AI DevEx at Ramp\n\n## Developing internal tools with Codex\n\nRay is also using Codex to support the development of On-Call Assistant, an agentic tool that takes on most of the burden for Ramp engineers during on-call rotations.\n\n“On call is hard,” Ray explains. “We have a lot of business logic, domain knowledge, and heavy incidents. You have to keep a ton of things in context and reason through a lot of complexity.”\n\nFor an engineer, this can be difficult. It takes a lot of mental effort and even more single-minded, unbroken focus.\n\n“There’s just a ton of complexity,” Ray says. “There are plenty of concurrency bugs, a tricky balance to strike between external events and internal events, and long-running incident investigations with evolving details you have to keep working in.”\n\nWith Codex, Ray can depend on its “incredibly adept” reasoning capabilities to support development. As a result, On-Call Assistant has become significantly faster to build, and Ray is more confident about every improvement shipped.\n\n“Our product surface area is pretty immense,” Ray says. “Codex with GPT‑5.5 handles it like it’s nothing.”\n\n## Leadership lessons\n\nRay is a platform engineer, first and foremost, and he evaluates all developer tools, including AI-driven ones, through that lens. As he puts it: “Does it actually change how people ship code, or is it just a demo?”\n\nAnd that’s what Ray recommends for other leaders: Focus on the hands-on experience and real-world results.\n\n*   Demonstrate the potential of AI tools first-hand: “Get your engineers to install Codex, sit down with them, and guide them through a really solid first session. Paint the picture of what development could be for them.”\n*   Build a path to trust and iteration: “Most engineers don’t fully understand or trust that they’re going to have a good experience with this. They treat it as something experimental. By guiding them through that first experience, you change their perspective and make them willing to explore and iterate themselves until they become one of your best AI users.”\n*   Invest in the feedback loop: “We work directly with the Codex team on feedback. When we hit issues, we have a direct line. That feedback loop is what makes a vendor relationship worth investing in, and we’ve made incredible progress with the Codex team.”\n\n> “Codex is the real deal. Codex definitely helps us ship faster.”\n\n—Austin Ray, AI DevEx at Ramp\n\n## What’s next\n\nCodex is changing how fast Ramp engineers can work and giving them the resources to support even greater ambitions. For Ray, this indicates a new way to think of engineering as a whole.\n\n“Engineers are going to become orchestrators. The skill is no longer writing every line of code yourself. It’s knowing how to direct AI tools like Codex, when to trust them, and when to push back. At Ramp, our best engineers learn that fastest.”",
-      "contentZh": "在 Ramp，工程师们正使用搭载 GPT-5.5 的 Codex 来加速代码审查并开发内部智能工具，帮助团队在几分钟内获得实质性的拉取请求反馈，而非数小时。凭借其推理能力，搭载 GPT-5.5 的 Codex 能够独特地减少他们原本需要手动完成的工作量。\n\n> “Codex 代码审查能发现我遗漏的问题、其他工程师遗漏的问题，以及其它 AI 代码审查工具绝对会遗漏的问题。”\n>\n> — Austin Ray，Ramp 公司 AI 开发者体验负责人\n\n## 运行团队可依赖的代码审查\n\nRamp 的 AI 开发者体验团队正使用 Codex 来提升软件开发速度和代码质量。\n\n“Codex 代码审查是行业黄金标准。我们在 Ramp 长期依赖它，”领导 AI 开发者体验团队的 Austin Ray 解释道。“它非常出色，我们的工程师会直接点名要求使用它。他们期待 Codex 对每个拉取请求的评论，它已成为许多代码审查流程中不可或缺的一部分。”\n\n过去需要等待数小时才能获得首次审查的 Ramp 工程师，现在可以在几分钟内从 Codex 获得实质性反馈。Codex 与其他工具的不同之处在于，它能对代码库进行深度推理，从而带来 Ray 所描述的“大多数人工审查者没有时间达到的彻底性”。\n\nCodex 在匹配这种深度的同时，Ray 表示，它“能适应工程师的工作习惯”。偏好贴近底层工作的工程师可以使用命令行界面，而 Codex 应用则为需要视觉提示、实用工具和额外功能的用户提供支持。Ray 通常是命令行用户，但也被应用所吸引。“感觉这款应用能引导你在工程工作流中实现更高生产力，”Ray 说道。\n\n> “搭载 GPT-5.5 的 Codex 在处理这种复杂性方面极其擅长，而如果换作我，则需要耗费大量脑力、大量睡眠以及全神贯注地聚焦问题才能解决。”\n>\n> — Austin Ray，Ramp 公司 AI 开发者体验负责人\n\n## 使用 Codex 开发内部工具\n\nRay 还使用 Codex 来支持“值班助手”的开发，这是一种智能工具，能在值班轮换期间承担 Ramp 工程师的大部分负担。\n\n“值班很困难，”Ray 解释道。“我们有大量业务逻辑、领域知识和严重事故。你必须记住大量上下文，并推理许多复杂问题。”\n\n对工程师来说，这可能很困难。这需要大量脑力，甚至更多全神贯注、不受干扰的专注力。\n\n“复杂性极高，”Ray 说。“存在大量并发错误，外部事件与内部事件之间需要巧妙平衡，还有长时间的事故调查，其细节不断演变，你必须持续跟进。”\n\n借助 Codex，Ray 可以依赖其“极其擅长”的推理能力来支持开发。因此，“值班助手”的构建速度显著加快，Ray 对每次交付的改进都更有信心。\n\n“我们的产品覆盖范围相当庞大，”Ray 说。“搭载 GPT-5.5 的 Codex 处理起来毫不费力。”\n\n## 领导力经验\n\nRay 首先是一名平台工程师，他通过这个视角评估所有开发者工具，包括 AI 驱动的工具。用他的话来说：“它是否真正改变了人们交付代码的方式，还是仅仅是个演示？”\n\n这就是 Ray 对其他领导者的建议：关注实际体验和真实成果。\n\n*   亲身展示 AI 工具的潜力：“让你的工程师安装 Codex，与他们坐在一起，引导他们完成一次非常扎实的初次体验。描绘出开发工作可能为他们带来的图景。”\n*   建立信任和迭代的路径：“大多数工程师并不完全理解或相信他们能从中获得良好体验。他们将其视为实验性事物。通过引导他们完成初次体验，你改变了他们的看法，让他们愿意自行探索和迭代，直到他们成为你最好的 AI 用户之一。”\n*   投资于反馈循环：“我们直接与 Codex 团队就反馈进行合作。遇到问题时，我们有直接沟通渠道。这种反馈循环使供应商关系值得投入，我们与 Codex 团队取得了令人难以置信的进展。”\n\n> “Codex 是货真价实的。Codex 确实帮助我们更快地交付代码。”\n>\n> — Austin Ray，Ramp 公司 AI 开发者体验负责人\n\n## 未来展望\n\nCodex 正在改变 Ramp 工程师的工作速度，并为他们提供支持更大抱负的资源。对 Ray 来说，这标志着一种从整体上思考工程的新方式。\n\n“工程师将变成协调者。技能不再是亲自编写每一行代码，而是知道如何指挥像 Codex 这样的 AI 工具，何时信任它们，何时提出质疑。在 Ramp，我们最优秀的工程师学得最快。”",
-      "titleZh": "Ramp工程师如何利用Codex加速代码审查",
-      "summaryZh": "Ramp工程师如何使用Codex与GPT-5.5来审查代码并交付改进，使他们能够在几分钟内获得实质性反馈，而不是几小时。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-05-20T00:00:00.000Z",
-      "url": "https://openai.com/index/ramp",
-      "collectedAt": "2026-08-17T03:38:44.448Z"
+      "collectedAt": "2026-08-18T03:33:55.179Z"
     },
     {
       "id": "118693cb868e1641c9c1",
@@ -2923,7 +2906,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-04-24T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-17T03:38:51.176Z"
+      "collectedAt": "2026-08-18T03:34:00.793Z"
     },
     {
       "id": "aeb9a0b6e961ddd9394e",
@@ -2940,7 +2923,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-12-01T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-17T03:38:51.177Z"
+      "collectedAt": "2026-08-18T03:34:00.794Z"
     },
     {
       "id": "f43c8f46501ee2e8d8ed",
@@ -2957,7 +2940,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-09-29T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-17T03:38:51.177Z"
+      "collectedAt": "2026-08-18T03:34:00.795Z"
     },
     {
       "id": "de42c19b7c54bb0dc7ec",
@@ -2974,7 +2957,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-09-22T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-17T03:38:51.177Z"
+      "collectedAt": "2026-08-18T03:34:00.795Z"
     },
     {
       "id": "76cf3c1ca30cb079d970",
@@ -2991,7 +2974,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-08-21T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-17T03:38:51.178Z"
+      "collectedAt": "2026-08-18T03:34:00.796Z"
     }
   ]
 }
