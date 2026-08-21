@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-20T03:37:22.219Z",
+  "updatedAt": "2026-08-21T03:40:15.435Z",
   "sources": [
     {
       "id": "openai-news",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "count": 725
+      "count": 726
     },
     {
       "id": "claude-apps",
@@ -53,6 +53,23 @@
   ],
   "entries": [
     {
+      "id": "2d19306ef234ea7faec5",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+      "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+      "content": "Stampli is an intelligent procure-to-pay platform that connects procurement, accounts payable, vendor management, payments, and employee spend. Its Deep Finance™ product transforms the data moving through Stampli’s procure-to-pay platform into executive spend intelligence for CFOs, VPs, and other business leaders. Launching it meant product development, positioning, design, communications, enablement, and operations all moving in parallel, on a fixed timeline, with design resources and outside contractors already committed to other priorities.\n\nStampli’s marketing team used Codex to connect product context, meeting notes, decisions, and messaging guidelines into a shared system. With OpenAI tools, they compressed an estimated 243 hours of production work into about 77, while keeping full human review and final approval on everything customer-facing.\n\nThat launch is the clearest example of a pattern that runs through Stampli’s product marketing team every day: using ChatGPT Work and Codex together to keep product knowledge current, surface business insights, and move ideas to market faster.\n\n> “Codex shortens the distance between a customer’s need, our team’s response, and real learnings from usage. By extending technical abilities across every team, it helps us move 10x faster from requirement to deployable solution.”\n\n—Eyal Feldman, CEO and Co-Founder, Stampli\n\n## From prototype to launch, in six weeks\n\nDeep Finance moved from an initial prototype demo to a public GTM launch and first shipped product in about six weeks. With design resources and outside contractors committed to other priorities, the team used Codex to turn evolving product decisions into review-ready assets across a seven-part blog series, launch emails, a webinar and its supporting deck, social and paid creative, a PR Newswire release, the Deep Finance web page, and sales enablement materials. Codex also helped create the launch’s hero animation through exploration, iteration, and packaging, handling roughly 90% of the polished animation work before a contractor finished the opening scene and final format.\n\nAcross the defined Deep Finance go-to-market and content production workflow, the Stampli team estimates the launch would have taken about 243 modeled active role-hours without Codex. With Codex, it took approximately 77, saving roughly 166 hours or 3.16x faster production.\n\n## A system built for daily use, not just launches\n\nThe infrastructure behind the Deep Finance launch is the same one Stampli’s product marketing team relies on day to day. Keeping product materials current used to require interviewing product managers, reading Jira tickets, reviewing GitHub, and working through meeting notes. The team then had to translate that information into help center articles, presentations, one-pagers, and other assets.\n\nStampli has automated much of that process with a GPT‑powered system. It gathers information from product systems and meeting notes, then helps keep those materials up to date.\n\nThe same automations help the product marketing team create content at greater scale. Agents connected to the company’s source of truth can produce material for the website and social channels. According to Melad Zahedi, Director of Product Marketing, “it’s multiplied the output of a small team by 10x, putting out hundreds of pieces of content on a weekly basis, where it was limited to just a couple before.”\n\n## Surfacing insights when they matter\n\nChatGPT Work also helps employees bring relevant business context into important decisions. Zahedi uses GPT‑powered automations as a “second brain” to organize information across a schedule filled with back-to-back meetings.\n\n“Being able to go to every meeting prepared with context, understanding what is needed from me in that meeting and how to stay efficient with my time, has been an amazing benefit,” he says.\n\nIn one executive meeting, a question arose about metrics stored across HubSpot and other systems. An employee was able to quickly ask Codex to retrieve and analyze the relevant data during the call. “This is something that would’ve taken our FP&A team half a day to put a report together, give us a model, and give us an answer that we felt confident in. Someone was able to do it with 20 seconds of keystrokes,” Zahedi says.\n\n## Making more room for strategy\n\nThe time saved let product marketing spend less time reconstructing context and more time advising leaders on product and company strategy. At the same time, the team became more involved in advising VPs and C-suite leaders on corporate and product strategy.\n\nChatGPT Work also serves as a thought partner for product marketing. Employees use it to deepen their knowledge, brainstorm ideas, create stakeholder personas, and test recommendations before presenting them to leadership.\n\nTeams across product, marketing, customer success, sales, and enablement are using ChatGPT Work and Codex to take the idea from prototype to launch. Zahedi estimates that with OpenAI tools the process took about six weeks, which previously would have taken months or even quarters.\n\n## What’s next\n\nThe Deep Finance launch showed Stampli what a more connected, AI-supported product cycle could look like. Now the company is exploring how to apply that approach across more products, workflows, and go-to-market programs.\n\nFor Zahedi, the larger opportunity is expanding what employees believe they can take on. ChatGPT Work and Codex have helped his team learn new disciplines, build its own systems, and spend more time on decisions that move the company forward.\n\n> “Being curious and just asking, ‘What can I do?’ and trying everything first through ChatGPT will unlock a lot of latent capacity that you didn’t realize was there in your organization—and in yourself.”\n\n—Melad Zahedi, Director of Product Marketing, Stampli",
+      "contentZh": "Stampli是一个智能的采购到付款平台，连接采购、应付账款、供应商管理、支付和员工支出。其Deep Finance™产品将流经Stampli采购到付款平台的数据转化为面向CFO、副总裁及其他业务领导者的高管支出洞察。推出该产品意味着产品开发、定位、设计、传播、赋能和运营需要在固定时间表上并行推进，而设计资源和外部承包商已承诺投入其他优先事项。\n\nStampli的市场营销团队使用Codex将产品背景、会议记录、决策和消息传递指南连接到一个共享系统中。借助OpenAI工具，他们将预计243小时的生产工作压缩到约77小时，同时对所有面向客户的内容保持完整的人工审查和最终批准。\n\n这次发布是贯穿Stampli产品营销团队日常工作的模式最清晰的例证：结合使用ChatGPT Work和Codex，保持产品知识的最新性，挖掘业务洞察，并更快地将想法推向市场。\n\n> “Codex缩短了客户需求、我们团队的响应以及来自实际使用中的真实学习之间的距离。通过将技术能力扩展到每个团队，它帮助我们从需求到可部署解决方案的速度提升了10倍。”\n\n——Eyal Feldman，Stampli首席执行官兼联合创始人\n\n## 从原型到发布，仅用六周\n\nDeep Finance从初始原型演示到公开上市发布及首个交付产品，大约用了六周时间。由于设计资源和外部承包商已承诺投入其他优先事项，团队使用Codex将不断演变的产品决策转化为可供审查的资产，涵盖七部分博客系列、发布邮件、网络研讨会及其配套演示文稿、社交和付费创意、PR Newswire新闻稿、Deep Finance网页以及销售赋能材料。Codex还通过探索、迭代和打包帮助创建了发布的主视觉动画，在承包商完成开场场景和最终格式之前，处理了约90%的精修动画工作。\n\n在明确的Deep Finance上市和内容生产工作流程中，Stampli团队估计，如果没有Codex，这次发布大约需要243个建模的活跃角色工时。使用Codex后，大约耗时77小时，节省约166小时，生产效率提升3.16倍。\n\n## 为日常使用而构建的系统，而不仅仅是为发布\n\nDeep Finance发布背后的基础设施与Stampli产品营销团队日常依赖的系统相同。过去，保持产品材料的最新性需要采访产品经理、阅读Jira工单、查看GitHub并梳理会议记录。团队随后必须将这些信息转化为帮助中心文章、演示文稿、一页纸简介和其他资产。\n\nStampli已通过GPT驱动的系统自动化了这一过程中的大部分工作。它从产品系统和会议记录中收集信息，然后帮助保持这些材料的最新状态。\n\n同样的自动化帮助产品营销团队以更大规模创建内容。连接到公司单一事实来源的智能体可以为网站和社交渠道生成材料。据产品营销总监Melad Zahedi称，“它将一个小团队的产出放大了10倍，每周发布数百条内容，而之前仅限于几条。”\n\n## 在关键时刻浮现洞察\n\nChatGPT Work还帮助员工将相关的业务背景带入重要决策中。Zahedi使用GPT驱动的自动化作为“第二大脑”，在排满连续会议的时间表中组织信息。\n\n他说：“能够带着背景信息参加每次会议，理解会议对我的要求以及如何高效利用时间，这带来了巨大的好处。”\n\n在一次高管会议中，出现了一个关于存储在HubSpot和其他系统中指标的问题。一名员工能够在通话期间快速要求Codex检索并分析相关数据。Zahedi说：“这件事如果让我们的财务规划与分析团队来做，需要半天时间整理报告、建立模型并给出我们信服的答案。而有人仅用20秒的键盘输入就完成了。”\n\n## 为战略腾出更多空间\n\n节省下来的时间让产品营销团队减少了重建背景信息的时间，增加了为领导者提供产品和公司战略建议的时间。同时，团队也更多地参与为副总裁和高管层提供公司及产品战略建议。\n\nChatGPT Work还充当产品营销团队的思维伙伴。员工使用它来深化知识、头脑风暴想法、创建利益相关者画像，并在向领导层展示建议之前进行测试。\n\n产品、营销、客户成功、销售和赋能等跨职能团队正在使用ChatGPT Work和Codex将想法从原型推进到发布。Zahedi估计，借助OpenAI工具，这一过程大约耗时六周，而以前可能需要数月甚至数个季度。\n\n## 下一步\n\nDeep Finance的发布向Stampli展示了更互联、AI支持的产品周期可能是什么样子。现在，公司正在探索如何将该方法应用于更多产品、工作流程和上市计划。\n\n对Zahedi而言，更大的机遇在于拓展员工对自己能够承担工作的认知。ChatGPT Work和Codex帮助他的团队学习新领域、构建自己的系统，并将更多时间投入到推动公司前进的决策中。\n\n> “保持好奇心，不断问‘我能做什么？’，并首先通过ChatGPT尝试一切，将会释放你未曾意识到存在于组织中——以及你自己身上的大量潜在能力。”\n\n——Melad Zahedi，Stampli产品营销总监",
+      "titleZh": "Stampli 使用 ChatGPT Work 将发布工时削减 68%",
+      "summaryZh": "在截止日期固定且设计资源被其他项目占用的情况下，Stampli 利用 Codex 和 ChatGPT Work 将原本需要数周的发布准备工作压缩至数天完成。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "url": "https://openai.com/index/stampli",
+      "collectedAt": "2026-08-21T03:39:46.784Z"
+    },
+    {
       "id": "3dc55b55b1de08c817b2",
       "sourceId": "openai-news",
       "company": "OpenAI",
@@ -67,7 +84,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T19:00:00.000Z",
       "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "collectedAt": "2026-08-20T03:36:29.690Z"
+      "collectedAt": "2026-08-21T03:39:46.785Z"
     },
     {
       "id": "1e5ef4886d4750bbdc69",
@@ -84,24 +101,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T07:00:00.000Z",
       "url": "https://openai.com/index/replit",
-      "collectedAt": "2026-08-20T03:36:29.692Z"
+      "collectedAt": "2026-08-21T03:39:46.786Z"
     },
     {
-      "id": "98bc9dcb7826e5a3c837",
+      "id": "b6b64fe3eaea1183b92b",
       "sourceId": "claude-platform",
       "company": "Anthropic",
       "product": "Claude",
       "kind": "api",
-      "title": "The Admin API user-management endpoints for Claude Enterprise (claude.ai) organizations (members, invites, groups, and custom roles) are now generally available.",
-      "summary": "The Admin API user-management endpoints for Claude Enterprise (claude.ai) organizations (members, invites, groups, and custom roles) are now generally available. The anthropic-beta: ce-user-management-2026-07-13 header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See User management. The Files API is now generally available on the Claude API. Requests to the /v1/files endpoints, and Messages API requests that reference an uploaded file, no longer require the files-api-2025-04-14 beta header. Requests sent without the header use the GA response format: file expiration (set expires_in_seconds when you upload a file; file objects report expires_at), and page and next_page pagination plus an ids[] filter when you list files. Storage is 1 TB per organization and the rate limit is 500 requests per minute. /v1/files requests that still send the beta header keep working and return the previous response format. Agent Skills and the Skills API (/v1/skills) are now generally available on the Claude API. Requests no longer require the skills-2025-10-02 beta header, including Messages API requests that load Skills through the container parameter. Requests that still send the header continue to work unchanged. See Using Agent Skills with the API. You can now restrict which sites a Claude Managed Agents agent's web_search and web_fetch tools can reach. Set allowed_domains or blocked_domains on the tool's entry in the agent_toolset_20260401 configs array; web_fetch also accepts max_content_tokens and web_search accepts user_location. Each configs entry is identified by its name and typed by an optional type, and requests that pass only name, enabled, and permission_policy continue to work; in the typed SDKs, configs entries become per-tool types. See Restrict web search and web fetch domains. Claude Managed Agents sessions that run in a self-hosted sandbox can now attach memory stores. The Python, TypeScript, and Go SDK workers download each attached store into the sandbox at its mount_path and sync the agent's changes back to the store. See Use memory stores. The session viewer in the Claude Console has been redesigned with a timeline minimap, a transcript grouped by model request, and an Inspector panel for session details and cost, raw events, per-tool statistics, mounted resources, and per-thread activity. See Console observability.",
-      "content": "The Admin API user-management endpoints for Claude Enterprise (claude.ai) organizations (members, invites, groups, and custom roles) are now generally available. The anthropic-beta: ce-user-management-2026-07-13 header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See User management. The Files API is now generally available on the Claude API. Requests to the /v1/files endpoints, and Messages API requests that reference an uploaded file, no longer require the files-api-2025-04-14 beta header. Requests sent without the header use the GA response format: file expiration (set expires_in_seconds when you upload a file; file objects report expires_at), and page and next_page pagination plus an ids[] filter when you list files. Storage is 1 TB per organization and the rate limit is 500 requests per minute. /v1/files requests that still send the beta header keep working and return the previous response format. Agent Skills and the Skills API (/v1/skills) are now generally available on the Claude API. Requests no longer require the skills-2025-10-02 beta header, including Messages API requests that load Skills through the container parameter. Requests that still send the header continue to work unchanged. See Using Agent Skills with the API. You can now restrict which sites a Claude Managed Agents agent's web_search and web_fetch tools can reach. Set allowed_domains or blocked_domains on the tool's entry in the agent_toolset_20260401 configs array; web_fetch also accepts max_content_tokens and web_search accepts user_location. Each configs entry is identified by its name and typed by an optional type, and requests that pass only name, enabled, and permission_policy continue to work; in the typed SDKs, configs entries become per-tool types. See Restrict web search and web fetch domains. Claude Managed Agents sessions that run in a self-hosted sandbox can now attach memory stores. The Python, TypeScript, and Go SDK workers download each attached store into the sandbox at its mount_path and sync the agent's changes back to the store. See Use memory stores. The session viewer in the Claude Console has been redesigned with a timeline minimap, a transcript grouped by model request, and an Inspector panel for session details and cost, raw events, per-tool statistics, mounted resources, and per-thread activity. See Console observability.",
-      "contentZh": "Claude Enterprise（claude.ai）组织的 Admin API 用户管理端点（成员、邀请、群组和自定义角色）现已全面可用。群组和自定义角色请求不再需要 `anthropic-beta: ce-user-management-2026-07-13` 标头；仍发送该标头的请求将原样接受。请参阅用户管理。Files API 现已在 Claude API 上全面可用。对 `/v1/files` 端点的请求，以及引用已上传文件的 Messages API 请求，不再需要 `files-api-2025-04-14` beta 标头。未发送该标头的请求使用 GA 响应格式：文件过期（上传文件时设置 `expires_in_seconds`；文件对象报告 `expires_at`），以及列出文件时的 `page` 和 `next_page` 分页及 `ids[]` 过滤器。存储空间为每个组织 1 TB，速率限制为每分钟 500 个请求。仍发送 beta 标头的 `/v1/files` 请求继续正常工作，并返回之前的响应格式。Agent Skills 和 Skills API（`/v1/skills`）现已在 Claude API 上全面可用。请求不再需要 `skills-2025-10-02` beta 标头，包括通过 `container` 参数加载 Skills 的 Messages API 请求。仍发送该标头的请求继续正常工作，不受影响。请参阅将 Agent Skills 与 API 结合使用。您现在可以限制 Claude Managed Agents 代理的 `web_search` 和 `web_fetch` 工具可访问的站点。在 `agent_toolset_20260401` 配置数组中的工具条目上设置 `allowed_domains` 或 `blocked_domains`；`web_fetch` 还接受 `max_content_tokens`，`web_search` 接受 `user_location`。每个配置条目由其 `name` 标识，并由可选的 `type` 进行类型化，仅传递 `name`、`enabled` 和 `permission_policy` 的请求继续正常工作；在类型化 SDK 中，配置条目变为按工具类型。请参阅限制 Web 搜索和 Web 抓取域名。在自托管沙箱中运行的 Claude Managed Agents 会话现在可以附加内存存储。Python、TypeScript 和 Go SDK 工作进程会将每个附加的存储下载到沙箱中的 `mount_path`，并将代理的更改同步回存储。请参阅使用内存存储。Claude Console 中的会话查看器已重新设计，新增时间线缩略图、按模型请求分组的事务记录，以及用于查看会话详情和成本、原始事件、按工具统计、挂载资源和按线程活动的 Inspector 面板。请参阅控制台可观测性。",
-      "titleZh": "Claude Enterprise（claude.ai）组织的Admin API用户管理端点（成员、邀请、群组和自定义角色）现已全面可用。",
-      "summaryZh": "Claude Enterprise（claude.ai）组织的Admin API用户管理端点（成员、邀请、群组和自定义角色）现已全面可用。群组和自定义角色请求不再需要anthropic-beta: ce-user-management-2026-07-13标头；仍发送该标头的请求将原样接受。参见用户管理。Files API现已在Claude API上全面可用。对/v1/files端点的请求，以及引用上传文件的Messages API请求，不再需要files-api-2025-04-14测试版标头。未发送该标头的请求使用GA响应格式：文件过期（上传文件时设置expires_in_seconds；文件对象报告expires_at），以及列出文件时的page和next_page分页及ids[]过滤器。存储空间为每个组织1 TB，速率限制为每分钟500个请求。仍发送测试版标头的/v1/files请求继续工作并返回之前的响应格式。Agent Skills和Skills API（/v1/skills）现已在Claude API上全面可用。请求不再需要skills-2025-10-02测试版标头，包括通过container参数加载Skills的Messages API请求。仍发送该标头的请求继续不变地工作。参见使用Agent Skills与API。您现在可以限制Claude Managed Agents代理的web_search和web_fetch工具可访问的站点。在agent_toolset_20260401配置数组中的工具条目上设置allowed_domains或blocked_domains；web_fetch还接受max_content_tokens，web_search接受user_location。每个配置条目由其名称标识，并由可选类型进行类型化，仅传递name、enabled和permission_policy的请求继续工作；在类型化SDK中，配置条目变为每个工具的类型。参见限制web搜索和web抓取域。在自托管沙箱中运行的Claude Managed Agents会话现在可以附加内存存储。Python、TypeScript和Go SDK工作进程将每个附加的存储下载到沙箱中的mount_path，并将代理的更改同步回存储。参见使用内存存储。Claude Console中的会话查看器已重新设计，具有时间线缩略图、按模型请求分组的事件记录，以及用于会话详细信息和成本、原始事件、每个工具的统计信息、挂载资源和每个线程活动的Inspector面板。参见控制台可观测性。",
+      "title": "The computer use tool is now generally available on the Claude API as the computer_toolset_20260801 toolset: no beta header, batch actions (several actions in one turn), zoom enabl",
+      "summary": "The computer use tool is now generally available on the Claude API as the computer_toolset_20260801 toolset: no beta header, batch actions (several actions in one turn), zoom enabled by default, and per-member configuration through configs. Earlier beta versions remain available. Upgrading an existing integration changes the request shape and tool handling; see Migrate from computer_20251124. We've launched the browser use tool (browser_toolset_20260801), a client toolset for driving a browser that your application hosts. It works inside a browser viewport rather than a whole desktop, reading the page itself (its accessibility tree, elements, forms, and tabs) and adding element references, form input, tab management, download reporting, and opt-in file upload on top of screenshot-and-click control. Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API. The Files API is now generally available on the Claude API. Requests to the /v1/files endpoints, and Messages API requests that reference an uploaded file, no longer require the files-api-2025-04-14 beta header. Requests sent without the header use the GA response format: file expiration (set expires_in_seconds when you upload a file; file objects report expires_at), and page and next_page pagination plus an ids[] filter when you list files. /v1/files requests that still send the beta header keep working and return the previous response format. Agent Skills and the Skills API (/v1/skills) are now generally available on the Claude API. Requests no longer require the skills-2025-10-02 beta header, including Messages API requests that load Skills through the container parameter. Requests that still send the header continue to work unchanged. See Using Agent Skills with the API. The Admin API user-management endpoints for Claude Enterprise (claude.ai) organizations (members, invites, groups, and custom roles) are now generally available. The anthropic-beta: ce-user-management-2026-07-13 header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See User management. You can now restrict which sites a Claude Managed Agents agent's web_search and web_fetch tools can reach. Set allowed_domains or blocked_domains on the tool's entry in the agent_toolset_20260401 configs array; web_fetch also accepts max_content_tokens and web_search accepts user_location. Each configs entry is identified by its name and typed by an optional type, and requests that pass only name, enabled, and permission_policy continue to work; in the typed SDKs, configs entries become per-tool types. See Restrict web search and web fetch domains. Claude Managed Agents sessions that run in a self-hosted sandbox can now attach memory stores. The Python, TypeScript, and Go SDK workers download each attached store into the sandbox at its mount_path and sync the agent's changes back to the store. See Use memory stores. The session viewer in the Claude Console has been redesigned with a timeline minimap, a transcript grouped by model request, and an Inspector panel for session details and cost, raw events, per-tool statistics, mounted resources, and per-thread activity. See Console observability.",
+      "content": "The computer use tool is now generally available on the Claude API as the computer_toolset_20260801 toolset: no beta header, batch actions (several actions in one turn), zoom enabled by default, and per-member configuration through configs. Earlier beta versions remain available. Upgrading an existing integration changes the request shape and tool handling; see Migrate from computer_20251124. We've launched the browser use tool (browser_toolset_20260801), a client toolset for driving a browser that your application hosts. It works inside a browser viewport rather than a whole desktop, reading the page itself (its accessibility tree, elements, forms, and tabs) and adding element references, form input, tab management, download reporting, and opt-in file upload on top of screenshot-and-click control. Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API. The Files API is now generally available on the Claude API. Requests to the /v1/files endpoints, and Messages API requests that reference an uploaded file, no longer require the files-api-2025-04-14 beta header. Requests sent without the header use the GA response format: file expiration (set expires_in_seconds when you upload a file; file objects report expires_at), and page and next_page pagination plus an ids[] filter when you list files. /v1/files requests that still send the beta header keep working and return the previous response format. Agent Skills and the Skills API (/v1/skills) are now generally available on the Claude API. Requests no longer require the skills-2025-10-02 beta header, including Messages API requests that load Skills through the container parameter. Requests that still send the header continue to work unchanged. See Using Agent Skills with the API. The Admin API user-management endpoints for Claude Enterprise (claude.ai) organizations (members, invites, groups, and custom roles) are now generally available. The anthropic-beta: ce-user-management-2026-07-13 header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See User management. You can now restrict which sites a Claude Managed Agents agent's web_search and web_fetch tools can reach. Set allowed_domains or blocked_domains on the tool's entry in the agent_toolset_20260401 configs array; web_fetch also accepts max_content_tokens and web_search accepts user_location. Each configs entry is identified by its name and typed by an optional type, and requests that pass only name, enabled, and permission_policy continue to work; in the typed SDKs, configs entries become per-tool types. See Restrict web search and web fetch domains. Claude Managed Agents sessions that run in a self-hosted sandbox can now attach memory stores. The Python, TypeScript, and Go SDK workers download each attached store into the sandbox at its mount_path and sync the agent's changes back to the store. See Use memory stores. The session viewer in the Claude Console has been redesigned with a timeline minimap, a transcript grouped by model request, and an Inspector panel for session details and cost, raw events, per-tool statistics, mounted resources, and per-thread activity. See Console observability.",
+      "contentZh": "计算机使用工具现已在Claude API上作为`computer_toolset_20260801`工具集全面可用：无需beta标头，支持批量操作（单轮中的多个操作），默认启用缩放，并可通过configs进行按成员配置。早期beta版本仍然可用。升级现有集成会改变请求形态和工具处理方式；请参阅从`computer_20251124`迁移。我们推出了浏览器使用工具（`browser_toolset_20260801`），这是一个客户端工具集，用于驱动您的应用程序托管的浏览器。它在浏览器视口内工作，而非整个桌面，自行读取页面（其可访问性树、元素、表单和标签页），并在截图和点击控制之上添加元素引用、表单输入、标签页管理、下载报告和可选文件上传。这两个工具集均适用于Claude API上的Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5和Claude Opus 4.8。Files API现已在Claude API上全面可用。对`/v1/files`端点的请求，以及引用已上传文件的Messages API请求，不再需要`files-api-2025-04-14` beta标头。未发送该标头的请求使用GA响应格式：文件过期（上传文件时设置`expires_in_seconds`；文件对象报告`expires_at`），以及列出文件时的`page`和`next_page`分页及`ids[]`过滤器。仍发送beta标头的`/v1/files`请求继续工作并返回之前的响应格式。Agent Skills和Skills API（`/v1/skills`）现已在Claude API上全面可用。请求不再需要`skills-2025-10-02` beta标头，包括通过`container`参数加载Skills的Messages API请求。仍发送该标头的请求继续不变地工作。请参阅使用Agent Skills与API。用于Claude Enterprise（claude.ai）组织的Admin API用户管理端点（成员、邀请、组和自定义角色）现已全面可用。组和自定义角色请求不再需要`anthropic-beta: ce-user-management-2026-07-13`标头；仍发送该标头的请求被原样接受。请参阅用户管理。您现在可以限制Claude Managed Agents代理的`web_search`和`web_fetch`工具可以访问的站点。在`agent_toolset_20260401` configs数组中的工具条目上设置`allowed_domains`或`blocked_domains`；`web_fetch`还接受`max_content_tokens`，`web_search`接受`user_location`。每个configs条目由其`name`标识，并由可选的`type`进行类型化，仅传递`name`、`enabled`和`permission_policy`的请求继续工作；在类型化SDK中，configs条目变为按工具类型。请参阅限制Web搜索和Web抓取域名。在自托管沙箱中运行的Claude Managed Agents会话现在可以附加内存存储。Python、TypeScript和Go SDK工作进程将每个附加的存储下载到沙箱中的`mount_path`，并将代理的更改同步回存储。请参阅使用内存存储。Claude Console中的会话查看器已重新设计，带有时间线缩略图、按模型请求分组的事务记录，以及用于会话详情和成本、原始事件、按工具统计、挂载资源和按线程活动的Inspector面板。请参阅控制台可观测性。",
+      "titleZh": "计算机使用工具现已在Claude API上作为computer_toolset_20260801工具集全面可用：无需beta头，批量操作（单轮多次操作），缩放默认启用",
+      "summaryZh": "计算机使用工具现已在Claude API上作为computer_toolset_20260801工具集全面可用：无需beta头，批量操作（单轮多次操作），缩放默认启用，并可通过配置进行成员级设置。早期beta版本仍然可用。升级现有集成会改变请求形状和工具处理方式；请参阅从computer_20251124迁移。我们推出了浏览器使用工具（browser_toolset_20260801），这是一个客户端工具集，用于驱动您的应用程序托管的浏览器。它在浏览器视口内工作，而非整个桌面，自行读取页面（其可访问性树、元素、表单和标签页），并在截图和点击控制之上添加元素引用、表单输入、标签页管理、下载报告和可选文件上传。这两个工具集适用于Claude API上的Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5和Claude Opus 4.8。Files API现已在Claude API上全面可用。对/v1/files端点的请求，以及引用上传文件的Messages API请求，不再需要files-api-2025-04-14 beta头。不带头发送的请求使用GA响应格式：文件过期（上传文件时设置expires_in_seconds；文件对象报告expires_at），以及列出文件时的page和next_page分页及ids[]过滤器。仍发送beta头的/v1/files请求继续工作并返回之前的响应格式。Agent Skills和Skills API（/v1/skills）现已在Claude API上全面可用。请求不再需要skills-2025-10-02 beta头，包括通过container参数加载Skills的Messages API请求。仍发送该头的请求继续不变地工作。请参阅在API中使用Agent Skills。用于Claude Enterprise（claude.ai）组织的Admin API用户管理端点（成员、邀请、组和自定义角色）现已全面可用。组和自定义角色请求不再需要anthropic-beta: ce-user-management-2026-07-13头；仍发送该头的请求被原样接受。请参阅用户管理。您现在可以限制Claude托管代理的web_search和web_fetch工具可访问的站点。在agent_toolset_20260401配置数组中的工具条目上设置allowed_domains或blocked_domains；web_fetch还接受max_content_tokens，web_search接受user_location。每个配置条目由其名称标识，并由可选类型进行类型化，仅传递name、enabled和permission_policy的请求继续工作；在类型化SDK中，配置条目变为每个工具的类型。请参阅限制web搜索和web抓取域。在自托管沙箱中运行的Claude托管代理会话现在可以附加内存存储。Python、TypeScript和Go SDK工作进程将每个附加的存储下载到沙箱中的挂载路径，并将代理的更改同步回存储。请参阅使用内存存储。Claude控制台中的会话查看器已重新设计，带有时间线缩略图、按模型请求分组的转录，以及用于会话详细信息和成本、原始事件、每个工具的统计、挂载资源和每个线程活动的Inspector面板。请参阅控制台可观察性。",
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.446Z"
+      "collectedAt": "2026-08-21T03:39:48.235Z"
     },
     {
       "id": "dbabefb7176b8899389d",
@@ -118,7 +135,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-08-20T03:36:31.855Z"
+      "collectedAt": "2026-08-21T03:39:48.662Z"
     },
     {
       "id": "d02b32736bea62b3185d",
@@ -135,7 +152,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T22:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "collectedAt": "2026-08-20T03:36:29.694Z"
+      "collectedAt": "2026-08-21T03:39:46.787Z"
     },
     {
       "id": "755e4db2cccf354bd6df",
@@ -152,7 +169,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "collectedAt": "2026-08-20T03:36:29.696Z"
+      "collectedAt": "2026-08-21T03:39:46.788Z"
     },
     {
       "id": "60ed32685f2c13d2be9e",
@@ -169,7 +186,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-teens",
-      "collectedAt": "2026-08-20T03:36:29.697Z"
+      "collectedAt": "2026-08-21T03:39:46.789Z"
     },
     {
       "id": "569fdb7965461ec2bca6",
@@ -186,7 +203,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T07:00:00.000Z",
       "url": "https://openai.com/index/asana",
-      "collectedAt": "2026-08-20T03:36:29.699Z"
+      "collectedAt": "2026-08-21T03:39:46.791Z"
     },
     {
       "id": "cf88f2889563730674dc",
@@ -203,7 +220,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://openai.com/index/nvidia/chatgpt-work",
-      "collectedAt": "2026-08-20T03:36:29.698Z"
+      "collectedAt": "2026-08-21T03:39:46.790Z"
     },
     {
       "id": "b502dc7d3a21faa33b3e",
@@ -220,7 +237,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.466Z"
+      "collectedAt": "2026-08-21T03:39:48.236Z"
     },
     {
       "id": "87f8e936f22002253f15",
@@ -237,7 +254,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-17T08:00:00.000Z",
       "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-      "collectedAt": "2026-08-20T03:36:33.821Z"
+      "collectedAt": "2026-08-21T03:39:49.694Z"
     },
     {
       "id": "628f79672cb28599f754",
@@ -254,7 +271,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T17:04:18.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "collectedAt": "2026-08-20T03:36:33.583Z"
+      "collectedAt": "2026-08-21T03:39:49.435Z"
     },
     {
       "id": "8637785710012aa19327",
@@ -271,7 +288,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T11:00:00.000Z",
       "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "collectedAt": "2026-08-20T03:36:29.705Z"
+      "collectedAt": "2026-08-21T03:39:46.793Z"
     },
     {
       "id": "12d8fd2a91a610822616",
@@ -288,7 +305,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T10:00:00.000Z",
       "url": "https://openai.com/index/previewing-ultrafast",
-      "collectedAt": "2026-08-20T03:36:29.706Z"
+      "collectedAt": "2026-08-21T03:39:46.794Z"
     },
     {
       "id": "ff9329e42a201fd379a6",
@@ -305,7 +322,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-20T03:36:33.154Z"
+      "collectedAt": "2026-08-21T03:39:49.006Z"
     },
     {
       "id": "68c4c83c983d7ad01b30",
@@ -322,7 +339,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-20T03:36:35.176Z"
+      "collectedAt": "2026-08-21T03:39:50.966Z"
     },
     {
       "id": "5437747d9f7a7fa2a89b",
@@ -339,7 +356,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T06:00:00.000Z",
       "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "collectedAt": "2026-08-20T03:36:29.709Z"
+      "collectedAt": "2026-08-21T03:39:46.795Z"
     },
     {
       "id": "1024017ea20ba53c7f72",
@@ -356,7 +373,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "url": "https://openai.com/index/ringcentral",
-      "collectedAt": "2026-08-20T03:36:29.710Z"
+      "collectedAt": "2026-08-21T03:39:46.797Z"
     },
     {
       "id": "d9485ecefcc38cea5418",
@@ -373,7 +390,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "collectedAt": "2026-08-20T03:36:29.710Z"
+      "collectedAt": "2026-08-21T03:39:46.797Z"
     },
     {
       "id": "8825eb211c3d1692966b",
@@ -390,7 +407,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "collectedAt": "2026-08-20T03:36:29.711Z"
+      "collectedAt": "2026-08-21T03:39:46.798Z"
     },
     {
       "id": "e253abe92338c77fff32",
@@ -407,7 +424,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.467Z"
+      "collectedAt": "2026-08-21T03:39:48.237Z"
     },
     {
       "id": "f50ed5f93da49347ecb6",
@@ -424,7 +441,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T12:00:00.000Z",
       "url": "https://openai.com/index/model-ml",
-      "collectedAt": "2026-08-20T03:36:29.711Z"
+      "collectedAt": "2026-08-21T03:39:46.799Z"
     },
     {
       "id": "288f6994afc6cc6de385",
@@ -441,7 +458,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T10:00:00.000Z",
       "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
-      "collectedAt": "2026-08-20T03:36:29.712Z"
+      "collectedAt": "2026-08-21T03:39:46.800Z"
     },
     {
       "id": "734c538c439aa3199cf2",
@@ -458,7 +475,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T10:00:00.000Z",
       "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "collectedAt": "2026-08-20T03:36:29.712Z"
+      "collectedAt": "2026-08-21T03:39:46.801Z"
     },
     {
       "id": "02e8effaacedb8dbc2e1",
@@ -475,7 +492,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/premium-seats-chatgpt-business",
-      "collectedAt": "2026-08-20T03:36:29.713Z"
+      "collectedAt": "2026-08-21T03:39:46.801Z"
     },
     {
       "id": "8eb1e6a0a260fe518fb3",
@@ -492,7 +509,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-      "collectedAt": "2026-08-20T03:36:29.713Z"
+      "collectedAt": "2026-08-21T03:39:46.802Z"
     },
     {
       "id": "2c74e7c8cea6a2ece6de",
@@ -509,7 +526,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/zapier",
-      "collectedAt": "2026-08-20T03:36:29.714Z"
+      "collectedAt": "2026-08-21T03:39:46.802Z"
     },
     {
       "id": "968261fb57a0f452cb28",
@@ -526,7 +543,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.468Z"
+      "collectedAt": "2026-08-21T03:39:48.237Z"
     },
     {
       "id": "4b892749f4ed6e711322",
@@ -543,7 +560,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-07T09:00:00.000Z",
       "url": "https://openai.com/index/hsp-gruppe",
-      "collectedAt": "2026-08-20T03:36:29.715Z"
+      "collectedAt": "2026-08-21T03:39:46.803Z"
     },
     {
       "id": "f08640315c18fbc4f31c",
@@ -560,7 +577,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.468Z"
+      "collectedAt": "2026-08-21T03:39:48.238Z"
     },
     {
       "id": "d5755c0b97cd8308ee54",
@@ -577,7 +594,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T10:00:00.000Z",
       "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "collectedAt": "2026-08-20T03:36:29.715Z"
+      "collectedAt": "2026-08-21T03:39:46.804Z"
     },
     {
       "id": "0121f2aaabdbc2fbef18",
@@ -594,7 +611,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-      "collectedAt": "2026-08-20T03:36:29.716Z"
+      "collectedAt": "2026-08-21T03:39:46.804Z"
     },
     {
       "id": "ac5d129bc56db5435253",
@@ -611,7 +628,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-20T03:36:30.492Z"
+      "collectedAt": "2026-08-21T03:39:47.536Z"
     },
     {
       "id": "cbf5ffda58d43478b306",
@@ -628,7 +645,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.469Z"
+      "collectedAt": "2026-08-21T03:39:48.238Z"
     },
     {
       "id": "374a02a97939919169d2",
@@ -645,7 +662,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T19:00:00.000Z",
       "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "collectedAt": "2026-08-20T03:36:29.716Z"
+      "collectedAt": "2026-08-21T03:39:46.805Z"
     },
     {
       "id": "3feab47dffd4ec330ae5",
@@ -662,7 +679,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-      "collectedAt": "2026-08-20T03:36:29.717Z"
+      "collectedAt": "2026-08-21T03:39:46.805Z"
     },
     {
       "id": "c8f43754fdafecb85e1d",
@@ -679,7 +696,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T07:00:00.000Z",
       "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "collectedAt": "2026-08-20T03:36:29.718Z"
+      "collectedAt": "2026-08-21T03:39:46.806Z"
     },
     {
       "id": "6559d98a7d1bca755c17",
@@ -696,7 +713,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "url": "https://openai.com/index/circles",
-      "collectedAt": "2026-08-20T03:36:29.718Z"
+      "collectedAt": "2026-08-21T03:39:46.807Z"
     },
     {
       "id": "1b43c9e867bdb362c0cc",
@@ -713,7 +730,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.469Z"
+      "collectedAt": "2026-08-21T03:39:48.239Z"
     },
     {
       "id": "52e0cd114c7d854c3e96",
@@ -730,7 +747,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.469Z"
+      "collectedAt": "2026-08-21T03:39:48.240Z"
     },
     {
       "id": "b9d4476050e5d75f1b97",
@@ -747,7 +764,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T07:00:00.000Z",
       "url": "https://openai.com/index/unive",
-      "collectedAt": "2026-08-20T03:36:29.720Z"
+      "collectedAt": "2026-08-21T03:39:46.808Z"
     },
     {
       "id": "45bbaccf8d941517f323",
@@ -764,7 +781,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "collectedAt": "2026-08-20T03:36:29.721Z"
+      "collectedAt": "2026-08-21T03:39:46.808Z"
     },
     {
       "id": "af15e83e5c304730063b",
@@ -781,7 +798,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-20T03:36:35.176Z"
+      "collectedAt": "2026-08-21T03:39:50.967Z"
     },
     {
       "id": "b1fe0fa429937e85b2ef",
@@ -798,7 +815,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T15:00:59.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "collectedAt": "2026-08-20T03:36:33.583Z"
+      "collectedAt": "2026-08-21T03:39:49.435Z"
     },
     {
       "id": "56f1d8a8c0f3af9fdd08",
@@ -815,7 +832,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T10:00:00.000Z",
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "collectedAt": "2026-08-20T03:36:29.722Z"
+      "collectedAt": "2026-08-21T03:39:46.808Z"
     },
     {
       "id": "cfbf6b8394b6edd2d1cc",
@@ -832,7 +849,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://openai.com/index/avatarin",
-      "collectedAt": "2026-08-20T03:36:29.722Z"
+      "collectedAt": "2026-08-21T03:39:46.809Z"
     },
     {
       "id": "13c5281530ee4a6f4537",
@@ -849,7 +866,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-20T03:36:33.155Z"
+      "collectedAt": "2026-08-21T03:39:49.007Z"
     },
     {
       "id": "8aaceda53f7fc93dbf60",
@@ -866,7 +883,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T15:00:00.000Z",
       "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-      "collectedAt": "2026-08-20T03:36:29.723Z"
+      "collectedAt": "2026-08-21T03:39:46.809Z"
     },
     {
       "id": "002458279ec72570fffb",
@@ -883,7 +900,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "collectedAt": "2026-08-20T03:36:29.723Z"
+      "collectedAt": "2026-08-21T03:39:46.809Z"
     },
     {
       "id": "4c8b6c772be707078bbd",
@@ -900,7 +917,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "collectedAt": "2026-08-20T03:36:29.724Z"
+      "collectedAt": "2026-08-21T03:39:46.810Z"
     },
     {
       "id": "ca98ace8cf1a2a8d7872",
@@ -917,7 +934,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-08-20T03:36:31.855Z"
+      "collectedAt": "2026-08-21T03:39:48.662Z"
     },
     {
       "id": "bf370c7e47952f2da5c5",
@@ -934,7 +951,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-28T16:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "collectedAt": "2026-08-20T03:36:33.822Z"
+      "collectedAt": "2026-08-21T03:39:49.695Z"
     },
     {
       "id": "57b8f529f115263ec820",
@@ -951,7 +968,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-28T13:21:37.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-      "collectedAt": "2026-08-20T03:36:33.584Z"
+      "collectedAt": "2026-08-21T03:39:49.436Z"
     },
     {
       "id": "bc5ed3298105125d299c",
@@ -968,7 +985,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-27T03:30:00.000Z",
       "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "collectedAt": "2026-08-20T03:36:29.724Z"
+      "collectedAt": "2026-08-21T03:39:46.810Z"
     },
     {
       "id": "cb2584c1c5ba09bcd3a3",
@@ -985,7 +1002,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-20T03:36:30.493Z"
+      "collectedAt": "2026-08-21T03:39:47.537Z"
     },
     {
       "id": "b363cad12be0dd76a830",
@@ -1002,7 +1019,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.470Z"
+      "collectedAt": "2026-08-21T03:39:48.240Z"
     },
     {
       "id": "c7991759e1e4a5d32f85",
@@ -1019,7 +1036,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-23T00:00:00.000Z",
       "url": "https://openai.com/index/health-in-chatgpt",
-      "collectedAt": "2026-08-20T03:36:29.725Z"
+      "collectedAt": "2026-08-21T03:39:46.811Z"
     },
     {
       "id": "6ccf2d78b5e86593806b",
@@ -1036,7 +1053,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T13:00:00.000Z",
       "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "collectedAt": "2026-08-20T03:36:29.725Z"
+      "collectedAt": "2026-08-21T03:39:46.811Z"
     },
     {
       "id": "658d60926ab2360afa2e",
@@ -1053,7 +1070,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T05:30:00.000Z",
       "url": "https://openai.com/index/introducing-openai-presence",
-      "collectedAt": "2026-08-20T03:36:29.726Z"
+      "collectedAt": "2026-08-21T03:39:46.812Z"
     },
     {
       "id": "c7e36c4d5f5533523bd4",
@@ -1070,7 +1087,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://openai.com/index/ntt-data",
-      "collectedAt": "2026-08-20T03:36:29.727Z"
+      "collectedAt": "2026-08-21T03:39:46.812Z"
     },
     {
       "id": "a300ec7a4d7064f7179d",
@@ -1087,7 +1104,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.471Z"
+      "collectedAt": "2026-08-21T03:39:48.241Z"
     },
     {
       "id": "afa41d5e8e9237f5cad2",
@@ -1104,7 +1121,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "collectedAt": "2026-08-20T03:36:29.727Z"
+      "collectedAt": "2026-08-21T03:39:46.812Z"
     },
     {
       "id": "176c2b61d3ba4a32ae38",
@@ -1121,7 +1138,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T15:16:30.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
-      "collectedAt": "2026-08-20T03:36:33.584Z"
+      "collectedAt": "2026-08-21T03:39:49.436Z"
     },
     {
       "id": "8b4028e43de92d3eef53",
@@ -1138,7 +1155,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T07:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "collectedAt": "2026-08-20T03:36:29.728Z"
+      "collectedAt": "2026-08-21T03:39:46.813Z"
     },
     {
       "id": "9e20c4d4744505bf3590",
@@ -1155,7 +1172,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-08-20T03:36:31.856Z"
+      "collectedAt": "2026-08-21T03:39:48.663Z"
     },
     {
       "id": "7ac3cf4e7948165dd06b",
@@ -1172,7 +1189,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-20T03:36:33.156Z"
+      "collectedAt": "2026-08-21T03:39:49.008Z"
     },
     {
       "id": "5237ec62c64502e0362e",
@@ -1189,7 +1206,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-20T10:00:00.000Z",
       "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "collectedAt": "2026-08-20T03:36:29.728Z"
+      "collectedAt": "2026-08-21T03:39:46.813Z"
     },
     {
       "id": "6fa040e6804071ffc67f",
@@ -1206,7 +1223,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-17T15:00:11.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
-      "collectedAt": "2026-08-20T03:36:33.584Z"
+      "collectedAt": "2026-08-21T03:39:49.436Z"
     },
     {
       "id": "453be2383653038965c7",
@@ -1223,7 +1240,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-17T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.471Z"
+      "collectedAt": "2026-08-21T03:39:48.241Z"
     },
     {
       "id": "37604a6bafa43b2cef23",
@@ -1240,7 +1257,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-      "collectedAt": "2026-08-20T03:36:29.729Z"
+      "collectedAt": "2026-08-21T03:39:46.814Z"
     },
     {
       "id": "ad99c0d7682ecec8de3d",
@@ -1257,7 +1274,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-      "collectedAt": "2026-08-20T03:36:33.823Z"
+      "collectedAt": "2026-08-21T03:39:49.696Z"
     },
     {
       "id": "58b103e4e418272fdf21",
@@ -1274,7 +1291,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T07:00:00.000Z",
       "url": "https://openai.com/index/codex-collaborator-creative-team",
-      "collectedAt": "2026-08-20T03:36:29.729Z"
+      "collectedAt": "2026-08-21T03:39:46.814Z"
     },
     {
       "id": "3e27101964501d6d280e",
@@ -1291,7 +1308,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-15T10:00:00.000Z",
       "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "collectedAt": "2026-08-20T03:36:29.730Z"
+      "collectedAt": "2026-08-21T03:39:46.815Z"
     },
     {
       "id": "064bc65fa5f9349bb063",
@@ -1308,7 +1325,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.471Z"
+      "collectedAt": "2026-08-21T03:39:48.242Z"
     },
     {
       "id": "58cd43a6843f5828b315",
@@ -1325,7 +1342,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex",
-      "collectedAt": "2026-08-20T03:36:29.731Z"
+      "collectedAt": "2026-08-21T03:39:46.815Z"
     },
     {
       "id": "2a84bed91691bdac7e9f",
@@ -1342,7 +1359,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
-      "collectedAt": "2026-08-20T03:36:29.731Z"
+      "collectedAt": "2026-08-21T03:39:46.815Z"
     },
     {
       "id": "9ef49567f47481113df8",
@@ -1359,7 +1376,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-20T03:36:30.493Z"
+      "collectedAt": "2026-08-21T03:39:47.537Z"
     },
     {
       "id": "02a4b9621f0b60b565aa",
@@ -1376,7 +1393,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.472Z"
+      "collectedAt": "2026-08-21T03:39:48.242Z"
     },
     {
       "id": "eb3326089562a28362a2",
@@ -1393,7 +1410,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-13T12:37:28.000Z",
       "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-      "collectedAt": "2026-08-20T03:36:33.585Z"
+      "collectedAt": "2026-08-21T03:39:49.437Z"
     },
     {
       "id": "1e5af8ca0d8bc5e26703",
@@ -1410,7 +1427,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://openai.com/academy/getting-started",
-      "collectedAt": "2026-08-20T03:36:29.732Z"
+      "collectedAt": "2026-08-21T03:39:46.816Z"
     },
     {
       "id": "7735ad0dbb31b9a6729b",
@@ -1427,7 +1444,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-20T03:36:30.494Z"
+      "collectedAt": "2026-08-21T03:39:47.538Z"
     },
     {
       "id": "3cb521040949bbeed24b",
@@ -1444,7 +1461,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.472Z"
+      "collectedAt": "2026-08-21T03:39:48.242Z"
     },
     {
       "id": "b7ede73bbb83c239838d",
@@ -1461,7 +1478,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T13:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "collectedAt": "2026-08-20T03:36:29.732Z"
+      "collectedAt": "2026-08-21T03:39:46.816Z"
     },
     {
       "id": "cd73a370d60dec12bb60",
@@ -1478,7 +1495,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "collectedAt": "2026-08-20T03:36:29.733Z"
+      "collectedAt": "2026-08-21T03:39:46.817Z"
     },
     {
       "id": "3a73e1016004964e66d6",
@@ -1495,7 +1512,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6",
-      "collectedAt": "2026-08-20T03:36:29.733Z"
+      "collectedAt": "2026-08-21T03:39:46.818Z"
     },
     {
       "id": "0cc76793af620f7bb10c",
@@ -1512,7 +1529,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/bio-bug-bounty",
-      "collectedAt": "2026-08-20T03:36:29.734Z"
+      "collectedAt": "2026-08-21T03:39:46.818Z"
     },
     {
       "id": "6756ae3b0445393cf58b",
@@ -1529,7 +1546,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-20T03:36:30.494Z"
+      "collectedAt": "2026-08-21T03:39:47.539Z"
     },
     {
       "id": "74a441f786f49a59775d",
@@ -1546,7 +1563,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T13:00:00.000Z",
       "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "collectedAt": "2026-08-20T03:36:29.735Z"
+      "collectedAt": "2026-08-21T03:39:46.819Z"
     },
     {
       "id": "4acf2eda2e0fe738f5c1",
@@ -1563,7 +1580,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-live",
-      "collectedAt": "2026-08-20T03:36:29.735Z"
+      "collectedAt": "2026-08-21T03:39:46.820Z"
     },
     {
       "id": "5432c0edbd62ccd22a23",
@@ -1580,7 +1597,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.472Z"
+      "collectedAt": "2026-08-21T03:39:48.243Z"
     },
     {
       "id": "ef10e031dc3b0f027fe5",
@@ -1597,7 +1614,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T08:54:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "collectedAt": "2026-08-20T03:36:33.823Z"
+      "collectedAt": "2026-08-21T03:39:49.696Z"
     },
     {
       "id": "ae43b3314d8877dd3dce",
@@ -1614,7 +1631,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://openai.com/index/australian-payments-plus",
-      "collectedAt": "2026-08-20T03:36:29.738Z"
+      "collectedAt": "2026-08-21T03:39:46.820Z"
     },
     {
       "id": "4c936674f4b219ed493a",
@@ -1631,7 +1648,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://openai.com/index/mufg",
-      "collectedAt": "2026-08-20T03:36:29.739Z"
+      "collectedAt": "2026-08-21T03:39:46.821Z"
     },
     {
       "id": "02a4337d96c12bd29af9",
@@ -1648,7 +1665,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-20T03:36:30.495Z"
+      "collectedAt": "2026-08-21T03:39:47.539Z"
     },
     {
       "id": "e31b8759deb751b7046f",
@@ -1665,7 +1682,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-06T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-20T03:36:33.156Z"
+      "collectedAt": "2026-08-21T03:39:49.009Z"
     },
     {
       "id": "d9953405a7b98f544a26",
@@ -1682,7 +1699,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-02T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.473Z"
+      "collectedAt": "2026-08-21T03:39:48.243Z"
     },
     {
       "id": "15cd354e84a42a0e6b8f",
@@ -1699,7 +1716,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-01T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-20T03:36:30.496Z"
+      "collectedAt": "2026-08-21T03:39:47.540Z"
     },
     {
       "id": "b61b2637e688ad2bd25d",
@@ -1716,7 +1733,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.473Z"
+      "collectedAt": "2026-08-21T03:39:48.244Z"
     },
     {
       "id": "746aab7bf7ed89a86fa8",
@@ -1733,7 +1750,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T16:02:40.000Z",
       "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-      "collectedAt": "2026-08-20T03:36:33.585Z"
+      "collectedAt": "2026-08-21T03:39:49.437Z"
     },
     {
       "id": "a3f03aca463e82452f66",
@@ -1750,7 +1767,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T09:00:00.000Z",
       "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "collectedAt": "2026-08-20T03:36:29.739Z"
+      "collectedAt": "2026-08-21T03:39:46.822Z"
     },
     {
       "id": "fe2f0670eaeafcdb3ad2",
@@ -1767,7 +1784,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "collectedAt": "2026-08-20T03:36:29.740Z"
+      "collectedAt": "2026-08-21T03:39:46.822Z"
     },
     {
       "id": "eb22f73482b9a1f24d91",
@@ -1784,7 +1801,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-genebench-pro",
-      "collectedAt": "2026-08-20T03:36:29.740Z"
+      "collectedAt": "2026-08-21T03:39:46.823Z"
     },
     {
       "id": "25e6e4a270cd66f9b185",
@@ -1801,7 +1818,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-20T03:36:30.496Z"
+      "collectedAt": "2026-08-21T03:39:47.541Z"
     },
     {
       "id": "a01fc084bf5f7a63e0f5",
@@ -1818,7 +1835,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.474Z"
+      "collectedAt": "2026-08-21T03:39:48.245Z"
     },
     {
       "id": "87e0d903c3ade9f63cb9",
@@ -1835,7 +1852,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-08-20T03:36:31.856Z"
+      "collectedAt": "2026-08-21T03:39:48.663Z"
     },
     {
       "id": "88b542cd5d98fc76107a",
@@ -1852,7 +1869,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-20T03:36:33.157Z"
+      "collectedAt": "2026-08-21T03:39:49.009Z"
     },
     {
       "id": "6e59d8aafa7323d938d6",
@@ -1869,7 +1886,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-29T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.474Z"
+      "collectedAt": "2026-08-21T03:39:48.245Z"
     },
     {
       "id": "e724c51a1bdace040134",
@@ -1886,7 +1903,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-26T10:00:00.000Z",
       "url": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "collectedAt": "2026-08-20T03:36:29.741Z"
+      "collectedAt": "2026-08-21T03:39:46.824Z"
     },
     {
       "id": "9f7c2a8b44846309cebe",
@@ -1903,7 +1920,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.474Z"
+      "collectedAt": "2026-08-21T03:39:48.245Z"
     },
     {
       "id": "dfb466b9c1abc7508953",
@@ -1920,7 +1937,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-20T03:36:30.497Z"
+      "collectedAt": "2026-08-21T03:39:47.541Z"
     },
     {
       "id": "f5c353fcba8d18826546",
@@ -1937,7 +1954,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-25T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.475Z"
+      "collectedAt": "2026-08-21T03:39:48.246Z"
     },
     {
       "id": "4dc045a657edc4379886",
@@ -1954,7 +1971,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-24T16:30:01.000Z",
       "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-      "collectedAt": "2026-08-20T03:36:33.585Z"
+      "collectedAt": "2026-08-21T03:39:49.437Z"
     },
     {
       "id": "5e93061480ea98dc8eab",
@@ -1971,7 +1988,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-24T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-20T03:36:33.157Z"
+      "collectedAt": "2026-08-21T03:39:49.010Z"
     },
     {
       "id": "ac21b6b84e065abf715a",
@@ -1988,7 +2005,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-23T17:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-immunology-mystery",
-      "collectedAt": "2026-08-20T03:36:29.742Z"
+      "collectedAt": "2026-08-21T03:39:46.825Z"
     },
     {
       "id": "2beb6e83d413eee747a3",
@@ -2005,7 +2022,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-23T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-20T03:36:30.497Z"
+      "collectedAt": "2026-08-21T03:39:47.542Z"
     },
     {
       "id": "4ee0a46d008431f74c6f",
@@ -2022,7 +2039,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T10:00:00.000Z",
       "url": "https://openai.com/index/daybreak-securing-the-world",
-      "collectedAt": "2026-08-20T03:36:29.743Z"
+      "collectedAt": "2026-08-21T03:39:46.825Z"
     },
     {
       "id": "f1af487b8667894c5069",
@@ -2039,7 +2056,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T00:00:00.000Z",
       "url": "https://openai.com/index/codex-maxxing-long-running-work",
-      "collectedAt": "2026-08-20T03:36:29.743Z"
+      "collectedAt": "2026-08-21T03:39:46.825Z"
     },
     {
       "id": "ecb75c71ae3d46eb61c5",
@@ -2056,7 +2073,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.475Z"
+      "collectedAt": "2026-08-21T03:39:48.246Z"
     },
     {
       "id": "4fba785fb3527574518d",
@@ -2073,7 +2090,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-21T23:00:00.000Z",
       "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "collectedAt": "2026-08-20T03:36:29.743Z"
+      "collectedAt": "2026-08-21T03:39:46.826Z"
     },
     {
       "id": "a744e1d203989e6af98f",
@@ -2090,7 +2107,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T17:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "collectedAt": "2026-08-20T03:36:29.744Z"
+      "collectedAt": "2026-08-21T03:39:46.826Z"
     },
     {
       "id": "4451d1f4fabd696490a6",
@@ -2107,7 +2124,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T11:00:00.000Z",
       "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "collectedAt": "2026-08-20T03:36:29.744Z"
+      "collectedAt": "2026-08-21T03:39:46.826Z"
     },
     {
       "id": "1145e5f5fbfda4f778bc",
@@ -2124,7 +2141,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T08:00:00.000Z",
       "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "collectedAt": "2026-08-20T03:36:29.745Z"
+      "collectedAt": "2026-08-21T03:39:46.827Z"
     },
     {
       "id": "b360a839b1ef98e71882",
@@ -2141,7 +2158,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.476Z"
+      "collectedAt": "2026-08-21T03:39:48.246Z"
     },
     {
       "id": "1c76d41068a26bd369b1",
@@ -2158,7 +2175,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T10:00:00.000Z",
       "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "collectedAt": "2026-08-20T03:36:29.745Z"
+      "collectedAt": "2026-08-21T03:39:46.827Z"
     },
     {
       "id": "5da9598fb41c1ac93e58",
@@ -2175,7 +2192,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-life-sci-bench",
-      "collectedAt": "2026-08-20T03:36:29.746Z"
+      "collectedAt": "2026-08-21T03:39:46.827Z"
     },
     {
       "id": "c264a8015cf38e7b022d",
@@ -2192,7 +2209,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-20T03:36:33.157Z"
+      "collectedAt": "2026-08-21T03:39:49.011Z"
     },
     {
       "id": "463a3f23df3be39852c2",
@@ -2209,7 +2226,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-16T00:00:00.000Z",
       "url": "https://openai.com/index/deployment-simulation",
-      "collectedAt": "2026-08-20T03:36:29.746Z"
+      "collectedAt": "2026-08-21T03:39:46.828Z"
     },
     {
       "id": "c1c4940bb85560fc0599",
@@ -2226,7 +2243,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.476Z"
+      "collectedAt": "2026-08-21T03:39:48.247Z"
     },
     {
       "id": "9d55e1d372b6a64c37a3",
@@ -2243,7 +2260,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-15T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-20T03:36:33.158Z"
+      "collectedAt": "2026-08-21T03:39:49.011Z"
     },
     {
       "id": "ed2a24d67723105da4dc",
@@ -2260,7 +2277,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-14T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-openai-partner-network",
-      "collectedAt": "2026-08-20T03:36:29.747Z"
+      "collectedAt": "2026-08-21T03:39:46.828Z"
     },
     {
       "id": "b5b7f9b007b543013769",
@@ -2277,7 +2294,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-12T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-20T03:36:30.498Z"
+      "collectedAt": "2026-08-21T03:39:47.542Z"
     },
     {
       "id": "5cf8d01eeb345b1be05a",
@@ -2294,7 +2311,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "collectedAt": "2026-08-20T03:36:29.747Z"
+      "collectedAt": "2026-08-21T03:39:46.829Z"
     },
     {
       "id": "c24b9d70e899a62f23fe",
@@ -2311,7 +2328,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://openai.com/index/bbva",
-      "collectedAt": "2026-08-20T03:36:29.748Z"
+      "collectedAt": "2026-08-21T03:39:46.829Z"
     },
     {
       "id": "46d6755fb18785fef07a",
@@ -2328,7 +2345,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://openai.com/index/openai-to-acquire-ona",
-      "collectedAt": "2026-08-20T03:36:29.748Z"
+      "collectedAt": "2026-08-21T03:39:46.829Z"
     },
     {
       "id": "2f865cea4009ebb80597",
@@ -2345,7 +2362,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.477Z"
+      "collectedAt": "2026-08-21T03:39:48.247Z"
     },
     {
       "id": "271132d8a2041b336c61",
@@ -2362,7 +2379,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T20:00:00.000Z",
       "url": "https://openai.com/index/openai-on-oracle-cloud",
-      "collectedAt": "2026-08-20T03:36:29.748Z"
+      "collectedAt": "2026-08-21T03:39:46.830Z"
     },
     {
       "id": "dd8ef022bc1c3f2bcd4e",
@@ -2379,7 +2396,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T16:24:11.000Z",
       "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
-      "collectedAt": "2026-08-20T03:36:33.585Z"
+      "collectedAt": "2026-08-21T03:39:49.438Z"
     },
     {
       "id": "55b4277f4767ea97239e",
@@ -2396,7 +2413,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T12:00:00.000Z",
       "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-      "collectedAt": "2026-08-20T03:36:29.749Z"
+      "collectedAt": "2026-08-21T03:39:46.830Z"
     },
     {
       "id": "c294c90b25ad2202d7ea",
@@ -2413,7 +2430,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.477Z"
+      "collectedAt": "2026-08-21T03:39:48.247Z"
     },
     {
       "id": "3f596d04752d28827a43",
@@ -2430,7 +2447,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T15:16:25.000Z",
       "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
-      "collectedAt": "2026-08-20T03:36:33.586Z"
+      "collectedAt": "2026-08-21T03:39:49.438Z"
     },
     {
       "id": "9e66a7e36eb33f1bf16e",
@@ -2447,7 +2464,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T14:10:19.000Z",
       "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
-      "collectedAt": "2026-08-20T03:36:33.586Z"
+      "collectedAt": "2026-08-21T03:39:49.438Z"
     },
     {
       "id": "85c8f77c366cd8be2604",
@@ -2464,7 +2481,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T12:00:00.000Z",
       "url": "https://openai.com/index/nextdoor",
-      "collectedAt": "2026-08-20T03:36:29.749Z"
+      "collectedAt": "2026-08-21T03:39:46.831Z"
     },
     {
       "id": "cf7da16f8eca08cdd1c8",
@@ -2481,7 +2498,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T10:00:00.000Z",
       "url": "https://openai.com/index/notion",
-      "collectedAt": "2026-08-20T03:36:29.750Z"
+      "collectedAt": "2026-08-21T03:39:46.831Z"
     },
     {
       "id": "38f6e05061513bd3e053",
@@ -2498,7 +2515,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-20T03:36:30.498Z"
+      "collectedAt": "2026-08-21T03:39:47.543Z"
     },
     {
       "id": "ac48cd08f7d2aaf4a683",
@@ -2515,7 +2532,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.478Z"
+      "collectedAt": "2026-08-21T03:39:48.248Z"
     },
     {
       "id": "43924ddd68dd8e3d134b",
@@ -2532,7 +2549,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-08T13:04:59.000Z",
       "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
-      "collectedAt": "2026-08-20T03:36:33.586Z"
+      "collectedAt": "2026-08-21T03:39:49.439Z"
     },
     {
       "id": "68f3aa2ed2cfc2244c4a",
@@ -2549,7 +2566,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.478Z"
+      "collectedAt": "2026-08-21T03:39:48.248Z"
     },
     {
       "id": "c02a905db735d39710d2",
@@ -2566,7 +2583,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-04T12:00:00.000Z",
       "url": "https://openai.com/index/endava-frontiers",
-      "collectedAt": "2026-08-20T03:36:29.750Z"
+      "collectedAt": "2026-08-21T03:39:46.832Z"
     },
     {
       "id": "38059fa473644001da1a",
@@ -2583,7 +2600,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-04T09:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-memory-dreaming",
-      "collectedAt": "2026-08-20T03:36:29.751Z"
+      "collectedAt": "2026-08-21T03:39:46.832Z"
     },
     {
       "id": "1ff31f480209a0625382",
@@ -2600,7 +2617,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-03T13:15:00.000Z",
       "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-      "collectedAt": "2026-08-20T03:36:29.751Z"
+      "collectedAt": "2026-08-21T03:39:46.833Z"
     },
     {
       "id": "f7ef456d13b5ed4351b1",
@@ -2617,7 +2634,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-03T12:00:00.000Z",
       "url": "https://openai.com/index/wasmer",
-      "collectedAt": "2026-08-20T03:36:29.751Z"
+      "collectedAt": "2026-08-21T03:39:46.833Z"
     },
     {
       "id": "87eb9b7def118c7239f6",
@@ -2634,7 +2651,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T10:00:00.000Z",
       "url": "https://openai.com/academy/chatgpt-sites",
-      "collectedAt": "2026-08-20T03:36:29.752Z"
+      "collectedAt": "2026-08-21T03:39:46.834Z"
     },
     {
       "id": "e5a668bd62c058849392",
@@ -2651,7 +2668,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T09:00:00.000Z",
       "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
-      "collectedAt": "2026-08-20T03:36:29.752Z"
+      "collectedAt": "2026-08-21T03:39:46.834Z"
     },
     {
       "id": "7ee67cf7dcc20a136696",
@@ -2668,7 +2685,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T02:00:00.000Z",
       "url": "https://openai.com/index/codex-for-knowledge-work",
-      "collectedAt": "2026-08-20T03:36:29.753Z"
+      "collectedAt": "2026-08-21T03:39:46.834Z"
     },
     {
       "id": "213597c4d3ffa9f51981",
@@ -2685,7 +2702,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-20T03:36:30.499Z"
+      "collectedAt": "2026-08-21T03:39:47.543Z"
     },
     {
       "id": "3b73a6fb9c76285ceb5c",
@@ -2702,7 +2719,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.478Z"
+      "collectedAt": "2026-08-21T03:39:48.249Z"
     },
     {
       "id": "3a8f7bdc5206ab63c0b4",
@@ -2719,7 +2736,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-01T10:00:00.000Z",
       "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "collectedAt": "2026-08-20T03:36:29.754Z"
+      "collectedAt": "2026-08-21T03:39:46.835Z"
     },
     {
       "id": "d255c7e41d2db2d5efc1",
@@ -2736,7 +2753,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-01T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-20T03:36:33.159Z"
+      "collectedAt": "2026-08-21T03:39:49.011Z"
     },
     {
       "id": "9447216aa6f601811c1f",
@@ -2753,7 +2770,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-29T12:00:00.000Z",
       "url": "https://openai.com/index/braintrust",
-      "collectedAt": "2026-08-20T03:36:29.755Z"
+      "collectedAt": "2026-08-21T03:39:46.836Z"
     },
     {
       "id": "f213cc251ccd5d0a4deb",
@@ -2770,7 +2787,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-29T03:00:00.000Z",
       "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
-      "collectedAt": "2026-08-20T03:36:29.755Z"
+      "collectedAt": "2026-08-21T03:39:46.837Z"
     },
     {
       "id": "21fcae17dbfddc7ddf29",
@@ -2787,7 +2804,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-29T00:00:00.000Z",
       "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
-      "collectedAt": "2026-08-20T03:36:29.756Z"
+      "collectedAt": "2026-08-21T03:39:46.838Z"
     },
     {
       "id": "6c159d46886403d320f5",
@@ -2804,7 +2821,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-29T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.479Z"
+      "collectedAt": "2026-08-21T03:39:48.249Z"
     },
     {
       "id": "6876d8edf8713f0c88fe",
@@ -2821,7 +2838,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-28T12:00:00.000Z",
       "url": "https://openai.com/index/endava",
-      "collectedAt": "2026-08-20T03:36:29.756Z"
+      "collectedAt": "2026-08-21T03:39:46.838Z"
     },
     {
       "id": "e1e2d0df79414a2a8d33",
@@ -2838,7 +2855,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-28T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-20T03:36:30.500Z"
+      "collectedAt": "2026-08-21T03:39:47.544Z"
     },
     {
       "id": "cd205c2f5b0042a97538",
@@ -2855,7 +2872,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-28T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.479Z"
+      "collectedAt": "2026-08-21T03:39:48.250Z"
     },
     {
       "id": "0842b6d99cf78a356b33",
@@ -2872,7 +2889,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-28T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-20T03:36:33.159Z"
+      "collectedAt": "2026-08-21T03:39:49.012Z"
     },
     {
       "id": "f1a96da28929946e4af1",
@@ -2889,7 +2906,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-27T11:00:00.000Z",
       "url": "https://openai.com/index/cisco",
-      "collectedAt": "2026-08-20T03:36:29.757Z"
+      "collectedAt": "2026-08-21T03:39:46.839Z"
     },
     {
       "id": "ddae68d5f9c5e049aac8",
@@ -2906,7 +2923,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-27T07:00:00.000Z",
       "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
-      "collectedAt": "2026-08-20T03:36:29.757Z"
+      "collectedAt": "2026-08-21T03:39:46.839Z"
     },
     {
       "id": "bf308c20529ac6c49581",
@@ -2923,7 +2940,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-27T00:00:00.000Z",
       "url": "https://openai.com/index/warp",
-      "collectedAt": "2026-08-20T03:36:29.758Z"
+      "collectedAt": "2026-08-21T03:39:46.839Z"
     },
     {
       "id": "66313d43dcbc98ef9539",
@@ -2940,7 +2957,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-27T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-20T03:36:31.480Z"
+      "collectedAt": "2026-08-21T03:39:48.250Z"
     },
     {
       "id": "76cdcdfe1cddcbe5abb1",
@@ -2957,7 +2974,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "url": "https://openai.com/index/ai-first-hire-small-business",
-      "collectedAt": "2026-08-20T03:36:29.758Z"
+      "collectedAt": "2026-08-21T03:39:46.840Z"
     },
     {
       "id": "c5b40794df0e03a53a03",
@@ -2974,7 +2991,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
-      "collectedAt": "2026-08-20T03:36:29.759Z"
+      "collectedAt": "2026-08-21T03:39:46.840Z"
     },
     {
       "id": "a6e9571612cdf2f6fbf6",
@@ -2991,7 +3008,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-20T03:36:33.160Z"
+      "collectedAt": "2026-08-21T03:39:49.012Z"
     },
     {
       "id": "118693cb868e1641c9c1",
@@ -3008,7 +3025,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-04-24T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-20T03:36:35.177Z"
+      "collectedAt": "2026-08-21T03:39:50.968Z"
     },
     {
       "id": "aeb9a0b6e961ddd9394e",
@@ -3025,7 +3042,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-12-01T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-20T03:36:35.177Z"
+      "collectedAt": "2026-08-21T03:39:50.969Z"
     },
     {
       "id": "f43c8f46501ee2e8d8ed",
@@ -3042,7 +3059,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-09-29T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-20T03:36:35.178Z"
+      "collectedAt": "2026-08-21T03:39:50.970Z"
     },
     {
       "id": "de42c19b7c54bb0dc7ec",
@@ -3059,24 +3076,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-09-22T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-20T03:36:35.178Z"
-    },
-    {
-      "id": "76cf3c1ca30cb079d970",
-      "sourceId": "deepseek-api",
-      "company": "DeepSeek",
-      "product": "DeepSeek",
-      "kind": "api",
-      "title": "DeepSeek-V3.1​",
-      "summary": "DeepSeek-V3.1​ deepseek-chat 和 deepseek-reasoner 都已经升级为 DeepSeek-V3.1。deepseek-chat 对应 DeepSeek-V3.1 的非思考模式，deepseek-reasoner 对应 DeepSeek-V3.1 的思考模式。 DeepSeek-V3.1 包含以下主要变化： 混合推理架构：一个模型同时支持思考模式与非思考模式 更高的思考效率：相比 DeepSeek-R1-0528，DeepSeek-V3.1-Think 能在更短时间内给出答案 更强的 Agent 能力：通过 Post-Training 优化，新模型在工具使用与智能体任务中的表现有较大提升 SWE-bench Verified: 66.0 SWE-bench Multilingual: 54.5 Terminal-bench: 31.3",
-      "content": "DeepSeek-V3.1​ deepseek-chat 和 deepseek-reasoner 都已经升级为 DeepSeek-V3.1。deepseek-chat 对应 DeepSeek-V3.1 的非思考模式，deepseek-reasoner 对应 DeepSeek-V3.1 的思考模式。 DeepSeek-V3.1 包含以下主要变化： 混合推理架构：一个模型同时支持思考模式与非思考模式 更高的思考效率：相比 DeepSeek-R1-0528，DeepSeek-V3.1-Think 能在更短时间内给出答案 更强的 Agent 能力：通过 Post-Training 优化，新模型在工具使用与智能体任务中的表现有较大提升 SWE-bench Verified: 66.0 SWE-bench Multilingual: 54.5 Terminal-bench: 31.3",
-      "contentZh": "DeepSeek-V3.1​ deepseek-chat 和 deepseek-reasoner 都已经升级为 DeepSeek-V3.1。deepseek-chat 对应 DeepSeek-V3.1 的非思考模式，deepseek-reasoner 对应 DeepSeek-V3.1 的思考模式。 DeepSeek-V3.1 包含以下主要变化： 混合推理架构：一个模型同时支持思考模式与非思考模式 更高的思考效率：相比 DeepSeek-R1-0528，DeepSeek-V3.1-Think 能在更短时间内给出答案 更强的 Agent 能力：通过 Post-Training 优化，新模型在工具使用与智能体任务中的表现有较大提升 SWE-bench Verified: 66.0 SWE-bench Multilingual: 54.5 Terminal-bench: 31.3",
-      "titleZh": "DeepSeek-V3.1​",
-      "summaryZh": "DeepSeek-V3.1​ deepseek-chat 和 deepseek-reasoner 都已经升级为 DeepSeek-V3.1。deepseek-chat 对应 DeepSeek-V3.1 的非思考模式，deepseek-reasoner 对应 DeepSeek-V3.1 的思考模式。 DeepSeek-V3.1 包含以下主要变化： 混合推理架构：一个模型同时支持思考模式与非思考模式 更高的思考效率：相比 DeepSeek-R1-0528，DeepSeek-V3.1-Think 能在更短时间内给出答案 更强的 Agent 能力：通过 Post-Training 优化，新模型在工具使用与智能体任务中的表现有较大提升 SWE-bench Verified: 66.0 SWE-bench Multilingual: 54.5 Terminal-bench: 31.3",
-      "translationStatus": "translated",
-      "publishedAt": "2025-08-21T00:00:00.000Z",
-      "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-20T03:36:35.179Z"
+      "collectedAt": "2026-08-21T03:39:50.970Z"
     }
   ]
 }
