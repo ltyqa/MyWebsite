@@ -39,6 +39,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Sync main before scheduled collection
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          git fetch origin main
+          git rebase origin/main
+
       - name: Collect official AI updates
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: npm run collect:ai
@@ -69,9 +75,24 @@ jobs:
             echo "No AI update changes to commit."
             exit 0
           fi
+          cp src/data/ai-updates.json "$RUNNER_TEMP/ai-updates.json"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data/ai-updates.json
-          git commit -m "chore: sync official AI updates"
-          git pull --rebase origin main
-          git push
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --mixed origin/main
+            cp "$RUNNER_TEMP/ai-updates.json" src/data/ai-updates.json
+            if git diff --quiet -- src/data/ai-updates.json; then
+              echo "AI archive is already up to date."
+              exit 0
+            fi
+            git add src/data/ai-updates.json
+            git commit -m "chore: sync official AI updates"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push raced with another update; retrying ($attempt/3)."
+            git reset --hard origin/main
+          done
+          echo "Could not push the AI archive after 3 attempts."
+          exit 1
