@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-07T07:36:14.445Z",
+  "updatedAt": "2026-09-08T07:29:07.943Z",
   "sources": [
     {
       "id": "openai-news",
@@ -67,7 +67,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-06T08:00:00.000Z",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "collectedAt": "2026-09-07T07:36:09.898Z"
+      "collectedAt": "2026-09-08T07:29:02.436Z"
     },
     {
       "id": "67198b26c462572b168f",
@@ -84,7 +84,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "collectedAt": "2026-09-07T07:36:09.899Z"
+      "collectedAt": "2026-09-08T07:29:02.438Z"
     },
     {
       "id": "3fdba842a49bbf61f305",
@@ -101,7 +101,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "collectedAt": "2026-09-07T07:36:09.900Z"
+      "collectedAt": "2026-09-08T07:29:02.439Z"
     },
     {
       "id": "499b8df2de41c3c42a77",
@@ -118,7 +118,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T11:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-astra",
-      "collectedAt": "2026-09-07T07:36:09.901Z"
+      "collectedAt": "2026-09-08T07:29:02.440Z"
     },
     {
       "id": "9b8372f5dd9139bf3dfd",
@@ -135,7 +135,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "collectedAt": "2026-09-07T07:36:09.901Z"
+      "collectedAt": "2026-09-08T07:29:02.440Z"
     },
     {
       "id": "76e92e71feca11592be4",
@@ -152,7 +152,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.957Z"
+      "collectedAt": "2026-09-08T07:29:04.000Z"
     },
     {
       "id": "ce0686df2b5f1aa16f14",
@@ -169,7 +169,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-07T07:36:12.072Z"
+      "collectedAt": "2026-09-08T07:29:05.084Z"
     },
     {
       "id": "9ad38e9ab9838c6b598d",
@@ -186,7 +186,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-02T16:18:31.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "collectedAt": "2026-09-07T07:36:12.434Z"
+      "collectedAt": "2026-09-08T07:29:05.509Z"
     },
     {
       "id": "23cc665780e07fde7643",
@@ -203,7 +203,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-02T12:00:00.000Z",
       "url": "https://openai.com/index/atv-big-air-tour",
-      "collectedAt": "2026-09-07T07:36:09.902Z"
+      "collectedAt": "2026-09-08T07:29:02.441Z"
     },
     {
       "id": "7a7557129f4a0b3fe78e",
@@ -220,7 +220,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-07T07:36:12.073Z"
+      "collectedAt": "2026-09-08T07:29:05.084Z"
     },
     {
       "id": "5fd2975f213ab047e365",
@@ -237,7 +237,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T17:08:51.000Z",
       "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-      "collectedAt": "2026-09-07T07:36:12.434Z"
+      "collectedAt": "2026-09-08T07:29:05.510Z"
     },
     {
       "id": "0de52357b4b07f25549c",
@@ -254,7 +254,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T13:00:00.000Z",
       "url": "https://openai.com/index/path-to-astra",
-      "collectedAt": "2026-09-07T07:36:09.903Z"
+      "collectedAt": "2026-09-08T07:29:02.443Z"
     },
     {
       "id": "210c1577098c3af2295c",
@@ -271,7 +271,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T12:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "collectedAt": "2026-09-07T07:36:09.904Z"
+      "collectedAt": "2026-09-08T07:29:02.444Z"
     },
     {
       "id": "c60a9dbb33739fa8f7ff",
@@ -288,7 +288,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T01:00:00.000Z",
       "url": "https://openai.com/index/gilbert-tobin",
-      "collectedAt": "2026-09-07T07:36:09.906Z"
+      "collectedAt": "2026-09-08T07:29:02.445Z"
     },
     {
       "id": "f53efa27b0d13a2b8d75",
@@ -305,7 +305,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-07T07:36:10.534Z"
+      "collectedAt": "2026-09-08T07:29:03.532Z"
     },
     {
       "id": "3f73d429de5f2ed86a44",
@@ -322,7 +322,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.957Z"
+      "collectedAt": "2026-09-08T07:29:04.002Z"
     },
     {
       "id": "6a3e7fac71e57d88cb41",
@@ -339,7 +339,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-07T07:36:12.073Z"
+      "collectedAt": "2026-09-08T07:29:05.084Z"
     },
     {
       "id": "62995badc1a46202724b",
@@ -356,7 +356,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-31T07:00:00.000Z",
       "url": "https://openai.com/index/polimill",
-      "collectedAt": "2026-09-07T07:36:09.907Z"
+      "collectedAt": "2026-09-08T07:29:02.446Z"
     },
     {
       "id": "89958d19d1f987cb8ada",
@@ -373,7 +373,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-31T04:00:00.000Z",
       "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "collectedAt": "2026-09-07T07:36:09.908Z"
+      "collectedAt": "2026-09-08T07:29:02.447Z"
     },
     {
       "id": "6e697a03b79f347648db",
@@ -390,7 +390,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-28T06:00:00.000Z",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "collectedAt": "2026-09-07T07:36:09.908Z"
+      "collectedAt": "2026-09-08T07:29:02.448Z"
     },
     {
       "id": "3b034008653d3c2739c4",
@@ -407,7 +407,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T16:11:32.000Z",
       "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "collectedAt": "2026-09-07T07:36:12.434Z"
+      "collectedAt": "2026-09-08T07:29:05.510Z"
     },
     {
       "id": "f3885091ef8df6aaae64",
@@ -424,7 +424,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T09:00:00.000Z",
       "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "collectedAt": "2026-09-07T07:36:09.909Z"
+      "collectedAt": "2026-09-08T07:29:02.449Z"
     },
     {
       "id": "4707ef7564f9017d5027",
@@ -441,7 +441,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.958Z"
+      "collectedAt": "2026-09-08T07:29:04.003Z"
     },
     {
       "id": "c5289a9a45e73f8f78ee",
@@ -458,7 +458,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-07T07:36:12.073Z"
+      "collectedAt": "2026-09-08T07:29:05.085Z"
     },
     {
       "id": "038305de768a112cfa08",
@@ -475,24 +475,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T17:01:00.000Z",
       "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-      "collectedAt": "2026-09-07T07:36:12.435Z"
-    },
-    {
-      "id": "df161950e809789b055b",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-      "content": "When we introduced ChatGPT for Teachers in 2025 to nearly 150,000 teachers and staff, our goal was to give educators a secure place to explore AI, understand where it is useful, and help shape how it should be used in education. Today, we are expanding this work to 55 additional school systems across 20 states, bringing [ChatGPT for Teachers](https://openai.com/index/chatgpt-for-teachers/) to over 100,000 more educators and staff.\n\nThe new cohort of district partnerships includes 1 in 5 of America’s 20 largest public school districts and some of the country’s most diverse school systems. With this new cohort, OpenAI is now working with more than 100 K–12 organizations across 30 states to provide free access and training to over 300,000 educators and staff.\n\nAlongside this, we’re also announcing a data privacy agreement spanning 16 states, a first for the industry, that provides a common framework for districts to evaluate ChatGPT for Teachers against their student data privacy requirements, helping make responsible AI adoption simpler and more consistent across school systems.\n\nOur work continues to be guided by the belief that AI should support learning, not shortcut it, and educators should remain in control of how AI shapes classroom experiences. In this spirit, ChatGPT for Teachers continues to be available to administrators, faculty, and educators only. ChatGPT for Teachers remains a free tool for verified U.S. K–12 educators through June 2028.\n\n_Responsible adoption at national scale: ChatGPT for Teachers district partners across the country_\n\n## Building trust into district adoption\n\nFor school systems, responsible AI adoption also requires clear privacy protections and a way for district leaders to understand and manage how tools are used.\n\nOpenAI is also expanding the privacy infrastructure that helps districts adopt AI responsibly. We’re introducing a 16-state National Data Privacy Agreement through the [Student Data Privacy Consortium⁠(opens in a new window)](https://privacy.a4l.org/) framework, giving districts in participating states a recognized path to evaluate and adopt ChatGPT for Teachers without negotiating separate agreements district by district. This is designed to meet districts and states within the privacy process they already use, adapting to state and local requirements, and making responsible adoption easier.\n\nToday, our signed General Offers cover 16 states: Illinois, Iowa, Maine, Massachusetts, Missouri, Nebraska, New Hampshire, New Jersey, New York, Ohio, Rhode Island, Tennessee, Texas, Vermont, Virginia, and Washington. California is also covered by a separate agreement.\n\nFor school systems, responsible AI adoption depends not only on access, but on governance, privacy, procurement, and trust. This work builds on statewide agreements OpenAI has already signed and reflects a broader commitment to meeting districts where they are, with the legal and privacy protections their communities require.\n\nChatGPT for Teachers was designed with education-grade privacy, security, and administrative controls. Data shared in a ChatGPT for Teachers workspace is not used to train our models by default, and school and district leaders [can bring educators into a managed workspace⁠(opens in a new window)](https://help.openai.com/en/articles/12844995-chatgpt-for-teachers) with role-based controls designed to support schools’ FERPA requirements.\n\nAs AI evolves from answering questions to helping carry out increasingly complex, multi-step workflows, access to tools like ChatGPT alone won’t be enough. Through our shared implementation model, OpenAI is working alongside districts to provide hands-on training, support for district leaders, peer learning across school systems, and ongoing guidance to help educators build the skills and confidence to take advantage of these capabilities. Through this close collaboration, feedback from districts helps OpenAI understand what educators and administrators need next.\n\nThis structure is a glimpse at what responsible AI adoption can look like at scale when teachers experiment in a secure workspace, districts implement AI with appropriate oversight and expert guidance, and educators and leaders share what works across classrooms, schools, and communities.\n\n“Education has always helped young people prepare for the world they’re going to inherit. In the age of AI, students need educators and schools that help them build judgment, confidence, and agency with these tools,” said Leah Belsky, Vice President of Education, OpenAI. “By partnering with educators, our goal is to give teachers time, training, and a community to learn from one another, and they help us build alongside the people who know students best.”\n\nLynwood Unified was one of the first districts to join OpenAI’s first K–12 cohort. Their vision is clear: treat AI as an equity issue, prioritize privacy, and give educators the support to explore it responsibly. Through initial training and ongoing space to experiment and learn with peers, faculty are growing more confident and using AI to enhance their teaching. That experience also helps educators develop an informed point of view so they can guide students when questions about AI arise.\n\n1 of 5\n\n## Giving teachers the agentic tools and support to lead\n\nAcross our work with educators, we’re seeing that the most immediate value often starts with time: helping teachers adapt lessons, draft family communications, prepare substitute materials, and move through recurring administrative work faster, so they can spend more attention on students. In a [privacy-preserving OpenAI analysis⁠(opens in a new window)](https://cdn.openai.com/pdf/learning-never-stops-back-to-school-report-august-2026.pdf) from January 1 to July 16, educators sent more than 1.9 million messages related to time-saving tasks, including 900,000 about report cards and progress reports, 800,000 about lesson planning, and more than 100,000 each about substitute plans and teacher-evaluation materials.\n\nTools like the [K-12 Educator plugin](https://openai.com/index/learn-teach-chatgpt-work-codex/) support work like lesson planning, adapting materials, analyzing information, and creating classroom resources, while giving school and district leaders administrative controls and education-grade privacy and security protections.\n\nWe’re also continuing training through OpenAI Academy, our work with districts, and the National Academy for AI Instruction with the American Federation of Teachers, a five-year initiative designed to equip 400,000 K–12 educators with practical AI skills.\n\n![Image 1: Educators participating in an AI Skills Jam, with hands raised around workshop tables](https://images.ctfassets.net/kftzwdyauwt9/2VJXzaOyi5V0CyxRaIDvqx/bbae8fddf5c4347c91475b4103130fc2/image1.jpg?w=3840&q=90&fm=webp)\n\nEducators participate in an AI Skills Jam.\n\nThis summer, more than 1,600 teachers, administrators, and district leaders are participating in hands-on [AI Skills Jams](https://openai.com/index/k-12-educators-practical-skills/) hosted by OpenAI Academy and in partnership with the Walton Family Foundation. Teachers are working alongside peers and OpenAI mentors on challenges they already know well—from adapting a lesson for different learners and communicating with families to navigating district guidance and reducing administrative work.\n\nThose sessions are already showing what teacher-led adoption can look like in practice. In Fairfax, an elementary music teacher brought her curriculum, grading policies, district regulations, and teaching approach into ChatGPT to create a planning resource she could use throughout the school year. A fourth-grade teacher in Jonesboro used ChatGPT to turn lengthy lesson plans into focused 30- to 40-minute lessons centered on the day’s required standards. Chicago educators described using ChatGPT to simulate science experiments, support student animation projects, and analyze more than 200 novels for gaps in representation. In San Bernardino, a principal used it to tackle a complex scheduling task she said could otherwise have taken hours or days.\n\nAcross the first Skills Jams, 93% of participants said they left with something they could use again, and 96% said they planned to apply what they learned within 30 days. Just as importantly, educators told us that some of their best ideas came from seeing how colleagues approached the same tools differently.\n\nAI in education works best when teachers lead. Our goal is to give them the tools, trust, training, and voice to do exactly that.\n\nNew district partnerships include: Abilene Independent School District (TX), Adlai E. Stevenson High School District 125 (IL), Baltimore City Public Schools (MD), Boise School District (ID), Clarkstown Central School District (NY), El Dorado County Office of Education (CA), Epic Charter Schools (OK), Flagler Schools (FL), Fort Worth Independent School District (TX), Frisco Independent School District (TX), Humble Independent School District (TX), Kern High School District (CA), Killeen Independent School District (TX), Laramie County School District 1 (WY), Lewisville Independent School District (TX), Los Angeles County Office of Education (CA), Needham Public Schools (MA), New Trier Township High School District 203 (IL), Northside Independent School District (TX), Oakland Schools (MI), Orange County Department of Education (CA), Orange County Public Schools (FL), Pocantico Hills Central School District (NY), Rye Country Day School (NY), Santa Cruz County Office of Education (CA), Sarasota County Schools (FL), St. Vrain Valley Schools (CO), Township High School District 211 (IL), Ventura Unified School District (CA), Virginia Beach City Public Schools (VA), Westminster Public Schools (CO)",
-      "contentZh": "当我们于2025年向近15万名教师和教职员工推出ChatGPT for Teachers时，我们的目标是让教育工作者拥有一个安全的空间来探索AI，了解它在哪些方面有用，并帮助塑造它在教育中的使用方式。今天，我们将这项工作扩展到20个州的另外55个学校系统，将[ChatGPT for Teachers](https://openai.com/index/chatgpt-for-teachers/)带给超过10万名教育工作者和教职员工。\n\n新的学区合作伙伴群体包括美国20个最大公立学区中的五分之一，以及全国一些最多元化的学校系统。借助这一新群体，OpenAI目前正在与30个州的100多个K-12组织合作，为超过30万名教育工作者和教职员工提供免费访问和培训。\n\n与此同时，我们还宣布了一项覆盖16个州的数据隐私协议，这在行业内尚属首次，该协议为学区提供了一个通用框架，用于根据其学生数据隐私要求评估ChatGPT for Teachers，帮助使负责任的AI采用在学校系统中更简单、更一致。\n\n我们的工作继续以这样的信念为指导：AI应支持学习，而非走捷径，教育工作者应保持对AI如何塑造课堂体验的控制权。本着这一精神，ChatGPT for Teachers继续仅面向管理人员、教职员工和教育工作者开放。ChatGPT for Teachers在2028年6月之前，对经过验证的美国K-12教育工作者仍为免费工具。\n\n_全国范围内的负责任采用：全国各地的ChatGPT for Teachers学区合作伙伴_\n\n## 将信任融入学区采用\n\n对于学校系统而言，负责任的AI采用还需要明确的隐私保护，以及一种让学区领导者理解和管理工具使用方式的方法。\n\nOpenAI还在扩展帮助学区负责任地采用AI的隐私基础设施。我们通过[学生数据隐私联盟⁠（在新窗口中打开）](https://privacy.a4l.org/)框架推出了一项覆盖16个州的全国数据隐私协议，为参与州的学区提供了一条公认的路径，无需逐学区谈判单独协议即可评估和采用ChatGPT for Teachers。这旨在满足学区和州在其已使用的隐私流程中的需求，适应州和地方要求，并使负责任采用更加容易。\n\n目前，我们签署的通用协议覆盖16个州：伊利诺伊州、爱荷华州、缅因州、马萨诸塞州、密苏里州、内布拉斯加州、新罕布什尔州、新泽西州、纽约州、俄亥俄州、罗德岛州、田纳西州、德克萨斯州、佛蒙特州、弗吉尼亚州和华盛顿州。加利福尼亚州也由单独协议覆盖。\n\n对于学校系统而言，负责任的AI采用不仅取决于访问权限，还取决于治理、隐私、采购和信任。这项工作建立在OpenAI已签署的州级协议之上，反映了更广泛的承诺，即在学区所在之处，以社区所需的法律和隐私保护来满足其需求。\n\nChatGPT for Teachers在设计时考虑了教育级隐私、安全和管理控制。ChatGPT for Teachers工作区中共享的数据默认不会用于训练我们的模型，学校和学区领导者[可以将教育工作者引入托管工作区⁠（在新窗口中打开）](https://help.openai.com/en/articles/12844995-chatgpt-for-teachers)，并配备基于角色的控制，以支持学校的FERPA要求。\n\n随着AI从回答问题发展到帮助执行日益复杂的多步骤工作流程，仅靠访问ChatGPT等工具是不够的。通过我们的共享实施模式，OpenAI与学区并肩合作，提供实践培训、对学区领导者的支持、跨学校系统的同行学习，以及持续指导，帮助教育工作者建立利用这些能力的技能和信心。通过这种紧密合作，学区的反馈帮助OpenAI了解教育工作者和管理人员下一步需要什么。\n\n这种结构让我们得以一窥，当教师在安全的工作区中实验、学区在适当监督和专家指导下实施AI、教育工作者和领导者跨课堂、学校和社区分享有效做法时，负责任的AI采用在大规模下可以是什么样子。\n\n“教育一直帮助年轻人为他们将继承的世界做好准备。在AI时代，学生需要教育工作者和学校帮助他们建立判断力、信心和运用这些工具的自主性，”OpenAI教育副总裁Leah Belsky表示。“通过与教育工作者合作，我们的目标是给教师时间、培训和相互学习的社区，他们帮助我们与最了解学生的人并肩建设。”\n\nLynwood Unified是最早加入OpenAI首个K-12群体的学区之一。他们的愿景很明确：将AI视为公平问题，优先考虑隐私，并给予教育工作者支持以负责任地探索。通过初步培训和持续的实验空间以及与同伴的学习，教职员工越来越自信，并使用AI来增强教学。这种体验还帮助教育工作者形成有见地的观点，以便在出现AI相关问题时引导学生。\n\n1 / 5\n\n## 为教师提供自主工具和支持以引领发展\n\n在我们与教育工作者的合作中，我们看到最直接的价值往往始于时间：帮助教师调整课程、起草家庭沟通信函、准备代课材料，并更快地完成重复性行政工作，以便他们能将更多注意力放在学生身上。在一项[保护隐私的OpenAI分析⁠（在新窗口中打开）](https://cdn.openai.com/pdf/learning-never-stops-back-to-school-report-august-2026.pdf)中，从1月1日至7月16日，教育工作者发送了超过190万条与节省时间任务相关的消息，其中包括90万条关于成绩单和进度报告、80万条关于课程规划，以及各超过10万条关于代课计划和教师评估材料的内容。\n\n像[K-12教育工作者插件](https://openai.com/index/learn-teach-chatgpt-work-codex/)这样的工具支持课程规划、材料调整、信息分析和课堂资源创建等工作，同时为学校和学区领导者提供管理控制以及教育级隐私和安全保护。\n\n我们还在通过OpenAI Academy、与学区的合作以及与美国教师联合会的国家AI教学学院继续提供培训，这是一项为期五年的计划，旨在为40万名K-12教育工作者提供实用的AI技能。\n\n![图片1：教育工作者参加AI技能工作坊，在研讨桌旁举手](https://images.ctfassets.net/kftzwdyauwt9/2VJXzaOyi5V0CyxRaIDvqx/bbae8fddf5c4347c91475b4103130fc2/image1.jpg?w=3840&q=90&fm=webp)\n\n教育工作者参加AI技能工作坊。\n\n今年夏天，超过1600名教师、学校管理者及学区领导正参与由OpenAI Academy主办、沃尔顿家族基金会合作支持的实践性[AI技能工作坊](https://openai.com/index/k-12-educators-practical-skills/)。教师们与同行及OpenAI导师并肩协作，共同应对他们熟知的挑战——从为不同学习者调整课程、与家庭沟通，到遵循学区指导方针并减少行政工作。\n\n这些工作坊已初步展示了教师主导的AI应用在实践中的面貌。在费尔法克斯，一位小学音乐教师将她的课程大纲、评分政策、学区规定和教学方法输入ChatGPT，创建了一份可供整个学年使用的规划资源。琼斯伯勒的一位四年级教师利用ChatGPT将冗长的教案转化为以当日课程标准为核心的30至40分钟精炼课程。芝加哥的教育工作者描述了利用ChatGPT模拟科学实验、支持学生动画项目，以及分析超过200部小说以发现代表性缺失的情况。在圣贝纳迪诺，一位校长借助ChatGPT处理了一项复杂的排课任务，她表示这项工作原本可能需要花费数小时甚至数天。\n\n在首批技能工作坊中，93%的参与者表示他们带走了可以再次使用的内容，96%的人计划在30天内应用所学。同样重要的是，教育工作者告诉我们，他们的一些最佳想法来自于观察同事如何以不同方式使用相同的工具。\n\n当教师主导时，AI在教育中的效果最佳。我们的目标是赋予他们工具、信任、培训及发言权，以实现这一目标。\n\n新的学区合作伙伴包括：阿比林独立学区（得克萨斯州）、阿德莱·E·史蒂文森高中125学区（伊利诺伊州）、巴尔的摩市公立学校（马里兰州）、博伊西学区（爱达荷州）、克拉克stown中央学区（纽约州）、埃尔多拉多县教育局（加利福尼亚州）、Epic特许学校（俄克拉荷马州）、弗拉格勒学校（佛罗里达州）、沃斯堡独立学区（得克萨斯州）、弗里斯科独立学区（得克萨斯州）、亨布尔独立学区（得克萨斯州）、克恩高中学区（加利福尼亚州）、基林独立学区（得克萨斯州）、拉勒米县第一学区（怀俄明州）、刘易斯维尔独立学区（得克萨斯州）、洛杉矶县教育局（加利福尼亚州）、尼德姆公立学校（马萨诸塞州）、新特里尔镇高中203学区（伊利诺伊州）、北区独立学区（得克萨斯州）、奥克兰学校（密歇根州）、奥兰治县教育局（加利福尼亚州）、奥兰治县公立学校（佛罗里达州）、波坎蒂科山中央学区（纽约州）、拉伊乡村走读学校（纽约州）、圣克鲁斯县教育局（加利福尼亚州）、萨拉索塔县学校（佛罗里达州）、圣弗莱恩谷学校（科罗拉多州）、镇高中211学区（伊利诺伊州）、文图拉联合学区（加利福尼亚州）、弗吉尼亚海滩市公立学校（弗吉尼亚州）、威斯敏斯特公立学校（科罗拉多州）",
-      "titleZh": "将ChatGPT教师版推广至更多美国学区",
-      "summaryZh": "ChatGPT教师版正在扩展至55个美国学校系统，为超过10万名教育工作者和员工带来安全的AI工具、培训和支持。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-26T10:00:00.000Z",
-      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "collectedAt": "2026-09-07T07:36:09.909Z"
+      "collectedAt": "2026-09-08T07:29:05.510Z"
     },
     {
       "id": "92b51a1e3a09499b97f9",
@@ -509,7 +492,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "url": "https://openai.com/index/learning-never-stops",
-      "collectedAt": "2026-09-07T07:36:09.910Z"
+      "collectedAt": "2026-09-08T07:29:02.449Z"
+    },
+    {
+      "id": "df161950e809789b055b",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "content": "When we introduced ChatGPT for Teachers in 2025 to nearly 150,000 teachers and staff, our goal was to give educators a secure place to explore AI, understand where it is useful, and help shape how it should be used in education. Today, we are expanding this work to 55 additional school systems across 20 states, bringing [ChatGPT for Teachers](https://openai.com/index/chatgpt-for-teachers/) to over 100,000 more educators and staff.\n\nThe new cohort of district partnerships includes 1 in 5 of America’s 20 largest public school districts and some of the country’s most diverse school systems. With this new cohort, OpenAI is now working with more than 100 K–12 organizations across 30 states to provide free access and training to over 300,000 educators and staff.\n\nAlongside this, we’re also announcing a data privacy agreement spanning 16 states, a first for the industry, that provides a common framework for districts to evaluate ChatGPT for Teachers against their student data privacy requirements, helping make responsible AI adoption simpler and more consistent across school systems.\n\nOur work continues to be guided by the belief that AI should support learning, not shortcut it, and educators should remain in control of how AI shapes classroom experiences. In this spirit, ChatGPT for Teachers continues to be available to administrators, faculty, and educators only. ChatGPT for Teachers remains a free tool for verified U.S. K–12 educators through June 2028.\n\n_Responsible adoption at national scale: ChatGPT for Teachers district partners across the country_\n\n## Building trust into district adoption\n\nFor school systems, responsible AI adoption also requires clear privacy protections and a way for district leaders to understand and manage how tools are used.\n\nOpenAI is also expanding the privacy infrastructure that helps districts adopt AI responsibly. We’re introducing a 16-state National Data Privacy Agreement through the [Student Data Privacy Consortium⁠(opens in a new window)](https://privacy.a4l.org/) framework, giving districts in participating states a recognized path to evaluate and adopt ChatGPT for Teachers without negotiating separate agreements district by district. This is designed to meet districts and states within the privacy process they already use, adapting to state and local requirements, and making responsible adoption easier.\n\nToday, our signed General Offers cover 16 states: Illinois, Iowa, Maine, Massachusetts, Missouri, Nebraska, New Hampshire, New Jersey, New York, Ohio, Rhode Island, Tennessee, Texas, Vermont, Virginia, and Washington. California is also covered by a separate agreement.\n\nFor school systems, responsible AI adoption depends not only on access, but on governance, privacy, procurement, and trust. This work builds on statewide agreements OpenAI has already signed and reflects a broader commitment to meeting districts where they are, with the legal and privacy protections their communities require.\n\nChatGPT for Teachers was designed with education-grade privacy, security, and administrative controls. Data shared in a ChatGPT for Teachers workspace is not used to train our models by default, and school and district leaders [can bring educators into a managed workspace⁠(opens in a new window)](https://help.openai.com/en/articles/12844995-chatgpt-for-teachers) with role-based controls designed to support schools’ FERPA requirements.\n\nAs AI evolves from answering questions to helping carry out increasingly complex, multi-step workflows, access to tools like ChatGPT alone won’t be enough. Through our shared implementation model, OpenAI is working alongside districts to provide hands-on training, support for district leaders, peer learning across school systems, and ongoing guidance to help educators build the skills and confidence to take advantage of these capabilities. Through this close collaboration, feedback from districts helps OpenAI understand what educators and administrators need next.\n\nThis structure is a glimpse at what responsible AI adoption can look like at scale when teachers experiment in a secure workspace, districts implement AI with appropriate oversight and expert guidance, and educators and leaders share what works across classrooms, schools, and communities.\n\n“Education has always helped young people prepare for the world they’re going to inherit. In the age of AI, students need educators and schools that help them build judgment, confidence, and agency with these tools,” said Leah Belsky, Vice President of Education, OpenAI. “By partnering with educators, our goal is to give teachers time, training, and a community to learn from one another, and they help us build alongside the people who know students best.”\n\nLynwood Unified was one of the first districts to join OpenAI’s first K–12 cohort. Their vision is clear: treat AI as an equity issue, prioritize privacy, and give educators the support to explore it responsibly. Through initial training and ongoing space to experiment and learn with peers, faculty are growing more confident and using AI to enhance their teaching. That experience also helps educators develop an informed point of view so they can guide students when questions about AI arise.\n\n1 of 5\n\n## Giving teachers the agentic tools and support to lead\n\nAcross our work with educators, we’re seeing that the most immediate value often starts with time: helping teachers adapt lessons, draft family communications, prepare substitute materials, and move through recurring administrative work faster, so they can spend more attention on students. In a [privacy-preserving OpenAI analysis⁠(opens in a new window)](https://cdn.openai.com/pdf/learning-never-stops-back-to-school-report-august-2026.pdf) from January 1 to July 16, educators sent more than 1.9 million messages related to time-saving tasks, including 900,000 about report cards and progress reports, 800,000 about lesson planning, and more than 100,000 each about substitute plans and teacher-evaluation materials.\n\nTools like the [K-12 Educator plugin](https://openai.com/index/learn-teach-chatgpt-work-codex/) support work like lesson planning, adapting materials, analyzing information, and creating classroom resources, while giving school and district leaders administrative controls and education-grade privacy and security protections.\n\nWe’re also continuing training through OpenAI Academy, our work with districts, and the National Academy for AI Instruction with the American Federation of Teachers, a five-year initiative designed to equip 400,000 K–12 educators with practical AI skills.\n\n![Image 1: Educators participating in an AI Skills Jam, with hands raised around workshop tables](https://images.ctfassets.net/kftzwdyauwt9/2VJXzaOyi5V0CyxRaIDvqx/bbae8fddf5c4347c91475b4103130fc2/image1.jpg?w=3840&q=90&fm=webp)\n\nEducators participate in an AI Skills Jam.\n\nThis summer, more than 1,600 teachers, administrators, and district leaders are participating in hands-on [AI Skills Jams](https://openai.com/index/k-12-educators-practical-skills/) hosted by OpenAI Academy and in partnership with the Walton Family Foundation. Teachers are working alongside peers and OpenAI mentors on challenges they already know well—from adapting a lesson for different learners and communicating with families to navigating district guidance and reducing administrative work.\n\nThose sessions are already showing what teacher-led adoption can look like in practice. In Fairfax, an elementary music teacher brought her curriculum, grading policies, district regulations, and teaching approach into ChatGPT to create a planning resource she could use throughout the school year. A fourth-grade teacher in Jonesboro used ChatGPT to turn lengthy lesson plans into focused 30- to 40-minute lessons centered on the day’s required standards. Chicago educators described using ChatGPT to simulate science experiments, support student animation projects, and analyze more than 200 novels for gaps in representation. In San Bernardino, a principal used it to tackle a complex scheduling task she said could otherwise have taken hours or days.\n\nAcross the first Skills Jams, 93% of participants said they left with something they could use again, and 96% said they planned to apply what they learned within 30 days. Just as importantly, educators told us that some of their best ideas came from seeing how colleagues approached the same tools differently.\n\nAI in education works best when teachers lead. Our goal is to give them the tools, trust, training, and voice to do exactly that.\n\nNew district partnerships include: Abilene Independent School District (TX), Adlai E. Stevenson High School District 125 (IL), Baltimore City Public Schools (MD), Boise School District (ID), Clarkstown Central School District (NY), El Dorado County Office of Education (CA), Epic Charter Schools (OK), Flagler Schools (FL), Fort Worth Independent School District (TX), Frisco Independent School District (TX), Humble Independent School District (TX), Kern High School District (CA), Killeen Independent School District (TX), Laramie County School District 1 (WY), Lewisville Independent School District (TX), Los Angeles County Office of Education (CA), Needham Public Schools (MA), New Trier Township High School District 203 (IL), Northside Independent School District (TX), Oakland Schools (MI), Orange County Department of Education (CA), Orange County Public Schools (FL), Pocantico Hills Central School District (NY), Rye Country Day School (NY), Santa Cruz County Office of Education (CA), Sarasota County Schools (FL), St. Vrain Valley Schools (CO), Township High School District 211 (IL), Ventura Unified School District (CA), Virginia Beach City Public Schools (VA), Westminster Public Schools (CO)",
+      "contentZh": "当我们于2025年向近15万名教师和教职员工推出ChatGPT for Teachers时，我们的目标是让教育工作者拥有一个安全的空间来探索AI，了解它在哪些方面有用，并帮助塑造它在教育中的使用方式。今天，我们将这项工作扩展到20个州的另外55个学校系统，将[ChatGPT for Teachers](https://openai.com/index/chatgpt-for-teachers/)带给超过10万名教育工作者和教职员工。\n\n新的学区合作伙伴群体包括美国20个最大公立学区中的五分之一，以及全国一些最多元化的学校系统。借助这一新群体，OpenAI目前正在与30个州的100多个K-12组织合作，为超过30万名教育工作者和教职员工提供免费访问和培训。\n\n与此同时，我们还宣布了一项覆盖16个州的数据隐私协议，这在行业内尚属首次，该协议为学区提供了一个通用框架，用于根据其学生数据隐私要求评估ChatGPT for Teachers，帮助使负责任的AI采用在学校系统中更简单、更一致。\n\n我们的工作继续以这样的信念为指导：AI应支持学习，而非走捷径，教育工作者应保持对AI如何塑造课堂体验的控制权。本着这一精神，ChatGPT for Teachers继续仅面向管理人员、教职员工和教育工作者开放。ChatGPT for Teachers在2028年6月之前，对经过验证的美国K-12教育工作者仍为免费工具。\n\n_全国范围内的负责任采用：全国各地的ChatGPT for Teachers学区合作伙伴_\n\n## 将信任融入学区采用\n\n对于学校系统而言，负责任的AI采用还需要明确的隐私保护，以及一种让学区领导者理解和管理工具使用方式的方法。\n\nOpenAI还在扩展帮助学区负责任地采用AI的隐私基础设施。我们通过[学生数据隐私联盟⁠（在新窗口中打开）](https://privacy.a4l.org/)框架推出了一项覆盖16个州的全国数据隐私协议，为参与州的学区提供了一条公认的路径，无需逐学区谈判单独协议即可评估和采用ChatGPT for Teachers。这旨在满足学区和州在其已使用的隐私流程中的需求，适应州和地方要求，并使负责任采用更加容易。\n\n目前，我们签署的通用协议覆盖16个州：伊利诺伊州、爱荷华州、缅因州、马萨诸塞州、密苏里州、内布拉斯加州、新罕布什尔州、新泽西州、纽约州、俄亥俄州、罗德岛州、田纳西州、德克萨斯州、佛蒙特州、弗吉尼亚州和华盛顿州。加利福尼亚州也由单独协议覆盖。\n\n对于学校系统而言，负责任的AI采用不仅取决于访问权限，还取决于治理、隐私、采购和信任。这项工作建立在OpenAI已签署的州级协议之上，反映了更广泛的承诺，即在学区所在之处，以社区所需的法律和隐私保护来满足其需求。\n\nChatGPT for Teachers在设计时考虑了教育级隐私、安全和管理控制。ChatGPT for Teachers工作区中共享的数据默认不会用于训练我们的模型，学校和学区领导者[可以将教育工作者引入托管工作区⁠（在新窗口中打开）](https://help.openai.com/en/articles/12844995-chatgpt-for-teachers)，并配备基于角色的控制，以支持学校的FERPA要求。\n\n随着AI从回答问题发展到帮助执行日益复杂的多步骤工作流程，仅靠访问ChatGPT等工具是不够的。通过我们的共享实施模式，OpenAI与学区并肩合作，提供实践培训、对学区领导者的支持、跨学校系统的同行学习，以及持续指导，帮助教育工作者建立利用这些能力的技能和信心。通过这种紧密合作，学区的反馈帮助OpenAI了解教育工作者和管理人员下一步需要什么。\n\n这种结构让我们得以一窥，当教师在安全的工作区中实验、学区在适当监督和专家指导下实施AI、教育工作者和领导者跨课堂、学校和社区分享有效做法时，负责任的AI采用在大规模下可以是什么样子。\n\n“教育一直帮助年轻人为他们将继承的世界做好准备。在AI时代，学生需要教育工作者和学校帮助他们建立判断力、信心和运用这些工具的自主性，”OpenAI教育副总裁Leah Belsky表示。“通过与教育工作者合作，我们的目标是给教师时间、培训和相互学习的社区，他们帮助我们与最了解学生的人并肩建设。”\n\nLynwood Unified是最早加入OpenAI首个K-12群体的学区之一。他们的愿景很明确：将AI视为公平问题，优先考虑隐私，并给予教育工作者支持以负责任地探索。通过初步培训和持续的实验空间以及与同伴的学习，教职员工越来越自信，并使用AI来增强教学。这种体验还帮助教育工作者形成有见地的观点，以便在出现AI相关问题时引导学生。\n\n1 / 5\n\n## 为教师提供自主工具和支持以引领发展\n\n在我们与教育工作者的合作中，我们看到最直接的价值往往始于时间：帮助教师调整课程、起草家庭沟通信函、准备代课材料，并更快地完成重复性行政工作，以便他们能将更多注意力放在学生身上。在一项[保护隐私的OpenAI分析⁠（在新窗口中打开）](https://cdn.openai.com/pdf/learning-never-stops-back-to-school-report-august-2026.pdf)中，从1月1日至7月16日，教育工作者发送了超过190万条与节省时间任务相关的消息，其中包括90万条关于成绩单和进度报告、80万条关于课程规划，以及各超过10万条关于代课计划和教师评估材料的内容。\n\n像[K-12教育工作者插件](https://openai.com/index/learn-teach-chatgpt-work-codex/)这样的工具支持课程规划、材料调整、信息分析和课堂资源创建等工作，同时为学校和学区领导者提供管理控制以及教育级隐私和安全保护。\n\n我们还在通过OpenAI Academy、与学区的合作以及与美国教师联合会的国家AI教学学院继续提供培训，这是一项为期五年的计划，旨在为40万名K-12教育工作者提供实用的AI技能。\n\n![图片1：教育工作者参加AI技能工作坊，在研讨桌旁举手](https://images.ctfassets.net/kftzwdyauwt9/2VJXzaOyi5V0CyxRaIDvqx/bbae8fddf5c4347c91475b4103130fc2/image1.jpg?w=3840&q=90&fm=webp)\n\n教育工作者参加AI技能工作坊。\n\n今年夏天，超过1600名教师、学校管理者及学区领导正参与由OpenAI Academy主办、沃尔顿家族基金会合作支持的实践性[AI技能工作坊](https://openai.com/index/k-12-educators-practical-skills/)。教师们与同行及OpenAI导师并肩协作，共同应对他们熟知的挑战——从为不同学习者调整课程、与家庭沟通，到遵循学区指导方针并减少行政工作。\n\n这些工作坊已初步展示了教师主导的AI应用在实践中的面貌。在费尔法克斯，一位小学音乐教师将她的课程大纲、评分政策、学区规定和教学方法输入ChatGPT，创建了一份可供整个学年使用的规划资源。琼斯伯勒的一位四年级教师利用ChatGPT将冗长的教案转化为以当日课程标准为核心的30至40分钟精炼课程。芝加哥的教育工作者描述了利用ChatGPT模拟科学实验、支持学生动画项目，以及分析超过200部小说以发现代表性缺失的情况。在圣贝纳迪诺，一位校长借助ChatGPT处理了一项复杂的排课任务，她表示这项工作原本可能需要花费数小时甚至数天。\n\n在首批技能工作坊中，93%的参与者表示他们带走了可以再次使用的内容，96%的人计划在30天内应用所学。同样重要的是，教育工作者告诉我们，他们的一些最佳想法来自于观察同事如何以不同方式使用相同的工具。\n\n当教师主导时，AI在教育中的效果最佳。我们的目标是赋予他们工具、信任、培训及发言权，以实现这一目标。\n\n新的学区合作伙伴包括：阿比林独立学区（得克萨斯州）、阿德莱·E·史蒂文森高中125学区（伊利诺伊州）、巴尔的摩市公立学校（马里兰州）、博伊西学区（爱达荷州）、克拉克stown中央学区（纽约州）、埃尔多拉多县教育局（加利福尼亚州）、Epic特许学校（俄克拉荷马州）、弗拉格勒学校（佛罗里达州）、沃斯堡独立学区（得克萨斯州）、弗里斯科独立学区（得克萨斯州）、亨布尔独立学区（得克萨斯州）、克恩高中学区（加利福尼亚州）、基林独立学区（得克萨斯州）、拉勒米县第一学区（怀俄明州）、刘易斯维尔独立学区（得克萨斯州）、洛杉矶县教育局（加利福尼亚州）、尼德姆公立学校（马萨诸塞州）、新特里尔镇高中203学区（伊利诺伊州）、北区独立学区（得克萨斯州）、奥克兰学校（密歇根州）、奥兰治县教育局（加利福尼亚州）、奥兰治县公立学校（佛罗里达州）、波坎蒂科山中央学区（纽约州）、拉伊乡村走读学校（纽约州）、圣克鲁斯县教育局（加利福尼亚州）、萨拉索塔县学校（佛罗里达州）、圣弗莱恩谷学校（科罗拉多州）、镇高中211学区（伊利诺伊州）、文图拉联合学区（加利福尼亚州）、弗吉尼亚海滩市公立学校（弗吉尼亚州）、威斯敏斯特公立学校（科罗拉多州）",
+      "titleZh": "将ChatGPT教师版推广至更多美国学区",
+      "summaryZh": "ChatGPT教师版正在扩展至55个美国学校系统，为超过10万名教育工作者和员工带来安全的AI工具、培训和支持。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-08-26T10:00:00.000Z",
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "collectedAt": "2026-09-08T07:29:02.450Z"
     },
     {
       "id": "e8e71766793d0226c88b",
@@ -526,7 +526,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "collectedAt": "2026-09-07T07:36:09.910Z"
+      "collectedAt": "2026-09-08T07:29:02.450Z"
     },
     {
       "id": "42d46e03e113f1a48a9f",
@@ -543,7 +543,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/loveholidays",
-      "collectedAt": "2026-09-07T07:36:09.911Z"
+      "collectedAt": "2026-09-08T07:29:02.450Z"
     },
     {
       "id": "0e8f06023793c35c12b2",
@@ -560,7 +560,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.958Z"
+      "collectedAt": "2026-09-08T07:29:04.004Z"
     },
     {
       "id": "57792a4fc465ac9e4168",
@@ -577,7 +577,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-07T07:36:12.074Z"
+      "collectedAt": "2026-09-08T07:29:05.085Z"
     },
     {
       "id": "bdff11d888b055940269",
@@ -594,7 +594,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T07:05:00.000Z",
       "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "collectedAt": "2026-09-07T07:36:09.911Z"
+      "collectedAt": "2026-09-08T07:29:02.451Z"
     },
     {
       "id": "b9dd82456710ac7ff739",
@@ -611,7 +611,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T07:00:00.000Z",
       "url": "https://openai.com/index/jalapeno-first-results",
-      "collectedAt": "2026-09-07T07:36:09.912Z"
+      "collectedAt": "2026-09-08T07:29:02.451Z"
     },
     {
       "id": "4f3d5193843c2be21102",
@@ -628,7 +628,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-admin-plugin",
-      "collectedAt": "2026-09-07T07:36:09.912Z"
+      "collectedAt": "2026-09-08T07:29:02.452Z"
     },
     {
       "id": "98efe21910bba76ddc89",
@@ -645,7 +645,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-07T07:36:10.535Z"
+      "collectedAt": "2026-09-08T07:29:03.533Z"
     },
     {
       "id": "a3e38d1146847fcc32c5",
@@ -662,7 +662,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-24T12:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "collectedAt": "2026-09-07T07:36:09.913Z"
+      "collectedAt": "2026-09-08T07:29:02.452Z"
     },
     {
       "id": "fb3550ee043ce3089dfb",
@@ -679,7 +679,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-07T07:36:14.432Z"
+      "collectedAt": "2026-09-08T07:29:07.922Z"
     },
     {
       "id": "2d19306ef234ea7faec5",
@@ -696,7 +696,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://openai.com/index/stampli",
-      "collectedAt": "2026-09-07T07:36:09.913Z"
+      "collectedAt": "2026-09-08T07:29:02.453Z"
     },
     {
       "id": "545fb287d7f850c3b01d",
@@ -713,7 +713,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.958Z"
+      "collectedAt": "2026-09-08T07:29:04.004Z"
     },
     {
       "id": "3dc55b55b1de08c817b2",
@@ -730,7 +730,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T19:00:00.000Z",
       "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "collectedAt": "2026-09-07T07:36:09.914Z"
+      "collectedAt": "2026-09-08T07:29:02.453Z"
     },
     {
       "id": "1e5ef4886d4750bbdc69",
@@ -747,7 +747,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T07:00:00.000Z",
       "url": "https://openai.com/index/replit",
-      "collectedAt": "2026-09-07T07:36:09.914Z"
+      "collectedAt": "2026-09-08T07:29:02.454Z"
     },
     {
       "id": "862a5272957677cbb451",
@@ -764,7 +764,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.959Z"
+      "collectedAt": "2026-09-08T07:29:04.005Z"
     },
     {
       "id": "dbabefb7176b8899389d",
@@ -781,7 +781,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-09-07T07:36:11.333Z"
+      "collectedAt": "2026-09-08T07:29:04.428Z"
     },
     {
       "id": "d02b32736bea62b3185d",
@@ -798,7 +798,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T22:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "collectedAt": "2026-09-07T07:36:09.914Z"
+      "collectedAt": "2026-09-08T07:29:02.454Z"
     },
     {
       "id": "755e4db2cccf354bd6df",
@@ -815,7 +815,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "collectedAt": "2026-09-07T07:36:09.915Z"
+      "collectedAt": "2026-09-08T07:29:02.455Z"
     },
     {
       "id": "60ed32685f2c13d2be9e",
@@ -832,7 +832,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-teens",
-      "collectedAt": "2026-09-07T07:36:09.916Z"
+      "collectedAt": "2026-09-08T07:29:02.456Z"
     },
     {
       "id": "569fdb7965461ec2bca6",
@@ -849,7 +849,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T07:00:00.000Z",
       "url": "https://openai.com/index/asana",
-      "collectedAt": "2026-09-07T07:36:09.916Z"
+      "collectedAt": "2026-09-08T07:29:02.457Z"
     },
     {
       "id": "cf88f2889563730674dc",
@@ -866,7 +866,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://openai.com/index/nvidia/chatgpt-work",
-      "collectedAt": "2026-09-07T07:36:09.916Z"
+      "collectedAt": "2026-09-08T07:29:02.456Z"
     },
     {
       "id": "aa9fbf89108c624b5035",
@@ -883,7 +883,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.959Z"
+      "collectedAt": "2026-09-08T07:29:04.005Z"
     },
     {
       "id": "87f8e936f22002253f15",
@@ -900,7 +900,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-17T08:00:00.000Z",
       "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-      "collectedAt": "2026-09-07T07:36:12.648Z"
+      "collectedAt": "2026-09-08T07:29:05.873Z"
     },
     {
       "id": "628f79672cb28599f754",
@@ -917,7 +917,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T17:04:18.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "collectedAt": "2026-09-07T07:36:12.435Z"
+      "collectedAt": "2026-09-08T07:29:05.511Z"
     },
     {
       "id": "8637785710012aa19327",
@@ -934,7 +934,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T11:00:00.000Z",
       "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "collectedAt": "2026-09-07T07:36:09.917Z"
+      "collectedAt": "2026-09-08T07:29:02.458Z"
     },
     {
       "id": "12d8fd2a91a610822616",
@@ -951,7 +951,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T10:00:00.000Z",
       "url": "https://openai.com/index/previewing-ultrafast",
-      "collectedAt": "2026-09-07T07:36:09.917Z"
+      "collectedAt": "2026-09-08T07:29:02.458Z"
     },
     {
       "id": "ff9329e42a201fd379a6",
@@ -968,7 +968,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-07T07:36:12.074Z"
+      "collectedAt": "2026-09-08T07:29:05.086Z"
     },
     {
       "id": "68c4c83c983d7ad01b30",
@@ -985,7 +985,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-07T07:36:14.432Z"
+      "collectedAt": "2026-09-08T07:29:07.923Z"
     },
     {
       "id": "5437747d9f7a7fa2a89b",
@@ -1002,7 +1002,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T06:00:00.000Z",
       "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "collectedAt": "2026-09-07T07:36:09.917Z"
+      "collectedAt": "2026-09-08T07:29:02.459Z"
     },
     {
       "id": "1024017ea20ba53c7f72",
@@ -1019,7 +1019,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "url": "https://openai.com/index/ringcentral",
-      "collectedAt": "2026-09-07T07:36:09.917Z"
+      "collectedAt": "2026-09-08T07:29:02.459Z"
     },
     {
       "id": "8825eb211c3d1692966b",
@@ -1036,7 +1036,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "collectedAt": "2026-09-07T07:36:09.918Z"
+      "collectedAt": "2026-09-08T07:29:02.459Z"
     },
     {
       "id": "d9485ecefcc38cea5418",
@@ -1053,7 +1053,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "collectedAt": "2026-09-07T07:36:09.918Z"
+      "collectedAt": "2026-09-08T07:29:02.460Z"
     },
     {
       "id": "e253abe92338c77fff32",
@@ -1070,7 +1070,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.959Z"
+      "collectedAt": "2026-09-08T07:29:04.006Z"
     },
     {
       "id": "f50ed5f93da49347ecb6",
@@ -1087,7 +1087,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T12:00:00.000Z",
       "url": "https://openai.com/index/model-ml",
-      "collectedAt": "2026-09-07T07:36:09.918Z"
+      "collectedAt": "2026-09-08T07:29:02.460Z"
     },
     {
       "id": "288f6994afc6cc6de385",
@@ -1104,7 +1104,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T10:00:00.000Z",
       "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
-      "collectedAt": "2026-09-07T07:36:09.919Z"
+      "collectedAt": "2026-09-08T07:29:02.461Z"
     },
     {
       "id": "734c538c439aa3199cf2",
@@ -1121,24 +1121,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T10:00:00.000Z",
       "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "collectedAt": "2026-09-07T07:36:09.919Z"
-    },
-    {
-      "id": "8eb1e6a0a260fe518fb3",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
-      "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
-      "content": "Virgin Atlantic is using ChatGPT Work to help its teams understand the airline’s complex customer journey and deliver better experiences faster. From competitive research to product planning and analytics, ChatGPT Work gives employees new ways to bring information together and move from insight to action.\n\nFor an airline, the customer journey extends beyond just booking a flight. It includes browsing, purchasing, checking in, traveling, the onboard experience, and sharing feedback afterward. Each stage produces valuable information, often held across different systems and reporting tools. Virgin Atlantic is using ChatGPT to connect those signals and help teams decide where to focus.\n\n## Turning weeks of research into hours\n\nAs Virgin Atlantic developed its new five-year strategy, its digital product team needed a clear view of the competitive landscape. Traditionally, assessing multiple competitors across a detailed customer journey could take weeks of manual research.\n\nUsing ChatGPT Work, the team created a structured framework and asked it to research competitor experiences, trace available customer journeys, and organize its findings into a dataset for review. The team could start the work in the morning, return a few hours later, and begin evaluating and refining the results.\n\n“As part of Virgin Atlantic’s five-year digital strategy, ChatGPT Work has helped us explore customer journeys and market experiences in a more structured and efficient way,” says Nathan Bolt, Head of Digital Product at Virgin Atlantic. “It enables our teams to compare journey patterns, surface opportunities, and turn insight into product decisions far faster than before. What might once have taken weeks can now be accelerated into hours, helping us focus investment where it can make the biggest difference for our customers.”\n\nThe analysis helped Virgin Atlantic identify areas where its digital experience was performing strongly, capabilities it needed to protect, and opportunities that warranted further investment. Those findings informed recommendations for the company’s five-year plan.\n\nChatGPT Work also helps the team synthesize strategy documents, customer insights, and digital experience data, making that information easier to explore and apply throughout the product lifecycle. “ChatGPT has allowed us to go from idea to actual product in customers’ hands much faster,” Bolt says.\n\n## Creating a connected view of the customer journey\n\nVirgin Atlantic’s customer experience and analytics teams face another challenge: bringing together data from many sources. Previously, employees had to navigate several dashboard tools, authenticated workspaces, licenses, user profiles, and report suites to understand different parts of the journey.\n\nWith ChatGPT Work and ChatGPT Sites, Virgin Atlantic is creating secure, authenticated dashboards that bring disparate datasets into a common interface. Employees across the business can access relevant views, explore information more easily, and make decisions for their own areas.\n\n“The ability to have a single interface that is customizable, that we can control and visualize in a way that we’ve not been able to before, has been game changing for us,” says Miles King, Head of Customer Experience at Virgin Atlantic.\n\nThe team has also used ChatGPT to create custom product-planning tools. Product teams can manage roadmaps, prioritization, fields, and quarterly planning in a way that fits Virgin Atlantic’s needs, while senior stakeholders can see simplified, high-level views. This flexibility helps teams spend less time adapting their work to rigid tools and more time delivering the roadmap.\n\n> “ChatGPT has really turbocharged our insights, understanding, and the ability to make decisions that ultimately enhance the end-to-end customer journey for our guests.”\n\n—Miles King, Head of Customer Experience at Virgin Atlantic\n\n## What’s next\n\nVirgin Atlantic sees more opportunities to bring ChatGPT Work into employees’ day-to-day work. Bolt already uses it as a “chief of staff” to surface important items across his calendar, Slack, and email, help him take action, and prepare presentations.\n\n“I’m able to do more within the same workday,” he says. “I’m not working longer hours necessarily, but I’m getting more done.”\n\nAs its use of ChatGPT Work expands, Virgin Atlantic will continue focusing on turning insight into faster decisions and better experiences for its customers. As King puts it, “ChatGPT helps me spot what customers need, decide what matters, act faster, and deliver.”",
-      "contentZh": "维珍大西洋航空正在使用ChatGPT Work帮助其团队理解航空公司复杂的客户旅程，并更快地提供更好的体验。从竞争研究到产品规划和数据分析，ChatGPT Work为员工提供了整合信息、将洞察转化为行动的新方式。\n\n对于航空公司而言，客户旅程不仅仅限于预订航班。它还包括浏览、购买、值机、旅行、机上体验以及事后的反馈分享。每个阶段都会产生有价值的信息，而这些信息往往分散在不同的系统和报告工具中。维珍大西洋航空正在使用ChatGPT来连接这些信号，帮助团队确定工作重点。\n\n## 将数周的研究缩短为数小时\n\n在维珍大西洋航空制定新的五年战略时，其数字产品团队需要清晰了解竞争格局。传统上，评估多个竞争对手在详细客户旅程中的表现可能需要数周的人工研究。\n\n借助ChatGPT Work，团队创建了一个结构化框架，要求其研究竞争对手的体验、追踪可用的客户旅程，并将研究结果整理成数据集以供审查。团队可以在早上开始工作，几小时后返回，开始评估和完善结果。\n\n“作为维珍大西洋航空五年数字战略的一部分，ChatGPT Work帮助我们以更结构化、更高效的方式探索客户旅程和市场体验，”维珍大西洋航空数字产品主管Nathan Bolt表示。“它使我们的团队能够比以往更快地比较旅程模式、发现机会，并将洞察转化为产品决策。过去可能需要数周的工作现在可以加速到数小时内完成，帮助我们集中投资于能为客户带来最大差异的领域。”\n\n这项分析帮助维珍大西洋航空识别出其数字体验表现强劲的领域、需要保护的能力，以及值得进一步投资的机会。这些发现为公司的五年计划提供了建议。\n\nChatGPT Work还帮助团队整合战略文档、客户洞察和数字体验数据，使这些信息在整个产品生命周期中更易于探索和应用。“ChatGPT使我们能够更快地从想法走向客户手中的实际产品，”Bolt表示。\n\n## 创建客户旅程的关联视图\n\n维珍大西洋航空的客户体验和分析团队面临另一个挑战：整合来自多个来源的数据。此前，员工必须浏览多个仪表盘工具、经过认证的工作区、许可证、用户配置文件和报告套件，才能了解旅程的不同部分。\n\n借助ChatGPT Work和ChatGPT Sites，维珍大西洋航空正在创建安全、经过认证的仪表盘，将不同的数据集整合到一个通用界面中。跨业务的员工可以访问相关视图，更轻松地探索信息，并为自己负责的领域做出决策。\n\n“拥有一个可定制的单一界面，能够以我们以前无法做到的方式进行控制和可视化，这对我们来说具有变革性意义，”维珍大西洋航空客户体验主管Miles King表示。\n\n团队还使用ChatGPT创建了自定义产品规划工具。产品团队可以以符合维珍大西洋航空需求的方式管理路线图、优先级排序、字段和季度规划，而高级利益相关者则可以看到简化的高层视图。这种灵活性帮助团队减少适应僵化工具的时间，将更多时间用于交付路线图。\n\n> “ChatGPT真正加速了我们的洞察力、理解力以及做出决策的能力，这些决策最终提升了我们客人的端到端客户旅程。”\n\n——Miles King，维珍大西洋航空客户体验主管\n\n## 下一步计划\n\n维珍大西洋航空看到了更多将ChatGPT Work融入员工日常工作的机会。Bolt已经将其用作“幕僚长”，帮助他整理日历、Slack和电子邮件中的重要事项，协助他采取行动并准备演示文稿。\n\n“我能在同一个工作日内完成更多工作，”他表示。“我不一定需要延长工作时间，但能完成更多事情。”\n\n随着ChatGPT Work使用范围的扩大，维珍大西洋航空将继续专注于将洞察转化为更快的决策和更好的客户体验。正如King所说，“ChatGPT帮助我发现客户需求、判断什么最重要、更快行动并交付成果。”",
-      "titleZh": "维珍航空借助ChatGPT Work优化客户旅程",
-      "summaryZh": "维珍航空正在利用ChatGPT Work加速研究、产品规划和决策，帮助团队连接客户旅程中的各种信号。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-      "collectedAt": "2026-09-07T07:36:09.919Z"
+      "collectedAt": "2026-09-08T07:29:02.461Z"
     },
     {
       "id": "02e8effaacedb8dbc2e1",
@@ -1155,7 +1138,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/premium-seats-chatgpt-business",
-      "collectedAt": "2026-09-07T07:36:09.919Z"
+      "collectedAt": "2026-09-08T07:29:02.461Z"
+    },
+    {
+      "id": "8eb1e6a0a260fe518fb3",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+      "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
+      "content": "Virgin Atlantic is using ChatGPT Work to help its teams understand the airline’s complex customer journey and deliver better experiences faster. From competitive research to product planning and analytics, ChatGPT Work gives employees new ways to bring information together and move from insight to action.\n\nFor an airline, the customer journey extends beyond just booking a flight. It includes browsing, purchasing, checking in, traveling, the onboard experience, and sharing feedback afterward. Each stage produces valuable information, often held across different systems and reporting tools. Virgin Atlantic is using ChatGPT to connect those signals and help teams decide where to focus.\n\n## Turning weeks of research into hours\n\nAs Virgin Atlantic developed its new five-year strategy, its digital product team needed a clear view of the competitive landscape. Traditionally, assessing multiple competitors across a detailed customer journey could take weeks of manual research.\n\nUsing ChatGPT Work, the team created a structured framework and asked it to research competitor experiences, trace available customer journeys, and organize its findings into a dataset for review. The team could start the work in the morning, return a few hours later, and begin evaluating and refining the results.\n\n“As part of Virgin Atlantic’s five-year digital strategy, ChatGPT Work has helped us explore customer journeys and market experiences in a more structured and efficient way,” says Nathan Bolt, Head of Digital Product at Virgin Atlantic. “It enables our teams to compare journey patterns, surface opportunities, and turn insight into product decisions far faster than before. What might once have taken weeks can now be accelerated into hours, helping us focus investment where it can make the biggest difference for our customers.”\n\nThe analysis helped Virgin Atlantic identify areas where its digital experience was performing strongly, capabilities it needed to protect, and opportunities that warranted further investment. Those findings informed recommendations for the company’s five-year plan.\n\nChatGPT Work also helps the team synthesize strategy documents, customer insights, and digital experience data, making that information easier to explore and apply throughout the product lifecycle. “ChatGPT has allowed us to go from idea to actual product in customers’ hands much faster,” Bolt says.\n\n## Creating a connected view of the customer journey\n\nVirgin Atlantic’s customer experience and analytics teams face another challenge: bringing together data from many sources. Previously, employees had to navigate several dashboard tools, authenticated workspaces, licenses, user profiles, and report suites to understand different parts of the journey.\n\nWith ChatGPT Work and ChatGPT Sites, Virgin Atlantic is creating secure, authenticated dashboards that bring disparate datasets into a common interface. Employees across the business can access relevant views, explore information more easily, and make decisions for their own areas.\n\n“The ability to have a single interface that is customizable, that we can control and visualize in a way that we’ve not been able to before, has been game changing for us,” says Miles King, Head of Customer Experience at Virgin Atlantic.\n\nThe team has also used ChatGPT to create custom product-planning tools. Product teams can manage roadmaps, prioritization, fields, and quarterly planning in a way that fits Virgin Atlantic’s needs, while senior stakeholders can see simplified, high-level views. This flexibility helps teams spend less time adapting their work to rigid tools and more time delivering the roadmap.\n\n> “ChatGPT has really turbocharged our insights, understanding, and the ability to make decisions that ultimately enhance the end-to-end customer journey for our guests.”\n\n—Miles King, Head of Customer Experience at Virgin Atlantic\n\n## What’s next\n\nVirgin Atlantic sees more opportunities to bring ChatGPT Work into employees’ day-to-day work. Bolt already uses it as a “chief of staff” to surface important items across his calendar, Slack, and email, help him take action, and prepare presentations.\n\n“I’m able to do more within the same workday,” he says. “I’m not working longer hours necessarily, but I’m getting more done.”\n\nAs its use of ChatGPT Work expands, Virgin Atlantic will continue focusing on turning insight into faster decisions and better experiences for its customers. As King puts it, “ChatGPT helps me spot what customers need, decide what matters, act faster, and deliver.”",
+      "contentZh": "维珍大西洋航空正在使用ChatGPT Work帮助其团队理解航空公司复杂的客户旅程，并更快地提供更好的体验。从竞争研究到产品规划和数据分析，ChatGPT Work为员工提供了整合信息、将洞察转化为行动的新方式。\n\n对于航空公司而言，客户旅程不仅仅限于预订航班。它还包括浏览、购买、值机、旅行、机上体验以及事后的反馈分享。每个阶段都会产生有价值的信息，而这些信息往往分散在不同的系统和报告工具中。维珍大西洋航空正在使用ChatGPT来连接这些信号，帮助团队确定工作重点。\n\n## 将数周的研究缩短为数小时\n\n在维珍大西洋航空制定新的五年战略时，其数字产品团队需要清晰了解竞争格局。传统上，评估多个竞争对手在详细客户旅程中的表现可能需要数周的人工研究。\n\n借助ChatGPT Work，团队创建了一个结构化框架，要求其研究竞争对手的体验、追踪可用的客户旅程，并将研究结果整理成数据集以供审查。团队可以在早上开始工作，几小时后返回，开始评估和完善结果。\n\n“作为维珍大西洋航空五年数字战略的一部分，ChatGPT Work帮助我们以更结构化、更高效的方式探索客户旅程和市场体验，”维珍大西洋航空数字产品主管Nathan Bolt表示。“它使我们的团队能够比以往更快地比较旅程模式、发现机会，并将洞察转化为产品决策。过去可能需要数周的工作现在可以加速到数小时内完成，帮助我们集中投资于能为客户带来最大差异的领域。”\n\n这项分析帮助维珍大西洋航空识别出其数字体验表现强劲的领域、需要保护的能力，以及值得进一步投资的机会。这些发现为公司的五年计划提供了建议。\n\nChatGPT Work还帮助团队整合战略文档、客户洞察和数字体验数据，使这些信息在整个产品生命周期中更易于探索和应用。“ChatGPT使我们能够更快地从想法走向客户手中的实际产品，”Bolt表示。\n\n## 创建客户旅程的关联视图\n\n维珍大西洋航空的客户体验和分析团队面临另一个挑战：整合来自多个来源的数据。此前，员工必须浏览多个仪表盘工具、经过认证的工作区、许可证、用户配置文件和报告套件，才能了解旅程的不同部分。\n\n借助ChatGPT Work和ChatGPT Sites，维珍大西洋航空正在创建安全、经过认证的仪表盘，将不同的数据集整合到一个通用界面中。跨业务的员工可以访问相关视图，更轻松地探索信息，并为自己负责的领域做出决策。\n\n“拥有一个可定制的单一界面，能够以我们以前无法做到的方式进行控制和可视化，这对我们来说具有变革性意义，”维珍大西洋航空客户体验主管Miles King表示。\n\n团队还使用ChatGPT创建了自定义产品规划工具。产品团队可以以符合维珍大西洋航空需求的方式管理路线图、优先级排序、字段和季度规划，而高级利益相关者则可以看到简化的高层视图。这种灵活性帮助团队减少适应僵化工具的时间，将更多时间用于交付路线图。\n\n> “ChatGPT真正加速了我们的洞察力、理解力以及做出决策的能力，这些决策最终提升了我们客人的端到端客户旅程。”\n\n——Miles King，维珍大西洋航空客户体验主管\n\n## 下一步计划\n\n维珍大西洋航空看到了更多将ChatGPT Work融入员工日常工作的机会。Bolt已经将其用作“幕僚长”，帮助他整理日历、Slack和电子邮件中的重要事项，协助他采取行动并准备演示文稿。\n\n“我能在同一个工作日内完成更多工作，”他表示。“我不一定需要延长工作时间，但能完成更多事情。”\n\n随着ChatGPT Work使用范围的扩大，维珍大西洋航空将继续专注于将洞察转化为更快的决策和更好的客户体验。正如King所说，“ChatGPT帮助我发现客户需求、判断什么最重要、更快行动并交付成果。”",
+      "titleZh": "维珍航空借助ChatGPT Work优化客户旅程",
+      "summaryZh": "维珍航空正在利用ChatGPT Work加速研究、产品规划和决策，帮助团队连接客户旅程中的各种信号。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+      "collectedAt": "2026-09-08T07:29:02.462Z"
     },
     {
       "id": "2c74e7c8cea6a2ece6de",
@@ -1172,7 +1172,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/zapier",
-      "collectedAt": "2026-09-07T07:36:09.920Z"
+      "collectedAt": "2026-09-08T07:29:02.462Z"
     },
     {
       "id": "968261fb57a0f452cb28",
@@ -1189,7 +1189,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.960Z"
+      "collectedAt": "2026-09-08T07:29:04.006Z"
     },
     {
       "id": "4b892749f4ed6e711322",
@@ -1206,7 +1206,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-07T09:00:00.000Z",
       "url": "https://openai.com/index/hsp-gruppe",
-      "collectedAt": "2026-09-07T07:36:09.920Z"
+      "collectedAt": "2026-09-08T07:29:02.462Z"
     },
     {
       "id": "f08640315c18fbc4f31c",
@@ -1223,7 +1223,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.960Z"
+      "collectedAt": "2026-09-08T07:29:04.006Z"
     },
     {
       "id": "d5755c0b97cd8308ee54",
@@ -1240,7 +1240,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T10:00:00.000Z",
       "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "collectedAt": "2026-09-07T07:36:09.920Z"
+      "collectedAt": "2026-09-08T07:29:02.463Z"
     },
     {
       "id": "0121f2aaabdbc2fbef18",
@@ -1257,7 +1257,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-      "collectedAt": "2026-09-07T07:36:09.920Z"
+      "collectedAt": "2026-09-08T07:29:02.463Z"
     },
     {
       "id": "ac5d129bc56db5435253",
@@ -1274,7 +1274,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-07T07:36:10.535Z"
+      "collectedAt": "2026-09-08T07:29:03.534Z"
     },
     {
       "id": "cbf5ffda58d43478b306",
@@ -1291,7 +1291,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.960Z"
+      "collectedAt": "2026-09-08T07:29:04.007Z"
     },
     {
       "id": "374a02a97939919169d2",
@@ -1308,7 +1308,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T19:00:00.000Z",
       "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "collectedAt": "2026-09-07T07:36:09.921Z"
+      "collectedAt": "2026-09-08T07:29:02.464Z"
     },
     {
       "id": "3feab47dffd4ec330ae5",
@@ -1325,7 +1325,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-      "collectedAt": "2026-09-07T07:36:09.921Z"
+      "collectedAt": "2026-09-08T07:29:02.464Z"
     },
     {
       "id": "c8f43754fdafecb85e1d",
@@ -1342,7 +1342,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T07:00:00.000Z",
       "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "collectedAt": "2026-09-07T07:36:09.921Z"
+      "collectedAt": "2026-09-08T07:29:02.465Z"
     },
     {
       "id": "6559d98a7d1bca755c17",
@@ -1359,7 +1359,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "url": "https://openai.com/index/circles",
-      "collectedAt": "2026-09-07T07:36:09.921Z"
+      "collectedAt": "2026-09-08T07:29:02.465Z"
     },
     {
       "id": "1b43c9e867bdb362c0cc",
@@ -1376,7 +1376,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.960Z"
+      "collectedAt": "2026-09-08T07:29:04.007Z"
     },
     {
       "id": "52e0cd114c7d854c3e96",
@@ -1393,7 +1393,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.961Z"
+      "collectedAt": "2026-09-08T07:29:04.008Z"
     },
     {
       "id": "b9d4476050e5d75f1b97",
@@ -1410,7 +1410,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T07:00:00.000Z",
       "url": "https://openai.com/index/unive",
-      "collectedAt": "2026-09-07T07:36:09.922Z"
+      "collectedAt": "2026-09-08T07:29:02.466Z"
     },
     {
       "id": "45bbaccf8d941517f323",
@@ -1427,7 +1427,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "collectedAt": "2026-09-07T07:36:09.923Z"
+      "collectedAt": "2026-09-08T07:29:02.466Z"
     },
     {
       "id": "af15e83e5c304730063b",
@@ -1444,7 +1444,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-07T07:36:14.433Z"
+      "collectedAt": "2026-09-08T07:29:07.924Z"
     },
     {
       "id": "b1fe0fa429937e85b2ef",
@@ -1461,7 +1461,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T15:00:59.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "collectedAt": "2026-09-07T07:36:12.435Z"
+      "collectedAt": "2026-09-08T07:29:05.511Z"
     },
     {
       "id": "56f1d8a8c0f3af9fdd08",
@@ -1478,7 +1478,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T10:00:00.000Z",
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "collectedAt": "2026-09-07T07:36:09.923Z"
+      "collectedAt": "2026-09-08T07:29:02.467Z"
     },
     {
       "id": "cfbf6b8394b6edd2d1cc",
@@ -1495,7 +1495,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://openai.com/index/avatarin",
-      "collectedAt": "2026-09-07T07:36:09.923Z"
+      "collectedAt": "2026-09-08T07:29:02.468Z"
     },
     {
       "id": "13c5281530ee4a6f4537",
@@ -1512,7 +1512,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-07T07:36:12.074Z"
+      "collectedAt": "2026-09-08T07:29:05.086Z"
     },
     {
       "id": "8aaceda53f7fc93dbf60",
@@ -1529,7 +1529,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T15:00:00.000Z",
       "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-      "collectedAt": "2026-09-07T07:36:09.924Z"
+      "collectedAt": "2026-09-08T07:29:02.468Z"
     },
     {
       "id": "002458279ec72570fffb",
@@ -1546,7 +1546,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "collectedAt": "2026-09-07T07:36:09.924Z"
+      "collectedAt": "2026-09-08T07:29:02.469Z"
     },
     {
       "id": "4c8b6c772be707078bbd",
@@ -1563,7 +1563,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "collectedAt": "2026-09-07T07:36:09.925Z"
+      "collectedAt": "2026-09-08T07:29:02.469Z"
     },
     {
       "id": "ca98ace8cf1a2a8d7872",
@@ -1580,7 +1580,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-09-07T07:36:11.333Z"
+      "collectedAt": "2026-09-08T07:29:04.429Z"
     },
     {
       "id": "bf370c7e47952f2da5c5",
@@ -1597,7 +1597,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-28T16:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "collectedAt": "2026-09-07T07:36:12.648Z"
+      "collectedAt": "2026-09-08T07:29:05.874Z"
     },
     {
       "id": "57b8f529f115263ec820",
@@ -1614,7 +1614,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-28T13:21:37.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-      "collectedAt": "2026-09-07T07:36:12.435Z"
+      "collectedAt": "2026-09-08T07:29:05.511Z"
     },
     {
       "id": "bc5ed3298105125d299c",
@@ -1631,7 +1631,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-27T03:30:00.000Z",
       "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "collectedAt": "2026-09-07T07:36:09.925Z"
+      "collectedAt": "2026-09-08T07:29:02.470Z"
     },
     {
       "id": "cb2584c1c5ba09bcd3a3",
@@ -1648,7 +1648,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-07T07:36:10.536Z"
+      "collectedAt": "2026-09-08T07:29:03.534Z"
     },
     {
       "id": "b363cad12be0dd76a830",
@@ -1665,7 +1665,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.961Z"
+      "collectedAt": "2026-09-08T07:29:04.008Z"
     },
     {
       "id": "c7991759e1e4a5d32f85",
@@ -1682,7 +1682,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-23T00:00:00.000Z",
       "url": "https://openai.com/index/health-in-chatgpt",
-      "collectedAt": "2026-09-07T07:36:09.926Z"
+      "collectedAt": "2026-09-08T07:29:02.470Z"
     },
     {
       "id": "6ccf2d78b5e86593806b",
@@ -1699,7 +1699,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T13:00:00.000Z",
       "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "collectedAt": "2026-09-07T07:36:09.926Z"
+      "collectedAt": "2026-09-08T07:29:02.470Z"
     },
     {
       "id": "658d60926ab2360afa2e",
@@ -1716,7 +1716,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T05:30:00.000Z",
       "url": "https://openai.com/index/introducing-openai-presence",
-      "collectedAt": "2026-09-07T07:36:09.926Z"
+      "collectedAt": "2026-09-08T07:29:02.471Z"
     },
     {
       "id": "c7e36c4d5f5533523bd4",
@@ -1733,7 +1733,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://openai.com/index/ntt-data",
-      "collectedAt": "2026-09-07T07:36:09.927Z"
+      "collectedAt": "2026-09-08T07:29:02.471Z"
     },
     {
       "id": "a300ec7a4d7064f7179d",
@@ -1750,7 +1750,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.970Z"
+      "collectedAt": "2026-09-08T07:29:04.019Z"
     },
     {
       "id": "afa41d5e8e9237f5cad2",
@@ -1767,7 +1767,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "collectedAt": "2026-09-07T07:36:09.927Z"
+      "collectedAt": "2026-09-08T07:29:02.472Z"
     },
     {
       "id": "176c2b61d3ba4a32ae38",
@@ -1784,7 +1784,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T15:16:30.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
-      "collectedAt": "2026-09-07T07:36:12.435Z"
+      "collectedAt": "2026-09-08T07:29:05.512Z"
     },
     {
       "id": "8b4028e43de92d3eef53",
@@ -1801,7 +1801,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T07:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "collectedAt": "2026-09-07T07:36:09.927Z"
+      "collectedAt": "2026-09-08T07:29:02.472Z"
     },
     {
       "id": "9e20c4d4744505bf3590",
@@ -1818,7 +1818,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-09-07T07:36:11.333Z"
+      "collectedAt": "2026-09-08T07:29:04.429Z"
     },
     {
       "id": "7ac3cf4e7948165dd06b",
@@ -1835,7 +1835,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-07T07:36:12.075Z"
+      "collectedAt": "2026-09-08T07:29:05.087Z"
     },
     {
       "id": "5237ec62c64502e0362e",
@@ -1852,7 +1852,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-20T10:00:00.000Z",
       "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "collectedAt": "2026-09-07T07:36:09.927Z"
+      "collectedAt": "2026-09-08T07:29:02.473Z"
     },
     {
       "id": "6fa040e6804071ffc67f",
@@ -1869,7 +1869,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-17T15:00:11.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
-      "collectedAt": "2026-09-07T07:36:12.435Z"
+      "collectedAt": "2026-09-08T07:29:05.512Z"
     },
     {
       "id": "453be2383653038965c7",
@@ -1886,7 +1886,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-17T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.970Z"
+      "collectedAt": "2026-09-08T07:29:04.020Z"
     },
     {
       "id": "37604a6bafa43b2cef23",
@@ -1903,7 +1903,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-      "collectedAt": "2026-09-07T07:36:09.928Z"
+      "collectedAt": "2026-09-08T07:29:02.473Z"
     },
     {
       "id": "ad99c0d7682ecec8de3d",
@@ -1920,7 +1920,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-      "collectedAt": "2026-09-07T07:36:12.649Z"
+      "collectedAt": "2026-09-08T07:29:05.875Z"
     },
     {
       "id": "58b103e4e418272fdf21",
@@ -1937,7 +1937,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T07:00:00.000Z",
       "url": "https://openai.com/index/codex-collaborator-creative-team",
-      "collectedAt": "2026-09-07T07:36:09.928Z"
+      "collectedAt": "2026-09-08T07:29:02.473Z"
     },
     {
       "id": "3e27101964501d6d280e",
@@ -1954,7 +1954,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-15T10:00:00.000Z",
       "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "collectedAt": "2026-09-07T07:36:09.928Z"
+      "collectedAt": "2026-09-08T07:29:02.474Z"
     },
     {
       "id": "064bc65fa5f9349bb063",
@@ -1971,7 +1971,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.970Z"
+      "collectedAt": "2026-09-08T07:29:04.020Z"
     },
     {
       "id": "2a84bed91691bdac7e9f",
@@ -1988,7 +1988,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
-      "collectedAt": "2026-09-07T07:36:09.929Z"
+      "collectedAt": "2026-09-08T07:29:02.474Z"
     },
     {
       "id": "58cd43a6843f5828b315",
@@ -2005,7 +2005,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex",
-      "collectedAt": "2026-09-07T07:36:09.929Z"
+      "collectedAt": "2026-09-08T07:29:02.475Z"
     },
     {
       "id": "9ef49567f47481113df8",
@@ -2022,7 +2022,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-07T07:36:10.536Z"
+      "collectedAt": "2026-09-08T07:29:03.535Z"
     },
     {
       "id": "02a4b9621f0b60b565aa",
@@ -2039,7 +2039,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.970Z"
+      "collectedAt": "2026-09-08T07:29:04.021Z"
     },
     {
       "id": "eb3326089562a28362a2",
@@ -2056,7 +2056,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-13T12:37:28.000Z",
       "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-      "collectedAt": "2026-09-07T07:36:12.435Z"
+      "collectedAt": "2026-09-08T07:29:05.512Z"
     },
     {
       "id": "1e5af8ca0d8bc5e26703",
@@ -2073,7 +2073,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://openai.com/academy/getting-started",
-      "collectedAt": "2026-09-07T07:36:09.929Z"
+      "collectedAt": "2026-09-08T07:29:02.475Z"
     },
     {
       "id": "7735ad0dbb31b9a6729b",
@@ -2090,7 +2090,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-07T07:36:10.537Z"
+      "collectedAt": "2026-09-08T07:29:03.535Z"
     },
     {
       "id": "3cb521040949bbeed24b",
@@ -2107,7 +2107,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.971Z"
+      "collectedAt": "2026-09-08T07:29:04.021Z"
     },
     {
       "id": "b7ede73bbb83c239838d",
@@ -2124,24 +2124,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T13:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "collectedAt": "2026-09-07T07:36:09.929Z"
-    },
-    {
-      "id": "0cc76793af620f7bb10c",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "summary": "Details about the OpenAI Bio Bounty program",
-      "content": "OpenAI Bio Bug Bounty | OpenAI\n\nTesting for universal jailbreaks for biorisks\n\n## Invitation\n\nAs part of our ongoing efforts to strengthen our safeguards for advanced AI capabilities in biology, we’re evolving our GPT‑5.5 Bio Bug Bounty to become an ongoing private program—the OpenAI Bio Bounty Program. The program will remain focused on universal jailbreaks that can defeat our predefined biosafety challenge against OpenAI’s frontier models, starting with GPT‑5.6 and going forward.\n\nWe’re also excited to announce that we’re increasing reward amounts. The reward for a universal jailbreak for the OpenAI Bio Bounty Program has been raised from $25,000 to $50,000 for both GPT‑5.6 and GPT‑5.5. Smaller awards may be granted for partial wins at our discretion.\n\nWe will continue to honor the scope for the GPT‑5.5 Bio Bounty Program as originally announced, with testing ending on July 27, 2026. After this date, only GPT‑5.6 will be in scope; we will continue to communicate any future changes in scope to our researchers.\n\nInterested applicants should apply through our rolling [application process⁠(opens in a new window)](https://docs.google.com/forms/d/e/1FAIpQLScIW9QJTq4J6zsl89Un-OmTCSDNWdWldcib8mYZEqoHzunukQ/viewform?usp=preview). Once selected, accepted applicants will be onboarded to the bio bug bounty platform. All past applicants to the GPT‑5.5 Bio Bounty Program will not need to reapply.\n\n## How to participate\n\nSubmit a short application [here⁠⁠(opens in a new window)](https://docs.google.com/forms/d/e/1FAIpQLScIW9QJTq4J6zsl89Un-OmTCSDNWdWldcib8mYZEqoHzunukQ/viewform?usp=preview) (name, affiliation, experience). Accepted applicants must have existing ChatGPT accounts to apply, and will sign a NDA. Apply now and help us make frontier AI safer.",
-      "contentZh": "OpenAI 生物漏洞赏金计划 | OpenAI\n\n针对生物风险通用越狱的测试\n\n## 邀请\n\n作为我们持续加强高级AI生物学能力安全保障工作的一部分，我们正在将GPT‑5.5生物漏洞赏金计划升级为长期私有项目——OpenAI生物漏洞赏金计划。该计划将继续聚焦于能够突破我们为OpenAI前沿模型（从GPT‑5.6开始及后续版本）预设的生物安全挑战的通用越狱方法。\n\n我们同时激动地宣布将提高奖励金额。针对OpenAI生物漏洞赏金计划的通用越狱奖励，GPT‑5.6和GPT‑5.5的赏金已从25,000美元提升至50,000美元。对于部分成功的案例，我们将酌情授予较小奖励。\n\n我们将继续遵循最初公布的GPT‑5.5生物漏洞赏金计划范围，测试截止日期为2026年7月27日。此后仅保留GPT‑5.6的测试范围；我们将持续向研究人员通报未来任何范围变更。\n\n有意申请者可通过我们的滚动[申请流程⁠（在新窗口打开）](https://docs.google.com/forms/d/e/1FAIpQLScIW9QJTq4J6zsl89Un-OmTCSDNWdWldcib8mYZEqoHzunukQ/viewform?usp=preview)提交申请。入选者将被引导至生物漏洞赏金平台。所有此前申请过GPT‑5.5生物漏洞赏金计划的人员无需重新申请。\n\n## 参与方式\n\n通过[此处⁠（在新窗口打开）](https://docs.google.com/forms/d/e/1FAIpQLScIW9QJTq4J6zsl89Un-OmTCSDNWdWldcib8mYZEqoHzunukQ/viewform?usp=preview)提交简短申请（姓名、所属机构、经验）。入选申请者需拥有现有ChatGPT账户方可申请，并需签署保密协议。立即申请，助我们共同提升前沿AI的安全性。",
-      "titleZh": "GPT-5.5 生物漏洞赏金计划",
-      "summaryZh": "关于 OpenAI 生物漏洞赏金计划的详细信息",
-      "translationStatus": "translated",
-      "publishedAt": "2026-07-09T10:00:00.000Z",
-      "url": "https://openai.com/index/bio-bug-bounty",
-      "collectedAt": "2026-09-07T07:36:09.930Z"
+      "collectedAt": "2026-09-08T07:29:02.475Z"
     },
     {
       "id": "3a73e1016004964e66d6",
@@ -2158,7 +2141,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6",
-      "collectedAt": "2026-09-07T07:36:09.930Z"
+      "collectedAt": "2026-09-08T07:29:02.476Z"
+    },
+    {
+      "id": "0cc76793af620f7bb10c",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "summary": "Details about the OpenAI Bio Bounty program",
+      "content": "OpenAI Bio Bug Bounty | OpenAI\n\nTesting for universal jailbreaks for biorisks\n\n## Invitation\n\nAs part of our ongoing efforts to strengthen our safeguards for advanced AI capabilities in biology, we’re evolving our GPT‑5.5 Bio Bug Bounty to become an ongoing private program—the OpenAI Bio Bounty Program. The program will remain focused on universal jailbreaks that can defeat our predefined biosafety challenge against OpenAI’s frontier models, starting with GPT‑5.6 and going forward.\n\nWe’re also excited to announce that we’re increasing reward amounts. The reward for a universal jailbreak for the OpenAI Bio Bounty Program has been raised from $25,000 to $50,000 for both GPT‑5.6 and GPT‑5.5. Smaller awards may be granted for partial wins at our discretion.\n\nWe will continue to honor the scope for the GPT‑5.5 Bio Bounty Program as originally announced, with testing ending on July 27, 2026. After this date, only GPT‑5.6 will be in scope; we will continue to communicate any future changes in scope to our researchers.\n\nInterested applicants should apply through our rolling [application process⁠(opens in a new window)](https://docs.google.com/forms/d/e/1FAIpQLScIW9QJTq4J6zsl89Un-OmTCSDNWdWldcib8mYZEqoHzunukQ/viewform?usp=preview). Once selected, accepted applicants will be onboarded to the bio bug bounty platform. All past applicants to the GPT‑5.5 Bio Bounty Program will not need to reapply.\n\n## How to participate\n\nSubmit a short application [here⁠⁠(opens in a new window)](https://docs.google.com/forms/d/e/1FAIpQLScIW9QJTq4J6zsl89Un-OmTCSDNWdWldcib8mYZEqoHzunukQ/viewform?usp=preview) (name, affiliation, experience). Accepted applicants must have existing ChatGPT accounts to apply, and will sign a NDA. Apply now and help us make frontier AI safer.",
+      "contentZh": "OpenAI 生物漏洞赏金计划 | OpenAI\n\n针对生物风险通用越狱的测试\n\n## 邀请\n\n作为我们持续加强高级AI生物学能力安全保障工作的一部分，我们正在将GPT‑5.5生物漏洞赏金计划升级为长期私有项目——OpenAI生物漏洞赏金计划。该计划将继续聚焦于能够突破我们为OpenAI前沿模型（从GPT‑5.6开始及后续版本）预设的生物安全挑战的通用越狱方法。\n\n我们同时激动地宣布将提高奖励金额。针对OpenAI生物漏洞赏金计划的通用越狱奖励，GPT‑5.6和GPT‑5.5的赏金已从25,000美元提升至50,000美元。对于部分成功的案例，我们将酌情授予较小奖励。\n\n我们将继续遵循最初公布的GPT‑5.5生物漏洞赏金计划范围，测试截止日期为2026年7月27日。此后仅保留GPT‑5.6的测试范围；我们将持续向研究人员通报未来任何范围变更。\n\n有意申请者可通过我们的滚动[申请流程⁠（在新窗口打开）](https://docs.google.com/forms/d/e/1FAIpQLScIW9QJTq4J6zsl89Un-OmTCSDNWdWldcib8mYZEqoHzunukQ/viewform?usp=preview)提交申请。入选者将被引导至生物漏洞赏金平台。所有此前申请过GPT‑5.5生物漏洞赏金计划的人员无需重新申请。\n\n## 参与方式\n\n通过[此处⁠（在新窗口打开）](https://docs.google.com/forms/d/e/1FAIpQLScIW9QJTq4J6zsl89Un-OmTCSDNWdWldcib8mYZEqoHzunukQ/viewform?usp=preview)提交简短申请（姓名、所属机构、经验）。入选申请者需拥有现有ChatGPT账户方可申请，并需签署保密协议。立即申请，助我们共同提升前沿AI的安全性。",
+      "titleZh": "GPT-5.5 生物漏洞赏金计划",
+      "summaryZh": "关于 OpenAI 生物漏洞赏金计划的详细信息",
+      "translationStatus": "translated",
+      "publishedAt": "2026-07-09T10:00:00.000Z",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "collectedAt": "2026-09-08T07:29:02.476Z"
     },
     {
       "id": "cd73a370d60dec12bb60",
@@ -2175,7 +2175,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "collectedAt": "2026-09-07T07:36:09.930Z"
+      "collectedAt": "2026-09-08T07:29:02.476Z"
     },
     {
       "id": "6756ae3b0445393cf58b",
@@ -2192,7 +2192,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-07T07:36:10.537Z"
+      "collectedAt": "2026-09-08T07:29:03.536Z"
     },
     {
       "id": "74a441f786f49a59775d",
@@ -2209,7 +2209,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T13:00:00.000Z",
       "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "collectedAt": "2026-09-07T07:36:09.930Z"
+      "collectedAt": "2026-09-08T07:29:02.477Z"
     },
     {
       "id": "4acf2eda2e0fe738f5c1",
@@ -2226,7 +2226,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-live",
-      "collectedAt": "2026-09-07T07:36:09.931Z"
+      "collectedAt": "2026-09-08T07:29:02.477Z"
     },
     {
       "id": "5432c0edbd62ccd22a23",
@@ -2243,7 +2243,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.971Z"
+      "collectedAt": "2026-09-08T07:29:04.022Z"
     },
     {
       "id": "ef10e031dc3b0f027fe5",
@@ -2260,7 +2260,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T08:54:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "collectedAt": "2026-09-07T07:36:12.649Z"
+      "collectedAt": "2026-09-08T07:29:05.875Z"
     },
     {
       "id": "4c936674f4b219ed493a",
@@ -2277,7 +2277,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://openai.com/index/mufg",
-      "collectedAt": "2026-09-07T07:36:09.931Z"
+      "collectedAt": "2026-09-08T07:29:02.478Z"
     },
     {
       "id": "ae43b3314d8877dd3dce",
@@ -2294,7 +2294,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://openai.com/index/australian-payments-plus",
-      "collectedAt": "2026-09-07T07:36:09.931Z"
+      "collectedAt": "2026-09-08T07:29:02.478Z"
     },
     {
       "id": "02a4337d96c12bd29af9",
@@ -2311,7 +2311,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-07T07:36:10.537Z"
+      "collectedAt": "2026-09-08T07:29:03.537Z"
     },
     {
       "id": "e31b8759deb751b7046f",
@@ -2328,7 +2328,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-06T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-07T07:36:12.075Z"
+      "collectedAt": "2026-09-08T07:29:05.088Z"
     },
     {
       "id": "d9953405a7b98f544a26",
@@ -2345,7 +2345,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-02T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.971Z"
+      "collectedAt": "2026-09-08T07:29:04.022Z"
     },
     {
       "id": "15cd354e84a42a0e6b8f",
@@ -2362,7 +2362,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-01T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-07T07:36:10.538Z"
+      "collectedAt": "2026-09-08T07:29:03.537Z"
     },
     {
       "id": "b61b2637e688ad2bd25d",
@@ -2379,7 +2379,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.971Z"
+      "collectedAt": "2026-09-08T07:29:04.023Z"
     },
     {
       "id": "746aab7bf7ed89a86fa8",
@@ -2396,7 +2396,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T16:02:40.000Z",
       "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-      "collectedAt": "2026-09-07T07:36:12.436Z"
+      "collectedAt": "2026-09-08T07:29:05.512Z"
     },
     {
       "id": "a3f03aca463e82452f66",
@@ -2413,7 +2413,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T09:00:00.000Z",
       "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "collectedAt": "2026-09-07T07:36:09.931Z"
+      "collectedAt": "2026-09-08T07:29:02.478Z"
     },
     {
       "id": "fe2f0670eaeafcdb3ad2",
@@ -2430,7 +2430,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "collectedAt": "2026-09-07T07:36:09.931Z"
+      "collectedAt": "2026-09-08T07:29:02.479Z"
     },
     {
       "id": "eb22f73482b9a1f24d91",
@@ -2447,7 +2447,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-genebench-pro",
-      "collectedAt": "2026-09-07T07:36:09.932Z"
+      "collectedAt": "2026-09-08T07:29:02.479Z"
     },
     {
       "id": "25e6e4a270cd66f9b185",
@@ -2464,7 +2464,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-07T07:36:10.538Z"
+      "collectedAt": "2026-09-08T07:29:03.538Z"
     },
     {
       "id": "a01fc084bf5f7a63e0f5",
@@ -2481,7 +2481,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.973Z"
+      "collectedAt": "2026-09-08T07:29:04.024Z"
     },
     {
       "id": "87e0d903c3ade9f63cb9",
@@ -2498,7 +2498,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-09-07T07:36:11.334Z"
+      "collectedAt": "2026-09-08T07:29:04.429Z"
     },
     {
       "id": "88b542cd5d98fc76107a",
@@ -2515,7 +2515,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-07T07:36:12.076Z"
+      "collectedAt": "2026-09-08T07:29:05.089Z"
     },
     {
       "id": "6e59d8aafa7323d938d6",
@@ -2532,7 +2532,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-29T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.973Z"
+      "collectedAt": "2026-09-08T07:29:04.025Z"
     },
     {
       "id": "e724c51a1bdace040134",
@@ -2549,7 +2549,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-26T10:00:00.000Z",
       "url": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "collectedAt": "2026-09-07T07:36:09.932Z"
+      "collectedAt": "2026-09-08T07:29:02.480Z"
     },
     {
       "id": "9f7c2a8b44846309cebe",
@@ -2566,7 +2566,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.973Z"
+      "collectedAt": "2026-09-08T07:29:04.025Z"
     },
     {
       "id": "dfb466b9c1abc7508953",
@@ -2583,7 +2583,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-07T07:36:10.539Z"
+      "collectedAt": "2026-09-08T07:29:03.538Z"
     },
     {
       "id": "f5c353fcba8d18826546",
@@ -2600,7 +2600,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-25T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.974Z"
+      "collectedAt": "2026-09-08T07:29:04.026Z"
     },
     {
       "id": "4dc045a657edc4379886",
@@ -2617,7 +2617,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-24T16:30:01.000Z",
       "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-      "collectedAt": "2026-09-07T07:36:12.436Z"
+      "collectedAt": "2026-09-08T07:29:05.512Z"
     },
     {
       "id": "5e93061480ea98dc8eab",
@@ -2634,7 +2634,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-24T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-07T07:36:12.076Z"
+      "collectedAt": "2026-09-08T07:29:05.089Z"
     },
     {
       "id": "ac21b6b84e065abf715a",
@@ -2651,7 +2651,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-23T17:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-immunology-mystery",
-      "collectedAt": "2026-09-07T07:36:09.933Z"
+      "collectedAt": "2026-09-08T07:29:02.480Z"
     },
     {
       "id": "2beb6e83d413eee747a3",
@@ -2668,7 +2668,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-23T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-07T07:36:10.539Z"
+      "collectedAt": "2026-09-08T07:29:03.539Z"
     },
     {
       "id": "4ee0a46d008431f74c6f",
@@ -2685,7 +2685,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T10:00:00.000Z",
       "url": "https://openai.com/index/daybreak-securing-the-world",
-      "collectedAt": "2026-09-07T07:36:09.933Z"
+      "collectedAt": "2026-09-08T07:29:02.481Z"
     },
     {
       "id": "f1af487b8667894c5069",
@@ -2702,7 +2702,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T00:00:00.000Z",
       "url": "https://openai.com/index/codex-maxxing-long-running-work",
-      "collectedAt": "2026-09-07T07:36:09.933Z"
+      "collectedAt": "2026-09-08T07:29:02.481Z"
     },
     {
       "id": "ecb75c71ae3d46eb61c5",
@@ -2719,7 +2719,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.974Z"
+      "collectedAt": "2026-09-08T07:29:04.026Z"
     },
     {
       "id": "4fba785fb3527574518d",
@@ -2736,7 +2736,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-21T23:00:00.000Z",
       "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "collectedAt": "2026-09-07T07:36:09.933Z"
+      "collectedAt": "2026-09-08T07:29:02.482Z"
     },
     {
       "id": "a744e1d203989e6af98f",
@@ -2753,7 +2753,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T17:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "collectedAt": "2026-09-07T07:36:09.934Z"
+      "collectedAt": "2026-09-08T07:29:02.482Z"
     },
     {
       "id": "4451d1f4fabd696490a6",
@@ -2770,7 +2770,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T11:00:00.000Z",
       "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "collectedAt": "2026-09-07T07:36:09.934Z"
+      "collectedAt": "2026-09-08T07:29:02.482Z"
     },
     {
       "id": "1145e5f5fbfda4f778bc",
@@ -2787,7 +2787,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T08:00:00.000Z",
       "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "collectedAt": "2026-09-07T07:36:09.934Z"
+      "collectedAt": "2026-09-08T07:29:02.483Z"
     },
     {
       "id": "b360a839b1ef98e71882",
@@ -2804,7 +2804,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.975Z"
+      "collectedAt": "2026-09-08T07:29:04.027Z"
     },
     {
       "id": "1c76d41068a26bd369b1",
@@ -2821,7 +2821,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T10:00:00.000Z",
       "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "collectedAt": "2026-09-07T07:36:09.935Z"
+      "collectedAt": "2026-09-08T07:29:02.484Z"
     },
     {
       "id": "5da9598fb41c1ac93e58",
@@ -2838,7 +2838,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-life-sci-bench",
-      "collectedAt": "2026-09-07T07:36:09.935Z"
+      "collectedAt": "2026-09-08T07:29:02.484Z"
     },
     {
       "id": "c264a8015cf38e7b022d",
@@ -2855,7 +2855,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-07T07:36:12.076Z"
+      "collectedAt": "2026-09-08T07:29:05.090Z"
     },
     {
       "id": "463a3f23df3be39852c2",
@@ -2872,7 +2872,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-16T00:00:00.000Z",
       "url": "https://openai.com/index/deployment-simulation",
-      "collectedAt": "2026-09-07T07:36:09.935Z"
+      "collectedAt": "2026-09-08T07:29:02.485Z"
     },
     {
       "id": "c1c4940bb85560fc0599",
@@ -2889,7 +2889,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.975Z"
+      "collectedAt": "2026-09-08T07:29:04.028Z"
     },
     {
       "id": "9d55e1d372b6a64c37a3",
@@ -2906,7 +2906,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-15T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-07T07:36:12.077Z"
+      "collectedAt": "2026-09-08T07:29:05.090Z"
     },
     {
       "id": "ed2a24d67723105da4dc",
@@ -2923,7 +2923,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-14T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-openai-partner-network",
-      "collectedAt": "2026-09-07T07:36:09.936Z"
+      "collectedAt": "2026-09-08T07:29:02.485Z"
     },
     {
       "id": "b5b7f9b007b543013769",
@@ -2940,41 +2940,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-12T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-07T07:36:10.539Z"
-    },
-    {
-      "id": "5cf8d01eeb345b1be05a",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "How an astrophysicist uses Codex to help simulate black holes",
-      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-      "content": "The gravity around a black hole is so extreme that nothing, not even light, can escape once it gets close enough. Astrophysicists like Chi-kwan Chan study black holes with computer simulations and observations. But current algorithms and computing power limit how realistic those simulations can be.\n\nWith Codex, Chan—a researcher at the University of Arizona and Steward Observatory—is tackling this problem.\n\nBlack holes are among the best places to test Einstein’s general theory of relativity, he said. The theory is currently our best explanation of gravity: instead of a force pulling objects together, gravity is the result of mass and energy bending the fabric of space and time.\n\nChan is part of the international Event Horizon Telescope (EHT) collaboration, which published the first image of a black hole in 2019. The team is currently gathering observations to produce the first video of a supermassive black hole, focusing on the one at the center of the M87 galaxy.\n\nBut turning observations into scientific understanding requires enormous amounts of data processing, large-scale computing workflows, and simulations capable of modeling some of the most extreme physics in the universe.\n\nSince light can’t escape a black hole, scientists instead study the region around it called the event horizon, a boundary beyond which matter can’t escape. “It’s a surface of no return,” said Chan. Matter swirling just outside this boundary emits light that astrophysicists can see, measure, and simulate.\n\nThe 2019 image released by the EHT showed a black hole’s shadow embedded in glowing plasma near the event horizon. Chan helped develop the simulation and computing tools the team used to interpret the observations. Since then, Chan and his colleagues have continued improving their instruments and observing capabilities as the team moves from still images toward videos.\n\nA short video generated by a supercomputer simulation showing the movement of plasma around the black hole at the center of the Milky Way galaxy.\n\n**Credit:** EHT Theory Working Group / CK Chan\n\n**Addressing a spiraling problem**\n\nOne of the biggest roadblocks for Chan and his team is modeling the plasma around black holes. Plasma is superheated matter made up of electrically charged electrons and ions.\n\nIn many simulations, scientists simplify plasma by treating it like a fluid, using well-known equations to model its movement around a black hole. That works reasonably well in denser plasma where the electrons and ions constantly collide with each other.\n\nBut near the supermassive black holes that Chan and his colleagues are studying, some regions become so hot and diffuse that particles rarely encounter each other. “They don’t really collide with each other,” he said. Instead, the particles mostly spiral around magnetic field lines.\n\nTo model that behavior correctly, researchers need to follow trillions of electrons and ions as they rapidly corkscrew around a black hole. Standard simulations must calculate every tiny turn, forcing computers to take extremely small timesteps.\n\nAs a result, even the world’s fastest supercomputers can spend most of their time calculating these minuscule particle motions instead of simulating the larger behavior scientists actually want to study.\n\n“For decades, this has limited how realistically we can simulate black hole plasma,” Chan said.\n\n**Using AI to build a better digital twin**\n\nChan suspected that new mathematical techniques could help work around some of these limitations. The basic idea was to change, mathematically, how the simulation tracked particle motion so the computer no longer had to follow every tiny spiral directly.\n\n“But exploring all the mathematical possibilities by hand would have taken an enormous amount of time,” Chan said. So he turned to Codex to help derive candidate algorithms and test them against known solutions.\n\nCodex generated many potential approaches—not all of them correct. “But that’s okay,” Chan said. “Most scientific ideas fail. What matters is that these algorithms are testable. Once you find one that works, it can potentially unlock simulations that were previously impossible.”\n\nSome AI systems can return results without showing the steps they used to produce their conclusions. But Chan’s group uses Codex to propose and implement numerical schemes that they can inspect, test, and understand physically.\n\nLarge language models still make mistakes, and many scientists remain cautious about using AI in research. But Chan believes science may be one of the best uses for today’s AI systems precisely because scientific ideas can be tested rigorously.\n\n“We don’t accept an idea because it came from Einstein, from a bright student, or from an AI model,” he said. “We accept it only after repeated testing.”\n\nChan sees AI as a tool that can help researchers explore more ideas, test them faster, and accelerate discovery while remaining grounded in verification and reproducibility.\n\nIf the approaches that Chan is testing with Codex succeed, the new algorithms could eventually allow scientists to simulate trillions of particles around black holes. That would enable researchers to study physics that has remained out of reach for decades.",
-      "contentZh": "黑洞周围的引力极其强大，任何物质一旦靠近到一定距离，就连光也无法逃脱。像陈志均这样的天体物理学家通过计算机模拟和观测来研究黑洞，但当前的算法和计算能力限制了这些模拟的真实性。\n\n作为亚利桑那大学和斯图尔德天文台的研究员，陈志均正借助 Codex 攻克这一难题。\n\n他表示，黑洞是检验爱因斯坦广义相对论的最佳场所之一。该理论目前是我们对引力的最佳解释：引力并非将物体拉拢的力，而是质量与能量弯曲时空结构的结果。\n\n陈志均是国际事件视界望远镜（EHT）合作项目的成员，该项目于2019年发布了首张黑洞图像。该团队目前正在收集观测数据，旨在制作首部超大质量黑洞视频，重点关注M87星系中心的那个黑洞。\n\n然而，将观测转化为科学理解需要海量数据处理、大规模计算工作流以及能够模拟宇宙中最极端物理现象的仿真程序。\n\n由于光无法逃离黑洞，科学家转而研究其周围被称为事件视界的区域——这是一个物质无法逃逸的边界。“这是一道有去无回的表面，”陈志均说。在边界外旋转的物质会发出光线，天体物理学家可以观测、测量并模拟这些光。\n\nEHT于2019年发布的图像显示，黑洞的阴影嵌在事件视界附近炽热的等离子体中。陈志均协助开发了团队用于解读观测数据的模拟和计算工具。此后，随着团队从静态图像转向视频研究，陈志均和同事们持续改进仪器和观测能力。\n\n**一段由超级计算机模拟生成的短视频，展示了银河系中心黑洞周围等离子体的运动。**\n\n**图片来源：** EHT理论工作组 / CK Chan\n\n**应对螺旋难题**\n\n陈志均团队面临的最大障碍之一是模拟黑洞周围的等离子体。等离子体是由带电电子和离子组成的超高温物质。\n\n在许多模拟中，科学家将等离子体简化为流体，利用经典方程模拟其绕黑洞的运动。这种方法在密度较高、电子与离子频繁碰撞的等离子体中效果尚可。\n\n但在陈志均团队研究的超大质量黑洞附近，某些区域温度极高且物质稀薄，粒子几乎不会相遇。“它们实际上不会相互碰撞，”他说。相反，粒子主要沿磁力线螺旋运动。\n\n要正确模拟这种行为，研究人员需要追踪数万亿个电子和离子绕黑洞快速螺旋运动的轨迹。标准模拟必须计算每个微小转弯，迫使计算机采用极短的时间步长。\n\n结果，即便是全球最快的超级计算机，大部分时间也耗费在计算这些微观粒子运动上，而非模拟科学家真正想研究的宏观行为。\n\n“几十年来，这限制了我们对黑洞等离子体模拟的真实性，”陈志均说。\n\n**用AI构建更优的数字孪生**\n\n陈志均推测，新的数学技术或许能突破部分限制。基本思路是通过数学变换改变模拟追踪粒子运动的方式，使计算机无需直接追踪每个微小螺旋。\n\n“但手动探索所有数学可能性将耗费大量时间，”陈志均说。于是他借助 Codex 推导候选算法，并用已知解进行验证。\n\nCodex 生成了许多潜在方案——并非全部正确。“但这没关系，”他说，“大多数科学想法都会失败。关键在于这些算法是可检验的。一旦找到有效方案，就可能解锁此前无法实现的模拟。”\n\n某些AI系统能直接返回结果，却不展示推导步骤。但陈志均的团队利用 Codex 提出并实现数值方案，以便他们从物理角度检查、测试和理解。\n\n大型语言模型仍会出错，许多科学家对在研究中应用AI持谨慎态度。但陈志均认为，科学恰恰可能是当今AI系统的最佳应用场景之一，因为科学思想可以严格检验。\n\n“我们不会因为某个想法来自爱因斯坦、优秀学生或AI模型就接受它，”他说，“只有经过反复验证后才会接受。”\n\n陈志均将AI视为一种工具，能帮助研究人员探索更多想法、加速测试，并在坚持验证与可重复性的前提下推动发现。\n\n如果陈志均用 Codex 测试的方法成功，新算法最终将让科学家模拟黑洞周围数万亿个粒子。这将使研究人员得以研究数十年来难以触及的物理现象。",
-      "titleZh": "天体物理学家如何利用Codex模拟黑洞",
-      "summaryZh": "了解天体物理学家Chi-kwan Chan如何使用Codex构建黑洞模拟，帮助科学家研究极端物理学并检验爱因斯坦的广义相对论。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-11T00:00:00.000Z",
-      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "collectedAt": "2026-09-07T07:36:09.936Z"
-    },
-    {
-      "id": "46d6755fb18785fef07a",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "OpenAI to acquire Ona",
-      "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-      "content": "Today we’re announcing that OpenAI will acquire [Ona⁠(opens in a new window)](http://ona.com/), bringing its secure cloud execution and orchestration technology into our rapidly expanding Codex ecosystem.\n\nMore than 5 million people use Codex each week to research, analyze, build, and automate their work—up 400% from earlier this year. Codex began as a tool for software developers and now helps a wider range of people do complex work from an initial request through to a finished result.\n\nAs Codex becomes more capable, its most valuable work is unfolding over hours or days, rather than minutes. We believe people should be able to delegate more ambitious work without remaining tied to the machine where it began. The work should continue beyond the initial session, with Codex making it possible to stay connected and check progress, provide direction, make decisions, and review results from anywhere.\n\nOna will help us do that. Its technology provides secure, persistent environments where agents can access the tools, systems, and context they need to make progress over time.\n\nBy bringing Ona to OpenAI, we will expand Codex beyond work tied to a single device or active session and help more organizations deploy agents securely in production.\n\n## Giving Codex a persistent place to work\n\nOna has spent years helping developers move software development from local machines into the cloud. The company has helped 2 million developers work in secure, reproducible cloud environments and supports multiple shared customers.\n\nThat experience is directly relevant to the next phase of Codex, enabling agents to continue working inside a customer’s cloud environment even when laptops are closed.\n\n## Scaling Codex across production workflows\n\nAs organizations move from experimenting with agents to deploying them across production workflows, capable models are only one part of what they need.\nOrganizations should be able to give people the benefits of persistent agentic work with confidence, knowing agents are operating inside environments that meet their security, governance, and operational requirements. That means having control over where they run, what they can access, how credentials are scoped, how activity is logged, and how work moves through review.\n\nOna’s customer-controlled execution model will allow agents to operate inside an organization’s own cloud environment while OpenAI provides the intelligence and orchestration that power the experience. This gives organizations greater control over their infrastructure, data, and security boundaries without limiting what Codex can accomplish.\n\n## What’s next\n\nThe acquisition is subject to customary closing conditions, including receipt of required regulatory approvals. Until closing, OpenAI and Ona will remain separate and independent companies.\n\nAfter closing, the Ona team will join OpenAI and work with the Codex team to advance secure, persistent enterprise execution capabilities and help scale Codex to more enterprises worldwide.\n\nWe’re excited to welcome the Ona team to OpenAI as we build AI systems that help people and businesses create and accomplish more while meeting the security and control requirements of real-world deployment. Together, we will help engineering teams safely take on sustained work across the software lifecycle, from running tests and resolving issues to modernizing applications, addressing vulnerabilities, and supporting complex workflows over time.",
-      "contentZh": "今天，我们宣布 OpenAI 将收购 [Ona⁠（在新窗口中打开）](http://ona.com/)，将其安全的云端执行与编排技术纳入我们快速扩展的 Codex 生态系统。\n\n每周有超过 500 万人使用 Codex 进行研究、分析、构建和自动化工作——较今年早些时候增长了 400%。Codex 最初是面向软件开发者的工具，如今已帮助更广泛的人群，从初始请求到最终成果，完成复杂工作。\n\n随着 Codex 能力不断增强，其最有价值的工作正从几分钟扩展到数小时甚至数天。我们认为，人们应该能够委托更宏大的任务，而不必始终守在任务启动的机器旁。工作应在初始会话结束后继续推进，Codex 让人们能够随时保持连接、检查进度、提供方向、做出决策并从任何地方审查结果。\n\nOna 将帮助我们实现这一目标。其技术提供安全、持久的环境，使智能体能够访问所需的工具、系统和上下文，从而随时间推移不断取得进展。\n\n通过将 Ona 引入 OpenAI，我们将把 Codex 扩展到不再局限于单一设备或活跃会话的工作场景，并帮助更多组织在生产环境中安全部署智能体。\n\n## 为 Codex 提供持久的工作空间\n\nOna 多年来一直致力于帮助开发者将软件开发从本地机器迁移到云端。该公司已帮助 200 万开发者在安全、可复现的云端环境中工作，并支持多个共享客户。\n\n这些经验与 Codex 下一阶段的发展直接相关，使智能体即使在笔记本电脑关闭时，也能在客户的云环境中持续工作。\n\n## 将 Codex 扩展到生产工作流\n\n随着组织从试验智能体转向在生产工作流中部署它们，强大的模型只是所需的一部分。\n组织应能放心地让人们受益于持久的智能体工作，同时确保智能体在满足其安全、治理和运营要求的环境中运行。这意味着要控制智能体的运行位置、可访问内容、凭据范围、活动日志记录方式以及工作如何通过审查流程。\n\nOna 的客户控制执行模型将使智能体能够在组织自身的云环境中运行，而 OpenAI 则提供驱动体验的智能与编排能力。这使组织能够更好地控制其基础设施、数据和安全边界，同时不限制 Codex 所能实现的功能。\n\n## 下一步计划\n\n此次收购需满足常规交割条件，包括获得必要的监管批准。在交割完成前，OpenAI 和 Ona 将继续作为独立公司运营。\n\n交割完成后，Ona 团队将加入 OpenAI，与 Codex 团队合作，推进安全、持久的企业执行能力，并帮助 Codex 扩展到全球更多企业。\n\n我们很高兴欢迎 Ona 团队加入 OpenAI，共同构建能够帮助个人和企业创造更多成就的 AI 系统，同时满足实际部署中的安全与控制要求。我们将携手帮助工程团队安全地承担软件生命周期中的持续性工作，从运行测试、解决问题，到应用现代化、修复漏洞，以及支持长期复杂工作流。",
-      "titleZh": "OpenAI 将收购 Ona",
-      "summaryZh": "OpenAI 计划收购 Ona，以通过安全、持久的云环境扩展 Codex，从而在企业工作流中实现长期运行的 AI 代理。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-11T00:00:00.000Z",
-      "url": "https://openai.com/index/openai-to-acquire-ona",
-      "collectedAt": "2026-09-07T07:36:09.937Z"
+      "collectedAt": "2026-09-08T07:29:03.540Z"
     },
     {
       "id": "c24b9d70e899a62f23fe",
@@ -2991,7 +2957,41 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://openai.com/index/bbva",
-      "collectedAt": "2026-09-07T07:36:09.937Z"
+      "collectedAt": "2026-09-08T07:29:02.486Z"
+    },
+    {
+      "id": "46d6755fb18785fef07a",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "OpenAI to acquire Ona",
+      "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "content": "Today we’re announcing that OpenAI will acquire [Ona⁠(opens in a new window)](http://ona.com/), bringing its secure cloud execution and orchestration technology into our rapidly expanding Codex ecosystem.\n\nMore than 5 million people use Codex each week to research, analyze, build, and automate their work—up 400% from earlier this year. Codex began as a tool for software developers and now helps a wider range of people do complex work from an initial request through to a finished result.\n\nAs Codex becomes more capable, its most valuable work is unfolding over hours or days, rather than minutes. We believe people should be able to delegate more ambitious work without remaining tied to the machine where it began. The work should continue beyond the initial session, with Codex making it possible to stay connected and check progress, provide direction, make decisions, and review results from anywhere.\n\nOna will help us do that. Its technology provides secure, persistent environments where agents can access the tools, systems, and context they need to make progress over time.\n\nBy bringing Ona to OpenAI, we will expand Codex beyond work tied to a single device or active session and help more organizations deploy agents securely in production.\n\n## Giving Codex a persistent place to work\n\nOna has spent years helping developers move software development from local machines into the cloud. The company has helped 2 million developers work in secure, reproducible cloud environments and supports multiple shared customers.\n\nThat experience is directly relevant to the next phase of Codex, enabling agents to continue working inside a customer’s cloud environment even when laptops are closed.\n\n## Scaling Codex across production workflows\n\nAs organizations move from experimenting with agents to deploying them across production workflows, capable models are only one part of what they need.\nOrganizations should be able to give people the benefits of persistent agentic work with confidence, knowing agents are operating inside environments that meet their security, governance, and operational requirements. That means having control over where they run, what they can access, how credentials are scoped, how activity is logged, and how work moves through review.\n\nOna’s customer-controlled execution model will allow agents to operate inside an organization’s own cloud environment while OpenAI provides the intelligence and orchestration that power the experience. This gives organizations greater control over their infrastructure, data, and security boundaries without limiting what Codex can accomplish.\n\n## What’s next\n\nThe acquisition is subject to customary closing conditions, including receipt of required regulatory approvals. Until closing, OpenAI and Ona will remain separate and independent companies.\n\nAfter closing, the Ona team will join OpenAI and work with the Codex team to advance secure, persistent enterprise execution capabilities and help scale Codex to more enterprises worldwide.\n\nWe’re excited to welcome the Ona team to OpenAI as we build AI systems that help people and businesses create and accomplish more while meeting the security and control requirements of real-world deployment. Together, we will help engineering teams safely take on sustained work across the software lifecycle, from running tests and resolving issues to modernizing applications, addressing vulnerabilities, and supporting complex workflows over time.",
+      "contentZh": "今天，我们宣布 OpenAI 将收购 [Ona⁠（在新窗口中打开）](http://ona.com/)，将其安全的云端执行与编排技术纳入我们快速扩展的 Codex 生态系统。\n\n每周有超过 500 万人使用 Codex 进行研究、分析、构建和自动化工作——较今年早些时候增长了 400%。Codex 最初是面向软件开发者的工具，如今已帮助更广泛的人群，从初始请求到最终成果，完成复杂工作。\n\n随着 Codex 能力不断增强，其最有价值的工作正从几分钟扩展到数小时甚至数天。我们认为，人们应该能够委托更宏大的任务，而不必始终守在任务启动的机器旁。工作应在初始会话结束后继续推进，Codex 让人们能够随时保持连接、检查进度、提供方向、做出决策并从任何地方审查结果。\n\nOna 将帮助我们实现这一目标。其技术提供安全、持久的环境，使智能体能够访问所需的工具、系统和上下文，从而随时间推移不断取得进展。\n\n通过将 Ona 引入 OpenAI，我们将把 Codex 扩展到不再局限于单一设备或活跃会话的工作场景，并帮助更多组织在生产环境中安全部署智能体。\n\n## 为 Codex 提供持久的工作空间\n\nOna 多年来一直致力于帮助开发者将软件开发从本地机器迁移到云端。该公司已帮助 200 万开发者在安全、可复现的云端环境中工作，并支持多个共享客户。\n\n这些经验与 Codex 下一阶段的发展直接相关，使智能体即使在笔记本电脑关闭时，也能在客户的云环境中持续工作。\n\n## 将 Codex 扩展到生产工作流\n\n随着组织从试验智能体转向在生产工作流中部署它们，强大的模型只是所需的一部分。\n组织应能放心地让人们受益于持久的智能体工作，同时确保智能体在满足其安全、治理和运营要求的环境中运行。这意味着要控制智能体的运行位置、可访问内容、凭据范围、活动日志记录方式以及工作如何通过审查流程。\n\nOna 的客户控制执行模型将使智能体能够在组织自身的云环境中运行，而 OpenAI 则提供驱动体验的智能与编排能力。这使组织能够更好地控制其基础设施、数据和安全边界，同时不限制 Codex 所能实现的功能。\n\n## 下一步计划\n\n此次收购需满足常规交割条件，包括获得必要的监管批准。在交割完成前，OpenAI 和 Ona 将继续作为独立公司运营。\n\n交割完成后，Ona 团队将加入 OpenAI，与 Codex 团队合作，推进安全、持久的企业执行能力，并帮助 Codex 扩展到全球更多企业。\n\n我们很高兴欢迎 Ona 团队加入 OpenAI，共同构建能够帮助个人和企业创造更多成就的 AI 系统，同时满足实际部署中的安全与控制要求。我们将携手帮助工程团队安全地承担软件生命周期中的持续性工作，从运行测试、解决问题，到应用现代化、修复漏洞，以及支持长期复杂工作流。",
+      "titleZh": "OpenAI 将收购 Ona",
+      "summaryZh": "OpenAI 计划收购 Ona，以通过安全、持久的云环境扩展 Codex，从而在企业工作流中实现长期运行的 AI 代理。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-06-11T00:00:00.000Z",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "collectedAt": "2026-09-08T07:29:02.487Z"
+    },
+    {
+      "id": "5cf8d01eeb345b1be05a",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "How an astrophysicist uses Codex to help simulate black holes",
+      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+      "content": "The gravity around a black hole is so extreme that nothing, not even light, can escape once it gets close enough. Astrophysicists like Chi-kwan Chan study black holes with computer simulations and observations. But current algorithms and computing power limit how realistic those simulations can be.\n\nWith Codex, Chan—a researcher at the University of Arizona and Steward Observatory—is tackling this problem.\n\nBlack holes are among the best places to test Einstein’s general theory of relativity, he said. The theory is currently our best explanation of gravity: instead of a force pulling objects together, gravity is the result of mass and energy bending the fabric of space and time.\n\nChan is part of the international Event Horizon Telescope (EHT) collaboration, which published the first image of a black hole in 2019. The team is currently gathering observations to produce the first video of a supermassive black hole, focusing on the one at the center of the M87 galaxy.\n\nBut turning observations into scientific understanding requires enormous amounts of data processing, large-scale computing workflows, and simulations capable of modeling some of the most extreme physics in the universe.\n\nSince light can’t escape a black hole, scientists instead study the region around it called the event horizon, a boundary beyond which matter can’t escape. “It’s a surface of no return,” said Chan. Matter swirling just outside this boundary emits light that astrophysicists can see, measure, and simulate.\n\nThe 2019 image released by the EHT showed a black hole’s shadow embedded in glowing plasma near the event horizon. Chan helped develop the simulation and computing tools the team used to interpret the observations. Since then, Chan and his colleagues have continued improving their instruments and observing capabilities as the team moves from still images toward videos.\n\nA short video generated by a supercomputer simulation showing the movement of plasma around the black hole at the center of the Milky Way galaxy.\n\n**Credit:** EHT Theory Working Group / CK Chan\n\n**Addressing a spiraling problem**\n\nOne of the biggest roadblocks for Chan and his team is modeling the plasma around black holes. Plasma is superheated matter made up of electrically charged electrons and ions.\n\nIn many simulations, scientists simplify plasma by treating it like a fluid, using well-known equations to model its movement around a black hole. That works reasonably well in denser plasma where the electrons and ions constantly collide with each other.\n\nBut near the supermassive black holes that Chan and his colleagues are studying, some regions become so hot and diffuse that particles rarely encounter each other. “They don’t really collide with each other,” he said. Instead, the particles mostly spiral around magnetic field lines.\n\nTo model that behavior correctly, researchers need to follow trillions of electrons and ions as they rapidly corkscrew around a black hole. Standard simulations must calculate every tiny turn, forcing computers to take extremely small timesteps.\n\nAs a result, even the world’s fastest supercomputers can spend most of their time calculating these minuscule particle motions instead of simulating the larger behavior scientists actually want to study.\n\n“For decades, this has limited how realistically we can simulate black hole plasma,” Chan said.\n\n**Using AI to build a better digital twin**\n\nChan suspected that new mathematical techniques could help work around some of these limitations. The basic idea was to change, mathematically, how the simulation tracked particle motion so the computer no longer had to follow every tiny spiral directly.\n\n“But exploring all the mathematical possibilities by hand would have taken an enormous amount of time,” Chan said. So he turned to Codex to help derive candidate algorithms and test them against known solutions.\n\nCodex generated many potential approaches—not all of them correct. “But that’s okay,” Chan said. “Most scientific ideas fail. What matters is that these algorithms are testable. Once you find one that works, it can potentially unlock simulations that were previously impossible.”\n\nSome AI systems can return results without showing the steps they used to produce their conclusions. But Chan’s group uses Codex to propose and implement numerical schemes that they can inspect, test, and understand physically.\n\nLarge language models still make mistakes, and many scientists remain cautious about using AI in research. But Chan believes science may be one of the best uses for today’s AI systems precisely because scientific ideas can be tested rigorously.\n\n“We don’t accept an idea because it came from Einstein, from a bright student, or from an AI model,” he said. “We accept it only after repeated testing.”\n\nChan sees AI as a tool that can help researchers explore more ideas, test them faster, and accelerate discovery while remaining grounded in verification and reproducibility.\n\nIf the approaches that Chan is testing with Codex succeed, the new algorithms could eventually allow scientists to simulate trillions of particles around black holes. That would enable researchers to study physics that has remained out of reach for decades.",
+      "contentZh": "黑洞周围的引力极其强大，任何物质一旦靠近到一定距离，就连光也无法逃脱。像陈志均这样的天体物理学家通过计算机模拟和观测来研究黑洞，但当前的算法和计算能力限制了这些模拟的真实性。\n\n作为亚利桑那大学和斯图尔德天文台的研究员，陈志均正借助 Codex 攻克这一难题。\n\n他表示，黑洞是检验爱因斯坦广义相对论的最佳场所之一。该理论目前是我们对引力的最佳解释：引力并非将物体拉拢的力，而是质量与能量弯曲时空结构的结果。\n\n陈志均是国际事件视界望远镜（EHT）合作项目的成员，该项目于2019年发布了首张黑洞图像。该团队目前正在收集观测数据，旨在制作首部超大质量黑洞视频，重点关注M87星系中心的那个黑洞。\n\n然而，将观测转化为科学理解需要海量数据处理、大规模计算工作流以及能够模拟宇宙中最极端物理现象的仿真程序。\n\n由于光无法逃离黑洞，科学家转而研究其周围被称为事件视界的区域——这是一个物质无法逃逸的边界。“这是一道有去无回的表面，”陈志均说。在边界外旋转的物质会发出光线，天体物理学家可以观测、测量并模拟这些光。\n\nEHT于2019年发布的图像显示，黑洞的阴影嵌在事件视界附近炽热的等离子体中。陈志均协助开发了团队用于解读观测数据的模拟和计算工具。此后，随着团队从静态图像转向视频研究，陈志均和同事们持续改进仪器和观测能力。\n\n**一段由超级计算机模拟生成的短视频，展示了银河系中心黑洞周围等离子体的运动。**\n\n**图片来源：** EHT理论工作组 / CK Chan\n\n**应对螺旋难题**\n\n陈志均团队面临的最大障碍之一是模拟黑洞周围的等离子体。等离子体是由带电电子和离子组成的超高温物质。\n\n在许多模拟中，科学家将等离子体简化为流体，利用经典方程模拟其绕黑洞的运动。这种方法在密度较高、电子与离子频繁碰撞的等离子体中效果尚可。\n\n但在陈志均团队研究的超大质量黑洞附近，某些区域温度极高且物质稀薄，粒子几乎不会相遇。“它们实际上不会相互碰撞，”他说。相反，粒子主要沿磁力线螺旋运动。\n\n要正确模拟这种行为，研究人员需要追踪数万亿个电子和离子绕黑洞快速螺旋运动的轨迹。标准模拟必须计算每个微小转弯，迫使计算机采用极短的时间步长。\n\n结果，即便是全球最快的超级计算机，大部分时间也耗费在计算这些微观粒子运动上，而非模拟科学家真正想研究的宏观行为。\n\n“几十年来，这限制了我们对黑洞等离子体模拟的真实性，”陈志均说。\n\n**用AI构建更优的数字孪生**\n\n陈志均推测，新的数学技术或许能突破部分限制。基本思路是通过数学变换改变模拟追踪粒子运动的方式，使计算机无需直接追踪每个微小螺旋。\n\n“但手动探索所有数学可能性将耗费大量时间，”陈志均说。于是他借助 Codex 推导候选算法，并用已知解进行验证。\n\nCodex 生成了许多潜在方案——并非全部正确。“但这没关系，”他说，“大多数科学想法都会失败。关键在于这些算法是可检验的。一旦找到有效方案，就可能解锁此前无法实现的模拟。”\n\n某些AI系统能直接返回结果，却不展示推导步骤。但陈志均的团队利用 Codex 提出并实现数值方案，以便他们从物理角度检查、测试和理解。\n\n大型语言模型仍会出错，许多科学家对在研究中应用AI持谨慎态度。但陈志均认为，科学恰恰可能是当今AI系统的最佳应用场景之一，因为科学思想可以严格检验。\n\n“我们不会因为某个想法来自爱因斯坦、优秀学生或AI模型就接受它，”他说，“只有经过反复验证后才会接受。”\n\n陈志均将AI视为一种工具，能帮助研究人员探索更多想法、加速测试，并在坚持验证与可重复性的前提下推动发现。\n\n如果陈志均用 Codex 测试的方法成功，新算法最终将让科学家模拟黑洞周围数万亿个粒子。这将使研究人员得以研究数十年来难以触及的物理现象。",
+      "titleZh": "天体物理学家如何利用Codex模拟黑洞",
+      "summaryZh": "了解天体物理学家Chi-kwan Chan如何使用Codex构建黑洞模拟，帮助科学家研究极端物理学并检验爱因斯坦的广义相对论。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-06-11T00:00:00.000Z",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "collectedAt": "2026-09-08T07:29:02.487Z"
     },
     {
       "id": "2f865cea4009ebb80597",
@@ -3008,7 +3008,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.976Z"
+      "collectedAt": "2026-09-08T07:29:04.029Z"
     },
     {
       "id": "271132d8a2041b336c61",
@@ -3025,7 +3025,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T20:00:00.000Z",
       "url": "https://openai.com/index/openai-on-oracle-cloud",
-      "collectedAt": "2026-09-07T07:36:09.937Z"
+      "collectedAt": "2026-09-08T07:29:02.487Z"
     },
     {
       "id": "dd8ef022bc1c3f2bcd4e",
@@ -3042,7 +3042,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T16:24:11.000Z",
       "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
-      "collectedAt": "2026-09-07T07:36:12.436Z"
+      "collectedAt": "2026-09-08T07:29:05.513Z"
     },
     {
       "id": "55b4277f4767ea97239e",
@@ -3059,92 +3059,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T12:00:00.000Z",
       "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-      "collectedAt": "2026-09-07T07:36:09.938Z"
-    },
-    {
-      "id": "c294c90b25ad2202d7ea",
-      "sourceId": "claude-platform",
-      "company": "Anthropic",
-      "product": "Claude",
-      "kind": "api",
-      "title": "The GET /v1/environments/{id}/work endpoint, which lists pending work for a self-hosted sandbox, is now available on Claude Platform on AWS.",
-      "summary": "The GET /v1/environments/{id}/work endpoint, which lists pending work for a self-hosted sandbox, is now available on Claude Platform on AWS. See IAM actions for Claude Platform on AWS for the GetEnvironment action that authorizes it.",
-      "content": "The GET /v1/environments/{id}/work endpoint, which lists pending work for a self-hosted sandbox, is now available on Claude Platform on AWS. See IAM actions for Claude Platform on AWS for the GetEnvironment action that authorizes it.",
-      "contentZh": "GET /v1/environments/{id}/work 端点（用于列出自托管沙箱的待处理工作）现已在 AWS 上的 Claude Platform 中可用。请参阅 AWS 上 Claude Platform 的 IAM 操作，了解授权该操作的 GetEnvironment 操作。",
-      "titleZh": "GET /v1/environments/{id}/work 端点，用于列出自托管沙箱的待处理工作，现已在 AWS 上的 Claude Platform 中可用。",
-      "summaryZh": "GET /v1/environments/{id}/work 端点，用于列出自托管沙箱的待处理工作，现已在 AWS 上的 Claude Platform 中可用。有关授权该操作的 GetEnvironment 操作，请参阅 AWS 上 Claude Platform 的 IAM 操作。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-10T00:00:00.000Z",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-07T07:36:10.976Z"
-    },
-    {
-      "id": "3f596d04752d28827a43",
-      "sourceId": "deepmind-news",
-      "company": "Google DeepMind",
-      "product": "Gemini",
-      "kind": "news",
-      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
-      "summary": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
-      "content": "Jun 09, 2026\n\n|\n\n5 min read\n\nGemini 3.5 Live Translate is our latest audio model, delivering near real-time speech-to-speech translation in over 70 languages.\n\n* * *\n\nAnuda Weerasinghe\n\nProduct Manager\n\nTony Lu\n\nSenior Staff Software Engineer\n\n* * *\n\n![Image 1: Sparkle next to text \"Gemini 3.5 Live Translate\"](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/3-5_Live_Translate_hero.width-200.format-webp.webp)\n\n[Audio 3](https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_85287_umbriel_2026_06_09_15_20_53.wav)\n\nListen to article\n\n[[duration]] minutes\n\nThis content is generated by Google AI. Generative AI is experimental\n\nTwenty years ago, [translation at Google](https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/) began as one of our pioneering machine learning experiments to turn the science of language into the magic of human connection. That experiment has come a long way with over a trillion words being translated for billions of users across our products every month.\n\nToday, we’re taking our next step with the release of Gemini 3.5 Live Translate, our latest audio model for live speech-to-speech translation.\n\nThe model automatically detects 70+ languages and generates smooth, natural-sounding translated speech that preserves the speakers' intonation, pacing and pitch. Unlike turn by turn systems that wait for the speaker to finish speaking before responding, 3.5 Live Translate generates speech continuously, balancing the trade-off between waiting for context to improve quality and translating immediately to stay in sync with the speaker. It delivers fluid audio without awkward pauses and stays just a few seconds behind the speaker throughout the session.\n\nGemini 3.5 Live Translate is rolling out starting today across Google products:\n\n*   For developers in public preview via the [Gemini Live API](https://ai.google.dev/gemini-api/docs/live-api/live-translate) and [Google AI Studio](https://aistudio.google.com/live?model=gemini-3.5-live-translate-preview)\n*   For enterprises in private preview starting this month in [Google Meet](https://workspace.google.com/products/meet/)\n*   For everyone via Google Translate on [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.translate&26hl=en) and [iOS](https://apps.apple.com/us/app/google-translate/id414706506)\n\n## Build with 3.5 Live Translate\n\nGemini 3.5 Live Translate processes speech as it’s streamed, enabling a more seamless connection across languages. The model handles multilingual inputs without the need to manually configure settings. At the same time, its noise robustness ensures applications can handle loud, unpredictable environments. You can use its capabilities to help facilitate live interpretation for multilingual calls, meetings, lessons, broadcasts and more.\n\nWatch the Gemini Live API in action, enabling dubbing and simultaneous multi-language translation. Dive into the [demo](https://github.com/google-gemini/gemini-live-api-examples/tree/main/gemini-live-translate-livekit) or more [example code](https://github.com/google-gemini/gemini-live-api-examples) in the Gemini Cookbook.\n\nBy utilizing the Gemini Live API, developer platforms like [Agora](https://docs.agora.io/en/conversational-ai/models/mllm/gemini), [Fishjam](https://docs.fishjam.io/tutorials/gemini-live-integration), [LiveKit](https://docs.livekit.io/agents/models/realtime/plugins/gemini/), [Pipecat](https://docs.pipecat.ai/guides/features/gemini-live), and [Vision Agents](https://visionagents.ai/integrations/gemini) enable developers to build and deploy voice translation apps with ease. These integrations handle the complex real-time media streaming infrastructure, so developers can focus on the user experience.\n\nOur partners at Grab are testing the model to enable multilingual communication in near real-time between drivers and travelers at pickups. These users make over 10 million voice calls per month through Grab.\n\nSee how Grab has been testing 3.5 Live Translate to transform communication between users.\n\n## Read the early reviews\n\nIn addition to Grab, companies like CJ ENM, LiveKit and others have shared positive feedback on 3.5 Live Translate highlighting its impressive translation quality, accuracy and low latency:\n\n## Experience 3.5 Live Translate in your video meetings\n\n[Speech translation](https://support.google.com/meet/answer/16221730?hl=en) in Google Meet will soon use 3.5 Live Translate, improving the experience by:\n\n*   Offering 70+ languages, an improvement from the previous limit of just five languages,\n*   Enabling conversations across over 2000+ language combinations in one meeting, expanding from the previous state of only translating to and from English,\n*   Updating the interface to provide instant access to speech translation.\n\nWe’re launching this update in private preview for select business Google Workspace customers starting this month, followed by a broader rollout later this year.\n\nGoogle Meet participants use speech translation to communicate across English, Mandarin, and Swedish.\n\n## Get 3.5 Live Translate in the Google Translate app on Android or iOS\n\nThe model is also rolling out on the Google Translate app globally, on both [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.translate) and [iOS](https://apps.apple.com/us/app/google-translate/id414706506). When using the Live translate feature, simply connect any pair of headphones to experience a more seamless translation that mirrors the speaker’s tone across 70+ languages.\n\nFor Android users, we’re also starting to roll out a new ‘listening mode’ with 3.5 Live Translate that lets you hear translations directly through your phone’s earpiece. Simply hold your phone to your ear just like a regular call, and the translated audio streams straight to you. This new experience can be helpful in situations where you want to quickly hear translations without others hearing, and you don’t have your headphones handy.\n\nUsing the new listening mode, users can hear a near real-time English translation of a guided tour in Spanish directly through their phone's earpiece.\n\n## Watermarked with SynthID\n\nAll audio generated by our models is watermarked with SynthID. This imperceptible watermark is woven directly into the audio output, ensuring AI-generated content remains detectable to help prevent misinformation. For details on our approach to safety and responsibility, review the [model card](https://deepmind.google/models/model-cards/gemini-3-5-audio/).",
-      "contentZh": "2026年6月9日\n\n|\n\n5分钟阅读\n\nGemini 3.5 Live Translate 是我们最新的音频模型，可在超过70种语言中实现近乎实时的语音到语音翻译。\n\n* * *\n\nAnuda Weerasinghe\n\n产品经理\n\nTony Lu\n\n高级首席软件工程师\n\n* * *\n\n![图片1：文字\"Gemini 3.5 Live Translate\"旁有闪光图标](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/3-5_Live_Translate_hero.width-200.format-webp.webp)\n\n[音频3](https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_85287_umbriel_2026_06_09_15_20_53.wav)\n\n收听文章\n\n[[时长]]分钟\n\n此内容由 Google AI 生成。生成式 AI 为实验性技术。\n\n二十年前，[Google 翻译](https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/)作为我们开创性的机器学习实验之一起步，旨在将语言科学转化为人类连接的魔力。如今，该实验已取得长足进展，每月为数十亿用户翻译超过一万亿个单词。\n\n今天，我们迈出了下一步，发布了 Gemini 3.5 Live Translate，这是我们用于实时语音到语音翻译的最新音频模型。\n\n该模型可自动检测70多种语言，并生成流畅、自然的翻译语音，同时保留说话者的语调、语速和音高。与需要等待说话者说完才响应的逐轮系统不同，3.5 Live Translate 持续生成语音，在等待上下文以提高质量与立即翻译以保持与说话者同步之间取得平衡。它提供流畅的音频，没有尴尬的停顿，在整个会话过程中仅比说话者延迟几秒。\n\nGemini 3.5 Live Translate 从今天起开始在 Google 产品中推出：\n\n*   面向开发者，通过 [Gemini Live API](https://ai.google.dev/gemini-api/docs/live-api/live-translate) 和 [Google AI Studio](https://aistudio.google.com/live?model=gemini-3.5-live-translate-preview) 提供公开预览\n*   面向企业，从本月起在 [Google Meet](https://workspace.google.com/products/meet/) 中提供私有预览\n*   面向所有人，通过 [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.translate&26hl=en) 和 [iOS](https://apps.apple.com/us/app/google-translate/id414706506) 上的 Google 翻译提供\n\n## 使用 3.5 Live Translate 进行构建\n\nGemini 3.5 Live Translate 在语音流式传输时进行处理，实现跨语言更无缝的连接。该模型处理多语言输入，无需手动配置设置。同时，其噪声鲁棒性确保应用能够处理嘈杂、不可预测的环境。您可以使用其功能来促进多语言通话、会议、课程、广播等的实时口译。\n\n观看 Gemini Live API 的实际应用，实现配音和同步多语言翻译。深入了解 [demo](https://github.com/google-gemini/gemini-live-api-examples/tree/main/gemini-live-translate-livekit) 或 Gemini Cookbook 中的更多[示例代码](https://github.com/google-gemini/gemini-live-api-examples)。\n\n通过利用 Gemini Live API，像 [Agora](https://docs.agora.io/en/conversational-ai/models/mllm/gemini)、[Fishjam](https://docs.fishjam.io/tutorials/gemini-live-integration)、[LiveKit](https://docs.livekit.io/agents/models/realtime/plugins/gemini/)、[Pipecat](https://docs.pipecat.ai/guides/features/gemini-live) 和 [Vision Agents](https://visionagents.ai/integrations/gemini) 这样的开发者平台使开发者能够轻松构建和部署语音翻译应用。这些集成处理复杂的实时媒体流基础设施，因此开发者可以专注于用户体验。\n\n我们的合作伙伴 Grab 正在测试该模型，以实现司机和乘客在接送点之间近乎实时的多语言交流。这些用户每月通过 Grab 进行超过1000万次语音通话。\n\n了解 Grab 如何测试 3.5 Live Translate 以改变用户之间的沟通。\n\n## 阅读早期评价\n\n除了 Grab，CJ ENM、LiveKit 等公司也对 3.5 Live Translate 给予了积极反馈，称赞其令人印象深刻的翻译质量、准确性和低延迟：\n\n## 在视频会议中体验 3.5 Live Translate\n\nGoogle Meet 中的[语音翻译](https://support.google.com/meet/answer/16221730?hl=en)将很快使用 3.5 Live Translate，通过以下方式改善体验：\n\n*   提供70多种语言，相比之前仅限五种语言有所改进，\n*   支持在一次会议中跨越2000多种语言组合进行对话，从之前仅支持与英语互译的状态扩展，\n*   更新界面以提供对语音翻译的即时访问。\n\n我们从本月开始向选定的商业 Google Workspace 客户以私有预览形式推出此更新，随后将在今年晚些时候更广泛地推出。\n\nGoogle Meet 参与者使用语音翻译在英语、普通话和瑞典语之间进行交流。\n\n## 在 Android 或 iOS 上的 Google 翻译应用中获取 3.5 Live Translate\n\n该模型也正在全球范围内的 Google 翻译应用中推出，适用于 [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.translate) 和 [iOS](https://apps.apple.com/us/app/google-translate/id414706506)。使用实时翻译功能时，只需连接任何一副耳机，即可体验更无缝的翻译，该翻译能反映说话者的语调，覆盖70多种语言。\n\n对于 Android 用户，我们还开始推出带有 3.5 Live Translate 的新“聆听模式”，让您可以直接通过手机听筒听到翻译。只需像普通通话一样将手机贴近耳朵，翻译后的音频就会直接传输给您。当您想快速听到翻译而不想让别人听到，且手边没有耳机时，这种新体验会很有帮助。\n\n使用新的聆听模式，用户可以直接通过手机听筒听到西班牙语导游讲解的近乎实时的英语翻译。\n\n## 使用 SynthID 添加水印\n\n我们模型生成的所有音频都使用 SynthID 添加了水印。这种不可察觉的水印直接嵌入音频输出中，确保 AI 生成的内容保持可检测性，以帮助防止错误信息。有关我们安全和责任方法的详细信息，请查看[模型卡片](https://deepmind.google/models/model-cards/gemini-3-5-audio/)。",
-      "titleZh": "使用 Gemini 3.5 Live Translate 实现流畅自然的语音翻译",
-      "summaryZh": "Gemini 3.5 Live Translate 为 Google AI Studio、Google 翻译和 Google Meet 带来了近乎实时的自然语音翻译。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-09T15:16:25.000Z",
-      "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
-      "collectedAt": "2026-09-07T07:36:12.436Z"
-    },
-    {
-      "id": "9e66a7e36eb33f1bf16e",
-      "sourceId": "deepmind-news",
-      "company": "Google DeepMind",
-      "product": "Gemini",
-      "kind": "news",
-      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
-      "summary": "",
-      "content": "Jun 03, 2026\n\n|\n\n3 min read\n\nGemma 4 12B is designed to bring high-performance multimodal intelligence directly to your laptop, combining mobile-first efficiency with advanced reasoning.\n\n* * *\n\nOlivier Lacombe\n\nDirector of Product Management, Google Deepmind\n\nGus Martins\n\nProduct Manager, Google DeepMind\n\n* * *\n\n![Image 1: Gemma 4 12B Unified Transformer](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_Visual_G4_12B_1.width-200.format-webp.webp)\n\n[Audio 3](https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_85218_umbriel_2026_06_03_16_06_53.wav)\n\nListen to article\n\n[[duration]] minutes\n\nThis content is generated by Google AI. Generative AI is experimental\n\nToday, we are introducing Gemma 4 12B, our latest model designed to bring agentic multimodal intelligence directly to laptops. Bridging the gap between our edge-friendly E4B and our more advanced 26B Mixture of Experts (MoE), Gemma 4 12B packages powerful capabilities inside a reduced memory footprint. It is also our first mid-sized model to feature native audio inputs.\n\nThanks to the developer community, [Gemma 4](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/) models have now crossed 150 million downloads. You’ve built everything from[wearable robotic arms](https://www.youtube.com/watch?v=OhaIA3bYwmg) for physical assistance to[enterprise-grade AI security](https://deepmind.google/models/gemma/gemmaverse/hirundo/). We're excited to see what you build with this latest addition.\n\nHere’s an overview of what makes Gemma 4 12B unique:\n\n*   **Novel unified architecture:** No multimodal encoders. The vision and audio inputs flow directly into the LLM backbone.\n*   **Advanced reasoning:** Benchmark performance nearing our 26B model, unlocking powerful multi-step reasoning and agentic workflows.\n*   **Laptop ready:** Small enough to run locally with just 16GB of VRAM or unified memory.\n*   **Open and accessible:** Released under an Apache 2.0 license with support across the developer ecosystem.\n*   **Drafter-ready:** Gemma 4 12B comes equipped with Multi-Token Prediction (MTP) drafters to reduce latency.\n\nTogether, these features bring advanced multimodal capabilities to everyday hardware without sacrificing speed or reasoning. Let's now take a closer look at how Gemma 4 12B achieves this.\n\n### Run state-of-the-art agents locally\n\nGemma 4 12B delivers performance nearing our larger 26B MoE model on standard benchmarks, but at less than half the total memory footprint. Small enough to run locally on consumer laptops with 16GB of RAM, it unlocks powerful multimodal and agentic experiences right on your machine.\n\n## Experience a uniquely efficient, unified architecture\n\nWhat makes Gemma 4 12B stand out is its streamlined approach to processing visual and audio inputs. Traditional multimodal models typically rely on separate encoders to translate images and audio before passing those representations to the language model. Because these split encoders add latency and increase memory usage, we trained Gemma 4 12B with an encoder-free architecture to integrate audio and vision input directly.\n\nHere is how Gemma 4 12B processes multimodal inputs natively:\n\n*   **Vision:** We replaced Gemma 4’s vision encoder with a lightweight embedding module consisting of a single matrix multiplication, positional embedding and normalizations. This allows the LLM backbone to take over visual processing.\n*   **Audio:** We simplified audio processing even further. We removed the audio encoder entirely and projected the raw audio signal into the same dimensional space as text tokens.\n\nFor developers who want a breakdown, head over to our companion Gemma 4 12B [Developer Guide](https://developers.googleblog.com/gemma-4-12b-the-developer-guide/).\n\nSee native audio processing in action: Watch Gemma 4 12B transcribe, format, and translate voice inputs entirely offline using the Google AI Edge Eloquent app.\n\n## Get started today\n\n*   **Try it yourself**: Experiment with a couple of clicks in [LM Studio](https://lmstudio.ai/models/gemma-4), [Ollama](https://ollama.com/library/gemma4), [Google AI Edge Gallery App](https://developers.google.com/edge/gallery), the [Google AI Edge Eloquent](https://ai.google.dev/edge/eloquent) app and the [LiteRT-LM CLI](https://ai.google.dev/edge/litert-lm/cli)\n*   **Download the weights**: Download the pre-trained and instruction-tuned checkpoints directly from [Hugging Face](https://huggingface.co/collections/google/gemma-4) and [Kaggle](https://www.kaggle.com/models/google/gemma-4).\n*   **Integrate & learn:** Review the [developer documentation](https://ai.google.dev/gemma/docs/core) and the [quick start notebook](https://ai.google.dev/gemma/docs/capabilities/text/basic).\n*   **Use your favorite development tools**: Implement local inference pipelines with [Hugging Face Transformers](https://huggingface.co/google/gemma-4-12B-it), [llama.cpp](https://huggingface.co/collections/ggml-org/gemma-4), [MLX](https://huggingface.co/collections/mlx-community/gemma-4), [SGLang](https://docs.sglang.io/cookbook/autoregressive/Google/Gemma4), and [vLLM](https://docs.vllm.ai/projects/recipes/en/latest/Google/Gemma4.html), or fine-tune with efficiency using [Unsloth](https://unsloth.ai/docs/models/gemma-4).\n*   **Unlock Agentic Development with Gemma Skills:** To support agents to build with the latest Gemma advancements, we are releasing our official [Skills Repository](https://github.com/google-gemma/gemma-skills). This is a library of skills designed specifically to enable agents to build with Gemma models.\n*   **Deploy your way:** Spin up endpoints in production using Google Cloud. Deploy your way through [Gemini Enterprise Agent Platform Model Garden](https://console.cloud.google.com/agent-platform/publishers/google/model-garden/gemma4;publisherModelVersion=gemma-4-12b-it), [Cloud Run](https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-gpu-rtx-pro-6000-gemma4-vllm) and [GKE](https://docs.cloud.google.com/kubernetes-engine/docs/tutorials/serve-gemma-gpu-vllm).",
-      "contentZh": "2026年6月3日\n\n|\n\n3 分钟阅读\n\nGemma 4 12B 旨在将高性能多模态智能直接带到你的笔记本电脑上，融合了移动优先的效率与高级推理能力。\n\n* * *\n\nOlivier Lacombe\n\nGoogle Deepmind 产品管理总监\n\nGus Martins\n\nGoogle DeepMind 产品经理\n\n* * *\n\n![图片 1：Gemma 4 12B 统一变换器](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_Visual_G4_12B_1.width-200.format-webp.webp)\n\n[音频 3](https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_85218_umbriel_2026_06_03_16_06_53.wav)\n\n收听文章\n\n[[duration]] 分钟\n\n此内容由 Google AI 生成。生成式 AI 为实验性技术。\n\n今天，我们推出 Gemma 4 12B，这是我们最新的模型，旨在将智能体多模态智能直接带到笔记本电脑上。Gemma 4 12B 填补了边缘友好的 E4B 与更先进的 26B 混合专家模型之间的空白，在更小的内存占用内封装了强大的能力。这也是我们首款支持原生音频输入的中型模型。\n\n得益于开发者社区，[Gemma 4](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/) 模型的下载量现已突破 1.5 亿次。你们用它构建了从[可穿戴机械臂](https://www.youtube.com/watch?v=OhaIA3bYwmg)（用于物理辅助）到[企业级 AI 安全](https://deepmind.google/models/gemma/gemmaverse/hirundo/)的各种应用。我们很期待看到你们用这个最新版本能创造出什么。\n\n以下是 Gemma 4 12B 独特之处的概述：\n\n*   **新颖的统一架构：** 无需多模态编码器。视觉和音频输入直接流入 LLM 主干网络。\n*   **高级推理：** 基准测试性能接近我们的 26B 模型，解锁强大的多步推理和智能体工作流。\n*   **笔记本电脑就绪：** 体积小巧，仅需 16GB VRAM 或统一内存即可本地运行。\n*   **开放且可访问：** 在 Apache 2.0 许可下发布，并得到整个开发者生态系统的支持。\n*   **草稿模型就绪：** Gemma 4 12B 配备多令牌预测草稿器，可降低延迟。\n\n这些特性共同将先进的多模态能力带到了日常硬件上，同时不牺牲速度或推理能力。现在，让我们更深入地了解 Gemma 4 12B 是如何实现这一点的。\n\n### 在本地运行最先进的智能体\n\nGemma 4 12B 在标准基准测试中性能接近我们更大的 26B MoE 模型，但总内存占用不到其一半。它体积小巧，可在配备 16GB RAM 的消费级笔记本电脑上本地运行，从而在你的机器上解锁强大的多模态和智能体体验。\n\n## 体验独特高效的统一架构\n\nGemma 4 12B 的突出之处在于其处理视觉和音频输入的简化方法。传统的多模态模型通常依赖独立的编码器来翻译图像和音频，然后将这些表示传递给语言模型。由于这些分离的编码器会增加延迟和内存使用，我们采用无编码器架构训练了 Gemma 4 12B，以直接集成音频和视觉输入。\n\n以下是 Gemma 4 12B 原生处理多模态输入的方式：\n\n*   **视觉：** 我们将 Gemma 4 的视觉编码器替换为一个轻量级嵌入模块，该模块仅包含一次矩阵乘法、位置嵌入和归一化。这使得 LLM 主干网络能够接管视觉处理。\n*   **音频：** 我们进一步简化了音频处理。我们完全移除了音频编码器，并将原始音频信号投影到与文本令牌相同的维度空间。\n\n对于想要详细了解的开发者，请访问我们的配套 Gemma 4 12B [开发者指南](https://developers.googleblog.com/gemma-4-12b-the-developer-guide/)。\n\n观看原生音频处理的实际应用：观看 Gemma 4 12B 使用 Google AI Edge Eloquent 应用，完全离线转录、格式化并翻译语音输入。\n\n## 立即开始使用\n\n*   **亲自尝试：** 在 [LM Studio](https://lmstudio.ai/models/gemma-4)、[Ollama](https://ollama.com/library/gemma4)、[Google AI Edge Gallery 应用](https://developers.google.com/edge/gallery)、[Google AI Edge Eloquent](https://ai.google.dev/edge/eloquent) 应用和 [LiteRT-LM CLI](https://ai.google.dev/edge/litert-lm/cli) 中，只需点击几下即可进行实验。\n*   **下载权重：** 直接从 [Hugging Face](https://huggingface.co/collections/google/gemma-4) 和 [Kaggle](https://www.kaggle.com/models/google/gemma-4) 下载预训练和指令微调检查点。\n*   **集成与学习：** 查看[开发者文档](https://ai.google.dev/gemma/docs/core)和[快速入门笔记本](https://ai.google.dev/gemma/docs/capabilities/text/basic)。\n*   **使用你喜爱的开发工具：** 使用 [Hugging Face Transformers](https://huggingface.co/google/gemma-4-12B-it)、[llama.cpp](https://huggingface.co/collections/ggml-org/gemma-4)、[MLX](https://huggingface.co/collections/mlx-community/gemma-4)、[SGLang](https://docs.sglang.io/cookbook/autoregressive/Google/Gemma4) 和 [vLLM](https://docs.vllm.ai/projects/recipes/en/latest/Google/Gemma4.html) 实现本地推理管道，或使用 [Unsloth](https://unsloth.ai/docs/models/gemma-4) 高效微调。\n*   **使用 Gemma Skills 解锁智能体开发：** 为支持智能体利用最新的 Gemma 进展进行构建，我们发布了官方的 [Skills 仓库](https://github.com/google-gemma/gemma-skills)。这是一个专门为让智能体能够使用 Gemma 模型进行构建而设计的技能库。\n*   **按需部署：** 使用 Google Cloud 在生产环境中启动端点。通过 [Gemini Enterprise Agent Platform Model Garden](https://console.cloud.google.com/agent-platform/publishers/google/model-garden/gemma4;publisherModelVersion=gemma-4-12b-it)、[Cloud Run](https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-gpu-rtx-pro-6000-gemma4-vllm) 和 [GKE](https://docs.cloud.google.com/kubernetes-engine/docs/tutorials/serve-gemma-gpu-vllm) 按需部署。",
-      "titleZh": "Gemma 4 12B 介绍：统一的无编码器多模态模型",
-      "summaryZh": "",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-09T14:10:19.000Z",
-      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
-      "collectedAt": "2026-09-07T07:36:12.436Z"
-    },
-    {
-      "id": "85c8f77c366cd8be2604",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "How engineers at Nextdoor use Codex to build without limits",
-      "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
-      "content": "A product like Nextdoor, which serves over 110 million users across 11 countries, puts many demands on a platform team. For Cory Dolphin, Head of Engineering at, Codex represents an essential shift: “away from iteratively prompting an agent, and towards outcome engineering, where engineers start to think about the result they want to see and work with an agent to engineer that result.”\n\nThis means that individual engineers move up the stack—no longer locked up as specialists in a certain system or framework, they’re able to own the product experience more or less end-to-end, even across multiple platforms. Productivity has accelerated so much that the bottleneck is no longer engineering, but rather the hard strategic questions about what to build next.\n\n> “Codex has fundamentally changed how we think about engineering, to the point that we can’t even imagine engineering without it.”\n\n—Cory Dolphin, Head of Engineering, Nextdoor\n\n## Product engineers can focus on the product\n\nWith Codex, “engineers get to spend a lot less time thinking about exactly _how_ they build, and more time thinking about the outcome,” Dolphin explains. That outcome might take the form of screenshots or video that the agent can build towards, a certain performance or test result, or a brand new feature idea.\n\nNextdoor recently released Opportunity Alerts, which let people find service providers near them; with Codex, engineers are driving the product experience and roadmap. As an example, one engineer working on the alerts realized it would be helpful to show service providers on a map. Historically, that kind of feature would have required collaboration between three teams—mobile, frontend, and backend engineering—and might have never made it out of the backlog.\n\nBut with Codex, “we were able to have one engineer build it end to end,” Dolphin explains, “which means not only are they able to drive the product faster, but they’re able to better understand the actual product experience and what the right thing to ship is.”\n\n> “As engineers start to shift up the stack, they get to be more responsible for the product that they’re building. You really see individual engineers start to drive products.”\n\n—Cory Dolphin, Head of Engineering, Nextdoor\n\n## Compressing software engineering time\n\nWorking with embedded Rust databases and systems with tight race conditions, Nextdoor turns to Codex for help debugging the most hard-to-reproduce issues. The team provides the agent with a clean environment and harness for investigation, then uses it for everything from figuring out why Kubernetes pods won’t start, to finding the right trend line in a data analysis.\n\n“With GPT‑5.4 and 5.5, it’s been a really impressive upgrade. We see Codex excel at being extremely persistent and trying to figure out the right solution, diving deep into some seemingly esoteric technical details to arrive at the root cause,” Dolphin explains.\n\nAbout Fast Mode with Codex and GPT‑5.5, Dolphin says, “I’ve got to be honest, a lot of the team are addicted to it. When you have a quick feedback loop with the problem that you’re working on, the feeling is exhilarating as an engineer.”\n\nEngineering work has gotten so much faster that Dolphin has seen a shift in the pressures on different parts of the organization. “We’re moving so much faster that the bottlenecks are no longer in engineering. It’s really now a question of, how can we identify the right things to build and the right strategy—and less about how we actually build it.”",
-      "contentZh": "像 Nextdoor 这样覆盖 11 个国家、服务超过 1.1 亿用户的产品，对平台团队提出了诸多要求。对于 Nextdoor 工程主管 Cory Dolphin 而言，Codex 代表着一项根本性转变：“从反复提示智能体，转向结果工程——工程师开始思考他们想要看到的结果，并与智能体协作来实现这一结果。”\n\n这意味着个体工程师能够向上迁移——不再局限于某个特定系统或框架的专家角色，而是能够或多或少地端到端掌控产品体验，甚至跨多个平台。生产力提升如此显著，以至于瓶颈已不再是工程本身，而是关于下一步该构建什么的艰难战略问题。\n\n> “Codex 从根本上改变了我们对工程的思考方式，以至于我们无法想象没有它的工程实践。”\n\n——Cory Dolphin，Nextdoor 工程主管\n\n## 产品工程师可以专注于产品本身\n\nDolphin 解释道，借助 Codex，“工程师可以花更少的时间思考具体如何构建，而将更多时间用于思考最终成果。”这些成果可能表现为智能体可以构建的截图或视频、特定的性能或测试结果，或者全新的功能创意。\n\nNextdoor 最近推出了“机会提醒”功能，帮助用户找到附近的服务提供商；借助 Codex，工程师正在驱动产品体验和路线图。例如，一位负责提醒功能的工程师意识到，在地图上显示服务提供商会很有帮助。在过去，这类功能需要移动端、前端和后端工程三个团队协作，甚至可能永远无法从待办事项中脱身。\n\n但有了 Codex，“我们让一位工程师端到端地完成了构建，”Dolphin 解释道，“这意味着他们不仅能更快地推动产品，还能更好地理解实际产品体验以及什么才是正确的发布内容。”\n\n> “随着工程师开始向上迁移，他们对自己构建的产品承担了更多责任。你会真正看到个体工程师开始驱动产品。”\n\n——Cory Dolphin，Nextdoor 工程主管\n\n## 压缩软件工程时间\n\n在处理嵌入式 Rust 数据库和存在严格竞态条件的系统时，Nextdoor 借助 Codex 来调试那些最难复现的问题。团队为智能体提供干净的环境和测试框架，然后利用它解决从 Kubernetes Pod 无法启动到在数据分析中找到正确趋势线等各种问题。\n\n“使用 GPT‑5.4 和 5.5 后，我们看到了令人印象深刻的升级。Codex 在极其持久地尝试找到正确解决方案方面表现出色，能够深入探究一些看似深奥的技术细节，最终找到根本原因，”Dolphin 解释道。\n\n关于 Codex 和 GPT‑5.5 的快速模式，Dolphin 表示：“老实说，团队里很多人都对它上瘾了。当你与正在解决的问题之间拥有快速反馈循环时，作为工程师会感到无比兴奋。”\n\n工程工作变得如此之快，以至于 Dolphin 观察到组织不同部门面临的压力发生了转变。“我们的速度大大提升，瓶颈已不再存在于工程领域。现在真正的问题是，如何识别正确的构建方向和策略——而不再是关于如何实际构建它。”",
-      "titleZh": "Nextdoor 工程师如何利用 Codex 无限制地构建",
-      "summaryZh": "Nextdoor 工程师如何利用 Codex 与 GPT-5.5 调查难以复现的问题、跨平台构建并专注于产品成果。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-09T12:00:00.000Z",
-      "url": "https://openai.com/index/nextdoor",
-      "collectedAt": "2026-09-07T07:36:09.938Z"
-    },
-    {
-      "id": "cf7da16f8eca08cdd1c8",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "What Codex unlocks for Notion",
-      "summary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
-      "content": "At Notion, Codex is changing how engineers build. The company is rethinking the software primitives and abstractions it builds so that agents can use them. When bringing a new engineer onto the team, they're hiring for curiosity and open-mindedness, since the years of experience the field would normally call for don't exist yet. And managers who hadn't written production code in years are back in the codebase, shipping alongside their teams.\n\nRyan Nystrom runs AI Product Engineering at Notion. In his year-plus tenure, his team has built or touched nearly every AI feature in the product. They’re finding that turning to Codex has unlocked new possibilities for what they can take on.\n\n> “What I appreciate about Codex is that it takes its time to figure things out before actually building. The result is that usually what it builds is to our codebase’s standards off the bat, rather than me having to go back and clean up a bunch of its work.”\n\n—Ryan Nystrom, AI Product Engineering, Notion\n\n### Building Notion’s AI voice input on the web\n\nCodex’s ability to autonomously execute showed up clearly in a recent project. Ryan exclusively used Codex to bring Notion’s AI voice input to the web.\n\n\"When we talk, we can provide so much more context,\" he says. \"If I'm typing, I'm thinking about my prose, what words I'm using. By giving this feature to users on Notion, they're able to ask more organic questions and include a lot more context. We wanted to bring that to Notion AI.\"\n\nWhen the feature request came in, Notion's mobile app already had a functional version, but the desktop and web client didn't. Even though Ryan wasn't entirely sure how the feature worked on mobile, he was able to give the problem to Codex. He pointed it at the mobile codebase, gave it a clear description of how it would need to look on the web, and provided a way to verify the result. Codex came back with a complete first cut of the web implementation, in one shot, that matched Notion's codebase conventions closely enough to ship the next day.\n\n\"If I were to build the Notion voice input feature two years ago, this is a project that would've taken me and maybe another engineer two weeks,\" Ryan says. \"With Codex, I was able to build this in maybe three or four hours, entirely by myself.\"\n\n> “It spent a bunch of time exploring our mobile code, and then finally came back and wrote the entire feature basically in one shot. I shipped it the next day and immediately started letting users test it.”\n\n—Ryan Nystrom, AI Product Engineering, Notion\n\n### How the work has changed\n\nEngineers at Notion can routinely hand Codex a set of tasks and a way to check its work, then step away while it runs. \"I've almost found myself spending a lot more time writing these spec documents that I can hand to Codex and let it work on,\" Ryan says. \"Honestly, I don't really write code by hand anymore.\"\n\nBefore Codex, each engineer on the team could really focus on only one task at a time, squeezed between meetings and supporting peers. Now they're running multiple tasks in parallel, firing off work without losing any of the team support that used to be the bottleneck.\n\n\"I manage a team of people, and traditionally managers haven't had time to write code,\" he says. \"The fact that I can build a feature solo while still supporting my team is crazy. I've been managing for five-plus years and never been able to go this deep on coding problems.\"\n\nNow he can simply queue up a task, head into a block of meetings, and come back to a finished feature. Or he and his team get a manager who can ship alongside them, and Ryan gets back a part of the job he'd assumed he had traded away. This availability runs past the workday, too. He'll pose a research question before bed, let Codex run overnight, and wake up to a finished report.\n\nCodex has reset the baseline for what a small team (even a team of one!) can ship, and given Notion's engineers more room to focus on the work they care about most.\n\n> “Whenever I need to research a task, fix a bug, or make a little tweak, Codex is just there, ready and willing. Basically, I’ve got an intern available at Notion 24/7.”\n\n—Ryan Nystrom, AI Product Engineering, Notion",
-      "contentZh": "在Notion，Codex正在改变工程师构建产品的方式。公司正在重新思考其构建的软件基元和抽象层，以便智能体能够使用它们。在招募新工程师加入团队时，他们看重的是好奇心和开放思维，因为该领域通常要求的多年经验目前尚不存在。而那些多年未编写生产代码的管理者，如今也重新回到代码库，与团队一起交付产品。\n\nRyan Nystrom负责Notion的AI产品工程。在过去一年多的时间里，他的团队构建或涉及了产品中几乎所有AI功能。他们发现，借助Codex，他们能够承担的任务范围解锁了新的可能性。\n\n> “我欣赏Codex的一点是，它在实际构建之前会花时间弄清楚问题。结果是，它构建的代码通常能直接符合我们代码库的标准，而不需要我回头清理一大堆它的工作。”\n\n——Ryan Nystrom，Notion AI产品工程\n\n### 在网页端构建Notion的AI语音输入\n\nCodex自主执行的能力在一个近期项目中得到了清晰体现。Ryan完全使用Codex将Notion的AI语音输入功能带到了网页端。\n\n“当我们说话时，我们可以提供更多的上下文，”他说，“如果我在打字，我会考虑我的措辞、用词。通过向Notion用户提供这一功能，他们能够提出更自然的问题，并包含更多上下文。我们想把这个功能带到Notion AI中。”\n\n当这个功能需求提出时，Notion的移动应用已经有了一个可用的版本，但桌面端和网页客户端还没有。尽管Ryan并不完全清楚该功能在移动端是如何工作的，但他还是把问题交给了Codex。他将其指向移动端代码库，清晰描述了它在网页端需要呈现的样子，并提供了一种验证结果的方法。Codex一次性返回了完整的网页端实现初稿，其代码风格与Notion的代码库规范高度一致，第二天就可以交付。\n\n“如果两年前让我构建Notion的语音输入功能，这个项目可能需要我和另一位工程师花两周时间，”Ryan说，“有了Codex，我完全靠自己，大概三四个小时就完成了。”\n\n> “它花了很多时间探索我们的移动端代码，然后最终一次性返回并编写了整个功能。我第二天就交付了，并立即让用户开始测试。”\n\n——Ryan Nystrom，Notion AI产品工程\n\n### 工作方式的变化\n\nNotion的工程师现在可以常规性地将一组任务和检查工作的方法交给Codex，然后在它运行时离开。“我发现自己花了很多时间编写这些规范文档，然后交给Codex让它去工作，”Ryan说，“老实说，我现在几乎不再手动写代码了。”\n\n在Codex之前，团队中的每位工程师一次只能专注于一个任务，还要在会议和同事支持之间挤时间。现在，他们可以并行处理多个任务，在启动工作的同时，不会失去那些曾经是瓶颈的团队支持。\n\n“我管理着一个团队，传统上管理者没有时间写代码，”他说，“我能在支持团队的同时独自构建一个功能，这太不可思议了。我已经管理团队五年多了，从未能如此深入地处理编码问题。”\n\n现在，他只需排好一个任务，去参加一连串会议，回来时功能就已经完成了。或者，他和他的团队拥有一位能和他们一起交付产品的管理者，而Ryan则重新获得了那份他以为已经放弃的工作内容。这种可用性甚至延伸到了工作时间之外。他会在睡前提出一个研究问题，让Codex运行一整夜，醒来时就能收到一份完成的报告。\n\nCodex重新定义了一个小团队（甚至是一个人团队！）能够交付的基线，并为Notion的工程师提供了更多空间，让他们专注于自己最关心的工作。\n\n> “每当我需要研究一个任务、修复一个bug或做一点小调整时，Codex就在那里，随时待命。基本上，我在Notion有一个24/7全天候的实习生。”\n\n——Ryan Nystrom，Notion AI产品工程",
-      "titleZh": "Codex 为 Notion 解锁了什么",
-      "summaryZh": "Notion 如何利用 Codex 一次性生成规格说明、为网页构建 AI 语音输入，并在小团队中倍增工程能力。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-09T10:00:00.000Z",
-      "url": "https://openai.com/index/notion",
-      "collectedAt": "2026-09-07T07:36:09.938Z"
+      "collectedAt": "2026-09-08T07:29:02.488Z"
     },
     {
       "id": "118693cb868e1641c9c1",
@@ -3161,7 +3076,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-04-24T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-07T07:36:14.433Z"
+      "collectedAt": "2026-09-08T07:29:07.925Z"
     },
     {
       "id": "aeb9a0b6e961ddd9394e",
@@ -3178,7 +3093,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-12-01T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-07T07:36:14.434Z"
+      "collectedAt": "2026-09-08T07:29:07.926Z"
     },
     {
       "id": "f43c8f46501ee2e8d8ed",
@@ -3195,7 +3110,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-09-29T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-07T07:36:14.434Z"
+      "collectedAt": "2026-09-08T07:29:07.927Z"
     },
     {
       "id": "de42c19b7c54bb0dc7ec",
@@ -3212,7 +3127,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-09-22T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-07T07:36:14.434Z"
+      "collectedAt": "2026-09-08T07:29:07.927Z"
     }
   ]
 }
