@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T07:29:07.943Z",
+  "updatedAt": "2026-09-09T07:38:10.254Z",
   "sources": [
     {
       "id": "openai-news",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "count": 748
+      "count": 752
     },
     {
       "id": "claude-apps",
@@ -53,6 +53,74 @@
   ],
   "entries": [
     {
+      "id": "d336adb530d2e7f0e222",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+      "content": "Quantum computing is an emerging technology that uses the unique properties of quantum mechanics to process information. It could one day better simulate complex materials and molecules. Unlike conventional processors, quantum processors are built with quantum bits, or qubits. Preparing and running qubit experiments can take months and require hundreds to thousands of preliminary measurements—work that AI is poised to help with.\n\nBeatriz Yankelevich, a graduate student in MIT’s Engineering Quantum Systems Group (EQuS), used GPT‑5.6 Sol, harnessed to Codex, to explore whether AI could streamline her experimental workflow. The MIT group studies superconducting qubits, which are cooled to near absolute zero inside specialized devices called dilution refrigerators. These qubits perform operations quickly, are precisely controlled using microwave signals, and can be made using familiar manufacturing techniques and arranged on a chip.\n\nOnce a superconducting qubit chip has been fabricated, packaged, and cooled, researchers interact with it entirely through software, making Yankelevich’s experiments a natural testbed for AI agents. Connecting Codex to the lab software that coordinates experiments allowed it to run measurements, analyze the results, and decide what to try next. Yankelevich found that GPT‑5.6 Sol could often complete routine measurement workflows autonomously, saving her significant amounts of time and allowing experiments to run without constant supervision. This freed her to spend more time on analyzing results, designing experiments, and planning out the next steps in her research.\n\n![Image 1: A packaged qubit chip beside an open dilution refrigerator with cabling that connects to the chip.](https://images.ctfassets.net/kftzwdyauwt9/5NohKx2xMeC8fqT4juVKSy/703ae0c94710ac5cbfe5e5b8eccc40b5/Images.png?w=3840&q=90&fm=webp)\n\n_A packaged qubit chip (left) sits inside an open dilution refrigerator (right). CREDIT: EQuS group_\n\n## Coordinating interdependent measurements\n\nSuperconducting qubits are often called artificial atoms because, like atoms, they can only occupy specific energy levels. Microwave pulses move qubits between these levels and probe their quantum state. Researchers design and calibrate the pulse sequences sent to the chip, then digitize and analyse the returning signals. These measurements reveal each qubit’s resonance frequencies, which allows researchers to accurately control the qubit; how long the qubit retains quantum information; and the settings needed to perform computations.\n\nCalibrating qubits requires a series of interdependent measurements, with each result shaping what happens next. Qubit properties can occasionally drift, and unexpected physical behavior can cause inconsistent results. Experienced researchers can recognize these changes and adapt when they occur. This combination of software control, repeated measurements, and adaptive decision-making also makes qubit calibration a compelling use case for AI agents.\n\nYankelevich tested GPT‑5.6 Sol’s ability to run measurements on an uncalibrated six-qubit chip, one of a standard type that EQuS routinely uses to benchmark its fabrication process. She provided Codex with measurement-specific skills explaining how to run and evaluate each experiment. Using these skills and the chip’s design targets, GPT‑5.6 Sol chose measurement parameters, operated the hardware, analyzed the resulting data, and then either refined the measurement or saved the result for use in the next measurement.\n\nWhen the signals were clear, Codex completed a standard sequence of measurements with little researcher intervention. It identified the qubit’s transition frequencies, calibrated the pulses used to control and read it, and determined how long the qubit retained quantum information.\n\nGPT‑5.6 Sol had more difficulty when experimental signals were weak or noisy. In those cases, it took longer to find suitable measurement parameters and sometimes needed guidance from an experienced researcher. The results suggest that current agents can handle clearly defined experimental workflows, but interpreting ambiguous physical results remains a challenge.\n\nEQuS fabricates many of these standard chips, each of which can take a researcher several days to characterize. The group now regularly uses agents to handle routine measurements, freeing researchers to focus on other work.\n\n“I can have agents running measurements for many hours overnight or while I’m working in the cleanroom,” Yankelevich said. “I can check in from my phone, see what they’ve done, and steer them if something needs fixing or if I want to explore a different direction.”\n\n![Image 2: Two GPT-5.6 Sol frequency-amplitude calibration screenshots show Rabi and Ramsey calibration results and plots against a pink gradient.](https://images.ctfassets.net/kftzwdyauwt9/Ea5TTufPi7JFjVFfEO87r/d2dbc15bbc050b00f6d80ea70b2908cf/codex_both.png?w=3840&q=90&fm=webp)\n\n_An excerpted GPT‑5.6 Sol chain-of-thought from a calibration run. CREDIT: EQuS group_\n\n## Working alongside researchers\n\nThe immediate advantage is that Codex agents can help researchers make steady progress on experimental analysis and measurements without constant supervision. Experienced researchers may still be able to identify the best calibration settings faster than current AI models. But by saving time previously spent on monitoring every step of the calibration process, researchers can focus on other work.\n\nRoutine chip characterization follows a relatively well-defined workflow. For novel experiments, Yankelevich assigns Codex agents narrower experimental goals while drawing more heavily on their ability to write, modify, and test new code for control, analysis, and simulation. Connecting agents directly to the lab lets the group revise code, test it against real measurements, and complete longer stretches of work autonomously.\n\n“I’ve built infrastructure to guide agents through several parts of my work—measurement, theory, and chip design—and now it’s really starting to pay off,” Yankelevich said. “I can have multiple agents working on different problems at once, and I spend most of my time on higher-level work—interpreting results, devising experiments, planning next steps for the agents, reading, and writing.”",
+      "contentZh": "量子计算是一种新兴技术，利用量子力学的独特性质来处理信息。它未来或许能更好地模拟复杂材料和分子。与传统处理器不同，量子处理器由量子比特（qubit）构成。准备和运行量子比特实验可能需要数月时间，并需进行数百到数千次初步测量——而人工智能正有望在这方面提供帮助。\n\nBeatriz Yankelevich是麻省理工学院工程量子系统小组（EQuS）的一名研究生，她使用搭载于Codex的GPT‑5.6 Sol来探索AI能否简化她的实验工作流程。该MIT小组研究超导量子比特，这些量子比特在称为稀释制冷机的专用设备中被冷却至接近绝对零度。这些量子比特运算速度快，可通过微波信号精确控制，并能利用成熟的制造技术制成并排列在芯片上。\n\n一旦超导量子比特芯片完成制造、封装和冷却，研究人员便完全通过软件与其交互，这使得Yankelevich的实验成为AI代理的理想测试平台。将Codex连接到协调实验的实验室软件后，它能够运行测量、分析结果，并决定下一步尝试什么。Yankelevich发现，GPT‑5.6 Sol通常能自主完成常规测量工作流程，为她节省了大量时间，并使实验无需持续监督即可运行。这让她得以将更多时间用于分析结果、设计实验以及规划研究的后续步骤。\n\n![图片1：一个封装好的量子比特芯片旁边是一台打开的稀释制冷机，带有连接到芯片的线缆。](https://images.ctfassets.net/kftzwdyauwt9/5NohKx2xMeC8fqT4juVKSy/703ae0c94710ac5cbfe5e5b8eccc40b5/Images.png?w=3840&q=90&fm=webp)\n\n_封装好的量子比特芯片（左）放置在打开的稀释制冷机（右）内。图片来源：EQuS小组_\n\n## 协调相互依赖的测量\n\n超导量子比特常被称为人造原子，因为与原子一样，它们只能占据特定的能级。微波脉冲使量子比特在这些能级之间跃迁，并探测其量子态。研究人员设计并校准发送到芯片的脉冲序列，然后对返回信号进行数字化和分析。这些测量揭示了每个量子比特的共振频率，使研究人员能够精确控制量子比特；量子比特保留量子信息的时间；以及执行计算所需的设置。\n\n校准量子比特需要一系列相互依赖的测量，每个结果都会影响后续步骤。量子比特的特性偶尔会发生漂移，意外的物理行为可能导致结果不一致。经验丰富的研究人员能够识别这些变化并在发生时进行调整。软件控制、重复测量和自适应决策的结合，也使量子比特校准成为AI代理的一个极具吸引力的应用场景。\n\nYankelevich测试了GPT‑5.6 Sol在一块未校准的六量子比特芯片上运行测量的能力，该芯片是EQuS用于基准测试其制造工艺的标准类型之一。她为Codex提供了特定于测量的技能，解释了如何运行和评估每项实验。利用这些技能和芯片的设计目标，GPT‑5.6 Sol选择了测量参数，操作硬件，分析所得数据，然后要么优化测量，要么保存结果供下一次测量使用。\n\n当信号清晰时，Codex几乎无需研究人员干预即可完成标准测量序列。它识别了量子比特的跃迁频率，校准了用于控制和读取的脉冲，并确定了量子比特保留量子信息的时间。\n\n当实验信号较弱或噪声较大时，GPT‑5.6 Sol遇到了更多困难。在这些情况下，它需要更长时间才能找到合适的测量参数，有时还需要经验丰富的研究人员提供指导。结果表明，当前的AI代理能够处理定义明确的实验工作流程，但解读模糊的物理结果仍然是一个挑战。\n\nEQuS制造了许多此类标准芯片，每块芯片的表征可能需要研究人员数天时间。该小组现在定期使用代理处理常规测量，使研究人员能够专注于其他工作。\n\n“我可以让代理在夜间或我在洁净室工作时连续运行数小时的测量，”Yankelevich说。“我可以从手机上查看进度，了解它们做了什么，如果出现问题需要修复或我想探索不同方向，就可以进行引导。”\n\n![图片2：两张GPT-5.6 Sol频率-幅度校准截图显示了Rabi和Ramsey校准结果及曲线图，背景为粉色渐变。](https://images.ctfassets.net/kftzwdyauwt9/Ea5TTufPi7JFjVFfEO87r/d2dbc15bbc050b00f6d80ea70b2908cf/codex_both.png?w=3840&q=90&fm=webp)\n\n_一次校准运行中GPT‑5.6 Sol思维链的节选。图片来源：EQuS小组_\n\n## 与研究人员协同工作\n\n直接的优势在于，Codex代理可以帮助研究人员在实验分析和测量方面稳步推进，而无需持续监督。经验丰富的研究人员或许仍能比当前AI模型更快地确定最佳校准设置。但通过节省原本用于监控校准过程每一步的时间，研究人员可以专注于其他工作。\n\n常规芯片表征遵循相对明确的工作流程。对于新颖实验，Yankelevich为Codex代理分配更窄的实验目标，同时更充分地利用它们编写、修改和测试用于控制、分析和模拟的新代码的能力。将代理直接连接到实验室，使该小组能够修改代码、针对真实测量进行测试，并自主完成更长时间段的工作。\n\n“我已经建立了基础设施来引导代理完成我工作中的多个部分——测量、理论和芯片设计——现在这真的开始产生回报了，”Yankelevich说。“我可以同时让多个代理处理不同问题，而我将大部分时间花在更高层次的工作上——解读结果、设计实验、为代理规划下一步、阅读和写作。”",
+      "titleZh": "GPT-5.6 Sol 如何助力运行量子计算实验",
+      "summaryZh": "了解麻省理工学院的研究人员如何利用 GPT-5.6 Sol 与 Codex 自主运行量子计算实验、分析结果并校准量子比特。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-09-08T17:00:00.000Z",
+      "url": "https://openai.com/index/codex-quantum-computing-experiments",
+      "collectedAt": "2026-09-09T07:36:58.600Z"
+    },
+    {
+      "id": "48b0669cc37302b20aee",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Introducing ChatGPT Images 2.5",
+      "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+      "content": "Every week, people create more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API. Today, we’re expanding what you can create with ChatGPT Images 2.5—our new state-of-the-art image model that brings sharper details, more precise editing, and faster generation to your creative workflows.\n\nImages 2.5 produces more natural lighting and richer textures, is better at preserving the subjects in your reference photos, and follows editing instructions more reliably across multiple turns. We’ve also reduced image generation latency by up to 50% compared with Images 2.0, so you can generate images and refine your concepts more quickly.\n\nIn ChatGPT, we’re introducing product features that give you more control over the creative process. [Sketch⁠(opens in a new window)](http://chatgpt.com/sketch?openaicom-did=d7538b1a-9794-4e09-965e-8b1a238d8806&openaicom_referred=true) is a new feature that lets you draw directly in ChatGPT as a reference for your final image. Templates make it easier to start creating across some of the most popular image formats, like flyers and product photos. You can also now place comments directly on images for more focused editing, and you can share prompts you’ve used to let others try your ideas with their own photos and details.\n\nImages 2.5 is available to all ChatGPT, ChatGPT Work, and Codex users across desktop, mobile, and web.\n\nFor developers, we’re introducing two new models in the API. GPT‑Image‑2.5 Flare brings the same improvements in quality, editing, and speed, and GPT‑Image‑2.5 Sunburst offers an extra level of precision for detailed creative work with longer generation times.\n\n## Image fidelity as you create\n\nThe most meaningful images feel grounded in the real-life people, places, and memories they’re based on. Images 2.5 is better at working from reference photos to transform familiar subjects across new settings, visual styles, and compositions. Image subjects look more recognizable, lighting and textures feel more natural, and distinctive features are more likely to carry through.\n\nFor teams building with the API, this same fidelity makes reference-led workflows more reliable, so variations can stay anchored to the original source.\n\n## Precision editing\n\nWe’ve made it easier for you to make focused edits, so you end up with final images that are more aligned with what you actually had in mind. Images 2.5 is better at editing only what you’ve asked for, while keeping the rest of the details the same—even with more complex subjects and backgrounds.\n\nFor developers using the Images API, this gives users the ability to update a single element—such as a product, background, or piece of copy—while preserving the subject, composition, and brand treatment around it.\n\nThe following videos are made up of multiple images, highlighting the model’s improved ability to follow precise editing instructions.\n\n## Multi-turn editing consistency\n\nDuring longer ChatGPT conversations, Images 2.5 follows specific editing instructions more reliably across multiple edits. Earlier changes are more likely to stay consistent, and each new edit builds on the work you’ve already done without degrading image quality over time.\n\nThat consistency also matters in production workflows, where developers need to make targeted changes without rebuilding the entire asset.\n\nThe following videos are made up of multiple images, highlighting the model’s improved ability to maintain image quality over multiple turns.\n\n## Intelligence and style improvements\n\nImages 2.5 is better at understanding complex visual instructions and translating them into coherent results. Images that include real-world information have more accurate content, and the model can handle more complex layouts including transparent backgrounds. It’s also better at reflecting visual styles, so your images are more aligned with your artistic vision.\n\nFor developers and businesses, this makes complex creative briefs more dependable. The model is more likely to retain the requested visual direction, composition, and individual details, instead of drifting as instructions become more specific. That matters when generating a series of on-brand creative assets, UI concepts that preserve a given hierarchy, or presentation visuals that fit a defined structure.\n\n## Use Sketch to draw your idea to life\n\nSometimes the clearest way to explain an idea is by drawing it.\n\nWe’re introducing Sketch, a new feature which lets you draw right in ChatGPT and use it as a visual guide. Now you can quickly sketch the layout of a room, the contour of an outfit you’re concepting, or just a funny doodle, and ChatGPT will turn your rough art into a complete image. Add a description of the style and any other details you want to make sure it reflects your vision.\n\nYou don’t need to be a professional artist—this is just another way to get your final image closer to what you have in mind. To [try it yourself⁠(opens in a new window)](http://chatgpt.com/sketch?openaicom-did=d7538b1a-9794-4e09-965e-8b1a238d8806&openaicom_referred=true), just type “@Sketch” in ChatGPT.\n\n## Structure your prompts for better results\n\nAt times you may have a clear idea of what you want to make—you just need some help getting started.\n\nWe’re introducing templates for some of the most popular creative formats. Instead of starting with a blank canvas, you can choose a template like “Poster” or “Merch” and add details like information to convey, design elements, or styles to personalize your results.\n\n## Pass your best ideas along\n\nOften you end up with an image that’s too good not to share.\n\nNow when you share an image, you can also choose to include the prompt that got you there. Someone else can then run with the same idea, bringing in their own images and details to make a version that feels like their own.\n\n![Image 1: A smiling man with curly hair wears a teal, navy, and pink windbreaker and a gold chain in an ’80s-style portrait with neon lights and a boombox.](https://images.ctfassets.net/kftzwdyauwt9/1oUEzmNEwhlktfQMqWLwTO/cde41dc57991caa0d6b22b35b2d8c70c/80s-headshot.png?w=3840&q=90&fm=webp)\n\n## Images 2.5 in the API\n\nDevelopers are building image generation workflows into products used by creative, marketing, retail, and media teams every day with the Images API.\n\nWe’re releasing two new image models in the API:\n\n**GPT‑Image‑2.5 Flare** brings the same improvements in quality, editing, and speed to the API and is the default choice for most applications, delivering higher-quality images than GPT‑Image‑2 at 50% lower latency. It’s well suited to everything from creator and social content to product experiences, visual search, rapid image prototyping, and high-volume generation.\n\n**GPT‑Image‑2.5 Sunburst** is built for premium visual workflows that benefit from tighter control across edits. Use it for creative and editing workflows like production-ready campaign creative or polished product imagery.\n\nHere’s what early customers have to say about the new models:\n\n1 of 4\n\n## Our commitment to safety\n\nWe’re building image generation to be useful, creative, and safe. ChatGPT Images 2.5 builds on our existing safeguards, with checks on prompts and images to help prevent harmful outputs. We continue to use C2PA metadata and invisible watermarking to help identify images made with our tools. You can read more about our evaluations and approach in the [system card⁠(opens in a new window)](https://deploymentsafety.openai.com/chatgpt-images-2-5).\n\n## Pricing and availability\n\nImages 2.5 is rolling out today to ChatGPT, ChatGPT Work, and Codex users across all tiers on desktop, mobile, and web.",
+      "contentZh": "每周，人们在ChatGPT Images和API中的GPT-Image模型上生成的图片超过30亿张。今天，我们扩展了ChatGPT Images 2.5的功能——这是我们最新的先进图像模型，为你的创意工作流带来更清晰的细节、更精确的编辑和更快的生成速度。\n\nImages 2.5能呈现更自然的光照和更丰富的纹理，在保留参考照片中的主体方面表现更佳，并且能在多轮对话中更可靠地遵循编辑指令。与Images 2.0相比，我们还将图像生成延迟降低了最多50%，让你能更快地生成图像并完善构思。\n\n在ChatGPT中，我们推出了多项产品功能，让你对创作过程拥有更多控制权。[Sketch⁠(在新窗口中打开)](http://chatgpt.com/sketch?openaicom-did=d7538b1a-9794-4e09-965e-8b1a238d8806&openaicom_referred=true)是一项新功能，让你可以直接在ChatGPT中绘图，作为最终图像的参考。模板功能让你能更轻松地开始创作一些最流行的图像格式，如传单和产品照片。你现在还可以直接在图像上添加评论，以实现更有针对性的编辑，并且可以分享你使用过的提示词，让其他人用他们自己的照片和细节来尝试你的创意。\n\nImages 2.5现已面向所有ChatGPT、ChatGPT Work和Codex用户开放，支持桌面端、移动端和网页端。\n\n对于开发者，我们在API中推出了两个新模型。GPT-Image-2.5 Flare在质量、编辑和速度方面带来了同样的改进，而GPT-Image-2.5 Sunburst则为精细创意工作提供了更高水平的精度，但生成时间更长。\n\n## 创作过程中的图像保真度\n\n最有意义的图像往往扎根于它们所基于的真实人物、地点和记忆。Images 2.5在利用参考照片将熟悉的主体转换到新场景、视觉风格和构图中时表现更佳。图像主体看起来更易辨认，光照和纹理感觉更自然，独特特征也更有可能得以保留。\n\n对于使用API构建应用的团队，同样的保真度使以参考为导向的工作流更加可靠，因此变体可以始终锚定在原始来源上。\n\n## 精确编辑\n\n我们让你更容易进行有针对性的编辑，从而获得更符合你实际想法的最终图像。Images 2.5在只编辑你要求的内容方面表现更好，同时保持其余细节不变——即使面对更复杂的主体和背景也是如此。\n\n对于使用Images API的开发者，这使用户能够更新单个元素（如产品、背景或文案），同时保留周围的主体、构图和品牌处理。\n\n以下视频由多张图像组成，展示了模型在遵循精确编辑指令方面改进的能力。\n\n## 多轮编辑一致性\n\n在较长的ChatGPT对话中，Images 2.5能在多次编辑中更可靠地遵循特定编辑指令。较早的更改更有可能保持一致，每次新编辑都建立在已完成工作的基础上，而不会随时间推移降低图像质量。\n\n这种一致性在生产工作流中也至关重要，因为开发者需要进行有针对性的更改，而无需重建整个素材。\n\n以下视频由多张图像组成，展示了模型在多轮对话中保持图像质量方面改进的能力。\n\n## 智能与风格改进\n\nImages 2.5在理解复杂视觉指令并将其转化为连贯结果方面表现更佳。包含现实世界信息的图像内容更准确，模型还能处理更复杂的布局，包括透明背景。它在反映视觉风格方面也更出色，因此你的图像更贴合你的艺术构想。\n\n对于开发者和企业而言，这使得复杂的创意简报更加可靠。模型更有可能保留所要求的视觉方向、构图和细节，而不是随着指令变得更加具体而偏离方向。这在生成一系列符合品牌调性的创意素材、保持给定层级结构的UI概念，或适配特定结构的演示视觉时尤为重要。\n\n## 使用Sketch将你的想法绘制成图\n\n有时，解释一个想法最清晰的方式就是把它画出来。\n\n我们推出了Sketch，这是一项新功能，让你可以直接在ChatGPT中绘图，并将其作为视觉指南。现在，你可以快速勾勒房间布局、构思中的服装轮廓，或者只是一个有趣的涂鸦，ChatGPT会将你的粗略画作转化为完整的图像。添加风格描述以及任何你希望确保能反映你构想的其他细节。\n\n你不需要是专业艺术家——这只是另一种让最终图像更接近你想法的方式。要[亲自尝试⁠(在新窗口中打开)](http://chatgpt.com/sketch?openaicom-did=d7538b1a-9794-4e09-965e-8b1a238d8806&openaicom_referred=true)，只需在ChatGPT中输入“@Sketch”即可。\n\n## 结构化你的提示词以获得更好结果\n\n有时你可能对自己想创作的内容有清晰的想法——只是需要一些帮助来开始。\n\n我们为一些最流行的创意格式推出了模板。无需从空白画布开始，你可以选择“海报”或“周边商品”等模板，并添加要传达的信息、设计元素或风格等细节来个性化你的结果。\n\n## 分享你的最佳创意\n\n通常，你会得到一张好到忍不住分享的图像。\n\n现在，当你分享图像时，你还可以选择附上生成它的提示词。其他人随后可以沿用同样的创意，带入他们自己的图像和细节，制作出属于他们自己风格的版本。\n\n![图片1：一位卷发微笑男子身穿青绿色、海军蓝和粉色相间的风衣，佩戴金链，以80年代风格肖像呈现，配有霓虹灯和音响。](https://images.ctfassets.net/kftzwdyauwt9/1oUEzmNEwhlktfQMqWLwTO/cde41dc57991caa0d6b22b35b2d8c70c/80s-headshot.png?w=3840&q=90&fm=webp)\n\n## API中的Images 2.5\n\n开发者每天都在使用Images API，将图像生成工作流构建到创意、营销、零售和媒体团队使用的产品中。\n\n我们在API中发布了两个新的图像模型：\n\n**GPT-Image-2.5 Flare** 为API带来了质量、编辑和速度方面的同样改进，是大多数应用的默认选择，以降低50%的延迟提供比GPT-Image-2更高质量的图像。它非常适合从创作者和社交内容到产品体验、视觉搜索、快速图像原型制作以及大批量生成等各种场景。\n\n**GPT-Image-2.5 Sunburst** 专为高端视觉工作流打造，这些工作流受益于编辑过程中更精细的控制。将其用于创意和编辑工作流，如可投入生产的活动创意或精致的产\n\n以下是早期客户对新模型的评价：\n\n1 / 4\n\n## 我们对安全的承诺\n\n我们正在构建既实用、有创意又安全的图像生成功能。ChatGPT Images 2.5 基于我们现有的安全措施，对提示词和图像进行检查，以帮助防止有害输出。我们继续使用 C2PA 元数据和隐形水印，帮助识别使用我们工具生成的图像。您可以在[系统卡片⁠（在新窗口中打开）](https://deploymentsafety.openai.com/chatgpt-images-2-5)中了解更多关于我们的评估和方法。\n\n## 定价与可用性\n\nImages 2.5 今日起向 ChatGPT、ChatGPT Work 和 Codex 用户推出，覆盖所有层级，并支持桌面端、移动端和网页端。",
+      "titleZh": "ChatGPT 图像 2.5 发布",
+      "summaryZh": "ChatGPT 图像 2.5 可帮助您将想法、草图和参考照片转化为更个性化、更精美的图像，更好地反映您的构思。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-09-08T11:30:00.000Z",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "collectedAt": "2026-09-09T07:36:58.601Z"
+    },
+    {
+      "id": "9b8a0aa3eea1f601cab9",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+      "content": "We’re sharing a solution to the Navier–Stokes existence and smoothness problem, one of the Millennium Prize Problems. This proof, produced by an internal OpenAI system, shows that the dynamics of the Navier-Stokes equations for fluid motion can develop a singularity in finite time. We’re sharing both a writeup of the proof and a formalization in Lean.\n\nThe [Millennium Prize Problems⁠(opens in a new window)](https://www.claymath.org/millennium-problems/) represent some of the deepest questions at the frontier of mathematics. The question of whether smooth three-dimensional fluid motion can break down has remained unresolved for roughly 90 years.\n\nA major goal of our work is to empower scientists to advance research and technology that benefits all of humanity. To solve the Navier–Stokes problem, we used an internal model that is significantly more capable than GPT‑6 Astra. We believe it is important to inform the world about the pace of AI progress and what to expect from upcoming models.\n\n## The problem\n\nThe Navier–Stokes equations use Newton’s second law of motion (“F=ma”) to describe how fluids move. Importantly, they treat a fluid as a continuous medium rather than tracking individual molecules. These equations are used for aircraft design, weather forecasting, and the study of blood flow.\n\nA fundamental open question for these dynamical equations has been whether the continuum approximation of the fluid can break down. Specifically, can the Navier–Stokes equations for a three-dimensional incompressible fluid with constant density develop a “singularity,” even when the motion starts smoothly? Here, a singularity means the dynamics lead to speeds in the fluid growing without bound within a finite amount of time. The development of a singularity would have to happen despite the presence of viscosity, which tends to smooth out motion. Because a real fluid cannot move infinitely fast, this would mark a breakdown in how the equations model the fluid. To continue modeling the system, one would then need to track the behaviour of each particle individually.\n\nThe equations date to the nineteenth-century work of Claude-Louis Navier and George Gabriel Stokes. In 1934, Jean Leray proved that solutions exist in a generalized sense, but whether they always remain smooth became a central unanswered question. In 2000, the Clay Mathematics Institute named the Navier–Stokes existence and smoothness problem one of seven Millennium Prize Problems.\n\n## The result\n\nOur system produced an analytical proof and a Lean formalization that an initially smooth fluid at rest can develop a singularity in a finite time. The fluid has a smooth force applied to it, and its energy remains finite through the entire dynamics, from rest to the formation of the singularity. This resolves the Navier–Stokes Millennium Prize problem by establishing statement “C” (and also “D”) in the [official Millennium Prize formulation⁠(opens in a new window)](https://www.claymath.org/wp-content/uploads/2022/06/navierstokes.pdf).\n\nThe solution is a vortex, a spinning swirl of fluid, that spirals inward and gets increasingly elongated, like spaghetti. This central region shrinks while it speeds up in such a way that its energy still stays finite, as required by the laws of physics. The technical challenge is for the equations to develop the breakdown through the motion of the fluid itself, rather than, for example, us putting in an infinite force by hand. More mathematically, the terms in the Navier–Stokes equations that describe the motion—acceleration, pressure gradients, momentum transfer, viscosity—must both become _big_ yet _cancel_ in a precise way. This detailed balance leaves a smooth external force even as the velocity of the fluid grows without bound.\n\n_A snapshot of local incompressible motion. Orange marks faster angular rotation; teal marks slower rotation. Circulating speed also depends on radius. The trajectories show inward spiraling and axial stretching._\n\n## How we found the proof\n\nSince August 28 we have been training a new internal model that has exhibited unprecedented performance in our benchmarks, including mathematics. This model’s training is ongoing and its performance continues to improve.\n\nOn Tuesday, September 1, we heard rumors that two Millennium Prize problems had been resolved. Inspired by these rumors and by the step change in performance of our internal model, we launched an effort to evaluate it on all open Millennium Prize problems and a few other high-impact problems.\n\nWe used a system of coordinating agents powered by our internal model. The agents had access to tools such as the ability to read from a cached version of the internet and the ability to run code. Agents were subdivided into groups with the ability to communicate within the group. The groups varied in size, and the group that produced the Navier–Stokes resolution involved on the order of 10,000 concurrent agents. At all times we maintained the same strict safeguards that we apply to all our frontier model evaluations, including monitoring and isolation.\n\nFor each problem, we prompted different groups of agents with different variants of the problem statement, covering all variants of the problem. For the Navier–Stokes problem, we suggested versions “A” and “B” (particular forms of the Navier–Stokes problem which would result in a proof) and versions “C” and “D” (which would result in a disproof) to separate groups of agents.\n\nIn addition to the full Millennium Prize problems, we asked our multiagent system to try a set of “easier” problems. One of these problems was a similar blowup question for the limit of the Navier–Stokes problem with the viscosity term removed. This is known as the regularity problem for the Euler equations, and our agents surprised us by resolving this question. The specific variant of the question that they resolved was the _unforced_ version, where no external force is applied to the fluid. Nearly 100 agents worked together for approximately 50 hours to produce our Euler regularity disproof.[1](https://openai.com/index/navier-stokes-solution#citation-bottom-1)\n\nOnce we saw the Euler solution, we thought that Navier–Stokes was the most promising problem to work on. Thus, we decided to devote our resources to Navier–Stokes. To do so, we shifted agents away from the other Millennium Problems and prompted these agents with the Euler resolution. When a further trained version of our internal model became available over the course of the effort, we updated our agents to that model.\n\nWe encouraged different groups of agents to explore a diversity of approaches. After some time, we cross-pollinated the agent groups by using Codex to consolidate the most useful insights from each agent group. These follow-up prompts drew on the agents’ own intermediate results. The group that found the solution to Navier–Stokes was guided in such a way.\n\nThe agents arrived at their resolution on Saturday, September 5, about 88 hours after the first agents were launched. Lean formalization and verification took an additional 17 hours via GPT‑6 Astra.\n\nAcross all attempted problems, the agents sent 4.9 million messages and used about 300 billion output tokens. In the process of resolving the Navier–Stokes problem, the agents sent 2.7 million messages and used approximately 130 billion output tokens.\n\n## Concurrent work\n\nOur effort began on September 1st after hearing a rumor which we later realized was related to Levent Alpöge, an Anthropic employee, and Tristan Buckmaster, a math professor at NYU. After the completion of our full project and Lean verification (on September 6th), believing from the rumor they also had a solution of Navier–Stokes, we reached out to them to offer a concurrent release of our result and to recognize their priority in a joint announcement. At that point we found out that they had a resolution of the forced Euler problem. In these discussions we offered them visibility into all of the prompts we used and later to see the proof. We recognize the priority of their work on forced Euler and congratulate them on their remarkable mathematical achievement.\n\nWe (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this problem. While unlikely, we cannot rule out that de-identified data derived from their usage of our products helped [improve our models⁠](https://openai.com/policies/how-your-data-is-used-to-improve-model-performance/). However, our proofs differ significantly and even the precise results proved are different in the Euler case (forced vs unforced).\n\n## Progress and responsibility\n\nOur goal in releasing this result is to report on the substantial progress of our AI models. We do not intend to claim the Millennium Prize for this result.\n\nThis milestone represents substantial work by mathematicians and AI researchers. However, this is not a culmination, but rather a snapshot in time, of progress on AI development.\n\n[We believe we are now in the next period of AI progress⁠](https://openai.com/index/research-acceleration-view-inside-openai/), and today’s results provide further evidence of this. We are focusing on understanding this model, and using what we learn to help us guide and pace how we pursue further advances in capability. One of our [key goals⁠](https://openai.com/index/built-to-benefit-everyone-our-plan/) is to build AI systems which are steerable, accountable, and connected to people, which may require more deliberate choices about the pace of progress, as we continue our mission to ensure AGI benefits all of humanity.",
+      "contentZh": "我们正在分享纳维-斯托克斯存在性与光滑性问题的一个解决方案，这是千禧年大奖难题之一。这一证明由OpenAI内部系统生成，表明流体运动的纳维-斯托克斯方程动力学可以在有限时间内发展出奇点。我们同时分享证明的书面说明和Lean中的形式化验证。\n\n[千禧年大奖难题⁠(在新窗口中打开)](https://www.claymath.org/millennium-problems/)代表了数学前沿一些最深奥的问题。三维光滑流体运动是否会破裂的问题，至今已悬而未决约90年。\n\n我们工作的一个主要目标是赋能科学家，推动有益于全人类的研究和技术进步。为了解决纳维-斯托克斯问题，我们使用了一个内部模型，其能力显著超过GPT‑6 Astra。我们认为，向世界通报AI进展的步伐以及对即将推出的模型的预期，是非常重要的。\n\n## 问题\n\n纳维-斯托克斯方程利用牛顿第二运动定律（“F=ma”）来描述流体的运动方式。重要的是，它将流体视为连续介质，而不是追踪单个分子。这些方程用于飞机设计、天气预报和血流研究。\n\n这些动力学方程的一个基本开放问题是，流体的连续介质近似是否会破裂。具体而言，对于具有恒定密度的三维不可压缩流体，即使运动从光滑状态开始，纳维-斯托克斯方程是否可能发展出“奇点”？这里，奇点意味着动力学导致流体中的速度在有限时间内无界增长。奇点的发展必须在存在黏性（倾向于平滑运动）的情况下发生。由于真实流体不可能以无限速度运动，这将标志着方程对流体建模方式的失效。要继续对系统建模，就需要逐一追踪每个粒子的行为。\n\n这些方程可追溯至十九世纪克劳德-路易·纳维和乔治·加布里埃尔·斯托克斯的工作。1934年，让·勒雷证明了广义意义上的解存在，但解是否始终保持光滑成为核心未解问题。2000年，克莱数学研究所将纳维-斯托克斯存在性与光滑性问题列为七个千禧年大奖难题之一。\n\n## 结果\n\n我们的系统生成了一个解析证明和Lean形式化验证，表明一个初始光滑的静止流体可以在有限时间内发展出奇点。该流体受到光滑外力的作用，其能量在整个动力学过程中（从静止到奇点形成）保持有限。这通过确立[官方千禧年问题表述⁠(在新窗口中打开)](https://www.claymath.org/wp-content/uploads/2022/06/navierstokes.pdf)中的陈述“C”（以及“D”），解决了纳维-斯托克斯千禧年大奖难题。\n\n该解是一个涡旋，即旋转的流体漩涡，向内螺旋并逐渐拉长，形似意大利面。这个中心区域在收缩的同时加速，其能量仍保持有限，符合物理定律的要求。技术挑战在于，方程需要通过流体自身的运动发展出破裂，而不是例如我们手动施加无限大的力。更数学化地说，纳维-斯托克斯方程中描述运动的项——加速度、压力梯度、动量传递、黏性——必须既变得_大_，又以精确方式_相互抵消_。这种精细平衡留下了一个光滑的外力，即使流体速度无界增长。\n\n_局部不可压缩运动的快照。橙色表示较快的角旋转；青色表示较慢的旋转。循环速度也取决于半径。轨迹显示向内螺旋和轴向拉伸。_\n\n## 我们如何找到证明\n\n自8月28日起，我们一直在训练一个新的内部模型，该模型在我们的基准测试中表现出前所未有的性能，包括数学领域。该模型的训练仍在进行中，其性能持续提升。\n\n9月1日（星期二），我们听到传言称两个千禧年大奖难题已被解决。受这些传言以及我们内部模型性能阶跃式提升的启发，我们启动了一项工作，在所有开放的千禧年大奖难题和其他几个高影响力问题上对其进行评估。\n\n我们使用了一个由内部模型驱动的协调代理系统。代理可以访问工具，例如从互联网缓存版本中读取信息以及运行代码。代理被细分为多个小组，组内可以通信。小组规模各异，产生纳维-斯托克斯解决方案的小组涉及约10,000个并发代理。我们始终维持与所有前沿模型评估相同的严格保障措施，包括监控和隔离。\n\n对于每个问题，我们向不同的代理组提示问题陈述的不同变体，覆盖问题的所有变体。对于纳维-斯托克斯问题，我们向不同的代理组建议了版本“A”和“B”（纳维-斯托克斯问题的特定形式，可能导致证明）以及版本“C”和“D”（可能导致反证）。\n\n除了完整的千禧年大奖难题外，我们还要求多代理系统尝试一组“较简单”的问题。其中一个问题是纳维-斯托克斯问题在移除黏性项后的极限情况下的类似爆破问题。这被称为欧拉方程的正则性问题，我们的代理通过解决该问题让我们感到惊讶。他们解决的具体变体是_无外力_版本，即没有外力施加于流体。近100个代理协同工作约50小时，生成了我们的欧拉正则性反证。[1](https://openai.com/index/navier-stokes-solution#citation-bottom-1)\n\n一旦我们看到欧拉解，我们认为纳维-斯托克斯是最有希望攻克的问题。因此，我们决定将资源集中于纳维-斯托克斯。为此，我们将代理从其他千禧年问题中转移出来，并向这些代理提示欧拉解。当我们的内部模型在努力过程中推出进一步训练的版本时，我们将代理更新为该模型。\n\n我们鼓励不同的代理组探索多样化的方法。一段时间后，我们使用Codex整合每个代理组最有用的见解，对代理组进行交叉授粉。这些后续提示利用了代理自身的中间结果。找到纳维-斯托克斯解决方案的小组就是以这种方式得到引导的。\n\n这些智能体于9月5日（星期六）达成解决方案，距首批智能体启动约88小时。通过GPT‑6 Astra进行的Lean形式化与验证又额外耗时17小时。\n\n在所有尝试解决的问题中，智能体共发送了490万条消息，使用了约3000亿个输出令牌。在解决纳维-斯托克斯问题的过程中，智能体发送了270万条消息，使用了约1300亿个输出令牌。\n\n## 并行工作\n\n我们的工作始于9月1日，当时我们听到一则传言，后来意识到这与Anthropic员工Levent Alpöge及纽约大学数学教授Tristan Buckmaster有关。在我们完成整个项目及Lean验证（9月6日）后，基于传言认为他们也可能已获得纳维-斯托克斯问题的解，我们主动联系他们，提议并行发布我们的结果，并在联合公告中承认他们的优先权。当时我们得知他们解决的是受迫欧拉问题。在这些讨论中，我们向他们提供了我们使用的所有提示词，并随后展示了证明。我们承认他们在受迫欧拉问题上的优先权，并祝贺他们取得的卓越数学成就。\n\n我们（研究人员及智能体）在他们公开发布之前，未通过任何途径看到他们的工作——特别是，为解决此问题未访问任何特定用户数据。尽管可能性不大，但我们无法排除源自他们使用我们产品所得到的去标识化数据可能[帮助改进了我们的模型](https://openai.com/policies/how-your-data-is-used-to-improve-model-performance/)。然而，我们的证明存在显著差异，甚至在欧拉问题情形下，所证明的精确结果也各不相同（受迫与不受迫之别）。\n\n## 进展与责任\n\n我们发布此结果的目标是报告我们AI模型的实质性进展。我们无意就此结果申领千禧年大奖。\n\n这一里程碑代表了数学家与AI研究者的大量工作。然而，这并非终点，而是AI发展进程中的一个时间快照。\n\n[我们相信，我们现已进入AI进步的下一个阶段](https://openai.com/index/research-acceleration-view-inside-openai/)，今日的结果为此提供了进一步证据。我们正专注于理解这一模型，并利用所学来指导并把握我们追求能力进一步突破的节奏。我们的[关键目标之一](https://openai.com/index/built-to-benefit-everyone-our-plan/)是构建可引导、可问责且与人类紧密相连的AI系统，这可能需要在进展节奏上做出更为审慎的选择，同时我们继续履行确保AGI惠及全人类的使命。",
+      "titleZh": "关于纳维-斯托克斯千禧年大奖难题",
+      "summaryZh": "我们分享了一个AI生成的纳维-斯托克斯千禧年大奖难题解决方案，包括一份详细说明和一份用Lean编写的正式证明。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-09-08T10:00:00.000Z",
+      "url": "https://openai.com/index/navier-stokes-solution",
+      "collectedAt": "2026-09-09T07:36:58.603Z"
+    },
+    {
+      "id": "fc10a2c83b0e44fbdbfa",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "1Password increases engineering productivity 21% with Codex",
+      "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+      "content": "1Password has integrated Codex across the software delivery lifecycle to compress the time between planning and production, allowing it to build new features at a rapid pace. The 1Password team has cut median pull request cycle time by nearly 11% and improved engineering productivity by almost 21% for its core user cohort.\n\nBased on engineering's results, 1Password's leadership team is expanding access to Codex to other functions, enabling teams such as finance and marketing to build their own tools and features. Throughout, 1Password maintained its rigorous security standards, ensuring there's no tradeoff between increasing its speed and protecting its data.\n\n> “What’s been really eye-opening for a lot of our engineers is shortening the lifecycle between planning and being able to see a feature in production.”\n\n—Nancy Wang, CTO, 1Password\n\n## One-shotting new features with Codex\n\n1Password is using Codex to move ideas from planning to implementation faster, helping engineers turn well-defined user stories into working features.\n\n“Previously, you would go into a project, think about how to break it down into different sprints, and assign different sprints to engineering scrum teams,” explains Nancy Wang, CTO at 1Password. “With Codex, you can actually one-shot, going from an idea to a prototype to a feature that works fully in production.”\n\n“For our workflow, Codex made it faster and easier to one-shot features by giving it a user story and instructions about what we want the user to experience, reducing the iteration required before engineering review,” Wang says.\n\nThis work has resulted in numerous new features, both internal tools and customer-facing products. One example is Knox, a fully agentic frontend design system that helps teams at 1Password build new interfaces. Other examples include an internal AI site reliability engineering (SRE) agent and an AI spend management tool.\n\n1Password gives Codex room to work autonomously inside clearly defined engineering and security boundaries. “Codex will actually break the requested feature down into functional specs and build a near-final prototype that then we can hand to our systems engineers to build into our backend,” Wang says. This approach reduced handoff time and improved engineering productivity. Engineers are writing code faster and spending less time on the handoffs between planning, implementation, and review.\n\n## Codex across the software delivery lifecycle\n\nCodex touches every step from planning to production:\n\n*   Planning and technical design: Turns requests into specs, dependency checks, and work items.\n*   Implementation across stacks: Helps engineers navigate unfamiliar Rust and TypeScript code via CLI; parallel worktrees run tasks simultaneously.\n*   Pull request review: Reviews changes before a human, flags logic issues and missing context.\n*   Testing and release readiness: Runs acceptance criteria and automated tests in parallel with other work.\n*   Security and access: Ties into 1Password's internal AppSec harness; secret references keep plaintext credentials out of model context.\n*   Production investigation: Pulls evidence across incident management, telemetry, source control, paging, and feature flags.\n\n## Results at a glance\n\n![Image 1: 1Password modeled annual engineering capacity value with Codex: $783,750. Model assumptions are provided in the caption.](https://images.ctfassets.net/kftzwdyauwt9/1Yw8uIdULnssM69f1VakL3/5c50a23cd7bb8e5325c5138ec2d1595b/1password-results-requested.png?w=3840&q=90&fm=webp)\n\nModeled annual engineering capacity value: $783,750, based on 50 consistently active Codex developers, a $250,000 fully loaded annual cost per developer, 20.9% measured productivity improvement, 40% directional Codex attribution, and 75% realization of productive capacity.\n\nAs 1Password integrated Codex across its software development lifecycle, engineering teams recorded a 20.9% productivity improvement and a 10.9% reduction in median pull request cycle time. An engineer contributing outside their usual stack cut a typical three-day merge down to one day, and a team facing a fixed beta launch date completed four release-critical tickets instead of the roughly two they would normally expect.\n\nFor a defect spanning more than 10 microservices, investigation time fell from about two hours to 5–20 minutes. For a modeled cohort of 50 Codex users, 1Password estimates approximately $784,000 in annual engineering capacity and a 553% ROI, with capacity reinvested in product development and internal innovation. At 100 consistent users, the modeled annual capacity value could reach approximately $3.1 million, assuming Codex accounts for a larger share of the measured productivity improvement.\n\n> “If we can actually speed up that feedback loop between customer feedback and making quick changes in our UI, that’s going to really unlock a lot of things for the business.”\n\n—Nancy Wang, CTO, 1Password\n\n## Maintaining security as the speed of development rises\n\n1Password is also rolling out OpenAI tools to finance, marketing, and other teams, where the chat interface has become second nature.\n\nFor 1Password, its security model is a design requirement for adoption, not a control to add after usage expands. “We have a very stringent security posture in terms of how we build products,” Wang says. Any product that touches credentials or secrets, for example, needs to adhere to a zero-knowledge architecture designed so that only the customer can decrypt and access their sensitive data.\n\n1Password implements that principle by keeping secret references, rather than credentials, in repositories. When Codex calls an approved internal tool, 1Password resolves and injects the credential at the point of action, so the plaintext value never enters the model context.\n\nTo further strengthen security, 1Password engineers have also taken the company's security policies and “baked that into reusable AppSec skills,” allowing the company's standards to travel with the development workflow, Wang explains. “That's been a game changer.”\n\n## What's next\n\nWang and the 1Password team see software production becoming more accessible in the near future through “democratized building”: more roles can build software. If the first wave was about engineers becoming AI-assisted builders, Wang says, “We're now squarely in the second wave. Everyone in product, design, research, and development is becoming builders. PMs are starting to ship products, and designers are starting to ship front-end code.”\n\nWang predicts this trend spreading across every role. “I think the last mile is actually getting everybody in a company to build,” she says. “That's what we're going to see over the next 12 months, folks who are traditionally not writing code or who don't think of themselves as builders becoming so comfortable with AI tools that they can ship code confidently.”",
+      "contentZh": "1Password已将Codex集成到软件交付生命周期的各个环节，以缩短从规划到生产之间的时间，从而能够快速构建新功能。1Password团队将拉取请求的中位周期时间缩短了近11%，并为核心用户群提升了近21%的工程生产力。\n\n基于工程部门的成果，1Password的领导团队正在将Codex的访问权限扩展到其他职能部门，使财务、市场等团队能够构建自己的工具和功能。在整个过程中，1Password始终坚持严格的安全标准，确保在提升速度与保护数据之间不存在取舍。\n\n> “对我们许多工程师来说，真正令人大开眼界的是缩短了从规划到在生产环境中看到功能之间的生命周期。”\n\n——Nancy Wang，1Password首席技术官\n\n## 使用Codex一次性完成新功能\n\n1Password正在利用Codex将创意从规划阶段更快地推进到实施阶段，帮助工程师将定义明确的用户故事转化为可运行的功能。\n\n“以前，你需要进入一个项目，思考如何将其分解为不同的冲刺，并将不同的冲刺分配给工程敏捷团队，”1Password首席技术官Nancy Wang解释道。“有了Codex，你实际上可以一次性完成，从创意到原型，再到在生产环境中完全可用的功能。”\n\n“对于我们的工作流程，Codex通过提供用户故事以及我们希望用户体验到的说明，使得一次性完成功能变得更快、更容易，减少了工程审查前所需的迭代次数，”Wang表示。\n\n这项工作已催生出众多新功能，既有内部工具，也有面向客户的产品。一个例子是Knox，这是一个完全智能化的前端设计系统，帮助1Password团队构建新界面。其他例子包括内部AI站点可靠性工程代理和AI支出管理工具。\n\n1Password在明确定义的工程和安全边界内，给予Codex自主工作的空间。“Codex实际上会将所请求的功能分解为功能规格，并构建一个接近最终版本的原型，然后我们可以将其交给系统工程师构建到后端中，”Wang说。这种方法减少了交接时间，提高了工程生产力。工程师编写代码的速度更快，在规划、实施和审查之间的交接上花费的时间也更少。\n\n## Codex贯穿软件交付生命周期\n\nCodex涉及从规划到生产的每一个步骤：\n\n*   规划与技术设计：将请求转化为规格、依赖检查和工作项。\n*   跨技术栈实施：通过CLI帮助工程师熟悉陌生的Rust和TypeScript代码；并行工作树可同时运行任务。\n*   拉取请求审查：在人工审查之前检查变更，标记逻辑问题和缺失上下文。\n*   测试与发布准备：与其他工作并行运行验收标准和自动化测试。\n*   安全与访问：与1Password内部应用安全框架集成；密钥引用确保明文凭据不会进入模型上下文。\n*   生产调查：从事件管理、遥测、源代码控制、分页和功能开关中收集证据。\n\n## 成果概览\n\n![图片1：1Password使用Codex建模的年度工程产能价值：783,750美元。模型假设见说明文字。](https://images.ctfassets.net/kftzwdyauwt9/1Yw8uIdULnssM69f1VakL3/5c50a23cd7bb8e5325c5138ec2d1595b/1password-results-requested.png?w=3840&q=90&fm=webp)\n\n建模年度工程产能价值：783,750美元，基于50名持续活跃的Codex开发者、每名开发者25万美元的全额年成本、20.9%的实测生产力提升、40%的方向性Codex归因以及75%的产能实现率。\n\n随着1Password将Codex集成到其软件开发生命周期中，工程团队记录到生产力提升了20.9%，拉取请求中位周期时间缩短了10.9%。一名在自身常规技术栈之外贡献的工程师将通常需要三天的合并缩短至一天；一个面临固定测试版发布日期的团队完成了四个发布关键工单，而他们通常预计只能完成约两个。\n\n对于跨越10多个微服务的缺陷，调查时间从约两小时缩短至5至20分钟。对于50名Codex用户的建模队列，1Password估计每年约可增加784,000美元的工程产能，投资回报率为553%，这些产能被重新投入到产品开发和内部创新中。若持续使用用户达到100人，假设Codex在实测生产力提升中占更大份额，建模年度产能价值可能达到约310万美元。\n\n> “如果我们能够真正加快客户反馈与UI快速更改之间的反馈循环，那将为业务释放大量潜力。”\n\n——Nancy Wang，1Password首席技术官\n\n## 在开发速度提升的同时维护安全\n\n1Password还正在向财务、市场及其他团队推广OpenAI工具，在这些团队中，聊天界面已成为日常操作的一部分。\n\n对于1Password而言，其安全模型是采用的设计要求，而非使用扩展后再添加的控制措施。“我们在构建产品方面有着非常严格的安全姿态，”Wang说。例如，任何涉及凭据或密钥的产品都需要遵循零知识架构，该架构的设计确保只有客户才能解密和访问其敏感数据。\n\n1Password通过在存储库中保留密钥引用而非凭据来实施这一原则。当Codex调用经批准的内部工具时，1Password会在操作点解析并注入凭据，因此明文值永远不会进入模型上下文。\n\n为进一步加强安全，1Password工程师还将公司的安全策略“融入可复用的应用安全技能中”，使公司标准能够随开发工作流程一同流转，Wang解释道。“这改变了游戏规则。”\n\n## 未来展望\n\nWang和1Password团队认为，在不久的将来，通过“民主化构建”，软件生产将变得更加普及：更多角色可以构建软件。如果说第一波浪潮是工程师成为AI辅助的构建者，Wang表示，“我们现在正处于第二波浪潮中。产品、设计、研发领域的每个人都在成为构建者。产品经理开始交付产品，设计师开始交付前端代码。”\n\nWang预测这一趋势将扩展到每个角色。“我认为最后一公里实际上是让公司中的每个人都能够构建，”她说。“这就是我们在未来12个月将看到的景象——那些传统上不编写代码或自认为不是构建者的人，将变得对AI工具如此熟悉，以至于他们能够自信地交付代码。”",
+      "titleZh": "1Password借助Codex将工程效率提升21%",
+      "summaryZh": "1Password的工程师使用Codex快速构建新功能和内部工具，在达到生产就绪状态的同时维持严格的安全策略。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "url": "https://openai.com/index/1password",
+      "collectedAt": "2026-09-09T07:36:58.604Z"
+    },
+    {
       "id": "0f8e8b7e95228d5352a6",
       "sourceId": "openai-news",
       "company": "OpenAI",
@@ -67,24 +135,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-06T08:00:00.000Z",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "collectedAt": "2026-09-08T07:29:02.436Z"
-    },
-    {
-      "id": "67198b26c462572b168f",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-      "content": "Legora is an agentic operating system for legal and professional work, used by more than 100,000 professionals across more than 1,800 in-house legal departments and law firms in over 50 markets. Its legal engineers work directly with customers to understand how they operate and adapt Legora to their end-to-end workflows, from contract and agreement review to legal research.\n\nOne of the more tedious workflows is financial-statement tie-out: checking every figure in draft accounts against trial balances, a consolidation schedule, and the previous year’s accounts until each item agrees. As Legora Legal Engineer Percevale Perks says, the work “can take an entire evening, sometimes days.”\n\n## Processing complex financial context at scale\n\nUsing GPT‑6 Astra, Legora’s Agent completed the tie-out across 41 documents in a single run. Legora says the Agent did the work within minutes: checking every balance against its supporting schedule, surfacing breaks in the amounts, and recording each check. The result gives the legal professional a granular record of every line item and figure to review.\n\n> “I think what changed before and after is the processing power, the ability to ingest such a large number of documents, digest really complex information, and get all of those different line items and figures.”\n\n—Percevale Perks, Legal Engineer, Legora\n\nThe Agent handles the exhaustive comparison, while the expert remains responsible for the judgment call on each result. That approach of keeping a human in the loop is central to how Legora is extending its platform beyond legal work into audit, tax, compliance, and risk.\n\n## Improving accuracy, completeness, and reliability\n\nLegora evaluated GPT‑6 Astra with the Legora Benchmark for Agentic Reasoning (BAR), which measures performance on end-to-end legal tasks drawn from real-world use cases. Legora reports that GPT‑6 Astra improved performance by nearly 40% over the previous model on this financial-statement workflow. Across all tasks in the BAR, the improvement averaged about 3%.\n\nIn the tie-out, Legora saw gains across what Percevale describes as accuracy, completeness, and reliability. GPT‑6 Astra found all four errors Legora had planted in the accounts, including a £500,000 gap hidden in the revenue note. It checked every balance against its supporting schedule and recorded each check. And it retained every check the previous model got right as well as completed around 50 more.\n\nThe result is a more complete and faster first pass and a clearer record to review, while the final decision stays with the legal expert.",
-      "contentZh": "Legora 是一个面向法律与专业工作的智能体操作系统，被超过50个市场中的1800多家企业内部法律部门和律师事务所的逾10万名专业人士使用。其法律工程师直接与客户合作，了解他们的运作方式，并将Legora适配到从合同与协议审查到法律研究的端到端工作流程中。\n\n其中较为繁琐的工作流程之一是财务报表核对：将草稿账目中的每一个数字与试算平衡表、合并附表以及上一年度的账目进行核对，直到每一项数据一致为止。正如Legora法律工程师Percevale Perks所说，这项工作“可能需要花费整个晚上，有时甚至好几天。”\n\n## 大规模处理复杂财务背景\n\n利用GPT‑6 Astra，Legora的智能体在一次运行中完成了对41份文档的核对。Legora表示，该智能体在几分钟内完成了这项工作：检查每一项余额与其支持附表是否匹配，揭示金额中的差异，并记录每项检查。结果是为法律专业人士提供了一份详细的逐项记录，供其审阅每一项和数字。\n\n> “我认为前后变化的关键在于处理能力——能够摄取如此大量的文档、消化极其复杂的信息，并获取所有这些不同的项目和数字。”\n\n——Percevale Perks，Legora法律工程师\n\n该智能体负责详尽的比对工作，而专家仍负责对每个结果做出专业判断。这种保持人类参与其中的方法，是Legora将其平台从法律工作扩展到审计、税务、合规和风险领域的核心所在。\n\n## 提升准确性、完整性和可靠性\n\nLegora使用Legora智能体推理基准（BAR）对GPT‑6 Astra进行了评估，该基准衡量的是基于真实世界用例的端到端法律任务的表现。Legora报告称，在此财务报表工作流程中，GPT‑6 Astra相比前代模型性能提升了近40%。在BAR的所有任务中，平均改进幅度约为3%。\n\n在核对任务中，Legora在Percevale所描述的准确性、完整性和可靠性方面均取得了进展。GPT‑6 Astra发现了Legora在账目中植入的全部四个错误，包括隐藏在收入附注中的一个50万英镑的差额。它检查了每一项余额与其支持附表是否匹配，并记录了每项检查。同时，它保留了前代模型正确执行的所有检查，并额外完成了约50项检查。\n\n结果是第一轮检查更完整、更快速，审阅记录也更清晰，而最终决策权仍掌握在法律专家手中。",
-      "titleZh": "Legora借助GPT-6 Astra在数分钟内审阅41份文档",
-      "summaryZh": "Legora使用GPT-6 Astra在数分钟内审阅了41份文档，找出了所有四个预设错误，并在该财务审查工作流中将性能提升了近40%。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "collectedAt": "2026-09-08T07:29:02.438Z"
+      "collectedAt": "2026-09-09T07:36:58.605Z"
     },
     {
       "id": "3fdba842a49bbf61f305",
@@ -101,7 +152,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "collectedAt": "2026-09-08T07:29:02.439Z"
+      "collectedAt": "2026-09-09T07:36:58.607Z"
+    },
+    {
+      "id": "67198b26c462572b168f",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "content": "Legora is an agentic operating system for legal and professional work, used by more than 100,000 professionals across more than 1,800 in-house legal departments and law firms in over 50 markets. Its legal engineers work directly with customers to understand how they operate and adapt Legora to their end-to-end workflows, from contract and agreement review to legal research.\n\nOne of the more tedious workflows is financial-statement tie-out: checking every figure in draft accounts against trial balances, a consolidation schedule, and the previous year’s accounts until each item agrees. As Legora Legal Engineer Percevale Perks says, the work “can take an entire evening, sometimes days.”\n\n## Processing complex financial context at scale\n\nUsing GPT‑6 Astra, Legora’s Agent completed the tie-out across 41 documents in a single run. Legora says the Agent did the work within minutes: checking every balance against its supporting schedule, surfacing breaks in the amounts, and recording each check. The result gives the legal professional a granular record of every line item and figure to review.\n\n> “I think what changed before and after is the processing power, the ability to ingest such a large number of documents, digest really complex information, and get all of those different line items and figures.”\n\n—Percevale Perks, Legal Engineer, Legora\n\nThe Agent handles the exhaustive comparison, while the expert remains responsible for the judgment call on each result. That approach of keeping a human in the loop is central to how Legora is extending its platform beyond legal work into audit, tax, compliance, and risk.\n\n## Improving accuracy, completeness, and reliability\n\nLegora evaluated GPT‑6 Astra with the Legora Benchmark for Agentic Reasoning (BAR), which measures performance on end-to-end legal tasks drawn from real-world use cases. Legora reports that GPT‑6 Astra improved performance by nearly 40% over the previous model on this financial-statement workflow. Across all tasks in the BAR, the improvement averaged about 3%.\n\nIn the tie-out, Legora saw gains across what Percevale describes as accuracy, completeness, and reliability. GPT‑6 Astra found all four errors Legora had planted in the accounts, including a £500,000 gap hidden in the revenue note. It checked every balance against its supporting schedule and recorded each check. And it retained every check the previous model got right as well as completed around 50 more.\n\nThe result is a more complete and faster first pass and a clearer record to review, while the final decision stays with the legal expert.",
+      "contentZh": "Legora 是一个面向法律与专业工作的智能体操作系统，被超过50个市场中的1800多家企业内部法律部门和律师事务所的逾10万名专业人士使用。其法律工程师直接与客户合作，了解他们的运作方式，并将Legora适配到从合同与协议审查到法律研究的端到端工作流程中。\n\n其中较为繁琐的工作流程之一是财务报表核对：将草稿账目中的每一个数字与试算平衡表、合并附表以及上一年度的账目进行核对，直到每一项数据一致为止。正如Legora法律工程师Percevale Perks所说，这项工作“可能需要花费整个晚上，有时甚至好几天。”\n\n## 大规模处理复杂财务背景\n\n利用GPT‑6 Astra，Legora的智能体在一次运行中完成了对41份文档的核对。Legora表示，该智能体在几分钟内完成了这项工作：检查每一项余额与其支持附表是否匹配，揭示金额中的差异，并记录每项检查。结果是为法律专业人士提供了一份详细的逐项记录，供其审阅每一项和数字。\n\n> “我认为前后变化的关键在于处理能力——能够摄取如此大量的文档、消化极其复杂的信息，并获取所有这些不同的项目和数字。”\n\n——Percevale Perks，Legora法律工程师\n\n该智能体负责详尽的比对工作，而专家仍负责对每个结果做出专业判断。这种保持人类参与其中的方法，是Legora将其平台从法律工作扩展到审计、税务、合规和风险领域的核心所在。\n\n## 提升准确性、完整性和可靠性\n\nLegora使用Legora智能体推理基准（BAR）对GPT‑6 Astra进行了评估，该基准衡量的是基于真实世界用例的端到端法律任务的表现。Legora报告称，在此财务报表工作流程中，GPT‑6 Astra相比前代模型性能提升了近40%。在BAR的所有任务中，平均改进幅度约为3%。\n\n在核对任务中，Legora在Percevale所描述的准确性、完整性和可靠性方面均取得了进展。GPT‑6 Astra发现了Legora在账目中植入的全部四个错误，包括隐藏在收入附注中的一个50万英镑的差额。它检查了每一项余额与其支持附表是否匹配，并记录了每项检查。同时，它保留了前代模型正确执行的所有检查，并额外完成了约50项检查。\n\n结果是第一轮检查更完整、更快速，审阅记录也更清晰，而最终决策权仍掌握在法律专家手中。",
+      "titleZh": "Legora借助GPT-6 Astra在数分钟内审阅41份文档",
+      "summaryZh": "Legora使用GPT-6 Astra在数分钟内审阅了41份文档，找出了所有四个预设错误，并在该财务审查工作流中将性能提升了近40%。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "collectedAt": "2026-09-09T07:36:58.608Z"
     },
     {
       "id": "499b8df2de41c3c42a77",
@@ -118,7 +186,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T11:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-astra",
-      "collectedAt": "2026-09-08T07:29:02.440Z"
+      "collectedAt": "2026-09-09T07:36:58.609Z"
     },
     {
       "id": "9b8372f5dd9139bf3dfd",
@@ -135,7 +203,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "collectedAt": "2026-09-08T07:29:02.440Z"
+      "collectedAt": "2026-09-09T07:36:58.610Z"
     },
     {
       "id": "76e92e71feca11592be4",
@@ -152,7 +220,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.000Z"
+      "collectedAt": "2026-09-09T07:36:59.942Z"
     },
     {
       "id": "ce0686df2b5f1aa16f14",
@@ -169,7 +237,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-08T07:29:05.084Z"
+      "collectedAt": "2026-09-09T07:37:01.297Z"
     },
     {
       "id": "9ad38e9ab9838c6b598d",
@@ -186,7 +254,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-02T16:18:31.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "collectedAt": "2026-09-08T07:29:05.509Z"
+      "collectedAt": "2026-09-09T07:37:01.759Z"
     },
     {
       "id": "23cc665780e07fde7643",
@@ -203,7 +271,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-02T12:00:00.000Z",
       "url": "https://openai.com/index/atv-big-air-tour",
-      "collectedAt": "2026-09-08T07:29:02.441Z"
+      "collectedAt": "2026-09-09T07:36:58.611Z"
     },
     {
       "id": "7a7557129f4a0b3fe78e",
@@ -220,7 +288,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-08T07:29:05.084Z"
+      "collectedAt": "2026-09-09T07:37:01.297Z"
     },
     {
       "id": "5fd2975f213ab047e365",
@@ -237,7 +305,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T17:08:51.000Z",
       "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-      "collectedAt": "2026-09-08T07:29:05.510Z"
+      "collectedAt": "2026-09-09T07:37:01.759Z"
     },
     {
       "id": "0de52357b4b07f25549c",
@@ -254,7 +322,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T13:00:00.000Z",
       "url": "https://openai.com/index/path-to-astra",
-      "collectedAt": "2026-09-08T07:29:02.443Z"
+      "collectedAt": "2026-09-09T07:36:58.612Z"
     },
     {
       "id": "210c1577098c3af2295c",
@@ -271,7 +339,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T12:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "collectedAt": "2026-09-08T07:29:02.444Z"
+      "collectedAt": "2026-09-09T07:36:58.612Z"
     },
     {
       "id": "c60a9dbb33739fa8f7ff",
@@ -288,7 +356,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T01:00:00.000Z",
       "url": "https://openai.com/index/gilbert-tobin",
-      "collectedAt": "2026-09-08T07:29:02.445Z"
+      "collectedAt": "2026-09-09T07:36:58.612Z"
     },
     {
       "id": "f53efa27b0d13a2b8d75",
@@ -305,7 +373,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-08T07:29:03.532Z"
+      "collectedAt": "2026-09-09T07:36:59.453Z"
     },
     {
       "id": "3f73d429de5f2ed86a44",
@@ -322,7 +390,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.002Z"
+      "collectedAt": "2026-09-09T07:36:59.943Z"
     },
     {
       "id": "6a3e7fac71e57d88cb41",
@@ -339,7 +407,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-08T07:29:05.084Z"
+      "collectedAt": "2026-09-09T07:37:01.298Z"
     },
     {
       "id": "62995badc1a46202724b",
@@ -356,7 +424,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-31T07:00:00.000Z",
       "url": "https://openai.com/index/polimill",
-      "collectedAt": "2026-09-08T07:29:02.446Z"
+      "collectedAt": "2026-09-09T07:36:58.613Z"
     },
     {
       "id": "89958d19d1f987cb8ada",
@@ -373,7 +441,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-31T04:00:00.000Z",
       "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "collectedAt": "2026-09-08T07:29:02.447Z"
+      "collectedAt": "2026-09-09T07:36:58.613Z"
     },
     {
       "id": "6e697a03b79f347648db",
@@ -390,7 +458,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-28T06:00:00.000Z",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "collectedAt": "2026-09-08T07:29:02.448Z"
+      "collectedAt": "2026-09-09T07:36:58.614Z"
     },
     {
       "id": "3b034008653d3c2739c4",
@@ -407,7 +475,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T16:11:32.000Z",
       "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "collectedAt": "2026-09-08T07:29:05.510Z"
+      "collectedAt": "2026-09-09T07:37:01.759Z"
     },
     {
       "id": "f3885091ef8df6aaae64",
@@ -424,7 +492,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T09:00:00.000Z",
       "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "collectedAt": "2026-09-08T07:29:02.449Z"
+      "collectedAt": "2026-09-09T07:36:58.614Z"
     },
     {
       "id": "4707ef7564f9017d5027",
@@ -441,7 +509,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.003Z"
+      "collectedAt": "2026-09-09T07:36:59.944Z"
     },
     {
       "id": "c5289a9a45e73f8f78ee",
@@ -458,7 +526,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-08T07:29:05.085Z"
+      "collectedAt": "2026-09-09T07:37:01.299Z"
     },
     {
       "id": "038305de768a112cfa08",
@@ -475,24 +543,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T17:01:00.000Z",
       "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-      "collectedAt": "2026-09-08T07:29:05.510Z"
-    },
-    {
-      "id": "92b51a1e3a09499b97f9",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Learning never stops: How AI makes learning continuous",
-      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-      "content": "As students head back to school, OpenAI is releasing a new report on how students and educators are already using ChatGPT to extend learning beyond the classroom.\n\nStudents have long had to wait until class to ask a question or get help. Teachers divide their attention among dozens of students while also managing administrative work. Parents and tutors are not always available at the moment a question arises. Now, AI is changing all of that by making guidance, feedback, and practice available whenever students need them.\n\nA privacy-preserving analysis found that people across all age groups have as many as 70 million conversations with ChatGPT each week devoted to testing what they know, which include misconception checks and requests for more practice. In the U.S., prompts related to classwork and homework peak at more than 460 million messages per week during the school year and climb on Sunday evenings. Even during the summer, they remain above 180 million messages per week.\n\nFor students, continuous learning can mean getting help with algebra outside of the classroom while the lesson is still fresh. For teachers, it can mean adapting an assignment for different skill levels before the first bell or spending less time on recurring paperwork and more time teaching. For families who speak a different language at home, it can mean receiving school communications in a language they understand and being better able to support a child’s progress.\n\nThe report also spotlights individual teachers and students across the U.S. who are using AI in productive, creative, and meaningful ways.\n\nAI cannot replace a teacher’s judgment, a parent’s encouragement, or the work students must do to learn. But with appropriate guidance and safeguards, it can give educators more time to focus on teaching and make individualized support available to more people at more times.",
-      "contentZh": "随着学生们重返校园，OpenAI发布了一份新报告，介绍学生和教育工作者如何利用ChatGPT将学习延伸到课堂之外。\n\n长期以来，学生们不得不等到上课才能提问或获得帮助。教师要在管理行政工作的同时，将注意力分配给几十名学生。家长和辅导老师并不总能在问题出现时及时提供帮助。如今，人工智能正在改变这一切，让学生们在需要时随时获得指导、反馈和练习。\n\n一项注重隐私保护的分析发现，各年龄段的人们每周与ChatGPT进行多达7000万次对话，用于检验自己的知识掌握情况，其中包括纠正误解和请求更多练习。在美国，与课堂作业和家庭作业相关的提示词在学年期间每周峰值超过4.6亿条，并在周日晚上攀升。即使在暑假期间，每周也保持在1.8亿条以上。\n\n对学生而言，持续学习意味着在课堂之外、课程内容还记忆犹新时就能获得代数方面的帮助。对教师而言，这意味着可以在上课铃响之前根据不同能力水平调整作业，或者减少花在重复性文书工作上的时间，把更多时间用于教学。对于在家使用不同语言的家庭来说，这意味着能以他们理解的语言收到学校通知，从而更好地支持孩子的学习进步。\n\n该报告还重点介绍了美国各地以富有成效、创造性和有意义的方式使用人工智能的教师和学生。\n\n人工智能无法取代教师的判断力、家长的鼓励，也无法取代学生为学习所必须付出的努力。但在适当的指导和保障措施下，它可以让教育工作者有更多时间专注于教学，并在更多时间为更多人提供个性化支持。",
-      "titleZh": "学习永不止步：AI 如何让学习持续进行",
-      "summaryZh": "OpenAI 的新报告探讨了学生和教育工作者如何利用 ChatGPT 使学习更加持续，并提供课堂之外的支持。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-26T10:00:00.000Z",
-      "url": "https://openai.com/index/learning-never-stops",
-      "collectedAt": "2026-09-08T07:29:02.449Z"
+      "collectedAt": "2026-09-09T07:37:01.760Z"
     },
     {
       "id": "df161950e809789b055b",
@@ -509,7 +560,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "collectedAt": "2026-09-08T07:29:02.450Z"
+      "collectedAt": "2026-09-09T07:36:58.615Z"
+    },
+    {
+      "id": "92b51a1e3a09499b97f9",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Learning never stops: How AI makes learning continuous",
+      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "content": "As students head back to school, OpenAI is releasing a new report on how students and educators are already using ChatGPT to extend learning beyond the classroom.\n\nStudents have long had to wait until class to ask a question or get help. Teachers divide their attention among dozens of students while also managing administrative work. Parents and tutors are not always available at the moment a question arises. Now, AI is changing all of that by making guidance, feedback, and practice available whenever students need them.\n\nA privacy-preserving analysis found that people across all age groups have as many as 70 million conversations with ChatGPT each week devoted to testing what they know, which include misconception checks and requests for more practice. In the U.S., prompts related to classwork and homework peak at more than 460 million messages per week during the school year and climb on Sunday evenings. Even during the summer, they remain above 180 million messages per week.\n\nFor students, continuous learning can mean getting help with algebra outside of the classroom while the lesson is still fresh. For teachers, it can mean adapting an assignment for different skill levels before the first bell or spending less time on recurring paperwork and more time teaching. For families who speak a different language at home, it can mean receiving school communications in a language they understand and being better able to support a child’s progress.\n\nThe report also spotlights individual teachers and students across the U.S. who are using AI in productive, creative, and meaningful ways.\n\nAI cannot replace a teacher’s judgment, a parent’s encouragement, or the work students must do to learn. But with appropriate guidance and safeguards, it can give educators more time to focus on teaching and make individualized support available to more people at more times.",
+      "contentZh": "随着学生们重返校园，OpenAI发布了一份新报告，介绍学生和教育工作者如何利用ChatGPT将学习延伸到课堂之外。\n\n长期以来，学生们不得不等到上课才能提问或获得帮助。教师要在管理行政工作的同时，将注意力分配给几十名学生。家长和辅导老师并不总能在问题出现时及时提供帮助。如今，人工智能正在改变这一切，让学生们在需要时随时获得指导、反馈和练习。\n\n一项注重隐私保护的分析发现，各年龄段的人们每周与ChatGPT进行多达7000万次对话，用于检验自己的知识掌握情况，其中包括纠正误解和请求更多练习。在美国，与课堂作业和家庭作业相关的提示词在学年期间每周峰值超过4.6亿条，并在周日晚上攀升。即使在暑假期间，每周也保持在1.8亿条以上。\n\n对学生而言，持续学习意味着在课堂之外、课程内容还记忆犹新时就能获得代数方面的帮助。对教师而言，这意味着可以在上课铃响之前根据不同能力水平调整作业，或者减少花在重复性文书工作上的时间，把更多时间用于教学。对于在家使用不同语言的家庭来说，这意味着能以他们理解的语言收到学校通知，从而更好地支持孩子的学习进步。\n\n该报告还重点介绍了美国各地以富有成效、创造性和有意义的方式使用人工智能的教师和学生。\n\n人工智能无法取代教师的判断力、家长的鼓励，也无法取代学生为学习所必须付出的努力。但在适当的指导和保障措施下，它可以让教育工作者有更多时间专注于教学，并在更多时间为更多人提供个性化支持。",
+      "titleZh": "学习永不止步：AI 如何让学习持续进行",
+      "summaryZh": "OpenAI 的新报告探讨了学生和教育工作者如何利用 ChatGPT 使学习更加持续，并提供课堂之外的支持。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-08-26T10:00:00.000Z",
+      "url": "https://openai.com/index/learning-never-stops",
+      "collectedAt": "2026-09-09T07:36:58.615Z"
     },
     {
       "id": "e8e71766793d0226c88b",
@@ -526,7 +594,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "collectedAt": "2026-09-08T07:29:02.450Z"
+      "collectedAt": "2026-09-09T07:36:58.615Z"
     },
     {
       "id": "42d46e03e113f1a48a9f",
@@ -543,7 +611,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/loveholidays",
-      "collectedAt": "2026-09-08T07:29:02.450Z"
+      "collectedAt": "2026-09-09T07:36:58.616Z"
     },
     {
       "id": "0e8f06023793c35c12b2",
@@ -560,7 +628,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.004Z"
+      "collectedAt": "2026-09-09T07:36:59.944Z"
     },
     {
       "id": "57792a4fc465ac9e4168",
@@ -577,7 +645,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-08T07:29:05.085Z"
+      "collectedAt": "2026-09-09T07:37:01.299Z"
     },
     {
       "id": "bdff11d888b055940269",
@@ -594,7 +662,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T07:05:00.000Z",
       "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "collectedAt": "2026-09-08T07:29:02.451Z"
+      "collectedAt": "2026-09-09T07:36:58.616Z"
     },
     {
       "id": "b9dd82456710ac7ff739",
@@ -611,7 +679,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T07:00:00.000Z",
       "url": "https://openai.com/index/jalapeno-first-results",
-      "collectedAt": "2026-09-08T07:29:02.451Z"
+      "collectedAt": "2026-09-09T07:36:58.617Z"
     },
     {
       "id": "4f3d5193843c2be21102",
@@ -628,7 +696,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-admin-plugin",
-      "collectedAt": "2026-09-08T07:29:02.452Z"
+      "collectedAt": "2026-09-09T07:36:58.617Z"
     },
     {
       "id": "98efe21910bba76ddc89",
@@ -645,7 +713,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-08T07:29:03.533Z"
+      "collectedAt": "2026-09-09T07:36:59.453Z"
     },
     {
       "id": "a3e38d1146847fcc32c5",
@@ -662,7 +730,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-24T12:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "collectedAt": "2026-09-08T07:29:02.452Z"
+      "collectedAt": "2026-09-09T07:36:58.618Z"
     },
     {
       "id": "fb3550ee043ce3089dfb",
@@ -679,7 +747,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-08T07:29:07.922Z"
+      "collectedAt": "2026-09-09T07:37:04.043Z"
     },
     {
       "id": "2d19306ef234ea7faec5",
@@ -696,7 +764,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://openai.com/index/stampli",
-      "collectedAt": "2026-09-08T07:29:02.453Z"
+      "collectedAt": "2026-09-09T07:36:58.619Z"
     },
     {
       "id": "545fb287d7f850c3b01d",
@@ -713,7 +781,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.004Z"
+      "collectedAt": "2026-09-09T07:36:59.945Z"
     },
     {
       "id": "3dc55b55b1de08c817b2",
@@ -730,7 +798,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T19:00:00.000Z",
       "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "collectedAt": "2026-09-08T07:29:02.453Z"
+      "collectedAt": "2026-09-09T07:36:58.619Z"
     },
     {
       "id": "1e5ef4886d4750bbdc69",
@@ -747,7 +815,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T07:00:00.000Z",
       "url": "https://openai.com/index/replit",
-      "collectedAt": "2026-09-08T07:29:02.454Z"
+      "collectedAt": "2026-09-09T07:36:58.620Z"
     },
     {
       "id": "862a5272957677cbb451",
@@ -764,7 +832,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.005Z"
+      "collectedAt": "2026-09-09T07:36:59.945Z"
     },
     {
       "id": "dbabefb7176b8899389d",
@@ -781,7 +849,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-09-08T07:29:04.428Z"
+      "collectedAt": "2026-09-09T07:37:00.524Z"
     },
     {
       "id": "d02b32736bea62b3185d",
@@ -798,7 +866,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T22:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "collectedAt": "2026-09-08T07:29:02.454Z"
+      "collectedAt": "2026-09-09T07:36:58.620Z"
     },
     {
       "id": "755e4db2cccf354bd6df",
@@ -815,7 +883,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "collectedAt": "2026-09-08T07:29:02.455Z"
+      "collectedAt": "2026-09-09T07:36:58.621Z"
     },
     {
       "id": "60ed32685f2c13d2be9e",
@@ -832,7 +900,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-teens",
-      "collectedAt": "2026-09-08T07:29:02.456Z"
+      "collectedAt": "2026-09-09T07:36:58.621Z"
     },
     {
       "id": "569fdb7965461ec2bca6",
@@ -849,7 +917,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T07:00:00.000Z",
       "url": "https://openai.com/index/asana",
-      "collectedAt": "2026-09-08T07:29:02.457Z"
+      "collectedAt": "2026-09-09T07:36:58.622Z"
     },
     {
       "id": "cf88f2889563730674dc",
@@ -866,7 +934,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://openai.com/index/nvidia/chatgpt-work",
-      "collectedAt": "2026-09-08T07:29:02.456Z"
+      "collectedAt": "2026-09-09T07:36:58.621Z"
     },
     {
       "id": "aa9fbf89108c624b5035",
@@ -883,7 +951,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.005Z"
+      "collectedAt": "2026-09-09T07:36:59.946Z"
     },
     {
       "id": "87f8e936f22002253f15",
@@ -900,7 +968,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-17T08:00:00.000Z",
       "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-      "collectedAt": "2026-09-08T07:29:05.873Z"
+      "collectedAt": "2026-09-09T07:37:02.259Z"
     },
     {
       "id": "628f79672cb28599f754",
@@ -917,7 +985,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T17:04:18.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "collectedAt": "2026-09-08T07:29:05.511Z"
+      "collectedAt": "2026-09-09T07:37:01.760Z"
     },
     {
       "id": "8637785710012aa19327",
@@ -934,7 +1002,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T11:00:00.000Z",
       "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "collectedAt": "2026-09-08T07:29:02.458Z"
+      "collectedAt": "2026-09-09T07:36:58.623Z"
     },
     {
       "id": "12d8fd2a91a610822616",
@@ -951,7 +1019,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T10:00:00.000Z",
       "url": "https://openai.com/index/previewing-ultrafast",
-      "collectedAt": "2026-09-08T07:29:02.458Z"
+      "collectedAt": "2026-09-09T07:36:58.623Z"
     },
     {
       "id": "ff9329e42a201fd379a6",
@@ -968,7 +1036,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-08T07:29:05.086Z"
+      "collectedAt": "2026-09-09T07:37:01.300Z"
     },
     {
       "id": "68c4c83c983d7ad01b30",
@@ -985,7 +1053,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-08T07:29:07.923Z"
+      "collectedAt": "2026-09-09T07:37:04.044Z"
     },
     {
       "id": "5437747d9f7a7fa2a89b",
@@ -1002,7 +1070,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T06:00:00.000Z",
       "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "collectedAt": "2026-09-08T07:29:02.459Z"
+      "collectedAt": "2026-09-09T07:36:58.623Z"
     },
     {
       "id": "1024017ea20ba53c7f72",
@@ -1019,7 +1087,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "url": "https://openai.com/index/ringcentral",
-      "collectedAt": "2026-09-08T07:29:02.459Z"
+      "collectedAt": "2026-09-09T07:36:58.624Z"
     },
     {
       "id": "8825eb211c3d1692966b",
@@ -1036,7 +1104,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "collectedAt": "2026-09-08T07:29:02.459Z"
+      "collectedAt": "2026-09-09T07:36:58.624Z"
     },
     {
       "id": "d9485ecefcc38cea5418",
@@ -1053,7 +1121,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "collectedAt": "2026-09-08T07:29:02.460Z"
+      "collectedAt": "2026-09-09T07:36:58.624Z"
     },
     {
       "id": "e253abe92338c77fff32",
@@ -1070,7 +1138,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.006Z"
+      "collectedAt": "2026-09-09T07:36:59.946Z"
     },
     {
       "id": "f50ed5f93da49347ecb6",
@@ -1087,24 +1155,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T12:00:00.000Z",
       "url": "https://openai.com/index/model-ml",
-      "collectedAt": "2026-09-08T07:29:02.460Z"
-    },
-    {
-      "id": "288f6994afc6cc6de385",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Putting frontier cyber models in more trusted hands",
-      "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
-      "content": "We’re bringing OpenAI’s frontier cyber models to the security partners protecting organizations around the world. Together, we’re putting frontier intelligence directly into the products, services, and security operations defenders already depend on. More organizations can now find serious vulnerabilities, fix them faster, and stay ahead of threats moving at machine speed.\n\n![Image 1: Logos of Daybreak Cyber Partner Program participants on an orange gradient background.](https://images.ctfassets.net/kftzwdyauwt9/2o7BXuZ8rPWp0oIUKyLZKo/e004f9b71c871d3dea5edbe0bb38f88d/logo_cloud_for_codex.png?w=3840&q=90&fm=webp)\n\nAI is changing cybersecurity faster than most organizations can respond. Attackers can identify vulnerabilities, develop exploits, and move through complex systems with increasing speed and scale. At the same time, security teams are confronting a growing volume of weaknesses across the software and infrastructure they protect. Finding those vulnerabilities is only the beginning. The harder challenge is determining which ones pose a real threat and fixing them before they can be exploited. Too many defenders still lack access to the frontier models that can help them do that.\n\nOur Daybreak Cyber Partner program includes leading security & services partners such as [Accenture⁠(opens in a new window)](https://www.accenture.com/), [IBM⁠(opens in a new window)](https://www.ibm.com/), [Capgemini⁠(opens in a new window)](https://www.capgemini.com/about-us/technology-partners/openai/), [Cognizant⁠(opens in a new window)](https://www.cognizant.com/), [EY⁠(opens in a new window)](https://www.ey.com/), [KPMG⁠(opens in a new window)](https://kpmg.com/), [PwC⁠(opens in a new window)](https://www.pwc.com/), [NCC Group⁠(opens in a new window)](https://www.nccgroup.com/), and [SpecterOps⁠(opens in a new window)](https://specterops.io/) along with technology partners[Palo Alto Networks⁠(opens in a new window)](https://www.paloaltonetworks.com/) , [CrowdStrike⁠(opens in a new window)](https://www.crowdstrike.com/), [Cisco⁠(opens in a new window)](https://www.cisco.com/), [Sophos⁠(opens in a new window)](https://www.sophos.com/), [Akamai⁠(opens in a new window)](https://www.akamai.com/), [Fortinet⁠(opens in a new window)](https://www.fortinet.com/) and [Cloudflare⁠(opens in a new window)](https://www.cloudflare.com/). These partners bring deep security expertise and established relationships with organizations around the world. By bringing our frontier cyber models into their services, we can help more defenders find serious vulnerabilities, validate which ones matter, and fix them faster.\n\n## From finding vulnerabilities to fixing them\n\nA vulnerability report does not protect an organization. Protection comes from understanding whether a weakness can actually be exploited, identifying the systems at risk, developing a fix, and getting that fix into production.\n\nDaybreak Cyber Partners bring OpenAI’s most advanced cyber models into the work they already do to protect their customers. They know their customers’ systems, understand how their security teams operate, and can help determine which vulnerabilities matter and how to fix them.\n\nDepending on the engagement, partners can help with vulnerability discovery and validation, red teaming, penetration testing, incident response, and remediation across complex enterprise systems.\n\nHear from Daybreak partners\n\n1 of 4\n\n## Bringing frontier models into existing security operations\n\nMost organizations want advanced security capabilities that fit into how their teams already work, integrating with the platforms, providers, and workflows they rely on to protect their business.\n\nThrough the Daybreak Cyber Partner Program, approved partners can bring OpenAI’s frontier cyber models into security products, managed services, and customer engagements.\n\nPartners can access Daybreak Blue or Daybreak Red through Daybreak Access, depending on their needs and the work involved. Daybreak Blue supports a broad range of defensive security workflows, while Daybreak Red is designed for more specialized, closely governed work, including red teaming and penetration testing.\n\nThis gives organizations a practical way to benefit from frontier cyber models without having to build and run their own specialized cyber AI programs.\n\n1 of 4\n\n## More access, with the safeguards to match\n\nDaybreak Cyber Partners use OpenAI’s controlled-access models within trusted, governed engagements. Depending on the work, safeguards can include identity verification, defined testing scopes, logging, monitoring, and human oversight.\n\nAccess to the underlying models remains with the approved partner and is not transferred directly to the customer. Partners work with organizations to define the boundaries of each engagement, review findings, and apply their expertise before action is taken.\n\nThis approach brings advanced defensive capabilities to more organizations while preserving the oversight required for sensitive security work.\n\n1 of 3\n\n## Closing the defense gap together\n\nAttackers are moving faster than many security teams can respond. Closing that gap means getting stronger defenses to the organizations that need them.\n\nMeeting this moment requires frontier models, experienced security practitioners, and trusted partners capable of bringing those capabilities into real-world environments.\n\nBy expanding the Daybreak Cyber Partner Program, we’re making that possible for more organizations and putting stronger defenses within reach.\n\nTo bring Daybreak capabilities into your security operations, contact your cybersecurity provider or [speak with our sales team](https://openai.com/daybreak/contact-cyber-sales/).\n\nCybersecurity companies, service providers, and consultancies interested in joining the program can learn more at [openai.com/daybreak/partners](https://openai.com/daybreak/partners-new/).",
-      "contentZh": "我们正在将OpenAI的前沿网络模型带给全球保护组织的安全合作伙伴。通过携手合作，我们将前沿智能直接融入防御者已经依赖的产品、服务和安全运营中。如今，更多组织能够发现严重漏洞、更快修复它们，并在机器速度的威胁面前保持领先。\n\n![图片1：橙色渐变背景上的Daybreak Cyber合作伙伴计划参与者标志。](https://images.ctfassets.net/kftzwdyauwt9/2o7BXuZ8rPWp0oIUKyLZKo/e004f9b71c871d3dea5edbe0bb38f88d/logo_cloud_for_codex.png?w=3840&q=90&fm=webp)\n\n人工智能正以大多数组织难以应对的速度改变网络安全格局。攻击者能够以越来越快的速度和规模识别漏洞、开发利用程序，并在复杂系统中移动。与此同时，安全团队正面临其保护的软件和基础设施中日益增多的弱点。发现这些漏洞仅仅是开始。更艰巨的挑战是确定哪些漏洞构成真实威胁，并在其被利用之前加以修复。太多防御者仍然无法获得能够帮助他们做到这一点的前沿模型。\n\n我们的Daybreak Cyber合作伙伴计划包括领先的安全与服务合作伙伴，如[埃森哲⁠（在新窗口中打开）](https://www.accenture.com/)、[IBM⁠（在新窗口中打开）](https://www.ibm.com/)、[凯捷⁠（在新窗口中打开）](https://www.capgemini.com/about-us/technology-partners/openai/)、[高知特⁠（在新窗口中打开）](https://www.cognizant.com/)、[安永⁠（在新窗口中打开）](https://www.ey.com/)、[毕马威⁠（在新窗口中打开）](https://kpmg.com/)、[普华永道⁠（在新窗口中打开）](https://www.pwc.com/)、[NCC Group⁠（在新窗口中打开）](https://www.nccgroup.com/)和[SpecterOps⁠（在新窗口中打开）](https://specterops.io/)，以及技术合作伙伴[Palo Alto Networks⁠（在新窗口中打开）](https://www.paloaltonetworks.com/)、[CrowdStrike⁠（在新窗口中打开）](https://www.crowdstrike.com/)、[Cisco⁠（在新窗口中打开）](https://www.cisco.com/)、[Sophos⁠（在新窗口中打开）](https://www.sophos.com/)、[Akamai⁠（在新窗口中打开）](https://www.akamai.com/)、[Fortinet⁠（在新窗口中打开）](https://www.fortinet.com/)和[Cloudflare⁠（在新窗口中打开）](https://www.cloudflare.com/)。这些合作伙伴拥有深厚的安全专业知识和与全球组织的既有合作关系。通过将我们的前沿网络模型引入其服务，我们可以帮助更多防御者发现严重漏洞、验证哪些漏洞至关重要，并更快地修复它们。\n\n## 从发现漏洞到修复漏洞\n\n一份漏洞报告并不能保护组织。保护来自于理解某个弱点是否真的可以被利用、识别面临风险的系统、制定修复方案，并将该修复方案投入生产环境。\n\nDaybreak Cyber合作伙伴将OpenAI最先进的网络模型融入他们为保护客户而开展的现有工作中。他们了解客户的系统，理解其安全团队的运作方式，并能帮助确定哪些漏洞至关重要以及如何修复。\n\n根据合作内容的不同，合作伙伴可以在复杂企业系统中协助进行漏洞发现与验证、红队演练、渗透测试、事件响应和修复工作。\n\n聆听Daybreak合作伙伴的分享\n\n1 / 4\n\n## 将前沿模型引入现有安全运营\n\n大多数组织希望获得能够融入其团队现有工作方式的高级安全能力，与其保护业务所依赖的平台、提供商和工作流程相集成。\n\n通过Daybreak Cyber合作伙伴计划，经批准的合作伙伴可以将OpenAI的前沿网络模型引入安全产品、托管服务和客户合作项目中。\n\n合作伙伴可以根据自身需求和所涉及的工作，通过Daybreak Access访问Daybreak Blue或Daybreak Red。Daybreak Blue支持广泛的防御性安全工作流程，而Daybreak Red则专为更专业、更严格管控的工作而设计，包括红队演练和渗透测试。\n\n这为组织提供了一种切实可行的方式，使其能够从前沿网络模型中受益，而无需自行构建和运行专门的网络AI项目。\n\n1 / 4\n\n## 更多访问权限，并配备相应的保障措施\n\nDaybreak Cyber合作伙伴在可信、受管控的合作中使用OpenAI的受控访问模型。根据工作内容的不同，保障措施可包括身份验证、明确的测试范围、日志记录、监控和人工监督。\n\n对底层模型的访问权限仍归经批准的合作伙伴所有，不会直接转移给客户。合作伙伴与组织合作，界定每次合作的范围、审查发现，并在采取行动前运用其专业知识。\n\n这种方法为更多组织带来了先进的防御能力，同时保留了敏感安全工作所需的监督机制。\n\n1 / 3\n\n## 共同弥合防御差距\n\n攻击者的行动速度超过了许多安全团队的响应能力。弥合这一差距意味着要为需要帮助的组织提供更强大的防御能力。\n\n应对这一时刻需要前沿模型、经验丰富的安全从业者，以及能够将这些能力带入真实环境的可信合作伙伴。\n\n通过扩大Daybreak Cyber合作伙伴计划，我们正在为更多组织实现这一目标，并让更强大的防御能力触手可及。\n\n要将Daybreak能力引入您的安全运营，请联系您的网络安全服务提供商或[与我们的销售团队沟通](https://openai.com/daybreak/contact-cyber-sales/)。\n\n有兴趣加入该计划的网络安全公司、服务提供商和咨询机构可访问[openai.com/daybreak/partners](https://openai.com/daybreak/partners-new/)了解更多信息。",
-      "titleZh": "将前沿网络模型交予更值得信赖的机构",
-      "summaryZh": "经批准的Daybreak合作伙伴可以使用OpenAI的前沿网络模型，为客户提供经授权且受监管的网络安全服务。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-10T10:00:00.000Z",
-      "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
-      "collectedAt": "2026-09-08T07:29:02.461Z"
+      "collectedAt": "2026-09-09T07:36:58.625Z"
     },
     {
       "id": "734c538c439aa3199cf2",
@@ -1121,24 +1172,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T10:00:00.000Z",
       "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "collectedAt": "2026-09-08T07:29:02.461Z"
+      "collectedAt": "2026-09-09T07:36:58.625Z"
     },
     {
-      "id": "02e8effaacedb8dbc2e1",
+      "id": "288f6994afc6cc6de385",
       "sourceId": "openai-news",
       "company": "OpenAI",
       "product": "GPT",
       "kind": "news",
-      "title": "Premium seats are coming to ChatGPT Business",
-      "summary": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
-      "content": "The work that moves your business forward should never have to stop.\n\nTeams are using ChatGPT to take on bigger things: organizing inventory, building marketing campaigns, analyzing business performance, improving customer experiences, and developing new products. As that work becomes more ambitious, our top request from ChatGPT Business customers has been an expanded seat option with more capacity and usage built in.\n\nThat’s why we’re introducing Premium seats for ChatGPT Business. Premium gives your most active teammates 5x more usage than Standard seats and removes the five-hour usage limit, so they can take on larger projects and work with fewer interruptions—all within the same secure Business workspace.\n\nPremium seats cost $125 per user per month, or $100 per user per month when billed annually. Standard seats remain $25 per user per month, or $20 per user per month when billed annually. You can mix both seat types in the same workspace and choose the right option for each person on your team.\n\nAnd for a limited time, eligible workspace owners who [sign up](https://openai.com/form/business/premium-offer/) early will receive **$100 worth of workspace credits (2,500 credits) for every Premium seat they add, up to $500 for five seats**. Some customers may also receive early access before Premium becomes generally available, as a bonus for signing up now.\n\n## Take on more ambitious work without losing momentum\n\nPremium gives your most active teammates the capacity to take on bigger projects and keep work moving.\n\nBusiness owners can turn sales reports, customer feedback, and inventory data into an operating plan. Marketers can build whole campaigns from customer insights. Developers can use Codex to build, test, and improve features across larger codebases. Premium seats unlock added productivity so your team never breaks their flow.\n\nThe new Premium seat usage includes:\n\n*   5x more usage than Standard.\n*   No five-hour usage limit.\n*   Predictable weekly usage resets.\n\nNeed even more intelligence? If you hit a usage limit, businesses can add shared workspace credits, managed by your workspace owner.\n\n## Give each teammate the right seat for their work\n\nEvery team is different, and we know there’s no one-size-fits-all level of AI usage. The Business plan now gives you complete flexibility to tailor your plan to your team’s needs.\n\nWorkspace owners and admins can:\n\n*   Mix Standard and Premium seats across the same team.\n*   Upgrade or reassign seats as business needs change.\n*   Monitor usage across the workspace.\n*   Manage billing, usage, and spend limits in one place.\n*   Keep company work within the same secure Business workspace.\n\nThe result is more flexibility for your team without creating separate subscriptions, fragmented work, or more administrative complexity.\n\n## Get $100 worth of credits for every Premium seat—up to $500\n\nFor a limited time, the first 10,000 eligible ChatGPT Business customers can receive **$100 in workspace credits (2,500 credits) for each Premium seat they add, up to 5 seats**.\n\nTo qualify, [join the waitlist](https://openai.com/form/business/premium-offer/) with the email address associated with your ChatGPT Business workspace owner account. We’ll follow up with instructions for redeeming your credits and let you know when Premium seats become available for your workspace.\n\nSome customers who sign up may also be selected for early access before general availability.\n\nIf you’re not the workspace owner, share the offer with the person who manages your ChatGPT Business account. Sign up today, as the promotion ends on August 20. Learn more about how the promotion works and eligibility details in the [help center article⁠(opens in a new window)](https://help.openai.com/articles/20001420).",
-      "contentZh": "推动业务前进的工作，绝不应被迫中断。\n\n团队正在使用ChatGPT应对更重大的任务：管理库存、构建营销活动、分析业务绩效、改善客户体验，以及开发新产品。随着这些工作变得更加宏大，我们从ChatGPT Business客户那里收到的首要请求，就是提供一个扩展的席位选项，内置更多容量和使用额度。\n\n因此，我们为ChatGPT Business推出了Premium席位。Premium为您的团队中最活跃的成员提供比Standard席位多5倍的使用量，并取消了五小时使用限制，使他们能够承担更大的项目，减少工作中断——所有这些都在同一个安全的Business工作区内完成。\n\nPremium席位费用为每位用户每月100美元，或按年计费时每位用户每月100美元。Standard席位仍为每位用户每月25美元，或按年计费时每位用户每月20美元。您可以在同一个工作区内混合使用两种席位类型，并为团队中的每位成员选择最合适的选项。\n\n此外，在限时优惠期间，符合条件的[注册](https://openai.com/form/business/premium-offer/)工作区所有者，每添加一个Premium席位即可获得**价值100美元的工作区积分（2,500积分），最多五个席位可获500美元**。部分客户还可能在Premium正式推出前获得抢先体验，作为现在注册的额外奖励。\n\n## 承担更宏大的工作，不失前进动力\n\nPremium为您的团队中最活跃的成员提供了承担更大项目和保持工作持续推进的能力。\n\n企业主可以将销售报告、客户反馈和库存数据转化为运营计划。营销人员可以从客户洞察中构建完整的营销活动。开发人员可以使用Codex在更大的代码库中构建、测试和改进功能。Premium席位解锁了额外的生产力，让您的团队永不停歇。\n\n新的Premium席位使用量包括：\n\n*   比Standard多5倍的使用量。\n*   无五小时使用限制。\n*   可预测的每周使用量重置。\n\n需要更多智能吗？如果您达到使用限制，企业可以添加共享工作区积分，由您的工作区所有者管理。\n\n## 为每位团队成员提供适合其工作的席位\n\n每个团队都各不相同，我们知道AI使用没有一刀切的水平。Business计划现在为您提供了完全的灵活性，可以根据团队需求定制您的计划。\n\n工作区所有者和管理员可以：\n\n*   在同一团队中混合使用Standard和Premium席位。\n*   随着业务需求变化升级或重新分配席位。\n*   监控整个工作区的使用情况。\n*   在一个地方管理计费、使用量和支出限制。\n*   将公司工作保留在同一个安全的Business工作区内。\n\n结果是您的团队获得更多灵活性，而无需创建单独的订阅、分散的工作或增加更多管理复杂性。\n\n## 每个Premium席位获100美元积分——最高500美元\n\n在限时优惠期间，前10,000名符合条件的ChatGPT Business客户，每添加一个Premium席位即可获得**100美元的工作区积分（2,500积分），最多五个席位**。\n\n要符合资格，请使用与您的ChatGPT Business工作区所有者账户关联的电子邮件地址[加入等待列表](https://openai.com/form/business/premium-offer/)。我们将通过后续邮件提供兑换积分的说明，并告知您Premium席位何时可用于您的工作区。\n\n部分注册客户还可能被选中在正式发布前获得抢先体验。\n\n如果您不是工作区所有者，请将此优惠分享给管理您ChatGPT Business账户的人员。立即注册，因为促销活动将于8月20日结束。有关促销运作方式和资格要求的更多详情，请参阅[帮助中心文章⁠（在新窗口中打开）](https://help.openai.com/articles/20001420)。",
-      "titleZh": "ChatGPT Business 即将推出高级席位",
-      "summaryZh": "ChatGPT Business 即将推出高级席位。在8月20日前注册，即可获得100美元的工作区积分，并为团队最繁重的工作解锁更高的使用额度。",
+      "title": "Putting frontier cyber models in more trusted hands",
+      "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+      "content": "We’re bringing OpenAI’s frontier cyber models to the security partners protecting organizations around the world. Together, we’re putting frontier intelligence directly into the products, services, and security operations defenders already depend on. More organizations can now find serious vulnerabilities, fix them faster, and stay ahead of threats moving at machine speed.\n\n![Image 1: Logos of Daybreak Cyber Partner Program participants on an orange gradient background.](https://images.ctfassets.net/kftzwdyauwt9/2o7BXuZ8rPWp0oIUKyLZKo/e004f9b71c871d3dea5edbe0bb38f88d/logo_cloud_for_codex.png?w=3840&q=90&fm=webp)\n\nAI is changing cybersecurity faster than most organizations can respond. Attackers can identify vulnerabilities, develop exploits, and move through complex systems with increasing speed and scale. At the same time, security teams are confronting a growing volume of weaknesses across the software and infrastructure they protect. Finding those vulnerabilities is only the beginning. The harder challenge is determining which ones pose a real threat and fixing them before they can be exploited. Too many defenders still lack access to the frontier models that can help them do that.\n\nOur Daybreak Cyber Partner program includes leading security & services partners such as [Accenture⁠(opens in a new window)](https://www.accenture.com/), [IBM⁠(opens in a new window)](https://www.ibm.com/), [Capgemini⁠(opens in a new window)](https://www.capgemini.com/about-us/technology-partners/openai/), [Cognizant⁠(opens in a new window)](https://www.cognizant.com/), [EY⁠(opens in a new window)](https://www.ey.com/), [KPMG⁠(opens in a new window)](https://kpmg.com/), [PwC⁠(opens in a new window)](https://www.pwc.com/), [NCC Group⁠(opens in a new window)](https://www.nccgroup.com/), and [SpecterOps⁠(opens in a new window)](https://specterops.io/) along with technology partners[Palo Alto Networks⁠(opens in a new window)](https://www.paloaltonetworks.com/) , [CrowdStrike⁠(opens in a new window)](https://www.crowdstrike.com/), [Cisco⁠(opens in a new window)](https://www.cisco.com/), [Sophos⁠(opens in a new window)](https://www.sophos.com/), [Akamai⁠(opens in a new window)](https://www.akamai.com/), [Fortinet⁠(opens in a new window)](https://www.fortinet.com/) and [Cloudflare⁠(opens in a new window)](https://www.cloudflare.com/). These partners bring deep security expertise and established relationships with organizations around the world. By bringing our frontier cyber models into their services, we can help more defenders find serious vulnerabilities, validate which ones matter, and fix them faster.\n\n## From finding vulnerabilities to fixing them\n\nA vulnerability report does not protect an organization. Protection comes from understanding whether a weakness can actually be exploited, identifying the systems at risk, developing a fix, and getting that fix into production.\n\nDaybreak Cyber Partners bring OpenAI’s most advanced cyber models into the work they already do to protect their customers. They know their customers’ systems, understand how their security teams operate, and can help determine which vulnerabilities matter and how to fix them.\n\nDepending on the engagement, partners can help with vulnerability discovery and validation, red teaming, penetration testing, incident response, and remediation across complex enterprise systems.\n\nHear from Daybreak partners\n\n1 of 4\n\n## Bringing frontier models into existing security operations\n\nMost organizations want advanced security capabilities that fit into how their teams already work, integrating with the platforms, providers, and workflows they rely on to protect their business.\n\nThrough the Daybreak Cyber Partner Program, approved partners can bring OpenAI’s frontier cyber models into security products, managed services, and customer engagements.\n\nPartners can access Daybreak Blue or Daybreak Red through Daybreak Access, depending on their needs and the work involved. Daybreak Blue supports a broad range of defensive security workflows, while Daybreak Red is designed for more specialized, closely governed work, including red teaming and penetration testing.\n\nThis gives organizations a practical way to benefit from frontier cyber models without having to build and run their own specialized cyber AI programs.\n\n1 of 4\n\n## More access, with the safeguards to match\n\nDaybreak Cyber Partners use OpenAI’s controlled-access models within trusted, governed engagements. Depending on the work, safeguards can include identity verification, defined testing scopes, logging, monitoring, and human oversight.\n\nAccess to the underlying models remains with the approved partner and is not transferred directly to the customer. Partners work with organizations to define the boundaries of each engagement, review findings, and apply their expertise before action is taken.\n\nThis approach brings advanced defensive capabilities to more organizations while preserving the oversight required for sensitive security work.\n\n1 of 3\n\n## Closing the defense gap together\n\nAttackers are moving faster than many security teams can respond. Closing that gap means getting stronger defenses to the organizations that need them.\n\nMeeting this moment requires frontier models, experienced security practitioners, and trusted partners capable of bringing those capabilities into real-world environments.\n\nBy expanding the Daybreak Cyber Partner Program, we’re making that possible for more organizations and putting stronger defenses within reach.\n\nTo bring Daybreak capabilities into your security operations, contact your cybersecurity provider or [speak with our sales team](https://openai.com/daybreak/contact-cyber-sales/).\n\nCybersecurity companies, service providers, and consultancies interested in joining the program can learn more at [openai.com/daybreak/partners](https://openai.com/daybreak/partners-new/).",
+      "contentZh": "我们正在将OpenAI的前沿网络模型带给全球保护组织的安全合作伙伴。通过携手合作，我们将前沿智能直接融入防御者已经依赖的产品、服务和安全运营中。如今，更多组织能够发现严重漏洞、更快修复它们，并在机器速度的威胁面前保持领先。\n\n![图片1：橙色渐变背景上的Daybreak Cyber合作伙伴计划参与者标志。](https://images.ctfassets.net/kftzwdyauwt9/2o7BXuZ8rPWp0oIUKyLZKo/e004f9b71c871d3dea5edbe0bb38f88d/logo_cloud_for_codex.png?w=3840&q=90&fm=webp)\n\n人工智能正以大多数组织难以应对的速度改变网络安全格局。攻击者能够以越来越快的速度和规模识别漏洞、开发利用程序，并在复杂系统中移动。与此同时，安全团队正面临其保护的软件和基础设施中日益增多的弱点。发现这些漏洞仅仅是开始。更艰巨的挑战是确定哪些漏洞构成真实威胁，并在其被利用之前加以修复。太多防御者仍然无法获得能够帮助他们做到这一点的前沿模型。\n\n我们的Daybreak Cyber合作伙伴计划包括领先的安全与服务合作伙伴，如[埃森哲⁠（在新窗口中打开）](https://www.accenture.com/)、[IBM⁠（在新窗口中打开）](https://www.ibm.com/)、[凯捷⁠（在新窗口中打开）](https://www.capgemini.com/about-us/technology-partners/openai/)、[高知特⁠（在新窗口中打开）](https://www.cognizant.com/)、[安永⁠（在新窗口中打开）](https://www.ey.com/)、[毕马威⁠（在新窗口中打开）](https://kpmg.com/)、[普华永道⁠（在新窗口中打开）](https://www.pwc.com/)、[NCC Group⁠（在新窗口中打开）](https://www.nccgroup.com/)和[SpecterOps⁠（在新窗口中打开）](https://specterops.io/)，以及技术合作伙伴[Palo Alto Networks⁠（在新窗口中打开）](https://www.paloaltonetworks.com/)、[CrowdStrike⁠（在新窗口中打开）](https://www.crowdstrike.com/)、[Cisco⁠（在新窗口中打开）](https://www.cisco.com/)、[Sophos⁠（在新窗口中打开）](https://www.sophos.com/)、[Akamai⁠（在新窗口中打开）](https://www.akamai.com/)、[Fortinet⁠（在新窗口中打开）](https://www.fortinet.com/)和[Cloudflare⁠（在新窗口中打开）](https://www.cloudflare.com/)。这些合作伙伴拥有深厚的安全专业知识和与全球组织的既有合作关系。通过将我们的前沿网络模型引入其服务，我们可以帮助更多防御者发现严重漏洞、验证哪些漏洞至关重要，并更快地修复它们。\n\n## 从发现漏洞到修复漏洞\n\n一份漏洞报告并不能保护组织。保护来自于理解某个弱点是否真的可以被利用、识别面临风险的系统、制定修复方案，并将该修复方案投入生产环境。\n\nDaybreak Cyber合作伙伴将OpenAI最先进的网络模型融入他们为保护客户而开展的现有工作中。他们了解客户的系统，理解其安全团队的运作方式，并能帮助确定哪些漏洞至关重要以及如何修复。\n\n根据合作内容的不同，合作伙伴可以在复杂企业系统中协助进行漏洞发现与验证、红队演练、渗透测试、事件响应和修复工作。\n\n聆听Daybreak合作伙伴的分享\n\n1 / 4\n\n## 将前沿模型引入现有安全运营\n\n大多数组织希望获得能够融入其团队现有工作方式的高级安全能力，与其保护业务所依赖的平台、提供商和工作流程相集成。\n\n通过Daybreak Cyber合作伙伴计划，经批准的合作伙伴可以将OpenAI的前沿网络模型引入安全产品、托管服务和客户合作项目中。\n\n合作伙伴可以根据自身需求和所涉及的工作，通过Daybreak Access访问Daybreak Blue或Daybreak Red。Daybreak Blue支持广泛的防御性安全工作流程，而Daybreak Red则专为更专业、更严格管控的工作而设计，包括红队演练和渗透测试。\n\n这为组织提供了一种切实可行的方式，使其能够从前沿网络模型中受益，而无需自行构建和运行专门的网络AI项目。\n\n1 / 4\n\n## 更多访问权限，并配备相应的保障措施\n\nDaybreak Cyber合作伙伴在可信、受管控的合作中使用OpenAI的受控访问模型。根据工作内容的不同，保障措施可包括身份验证、明确的测试范围、日志记录、监控和人工监督。\n\n对底层模型的访问权限仍归经批准的合作伙伴所有，不会直接转移给客户。合作伙伴与组织合作，界定每次合作的范围、审查发现，并在采取行动前运用其专业知识。\n\n这种方法为更多组织带来了先进的防御能力，同时保留了敏感安全工作所需的监督机制。\n\n1 / 3\n\n## 共同弥合防御差距\n\n攻击者的行动速度超过了许多安全团队的响应能力。弥合这一差距意味着要为需要帮助的组织提供更强大的防御能力。\n\n应对这一时刻需要前沿模型、经验丰富的安全从业者，以及能够将这些能力带入真实环境的可信合作伙伴。\n\n通过扩大Daybreak Cyber合作伙伴计划，我们正在为更多组织实现这一目标，并让更强大的防御能力触手可及。\n\n要将Daybreak能力引入您的安全运营，请联系您的网络安全服务提供商或[与我们的销售团队沟通](https://openai.com/daybreak/contact-cyber-sales/)。\n\n有兴趣加入该计划的网络安全公司、服务提供商和咨询机构可访问[openai.com/daybreak/partners](https://openai.com/daybreak/partners-new/)了解更多信息。",
+      "titleZh": "将前沿网络模型交予更值得信赖的机构",
+      "summaryZh": "经批准的Daybreak合作伙伴可以使用OpenAI的前沿网络模型，为客户提供经授权且受监管的网络安全服务。",
       "translationStatus": "translated",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "url": "https://openai.com/index/premium-seats-chatgpt-business",
-      "collectedAt": "2026-09-08T07:29:02.461Z"
+      "publishedAt": "2026-08-10T10:00:00.000Z",
+      "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "collectedAt": "2026-09-09T07:36:58.626Z"
     },
     {
       "id": "8eb1e6a0a260fe518fb3",
@@ -1155,7 +1206,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-      "collectedAt": "2026-09-08T07:29:02.462Z"
+      "collectedAt": "2026-09-09T07:36:58.626Z"
+    },
+    {
+      "id": "02e8effaacedb8dbc2e1",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Premium seats are coming to ChatGPT Business",
+      "summary": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+      "content": "The work that moves your business forward should never have to stop.\n\nTeams are using ChatGPT to take on bigger things: organizing inventory, building marketing campaigns, analyzing business performance, improving customer experiences, and developing new products. As that work becomes more ambitious, our top request from ChatGPT Business customers has been an expanded seat option with more capacity and usage built in.\n\nThat’s why we’re introducing Premium seats for ChatGPT Business. Premium gives your most active teammates 5x more usage than Standard seats and removes the five-hour usage limit, so they can take on larger projects and work with fewer interruptions—all within the same secure Business workspace.\n\nPremium seats cost $125 per user per month, or $100 per user per month when billed annually. Standard seats remain $25 per user per month, or $20 per user per month when billed annually. You can mix both seat types in the same workspace and choose the right option for each person on your team.\n\nAnd for a limited time, eligible workspace owners who [sign up](https://openai.com/form/business/premium-offer/) early will receive **$100 worth of workspace credits (2,500 credits) for every Premium seat they add, up to $500 for five seats**. Some customers may also receive early access before Premium becomes generally available, as a bonus for signing up now.\n\n## Take on more ambitious work without losing momentum\n\nPremium gives your most active teammates the capacity to take on bigger projects and keep work moving.\n\nBusiness owners can turn sales reports, customer feedback, and inventory data into an operating plan. Marketers can build whole campaigns from customer insights. Developers can use Codex to build, test, and improve features across larger codebases. Premium seats unlock added productivity so your team never breaks their flow.\n\nThe new Premium seat usage includes:\n\n*   5x more usage than Standard.\n*   No five-hour usage limit.\n*   Predictable weekly usage resets.\n\nNeed even more intelligence? If you hit a usage limit, businesses can add shared workspace credits, managed by your workspace owner.\n\n## Give each teammate the right seat for their work\n\nEvery team is different, and we know there’s no one-size-fits-all level of AI usage. The Business plan now gives you complete flexibility to tailor your plan to your team’s needs.\n\nWorkspace owners and admins can:\n\n*   Mix Standard and Premium seats across the same team.\n*   Upgrade or reassign seats as business needs change.\n*   Monitor usage across the workspace.\n*   Manage billing, usage, and spend limits in one place.\n*   Keep company work within the same secure Business workspace.\n\nThe result is more flexibility for your team without creating separate subscriptions, fragmented work, or more administrative complexity.\n\n## Get $100 worth of credits for every Premium seat—up to $500\n\nFor a limited time, the first 10,000 eligible ChatGPT Business customers can receive **$100 in workspace credits (2,500 credits) for each Premium seat they add, up to 5 seats**.\n\nTo qualify, [join the waitlist](https://openai.com/form/business/premium-offer/) with the email address associated with your ChatGPT Business workspace owner account. We’ll follow up with instructions for redeeming your credits and let you know when Premium seats become available for your workspace.\n\nSome customers who sign up may also be selected for early access before general availability.\n\nIf you’re not the workspace owner, share the offer with the person who manages your ChatGPT Business account. Sign up today, as the promotion ends on August 20. Learn more about how the promotion works and eligibility details in the [help center article⁠(opens in a new window)](https://help.openai.com/articles/20001420).",
+      "contentZh": "推动业务前进的工作，绝不应被迫中断。\n\n团队正在使用ChatGPT应对更重大的任务：管理库存、构建营销活动、分析业务绩效、改善客户体验，以及开发新产品。随着这些工作变得更加宏大，我们从ChatGPT Business客户那里收到的首要请求，就是提供一个扩展的席位选项，内置更多容量和使用额度。\n\n因此，我们为ChatGPT Business推出了Premium席位。Premium为您的团队中最活跃的成员提供比Standard席位多5倍的使用量，并取消了五小时使用限制，使他们能够承担更大的项目，减少工作中断——所有这些都在同一个安全的Business工作区内完成。\n\nPremium席位费用为每位用户每月100美元，或按年计费时每位用户每月100美元。Standard席位仍为每位用户每月25美元，或按年计费时每位用户每月20美元。您可以在同一个工作区内混合使用两种席位类型，并为团队中的每位成员选择最合适的选项。\n\n此外，在限时优惠期间，符合条件的[注册](https://openai.com/form/business/premium-offer/)工作区所有者，每添加一个Premium席位即可获得**价值100美元的工作区积分（2,500积分），最多五个席位可获500美元**。部分客户还可能在Premium正式推出前获得抢先体验，作为现在注册的额外奖励。\n\n## 承担更宏大的工作，不失前进动力\n\nPremium为您的团队中最活跃的成员提供了承担更大项目和保持工作持续推进的能力。\n\n企业主可以将销售报告、客户反馈和库存数据转化为运营计划。营销人员可以从客户洞察中构建完整的营销活动。开发人员可以使用Codex在更大的代码库中构建、测试和改进功能。Premium席位解锁了额外的生产力，让您的团队永不停歇。\n\n新的Premium席位使用量包括：\n\n*   比Standard多5倍的使用量。\n*   无五小时使用限制。\n*   可预测的每周使用量重置。\n\n需要更多智能吗？如果您达到使用限制，企业可以添加共享工作区积分，由您的工作区所有者管理。\n\n## 为每位团队成员提供适合其工作的席位\n\n每个团队都各不相同，我们知道AI使用没有一刀切的水平。Business计划现在为您提供了完全的灵活性，可以根据团队需求定制您的计划。\n\n工作区所有者和管理员可以：\n\n*   在同一团队中混合使用Standard和Premium席位。\n*   随着业务需求变化升级或重新分配席位。\n*   监控整个工作区的使用情况。\n*   在一个地方管理计费、使用量和支出限制。\n*   将公司工作保留在同一个安全的Business工作区内。\n\n结果是您的团队获得更多灵活性，而无需创建单独的订阅、分散的工作或增加更多管理复杂性。\n\n## 每个Premium席位获100美元积分——最高500美元\n\n在限时优惠期间，前10,000名符合条件的ChatGPT Business客户，每添加一个Premium席位即可获得**100美元的工作区积分（2,500积分），最多五个席位**。\n\n要符合资格，请使用与您的ChatGPT Business工作区所有者账户关联的电子邮件地址[加入等待列表](https://openai.com/form/business/premium-offer/)。我们将通过后续邮件提供兑换积分的说明，并告知您Premium席位何时可用于您的工作区。\n\n部分注册客户还可能被选中在正式发布前获得抢先体验。\n\n如果您不是工作区所有者，请将此优惠分享给管理您ChatGPT Business账户的人员。立即注册，因为促销活动将于8月20日结束。有关促销运作方式和资格要求的更多详情，请参阅[帮助中心文章⁠（在新窗口中打开）](https://help.openai.com/articles/20001420)。",
+      "titleZh": "ChatGPT Business 即将推出高级席位",
+      "summaryZh": "ChatGPT Business 即将推出高级席位。在8月20日前注册，即可获得100美元的工作区积分，并为团队最繁重的工作解锁更高的使用额度。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "url": "https://openai.com/index/premium-seats-chatgpt-business",
+      "collectedAt": "2026-09-09T07:36:58.626Z"
     },
     {
       "id": "2c74e7c8cea6a2ece6de",
@@ -1172,7 +1240,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/zapier",
-      "collectedAt": "2026-09-08T07:29:02.462Z"
+      "collectedAt": "2026-09-09T07:36:58.627Z"
     },
     {
       "id": "968261fb57a0f452cb28",
@@ -1189,7 +1257,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.006Z"
+      "collectedAt": "2026-09-09T07:36:59.946Z"
     },
     {
       "id": "4b892749f4ed6e711322",
@@ -1206,7 +1274,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-07T09:00:00.000Z",
       "url": "https://openai.com/index/hsp-gruppe",
-      "collectedAt": "2026-09-08T07:29:02.462Z"
+      "collectedAt": "2026-09-09T07:36:58.627Z"
     },
     {
       "id": "f08640315c18fbc4f31c",
@@ -1223,7 +1291,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.006Z"
+      "collectedAt": "2026-09-09T07:36:59.947Z"
     },
     {
       "id": "d5755c0b97cd8308ee54",
@@ -1240,7 +1308,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T10:00:00.000Z",
       "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "collectedAt": "2026-09-08T07:29:02.463Z"
+      "collectedAt": "2026-09-09T07:36:58.628Z"
     },
     {
       "id": "0121f2aaabdbc2fbef18",
@@ -1257,7 +1325,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-      "collectedAt": "2026-09-08T07:29:02.463Z"
+      "collectedAt": "2026-09-09T07:36:58.628Z"
     },
     {
       "id": "ac5d129bc56db5435253",
@@ -1274,7 +1342,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-08T07:29:03.534Z"
+      "collectedAt": "2026-09-09T07:36:59.454Z"
     },
     {
       "id": "cbf5ffda58d43478b306",
@@ -1291,7 +1359,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.007Z"
+      "collectedAt": "2026-09-09T07:36:59.948Z"
     },
     {
       "id": "374a02a97939919169d2",
@@ -1308,7 +1376,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T19:00:00.000Z",
       "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "collectedAt": "2026-09-08T07:29:02.464Z"
+      "collectedAt": "2026-09-09T07:36:58.629Z"
     },
     {
       "id": "3feab47dffd4ec330ae5",
@@ -1325,7 +1393,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-      "collectedAt": "2026-09-08T07:29:02.464Z"
+      "collectedAt": "2026-09-09T07:36:58.629Z"
     },
     {
       "id": "c8f43754fdafecb85e1d",
@@ -1342,7 +1410,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T07:00:00.000Z",
       "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "collectedAt": "2026-09-08T07:29:02.465Z"
+      "collectedAt": "2026-09-09T07:36:58.630Z"
     },
     {
       "id": "6559d98a7d1bca755c17",
@@ -1359,7 +1427,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "url": "https://openai.com/index/circles",
-      "collectedAt": "2026-09-08T07:29:02.465Z"
+      "collectedAt": "2026-09-09T07:36:58.630Z"
     },
     {
       "id": "1b43c9e867bdb362c0cc",
@@ -1376,7 +1444,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.007Z"
+      "collectedAt": "2026-09-09T07:36:59.948Z"
     },
     {
       "id": "52e0cd114c7d854c3e96",
@@ -1393,7 +1461,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.008Z"
+      "collectedAt": "2026-09-09T07:36:59.948Z"
     },
     {
       "id": "b9d4476050e5d75f1b97",
@@ -1410,7 +1478,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T07:00:00.000Z",
       "url": "https://openai.com/index/unive",
-      "collectedAt": "2026-09-08T07:29:02.466Z"
+      "collectedAt": "2026-09-09T07:36:58.631Z"
     },
     {
       "id": "45bbaccf8d941517f323",
@@ -1427,7 +1495,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "collectedAt": "2026-09-08T07:29:02.466Z"
+      "collectedAt": "2026-09-09T07:36:58.632Z"
     },
     {
       "id": "af15e83e5c304730063b",
@@ -1444,7 +1512,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-08T07:29:07.924Z"
+      "collectedAt": "2026-09-09T07:37:04.045Z"
     },
     {
       "id": "b1fe0fa429937e85b2ef",
@@ -1461,7 +1529,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T15:00:59.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "collectedAt": "2026-09-08T07:29:05.511Z"
+      "collectedAt": "2026-09-09T07:37:01.761Z"
     },
     {
       "id": "56f1d8a8c0f3af9fdd08",
@@ -1478,7 +1546,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T10:00:00.000Z",
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "collectedAt": "2026-09-08T07:29:02.467Z"
+      "collectedAt": "2026-09-09T07:36:58.632Z"
     },
     {
       "id": "cfbf6b8394b6edd2d1cc",
@@ -1495,7 +1563,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://openai.com/index/avatarin",
-      "collectedAt": "2026-09-08T07:29:02.468Z"
+      "collectedAt": "2026-09-09T07:36:58.633Z"
     },
     {
       "id": "13c5281530ee4a6f4537",
@@ -1512,7 +1580,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-08T07:29:05.086Z"
+      "collectedAt": "2026-09-09T07:37:01.301Z"
     },
     {
       "id": "8aaceda53f7fc93dbf60",
@@ -1529,7 +1597,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T15:00:00.000Z",
       "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-      "collectedAt": "2026-09-08T07:29:02.468Z"
+      "collectedAt": "2026-09-09T07:36:58.634Z"
     },
     {
       "id": "002458279ec72570fffb",
@@ -1546,7 +1614,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "collectedAt": "2026-09-08T07:29:02.469Z"
+      "collectedAt": "2026-09-09T07:36:58.634Z"
     },
     {
       "id": "4c8b6c772be707078bbd",
@@ -1563,7 +1631,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "collectedAt": "2026-09-08T07:29:02.469Z"
+      "collectedAt": "2026-09-09T07:36:58.634Z"
     },
     {
       "id": "ca98ace8cf1a2a8d7872",
@@ -1580,7 +1648,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-09-08T07:29:04.429Z"
+      "collectedAt": "2026-09-09T07:37:00.525Z"
     },
     {
       "id": "bf370c7e47952f2da5c5",
@@ -1597,7 +1665,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-28T16:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "collectedAt": "2026-09-08T07:29:05.874Z"
+      "collectedAt": "2026-09-09T07:37:02.260Z"
     },
     {
       "id": "57b8f529f115263ec820",
@@ -1614,7 +1682,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-28T13:21:37.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-      "collectedAt": "2026-09-08T07:29:05.511Z"
+      "collectedAt": "2026-09-09T07:37:01.761Z"
     },
     {
       "id": "bc5ed3298105125d299c",
@@ -1631,7 +1699,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-27T03:30:00.000Z",
       "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "collectedAt": "2026-09-08T07:29:02.470Z"
+      "collectedAt": "2026-09-09T07:36:58.635Z"
     },
     {
       "id": "cb2584c1c5ba09bcd3a3",
@@ -1648,7 +1716,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-08T07:29:03.534Z"
+      "collectedAt": "2026-09-09T07:36:59.455Z"
     },
     {
       "id": "b363cad12be0dd76a830",
@@ -1665,7 +1733,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.008Z"
+      "collectedAt": "2026-09-09T07:36:59.949Z"
     },
     {
       "id": "c7991759e1e4a5d32f85",
@@ -1682,7 +1750,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-23T00:00:00.000Z",
       "url": "https://openai.com/index/health-in-chatgpt",
-      "collectedAt": "2026-09-08T07:29:02.470Z"
+      "collectedAt": "2026-09-09T07:36:58.635Z"
     },
     {
       "id": "6ccf2d78b5e86593806b",
@@ -1699,7 +1767,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T13:00:00.000Z",
       "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "collectedAt": "2026-09-08T07:29:02.470Z"
+      "collectedAt": "2026-09-09T07:36:58.636Z"
     },
     {
       "id": "658d60926ab2360afa2e",
@@ -1716,7 +1784,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T05:30:00.000Z",
       "url": "https://openai.com/index/introducing-openai-presence",
-      "collectedAt": "2026-09-08T07:29:02.471Z"
+      "collectedAt": "2026-09-09T07:36:58.636Z"
     },
     {
       "id": "c7e36c4d5f5533523bd4",
@@ -1733,7 +1801,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://openai.com/index/ntt-data",
-      "collectedAt": "2026-09-08T07:29:02.471Z"
+      "collectedAt": "2026-09-09T07:36:58.636Z"
     },
     {
       "id": "a300ec7a4d7064f7179d",
@@ -1750,7 +1818,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.019Z"
+      "collectedAt": "2026-09-09T07:36:59.960Z"
     },
     {
       "id": "afa41d5e8e9237f5cad2",
@@ -1767,7 +1835,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "collectedAt": "2026-09-08T07:29:02.472Z"
+      "collectedAt": "2026-09-09T07:36:58.637Z"
     },
     {
       "id": "176c2b61d3ba4a32ae38",
@@ -1784,7 +1852,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T15:16:30.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
-      "collectedAt": "2026-09-08T07:29:05.512Z"
+      "collectedAt": "2026-09-09T07:37:01.761Z"
     },
     {
       "id": "8b4028e43de92d3eef53",
@@ -1801,7 +1869,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T07:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "collectedAt": "2026-09-08T07:29:02.472Z"
+      "collectedAt": "2026-09-09T07:36:58.637Z"
     },
     {
       "id": "9e20c4d4744505bf3590",
@@ -1818,7 +1886,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-09-08T07:29:04.429Z"
+      "collectedAt": "2026-09-09T07:37:00.526Z"
     },
     {
       "id": "7ac3cf4e7948165dd06b",
@@ -1835,7 +1903,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-08T07:29:05.087Z"
+      "collectedAt": "2026-09-09T07:37:01.301Z"
     },
     {
       "id": "5237ec62c64502e0362e",
@@ -1852,7 +1920,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-20T10:00:00.000Z",
       "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "collectedAt": "2026-09-08T07:29:02.473Z"
+      "collectedAt": "2026-09-09T07:36:58.638Z"
     },
     {
       "id": "6fa040e6804071ffc67f",
@@ -1869,7 +1937,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-17T15:00:11.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
-      "collectedAt": "2026-09-08T07:29:05.512Z"
+      "collectedAt": "2026-09-09T07:37:01.762Z"
     },
     {
       "id": "453be2383653038965c7",
@@ -1886,7 +1954,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-17T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.020Z"
+      "collectedAt": "2026-09-09T07:36:59.960Z"
     },
     {
       "id": "37604a6bafa43b2cef23",
@@ -1903,7 +1971,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-      "collectedAt": "2026-09-08T07:29:02.473Z"
+      "collectedAt": "2026-09-09T07:36:58.638Z"
     },
     {
       "id": "ad99c0d7682ecec8de3d",
@@ -1920,7 +1988,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-      "collectedAt": "2026-09-08T07:29:05.875Z"
+      "collectedAt": "2026-09-09T07:37:02.261Z"
     },
     {
       "id": "58b103e4e418272fdf21",
@@ -1937,7 +2005,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T07:00:00.000Z",
       "url": "https://openai.com/index/codex-collaborator-creative-team",
-      "collectedAt": "2026-09-08T07:29:02.473Z"
+      "collectedAt": "2026-09-09T07:36:58.638Z"
     },
     {
       "id": "3e27101964501d6d280e",
@@ -1954,7 +2022,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-15T10:00:00.000Z",
       "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "collectedAt": "2026-09-08T07:29:02.474Z"
+      "collectedAt": "2026-09-09T07:36:58.639Z"
     },
     {
       "id": "064bc65fa5f9349bb063",
@@ -1971,7 +2039,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.020Z"
+      "collectedAt": "2026-09-09T07:36:59.960Z"
     },
     {
       "id": "2a84bed91691bdac7e9f",
@@ -1988,7 +2056,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
-      "collectedAt": "2026-09-08T07:29:02.474Z"
+      "collectedAt": "2026-09-09T07:36:58.639Z"
     },
     {
       "id": "58cd43a6843f5828b315",
@@ -2005,7 +2073,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex",
-      "collectedAt": "2026-09-08T07:29:02.475Z"
+      "collectedAt": "2026-09-09T07:36:58.640Z"
     },
     {
       "id": "9ef49567f47481113df8",
@@ -2022,7 +2090,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-08T07:29:03.535Z"
+      "collectedAt": "2026-09-09T07:36:59.455Z"
     },
     {
       "id": "02a4b9621f0b60b565aa",
@@ -2039,7 +2107,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.021Z"
+      "collectedAt": "2026-09-09T07:36:59.961Z"
     },
     {
       "id": "eb3326089562a28362a2",
@@ -2056,7 +2124,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-13T12:37:28.000Z",
       "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-      "collectedAt": "2026-09-08T07:29:05.512Z"
+      "collectedAt": "2026-09-09T07:37:01.762Z"
     },
     {
       "id": "1e5af8ca0d8bc5e26703",
@@ -2073,7 +2141,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://openai.com/academy/getting-started",
-      "collectedAt": "2026-09-08T07:29:02.475Z"
+      "collectedAt": "2026-09-09T07:36:58.640Z"
     },
     {
       "id": "7735ad0dbb31b9a6729b",
@@ -2090,7 +2158,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-08T07:29:03.535Z"
+      "collectedAt": "2026-09-09T07:36:59.456Z"
     },
     {
       "id": "3cb521040949bbeed24b",
@@ -2107,7 +2175,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.021Z"
+      "collectedAt": "2026-09-09T07:36:59.961Z"
     },
     {
       "id": "b7ede73bbb83c239838d",
@@ -2124,7 +2192,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T13:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "collectedAt": "2026-09-08T07:29:02.475Z"
+      "collectedAt": "2026-09-09T07:36:58.640Z"
     },
     {
       "id": "3a73e1016004964e66d6",
@@ -2141,7 +2209,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6",
-      "collectedAt": "2026-09-08T07:29:02.476Z"
+      "collectedAt": "2026-09-09T07:36:58.641Z"
     },
     {
       "id": "0cc76793af620f7bb10c",
@@ -2158,7 +2226,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/bio-bug-bounty",
-      "collectedAt": "2026-09-08T07:29:02.476Z"
+      "collectedAt": "2026-09-09T07:36:58.641Z"
     },
     {
       "id": "cd73a370d60dec12bb60",
@@ -2175,7 +2243,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "collectedAt": "2026-09-08T07:29:02.476Z"
+      "collectedAt": "2026-09-09T07:36:58.641Z"
     },
     {
       "id": "6756ae3b0445393cf58b",
@@ -2192,7 +2260,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-08T07:29:03.536Z"
+      "collectedAt": "2026-09-09T07:36:59.456Z"
     },
     {
       "id": "74a441f786f49a59775d",
@@ -2209,7 +2277,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T13:00:00.000Z",
       "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "collectedAt": "2026-09-08T07:29:02.477Z"
+      "collectedAt": "2026-09-09T07:36:58.642Z"
     },
     {
       "id": "4acf2eda2e0fe738f5c1",
@@ -2226,7 +2294,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-live",
-      "collectedAt": "2026-09-08T07:29:02.477Z"
+      "collectedAt": "2026-09-09T07:36:58.642Z"
     },
     {
       "id": "5432c0edbd62ccd22a23",
@@ -2243,7 +2311,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.022Z"
+      "collectedAt": "2026-09-09T07:36:59.962Z"
     },
     {
       "id": "ef10e031dc3b0f027fe5",
@@ -2260,7 +2328,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T08:54:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "collectedAt": "2026-09-08T07:29:05.875Z"
+      "collectedAt": "2026-09-09T07:37:02.261Z"
     },
     {
       "id": "4c936674f4b219ed493a",
@@ -2277,7 +2345,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://openai.com/index/mufg",
-      "collectedAt": "2026-09-08T07:29:02.478Z"
+      "collectedAt": "2026-09-09T07:36:58.643Z"
     },
     {
       "id": "ae43b3314d8877dd3dce",
@@ -2294,7 +2362,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://openai.com/index/australian-payments-plus",
-      "collectedAt": "2026-09-08T07:29:02.478Z"
+      "collectedAt": "2026-09-09T07:36:58.643Z"
     },
     {
       "id": "02a4337d96c12bd29af9",
@@ -2311,7 +2379,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-08T07:29:03.537Z"
+      "collectedAt": "2026-09-09T07:36:59.457Z"
     },
     {
       "id": "e31b8759deb751b7046f",
@@ -2328,7 +2396,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-06T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-08T07:29:05.088Z"
+      "collectedAt": "2026-09-09T07:37:01.302Z"
     },
     {
       "id": "d9953405a7b98f544a26",
@@ -2345,7 +2413,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-02T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.022Z"
+      "collectedAt": "2026-09-09T07:36:59.963Z"
     },
     {
       "id": "15cd354e84a42a0e6b8f",
@@ -2362,7 +2430,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-01T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-08T07:29:03.537Z"
+      "collectedAt": "2026-09-09T07:36:59.457Z"
     },
     {
       "id": "b61b2637e688ad2bd25d",
@@ -2379,7 +2447,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.023Z"
+      "collectedAt": "2026-09-09T07:36:59.963Z"
     },
     {
       "id": "746aab7bf7ed89a86fa8",
@@ -2396,7 +2464,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T16:02:40.000Z",
       "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-      "collectedAt": "2026-09-08T07:29:05.512Z"
+      "collectedAt": "2026-09-09T07:37:01.762Z"
     },
     {
       "id": "a3f03aca463e82452f66",
@@ -2413,7 +2481,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T09:00:00.000Z",
       "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "collectedAt": "2026-09-08T07:29:02.478Z"
+      "collectedAt": "2026-09-09T07:36:58.643Z"
     },
     {
       "id": "fe2f0670eaeafcdb3ad2",
@@ -2430,7 +2498,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "collectedAt": "2026-09-08T07:29:02.479Z"
+      "collectedAt": "2026-09-09T07:36:58.644Z"
     },
     {
       "id": "eb22f73482b9a1f24d91",
@@ -2447,7 +2515,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-genebench-pro",
-      "collectedAt": "2026-09-08T07:29:02.479Z"
+      "collectedAt": "2026-09-09T07:36:58.644Z"
     },
     {
       "id": "25e6e4a270cd66f9b185",
@@ -2464,7 +2532,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-08T07:29:03.538Z"
+      "collectedAt": "2026-09-09T07:36:59.458Z"
     },
     {
       "id": "a01fc084bf5f7a63e0f5",
@@ -2481,7 +2549,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.024Z"
+      "collectedAt": "2026-09-09T07:36:59.964Z"
     },
     {
       "id": "87e0d903c3ade9f63cb9",
@@ -2498,7 +2566,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-09-08T07:29:04.429Z"
+      "collectedAt": "2026-09-09T07:37:00.526Z"
     },
     {
       "id": "88b542cd5d98fc76107a",
@@ -2515,7 +2583,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-08T07:29:05.089Z"
+      "collectedAt": "2026-09-09T07:37:01.303Z"
     },
     {
       "id": "6e59d8aafa7323d938d6",
@@ -2532,7 +2600,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-29T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.025Z"
+      "collectedAt": "2026-09-09T07:36:59.965Z"
     },
     {
       "id": "e724c51a1bdace040134",
@@ -2549,7 +2617,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-26T10:00:00.000Z",
       "url": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "collectedAt": "2026-09-08T07:29:02.480Z"
+      "collectedAt": "2026-09-09T07:36:58.645Z"
     },
     {
       "id": "9f7c2a8b44846309cebe",
@@ -2566,7 +2634,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.025Z"
+      "collectedAt": "2026-09-09T07:36:59.966Z"
     },
     {
       "id": "dfb466b9c1abc7508953",
@@ -2583,7 +2651,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-08T07:29:03.538Z"
+      "collectedAt": "2026-09-09T07:36:59.459Z"
     },
     {
       "id": "f5c353fcba8d18826546",
@@ -2600,7 +2668,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-25T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.026Z"
+      "collectedAt": "2026-09-09T07:36:59.966Z"
     },
     {
       "id": "4dc045a657edc4379886",
@@ -2617,7 +2685,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-24T16:30:01.000Z",
       "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-      "collectedAt": "2026-09-08T07:29:05.512Z"
+      "collectedAt": "2026-09-09T07:37:01.763Z"
     },
     {
       "id": "5e93061480ea98dc8eab",
@@ -2634,7 +2702,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-24T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-08T07:29:05.089Z"
+      "collectedAt": "2026-09-09T07:37:01.303Z"
     },
     {
       "id": "ac21b6b84e065abf715a",
@@ -2651,7 +2719,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-23T17:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-immunology-mystery",
-      "collectedAt": "2026-09-08T07:29:02.480Z"
+      "collectedAt": "2026-09-09T07:36:58.645Z"
     },
     {
       "id": "2beb6e83d413eee747a3",
@@ -2668,7 +2736,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-23T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-08T07:29:03.539Z"
+      "collectedAt": "2026-09-09T07:36:59.459Z"
     },
     {
       "id": "4ee0a46d008431f74c6f",
@@ -2685,7 +2753,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T10:00:00.000Z",
       "url": "https://openai.com/index/daybreak-securing-the-world",
-      "collectedAt": "2026-09-08T07:29:02.481Z"
+      "collectedAt": "2026-09-09T07:36:58.646Z"
     },
     {
       "id": "f1af487b8667894c5069",
@@ -2702,7 +2770,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T00:00:00.000Z",
       "url": "https://openai.com/index/codex-maxxing-long-running-work",
-      "collectedAt": "2026-09-08T07:29:02.481Z"
+      "collectedAt": "2026-09-09T07:36:58.646Z"
     },
     {
       "id": "ecb75c71ae3d46eb61c5",
@@ -2719,7 +2787,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.026Z"
+      "collectedAt": "2026-09-09T07:36:59.967Z"
     },
     {
       "id": "4fba785fb3527574518d",
@@ -2736,7 +2804,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-21T23:00:00.000Z",
       "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "collectedAt": "2026-09-08T07:29:02.482Z"
+      "collectedAt": "2026-09-09T07:36:58.646Z"
     },
     {
       "id": "a744e1d203989e6af98f",
@@ -2753,7 +2821,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T17:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "collectedAt": "2026-09-08T07:29:02.482Z"
+      "collectedAt": "2026-09-09T07:36:58.647Z"
     },
     {
       "id": "4451d1f4fabd696490a6",
@@ -2770,7 +2838,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T11:00:00.000Z",
       "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "collectedAt": "2026-09-08T07:29:02.482Z"
+      "collectedAt": "2026-09-09T07:36:58.647Z"
     },
     {
       "id": "1145e5f5fbfda4f778bc",
@@ -2787,7 +2855,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T08:00:00.000Z",
       "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "collectedAt": "2026-09-08T07:29:02.483Z"
+      "collectedAt": "2026-09-09T07:36:58.647Z"
     },
     {
       "id": "b360a839b1ef98e71882",
@@ -2804,7 +2872,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.027Z"
+      "collectedAt": "2026-09-09T07:36:59.967Z"
     },
     {
       "id": "1c76d41068a26bd369b1",
@@ -2821,7 +2889,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T10:00:00.000Z",
       "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "collectedAt": "2026-09-08T07:29:02.484Z"
+      "collectedAt": "2026-09-09T07:36:58.648Z"
     },
     {
       "id": "5da9598fb41c1ac93e58",
@@ -2838,7 +2906,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-life-sci-bench",
-      "collectedAt": "2026-09-08T07:29:02.484Z"
+      "collectedAt": "2026-09-09T07:36:58.648Z"
     },
     {
       "id": "c264a8015cf38e7b022d",
@@ -2855,7 +2923,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-08T07:29:05.090Z"
+      "collectedAt": "2026-09-09T07:37:01.304Z"
     },
     {
       "id": "463a3f23df3be39852c2",
@@ -2872,7 +2940,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-16T00:00:00.000Z",
       "url": "https://openai.com/index/deployment-simulation",
-      "collectedAt": "2026-09-08T07:29:02.485Z"
+      "collectedAt": "2026-09-09T07:36:58.648Z"
     },
     {
       "id": "c1c4940bb85560fc0599",
@@ -2889,7 +2957,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.028Z"
+      "collectedAt": "2026-09-09T07:36:59.968Z"
     },
     {
       "id": "9d55e1d372b6a64c37a3",
@@ -2906,7 +2974,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-15T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-08T07:29:05.090Z"
+      "collectedAt": "2026-09-09T07:37:01.304Z"
     },
     {
       "id": "ed2a24d67723105da4dc",
@@ -2923,7 +2991,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-14T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-openai-partner-network",
-      "collectedAt": "2026-09-08T07:29:02.485Z"
+      "collectedAt": "2026-09-09T07:36:58.649Z"
     },
     {
       "id": "b5b7f9b007b543013769",
@@ -2940,126 +3008,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-12T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-08T07:29:03.540Z"
-    },
-    {
-      "id": "c24b9d70e899a62f23fe",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "BBVA puts AI at the core of banking with OpenAI",
-      "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-      "content": "Founded in 1857, BBVA is a global financial institution supporting people and businesses across Europe, Mexico, South America, Turkey, and the U.S., serving tens of millions of customers worldwide. After pioneering digital and mobile banking over the last decade, BBVA is now entering a new phase: transforming banking around artificial intelligence.\n\nTo accelerate that transformation, BBVA and OpenAI have formed a strategic collaboration designed to integrate AI across customer experiences, operations, software development, and the day-to-day work of employees throughout the organization. The collaboration marks a new level of partnership between a global financial institution and OpenAI, with teams from both companies working together on shared priorities and long-term transformation initiatives.\n\nBy the end of 2025, that collaboration had evolved into a broader strategic alliance centered around \"The Eight,\" BBVA's AI transformation roadmap for redesigning banking end-to-end—from customer experience and commercial banking to risk, operations, software development, and employee productivity.\n\nRather than approaching AI as a standalone technology initiative, BBVA is rethinking how the bank operates across every layer of the organization: how customers interact with financial services, how employees make decisions, how risk is analyzed, and how operations are executed at scale.\n\n> “Our alliance with OpenAI accelerates the native integration of artificial intelligence across the bank to create a smarter, more proactive, and completely personalized banking experience, anticipating the needs of every client.”\n\n—Carlos Torres Vila, Chair of BBVA\n\nThe initiative spans every layer of the bank: from AI-powered financial assistants capable of anticipating customer needs, to tools that help bankers and risk analysts make faster and more informed decisions, to systems that automate operations and accelerate software development across the organization.\n\nThrough the collaboration, OpenAI is working closely with BBVA teams across engineering, research, product development, and operations to help develop and scale these AI capabilities securely across a global banking organization.\n\n> “‘The Eight’ is about building a more proactive, intelligent, and personalized bank. Working closely with OpenAI allows us to rethink customer experience, operations, and employee capabilities at a scale that was not possible before.”\n\n—Antonio Bravo, Head of AI Transformation at BBVA\n\n### From enterprise adoption to strategic transformation\n\nThe relationship between BBVA and OpenAI began in 2024 with an initial deployment of ChatGPT Enterprise to 3,000 employees across multiple countries and business areas. As adoption accelerated organically, BBVA expanded access across the organization.\n\nToday more than 100,000 employees globally use ChatGPT Enterprise, making BBVA one of the largest enterprise adopters of generative AI in the financial sector.\n\nTeams across legal, risk, engineering, operations, finance, marketing, and customer service integrated ChatGPT into everyday workflows. The deployment demonstrated how generative AI could scale securely inside a highly regulated organization while delivering measurable operational impact across the business.\n\nFor a highly regulated global bank, scaling AI required more than simply deploying licenses. BBVA built its AI adoption strategy around three core pillars: trust, governance, and structured learning. From the beginning, BBVA aligned security, legal, compliance, and technology teams to ensure employees had access to trusted AI tools within clear governance frameworks.\n\nRather than allowing unauthorized experimentation with consumer AI tools, the bank chose to provide employees with secure enterprise-grade access and formal enablement programs.\n\nTo support adoption at scale, BBVA created a structured enablement framework that included an organization-wide AI champions network, along with advanced users known internally as AI “wizards.” These teams lead hands-on workshops, help colleagues integrate ChatGPT into everyday workflows, and identify valuable use cases across the organization.\n\nLeadership participation became a major accelerator for adoption. BBVA provided specific training to 250 leaders, including the CEO and chairman, and today members of the executive committee are among the company's most active ChatGPT users.\n\n> “We consider our investment in ChatGPT an investment in our people. AI amplifies our potential and helps us be more efficient and creative.”\n\n—Elena Alfaro, Head of Global AI Adoption at BBVA\n\nOnce employees began seeing practical value in their daily work, adoption expanded organically across the company.\n\n### Empowering every department with expert knowledge\n\nAs adoption expanded, employees across BBVA began building custom GPTs tailored to specialized workflows across legal, risk, customer service, finance, and marketing. To date, employees have created more than 20,000 GPTs across the organization, with approximately 4,000 used frequently by teams around the world.\n\nIn credit risk, BBVA developed Credit Analysis Pro GPT, which accelerates assessments by extracting and analyzing unstructured data from annual reports, ESG disclosures, and media coverage—work that was previously manual and time-intensive. By automating these tasks, analysts can focus more on strategic analysis and higher-value work, including how ESG factors are incorporated into risk models.\n\nIn legal services, BBVA created a Retail Banking Legal Assistant GPT to help respond to approximately 40,000 annual client-related legal inquiries received from branch managers. The GPT drafts responses by pulling from multiple internal knowledge sources, dramatically reducing manual research time for the nine-person legal team.\n\nIn Mexico, a Client Experience Assistant GPT analyzes thousands of open-ended customer survey responses, accelerating sentiment analysis, surfacing key themes, and recommending actions that help improve customer experience faster and at scale.\n\nIn Peru, more than 3,000 employees now use an internal AI assistant that has reduced average query handling times from approximately 7.5 minutes to around 1 minute—an efficiency improvement of roughly 80%.\n\nThese examples illustrate a broader shift underway at BBVA. What began as employee productivity gains is increasingly becoming a foundation for how the bank delivers services, makes decisions, and scales expertise across the organization.\n\n> “We created a secure environment for learning and using AI.”\n\n—Elena Alfaro, Head of Global AI Adoption at BBVA\n\n### Results at a glance\n\n*   100,000 employees using ChatGPT Enterprise globally\n*   70%+ weekly active usage across deployed employees\n*   ~3 hours saved per employee, per week\n*   Up to 80% efficiency gains in selected workflows\n*   250 senior leaders trained, including the CEO and chairman\n*   Security, legal, and compliance aligned from day one\n*   Employee-led AI adoption across business functions\n*   8 major transformation initiatives under “The Eight”\n\n### Leadership lessons\n\n*   **Treat AI as business transformation:**BBVA approached AI as a redesign of customer experience, operations, and ways of working across the organization — not as a standalone innovation effort.\n*   **Build with domain expertise:**The collaboration combines OpenAI’s frontier AI capabilities with BBVA’s deep expertise in banking, risk, operations, and customer experience.\n*   **Scale securely from day one:**Transforming a global financial institution with AI requires governance, data architecture, and security frameworks designed to scale across the organization.\n*   **Empower employees with AI:**By extending AI capabilities broadly across the workforce, BBVA is enabling employees to become active participants in the bank’s transformation.\n*   **Train leadership early:**AI adoption accelerates when senior leaders actively use the technology themselves. Early training programs for executives — including the CEO and chairman — help establish AI as a strategic priority across the organization.\n*   **Move from reactive to proactive banking:**The long-term ambition is not simply greater efficiency, but a more intelligent and personalized banking experience capable of anticipating customer needs.\n\n### What’s next\n\nFor BBVA, ChatGPT Enterprise adoption is only one part of a much larger transformation. Through \"The Eight,\" the bank is pursuing a long-term vision for redesigning banking around AI—from customer engagement and commercial banking to risk, operations, software development, and employee productivity.\n\nWorking closely with OpenAI, BBVA is continuing to explore how AI can help create a more proactive, intelligent, and personalized banking experience while improving how work gets done across the organization. The goal is not simply to deploy AI tools, but to rethink how a global bank operates in an AI-native era.",
-      "contentZh": "BBVA 成立于 1857 年，是一家全球性金融机构，为欧洲、墨西哥、南美洲、土耳其和美国的个人与企业提供支持，服务全球数千万客户。在过去十年引领数字和移动银行业务之后，BBVA 正进入一个新阶段：围绕人工智能重塑银行业务。\n\n为加速这一转型，BBVA 与 OpenAI 建立了战略合作关系，旨在将人工智能整合到客户体验、运营、软件开发以及整个组织员工的日常工作中。这一合作标志着全球金融机构与 OpenAI 之间达到了新的合作水平，双方团队将共同致力于优先事项和长期转型计划。\n\n到 2025 年底，这一合作已演变为更广泛的战略联盟，核心是“The Eight”——BBVA 的 AI 转型路线图，旨在从头到尾重新设计银行业务，涵盖客户体验、商业银行业务、风险、运营、软件开发以及员工生产力。\n\nBBVA 并未将 AI 视为一项独立的技术计划，而是重新思考银行在组织各个层面的运作方式：客户如何与金融服务互动、员工如何决策、风险如何分析，以及运营如何大规模执行。\n\n> “我们与 OpenAI 的联盟加速了人工智能在整个银行中的原生整合，以创造更智能、更主动、完全个性化的银行体验，预见每位客户的需求。”\n>\n> — Carlos Torres Vila，BBVA 董事长\n\n该计划覆盖银行的各个层面：从能够预见客户需求的 AI 驱动金融助手，到帮助银行家和风险分析师做出更快、更明智决策的工具，再到自动化运营并加速整个组织软件开发的系统。\n\n通过合作，OpenAI 与 BBVA 的工程、研究、产品开发和运营团队紧密协作，帮助在全球银行组织中安全地开发和扩展这些 AI 能力。\n\n> “‘The Eight’ 旨在构建一个更主动、更智能、更个性化的银行。与 OpenAI 的紧密合作使我们能够以前所未有的规模重新思考客户体验、运营和员工能力。”\n>\n> — Antonio Bravo，BBVA AI 转型负责人\n\n### 从企业采用到战略转型\n\nBBVA 与 OpenAI 的合作始于 2024 年，最初向多个国家和业务领域的 3,000 名员工部署了 ChatGPT Enterprise。随着采用率自然增长，BBVA 将访问权限扩展至整个组织。\n\n如今，全球超过 10 万名员工使用 ChatGPT Enterprise，使 BBVA 成为金融领域生成式 AI 的最大企业采用者之一。\n\n法律、风险、工程、运营、财务、营销和客户服务等团队将 ChatGPT 整合到日常工作中。这一部署展示了生成式 AI 如何在高度监管的组织中安全扩展，同时在整个业务中带来可衡量的运营影响。\n\n对于一家高度监管的全球银行来说，扩展 AI 需要的不仅仅是部署许可证。BBVA 围绕三个核心支柱构建了 AI 采用策略：信任、治理和结构化学习。从一开始，BBVA 就协调了安全、法律、合规和技术团队，确保员工在清晰的治理框架内使用可信的 AI 工具。\n\n银行没有允许员工使用消费级 AI 工具进行未经授权的实验，而是选择提供安全的企业级访问权限和正式的赋能计划。\n\n为支持大规模采用，BBVA 创建了一个结构化的赋能框架，包括一个全组织的 AI 倡导者网络，以及内部称为 AI“巫师”的高级用户。这些团队举办实践研讨会，帮助同事将 ChatGPT 整合到日常工作中，并在整个组织中识别有价值的用例。\n\n领导层的参与成为采用的重要加速器。BBVA 为 250 名领导者（包括 CEO 和董事长）提供了专门培训，如今执行委员会成员是公司最活跃的 ChatGPT 用户之一。\n\n> “我们将对 ChatGPT 的投资视为对员工的投资。AI 放大了我们的潜力，帮助我们更高效、更具创造力。”\n>\n> — Elena Alfaro，BBVA 全球 AI 采用负责人\n\n一旦员工在日常工作中看到实际价值，采用率便在整个公司自然增长。\n\n### 用专业知识赋能每个部门\n\n随着采用范围的扩大，BBVA 的员工开始构建定制 GPT，以适应法律、风险、客户服务、财务和营销等专业工作流程。迄今为止，员工已在全组织创建了超过 20,000 个 GPT，其中约 4,000 个被全球团队频繁使用。\n\n在信用风险领域，BBVA 开发了 Credit Analysis Pro GPT，通过从年报、ESG 披露和媒体报道中提取并分析非结构化数据来加速评估——这些工作以前是手动且耗时的。通过自动化这些任务，分析师可以专注于战略分析和更高价值的工作，包括如何将 ESG 因素纳入风险模型。\n\n在法律服务领域，BBVA 创建了零售银行法律助手 GPT，帮助回应分行经理每年约 40,000 个与客户相关的法律咨询。该 GPT 从多个内部知识源中提取信息来起草回复，大幅减少了九人法律团队的手动研究时间。\n\n在墨西哥，客户体验助手 GPT 分析了数千份开放式客户调查回复，加速了情感分析，揭示了关键主题，并推荐了有助于更快、更大规模改善客户体验的行动。\n\n在秘鲁，超过 3,000 名员工现在使用内部 AI 助手，将平均查询处理时间从约 7.5 分钟缩短至约 1 分钟——效率提升约 80%。\n\n这些例子展示了 BBVA 正在发生的更广泛转变。最初作为员工生产力提升的举措，正日益成为银行提供服务、做出决策和在整个组织扩展专业知识的基础。\n\n> “我们为学习和使用 AI 创造了一个安全的环境。”\n>\n> — Elena Alfaro，BBVA 全球 AI 采用负责人\n\n### 成果一览\n\n*   全球范围内已有 10 万名员工使用 ChatGPT Enterprise\n*   已部署员工中，周活跃使用率超过 70%\n*   每位员工每周节省约 3 小时\n*   特定工作流程效率提升高达 80%\n*   250 名高级领导者接受培训，包括首席执行官和董事长\n*   安全、法律与合规工作从第一天起就保持一致\n*   员工主导的 AI 采用覆盖各业务职能\n*   “八大举措”下推进 8 项重大转型计划\n\n### 领导力启示\n\n*   **将 AI 视为业务转型：**BBVA 将 AI 视为对客户体验、运营及全组织工作方式的重新设计，而非孤立的创新项目。\n*   **结合领域专长进行构建：**此次合作将 OpenAI 的前沿 AI 能力与 BBVA 在银行、风险、运营及客户体验领域的深厚专长相结合。\n*   **从第一天起实现安全规模化：**用 AI 改造全球金融机构，需要设计能够跨组织扩展的治理、数据架构及安全框架。\n*   **用 AI 赋能员工：**通过将 AI 能力广泛扩展至全体员工，BBVA 使员工成为银行转型的积极参与者。\n*   **尽早培训领导层：**当高级领导者亲自积极使用技术时，AI 的采用会加速。为高管（包括首席执行官和董事长）提供的早期培训项目，有助于将 AI 确立为全组织的战略优先事项。\n*   **从被动银行转向主动银行：**长期目标不仅是提升效率，更是打造能够预测客户需求的更智能、更个性化的银行体验。\n\n### 下一步计划\n\n对 BBVA 而言，ChatGPT Enterprise 的采用只是更宏大转型的一部分。通过“八大举措”，该银行正围绕 AI 重新设计银行业务的长期愿景——涵盖客户互动、商业银行、风险、运营、软件开发及员工生产力。\n\nBBVA 正与 OpenAI 紧密合作，持续探索 AI 如何助力打造更主动、更智能、更个性化的银行体验，同时改善全组织的工作方式。其目标不仅是部署 AI 工具，更是重新思考一家全球银行在 AI 原生时代如何运营。",
-      "titleZh": "BBVA将AI置于银行业务核心，与OpenAI合作",
-      "summaryZh": "了解BBVA如何将ChatGPT Enterprise推广至10万名员工，并与OpenAI合作加速全球AI驱动的银行业务转型。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-11T00:00:00.000Z",
-      "url": "https://openai.com/index/bbva",
-      "collectedAt": "2026-09-08T07:29:02.486Z"
-    },
-    {
-      "id": "46d6755fb18785fef07a",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "OpenAI to acquire Ona",
-      "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-      "content": "Today we’re announcing that OpenAI will acquire [Ona⁠(opens in a new window)](http://ona.com/), bringing its secure cloud execution and orchestration technology into our rapidly expanding Codex ecosystem.\n\nMore than 5 million people use Codex each week to research, analyze, build, and automate their work—up 400% from earlier this year. Codex began as a tool for software developers and now helps a wider range of people do complex work from an initial request through to a finished result.\n\nAs Codex becomes more capable, its most valuable work is unfolding over hours or days, rather than minutes. We believe people should be able to delegate more ambitious work without remaining tied to the machine where it began. The work should continue beyond the initial session, with Codex making it possible to stay connected and check progress, provide direction, make decisions, and review results from anywhere.\n\nOna will help us do that. Its technology provides secure, persistent environments where agents can access the tools, systems, and context they need to make progress over time.\n\nBy bringing Ona to OpenAI, we will expand Codex beyond work tied to a single device or active session and help more organizations deploy agents securely in production.\n\n## Giving Codex a persistent place to work\n\nOna has spent years helping developers move software development from local machines into the cloud. The company has helped 2 million developers work in secure, reproducible cloud environments and supports multiple shared customers.\n\nThat experience is directly relevant to the next phase of Codex, enabling agents to continue working inside a customer’s cloud environment even when laptops are closed.\n\n## Scaling Codex across production workflows\n\nAs organizations move from experimenting with agents to deploying them across production workflows, capable models are only one part of what they need.\nOrganizations should be able to give people the benefits of persistent agentic work with confidence, knowing agents are operating inside environments that meet their security, governance, and operational requirements. That means having control over where they run, what they can access, how credentials are scoped, how activity is logged, and how work moves through review.\n\nOna’s customer-controlled execution model will allow agents to operate inside an organization’s own cloud environment while OpenAI provides the intelligence and orchestration that power the experience. This gives organizations greater control over their infrastructure, data, and security boundaries without limiting what Codex can accomplish.\n\n## What’s next\n\nThe acquisition is subject to customary closing conditions, including receipt of required regulatory approvals. Until closing, OpenAI and Ona will remain separate and independent companies.\n\nAfter closing, the Ona team will join OpenAI and work with the Codex team to advance secure, persistent enterprise execution capabilities and help scale Codex to more enterprises worldwide.\n\nWe’re excited to welcome the Ona team to OpenAI as we build AI systems that help people and businesses create and accomplish more while meeting the security and control requirements of real-world deployment. Together, we will help engineering teams safely take on sustained work across the software lifecycle, from running tests and resolving issues to modernizing applications, addressing vulnerabilities, and supporting complex workflows over time.",
-      "contentZh": "今天，我们宣布 OpenAI 将收购 [Ona⁠（在新窗口中打开）](http://ona.com/)，将其安全的云端执行与编排技术纳入我们快速扩展的 Codex 生态系统。\n\n每周有超过 500 万人使用 Codex 进行研究、分析、构建和自动化工作——较今年早些时候增长了 400%。Codex 最初是面向软件开发者的工具，如今已帮助更广泛的人群，从初始请求到最终成果，完成复杂工作。\n\n随着 Codex 能力不断增强，其最有价值的工作正从几分钟扩展到数小时甚至数天。我们认为，人们应该能够委托更宏大的任务，而不必始终守在任务启动的机器旁。工作应在初始会话结束后继续推进，Codex 让人们能够随时保持连接、检查进度、提供方向、做出决策并从任何地方审查结果。\n\nOna 将帮助我们实现这一目标。其技术提供安全、持久的环境，使智能体能够访问所需的工具、系统和上下文，从而随时间推移不断取得进展。\n\n通过将 Ona 引入 OpenAI，我们将把 Codex 扩展到不再局限于单一设备或活跃会话的工作场景，并帮助更多组织在生产环境中安全部署智能体。\n\n## 为 Codex 提供持久的工作空间\n\nOna 多年来一直致力于帮助开发者将软件开发从本地机器迁移到云端。该公司已帮助 200 万开发者在安全、可复现的云端环境中工作，并支持多个共享客户。\n\n这些经验与 Codex 下一阶段的发展直接相关，使智能体即使在笔记本电脑关闭时，也能在客户的云环境中持续工作。\n\n## 将 Codex 扩展到生产工作流\n\n随着组织从试验智能体转向在生产工作流中部署它们，强大的模型只是所需的一部分。\n组织应能放心地让人们受益于持久的智能体工作，同时确保智能体在满足其安全、治理和运营要求的环境中运行。这意味着要控制智能体的运行位置、可访问内容、凭据范围、活动日志记录方式以及工作如何通过审查流程。\n\nOna 的客户控制执行模型将使智能体能够在组织自身的云环境中运行，而 OpenAI 则提供驱动体验的智能与编排能力。这使组织能够更好地控制其基础设施、数据和安全边界，同时不限制 Codex 所能实现的功能。\n\n## 下一步计划\n\n此次收购需满足常规交割条件，包括获得必要的监管批准。在交割完成前，OpenAI 和 Ona 将继续作为独立公司运营。\n\n交割完成后，Ona 团队将加入 OpenAI，与 Codex 团队合作，推进安全、持久的企业执行能力，并帮助 Codex 扩展到全球更多企业。\n\n我们很高兴欢迎 Ona 团队加入 OpenAI，共同构建能够帮助个人和企业创造更多成就的 AI 系统，同时满足实际部署中的安全与控制要求。我们将携手帮助工程团队安全地承担软件生命周期中的持续性工作，从运行测试、解决问题，到应用现代化、修复漏洞，以及支持长期复杂工作流。",
-      "titleZh": "OpenAI 将收购 Ona",
-      "summaryZh": "OpenAI 计划收购 Ona，以通过安全、持久的云环境扩展 Codex，从而在企业工作流中实现长期运行的 AI 代理。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-11T00:00:00.000Z",
-      "url": "https://openai.com/index/openai-to-acquire-ona",
-      "collectedAt": "2026-09-08T07:29:02.487Z"
-    },
-    {
-      "id": "5cf8d01eeb345b1be05a",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "How an astrophysicist uses Codex to help simulate black holes",
-      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-      "content": "The gravity around a black hole is so extreme that nothing, not even light, can escape once it gets close enough. Astrophysicists like Chi-kwan Chan study black holes with computer simulations and observations. But current algorithms and computing power limit how realistic those simulations can be.\n\nWith Codex, Chan—a researcher at the University of Arizona and Steward Observatory—is tackling this problem.\n\nBlack holes are among the best places to test Einstein’s general theory of relativity, he said. The theory is currently our best explanation of gravity: instead of a force pulling objects together, gravity is the result of mass and energy bending the fabric of space and time.\n\nChan is part of the international Event Horizon Telescope (EHT) collaboration, which published the first image of a black hole in 2019. The team is currently gathering observations to produce the first video of a supermassive black hole, focusing on the one at the center of the M87 galaxy.\n\nBut turning observations into scientific understanding requires enormous amounts of data processing, large-scale computing workflows, and simulations capable of modeling some of the most extreme physics in the universe.\n\nSince light can’t escape a black hole, scientists instead study the region around it called the event horizon, a boundary beyond which matter can’t escape. “It’s a surface of no return,” said Chan. Matter swirling just outside this boundary emits light that astrophysicists can see, measure, and simulate.\n\nThe 2019 image released by the EHT showed a black hole’s shadow embedded in glowing plasma near the event horizon. Chan helped develop the simulation and computing tools the team used to interpret the observations. Since then, Chan and his colleagues have continued improving their instruments and observing capabilities as the team moves from still images toward videos.\n\nA short video generated by a supercomputer simulation showing the movement of plasma around the black hole at the center of the Milky Way galaxy.\n\n**Credit:** EHT Theory Working Group / CK Chan\n\n**Addressing a spiraling problem**\n\nOne of the biggest roadblocks for Chan and his team is modeling the plasma around black holes. Plasma is superheated matter made up of electrically charged electrons and ions.\n\nIn many simulations, scientists simplify plasma by treating it like a fluid, using well-known equations to model its movement around a black hole. That works reasonably well in denser plasma where the electrons and ions constantly collide with each other.\n\nBut near the supermassive black holes that Chan and his colleagues are studying, some regions become so hot and diffuse that particles rarely encounter each other. “They don’t really collide with each other,” he said. Instead, the particles mostly spiral around magnetic field lines.\n\nTo model that behavior correctly, researchers need to follow trillions of electrons and ions as they rapidly corkscrew around a black hole. Standard simulations must calculate every tiny turn, forcing computers to take extremely small timesteps.\n\nAs a result, even the world’s fastest supercomputers can spend most of their time calculating these minuscule particle motions instead of simulating the larger behavior scientists actually want to study.\n\n“For decades, this has limited how realistically we can simulate black hole plasma,” Chan said.\n\n**Using AI to build a better digital twin**\n\nChan suspected that new mathematical techniques could help work around some of these limitations. The basic idea was to change, mathematically, how the simulation tracked particle motion so the computer no longer had to follow every tiny spiral directly.\n\n“But exploring all the mathematical possibilities by hand would have taken an enormous amount of time,” Chan said. So he turned to Codex to help derive candidate algorithms and test them against known solutions.\n\nCodex generated many potential approaches—not all of them correct. “But that’s okay,” Chan said. “Most scientific ideas fail. What matters is that these algorithms are testable. Once you find one that works, it can potentially unlock simulations that were previously impossible.”\n\nSome AI systems can return results without showing the steps they used to produce their conclusions. But Chan’s group uses Codex to propose and implement numerical schemes that they can inspect, test, and understand physically.\n\nLarge language models still make mistakes, and many scientists remain cautious about using AI in research. But Chan believes science may be one of the best uses for today’s AI systems precisely because scientific ideas can be tested rigorously.\n\n“We don’t accept an idea because it came from Einstein, from a bright student, or from an AI model,” he said. “We accept it only after repeated testing.”\n\nChan sees AI as a tool that can help researchers explore more ideas, test them faster, and accelerate discovery while remaining grounded in verification and reproducibility.\n\nIf the approaches that Chan is testing with Codex succeed, the new algorithms could eventually allow scientists to simulate trillions of particles around black holes. That would enable researchers to study physics that has remained out of reach for decades.",
-      "contentZh": "黑洞周围的引力极其强大，任何物质一旦靠近到一定距离，就连光也无法逃脱。像陈志均这样的天体物理学家通过计算机模拟和观测来研究黑洞，但当前的算法和计算能力限制了这些模拟的真实性。\n\n作为亚利桑那大学和斯图尔德天文台的研究员，陈志均正借助 Codex 攻克这一难题。\n\n他表示，黑洞是检验爱因斯坦广义相对论的最佳场所之一。该理论目前是我们对引力的最佳解释：引力并非将物体拉拢的力，而是质量与能量弯曲时空结构的结果。\n\n陈志均是国际事件视界望远镜（EHT）合作项目的成员，该项目于2019年发布了首张黑洞图像。该团队目前正在收集观测数据，旨在制作首部超大质量黑洞视频，重点关注M87星系中心的那个黑洞。\n\n然而，将观测转化为科学理解需要海量数据处理、大规模计算工作流以及能够模拟宇宙中最极端物理现象的仿真程序。\n\n由于光无法逃离黑洞，科学家转而研究其周围被称为事件视界的区域——这是一个物质无法逃逸的边界。“这是一道有去无回的表面，”陈志均说。在边界外旋转的物质会发出光线，天体物理学家可以观测、测量并模拟这些光。\n\nEHT于2019年发布的图像显示，黑洞的阴影嵌在事件视界附近炽热的等离子体中。陈志均协助开发了团队用于解读观测数据的模拟和计算工具。此后，随着团队从静态图像转向视频研究，陈志均和同事们持续改进仪器和观测能力。\n\n**一段由超级计算机模拟生成的短视频，展示了银河系中心黑洞周围等离子体的运动。**\n\n**图片来源：** EHT理论工作组 / CK Chan\n\n**应对螺旋难题**\n\n陈志均团队面临的最大障碍之一是模拟黑洞周围的等离子体。等离子体是由带电电子和离子组成的超高温物质。\n\n在许多模拟中，科学家将等离子体简化为流体，利用经典方程模拟其绕黑洞的运动。这种方法在密度较高、电子与离子频繁碰撞的等离子体中效果尚可。\n\n但在陈志均团队研究的超大质量黑洞附近，某些区域温度极高且物质稀薄，粒子几乎不会相遇。“它们实际上不会相互碰撞，”他说。相反，粒子主要沿磁力线螺旋运动。\n\n要正确模拟这种行为，研究人员需要追踪数万亿个电子和离子绕黑洞快速螺旋运动的轨迹。标准模拟必须计算每个微小转弯，迫使计算机采用极短的时间步长。\n\n结果，即便是全球最快的超级计算机，大部分时间也耗费在计算这些微观粒子运动上，而非模拟科学家真正想研究的宏观行为。\n\n“几十年来，这限制了我们对黑洞等离子体模拟的真实性，”陈志均说。\n\n**用AI构建更优的数字孪生**\n\n陈志均推测，新的数学技术或许能突破部分限制。基本思路是通过数学变换改变模拟追踪粒子运动的方式，使计算机无需直接追踪每个微小螺旋。\n\n“但手动探索所有数学可能性将耗费大量时间，”陈志均说。于是他借助 Codex 推导候选算法，并用已知解进行验证。\n\nCodex 生成了许多潜在方案——并非全部正确。“但这没关系，”他说，“大多数科学想法都会失败。关键在于这些算法是可检验的。一旦找到有效方案，就可能解锁此前无法实现的模拟。”\n\n某些AI系统能直接返回结果，却不展示推导步骤。但陈志均的团队利用 Codex 提出并实现数值方案，以便他们从物理角度检查、测试和理解。\n\n大型语言模型仍会出错，许多科学家对在研究中应用AI持谨慎态度。但陈志均认为，科学恰恰可能是当今AI系统的最佳应用场景之一，因为科学思想可以严格检验。\n\n“我们不会因为某个想法来自爱因斯坦、优秀学生或AI模型就接受它，”他说，“只有经过反复验证后才会接受。”\n\n陈志均将AI视为一种工具，能帮助研究人员探索更多想法、加速测试，并在坚持验证与可重复性的前提下推动发现。\n\n如果陈志均用 Codex 测试的方法成功，新算法最终将让科学家模拟黑洞周围数万亿个粒子。这将使研究人员得以研究数十年来难以触及的物理现象。",
-      "titleZh": "天体物理学家如何利用Codex模拟黑洞",
-      "summaryZh": "了解天体物理学家Chi-kwan Chan如何使用Codex构建黑洞模拟，帮助科学家研究极端物理学并检验爱因斯坦的广义相对论。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-11T00:00:00.000Z",
-      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "collectedAt": "2026-09-08T07:29:02.487Z"
-    },
-    {
-      "id": "2f865cea4009ebb80597",
-      "sourceId": "claude-platform",
-      "company": "Anthropic",
-      "product": "Claude",
-      "kind": "api",
-      "title": "The code execution tool now supports code_execution_20260521, which discloses the 90-second per-cell execution time limit in the tool description so Claude can budget long-running",
-      "summary": "The code execution tool now supports code_execution_20260521, which discloses the 90-second per-cell execution time limit in the tool description so Claude can budget long-running cells. No beta header is required. The web search tool and web fetch tool now support web_search_20260318 and web_fetch_20260318, adding a response_inclusion parameter to drop consumed result blocks from the API response for agentic workflows. No beta header is required.",
-      "content": "The code execution tool now supports code_execution_20260521, which discloses the 90-second per-cell execution time limit in the tool description so Claude can budget long-running cells. No beta header is required. The web search tool and web fetch tool now support web_search_20260318 and web_fetch_20260318, adding a response_inclusion parameter to drop consumed result blocks from the API response for agentic workflows. No beta header is required.",
-      "contentZh": "代码执行工具现已支持 `code_execution_20260521`，该版本在工具描述中公开了每个单元格 90 秒的执行时间限制，以便 Claude 能够为长时间运行的单元格进行时间预算。无需使用测试版标头。网络搜索工具和网络抓取工具现已支持 `web_search_20260318` 和 `web_fetch_20260318`，新增了 `response_inclusion` 参数，可从 API 响应中移除已消耗的结果块，适用于代理工作流。无需使用测试版标头。",
-      "titleZh": "代码执行工具现支持code_execution_20260521，在工具描述中公开了每个单元格90秒的执行时间限制，以便Claude可以预算长时间运行的单元格",
-      "summaryZh": "代码执行工具现支持code_execution_20260521，在工具描述中公开了每个单元格90秒的执行时间限制，以便Claude可以预算长时间运行的单元格。无需beta标头。网络搜索工具和网络获取工具现支持web_search_20260318和web_fetch_20260318，新增了response_inclusion参数，可从API响应中删除已消耗的结果块，适用于代理工作流。无需beta标头。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-11T00:00:00.000Z",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-08T07:29:04.029Z"
-    },
-    {
-      "id": "271132d8a2041b336c61",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
-      "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
-      "content": "Enterprises often want to deploy AI through the procurement processes and governance frameworks they already trust. To help make that happen, OpenAI and Oracle are partnering to make OpenAI frontier models and Codex easier to access for Oracle Cloud Infrastructure (OCI) customers.\n\nIn the coming weeks, Oracle customers will be able to apply eligible Oracle Universal Credits toward OpenAI models and Codex through OCI. This gives customers a path to access OpenAI models under their existing purchasing workflow and cloud commitment.\n\nWith OpenAI models, teams can build AI applications, analyze complex information, automate workflows, and create new customer and employee experiences.\n\nFor organizations with existing Oracle commitments, the partnership can help align AI adoption with planned cloud investments and established enterprise processes. The goal is to reduce friction for teams that are ready to bring advanced AI into their businesses, while meeting customers where they already manage critical technology decisions.\n\nBy expanding access through OCI, OpenAI and Oracle are making it easier for more enterprises to move from AI ambition to production impact.\n\nAvailability will begin in the coming weeks.\n\nContact your Oracle sales representative for details, timing, and availability.",
-      "contentZh": "企业通常希望通过其已信任的采购流程和治理框架来部署人工智能。为助力实现这一目标，OpenAI 与 Oracle 达成合作，使 Oracle 云基础设施（OCI）客户能够更便捷地访问 OpenAI 前沿模型及 Codex。\n\n未来几周内，Oracle 客户将可通过 OCI 将符合条件的 Oracle 通用积分用于 OpenAI 模型和 Codex。这为客户提供了一条在现有采购工作流程和云承诺下访问 OpenAI 模型的途径。\n\n借助 OpenAI 模型，团队可以构建人工智能应用、分析复杂信息、自动化工作流程，并创造全新的客户与员工体验。\n\n对于已有 Oracle 承诺的组织而言，此次合作有助于将人工智能应用与既定的云投资及企业流程相协调。其目标是减少那些准备将先进人工智能引入业务的团队所面临的阻力，同时满足客户在关键技术决策管理上的现有需求。\n\n通过 OCI 扩大访问权限，OpenAI 与 Oracle 正让更多企业能够更轻松地从人工智能愿景迈向实际生产影响。\n\n该服务将在未来几周内上线。\n\n详情、时间安排及可用性，请联系您的 Oracle 销售代表。",
-      "titleZh": "通过您的Oracle云承诺访问OpenAI模型和Codex",
-      "summaryZh": "通过Oracle云访问OpenAI模型和Codex，利用现有承诺以企业级安全性和治理构建和部署AI。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-10T20:00:00.000Z",
-      "url": "https://openai.com/index/openai-on-oracle-cloud",
-      "collectedAt": "2026-09-08T07:29:02.487Z"
-    },
-    {
-      "id": "dd8ef022bc1c3f2bcd4e",
-      "sourceId": "deepmind-news",
-      "company": "Google DeepMind",
-      "product": "Gemini",
-      "kind": "news",
-      "title": "DiffusionGemma: 4x faster text generation",
-      "summary": "",
-      "content": "Jun 10, 2026\n\n|\n\n6 min read\n\nOur newest open experimental model delivers up to 4x faster inference on dedicated GPUs and opens the door to exploring speed-critical, interactive local workflows.\n\n* * *\n\nBrendan O'Donoghue\n\nResearch Scientist\n\nSebastian Flennerhag\n\nResearch Scientist\n\n* * *\n\n![Image 1: DiffusionGemma](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HeroVisual.width-200.format-webp.webp)\n\nToday, we’re introducing DiffusionGemma, an experimental open model that explores text diffusion, an exceptionally fast approach to text generation. Released under an Apache 2.0 license, this 26B Mixture of Experts (MoE) model moves beyond the sequential token-by-token processing of typical autoregressive Large Language Models (LLMs). Instead, it generates entire blocks of text simultaneously, delivering up to 4x faster text generation on GPUs.\n\nBuilt upon the industry-leading intelligence-per-parameter of our Gemma 4 family and cutting-edge [Gemini Diffusion research](https://deepmind.google/models/gemini-diffusion/), DiffusionGemma integrates a novel diffusion head designed to maximize generation speed. While autoregressive Gemma 4 models remain the standard for high-quality production outputs, DiffusionGemma is designed for researchers and developers exploring speed-critical, interactive local workflows such as in-line editing, rapid iteration, and generating non-linear text structures.\n\n## Unlocking new value for developers\n\nDevelopers building real-time interactive AI applications often struggle with the latency bottlenecks of local inference. DiffusionGemma addresses these challenges directly, with some key trade-offs:\n\n*   **Blazing fast inference:** By shifting the decode bottleneck from memory-bandwidth to compute, DiffusionGemma generates up to 4x faster token output on dedicated GPUs. (1000+ tokens per second on a single NVIDIA H100, 700+ tokens per second on NVIDIA GeForce RTX 5090). [1](https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/#footnote-1)\n*   **Accessible hardware footprint:** Operating as a 26B total Mixture of Experts (MoE) model that activates only 3.8B parameters during inference, DiffusionGemma fits comfortably within 18GB VRAM limits of high-end dedicated consumer GPUs when quantized.\n*   **Bi-directional attention**: Generating 256 tokens in parallel with each forward pass allows every token to attend to all others. This provides significant advantages for non-linear domains such as in-line editing, code infilling, amino acid sequences or mathematical graphs.\n*   **Intelligent self-correction:** The model iteratively refines its own output, allowing it to evaluate the entire text block at once to fix mistakes in real-time.\n*   **Experimental status & production recommendations:** Because it prioritizes speed and parallel layout generation, DiffusionGemma’s overall output quality is lower than standard Gemma 4. For applications that demand maximum quality, we recommend deploying standard Gemma 4.\n\nYou can improve DiffusionGemma's performance on specific tasks through fine-tuning. In the example below, [Unsloth](https://unsloth.ai/docs/models/diffusiongemma) fine-tuned DiffusionGemma to play Sudoku — a task autoregressive models struggle with because each token depends on future tokens. DiffusionGemma's bi-directional attention makes this much easier.\n\nFine-tuned DiffusionGemma solving Sudoku.\n\n## **Why diffusion for text?**\n\nWhile the AI research community has explored diffusion-based text generation for years, applying it to large models has remained a challenge. DiffusionGemma changes this by shifting how models use hardware.\n\n### **The trade-off with traditional models**\n\nMost language models act like a typewriter, generating one token at a time from left to right. In the cloud, this is efficient because servers can batch thousands of user requests together to share the hardware load. But when run locally for a single user, this word-by-word process leaves your dedicated GPU or TPU underutilized — it spends most of its time simply waiting for the next \"keystroke.\"\n\nDiffusionGemma reverses this inefficiency. Instead of predicting words sequentially, it drafts an entire 256-token paragraph simultaneously. By giving the computer's processor a larger chunk of work at once, DiffusionGemma utilizes your hardware to its full potential. It upgrades your model inference from a single, sequential typewriter to a massive printing press that stamps the entire block of text simultaneously.\n\nDiffusionGemma text-to-3D SVG demo by Hugging Face. Step-by-step generation.\n\nThis means DiffusionGemma's speedup is designed for local and low-concurrency inference. In high-QPS cloud serving, autoregressive models can be deployed to saturate compute efficiently, so DiffusionGemma's parallel decoding offers diminishing returns and can result in higher serving costs. The throughput advantage is strongest at low-to-medium batch sizes on a single accelerator.\n\n### **How text diffusion works**\n\nSimilar to AI image generators that [start with visual static and iteratively refine it](https://research.google/blog/on-device-diffusion-plugins-for-conditioned-text-to-image-generation/) into a clear picture, DiffusionGemma applies this to text:\n\n1.   **The canvas:** The model starts with a canvas of random placeholder tokens.\n2.   **Iterative refinement:** The model makes multiple passes, locking in correct tokens and using them as context clues to refine the rest.\n3.   **Final polish:** The text converges into high-quality output.\n\nBecause the model can process the whole paragraph while generating, it unlocks new patterns of model behavior, like perfectly closing complex markdown formatting or generating and rendering code in near real-time.\n\n### **Get started today**\n\n*   **Download the weights:** Access the experimental model weights (released under a permissive Apache 2.0 license) right now on Hugging Face.\n*   **Integrate & learn:** Learn more in our [DiffusionGemma developer guide](https://developers.googleblog.com/en/diffusiongemma-the-developer-guide). Or deep dive into [A Visual Guide to DiffusionGemma](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-diffusiongemma) to understand the mechanics under the hood.\n*   **Use your favorite development tools:** Serve the model efficiently using [MLX](https://huggingface.co/collections/mlx-community/diffusiongemma), [vLLM](https://vllm-project.github.io/2026/06/10/diffusion-gemma) (with integration supported by [Red Hat](https://huggingface.co/collections/RedHatAI/diffusiongemma-26b-a4b-it)), and [Hugging Face Transformers](https://huggingface.co/google/diffusiongemma-26B-A4B-it). For rapid experimentation, we are releasing a fine-tuning tutorial using [Hackable Diffusion](https://github.com/google/hackable_diffusion), a modular JAX toolbox designed for composability. You can also explore fine-tuning with [Unsloth](https://unsloth.ai/docs/models/diffusiongemma) and NVIDIA [NeMo](https://github.com/NVIDIA-NeMo/Automodel/blob/main/docs/guides/dllm/diffusiongemma.md). Additionally, official support for llama.cpp is arriving soon.\n*   **Experience optimized performance:** We worked with [NVIDIA](https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion) to optimize across their hardware stack, ensuring compatibility with consumer setups (quantized for GeForce RTX 5090 and 4090 GPUs) alongside high performance on enterprise systems (Hopper and Blackwell using advanced NVFP4 kernels), including NVIDIA DGX Spark and DGX Station for local deskside deployment, and RTX PRO for AI professionals. Native support for NVFP4 (4-bit floating-point) accelerates compute throughput, allowing the model to run at faster speeds with near-lossless accuracy.\n*   **Try your way:** Run on your desktop dedicated GPU or in the cloud through [Gemini Enterprise Agent Platform Model Garden](https://console.cloud.google.com/agent-platform/publishers/google/model-garden/diffusiongemma) or [NVIDIA NIM](https://catalog.ngc.nvidia.com/orgs/nim/teams/google/containers/diffusiongemma-26b-a4b-it?version=latest).",
-      "contentZh": "2026年6月10日\n\n|\n\n6分钟阅读\n\n我们最新的开放实验模型在专用GPU上推理速度提升高达4倍，为探索速度关键型交互式本地工作流打开了大门。\n\n* * *\n\nBrendan O'Donoghue\n\n研究科学家\n\nSebastian Flennerhag\n\n研究科学家\n\n* * *\n\n![图片1：DiffusionGemma](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HeroVisual.width-200.format-webp.webp)\n\n今天，我们推出DiffusionGemma，一个探索文本扩散的实验性开放模型，这是一种异常快速的文本生成方法。该模型采用Apache 2.0许可发布，是一个260亿参数的混合专家（MoE）模型，超越了典型自回归大语言模型（LLM）逐token顺序处理的方式。相反，它同时生成整个文本块，在GPU上实现高达4倍的文本生成速度。\n\n基于我们Gemma 4系列行业领先的每参数智能水平以及前沿的[Gemini扩散研究](https://deepmind.google/models/gemini-diffusion/)，DiffusionGemma集成了一个旨在最大化生成速度的新型扩散头。虽然自回归的Gemma 4模型仍是高质量生产输出的标准，但DiffusionGemma专为探索速度关键型交互式本地工作流的研究人员和开发者设计，例如内联编辑、快速迭代以及生成非线性文本结构。\n\n## 为开发者解锁新价值\n\n构建实时交互式AI应用的开发者常常面临本地推理的延迟瓶颈。DiffusionGemma直接应对这些挑战，并伴随一些关键权衡：\n\n*   **极速推理：** 通过将解码瓶颈从内存带宽转移到计算，DiffusionGemma在专用GPU上生成token的速度提升高达4倍。（在单个NVIDIA H100上每秒超过1000个token，在NVIDIA GeForce RTX 5090上每秒超过700个token）。[1](https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/#footnote-1)\n*   **可访问的硬件占用：** 作为一个总参数量260亿的混合专家（MoE）模型，推理时仅激活38亿参数，DiffusionGemma在量化后能轻松适配高端专用消费级GPU的18GB显存限制。\n*   **双向注意力：** 每次前向传播并行生成256个token，使每个token都能关注其他所有token。这为非线性领域（如内联编辑、代码填充、氨基酸序列或数学图）提供了显著优势。\n*   **智能自我修正：** 模型迭代优化自身输出，使其能一次性评估整个文本块，实时修正错误。\n*   **实验状态与生产建议：** 由于优先考虑速度和并行布局生成，DiffusionGemma的整体输出质量低于标准Gemma 4。对于追求最高质量的应用，我们建议部署标准Gemma 4。\n\n你可以通过微调来提升DiffusionGemma在特定任务上的性能。在下面的示例中，[Unsloth](https://unsloth.ai/docs/models/diffusiongemma)微调了DiffusionGemma来玩数独——这是自回归模型难以胜任的任务，因为每个token都依赖于未来的token。DiffusionGemma的双向注意力使这变得容易得多。\n\n微调后的DiffusionGemma解决数独问题。\n\n## **为何对文本采用扩散？**\n\n尽管AI研究社区多年来一直在探索基于扩散的文本生成，但将其应用于大模型仍是一个挑战。DiffusionGemma通过改变模型使用硬件的方式改变了这一局面。\n\n### **传统模型的权衡**\n\n大多数语言模型像打字机一样，从左到右逐token生成。在云端，这很高效，因为服务器可以将数千个用户请求批量处理，共享硬件负载。但当在本地为单个用户运行时，这种逐词生成过程会使你的专用GPU或TPU利用率不足——大部分时间只是在等待下一次“按键”。\n\nDiffusionGemma扭转了这种低效。它不按顺序预测单词，而是同时草拟整个256个token的段落。通过一次性给计算机处理器分配更大的工作块，DiffusionGemma充分发挥了硬件的潜力。它将模型推理从单个顺序的打字机升级为一台巨大的印刷机，同时印出整个文本块。\n\nHugging Face的DiffusionGemma文本转3D SVG演示。逐步生成过程。\n\n这意味着DiffusionGemma的速度提升专为本地和低并发推理设计。在高QPS的云服务中，自回归模型可以通过部署有效饱和计算资源，因此DiffusionGemma的并行解码带来的收益递减，并可能导致更高的服务成本。在单个加速器上的低到中等批量大小下，吞吐量优势最为显著。\n\n### **文本扩散的工作原理**\n\n类似于AI图像生成器[从视觉静态开始并迭代优化](https://research.google/blog/on-device-diffusion-plugins-for-conditioned-text-to-image-generation/)为清晰图像，DiffusionGemma将其应用于文本：\n\n1.  **画布：** 模型从随机占位符token的画布开始。\n2.  **迭代优化：** 模型进行多次传递，锁定正确的token，并将其作为上下文线索来优化其余部分。\n3.  **最终润色：** 文本收敛为高质量输出。\n\n由于模型在生成过程中可以处理整个段落，它解锁了新的模型行为模式，例如完美闭合复杂的Markdown格式，或近乎实时地生成和渲染代码。\n\n### **立即开始**\n\n*   **下载权重：** 立即在 Hugging Face 上获取实验性模型权重（基于宽松的 Apache 2.0 许可证发布）。\n*   **集成与学习：** 查阅我们的 [DiffusionGemma 开发者指南](https://developers.googleblog.com/en/diffusiongemma-the-developer-guide)了解更多信息。或深入阅读 [DiffusionGemma 可视化指南](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-diffusiongemma)，了解其底层机制。\n*   **使用你喜爱的开发工具：** 通过 [MLX](https://huggingface.co/collections/mlx-community/diffusiongemma)、[vLLM](https://vllm-project.github.io/2026/06/10/diffusion-gemma)（由 [Red Hat](https://huggingface.co/collections/RedHatAI/diffusiongemma-26b-a4b-it) 支持集成）和 [Hugging Face Transformers](https://huggingface.co/google/diffusiongemma-26B-A4B-it) 高效部署模型。为快速实验，我们发布了使用 [Hackable Diffusion](https://github.com/google/hackable_diffusion)（一个专为可组合性设计的模块化 JAX 工具箱）的微调教程。你还可以通过 [Unsloth](https://unsloth.ai/docs/models/diffusiongemma) 和 NVIDIA [NeMo](https://github.com/NVIDIA-NeMo/Automodel/blob/main/docs/guides/dllm/diffusiongemma.md) 探索微调。此外，对 llama.cpp 的官方支持即将推出。\n*   **体验优化性能：** 我们与 [NVIDIA](https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion) 合作，在其硬件栈上进行了优化，确保与消费级配置（针对 GeForce RTX 5090 和 4090 GPU 量化）的兼容性，同时在企业级系统（使用高级 NVFP4 内核的 Hopper 和 Blackwell）上实现高性能，包括用于本地桌面部署的 NVIDIA DGX Spark 和 DGX Station，以及面向 AI 专业人士的 RTX PRO。对 NVFP4（4 位浮点数）的原生支持加速了计算吞吐量，使模型能够以更快速度运行，同时保持近乎无损的精度。\n*   **按需尝试：** 在桌面专用 GPU 上运行，或通过 [Gemini Enterprise Agent Platform Model Garden](https://console.cloud.google.com/agent-platform/publishers/google/model-garden/diffusiongemma) 或 [NVIDIA NIM](https://catalog.ngc.nvidia.com/orgs/nim/teams/google/containers/diffusiongemma-26b-a4b-it?version=latest) 在云端运行。",
-      "titleZh": "DiffusionGemma：文本生成速度提升4倍",
-      "summaryZh": "",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-10T16:24:11.000Z",
-      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
-      "collectedAt": "2026-09-08T07:29:05.513Z"
-    },
-    {
-      "id": "55b4277f4767ea97239e",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "PRC-linked influence operations are targeting AI debates in the US",
-      "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.",
-      "content": "Our mission is to ensure that artificial general intelligence benefits all of humanity. We advance this mission by deploying our innovations to build democratic AI: AI shaped by democratic principles, governed by common-sense rules and designed to help people solve hard problems while protecting them from real harm. That mission also requires identifying and disrupting attempts by authoritarian regimes and their proxies to use AI systems to coerce critics, surveil communities or covertly interfere in democratic societies.\n\nIn this report, we describe two clusters of ChatGPT accounts likely originating from China that we banned after they used our models in support of apparent covert influence operations that promoted narratives in an attempt to manipulate a legitimate debate about American AI and wider tech policies.\n\nThe first cluster generated social media comments and images claiming that data center buildouts for AI were increasing electricity prices for average families. We named this cluster the “Data Center Bandwagon” campaign.\n\nThe second cluster generated comments and images criticizing US tariffs as attempts to dominate technological competition and specified in their prompts that the content should not include China’s leader Xi Jinping in the output and instead include only President Trump. This cluster was connected to a network of likely inauthentic social media accounts that were also likely targeting OpenAI by claiming ChatGPT user data had been compromised. These allegations were entirely false. We named this second cluster the “Tech and Tariffs” campaign.\n\nThe targeting of OpenAI and US data center buildouts is significant not because the operation appears to have shifted public opinion, but because it shows PRC-origin influence operators testing narratives against AI infrastructure – a foundation of US technological leadership, economic growth and the broader democratic AI ecosystem. The operation sought to exploit and amplify existing public concerns about energy prices and local impacts of data center development, but we found no evidence of meaningful breakout beyond its own activity. Foreign influence operations have long sought to latch onto existing local issues and sincerely held beliefs, using them to build credibility, amplify divisions or exacerbate public distrust. In this case, the operators attempted to covertly insert themselves into an ongoing American debate about the future of the country’s AI capabilities while hiding who they were and what motivated them.\n\nBy publishing these findings, we aim to help our industry, governments, civil society and the public better identify and disrupt attempts by foreign threat actors to manipulate legitimate public debates, weaken democratic institutions and advance totalitarianism with AI characteristics - the use of AI for surveillance, censorship and control over political, social and private life.",
-      "contentZh": "我们的使命是确保通用人工智能惠及全人类。我们通过部署创新来推进这一使命，构建民主化的人工智能：即由民主原则塑造、受常识规则约束、旨在帮助人们解决难题同时保护其免受实际伤害的人工智能。这一使命还要求识别并阻止威权政权及其代理人利用人工智能系统胁迫批评者、监控社群或秘密干预民主社会的企图。\n\n在本报告中，我们描述了两个可能源自中国的ChatGPT账户集群。这些账户在支持明显隐蔽影响力行动时使用我们的模型，试图操纵关于美国人工智能及更广泛科技政策的合法辩论，我们已将其封禁。\n\n第一个集群生成社交媒体评论和图片，声称人工智能数据中心建设导致普通家庭电价上涨。我们将该集群命名为\"数据中心跟风\"行动。\n\n第二个集群生成评论和图片，批评美国关税试图主导技术竞争，并在提示词中明确要求输出内容不得包含中国领导人习近平，仅可提及特朗普总统。该集群与一个可能由虚假社交媒体账户组成的网络存在关联，该网络还曾通过声称ChatGPT用户数据遭泄露来针对OpenAI。这些指控完全虚假。我们将第二个集群命名为\"技术与关税\"行动。\n\n针对OpenAI和美国数据中心建设的攻击之所以值得关注，并非因为该行动似乎改变了公众舆论，而是因为它表明源自中国的影响力操作者正在测试针对人工智能基础设施的叙事——而这是美国技术领导地位、经济增长及更广泛民主人工智能生态系统的基石。该行动试图利用并放大公众对能源价格及数据中心开发本地影响的现有担忧，但我们未发现其活动范围超出自身范畴的重大突破证据。外国影响力行动长期试图依附现有本地议题和真诚信念，借此建立可信度、加剧分歧或激化公众不信任。在此案例中，操作者试图秘密介入美国关于国家人工智能能力未来的合法辩论，同时隐藏自身身份与动机。\n\n通过发布这些发现，我们旨在帮助行业、政府、公民社会及公众更好地识别并阻止外国威胁行为者操纵合法公共辩论、削弱民主制度、推进具有人工智能特征的极权主义——即利用人工智能进行监控、审查及对政治、社会和私人生活的控制。",
-      "titleZh": "与中国有关的影响力行动正瞄准美国AI辩论",
-      "summaryZh": "OpenAI的一份新报告详细介绍了与中国有关的影响力行动，利用AI针对美国科技辩论、数据中心叙事、关税以及关于ChatGPT的虚假声明。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-10T12:00:00.000Z",
-      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-      "collectedAt": "2026-09-08T07:29:02.488Z"
+      "collectedAt": "2026-09-09T07:36:59.460Z"
     },
     {
       "id": "118693cb868e1641c9c1",
@@ -3076,7 +3025,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-04-24T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-08T07:29:07.925Z"
+      "collectedAt": "2026-09-09T07:37:04.045Z"
     },
     {
       "id": "aeb9a0b6e961ddd9394e",
@@ -3093,7 +3042,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-12-01T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-08T07:29:07.926Z"
+      "collectedAt": "2026-09-09T07:37:04.046Z"
     },
     {
       "id": "f43c8f46501ee2e8d8ed",
@@ -3110,7 +3059,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-09-29T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-08T07:29:07.927Z"
+      "collectedAt": "2026-09-09T07:37:04.046Z"
     },
     {
       "id": "de42c19b7c54bb0dc7ec",
@@ -3127,7 +3076,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-09-22T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-08T07:29:07.927Z"
+      "collectedAt": "2026-09-09T07:37:04.047Z"
     }
   ]
 }
