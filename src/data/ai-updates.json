@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14T08:10:25.252Z",
+  "updatedAt": "2026-09-15T08:04:59.136Z",
   "sources": [
     {
       "id": "openai-news",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "count": 761
+      "count": 762
     },
     {
       "id": "claude-apps",
@@ -53,6 +53,23 @@
   ],
   "entries": [
     {
+      "id": "7b83739b7d5f1c944f9f",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "content": "For many professionals, work means keeping track of conversations and commitments across inboxes, meetings, messages, and apps. Without rock-solid context, those commitments can fall through the cracks, damaging projects and relationships.\n\nFyxer built an AI executive assistant that follows the thread as work moves across tools. It combines the latest OpenAI models with more than 500,000 hours of executive assistant workflows, dividing the work among dozens of specialized models that improve through real user feedback.\n\nEmail is one of the clearest places to see it in action. Two people can receive the same email and need completely different replies depending on the relationship, what has happened before, and what each person is trying to get done. That makes a seemingly simple task deceptively hard for AI.\n\n“There’s something called Moravec’s paradox,” explains Fyxer Co-founder Archie Hollingsworth. “Things that humans find easy are hard for computers, and things that computers find easy are hard for humans.” Fyxer handles that complexity by learning how each user works, so it can respond like an assistant who already knows what matters.\n\nFrontier OpenAI models support key parts of the experience, from understanding the email and finding the right context to generating the draft. Fyxer chose OpenAI because its models performed best on Fyxer’s internal benchmarks, offered strong fine-tuning capabilities for subjective tasks like tone and intent, and provided hands-on engineering support through whiteboarding sessions and technical collaboration.\n\n> “We chose OpenAI because they have the best models, and they’ve given us real access and a close working relationship. I can drop a question in Slack and get an answer quickly, and when we face a problem, the team comes to our office and works through it with us. They show up.”\n\n—Archie Hollingsworth, Co-founder, Fyxer\n\nFyxer’s approach offers three lessons for founders building highly contextual AI products:\n\n## 1. Break email into smaller jobs\n\nFyxer built its system around 30–50 specialized models, each responsible for a narrow part of the email workflow. Instead of treating email as a single text-generation task, Fyxer breaks the problem into a system of predictions, like deciding whether a message requires a reply or drafting responses that match a user’s tone and context.\n\n“Breaking the problem into many smaller models works much better than asking one model to write a good email,” Hollingsworth explains.\n\nWhen a new email arrives, a reply decision model classifies the message: is this something that needs a response, a scheduling action, or simply information the user should see?\n\nIf a response is needed, additional models analyze the intent of the email and predict the likely outcome of the interaction. These models determine patterns such as whether the conversation is moving toward scheduling a meeting, resolving a request, or continuing a longer relationship thread.\n\nMemory is one of the most important parts of the system. Fyxer needs to decide which details should persist across conversations and which should disappear after a single exchange. When a new email arrives, retrieval models compare it with stored interactions and surface the memories most relevant to that person and thread.\n\nOpenAI models power steps across Fyxer’s system. “We use OpenAI models for everything from digesting the email, so we can understand what it is actually about, to pulling in and re-ranking the context we want to include, to the actual email generation,” Shantsila says.\n\n## 2. Train on how great assistants actually work\n\nBefore launching its AI product, Fyxer spent years operating a human-powered executive assistant service. Over time, the team accumulated a dataset built from more than 500,000 hours of annotated executive workflows, capturing how real assistants manage professional communication.\n\nThose examples gave Fyxer training data drawn from the job itself. They captured the small judgments behind a good response: when to answer quickly, when to wait, which earlier conversation matters, and how the same request can call for a different response from one person to another.\n\nFyxer uses supervised fine-tuning and Low-Rank Adaptation (LoRA) across its broader system to create task-specific model variants while controlling training cost. Early in the product’s development, the team used OpenAI’s fine-tuning platform for tasks that needed high accuracy. More recently, Fyxer worked with OpenAI’s managed fine-tuning team to put a new checkpoint into production.\n\n> “OpenAI has been pivotal for us in helping us transfer the learning that we have about our customer and successfully incorporate it into how the models work.”\n\n—Joey Dwonczyk, AI/ML Product Engineer, Fyxer\n\nBefore any model is deployed, Fyxer evaluates it on validation sets built around its own email tasks, including drafting, classification, and prioritization. The team weighs accuracy alongside response time and cost, since the best choice can vary by job.\n\n## 3. Turn user feedback into a self-training loop\n\nOnce deployed, Fyxer’s system continues improving through real user feedback. When someone edits a draft before sending it, the difference between the original and final email shows which output they preferred.\n\nFyxer converts those comparisons into training data using Direct Preference Optimization (DPO). Instead of manually labeling every example, the model learns from pairs of outputs: the original draft and the user-edited version.\n\nEvery drafting change then goes through an A/B test. Fyxer ships the new version only when it produces a statistically significant improvement. Its user volume means the team can sometimes reach that threshold within a day.\n\nToday, 53% of Fyxer’s AI-generated drafts are accepted as written. That means the system is correctly predicting intent and tone for a large share of real conversations. In 2025 alone, Fyxer grew from $1 million to $32 million in annual recurring revenue.\n\nFor Hollingsworth, the stronger signal is retention. Many Fyxer customers are not deeply technical, and for some, Fyxer is the first AI system they use every day.\n\n> “Everyone talks about ARR, but I think retention is the real flex. Over 90% of our users are still paying at the 90-day mark with us, and still using us every day.”\n\n—Archie Hollingsworth, Co-founder, Fyxer\n\n## From drafts to a proactive assistant\n\nLooking ahead, Fyxer is building a richer understanding of relationships, preferences, and ongoing work threads. Their assistant continues to evolve beyond drafting replies toward a broader AI assistant that can manage more of a user’s communication and coordination workload.\n\n“Our vision is to get our customers doing as much of the work they absolutely love,” Hollingsworth says. “We want to get them to a place where they never have to open their computer and can trust Fyxer to manage all of that.”",
+      "contentZh": "对于许多专业人士而言，工作意味着要在收件箱、会议、消息和应用中跟踪对话与承诺。如果没有坚实可靠的上下文，这些承诺就可能被遗漏，从而损害项目和人际关系。\n\nFyxer 打造了一款 AI 行政助理，当工作在不同工具之间流转时，它能持续跟进整个脉络。它将最新的 OpenAI 模型与超过 500,000 小时的行政助理工作流程相结合，把工作分配给数十个专用模型，并通过真实用户反馈不断改进。\n\n电子邮件是观察其实际效果最直观的场景之一。两个人可能收到同一封邮件，却需要根据彼此关系、过往发生的事以及各自想要完成的目标，给出完全不同的回复。这使得一项看似简单的任务对 AI 来说异常困难。\n\n“有一种现象叫莫拉维克悖论，”Fyxer 联合创始人 Archie Hollingsworth 解释道。“人类觉得容易的事情，对计算机来说很难；而计算机觉得容易的事情，对人类来说很难。”Fyxer 通过学习每位用户的工作方式来处理这种复杂性，因此它能像一位早已知道什么重要的助理那样作出回应。\n\n前沿 OpenAI 模型支撑着这一体验的关键环节，从理解电子邮件、找到正确的上下文，到生成草稿。Fyxer 选择 OpenAI，是因为其模型在 Fyxer 的内部基准测试中表现最佳，为语气和意图等主观任务提供了强大的微调能力，并通过白板讨论会和技术协作提供了实操性的工程支持。\n\n> “我们选择 OpenAI，是因为他们拥有最好的模型，而且给了我们真正的访问权限和紧密的合作关系。我可以在 Slack 里丢一个问题过去，很快就能得到答复；当我们遇到问题时，团队会来我们办公室，和我们一起把它解决。他们真的会到场。”\n\n——Archie Hollingsworth，Fyxer 联合创始人\n\nFyxer 的方法为构建高度依赖上下文的 AI 产品的创始人提供了三条经验：\n\n## 1. 将电子邮件拆解为更小的任务\n\nFyxer 围绕 30–50 个专用模型构建其系统，每个模型负责电子邮件工作流中一个很窄的部分。Fyxer 没有把电子邮件当作单一的文本生成任务，而是把问题拆解为一个预测系统，例如判断一封邮件是否需要回复，或起草与用户语气和上下文相匹配的回复。\n\n“把问题拆成许多更小的模型，比让一个模型写出一封好邮件要有效得多，”Hollingsworth 解释道。\n\n当新邮件到达时，一个回复决策模型会对邮件进行分类：这是需要回复的内容、需要安排日程的动作，还是用户只需了解的信息？\n\n如果需要回复，其他模型会分析邮件的意图，并预测这次互动的可能结果。这些模型会判断诸如对话是否正朝着安排会议、解决请求或延续更长期关系脉络的方向发展等模式。\n\n记忆是系统最重要的部分之一。Fyxer 需要决定哪些细节应在多次对话中持续保留，哪些应在一次交流后消失。当新邮件到达时，检索模型会将其与已存储的互动进行比较，并浮现出与该联系人和该邮件线程最相关的记忆。\n\nOpenAI 模型为 Fyxer 系统中的多个步骤提供支持。“我们使用 OpenAI 模型来完成从消化邮件、理解它究竟在讲什么，到拉取并重新排序我们想纳入的上下文，再到实际生成邮件的一切工作，”Shantsila 说。\n\n## 2. 基于优秀助理的真实工作方式进行训练\n\n在推出 AI 产品之前，Fyxer 花了多年时间运营一项由人工提供支持的行政助理服务。随着时间推移，团队积累了一个由超过 500,000 小时标注过的行政工作流程构成的数据集，记录了真实助理如何管理职业沟通。\n\n这些示例为 Fyxer 提供了源自工作本身的训练数据。它们捕捉了一封好的回复背后的细小判断：何时快速回复，何时等待，哪段早先的对话更重要，以及同一个请求为何对一个人和对另一个人需要不同回应。\n\nFyxer 在其更广泛的系统中使用监督微调和低秩适配（LoRA），以创建任务特定的模型变体，同时控制训练成本。在产品开发早期，团队使用 OpenAI 的微调平台来处理需要高准确率的任务。最近，Fyxer 与 OpenAI 的托管微调团队合作，将一个新的检查点投入生产。\n\n> “OpenAI 对我们至关重要，帮助我们迁移关于客户的学习成果，并成功将其融入模型的工作方式中。”\n\n——Joey Dwonczyk，Fyxer AI/ML 产品工程师\n\n在任何模型部署之前，Fyxer 都会围绕其自身电子邮件任务构建的验证集对其进行评估，包括起草、分类和优先级排序。团队会同时权衡准确率、响应时间和成本，因为最佳选择可能因任务而异。\n\n## 3. 将用户反馈转化为自我训练循环\n\n部署之后，Fyxer 的系统会通过真实用户反馈持续改进。当有人在发送前编辑草稿时，原始版本与最终邮件之间的差异就表明了用户更偏好哪种输出。\n\nFyxer 使用直接偏好优化（DPO）将这些比较转化为训练数据。模型不是手动标注每一个示例，而是从成对的输出中学习：原始草稿和用户编辑后的版本。\n\n随后，每一次起草变更都会经过 A/B 测试。只有当新版本带来统计上显著的改进时，Fyxer 才会发布它。其用户规模意味着团队有时可以在一天内达到这一阈值。\n\n如今，Fyxer 生成的 AI 草稿中有 53% 按原文被接受。这意味着该系统在很大一部分真实对话中正确预测了意图和语气。仅在 2025 年，Fyxer 的年度经常性收入就从 100 万美元增长到 3200 万美元。\n\n对 Hollingsworth 来说，更强的信号是留存率。许多 Fyxer 客户并不是技术深度用户，对其中一些人来说，Fyxer 是他们每天使用的第一个 AI 系统。\n\n> “大家都在谈 ARR，但我认为留存率才是真正的实力体现。超过 90% 的用户在 90 天时仍在付费，并且仍然每天使用我们。”\n\n——Archie Hollingsworth，Fyxer 联合创始人\n\n## 从草稿到主动型助理\n\n展望未来，Fyxer 正在构建对关系、偏好和持续进行的工作线程更丰富的理解。他们的助理正持续演进，不再局限于起草回复，而是朝着更广泛的 AI 助理发展，能够管理用户更多的沟通与协调工作负载。\n\n“我们的愿景是让客户尽可能多地去做他们真正热爱的工作，”Hollingsworth 说。“我们想把他们带到一个甚至不必打开电脑的状态，并让他们相信 Fyxer 能管理所有这些事情。”",
+      "titleZh": "Fyxer如何打造人们信任的AI行政助理",
+      "summaryZh": "Fyxer利用OpenAI模型、微调、记忆和真实用户反馈来整理收件箱，并以每位用户的口吻起草电子邮件。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-09-14T12:00:00.000Z",
+      "url": "https://openai.com/index/fyxer",
+      "collectedAt": "2026-09-15T08:04:41.533Z"
+    },
+    {
       "id": "a4651d8dabcdcb00db87",
       "sourceId": "openai-news",
       "company": "OpenAI",
@@ -67,7 +84,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "collectedAt": "2026-09-14T08:10:19.303Z"
+      "collectedAt": "2026-09-15T08:04:41.534Z"
     },
     {
       "id": "8441c5c7713114dab2dd",
@@ -84,7 +101,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-11T16:00:00.000Z",
       "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "collectedAt": "2026-09-14T08:10:19.306Z"
+      "collectedAt": "2026-09-15T08:04:41.537Z"
     },
     {
       "id": "a97d00819fdcee1d0af9",
@@ -101,7 +118,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-11T10:00:00.000Z",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "collectedAt": "2026-09-14T08:10:19.304Z"
+      "collectedAt": "2026-09-15T08:04:41.536Z"
     },
     {
       "id": "16d6fc5541d885cd91c8",
@@ -118,7 +135,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T16:00:00.000Z",
       "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "collectedAt": "2026-09-14T08:10:19.307Z"
+      "collectedAt": "2026-09-15T08:04:41.538Z"
     },
     {
       "id": "85f5620286a75dba1ad3",
@@ -135,7 +152,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T15:00:00.000Z",
       "url": "https://openai.com/index/put-data-to-work",
-      "collectedAt": "2026-09-14T08:10:19.308Z"
+      "collectedAt": "2026-09-15T08:04:41.538Z"
     },
     {
       "id": "f2800aae894b09e0bcf0",
@@ -152,7 +169,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T07:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "collectedAt": "2026-09-14T08:10:19.308Z"
+      "collectedAt": "2026-09-15T08:04:41.539Z"
     },
     {
       "id": "6ca2d4bb7baad47f3b1e",
@@ -169,7 +186,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "collectedAt": "2026-09-14T08:10:19.309Z"
+      "collectedAt": "2026-09-15T08:04:41.540Z"
     },
     {
       "id": "02a514a4d6eb4e449b95",
@@ -186,7 +203,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-the-agents-api",
-      "collectedAt": "2026-09-14T08:10:19.310Z"
+      "collectedAt": "2026-09-15T08:04:41.541Z"
     },
     {
       "id": "50e12afea7a21a8f8a47",
@@ -203,7 +220,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-14T08:10:20.094Z"
+      "collectedAt": "2026-09-15T08:04:42.223Z"
     },
     {
       "id": "278864a90b7195a8f9eb",
@@ -220,7 +237,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.585Z"
+      "collectedAt": "2026-09-15T08:04:42.817Z"
     },
     {
       "id": "2f6a11a19101188b8eed",
@@ -237,7 +254,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-09-14T08:10:20.976Z"
+      "collectedAt": "2026-09-15T08:04:43.133Z"
     },
     {
       "id": "98d7349379f3f9e1561b",
@@ -254,7 +271,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-14T08:10:25.230Z"
+      "collectedAt": "2026-09-15T08:04:46.528Z"
     },
     {
       "id": "45aecbb9328300ba4629",
@@ -271,7 +288,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-09T11:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "collectedAt": "2026-09-14T08:10:19.312Z"
+      "collectedAt": "2026-09-15T08:04:41.543Z"
     },
     {
       "id": "d336adb530d2e7f0e222",
@@ -288,7 +305,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T17:00:00.000Z",
       "url": "https://openai.com/index/codex-quantum-computing-experiments",
-      "collectedAt": "2026-09-14T08:10:19.313Z"
+      "collectedAt": "2026-09-15T08:04:41.544Z"
     },
     {
       "id": "48b0669cc37302b20aee",
@@ -305,7 +322,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T11:30:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-      "collectedAt": "2026-09-14T08:10:19.315Z"
+      "collectedAt": "2026-09-15T08:04:41.545Z"
     },
     {
       "id": "9b8a0aa3eea1f601cab9",
@@ -322,7 +339,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T10:00:00.000Z",
       "url": "https://openai.com/index/navier-stokes-solution",
-      "collectedAt": "2026-09-14T08:10:19.315Z"
+      "collectedAt": "2026-09-15T08:04:41.546Z"
     },
     {
       "id": "fc10a2c83b0e44fbdbfa",
@@ -339,7 +356,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "url": "https://openai.com/index/1password",
-      "collectedAt": "2026-09-14T08:10:19.317Z"
+      "collectedAt": "2026-09-15T08:04:41.547Z"
     },
     {
       "id": "0f8e8b7e95228d5352a6",
@@ -356,24 +373,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-06T08:00:00.000Z",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "collectedAt": "2026-09-14T08:10:19.318Z"
-    },
-    {
-      "id": "3fdba842a49bbf61f305",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "content": "Playco is using GPT‑6 Astra in building Playbot, an AI-powered IDE for professional game developers. It connects directly to engines such as Unity and Godot so AI models can edit scenes, play and test games, validate changes, and work in parallel inside the tools developers already use.\n\nIn game development, a model needs to do more than write code. It must reason about space, visual references, responsive interfaces, game feel, and whether a change actually works when the game is played. Playbot makes that possible by letting the model build in the engine, run tests, find bugs, and improve what it created.\n\n> “GPT-6 Astra is much better at reasoning about space and positioning elements in a way that makes sense. Also, its vision capabilities seem to be improved. We also saw improvements in UI responsiveness in game engines.”\n\n—Joao Vieira, Lead Product Engineer, Playco\n\n## Building three playable worlds from one grey box\n\nUsing GPT‑6 Astra, the Playco team created an unthemed grey box prototype from simple primitives, and then made a few iterations on gameplay and creative details. From that shared foundation, the team developed three themed game prototypes. Playco says GPT‑6 Astra produced all three in one go.\n\nMost prototypes also worked on the first take. “With Astra, the first prototype was already strong. The only changes we needed to make were based on our gameplay preferences,” said Joao Vieira, Lead Product Engineer. One cyberpunk version needed a performance fix, but the rest came together without additional iteration.\n\n## Cutting manual fixes in half\n\nWith the previous model, Playco’s initial grey box was less polished. Prompting the model to correct it eventually became counterproductive, so engineers had to step in and fix the game by hand. With GPT‑6 Astra, Playco reports 50% fewer manual fixes.\n\nThe team also saw improvements in spatial reasoning, recreating reference images, responsive UI inside Unity, and game feel. Because Playbot can let a model play the game and validate its own changes, Playco says Astra also found bugs more easily and identified places to improve the player experience.\n\nFor Playco, the biggest impact is being able to turn more ideas into something developers can play and compare. As lead product engineer Joao Vieira puts it, “If you have 10 ideas for a game, you can do all 10 and actually play them and see how they would feel rather than just imagine.”",
-      "contentZh": "Playco正在使用GPT-6 Astra构建Playbot，这是一款面向专业游戏开发者的AI驱动IDE。它直接连接Unity和Godot等引擎，使AI模型能够编辑场景、运行和测试游戏、验证更改，并在开发者已使用的工具中并行工作。\n\n在游戏开发中，模型需要做的不仅仅是编写代码。它必须推理空间、视觉参考、响应式界面、游戏手感，以及更改在游戏实际运行时是否有效。Playbot通过让模型在引擎中构建、运行测试、发现错误并改进其创建的内容，使这一切成为可能。\n\n> “GPT-6 Astra在空间推理和元素定位方面表现出色，结果非常合理。此外，其视觉能力似乎也有所提升。我们还看到了游戏引擎中UI响应性的改进。”\n\n——Joao Vieira，Playco首席产品工程师\n\n## 从一个灰盒构建三个可玩的游戏世界\n\n使用GPT-6 Astra，Playco团队从简单图元创建了一个无主题的灰盒原型，然后在游戏玩法和创意细节上进行了几次迭代。基于这一共同基础，团队开发了三个主题游戏原型。Playco表示，GPT-6 Astra一次性生成了全部三个原型。\n\n大多数原型在首次尝试时即可运行。“使用Astra，第一个原型已经非常出色。我们唯一需要做的更改是基于我们的游戏偏好，”首席产品工程师Joao Vieira表示。其中一个赛博朋克版本需要性能修复，但其余部分无需额外迭代即可完成。\n\n## 手动修复减少一半\n\n使用之前的模型时，Playco的初始灰盒不够精细。提示模型进行修正最终适得其反，因此工程师不得不手动介入修复游戏。使用GPT-6 Astra后，Playco报告手动修复减少了50%。\n\n团队还观察到空间推理、参考图像重现、Unity内响应式UI以及游戏手感方面的改进。由于Playbot可以让模型玩游戏并验证自身更改，Playco表示Astra还能更轻松地发现错误，并识别出改善玩家体验的环节。\n\n对Playco而言，最大的影响是能够将更多创意转化为开发者可以实际游玩和比较的内容。正如首席产品工程师Joao Vieira所说：“如果你有10个游戏创意，你可以全部实现，并实际游玩它们，感受它们的体验，而不仅仅是凭空想象。”",
-      "titleZh": "Playco 借助 GPT-6 Astra 将游戏原型制作中的手动修复减少 50%",
-      "summaryZh": "Playco 使用 GPT-6 Astra，从一个灰盒基础构建了三个主题游戏原型，并报告称与之前的模型相比，手动修复减少了 50%。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "collectedAt": "2026-09-14T08:10:19.318Z"
+      "collectedAt": "2026-09-15T08:04:41.547Z"
     },
     {
       "id": "67198b26c462572b168f",
@@ -390,7 +390,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "collectedAt": "2026-09-14T08:10:19.319Z"
+      "collectedAt": "2026-09-15T08:04:41.548Z"
+    },
+    {
+      "id": "3fdba842a49bbf61f305",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "content": "Playco is using GPT‑6 Astra in building Playbot, an AI-powered IDE for professional game developers. It connects directly to engines such as Unity and Godot so AI models can edit scenes, play and test games, validate changes, and work in parallel inside the tools developers already use.\n\nIn game development, a model needs to do more than write code. It must reason about space, visual references, responsive interfaces, game feel, and whether a change actually works when the game is played. Playbot makes that possible by letting the model build in the engine, run tests, find bugs, and improve what it created.\n\n> “GPT-6 Astra is much better at reasoning about space and positioning elements in a way that makes sense. Also, its vision capabilities seem to be improved. We also saw improvements in UI responsiveness in game engines.”\n\n—Joao Vieira, Lead Product Engineer, Playco\n\n## Building three playable worlds from one grey box\n\nUsing GPT‑6 Astra, the Playco team created an unthemed grey box prototype from simple primitives, and then made a few iterations on gameplay and creative details. From that shared foundation, the team developed three themed game prototypes. Playco says GPT‑6 Astra produced all three in one go.\n\nMost prototypes also worked on the first take. “With Astra, the first prototype was already strong. The only changes we needed to make were based on our gameplay preferences,” said Joao Vieira, Lead Product Engineer. One cyberpunk version needed a performance fix, but the rest came together without additional iteration.\n\n## Cutting manual fixes in half\n\nWith the previous model, Playco’s initial grey box was less polished. Prompting the model to correct it eventually became counterproductive, so engineers had to step in and fix the game by hand. With GPT‑6 Astra, Playco reports 50% fewer manual fixes.\n\nThe team also saw improvements in spatial reasoning, recreating reference images, responsive UI inside Unity, and game feel. Because Playbot can let a model play the game and validate its own changes, Playco says Astra also found bugs more easily and identified places to improve the player experience.\n\nFor Playco, the biggest impact is being able to turn more ideas into something developers can play and compare. As lead product engineer Joao Vieira puts it, “If you have 10 ideas for a game, you can do all 10 and actually play them and see how they would feel rather than just imagine.”",
+      "contentZh": "Playco正在使用GPT-6 Astra构建Playbot，这是一款面向专业游戏开发者的AI驱动IDE。它直接连接Unity和Godot等引擎，使AI模型能够编辑场景、运行和测试游戏、验证更改，并在开发者已使用的工具中并行工作。\n\n在游戏开发中，模型需要做的不仅仅是编写代码。它必须推理空间、视觉参考、响应式界面、游戏手感，以及更改在游戏实际运行时是否有效。Playbot通过让模型在引擎中构建、运行测试、发现错误并改进其创建的内容，使这一切成为可能。\n\n> “GPT-6 Astra在空间推理和元素定位方面表现出色，结果非常合理。此外，其视觉能力似乎也有所提升。我们还看到了游戏引擎中UI响应性的改进。”\n\n——Joao Vieira，Playco首席产品工程师\n\n## 从一个灰盒构建三个可玩的游戏世界\n\n使用GPT-6 Astra，Playco团队从简单图元创建了一个无主题的灰盒原型，然后在游戏玩法和创意细节上进行了几次迭代。基于这一共同基础，团队开发了三个主题游戏原型。Playco表示，GPT-6 Astra一次性生成了全部三个原型。\n\n大多数原型在首次尝试时即可运行。“使用Astra，第一个原型已经非常出色。我们唯一需要做的更改是基于我们的游戏偏好，”首席产品工程师Joao Vieira表示。其中一个赛博朋克版本需要性能修复，但其余部分无需额外迭代即可完成。\n\n## 手动修复减少一半\n\n使用之前的模型时，Playco的初始灰盒不够精细。提示模型进行修正最终适得其反，因此工程师不得不手动介入修复游戏。使用GPT-6 Astra后，Playco报告手动修复减少了50%。\n\n团队还观察到空间推理、参考图像重现、Unity内响应式UI以及游戏手感方面的改进。由于Playbot可以让模型玩游戏并验证自身更改，Playco表示Astra还能更轻松地发现错误，并识别出改善玩家体验的环节。\n\n对Playco而言，最大的影响是能够将更多创意转化为开发者可以实际游玩和比较的内容。正如首席产品工程师Joao Vieira所说：“如果你有10个游戏创意，你可以全部实现，并实际游玩它们，感受它们的体验，而不仅仅是凭空想象。”",
+      "titleZh": "Playco 借助 GPT-6 Astra 将游戏原型制作中的手动修复减少 50%",
+      "summaryZh": "Playco 使用 GPT-6 Astra，从一个灰盒基础构建了三个主题游戏原型，并报告称与之前的模型相比，手动修复减少了 50%。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "collectedAt": "2026-09-15T08:04:41.548Z"
     },
     {
       "id": "499b8df2de41c3c42a77",
@@ -407,7 +424,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T11:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-astra",
-      "collectedAt": "2026-09-14T08:10:19.319Z"
+      "collectedAt": "2026-09-15T08:04:41.549Z"
     },
     {
       "id": "9b8372f5dd9139bf3dfd",
@@ -424,7 +441,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "collectedAt": "2026-09-14T08:10:19.319Z"
+      "collectedAt": "2026-09-15T08:04:41.549Z"
     },
     {
       "id": "76e92e71feca11592be4",
@@ -441,7 +458,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.585Z"
+      "collectedAt": "2026-09-15T08:04:42.817Z"
     },
     {
       "id": "ce0686df2b5f1aa16f14",
@@ -458,7 +475,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-14T08:10:21.496Z"
+      "collectedAt": "2026-09-15T08:04:43.637Z"
     },
     {
       "id": "9ad38e9ab9838c6b598d",
@@ -475,7 +492,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-02T16:18:31.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "collectedAt": "2026-09-14T08:10:21.970Z"
+      "collectedAt": "2026-09-15T08:04:43.984Z"
     },
     {
       "id": "23cc665780e07fde7643",
@@ -492,7 +509,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-02T12:00:00.000Z",
       "url": "https://openai.com/index/atv-big-air-tour",
-      "collectedAt": "2026-09-14T08:10:19.320Z"
+      "collectedAt": "2026-09-15T08:04:41.549Z"
     },
     {
       "id": "7a7557129f4a0b3fe78e",
@@ -509,7 +526,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-14T08:10:21.496Z"
+      "collectedAt": "2026-09-15T08:04:43.638Z"
     },
     {
       "id": "5fd2975f213ab047e365",
@@ -526,7 +543,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T17:08:51.000Z",
       "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-      "collectedAt": "2026-09-14T08:10:21.970Z"
+      "collectedAt": "2026-09-15T08:04:43.984Z"
     },
     {
       "id": "0de52357b4b07f25549c",
@@ -543,7 +560,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T13:00:00.000Z",
       "url": "https://openai.com/index/path-to-astra",
-      "collectedAt": "2026-09-14T08:10:19.320Z"
+      "collectedAt": "2026-09-15T08:04:41.550Z"
     },
     {
       "id": "210c1577098c3af2295c",
@@ -560,7 +577,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T12:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "collectedAt": "2026-09-14T08:10:19.321Z"
+      "collectedAt": "2026-09-15T08:04:41.550Z"
     },
     {
       "id": "c60a9dbb33739fa8f7ff",
@@ -577,7 +594,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T01:00:00.000Z",
       "url": "https://openai.com/index/gilbert-tobin",
-      "collectedAt": "2026-09-14T08:10:19.321Z"
+      "collectedAt": "2026-09-15T08:04:41.551Z"
     },
     {
       "id": "f53efa27b0d13a2b8d75",
@@ -594,7 +611,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-14T08:10:20.094Z"
+      "collectedAt": "2026-09-15T08:04:42.224Z"
     },
     {
       "id": "3f73d429de5f2ed86a44",
@@ -611,7 +628,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.587Z"
+      "collectedAt": "2026-09-15T08:04:42.818Z"
     },
     {
       "id": "6a3e7fac71e57d88cb41",
@@ -628,7 +645,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-14T08:10:21.497Z"
+      "collectedAt": "2026-09-15T08:04:43.638Z"
     },
     {
       "id": "62995badc1a46202724b",
@@ -645,7 +662,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-31T07:00:00.000Z",
       "url": "https://openai.com/index/polimill",
-      "collectedAt": "2026-09-14T08:10:19.322Z"
+      "collectedAt": "2026-09-15T08:04:41.551Z"
     },
     {
       "id": "89958d19d1f987cb8ada",
@@ -662,7 +679,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-31T04:00:00.000Z",
       "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "collectedAt": "2026-09-14T08:10:19.322Z"
+      "collectedAt": "2026-09-15T08:04:41.552Z"
     },
     {
       "id": "6e697a03b79f347648db",
@@ -679,7 +696,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-28T06:00:00.000Z",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "collectedAt": "2026-09-14T08:10:19.322Z"
+      "collectedAt": "2026-09-15T08:04:41.552Z"
     },
     {
       "id": "3b034008653d3c2739c4",
@@ -696,7 +713,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T16:11:32.000Z",
       "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "collectedAt": "2026-09-14T08:10:21.970Z"
+      "collectedAt": "2026-09-15T08:04:43.984Z"
     },
     {
       "id": "f3885091ef8df6aaae64",
@@ -713,7 +730,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T09:00:00.000Z",
       "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "collectedAt": "2026-09-14T08:10:19.323Z"
+      "collectedAt": "2026-09-15T08:04:41.553Z"
     },
     {
       "id": "4707ef7564f9017d5027",
@@ -730,7 +747,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.587Z"
+      "collectedAt": "2026-09-15T08:04:42.818Z"
     },
     {
       "id": "c5289a9a45e73f8f78ee",
@@ -747,7 +764,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-14T08:10:21.497Z"
+      "collectedAt": "2026-09-15T08:04:43.639Z"
     },
     {
       "id": "038305de768a112cfa08",
@@ -764,24 +781,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T17:01:00.000Z",
       "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-      "collectedAt": "2026-09-14T08:10:21.970Z"
-    },
-    {
-      "id": "92b51a1e3a09499b97f9",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Learning never stops: How AI makes learning continuous",
-      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-      "content": "As students head back to school, OpenAI is releasing a new report on how students and educators are already using ChatGPT to extend learning beyond the classroom.\n\nStudents have long had to wait until class to ask a question or get help. Teachers divide their attention among dozens of students while also managing administrative work. Parents and tutors are not always available at the moment a question arises. Now, AI is changing all of that by making guidance, feedback, and practice available whenever students need them.\n\nA privacy-preserving analysis found that people across all age groups have as many as 70 million conversations with ChatGPT each week devoted to testing what they know, which include misconception checks and requests for more practice. In the U.S., prompts related to classwork and homework peak at more than 460 million messages per week during the school year and climb on Sunday evenings. Even during the summer, they remain above 180 million messages per week.\n\nFor students, continuous learning can mean getting help with algebra outside of the classroom while the lesson is still fresh. For teachers, it can mean adapting an assignment for different skill levels before the first bell or spending less time on recurring paperwork and more time teaching. For families who speak a different language at home, it can mean receiving school communications in a language they understand and being better able to support a child’s progress.\n\nThe report also spotlights individual teachers and students across the U.S. who are using AI in productive, creative, and meaningful ways.\n\nAI cannot replace a teacher’s judgment, a parent’s encouragement, or the work students must do to learn. But with appropriate guidance and safeguards, it can give educators more time to focus on teaching and make individualized support available to more people at more times.",
-      "contentZh": "随着学生们重返校园，OpenAI发布了一份新报告，介绍学生和教育工作者如何利用ChatGPT将学习延伸到课堂之外。\n\n长期以来，学生们不得不等到上课才能提问或获得帮助。教师要在管理行政工作的同时，将注意力分配给几十名学生。家长和辅导老师并不总能在问题出现时及时提供帮助。如今，人工智能正在改变这一切，让学生们在需要时随时获得指导、反馈和练习。\n\n一项注重隐私保护的分析发现，各年龄段的人们每周与ChatGPT进行多达7000万次对话，用于检验自己的知识掌握情况，其中包括纠正误解和请求更多练习。在美国，与课堂作业和家庭作业相关的提示词在学年期间每周峰值超过4.6亿条，并在周日晚上攀升。即使在暑假期间，每周也保持在1.8亿条以上。\n\n对学生而言，持续学习意味着在课堂之外、课程内容还记忆犹新时就能获得代数方面的帮助。对教师而言，这意味着可以在上课铃响之前根据不同能力水平调整作业，或者减少花在重复性文书工作上的时间，把更多时间用于教学。对于在家使用不同语言的家庭来说，这意味着能以他们理解的语言收到学校通知，从而更好地支持孩子的学习进步。\n\n该报告还重点介绍了美国各地以富有成效、创造性和有意义的方式使用人工智能的教师和学生。\n\n人工智能无法取代教师的判断力、家长的鼓励，也无法取代学生为学习所必须付出的努力。但在适当的指导和保障措施下，它可以让教育工作者有更多时间专注于教学，并在更多时间为更多人提供个性化支持。",
-      "titleZh": "学习永不止步：AI 如何让学习持续进行",
-      "summaryZh": "OpenAI 的新报告探讨了学生和教育工作者如何利用 ChatGPT 使学习更加持续，并提供课堂之外的支持。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-26T10:00:00.000Z",
-      "url": "https://openai.com/index/learning-never-stops",
-      "collectedAt": "2026-09-14T08:10:19.324Z"
+      "collectedAt": "2026-09-15T08:04:43.985Z"
     },
     {
       "id": "df161950e809789b055b",
@@ -798,7 +798,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "collectedAt": "2026-09-14T08:10:19.325Z"
+      "collectedAt": "2026-09-15T08:04:41.553Z"
+    },
+    {
+      "id": "92b51a1e3a09499b97f9",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Learning never stops: How AI makes learning continuous",
+      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "content": "As students head back to school, OpenAI is releasing a new report on how students and educators are already using ChatGPT to extend learning beyond the classroom.\n\nStudents have long had to wait until class to ask a question or get help. Teachers divide their attention among dozens of students while also managing administrative work. Parents and tutors are not always available at the moment a question arises. Now, AI is changing all of that by making guidance, feedback, and practice available whenever students need them.\n\nA privacy-preserving analysis found that people across all age groups have as many as 70 million conversations with ChatGPT each week devoted to testing what they know, which include misconception checks and requests for more practice. In the U.S., prompts related to classwork and homework peak at more than 460 million messages per week during the school year and climb on Sunday evenings. Even during the summer, they remain above 180 million messages per week.\n\nFor students, continuous learning can mean getting help with algebra outside of the classroom while the lesson is still fresh. For teachers, it can mean adapting an assignment for different skill levels before the first bell or spending less time on recurring paperwork and more time teaching. For families who speak a different language at home, it can mean receiving school communications in a language they understand and being better able to support a child’s progress.\n\nThe report also spotlights individual teachers and students across the U.S. who are using AI in productive, creative, and meaningful ways.\n\nAI cannot replace a teacher’s judgment, a parent’s encouragement, or the work students must do to learn. But with appropriate guidance and safeguards, it can give educators more time to focus on teaching and make individualized support available to more people at more times.",
+      "contentZh": "随着学生们重返校园，OpenAI发布了一份新报告，介绍学生和教育工作者如何利用ChatGPT将学习延伸到课堂之外。\n\n长期以来，学生们不得不等到上课才能提问或获得帮助。教师要在管理行政工作的同时，将注意力分配给几十名学生。家长和辅导老师并不总能在问题出现时及时提供帮助。如今，人工智能正在改变这一切，让学生们在需要时随时获得指导、反馈和练习。\n\n一项注重隐私保护的分析发现，各年龄段的人们每周与ChatGPT进行多达7000万次对话，用于检验自己的知识掌握情况，其中包括纠正误解和请求更多练习。在美国，与课堂作业和家庭作业相关的提示词在学年期间每周峰值超过4.6亿条，并在周日晚上攀升。即使在暑假期间，每周也保持在1.8亿条以上。\n\n对学生而言，持续学习意味着在课堂之外、课程内容还记忆犹新时就能获得代数方面的帮助。对教师而言，这意味着可以在上课铃响之前根据不同能力水平调整作业，或者减少花在重复性文书工作上的时间，把更多时间用于教学。对于在家使用不同语言的家庭来说，这意味着能以他们理解的语言收到学校通知，从而更好地支持孩子的学习进步。\n\n该报告还重点介绍了美国各地以富有成效、创造性和有意义的方式使用人工智能的教师和学生。\n\n人工智能无法取代教师的判断力、家长的鼓励，也无法取代学生为学习所必须付出的努力。但在适当的指导和保障措施下，它可以让教育工作者有更多时间专注于教学，并在更多时间为更多人提供个性化支持。",
+      "titleZh": "学习永不止步：AI 如何让学习持续进行",
+      "summaryZh": "OpenAI 的新报告探讨了学生和教育工作者如何利用 ChatGPT 使学习更加持续，并提供课堂之外的支持。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-08-26T10:00:00.000Z",
+      "url": "https://openai.com/index/learning-never-stops",
+      "collectedAt": "2026-09-15T08:04:41.554Z"
     },
     {
       "id": "e8e71766793d0226c88b",
@@ -815,7 +832,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "collectedAt": "2026-09-14T08:10:19.325Z"
+      "collectedAt": "2026-09-15T08:04:41.554Z"
     },
     {
       "id": "42d46e03e113f1a48a9f",
@@ -832,7 +849,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/loveholidays",
-      "collectedAt": "2026-09-14T08:10:19.325Z"
+      "collectedAt": "2026-09-15T08:04:41.554Z"
     },
     {
       "id": "0e8f06023793c35c12b2",
@@ -849,7 +866,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.588Z"
+      "collectedAt": "2026-09-15T08:04:42.819Z"
     },
     {
       "id": "57792a4fc465ac9e4168",
@@ -866,7 +883,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-14T08:10:21.498Z"
+      "collectedAt": "2026-09-15T08:04:43.639Z"
     },
     {
       "id": "bdff11d888b055940269",
@@ -883,7 +900,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T07:05:00.000Z",
       "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "collectedAt": "2026-09-14T08:10:19.326Z"
+      "collectedAt": "2026-09-15T08:04:41.555Z"
     },
     {
       "id": "b9dd82456710ac7ff739",
@@ -900,7 +917,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T07:00:00.000Z",
       "url": "https://openai.com/index/jalapeno-first-results",
-      "collectedAt": "2026-09-14T08:10:19.326Z"
+      "collectedAt": "2026-09-15T08:04:41.555Z"
     },
     {
       "id": "4f3d5193843c2be21102",
@@ -917,7 +934,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-admin-plugin",
-      "collectedAt": "2026-09-14T08:10:19.327Z"
+      "collectedAt": "2026-09-15T08:04:41.556Z"
     },
     {
       "id": "98efe21910bba76ddc89",
@@ -934,7 +951,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-14T08:10:20.095Z"
+      "collectedAt": "2026-09-15T08:04:42.225Z"
     },
     {
       "id": "a3e38d1146847fcc32c5",
@@ -951,7 +968,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-24T12:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "collectedAt": "2026-09-14T08:10:19.327Z"
+      "collectedAt": "2026-09-15T08:04:41.556Z"
     },
     {
       "id": "fb3550ee043ce3089dfb",
@@ -968,7 +985,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-14T08:10:25.231Z"
+      "collectedAt": "2026-09-15T08:04:46.529Z"
     },
     {
       "id": "2d19306ef234ea7faec5",
@@ -985,7 +1002,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://openai.com/index/stampli",
-      "collectedAt": "2026-09-14T08:10:19.327Z"
+      "collectedAt": "2026-09-15T08:04:41.557Z"
     },
     {
       "id": "545fb287d7f850c3b01d",
@@ -1002,7 +1019,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.588Z"
+      "collectedAt": "2026-09-15T08:04:42.819Z"
     },
     {
       "id": "3dc55b55b1de08c817b2",
@@ -1019,7 +1036,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T19:00:00.000Z",
       "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "collectedAt": "2026-09-14T08:10:19.328Z"
+      "collectedAt": "2026-09-15T08:04:41.557Z"
     },
     {
       "id": "1e5ef4886d4750bbdc69",
@@ -1036,7 +1053,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T07:00:00.000Z",
       "url": "https://openai.com/index/replit",
-      "collectedAt": "2026-09-14T08:10:19.328Z"
+      "collectedAt": "2026-09-15T08:04:41.557Z"
     },
     {
       "id": "862a5272957677cbb451",
@@ -1053,7 +1070,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.589Z"
+      "collectedAt": "2026-09-15T08:04:42.820Z"
     },
     {
       "id": "dbabefb7176b8899389d",
@@ -1070,7 +1087,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-09-14T08:10:20.977Z"
+      "collectedAt": "2026-09-15T08:04:43.133Z"
     },
     {
       "id": "d02b32736bea62b3185d",
@@ -1087,7 +1104,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T22:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "collectedAt": "2026-09-14T08:10:19.329Z"
+      "collectedAt": "2026-09-15T08:04:41.558Z"
     },
     {
       "id": "755e4db2cccf354bd6df",
@@ -1104,7 +1121,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "collectedAt": "2026-09-14T08:10:19.329Z"
+      "collectedAt": "2026-09-15T08:04:41.558Z"
     },
     {
       "id": "60ed32685f2c13d2be9e",
@@ -1121,7 +1138,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-teens",
-      "collectedAt": "2026-09-14T08:10:19.330Z"
+      "collectedAt": "2026-09-15T08:04:41.559Z"
     },
     {
       "id": "569fdb7965461ec2bca6",
@@ -1138,7 +1155,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T07:00:00.000Z",
       "url": "https://openai.com/index/asana",
-      "collectedAt": "2026-09-14T08:10:19.330Z"
+      "collectedAt": "2026-09-15T08:04:41.559Z"
     },
     {
       "id": "cf88f2889563730674dc",
@@ -1155,7 +1172,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://openai.com/index/nvidia/chatgpt-work",
-      "collectedAt": "2026-09-14T08:10:19.330Z"
+      "collectedAt": "2026-09-15T08:04:41.559Z"
     },
     {
       "id": "aa9fbf89108c624b5035",
@@ -1172,7 +1189,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.589Z"
+      "collectedAt": "2026-09-15T08:04:42.820Z"
     },
     {
       "id": "87f8e936f22002253f15",
@@ -1189,7 +1206,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-17T08:00:00.000Z",
       "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-      "collectedAt": "2026-09-14T08:10:22.234Z"
+      "collectedAt": "2026-09-15T08:04:44.261Z"
     },
     {
       "id": "628f79672cb28599f754",
@@ -1206,7 +1223,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T17:04:18.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "collectedAt": "2026-09-14T08:10:21.970Z"
+      "collectedAt": "2026-09-15T08:04:43.985Z"
     },
     {
       "id": "8637785710012aa19327",
@@ -1223,7 +1240,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T11:00:00.000Z",
       "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "collectedAt": "2026-09-14T08:10:19.331Z"
+      "collectedAt": "2026-09-15T08:04:41.560Z"
     },
     {
       "id": "12d8fd2a91a610822616",
@@ -1240,7 +1257,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T10:00:00.000Z",
       "url": "https://openai.com/index/previewing-ultrafast",
-      "collectedAt": "2026-09-14T08:10:19.331Z"
+      "collectedAt": "2026-09-15T08:04:41.560Z"
     },
     {
       "id": "ff9329e42a201fd379a6",
@@ -1257,7 +1274,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-14T08:10:21.498Z"
+      "collectedAt": "2026-09-15T08:04:43.640Z"
     },
     {
       "id": "68c4c83c983d7ad01b30",
@@ -1274,7 +1291,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-14T08:10:25.233Z"
+      "collectedAt": "2026-09-15T08:04:46.531Z"
     },
     {
       "id": "5437747d9f7a7fa2a89b",
@@ -1291,7 +1308,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T06:00:00.000Z",
       "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "collectedAt": "2026-09-14T08:10:19.332Z"
+      "collectedAt": "2026-09-15T08:04:41.561Z"
     },
     {
       "id": "1024017ea20ba53c7f72",
@@ -1308,24 +1325,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "url": "https://openai.com/index/ringcentral",
-      "collectedAt": "2026-09-14T08:10:19.332Z"
-    },
-    {
-      "id": "8825eb211c3d1692966b",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Daybreak models are now available on AWS",
-      "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
-      "content": "Earlier this year, OpenAI frontier models and Codex became generally available on AWS, giving enterprises a new path to bring advanced AI into production. Today, we’re sharing the next step in our work with AWS: making Daybreak capabilities available through Amazon Bedrock.\n\nWith [Daybreak Access](https://openai.com/form/enterprise-trusted-access-for-cyber/), defenders can use frontier cyber models within their existing AWS environments. Daybreak Blue and Daybreak Red access levels are both available in AWS:\n\n*   **Daybreak Blue**provides access to frontier general-purpose models, including GPT‑5.6 Sol, with safeguards tailored to authorized defensive security work.\n*   **Daybreak Red**provides access to our purpose-trained cybersecurity models for authorized vulnerability research, exploit validation, and security testing.\n\nThese models help accelerate vulnerability research, detection engineering, and incident response, from initial discovery through a validated fix. They also support complex workflows such as exploit reproduction and mitigation development.\n\n## Bringing frontier cybersecurity capabilities to AWS\n\nFor enterprises, adopting specialized cybersecurity capabilities requires more than model performance. It also requires security review, governance, procurement, access controls, and an operating model teams can support.\n\nThrough Amazon Bedrock, eligible customers can use Daybreak, including Daybreak Red and Daybreak Blue, within the AWS environments where they already build, secure, and operate software. This gives security teams a clearer path to apply frontier AI through familiar AWS security, governance, and operational workflows.\n\nTogether, OpenAI and AWS are helping more organizations put advanced cybersecurity capabilities to work in production.\n\n## Get started\n\nDaybreak Red and Daybreak Blue require enrollment in [Daybreak Access](https://openai.com/form/enterprise-trusted-access-for-cyber/). Once approved, you can access the model through the Amazon Bedrock console or the Responses API using the bedrock-mantle endpoint. To learn more, see the [documentation.⁠(opens in a new window)](https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-openai.html)",
-      "contentZh": "今年早些时候，OpenAI前沿模型和Codex已在AWS上全面可用，为企业将先进AI投入生产提供了新路径。今天，我们分享与AWS合作的下一步：通过Amazon Bedrock提供Daybreak能力。\n\n借助[Daybreak Access](https://openai.com/form/enterprise-trusted-access-for-cyber/)，防御者可以在其现有AWS环境中使用前沿网络模型。Daybreak Blue和Daybreak Red访问级别均已在AWS中可用：\n\n*   **Daybreak Blue**提供对前沿通用模型的访问，包括GPT‑5.6 Sol，并带有针对授权防御性安全工作量身定制的安全防护措施。\n*   **Daybreak Red**提供对我们经过专门训练的网络安防模型的访问，用于授权的漏洞研究、漏洞验证和安全测试。\n\n这些模型有助于加速漏洞研究、检测工程和事件响应，从初始发现到经过验证的修复。它们还支持复杂工作流，如漏洞复现和缓解措施开发。\n\n## 将前沿网络安全能力引入AWS\n\n对于企业而言，采用专业网络安全能力不仅需要模型性能。它还需要安全审查、治理、采购、访问控制以及团队能够支持的运营模式。\n\n通过Amazon Bedrock，符合条件的客户可以在其已用于构建、保护和运营软件的AWS环境中使用Daybreak，包括Daybreak Red和Daybreak Blue。这为安全团队提供了一条更清晰的路径，通过熟悉的AWS安全、治理和运营工作流应用前沿AI。\n\nOpenAI和AWS携手合作，帮助更多组织将先进的网络安全能力投入生产。\n\n## 开始使用\n\nDaybreak Red和Daybreak Blue需要注册[Daybreak Access](https://openai.com/form/enterprise-trusted-access-for-cyber/)。获批后，您可以通过Amazon Bedrock控制台或使用bedrock-mantle端点的Responses API访问该模型。如需了解更多信息，请参阅[文档⁠（在新窗口中打开）](https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-openai.html)。",
-      "titleZh": "Daybreak 模型现已在 AWS 上可用",
-      "summaryZh": "OpenAI 和 AWS 正在通过 Amazon Bedrock 提供 Daybreak 网络安全能力，以支持企业安全工作流程。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-11T10:00:00.000Z",
-      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "collectedAt": "2026-09-14T08:10:19.333Z"
+      "collectedAt": "2026-09-15T08:04:41.561Z"
     },
     {
       "id": "d9485ecefcc38cea5418",
@@ -1342,7 +1342,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "collectedAt": "2026-09-14T08:10:19.333Z"
+      "collectedAt": "2026-09-15T08:04:41.561Z"
+    },
+    {
+      "id": "8825eb211c3d1692966b",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Daybreak models are now available on AWS",
+      "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+      "content": "Earlier this year, OpenAI frontier models and Codex became generally available on AWS, giving enterprises a new path to bring advanced AI into production. Today, we’re sharing the next step in our work with AWS: making Daybreak capabilities available through Amazon Bedrock.\n\nWith [Daybreak Access](https://openai.com/form/enterprise-trusted-access-for-cyber/), defenders can use frontier cyber models within their existing AWS environments. Daybreak Blue and Daybreak Red access levels are both available in AWS:\n\n*   **Daybreak Blue**provides access to frontier general-purpose models, including GPT‑5.6 Sol, with safeguards tailored to authorized defensive security work.\n*   **Daybreak Red**provides access to our purpose-trained cybersecurity models for authorized vulnerability research, exploit validation, and security testing.\n\nThese models help accelerate vulnerability research, detection engineering, and incident response, from initial discovery through a validated fix. They also support complex workflows such as exploit reproduction and mitigation development.\n\n## Bringing frontier cybersecurity capabilities to AWS\n\nFor enterprises, adopting specialized cybersecurity capabilities requires more than model performance. It also requires security review, governance, procurement, access controls, and an operating model teams can support.\n\nThrough Amazon Bedrock, eligible customers can use Daybreak, including Daybreak Red and Daybreak Blue, within the AWS environments where they already build, secure, and operate software. This gives security teams a clearer path to apply frontier AI through familiar AWS security, governance, and operational workflows.\n\nTogether, OpenAI and AWS are helping more organizations put advanced cybersecurity capabilities to work in production.\n\n## Get started\n\nDaybreak Red and Daybreak Blue require enrollment in [Daybreak Access](https://openai.com/form/enterprise-trusted-access-for-cyber/). Once approved, you can access the model through the Amazon Bedrock console or the Responses API using the bedrock-mantle endpoint. To learn more, see the [documentation.⁠(opens in a new window)](https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-openai.html)",
+      "contentZh": "今年早些时候，OpenAI前沿模型和Codex已在AWS上全面可用，为企业将先进AI投入生产提供了新路径。今天，我们分享与AWS合作的下一步：通过Amazon Bedrock提供Daybreak能力。\n\n借助[Daybreak Access](https://openai.com/form/enterprise-trusted-access-for-cyber/)，防御者可以在其现有AWS环境中使用前沿网络模型。Daybreak Blue和Daybreak Red访问级别均已在AWS中可用：\n\n*   **Daybreak Blue**提供对前沿通用模型的访问，包括GPT‑5.6 Sol，并带有针对授权防御性安全工作量身定制的安全防护措施。\n*   **Daybreak Red**提供对我们经过专门训练的网络安防模型的访问，用于授权的漏洞研究、漏洞验证和安全测试。\n\n这些模型有助于加速漏洞研究、检测工程和事件响应，从初始发现到经过验证的修复。它们还支持复杂工作流，如漏洞复现和缓解措施开发。\n\n## 将前沿网络安全能力引入AWS\n\n对于企业而言，采用专业网络安全能力不仅需要模型性能。它还需要安全审查、治理、采购、访问控制以及团队能够支持的运营模式。\n\n通过Amazon Bedrock，符合条件的客户可以在其已用于构建、保护和运营软件的AWS环境中使用Daybreak，包括Daybreak Red和Daybreak Blue。这为安全团队提供了一条更清晰的路径，通过熟悉的AWS安全、治理和运营工作流应用前沿AI。\n\nOpenAI和AWS携手合作，帮助更多组织将先进的网络安全能力投入生产。\n\n## 开始使用\n\nDaybreak Red和Daybreak Blue需要注册[Daybreak Access](https://openai.com/form/enterprise-trusted-access-for-cyber/)。获批后，您可以通过Amazon Bedrock控制台或使用bedrock-mantle端点的Responses API访问该模型。如需了解更多信息，请参阅[文档⁠（在新窗口中打开）](https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-openai.html)。",
+      "titleZh": "Daybreak 模型现已在 AWS 上可用",
+      "summaryZh": "OpenAI 和 AWS 正在通过 Amazon Bedrock 提供 Daybreak 网络安全能力，以支持企业安全工作流程。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-08-11T10:00:00.000Z",
+      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "collectedAt": "2026-09-15T08:04:41.562Z"
     },
     {
       "id": "e253abe92338c77fff32",
@@ -1359,7 +1376,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.590Z"
+      "collectedAt": "2026-09-15T08:04:42.821Z"
     },
     {
       "id": "f50ed5f93da49347ecb6",
@@ -1376,7 +1393,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T12:00:00.000Z",
       "url": "https://openai.com/index/model-ml",
-      "collectedAt": "2026-09-14T08:10:19.334Z"
+      "collectedAt": "2026-09-15T08:04:41.563Z"
     },
     {
       "id": "734c538c439aa3199cf2",
@@ -1393,7 +1410,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T10:00:00.000Z",
       "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "collectedAt": "2026-09-14T08:10:19.334Z"
+      "collectedAt": "2026-09-15T08:04:41.563Z"
     },
     {
       "id": "288f6994afc6cc6de385",
@@ -1410,41 +1427,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T10:00:00.000Z",
       "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
-      "collectedAt": "2026-09-14T08:10:19.334Z"
-    },
-    {
-      "id": "8eb1e6a0a260fe518fb3",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
-      "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
-      "content": "Virgin Atlantic is using ChatGPT Work to help its teams understand the airline’s complex customer journey and deliver better experiences faster. From competitive research to product planning and analytics, ChatGPT Work gives employees new ways to bring information together and move from insight to action.\n\nFor an airline, the customer journey extends beyond just booking a flight. It includes browsing, purchasing, checking in, traveling, the onboard experience, and sharing feedback afterward. Each stage produces valuable information, often held across different systems and reporting tools. Virgin Atlantic is using ChatGPT to connect those signals and help teams decide where to focus.\n\n## Turning weeks of research into hours\n\nAs Virgin Atlantic developed its new five-year strategy, its digital product team needed a clear view of the competitive landscape. Traditionally, assessing multiple competitors across a detailed customer journey could take weeks of manual research.\n\nUsing ChatGPT Work, the team created a structured framework and asked it to research competitor experiences, trace available customer journeys, and organize its findings into a dataset for review. The team could start the work in the morning, return a few hours later, and begin evaluating and refining the results.\n\n“As part of Virgin Atlantic’s five-year digital strategy, ChatGPT Work has helped us explore customer journeys and market experiences in a more structured and efficient way,” says Nathan Bolt, Head of Digital Product at Virgin Atlantic. “It enables our teams to compare journey patterns, surface opportunities, and turn insight into product decisions far faster than before. What might once have taken weeks can now be accelerated into hours, helping us focus investment where it can make the biggest difference for our customers.”\n\nThe analysis helped Virgin Atlantic identify areas where its digital experience was performing strongly, capabilities it needed to protect, and opportunities that warranted further investment. Those findings informed recommendations for the company’s five-year plan.\n\nChatGPT Work also helps the team synthesize strategy documents, customer insights, and digital experience data, making that information easier to explore and apply throughout the product lifecycle. “ChatGPT has allowed us to go from idea to actual product in customers’ hands much faster,” Bolt says.\n\n## Creating a connected view of the customer journey\n\nVirgin Atlantic’s customer experience and analytics teams face another challenge: bringing together data from many sources. Previously, employees had to navigate several dashboard tools, authenticated workspaces, licenses, user profiles, and report suites to understand different parts of the journey.\n\nWith ChatGPT Work and ChatGPT Sites, Virgin Atlantic is creating secure, authenticated dashboards that bring disparate datasets into a common interface. Employees across the business can access relevant views, explore information more easily, and make decisions for their own areas.\n\n“The ability to have a single interface that is customizable, that we can control and visualize in a way that we’ve not been able to before, has been game changing for us,” says Miles King, Head of Customer Experience at Virgin Atlantic.\n\nThe team has also used ChatGPT to create custom product-planning tools. Product teams can manage roadmaps, prioritization, fields, and quarterly planning in a way that fits Virgin Atlantic’s needs, while senior stakeholders can see simplified, high-level views. This flexibility helps teams spend less time adapting their work to rigid tools and more time delivering the roadmap.\n\n> “ChatGPT has really turbocharged our insights, understanding, and the ability to make decisions that ultimately enhance the end-to-end customer journey for our guests.”\n\n—Miles King, Head of Customer Experience at Virgin Atlantic\n\n## What’s next\n\nVirgin Atlantic sees more opportunities to bring ChatGPT Work into employees’ day-to-day work. Bolt already uses it as a “chief of staff” to surface important items across his calendar, Slack, and email, help him take action, and prepare presentations.\n\n“I’m able to do more within the same workday,” he says. “I’m not working longer hours necessarily, but I’m getting more done.”\n\nAs its use of ChatGPT Work expands, Virgin Atlantic will continue focusing on turning insight into faster decisions and better experiences for its customers. As King puts it, “ChatGPT helps me spot what customers need, decide what matters, act faster, and deliver.”",
-      "contentZh": "维珍大西洋航空正在使用ChatGPT Work帮助其团队理解航空公司复杂的客户旅程，并更快地提供更好的体验。从竞争研究到产品规划和数据分析，ChatGPT Work为员工提供了整合信息、将洞察转化为行动的新方式。\n\n对于航空公司而言，客户旅程不仅仅限于预订航班。它还包括浏览、购买、值机、旅行、机上体验以及事后的反馈分享。每个阶段都会产生有价值的信息，而这些信息往往分散在不同的系统和报告工具中。维珍大西洋航空正在使用ChatGPT来连接这些信号，帮助团队确定工作重点。\n\n## 将数周的研究缩短为数小时\n\n在维珍大西洋航空制定新的五年战略时，其数字产品团队需要清晰了解竞争格局。传统上，评估多个竞争对手在详细客户旅程中的表现可能需要数周的人工研究。\n\n借助ChatGPT Work，团队创建了一个结构化框架，要求其研究竞争对手的体验、追踪可用的客户旅程，并将研究结果整理成数据集以供审查。团队可以在早上开始工作，几小时后返回，开始评估和完善结果。\n\n“作为维珍大西洋航空五年数字战略的一部分，ChatGPT Work帮助我们以更结构化、更高效的方式探索客户旅程和市场体验，”维珍大西洋航空数字产品主管Nathan Bolt表示。“它使我们的团队能够比以往更快地比较旅程模式、发现机会，并将洞察转化为产品决策。过去可能需要数周的工作现在可以加速到数小时内完成，帮助我们集中投资于能为客户带来最大差异的领域。”\n\n这项分析帮助维珍大西洋航空识别出其数字体验表现强劲的领域、需要保护的能力，以及值得进一步投资的机会。这些发现为公司的五年计划提供了建议。\n\nChatGPT Work还帮助团队整合战略文档、客户洞察和数字体验数据，使这些信息在整个产品生命周期中更易于探索和应用。“ChatGPT使我们能够更快地从想法走向客户手中的实际产品，”Bolt表示。\n\n## 创建客户旅程的关联视图\n\n维珍大西洋航空的客户体验和分析团队面临另一个挑战：整合来自多个来源的数据。此前，员工必须浏览多个仪表盘工具、经过认证的工作区、许可证、用户配置文件和报告套件，才能了解旅程的不同部分。\n\n借助ChatGPT Work和ChatGPT Sites，维珍大西洋航空正在创建安全、经过认证的仪表盘，将不同的数据集整合到一个通用界面中。跨业务的员工可以访问相关视图，更轻松地探索信息，并为自己负责的领域做出决策。\n\n“拥有一个可定制的单一界面，能够以我们以前无法做到的方式进行控制和可视化，这对我们来说具有变革性意义，”维珍大西洋航空客户体验主管Miles King表示。\n\n团队还使用ChatGPT创建了自定义产品规划工具。产品团队可以以符合维珍大西洋航空需求的方式管理路线图、优先级排序、字段和季度规划，而高级利益相关者则可以看到简化的高层视图。这种灵活性帮助团队减少适应僵化工具的时间，将更多时间用于交付路线图。\n\n> “ChatGPT真正加速了我们的洞察力、理解力以及做出决策的能力，这些决策最终提升了我们客人的端到端客户旅程。”\n\n——Miles King，维珍大西洋航空客户体验主管\n\n## 下一步计划\n\n维珍大西洋航空看到了更多将ChatGPT Work融入员工日常工作的机会。Bolt已经将其用作“幕僚长”，帮助他整理日历、Slack和电子邮件中的重要事项，协助他采取行动并准备演示文稿。\n\n“我能在同一个工作日内完成更多工作，”他表示。“我不一定需要延长工作时间，但能完成更多事情。”\n\n随着ChatGPT Work使用范围的扩大，维珍大西洋航空将继续专注于将洞察转化为更快的决策和更好的客户体验。正如King所说，“ChatGPT帮助我发现客户需求、判断什么最重要、更快行动并交付成果。”",
-      "titleZh": "维珍航空借助ChatGPT Work优化客户旅程",
-      "summaryZh": "维珍航空正在利用ChatGPT Work加速研究、产品规划和决策，帮助团队连接客户旅程中的各种信号。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-      "collectedAt": "2026-09-14T08:10:19.335Z"
-    },
-    {
-      "id": "2c74e7c8cea6a2ece6de",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "How Zapier transformed core marketing processes with ChatGPT Work",
-      "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
-      "content": "At Zapier, the enterprise marketing team is using ChatGPT Work to build automated funnel optimization systems, enabling them to deliver more value to their sales team with less manual effort. ChatGPT Work operates autonomously, giving the enterprise marketing team space to focus on strategic, creative efforts.\n\n> “We can do things that we couldn’t possibly have done before, like performing QA/QC on thousands of leads every single month.”\n\n—Angela Ferrante, Head of Enterprise Marketing\n\n## Building a system for automatic funnel optimization\n\nAngela Ferrante, Head of Enterprise Marketing, found that Zapier experienced a high volume of strong inbound leads but a similarly high drop-off rate. Why? Answering the question required an intensive quality assurance (QA) and quality control (QC) process to figure out where in the funnel these leads were dropping off.\n\nBut with ChatGPT Work, Ferrante could automate a process so labor-intensive that it would have been effectively impossible to accomplish otherwise. “It has just transformed how we do work and what we’re able to do,” Ferrante explains.\n\nNow, the enterprise marketing team can perform automatic QA/QC on thousands of leads every month. The difference is stark. “A single person looking at one dropped lead would take 35 to 45 minutes just to get a picture of what went wrong,” Ferrante says.\n\n“With ChatGPT Work, we were able to create a system that determined all of the lead problems, patched all of the issues, and quantified the impact of this project to the tune of seven figures in pipeline we were then able to hand off to sales every single month.”\n\nThe system now delivers ongoing results, including an executive dashboard highlighting recurring issues in their lead pipeline and weekly trends.\n\n> “Within minutes, we have actual campaign assets ready to review and push out. ChatGPT Work can actually go into all the systems we use to build campaigns and do the building for us.”\n\n—Angela Ferrante, Head of Enterprise Marketing\n\n## Freeing up time for creative work\n\nZapier’s marketing teams didn’t always have the time to use the creative energies they had on tap.\n\n“ChatGPT Work frees up our team,” Ferrante explains. “The demand generation team, for example, can get more creative about campaigns and filter that work through ChatGPT Work, which will give them ideas for campaign optimizations.”\n\nThe team can work faster, delivering better results on tighter timelines. “Suddenly, the work is shrunk down, or the timeline is shrunk down,” Ferrante says. “The work moves so quickly from ideation to execution, and the execution is essentially on demand.”\n\nAs the marketing team produces more deliverables, they can also avoid getting bogged down in reporting. With ChatGPT Work, Ferrante says, “We were able to get reporting dialed in so that we can spend more time doing work instead of analyzing the results of the work.”\n\n“It’s really been an unlock for our team, allowing us to focus on more strategic work,” Ferrante says. “We’re suddenly able to have a lot of work just happen on autopilot using ChatGPT Work.”\n\n## What’s next\n\nDespite the benefits ChatGPT Work has already offered, Ferrante sees even greater potential in the future. “Some of the most impactful work, which will really transform the marketing team, is setting always-on loops, not just using prompts,” Ferrante says.\n\nThe eventual goal, Ferrante says, is to have a “shared brain” that uses context from meetings, call recordings, customers, and market insights. “We will have work happening on autopilot, and humans can be the tastemakers,” Ferrante says.",
-      "contentZh": "在Zapier，企业营销团队正在使用ChatGPT Work构建自动化漏斗优化系统，使他们能够以更少的手动工作为销售团队创造更多价值。ChatGPT Work自主运行，为企业营销团队腾出空间，专注于战略性和创造性的工作。\n\n> “我们能够做到以前不可能完成的事情，比如每月对数千条线索进行质量保证和质量控制。”\n\n——Angela Ferrante，企业营销主管\n\n## 构建自动漏斗优化系统\n\n企业营销主管Angela Ferrante发现，Zapier拥有大量高质量的入站线索，但流失率同样很高。原因何在？回答这个问题需要一个密集的质量保证和质量控制流程，以确定这些线索在漏斗的哪个环节流失。\n\n但借助ChatGPT Work，Ferrante能够自动化一个劳动密集程度极高、否则几乎不可能完成的过程。“它彻底改变了我们的工作方式以及我们能够做到的事情，”Ferrante解释道。\n\n现在，企业营销团队每月可以对数千条线索进行自动质量保证和质量控制。差异显而易见。“一个人查看一条流失的线索，需要35到45分钟才能了解问题所在，”Ferrante说。\n\n“借助ChatGPT Work，我们创建了一个系统，能够确定所有线索问题、修复所有问题，并量化这个项目的影响，每月能够向销售团队移交价值七位数的管道。”\n\n该系统现在持续产生成果，包括一个高管仪表板，突出显示线索管道中的重复问题和每周趋势。\n\n> “几分钟之内，我们就能准备好实际的活动资产供审查和发布。ChatGPT Work实际上可以进入我们用于构建活动的所有系统，并替我们完成构建工作。”\n\n——Angela Ferrante，企业营销主管\n\n## 腾出时间进行创造性工作\n\nZapier的营销团队并非总有时间发挥他们随时可用的创造力。\n\n“ChatGPT Work解放了我们的团队，”Ferrante解释道。“例如，需求生成团队可以在活动上更具创意，并通过ChatGPT Work筛选这些工作，它会为他们提供活动优化的想法。”\n\n团队可以更快地工作，在更紧的时间表内交付更好的成果。“突然间，工作被压缩了，或者时间表被压缩了，”Ferrante说。“工作从构思到执行的速度非常快，而且执行基本上是按需进行的。”\n\n随着营销团队产出更多交付物，他们也可以避免陷入报告工作的泥潭。Ferrante表示，借助ChatGPT Work，“我们能够将报告调整到位，这样我们就可以花更多时间做工作，而不是分析工作结果。”\n\n“这确实为我们的团队解锁了新的可能，让我们能够专注于更具战略性的工作，”Ferrante说。“我们突然能够让大量工作通过ChatGPT Work自动驾驶般地完成。”\n\n## 未来展望\n\n尽管ChatGPT Work已经带来了诸多好处，Ferrante看到了未来更大的潜力。“一些最具影响力的工作，将真正改变营销团队，是建立常开循环，而不仅仅是使用提示词，”Ferrante说。\n\nFerrante表示，最终目标是拥有一个“共享大脑”，利用会议、通话录音、客户和市场洞察中的背景信息。“我们将让工作在自动驾驶模式下进行，而人类可以成为品味引领者，”Ferrante说。",
-      "titleZh": "Zapier如何利用ChatGPT Work转型核心营销流程",
-      "summaryZh": "Zapier的企业营销团队使用ChatGPT Work来减少潜在客户漏斗中的流失数量，构建活动资产，并自动化报告。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "url": "https://openai.com/index/zapier",
-      "collectedAt": "2026-09-14T08:10:19.335Z"
+      "collectedAt": "2026-09-15T08:04:41.564Z"
     },
     {
       "id": "02e8effaacedb8dbc2e1",
@@ -1461,7 +1444,41 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/premium-seats-chatgpt-business",
-      "collectedAt": "2026-09-14T08:10:19.336Z"
+      "collectedAt": "2026-09-15T08:04:41.565Z"
+    },
+    {
+      "id": "2c74e7c8cea6a2ece6de",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+      "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
+      "content": "At Zapier, the enterprise marketing team is using ChatGPT Work to build automated funnel optimization systems, enabling them to deliver more value to their sales team with less manual effort. ChatGPT Work operates autonomously, giving the enterprise marketing team space to focus on strategic, creative efforts.\n\n> “We can do things that we couldn’t possibly have done before, like performing QA/QC on thousands of leads every single month.”\n\n—Angela Ferrante, Head of Enterprise Marketing\n\n## Building a system for automatic funnel optimization\n\nAngela Ferrante, Head of Enterprise Marketing, found that Zapier experienced a high volume of strong inbound leads but a similarly high drop-off rate. Why? Answering the question required an intensive quality assurance (QA) and quality control (QC) process to figure out where in the funnel these leads were dropping off.\n\nBut with ChatGPT Work, Ferrante could automate a process so labor-intensive that it would have been effectively impossible to accomplish otherwise. “It has just transformed how we do work and what we’re able to do,” Ferrante explains.\n\nNow, the enterprise marketing team can perform automatic QA/QC on thousands of leads every month. The difference is stark. “A single person looking at one dropped lead would take 35 to 45 minutes just to get a picture of what went wrong,” Ferrante says.\n\n“With ChatGPT Work, we were able to create a system that determined all of the lead problems, patched all of the issues, and quantified the impact of this project to the tune of seven figures in pipeline we were then able to hand off to sales every single month.”\n\nThe system now delivers ongoing results, including an executive dashboard highlighting recurring issues in their lead pipeline and weekly trends.\n\n> “Within minutes, we have actual campaign assets ready to review and push out. ChatGPT Work can actually go into all the systems we use to build campaigns and do the building for us.”\n\n—Angela Ferrante, Head of Enterprise Marketing\n\n## Freeing up time for creative work\n\nZapier’s marketing teams didn’t always have the time to use the creative energies they had on tap.\n\n“ChatGPT Work frees up our team,” Ferrante explains. “The demand generation team, for example, can get more creative about campaigns and filter that work through ChatGPT Work, which will give them ideas for campaign optimizations.”\n\nThe team can work faster, delivering better results on tighter timelines. “Suddenly, the work is shrunk down, or the timeline is shrunk down,” Ferrante says. “The work moves so quickly from ideation to execution, and the execution is essentially on demand.”\n\nAs the marketing team produces more deliverables, they can also avoid getting bogged down in reporting. With ChatGPT Work, Ferrante says, “We were able to get reporting dialed in so that we can spend more time doing work instead of analyzing the results of the work.”\n\n“It’s really been an unlock for our team, allowing us to focus on more strategic work,” Ferrante says. “We’re suddenly able to have a lot of work just happen on autopilot using ChatGPT Work.”\n\n## What’s next\n\nDespite the benefits ChatGPT Work has already offered, Ferrante sees even greater potential in the future. “Some of the most impactful work, which will really transform the marketing team, is setting always-on loops, not just using prompts,” Ferrante says.\n\nThe eventual goal, Ferrante says, is to have a “shared brain” that uses context from meetings, call recordings, customers, and market insights. “We will have work happening on autopilot, and humans can be the tastemakers,” Ferrante says.",
+      "contentZh": "在Zapier，企业营销团队正在使用ChatGPT Work构建自动化漏斗优化系统，使他们能够以更少的手动工作为销售团队创造更多价值。ChatGPT Work自主运行，为企业营销团队腾出空间，专注于战略性和创造性的工作。\n\n> “我们能够做到以前不可能完成的事情，比如每月对数千条线索进行质量保证和质量控制。”\n\n——Angela Ferrante，企业营销主管\n\n## 构建自动漏斗优化系统\n\n企业营销主管Angela Ferrante发现，Zapier拥有大量高质量的入站线索，但流失率同样很高。原因何在？回答这个问题需要一个密集的质量保证和质量控制流程，以确定这些线索在漏斗的哪个环节流失。\n\n但借助ChatGPT Work，Ferrante能够自动化一个劳动密集程度极高、否则几乎不可能完成的过程。“它彻底改变了我们的工作方式以及我们能够做到的事情，”Ferrante解释道。\n\n现在，企业营销团队每月可以对数千条线索进行自动质量保证和质量控制。差异显而易见。“一个人查看一条流失的线索，需要35到45分钟才能了解问题所在，”Ferrante说。\n\n“借助ChatGPT Work，我们创建了一个系统，能够确定所有线索问题、修复所有问题，并量化这个项目的影响，每月能够向销售团队移交价值七位数的管道。”\n\n该系统现在持续产生成果，包括一个高管仪表板，突出显示线索管道中的重复问题和每周趋势。\n\n> “几分钟之内，我们就能准备好实际的活动资产供审查和发布。ChatGPT Work实际上可以进入我们用于构建活动的所有系统，并替我们完成构建工作。”\n\n——Angela Ferrante，企业营销主管\n\n## 腾出时间进行创造性工作\n\nZapier的营销团队并非总有时间发挥他们随时可用的创造力。\n\n“ChatGPT Work解放了我们的团队，”Ferrante解释道。“例如，需求生成团队可以在活动上更具创意，并通过ChatGPT Work筛选这些工作，它会为他们提供活动优化的想法。”\n\n团队可以更快地工作，在更紧的时间表内交付更好的成果。“突然间，工作被压缩了，或者时间表被压缩了，”Ferrante说。“工作从构思到执行的速度非常快，而且执行基本上是按需进行的。”\n\n随着营销团队产出更多交付物，他们也可以避免陷入报告工作的泥潭。Ferrante表示，借助ChatGPT Work，“我们能够将报告调整到位，这样我们就可以花更多时间做工作，而不是分析工作结果。”\n\n“这确实为我们的团队解锁了新的可能，让我们能够专注于更具战略性的工作，”Ferrante说。“我们突然能够让大量工作通过ChatGPT Work自动驾驶般地完成。”\n\n## 未来展望\n\n尽管ChatGPT Work已经带来了诸多好处，Ferrante看到了未来更大的潜力。“一些最具影响力的工作，将真正改变营销团队，是建立常开循环，而不仅仅是使用提示词，”Ferrante说。\n\nFerrante表示，最终目标是拥有一个“共享大脑”，利用会议、通话录音、客户和市场洞察中的背景信息。“我们将让工作在自动驾驶模式下进行，而人类可以成为品味引领者，”Ferrante说。",
+      "titleZh": "Zapier如何利用ChatGPT Work转型核心营销流程",
+      "summaryZh": "Zapier的企业营销团队使用ChatGPT Work来减少潜在客户漏斗中的流失数量，构建活动资产，并自动化报告。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "url": "https://openai.com/index/zapier",
+      "collectedAt": "2026-09-15T08:04:41.565Z"
+    },
+    {
+      "id": "8eb1e6a0a260fe518fb3",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+      "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
+      "content": "Virgin Atlantic is using ChatGPT Work to help its teams understand the airline’s complex customer journey and deliver better experiences faster. From competitive research to product planning and analytics, ChatGPT Work gives employees new ways to bring information together and move from insight to action.\n\nFor an airline, the customer journey extends beyond just booking a flight. It includes browsing, purchasing, checking in, traveling, the onboard experience, and sharing feedback afterward. Each stage produces valuable information, often held across different systems and reporting tools. Virgin Atlantic is using ChatGPT to connect those signals and help teams decide where to focus.\n\n## Turning weeks of research into hours\n\nAs Virgin Atlantic developed its new five-year strategy, its digital product team needed a clear view of the competitive landscape. Traditionally, assessing multiple competitors across a detailed customer journey could take weeks of manual research.\n\nUsing ChatGPT Work, the team created a structured framework and asked it to research competitor experiences, trace available customer journeys, and organize its findings into a dataset for review. The team could start the work in the morning, return a few hours later, and begin evaluating and refining the results.\n\n“As part of Virgin Atlantic’s five-year digital strategy, ChatGPT Work has helped us explore customer journeys and market experiences in a more structured and efficient way,” says Nathan Bolt, Head of Digital Product at Virgin Atlantic. “It enables our teams to compare journey patterns, surface opportunities, and turn insight into product decisions far faster than before. What might once have taken weeks can now be accelerated into hours, helping us focus investment where it can make the biggest difference for our customers.”\n\nThe analysis helped Virgin Atlantic identify areas where its digital experience was performing strongly, capabilities it needed to protect, and opportunities that warranted further investment. Those findings informed recommendations for the company’s five-year plan.\n\nChatGPT Work also helps the team synthesize strategy documents, customer insights, and digital experience data, making that information easier to explore and apply throughout the product lifecycle. “ChatGPT has allowed us to go from idea to actual product in customers’ hands much faster,” Bolt says.\n\n## Creating a connected view of the customer journey\n\nVirgin Atlantic’s customer experience and analytics teams face another challenge: bringing together data from many sources. Previously, employees had to navigate several dashboard tools, authenticated workspaces, licenses, user profiles, and report suites to understand different parts of the journey.\n\nWith ChatGPT Work and ChatGPT Sites, Virgin Atlantic is creating secure, authenticated dashboards that bring disparate datasets into a common interface. Employees across the business can access relevant views, explore information more easily, and make decisions for their own areas.\n\n“The ability to have a single interface that is customizable, that we can control and visualize in a way that we’ve not been able to before, has been game changing for us,” says Miles King, Head of Customer Experience at Virgin Atlantic.\n\nThe team has also used ChatGPT to create custom product-planning tools. Product teams can manage roadmaps, prioritization, fields, and quarterly planning in a way that fits Virgin Atlantic’s needs, while senior stakeholders can see simplified, high-level views. This flexibility helps teams spend less time adapting their work to rigid tools and more time delivering the roadmap.\n\n> “ChatGPT has really turbocharged our insights, understanding, and the ability to make decisions that ultimately enhance the end-to-end customer journey for our guests.”\n\n—Miles King, Head of Customer Experience at Virgin Atlantic\n\n## What’s next\n\nVirgin Atlantic sees more opportunities to bring ChatGPT Work into employees’ day-to-day work. Bolt already uses it as a “chief of staff” to surface important items across his calendar, Slack, and email, help him take action, and prepare presentations.\n\n“I’m able to do more within the same workday,” he says. “I’m not working longer hours necessarily, but I’m getting more done.”\n\nAs its use of ChatGPT Work expands, Virgin Atlantic will continue focusing on turning insight into faster decisions and better experiences for its customers. As King puts it, “ChatGPT helps me spot what customers need, decide what matters, act faster, and deliver.”",
+      "contentZh": "维珍大西洋航空正在使用ChatGPT Work帮助其团队理解航空公司复杂的客户旅程，并更快地提供更好的体验。从竞争研究到产品规划和数据分析，ChatGPT Work为员工提供了整合信息、将洞察转化为行动的新方式。\n\n对于航空公司而言，客户旅程不仅仅限于预订航班。它还包括浏览、购买、值机、旅行、机上体验以及事后的反馈分享。每个阶段都会产生有价值的信息，而这些信息往往分散在不同的系统和报告工具中。维珍大西洋航空正在使用ChatGPT来连接这些信号，帮助团队确定工作重点。\n\n## 将数周的研究缩短为数小时\n\n在维珍大西洋航空制定新的五年战略时，其数字产品团队需要清晰了解竞争格局。传统上，评估多个竞争对手在详细客户旅程中的表现可能需要数周的人工研究。\n\n借助ChatGPT Work，团队创建了一个结构化框架，要求其研究竞争对手的体验、追踪可用的客户旅程，并将研究结果整理成数据集以供审查。团队可以在早上开始工作，几小时后返回，开始评估和完善结果。\n\n“作为维珍大西洋航空五年数字战略的一部分，ChatGPT Work帮助我们以更结构化、更高效的方式探索客户旅程和市场体验，”维珍大西洋航空数字产品主管Nathan Bolt表示。“它使我们的团队能够比以往更快地比较旅程模式、发现机会，并将洞察转化为产品决策。过去可能需要数周的工作现在可以加速到数小时内完成，帮助我们集中投资于能为客户带来最大差异的领域。”\n\n这项分析帮助维珍大西洋航空识别出其数字体验表现强劲的领域、需要保护的能力，以及值得进一步投资的机会。这些发现为公司的五年计划提供了建议。\n\nChatGPT Work还帮助团队整合战略文档、客户洞察和数字体验数据，使这些信息在整个产品生命周期中更易于探索和应用。“ChatGPT使我们能够更快地从想法走向客户手中的实际产品，”Bolt表示。\n\n## 创建客户旅程的关联视图\n\n维珍大西洋航空的客户体验和分析团队面临另一个挑战：整合来自多个来源的数据。此前，员工必须浏览多个仪表盘工具、经过认证的工作区、许可证、用户配置文件和报告套件，才能了解旅程的不同部分。\n\n借助ChatGPT Work和ChatGPT Sites，维珍大西洋航空正在创建安全、经过认证的仪表盘，将不同的数据集整合到一个通用界面中。跨业务的员工可以访问相关视图，更轻松地探索信息，并为自己负责的领域做出决策。\n\n“拥有一个可定制的单一界面，能够以我们以前无法做到的方式进行控制和可视化，这对我们来说具有变革性意义，”维珍大西洋航空客户体验主管Miles King表示。\n\n团队还使用ChatGPT创建了自定义产品规划工具。产品团队可以以符合维珍大西洋航空需求的方式管理路线图、优先级排序、字段和季度规划，而高级利益相关者则可以看到简化的高层视图。这种灵活性帮助团队减少适应僵化工具的时间，将更多时间用于交付路线图。\n\n> “ChatGPT真正加速了我们的洞察力、理解力以及做出决策的能力，这些决策最终提升了我们客人的端到端客户旅程。”\n\n——Miles King，维珍大西洋航空客户体验主管\n\n## 下一步计划\n\n维珍大西洋航空看到了更多将ChatGPT Work融入员工日常工作的机会。Bolt已经将其用作“幕僚长”，帮助他整理日历、Slack和电子邮件中的重要事项，协助他采取行动并准备演示文稿。\n\n“我能在同一个工作日内完成更多工作，”他表示。“我不一定需要延长工作时间，但能完成更多事情。”\n\n随着ChatGPT Work使用范围的扩大，维珍大西洋航空将继续专注于将洞察转化为更快的决策和更好的客户体验。正如King所说，“ChatGPT帮助我发现客户需求、判断什么最重要、更快行动并交付成果。”",
+      "titleZh": "维珍航空借助ChatGPT Work优化客户旅程",
+      "summaryZh": "维珍航空正在利用ChatGPT Work加速研究、产品规划和决策，帮助团队连接客户旅程中的各种信号。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+      "collectedAt": "2026-09-15T08:04:41.566Z"
     },
     {
       "id": "968261fb57a0f452cb28",
@@ -1478,7 +1495,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.591Z"
+      "collectedAt": "2026-09-15T08:04:42.821Z"
     },
     {
       "id": "4b892749f4ed6e711322",
@@ -1495,7 +1512,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-07T09:00:00.000Z",
       "url": "https://openai.com/index/hsp-gruppe",
-      "collectedAt": "2026-09-14T08:10:19.337Z"
+      "collectedAt": "2026-09-15T08:04:41.567Z"
     },
     {
       "id": "f08640315c18fbc4f31c",
@@ -1512,7 +1529,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.591Z"
+      "collectedAt": "2026-09-15T08:04:42.822Z"
     },
     {
       "id": "d5755c0b97cd8308ee54",
@@ -1529,7 +1546,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T10:00:00.000Z",
       "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "collectedAt": "2026-09-14T08:10:19.338Z"
+      "collectedAt": "2026-09-15T08:04:41.567Z"
     },
     {
       "id": "0121f2aaabdbc2fbef18",
@@ -1546,7 +1563,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-      "collectedAt": "2026-09-14T08:10:19.338Z"
+      "collectedAt": "2026-09-15T08:04:41.568Z"
     },
     {
       "id": "ac5d129bc56db5435253",
@@ -1563,7 +1580,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-14T08:10:20.096Z"
+      "collectedAt": "2026-09-15T08:04:42.225Z"
     },
     {
       "id": "cbf5ffda58d43478b306",
@@ -1580,7 +1597,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.592Z"
+      "collectedAt": "2026-09-15T08:04:42.822Z"
     },
     {
       "id": "374a02a97939919169d2",
@@ -1597,7 +1614,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T19:00:00.000Z",
       "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "collectedAt": "2026-09-14T08:10:19.339Z"
+      "collectedAt": "2026-09-15T08:04:41.568Z"
     },
     {
       "id": "3feab47dffd4ec330ae5",
@@ -1614,7 +1631,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-      "collectedAt": "2026-09-14T08:10:19.339Z"
+      "collectedAt": "2026-09-15T08:04:41.569Z"
     },
     {
       "id": "c8f43754fdafecb85e1d",
@@ -1631,7 +1648,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T07:00:00.000Z",
       "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "collectedAt": "2026-09-14T08:10:19.340Z"
+      "collectedAt": "2026-09-15T08:04:41.569Z"
     },
     {
       "id": "6559d98a7d1bca755c17",
@@ -1648,7 +1665,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "url": "https://openai.com/index/circles",
-      "collectedAt": "2026-09-14T08:10:19.340Z"
+      "collectedAt": "2026-09-15T08:04:41.570Z"
     },
     {
       "id": "1b43c9e867bdb362c0cc",
@@ -1665,7 +1682,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.593Z"
+      "collectedAt": "2026-09-15T08:04:42.823Z"
     },
     {
       "id": "52e0cd114c7d854c3e96",
@@ -1682,7 +1699,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.593Z"
+      "collectedAt": "2026-09-15T08:04:42.823Z"
     },
     {
       "id": "b9d4476050e5d75f1b97",
@@ -1699,7 +1716,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T07:00:00.000Z",
       "url": "https://openai.com/index/unive",
-      "collectedAt": "2026-09-14T08:10:19.341Z"
+      "collectedAt": "2026-09-15T08:04:41.570Z"
     },
     {
       "id": "45bbaccf8d941517f323",
@@ -1716,7 +1733,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "collectedAt": "2026-09-14T08:10:19.341Z"
+      "collectedAt": "2026-09-15T08:04:41.571Z"
     },
     {
       "id": "af15e83e5c304730063b",
@@ -1733,7 +1750,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-14T08:10:25.234Z"
+      "collectedAt": "2026-09-15T08:04:46.532Z"
     },
     {
       "id": "b1fe0fa429937e85b2ef",
@@ -1750,7 +1767,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T15:00:59.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "collectedAt": "2026-09-14T08:10:21.971Z"
+      "collectedAt": "2026-09-15T08:04:43.986Z"
     },
     {
       "id": "56f1d8a8c0f3af9fdd08",
@@ -1767,7 +1784,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T10:00:00.000Z",
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "collectedAt": "2026-09-14T08:10:19.341Z"
+      "collectedAt": "2026-09-15T08:04:41.571Z"
     },
     {
       "id": "cfbf6b8394b6edd2d1cc",
@@ -1784,7 +1801,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://openai.com/index/avatarin",
-      "collectedAt": "2026-09-14T08:10:19.342Z"
+      "collectedAt": "2026-09-15T08:04:41.571Z"
     },
     {
       "id": "13c5281530ee4a6f4537",
@@ -1801,7 +1818,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-14T08:10:21.499Z"
+      "collectedAt": "2026-09-15T08:04:43.640Z"
     },
     {
       "id": "8aaceda53f7fc93dbf60",
@@ -1818,7 +1835,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T15:00:00.000Z",
       "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-      "collectedAt": "2026-09-14T08:10:19.342Z"
+      "collectedAt": "2026-09-15T08:04:41.572Z"
     },
     {
       "id": "002458279ec72570fffb",
@@ -1835,7 +1852,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "collectedAt": "2026-09-14T08:10:19.342Z"
+      "collectedAt": "2026-09-15T08:04:41.572Z"
     },
     {
       "id": "4c8b6c772be707078bbd",
@@ -1852,7 +1869,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "collectedAt": "2026-09-14T08:10:19.343Z"
+      "collectedAt": "2026-09-15T08:04:41.573Z"
     },
     {
       "id": "ca98ace8cf1a2a8d7872",
@@ -1869,7 +1886,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-09-14T08:10:20.977Z"
+      "collectedAt": "2026-09-15T08:04:43.134Z"
     },
     {
       "id": "bf370c7e47952f2da5c5",
@@ -1886,7 +1903,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-28T16:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "collectedAt": "2026-09-14T08:10:22.235Z"
+      "collectedAt": "2026-09-15T08:04:44.262Z"
     },
     {
       "id": "57b8f529f115263ec820",
@@ -1903,7 +1920,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-28T13:21:37.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-      "collectedAt": "2026-09-14T08:10:21.971Z"
+      "collectedAt": "2026-09-15T08:04:43.986Z"
     },
     {
       "id": "bc5ed3298105125d299c",
@@ -1920,7 +1937,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-27T03:30:00.000Z",
       "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "collectedAt": "2026-09-14T08:10:19.343Z"
+      "collectedAt": "2026-09-15T08:04:41.573Z"
     },
     {
       "id": "cb2584c1c5ba09bcd3a3",
@@ -1937,7 +1954,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-14T08:10:20.096Z"
+      "collectedAt": "2026-09-15T08:04:42.226Z"
     },
     {
       "id": "b363cad12be0dd76a830",
@@ -1954,7 +1971,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.594Z"
+      "collectedAt": "2026-09-15T08:04:42.824Z"
     },
     {
       "id": "c7991759e1e4a5d32f85",
@@ -1971,7 +1988,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-23T00:00:00.000Z",
       "url": "https://openai.com/index/health-in-chatgpt",
-      "collectedAt": "2026-09-14T08:10:19.344Z"
+      "collectedAt": "2026-09-15T08:04:41.573Z"
     },
     {
       "id": "6ccf2d78b5e86593806b",
@@ -1988,7 +2005,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T13:00:00.000Z",
       "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "collectedAt": "2026-09-14T08:10:19.344Z"
+      "collectedAt": "2026-09-15T08:04:41.574Z"
     },
     {
       "id": "658d60926ab2360afa2e",
@@ -2005,7 +2022,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T05:30:00.000Z",
       "url": "https://openai.com/index/introducing-openai-presence",
-      "collectedAt": "2026-09-14T08:10:19.344Z"
+      "collectedAt": "2026-09-15T08:04:41.574Z"
     },
     {
       "id": "c7e36c4d5f5533523bd4",
@@ -2022,7 +2039,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://openai.com/index/ntt-data",
-      "collectedAt": "2026-09-14T08:10:19.345Z"
+      "collectedAt": "2026-09-15T08:04:41.575Z"
     },
     {
       "id": "a300ec7a4d7064f7179d",
@@ -2039,7 +2056,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.595Z"
+      "collectedAt": "2026-09-15T08:04:42.825Z"
     },
     {
       "id": "afa41d5e8e9237f5cad2",
@@ -2056,7 +2073,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "collectedAt": "2026-09-14T08:10:19.345Z"
+      "collectedAt": "2026-09-15T08:04:41.575Z"
     },
     {
       "id": "176c2b61d3ba4a32ae38",
@@ -2073,7 +2090,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T15:16:30.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
-      "collectedAt": "2026-09-14T08:10:21.971Z"
+      "collectedAt": "2026-09-15T08:04:43.986Z"
     },
     {
       "id": "8b4028e43de92d3eef53",
@@ -2090,7 +2107,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T07:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "collectedAt": "2026-09-14T08:10:19.345Z"
+      "collectedAt": "2026-09-15T08:04:41.575Z"
     },
     {
       "id": "9e20c4d4744505bf3590",
@@ -2107,7 +2124,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-09-14T08:10:20.978Z"
+      "collectedAt": "2026-09-15T08:04:43.134Z"
     },
     {
       "id": "7ac3cf4e7948165dd06b",
@@ -2124,7 +2141,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-14T08:10:21.499Z"
+      "collectedAt": "2026-09-15T08:04:43.641Z"
     },
     {
       "id": "5237ec62c64502e0362e",
@@ -2141,7 +2158,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-20T10:00:00.000Z",
       "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "collectedAt": "2026-09-14T08:10:19.346Z"
+      "collectedAt": "2026-09-15T08:04:41.576Z"
     },
     {
       "id": "6fa040e6804071ffc67f",
@@ -2158,7 +2175,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-17T15:00:11.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
-      "collectedAt": "2026-09-14T08:10:21.971Z"
+      "collectedAt": "2026-09-15T08:04:43.987Z"
     },
     {
       "id": "453be2383653038965c7",
@@ -2175,7 +2192,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-17T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.596Z"
+      "collectedAt": "2026-09-15T08:04:42.826Z"
     },
     {
       "id": "37604a6bafa43b2cef23",
@@ -2192,7 +2209,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-      "collectedAt": "2026-09-14T08:10:19.346Z"
+      "collectedAt": "2026-09-15T08:04:41.576Z"
     },
     {
       "id": "58b103e4e418272fdf21",
@@ -2209,7 +2226,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T07:00:00.000Z",
       "url": "https://openai.com/index/codex-collaborator-creative-team",
-      "collectedAt": "2026-09-14T08:10:19.347Z"
+      "collectedAt": "2026-09-15T08:04:41.576Z"
     },
     {
       "id": "3e27101964501d6d280e",
@@ -2226,7 +2243,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-15T10:00:00.000Z",
       "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "collectedAt": "2026-09-14T08:10:19.347Z"
+      "collectedAt": "2026-09-15T08:04:41.577Z"
     },
     {
       "id": "064bc65fa5f9349bb063",
@@ -2243,24 +2260,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.596Z"
-    },
-    {
-      "id": "2a84bed91691bdac7e9f",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Sales workflows with ChatGPT Work",
-      "summary": "Learn practical ChatGPT Work workflows for pipeline briefs, meeting prep, account plans, forecast reviews, and deal diagnosis.",
-      "content": "OpenAI\n\nJuly 14, 2026\n\nOpenAI Academy\n\nExplore how sales teams can use ChatGPT Work to turn account context, customer conversations, and deal signals into pipeline briefs, meeting packs, forecast reviews, and account plans.\n\n*   [Watch the on-demand webinar](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex#watch-the-on-demand-webinar)\n*   [Install the sales plugin for ChatGPT Work](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex#install-the-sales-plugin-for-chatgpt-work)\n*   [Top ChatGPT Work use cases for sales teams](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex#top-chatgpt-work-use-cases-for-sales-teams)\n\nSales work often lives across CRM fields, call notes, email threads, Slack discussions, decks, customer docs, and account signals. ChatGPT Work helps pull that context together and produce the first usable version of the artifact, whether that is a prioritized account brief, meeting prep packet, forecast risk review, account strategy pack, or stalled-deal diagnosis. Sellers and managers still own the relationship strategy and judgment; ChatGPT Work helps get the working draft in front of the team faster.\n\n## Watch the on-demand webinar\n\n![Image 1: Cover image for How sales teams use Codex webinar](https://images.ctfassets.net/kftzwdyauwt9/4uAF2eygEqdddeqvA8dpx9/cd35d0ea2fc231128bd48f3a87ca2792/How_sales_teams_use_Codex.jpg?w=3840&q=90&fm=webp)\n\n**Note:** This webinar was recorded when these workflows lived in the former Codex app. You can now follow along using ChatGPT Work at chatgpt.com or in the ChatGPT desktop app.\n\n## Install the sales plugin for ChatGPT Work\n\nThe ChatGPT Work**sales plugin**helps sales teams bring customer context into the work that moves deals forward. Sales teams can find high-priority accounts and signals, prepare for customer meetings, complete follow-ups, update customer records, build close plans, and review deals at risk using tools like Salesforce, HubSpot, Slack, Outreach, Clay, Rox, and Actively. Already have ChatGPT Work installed? Click [**here**⁠(opens in a new window)](https://chatgpt.com/plugins/share/22ec24462a4a410bba1c56c099f6101c) to install the Sales plugin.\n\n## Top ChatGPT Work use cases for sales teams",
-      "contentZh": "OpenAI\n\n2026年7月14日\n\nOpenAI Academy\n\n了解销售团队如何利用ChatGPT Work将客户背景、客户对话和交易信号转化为管道简报、会议资料包、预测审查和客户计划。\n\n*   [观看点播网络研讨会](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex#watch-the-on-demand-webinar)\n*   [为ChatGPT Work安装销售插件](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex#install-the-sales-plugin-for-chatgpt-work)\n*   [面向销售团队的ChatGPT Work热门用例](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex#top-chatgpt-work-use-cases-for-sales-teams)\n\n销售工作通常分散在CRM字段、通话记录、电子邮件线程、Slack讨论、演示文稿、客户文档和客户信号中。ChatGPT Work有助于整合这些背景信息，并生成成果物的首个可用版本，无论是优先级客户简报、会议准备资料包、预测风险审查、客户策略包，还是停滞交易诊断。销售人员和经理仍然负责关系策略和判断；ChatGPT Work帮助团队更快地获得工作草稿。\n\n## 观看点播网络研讨会\n\n![图片1：销售团队如何使用Codex网络研讨会封面图](https://images.ctfassets.net/kftzwdyauwt9/4uAF2eygEqdddeqvA8dpx9/cd35d0ea2fc231128bd48f3a87ca2792/How_sales_teams_use_Codex.jpg?w=3840&q=90&fm=webp)\n\n**注意：** 本次网络研讨会录制时，这些工作流程位于之前的Codex应用中。您现在可以在chatgpt.com或ChatGPT桌面应用中使用ChatGPT Work进行同样的操作。\n\n## 为ChatGPT Work安装销售插件\n\nChatGPT Work**销售插件**帮助销售团队将客户背景信息引入推动交易进展的工作中。销售团队可以使用Salesforce、HubSpot、Slack、Outreach、Clay、Rox和Actively等工具，查找高优先级客户和信号、准备客户会议、完成后续跟进、更新客户记录、制定成交计划，并审查有风险的交易。已经安装了ChatGPT Work？点击[**此处⁠（在新窗口中打开）**](https://chatgpt.com/plugins/share/22ec24462a4a410bba1c56c099f6101c)安装销售插件。\n\n## 面向销售团队的ChatGPT Work热门用例",
-      "titleZh": "使用ChatGPT Work的销售工作流程",
-      "summaryZh": "了解ChatGPT Work在管道简报、会议准备、客户计划、预测审查和交易诊断方面的实用工作流程。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-07-14T00:00:00.000Z",
-      "url": "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
-      "collectedAt": "2026-09-14T08:10:19.348Z"
+      "collectedAt": "2026-09-15T08:04:42.826Z"
     },
     {
       "id": "58cd43a6843f5828b315",
@@ -2277,7 +2277,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex",
-      "collectedAt": "2026-09-14T08:10:19.348Z"
+      "collectedAt": "2026-09-15T08:04:41.577Z"
+    },
+    {
+      "id": "2a84bed91691bdac7e9f",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Sales workflows with ChatGPT Work",
+      "summary": "Learn practical ChatGPT Work workflows for pipeline briefs, meeting prep, account plans, forecast reviews, and deal diagnosis.",
+      "content": "OpenAI\n\nJuly 14, 2026\n\nOpenAI Academy\n\nExplore how sales teams can use ChatGPT Work to turn account context, customer conversations, and deal signals into pipeline briefs, meeting packs, forecast reviews, and account plans.\n\n*   [Watch the on-demand webinar](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex#watch-the-on-demand-webinar)\n*   [Install the sales plugin for ChatGPT Work](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex#install-the-sales-plugin-for-chatgpt-work)\n*   [Top ChatGPT Work use cases for sales teams](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex#top-chatgpt-work-use-cases-for-sales-teams)\n\nSales work often lives across CRM fields, call notes, email threads, Slack discussions, decks, customer docs, and account signals. ChatGPT Work helps pull that context together and produce the first usable version of the artifact, whether that is a prioritized account brief, meeting prep packet, forecast risk review, account strategy pack, or stalled-deal diagnosis. Sellers and managers still own the relationship strategy and judgment; ChatGPT Work helps get the working draft in front of the team faster.\n\n## Watch the on-demand webinar\n\n![Image 1: Cover image for How sales teams use Codex webinar](https://images.ctfassets.net/kftzwdyauwt9/4uAF2eygEqdddeqvA8dpx9/cd35d0ea2fc231128bd48f3a87ca2792/How_sales_teams_use_Codex.jpg?w=3840&q=90&fm=webp)\n\n**Note:** This webinar was recorded when these workflows lived in the former Codex app. You can now follow along using ChatGPT Work at chatgpt.com or in the ChatGPT desktop app.\n\n## Install the sales plugin for ChatGPT Work\n\nThe ChatGPT Work**sales plugin**helps sales teams bring customer context into the work that moves deals forward. Sales teams can find high-priority accounts and signals, prepare for customer meetings, complete follow-ups, update customer records, build close plans, and review deals at risk using tools like Salesforce, HubSpot, Slack, Outreach, Clay, Rox, and Actively. Already have ChatGPT Work installed? Click [**here**⁠(opens in a new window)](https://chatgpt.com/plugins/share/22ec24462a4a410bba1c56c099f6101c) to install the Sales plugin.\n\n## Top ChatGPT Work use cases for sales teams",
+      "contentZh": "OpenAI\n\n2026年7月14日\n\nOpenAI Academy\n\n了解销售团队如何利用ChatGPT Work将客户背景、客户对话和交易信号转化为管道简报、会议资料包、预测审查和客户计划。\n\n*   [观看点播网络研讨会](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex#watch-the-on-demand-webinar)\n*   [为ChatGPT Work安装销售插件](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex#install-the-sales-plugin-for-chatgpt-work)\n*   [面向销售团队的ChatGPT Work热门用例](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex#top-chatgpt-work-use-cases-for-sales-teams)\n\n销售工作通常分散在CRM字段、通话记录、电子邮件线程、Slack讨论、演示文稿、客户文档和客户信号中。ChatGPT Work有助于整合这些背景信息，并生成成果物的首个可用版本，无论是优先级客户简报、会议准备资料包、预测风险审查、客户策略包，还是停滞交易诊断。销售人员和经理仍然负责关系策略和判断；ChatGPT Work帮助团队更快地获得工作草稿。\n\n## 观看点播网络研讨会\n\n![图片1：销售团队如何使用Codex网络研讨会封面图](https://images.ctfassets.net/kftzwdyauwt9/4uAF2eygEqdddeqvA8dpx9/cd35d0ea2fc231128bd48f3a87ca2792/How_sales_teams_use_Codex.jpg?w=3840&q=90&fm=webp)\n\n**注意：** 本次网络研讨会录制时，这些工作流程位于之前的Codex应用中。您现在可以在chatgpt.com或ChatGPT桌面应用中使用ChatGPT Work进行同样的操作。\n\n## 为ChatGPT Work安装销售插件\n\nChatGPT Work**销售插件**帮助销售团队将客户背景信息引入推动交易进展的工作中。销售团队可以使用Salesforce、HubSpot、Slack、Outreach、Clay、Rox和Actively等工具，查找高优先级客户和信号、准备客户会议、完成后续跟进、更新客户记录、制定成交计划，并审查有风险的交易。已经安装了ChatGPT Work？点击[**此处⁠（在新窗口中打开）**](https://chatgpt.com/plugins/share/22ec24462a4a410bba1c56c099f6101c)安装销售插件。\n\n## 面向销售团队的ChatGPT Work热门用例",
+      "titleZh": "使用ChatGPT Work的销售工作流程",
+      "summaryZh": "了解ChatGPT Work在管道简报、会议准备、客户计划、预测审查和交易诊断方面的实用工作流程。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-07-14T00:00:00.000Z",
+      "url": "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
+      "collectedAt": "2026-09-15T08:04:41.578Z"
     },
     {
       "id": "9ef49567f47481113df8",
@@ -2294,7 +2311,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-14T08:10:20.097Z"
+      "collectedAt": "2026-09-15T08:04:42.226Z"
     },
     {
       "id": "02a4b9621f0b60b565aa",
@@ -2311,7 +2328,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.597Z"
+      "collectedAt": "2026-09-15T08:04:42.827Z"
     },
     {
       "id": "eb3326089562a28362a2",
@@ -2328,7 +2345,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-13T12:37:28.000Z",
       "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-      "collectedAt": "2026-09-14T08:10:21.972Z"
+      "collectedAt": "2026-09-15T08:04:43.987Z"
     },
     {
       "id": "1e5af8ca0d8bc5e26703",
@@ -2345,7 +2362,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://openai.com/academy/getting-started",
-      "collectedAt": "2026-09-14T08:10:19.348Z"
+      "collectedAt": "2026-09-15T08:04:41.578Z"
     },
     {
       "id": "7735ad0dbb31b9a6729b",
@@ -2362,7 +2379,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-14T08:10:20.097Z"
+      "collectedAt": "2026-09-15T08:04:42.227Z"
     },
     {
       "id": "3cb521040949bbeed24b",
@@ -2379,7 +2396,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.597Z"
+      "collectedAt": "2026-09-15T08:04:42.828Z"
     },
     {
       "id": "b7ede73bbb83c239838d",
@@ -2396,7 +2413,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T13:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "collectedAt": "2026-09-14T08:10:19.349Z"
+      "collectedAt": "2026-09-15T08:04:41.579Z"
     },
     {
       "id": "cd73a370d60dec12bb60",
@@ -2413,7 +2430,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "collectedAt": "2026-09-14T08:10:19.349Z"
+      "collectedAt": "2026-09-15T08:04:41.579Z"
     },
     {
       "id": "0cc76793af620f7bb10c",
@@ -2430,7 +2447,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/bio-bug-bounty",
-      "collectedAt": "2026-09-14T08:10:19.349Z"
+      "collectedAt": "2026-09-15T08:04:41.579Z"
     },
     {
       "id": "3a73e1016004964e66d6",
@@ -2447,7 +2464,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6",
-      "collectedAt": "2026-09-14T08:10:19.350Z"
+      "collectedAt": "2026-09-15T08:04:41.580Z"
     },
     {
       "id": "6756ae3b0445393cf58b",
@@ -2464,7 +2481,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-14T08:10:20.098Z"
+      "collectedAt": "2026-09-15T08:04:42.228Z"
     },
     {
       "id": "74a441f786f49a59775d",
@@ -2481,7 +2498,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T13:00:00.000Z",
       "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "collectedAt": "2026-09-14T08:10:19.350Z"
+      "collectedAt": "2026-09-15T08:04:41.580Z"
     },
     {
       "id": "4acf2eda2e0fe738f5c1",
@@ -2498,7 +2515,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-live",
-      "collectedAt": "2026-09-14T08:10:19.351Z"
+      "collectedAt": "2026-09-15T08:04:41.580Z"
     },
     {
       "id": "5432c0edbd62ccd22a23",
@@ -2515,24 +2532,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.598Z"
-    },
-    {
-      "id": "ae43b3314d8877dd3dce",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
-      "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-      "content": "[Australian Payments Plus⁠(opens in a new window)](https://www.auspayplus.com.au/), or AP+, operates payments and identity infrastructure across Australia. It sits at the center of the payments ecosystem, supporting products and services used by millions of people every day.\n\nIts teams work across scheme rules, technical specifications, member obligations, operational processes, cybersecurity and resilience, and regulatory expectations, where speed matters but accuracy and accountability matter more.\n\nThat makes knowledge work unusually complex. Employees often need to synthesize large volumes of context and turn technical information into clear decisions, documents, and member-facing guidance. AP+ introduced ChatGPT Enterprise across the company to help employees move through that complexity faster, with Codex emerging as the next stage for product, engineering, and technical workflows.\n\n> “With AI, the goal is not simply greater efficiency, it is also about helping our people to do their best work.”\n\n—Steve Reid, Chief People and Culture Officer, Australian Payments Plus\n\n![Image 1](https://images.ctfassets.net/kftzwdyauwt9/6sFq6pAd8z0jI3kh2f4uLr/dc2dcb29aab6eac42fc307715ee79097/AP_office-214__1___1_.jpg?w=3840&q=90&fm=webp)\n\n## Accelerating technical investigation\n\nCodex is helping AP+ technical teams investigate complex issues across payment systems. In one reconciliation instance, AP+ teams used Codex to trace a subtle timestamp inconsistency across system logs and reconciliation data, reducing days of manual investigation to minutes.\n\nFor AP+, this shows how AI can help technical teams investigate complex issues more efficiently in a demanding payments environment. AP+ is also exploring how Codex can assist security teams in areas such as threat modeling, vulnerability analysis, alert triage, and visibility across interconnected systems.\n\nThese early use cases show how AI can help specialists investigate complex issues faster while keeping human experts accountable for risk decisions, validation, and response.\n\n## Moving faster through payments complexity\n\nBefore ChatGPT Enterprise, finding the right information could be a slow, manual process. AP+ employees often needed to search across scheme rules, technical specifications, and internal documents to answer a question or move work forward. In the payments environment, a small detail can change the answer.\n\nAP+ teams now use ChatGPT Enterprise to summarize complex material, help draft data-driven member communications, and structure ambiguous problems.\n\nFor instance, by using ChatGPT to navigate eftpos specifications and related documents, employees can find the right starting point faster before applying expert review.\n\n> “ChatGPT helps our teams find the right specifications and documents faster, so they can respond to customer queries with more confidence, backed by expert review.”\n\n—Jason Backhouse, Chief Operations and Delivery Officer, Australian Payments Plus\n\n## Turning rough inputs into decision-ready work\n\nAcross AP+, employees use ChatGPT to turn information and working inputs into structured outputs faster. Notes become meeting summaries. Workshop inputs become decision materials. Dense design documents become solution overviews. Draft communications become clearer before they are shared.\n\nThis work has always required careful synthesis: understanding the context, finding the right structure, and shaping information for the audience. ChatGPT helps reduce the time spent getting to a first useful version, so employees can focus more on judgment, clarity, and quality.\n\nRather than automating work, ChatGPT acts as a sparring partner, helping teams sharpen their messages, test their thinking, and remove ambiguity before work is shared.\n\nAccording to AP+'s internal data, ChatGPT helped 80% of employees be more creative or improve work quality. Across AP+, employees have also created more than 300 custom GPTs and more than 1,000 Projects, reflecting broad adoption.\n\n> “Using ChatGPT, our teams can get to a structured first draft faster, whether they are working from meeting notes, workshop outputs, or complex documents. That gives people more time to refine their thinking and make the work stronger.”\n\n—Jo Pforr, Head of AI, Australian Payments Plus\n\n![Image 2](https://images.ctfassets.net/kftzwdyauwt9/7Fh0STQf4kmrFF3hkl2olQ/1b568b59dc280b77d1b9c62646ffdb78/AP_office-375__1___1_.jpg?w=3840&q=90&fm=webp)\n\n## Testing ideas earlier with ChatGPT and Codex\n\nIn product development, teams are using ChatGPT Enterprise and Codex to move from static prototypes to more functional product concepts. Previously, early-stage product testing often relied on click-through screens that showed what an experience might look like, but not how it would behave.\n\nNow, teams can simulate payment journeys, mobile interactions, authentication flows, and checkout experiences in environments that behave closer to real systems. For instance, AP+ uses Codex to build working simulations in 1 day, down from what could previously take days to weeks.\n\nThat matters in payments, where customer behavior can change depending on timing, authentication prompts, device interactions, or transaction flows. By testing more realistic concepts earlier, AP+ teams can gather better feedback and reduce innovation risk before significant engineering investment is required.\n\n> “Our job is to reduce risk and make better payment experience easier to achieve across the ecosystem. With AI, our teams can explore more ideas and validate or invalidate thinking faster—which means we deliver on that faster.”\n\n—Jason Backhouse, Chief Operations and Delivery Officer, Australian Payments Plus\n\n## Leadership lessons\n\nAP+'s experience offers practical lessons for regulated organizations looking to scale AI responsibly across everyday work.\n\n*   **Make the secure path the easy path.** AP+ focused on giving employees secure, governed tools with appropriate access so they could experiment safely within clear boundaries.\n*   **Make governance a launch partner.** In a regulated environment, adoption depends on high-quality conversations across the teams accountable for privacy, security, governance, and operational risk.\n*   **Let teams learn in context.** AP+ found that AI adoption works best when employees see relevant examples from their own teams, not generic training alone.\n*   **Use champions to make change tangible.** AI champions help bring use cases into existing team rhythms, reducing the need for extra meetings or standalone AI programs.\n\n> “AI creates the most value when employee-driven innovation is backed by leadership-led enablement.”\n\n—Steve Reid, Chief People and Culture Officer, Australian Payments Plus\n\n## What's next\n\nAs ChatGPT Enterprise becomes part of daily work and Codex adoption grows, AP+ is expanding how teams use AI across product development, technical investigation, and member-facing workflows, always with expert review and human accountability.\n\nWith OpenAI's solutions, AP+ is helping its employees move faster through complexity while keeping responsible adoption central.",
-      "contentZh": "[澳大利亚支付+⁠(在新窗口中打开)](https://www.auspayplus.com.au/)（简称AP+）在澳大利亚运营支付和身份基础设施。它处于支付生态系统的核心位置，支持着数百万人日常使用的产品和服务。\n\n其团队的工作涉及方案规则、技术规范、成员义务、运营流程、网络安全与韧性以及监管预期，在这些工作中，速度固然重要，但准确性和责任担当更为关键。\n\n这使得知识工作异常复杂。员工通常需要综合大量背景信息，将技术资料转化为清晰的决策、文档和面向成员的指导。AP+在全公司引入了ChatGPT Enterprise，帮助员工更快地应对这种复杂性，而Codex则成为产品、工程和技术工作流程的下一阶段工具。\n\n> “借助AI，目标不仅仅是提高效率，更是帮助我们的员工发挥出最佳水平。”\n>\n> ——Steve Reid，澳大利亚支付+首席人事与文化官\n\n![图片1](https://images.ctfassets.net/kftzwdyauwt9/6sFq6pAd8z0jI3kh2f4uLr/dc2dcb29aab6eac42fc307715ee79097/AP_office-214__1___1_.jpg?w=3840&q=90&fm=webp)\n\n## 加速技术调查\n\nCodex正在帮助AP+技术团队调查支付系统中的复杂问题。在一次对账实例中，AP+团队使用Codex追踪了系统日志和对账数据中一个细微的时间戳不一致问题，将原本需要数天的人工调查缩短至几分钟。\n\n对AP+而言，这表明AI如何在要求严苛的支付环境中帮助技术团队更高效地调查复杂问题。AP+还在探索Codex如何协助安全团队进行威胁建模、漏洞分析、警报分类以及跨互联系统的可见性等工作。\n\n这些早期用例展示了AI如何帮助专业人员更快地调查复杂问题，同时让人类专家对风险决策、验证和响应负责。\n\n## 更快应对支付复杂性\n\n在引入ChatGPT Enterprise之前，查找正确的信息可能是一个缓慢的手动过程。AP+员工通常需要搜索方案规则、技术规范和内部文档才能回答一个问题或推进工作。在支付环境中，一个微小的细节就可能改变答案。\n\nAP+团队现在使用ChatGPT Enterprise来总结复杂材料、协助起草数据驱动的成员沟通内容，并梳理模糊的问题。\n\n例如，通过使用ChatGPT查阅eftpos规范及相关文档，员工可以在进行专家评审之前更快地找到正确的起点。\n\n> “ChatGPT帮助我们的团队更快地找到正确的规范和文档，从而在专家评审的支持下，更有信心地回应客户咨询。”\n>\n> ——Jason Backhouse，澳大利亚支付+首席运营与交付官\n\n## 将粗略输入转化为可决策的成果\n\n在整个AP+，员工使用ChatGPT将信息和初步输入更快地转化为结构化输出。笔记变成会议纪要。研讨会输入变成决策材料。密集的设计文档变成解决方案概述。草拟的沟通内容在分享前变得更加清晰。\n\n这类工作一直需要仔细的综合：理解背景、找到正确的结构、为受众塑造信息。ChatGPT有助于减少达到第一个可用版本所花费的时间，让员工能更专注于判断、清晰度和质量。\n\nChatGPT并非自动化工作，而是充当一个陪练伙伴，帮助团队在分享工作成果之前，打磨信息、检验思路并消除歧义。\n\n根据AP+的内部数据，ChatGPT帮助80%的员工提高了创造力或工作质量。在整个AP+，员工还创建了超过300个自定义GPT和超过1000个项目，这反映了广泛的采用率。\n\n> “使用ChatGPT，我们的团队可以更快地获得结构化的初稿，无论他们是从会议记录、研讨会产出还是复杂文档入手。这给了人们更多时间来完善他们的思考，使工作成果更出色。”\n>\n> ——Jo Pforr，澳大利亚支付+人工智能主管\n\n![图片2](https://images.ctfassets.net/kftzwdyauwt9/7Fh0STQf4kmrFF3hkl2olQ/1b568b59dc280b77d1b9c62646ffdb78/AP_office-375__1___1_.jpg?w=3840&q=90&fm=webp)\n\n## 借助ChatGPT和Codex更早测试想法\n\n在产品开发中，团队正在使用ChatGPT Enterprise和Codex从静态原型转向功能更完善的产品概念。此前，早期产品测试通常依赖于点击式屏幕，这些屏幕只能展示体验可能的样子，而无法展示其行为方式。\n\n现在，团队可以在更接近真实系统行为的环境中模拟支付流程、移动交互、认证流程和结账体验。例如，AP+使用Codex在1天内构建出可运行的模拟，而以前这可能需要数天到数周的时间。\n\n这在支付领域至关重要，因为客户行为可能因时间、认证提示、设备交互或交易流程而改变。通过更早地测试更逼真的概念，AP+团队可以在需要大量工程投入之前收集更好的反馈并降低创新风险。\n\n> “我们的职责是降低风险，并使整个生态系统更容易实现更好的支付体验。借助AI，我们的团队可以探索更多想法，并更快地验证或否定思路——这意味着我们能更快地实现目标。”\n>\n> ——Jason Backhouse，澳大利亚支付+首席运营与交付官\n\n## 领导力经验\n\nAP+的经验为受监管的组织提供了实用经验，帮助它们负责任地在日常工作中推广AI。\n\n*   **让安全路径成为便捷路径。** AP+专注于为员工提供安全、受管控的工具和适当的访问权限，使他们能够在明确的界限内安全地进行实验。\n*   **让治理成为启动伙伴。** 在受监管的环境中，采用率取决于负责隐私、安全、治理和运营风险的团队之间高质量的对话。\n*   **让团队在情境中学习。** AP+发现，当员工看到来自自己团队的相关示例，而不仅仅是通用培训时，AI的采用效果最好。\n*   **利用倡导者让变革变得具体。** AI倡导者有助于将用例融入现有的团队节奏，减少额外会议或独立AI项目的需求。\n\n> “当员工驱动的创新得到领导层主导的赋能支持时，AI能创造最大价值。”\n>\n> ——Steve Reid，澳大利亚支付+首席人事与文化官\n\n## 未来展望\n\n随着ChatGPT Enterprise成为日常工作的一部分以及Codex采用率的增长，AP+正在扩展团队在产品开发、技术调查和面向成员的工作流程中使用AI的方式，并且始终伴随着专家评审和人类责任担当。\n\n借助OpenAI的解决方案，AP+正帮助员工在复杂环境中加速前行，同时始终将负责任的应用置于核心地位。",
-      "titleZh": "澳大利亚支付Plus借助ChatGPT和Codex加速发展",
-      "summaryZh": "了解澳大利亚支付Plus如何利用ChatGPT Enterprise和Codex在支付复杂性中加速发展。AP+节省时间、提高质量，并保持人类判断的核心地位。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "url": "https://openai.com/index/australian-payments-plus",
-      "collectedAt": "2026-09-14T08:10:19.351Z"
+      "collectedAt": "2026-09-15T08:04:42.828Z"
     },
     {
       "id": "4c936674f4b219ed493a",
@@ -2549,7 +2549,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://openai.com/index/mufg",
-      "collectedAt": "2026-09-14T08:10:19.351Z"
+      "collectedAt": "2026-09-15T08:04:41.581Z"
+    },
+    {
+      "id": "ae43b3314d8877dd3dce",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+      "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+      "content": "[Australian Payments Plus⁠(opens in a new window)](https://www.auspayplus.com.au/), or AP+, operates payments and identity infrastructure across Australia. It sits at the center of the payments ecosystem, supporting products and services used by millions of people every day.\n\nIts teams work across scheme rules, technical specifications, member obligations, operational processes, cybersecurity and resilience, and regulatory expectations, where speed matters but accuracy and accountability matter more.\n\nThat makes knowledge work unusually complex. Employees often need to synthesize large volumes of context and turn technical information into clear decisions, documents, and member-facing guidance. AP+ introduced ChatGPT Enterprise across the company to help employees move through that complexity faster, with Codex emerging as the next stage for product, engineering, and technical workflows.\n\n> “With AI, the goal is not simply greater efficiency, it is also about helping our people to do their best work.”\n\n—Steve Reid, Chief People and Culture Officer, Australian Payments Plus\n\n![Image 1](https://images.ctfassets.net/kftzwdyauwt9/6sFq6pAd8z0jI3kh2f4uLr/dc2dcb29aab6eac42fc307715ee79097/AP_office-214__1___1_.jpg?w=3840&q=90&fm=webp)\n\n## Accelerating technical investigation\n\nCodex is helping AP+ technical teams investigate complex issues across payment systems. In one reconciliation instance, AP+ teams used Codex to trace a subtle timestamp inconsistency across system logs and reconciliation data, reducing days of manual investigation to minutes.\n\nFor AP+, this shows how AI can help technical teams investigate complex issues more efficiently in a demanding payments environment. AP+ is also exploring how Codex can assist security teams in areas such as threat modeling, vulnerability analysis, alert triage, and visibility across interconnected systems.\n\nThese early use cases show how AI can help specialists investigate complex issues faster while keeping human experts accountable for risk decisions, validation, and response.\n\n## Moving faster through payments complexity\n\nBefore ChatGPT Enterprise, finding the right information could be a slow, manual process. AP+ employees often needed to search across scheme rules, technical specifications, and internal documents to answer a question or move work forward. In the payments environment, a small detail can change the answer.\n\nAP+ teams now use ChatGPT Enterprise to summarize complex material, help draft data-driven member communications, and structure ambiguous problems.\n\nFor instance, by using ChatGPT to navigate eftpos specifications and related documents, employees can find the right starting point faster before applying expert review.\n\n> “ChatGPT helps our teams find the right specifications and documents faster, so they can respond to customer queries with more confidence, backed by expert review.”\n\n—Jason Backhouse, Chief Operations and Delivery Officer, Australian Payments Plus\n\n## Turning rough inputs into decision-ready work\n\nAcross AP+, employees use ChatGPT to turn information and working inputs into structured outputs faster. Notes become meeting summaries. Workshop inputs become decision materials. Dense design documents become solution overviews. Draft communications become clearer before they are shared.\n\nThis work has always required careful synthesis: understanding the context, finding the right structure, and shaping information for the audience. ChatGPT helps reduce the time spent getting to a first useful version, so employees can focus more on judgment, clarity, and quality.\n\nRather than automating work, ChatGPT acts as a sparring partner, helping teams sharpen their messages, test their thinking, and remove ambiguity before work is shared.\n\nAccording to AP+'s internal data, ChatGPT helped 80% of employees be more creative or improve work quality. Across AP+, employees have also created more than 300 custom GPTs and more than 1,000 Projects, reflecting broad adoption.\n\n> “Using ChatGPT, our teams can get to a structured first draft faster, whether they are working from meeting notes, workshop outputs, or complex documents. That gives people more time to refine their thinking and make the work stronger.”\n\n—Jo Pforr, Head of AI, Australian Payments Plus\n\n![Image 2](https://images.ctfassets.net/kftzwdyauwt9/7Fh0STQf4kmrFF3hkl2olQ/1b568b59dc280b77d1b9c62646ffdb78/AP_office-375__1___1_.jpg?w=3840&q=90&fm=webp)\n\n## Testing ideas earlier with ChatGPT and Codex\n\nIn product development, teams are using ChatGPT Enterprise and Codex to move from static prototypes to more functional product concepts. Previously, early-stage product testing often relied on click-through screens that showed what an experience might look like, but not how it would behave.\n\nNow, teams can simulate payment journeys, mobile interactions, authentication flows, and checkout experiences in environments that behave closer to real systems. For instance, AP+ uses Codex to build working simulations in 1 day, down from what could previously take days to weeks.\n\nThat matters in payments, where customer behavior can change depending on timing, authentication prompts, device interactions, or transaction flows. By testing more realistic concepts earlier, AP+ teams can gather better feedback and reduce innovation risk before significant engineering investment is required.\n\n> “Our job is to reduce risk and make better payment experience easier to achieve across the ecosystem. With AI, our teams can explore more ideas and validate or invalidate thinking faster—which means we deliver on that faster.”\n\n—Jason Backhouse, Chief Operations and Delivery Officer, Australian Payments Plus\n\n## Leadership lessons\n\nAP+'s experience offers practical lessons for regulated organizations looking to scale AI responsibly across everyday work.\n\n*   **Make the secure path the easy path.** AP+ focused on giving employees secure, governed tools with appropriate access so they could experiment safely within clear boundaries.\n*   **Make governance a launch partner.** In a regulated environment, adoption depends on high-quality conversations across the teams accountable for privacy, security, governance, and operational risk.\n*   **Let teams learn in context.** AP+ found that AI adoption works best when employees see relevant examples from their own teams, not generic training alone.\n*   **Use champions to make change tangible.** AI champions help bring use cases into existing team rhythms, reducing the need for extra meetings or standalone AI programs.\n\n> “AI creates the most value when employee-driven innovation is backed by leadership-led enablement.”\n\n—Steve Reid, Chief People and Culture Officer, Australian Payments Plus\n\n## What's next\n\nAs ChatGPT Enterprise becomes part of daily work and Codex adoption grows, AP+ is expanding how teams use AI across product development, technical investigation, and member-facing workflows, always with expert review and human accountability.\n\nWith OpenAI's solutions, AP+ is helping its employees move faster through complexity while keeping responsible adoption central.",
+      "contentZh": "[澳大利亚支付+⁠(在新窗口中打开)](https://www.auspayplus.com.au/)（简称AP+）在澳大利亚运营支付和身份基础设施。它处于支付生态系统的核心位置，支持着数百万人日常使用的产品和服务。\n\n其团队的工作涉及方案规则、技术规范、成员义务、运营流程、网络安全与韧性以及监管预期，在这些工作中，速度固然重要，但准确性和责任担当更为关键。\n\n这使得知识工作异常复杂。员工通常需要综合大量背景信息，将技术资料转化为清晰的决策、文档和面向成员的指导。AP+在全公司引入了ChatGPT Enterprise，帮助员工更快地应对这种复杂性，而Codex则成为产品、工程和技术工作流程的下一阶段工具。\n\n> “借助AI，目标不仅仅是提高效率，更是帮助我们的员工发挥出最佳水平。”\n>\n> ——Steve Reid，澳大利亚支付+首席人事与文化官\n\n![图片1](https://images.ctfassets.net/kftzwdyauwt9/6sFq6pAd8z0jI3kh2f4uLr/dc2dcb29aab6eac42fc307715ee79097/AP_office-214__1___1_.jpg?w=3840&q=90&fm=webp)\n\n## 加速技术调查\n\nCodex正在帮助AP+技术团队调查支付系统中的复杂问题。在一次对账实例中，AP+团队使用Codex追踪了系统日志和对账数据中一个细微的时间戳不一致问题，将原本需要数天的人工调查缩短至几分钟。\n\n对AP+而言，这表明AI如何在要求严苛的支付环境中帮助技术团队更高效地调查复杂问题。AP+还在探索Codex如何协助安全团队进行威胁建模、漏洞分析、警报分类以及跨互联系统的可见性等工作。\n\n这些早期用例展示了AI如何帮助专业人员更快地调查复杂问题，同时让人类专家对风险决策、验证和响应负责。\n\n## 更快应对支付复杂性\n\n在引入ChatGPT Enterprise之前，查找正确的信息可能是一个缓慢的手动过程。AP+员工通常需要搜索方案规则、技术规范和内部文档才能回答一个问题或推进工作。在支付环境中，一个微小的细节就可能改变答案。\n\nAP+团队现在使用ChatGPT Enterprise来总结复杂材料、协助起草数据驱动的成员沟通内容，并梳理模糊的问题。\n\n例如，通过使用ChatGPT查阅eftpos规范及相关文档，员工可以在进行专家评审之前更快地找到正确的起点。\n\n> “ChatGPT帮助我们的团队更快地找到正确的规范和文档，从而在专家评审的支持下，更有信心地回应客户咨询。”\n>\n> ——Jason Backhouse，澳大利亚支付+首席运营与交付官\n\n## 将粗略输入转化为可决策的成果\n\n在整个AP+，员工使用ChatGPT将信息和初步输入更快地转化为结构化输出。笔记变成会议纪要。研讨会输入变成决策材料。密集的设计文档变成解决方案概述。草拟的沟通内容在分享前变得更加清晰。\n\n这类工作一直需要仔细的综合：理解背景、找到正确的结构、为受众塑造信息。ChatGPT有助于减少达到第一个可用版本所花费的时间，让员工能更专注于判断、清晰度和质量。\n\nChatGPT并非自动化工作，而是充当一个陪练伙伴，帮助团队在分享工作成果之前，打磨信息、检验思路并消除歧义。\n\n根据AP+的内部数据，ChatGPT帮助80%的员工提高了创造力或工作质量。在整个AP+，员工还创建了超过300个自定义GPT和超过1000个项目，这反映了广泛的采用率。\n\n> “使用ChatGPT，我们的团队可以更快地获得结构化的初稿，无论他们是从会议记录、研讨会产出还是复杂文档入手。这给了人们更多时间来完善他们的思考，使工作成果更出色。”\n>\n> ——Jo Pforr，澳大利亚支付+人工智能主管\n\n![图片2](https://images.ctfassets.net/kftzwdyauwt9/7Fh0STQf4kmrFF3hkl2olQ/1b568b59dc280b77d1b9c62646ffdb78/AP_office-375__1___1_.jpg?w=3840&q=90&fm=webp)\n\n## 借助ChatGPT和Codex更早测试想法\n\n在产品开发中，团队正在使用ChatGPT Enterprise和Codex从静态原型转向功能更完善的产品概念。此前，早期产品测试通常依赖于点击式屏幕，这些屏幕只能展示体验可能的样子，而无法展示其行为方式。\n\n现在，团队可以在更接近真实系统行为的环境中模拟支付流程、移动交互、认证流程和结账体验。例如，AP+使用Codex在1天内构建出可运行的模拟，而以前这可能需要数天到数周的时间。\n\n这在支付领域至关重要，因为客户行为可能因时间、认证提示、设备交互或交易流程而改变。通过更早地测试更逼真的概念，AP+团队可以在需要大量工程投入之前收集更好的反馈并降低创新风险。\n\n> “我们的职责是降低风险，并使整个生态系统更容易实现更好的支付体验。借助AI，我们的团队可以探索更多想法，并更快地验证或否定思路——这意味着我们能更快地实现目标。”\n>\n> ——Jason Backhouse，澳大利亚支付+首席运营与交付官\n\n## 领导力经验\n\nAP+的经验为受监管的组织提供了实用经验，帮助它们负责任地在日常工作中推广AI。\n\n*   **让安全路径成为便捷路径。** AP+专注于为员工提供安全、受管控的工具和适当的访问权限，使他们能够在明确的界限内安全地进行实验。\n*   **让治理成为启动伙伴。** 在受监管的环境中，采用率取决于负责隐私、安全、治理和运营风险的团队之间高质量的对话。\n*   **让团队在情境中学习。** AP+发现，当员工看到来自自己团队的相关示例，而不仅仅是通用培训时，AI的采用效果最好。\n*   **利用倡导者让变革变得具体。** AI倡导者有助于将用例融入现有的团队节奏，减少额外会议或独立AI项目的需求。\n\n> “当员工驱动的创新得到领导层主导的赋能支持时，AI能创造最大价值。”\n>\n> ——Steve Reid，澳大利亚支付+首席人事与文化官\n\n## 未来展望\n\n随着ChatGPT Enterprise成为日常工作的一部分以及Codex采用率的增长，AP+正在扩展团队在产品开发、技术调查和面向成员的工作流程中使用AI的方式，并且始终伴随着专家评审和人类责任担当。\n\n借助OpenAI的解决方案，AP+正帮助员工在复杂环境中加速前行，同时始终将负责任的应用置于核心地位。",
+      "titleZh": "澳大利亚支付Plus借助ChatGPT和Codex加速发展",
+      "summaryZh": "了解澳大利亚支付Plus如何利用ChatGPT Enterprise和Codex在支付复杂性中加速发展。AP+节省时间、提高质量，并保持人类判断的核心地位。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "url": "https://openai.com/index/australian-payments-plus",
+      "collectedAt": "2026-09-15T08:04:41.581Z"
     },
     {
       "id": "02a4337d96c12bd29af9",
@@ -2566,7 +2583,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-14T08:10:20.099Z"
+      "collectedAt": "2026-09-15T08:04:42.228Z"
     },
     {
       "id": "e31b8759deb751b7046f",
@@ -2583,7 +2600,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-06T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-14T08:10:21.500Z"
+      "collectedAt": "2026-09-15T08:04:43.642Z"
     },
     {
       "id": "d9953405a7b98f544a26",
@@ -2600,7 +2617,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-02T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.599Z"
+      "collectedAt": "2026-09-15T08:04:42.829Z"
     },
     {
       "id": "15cd354e84a42a0e6b8f",
@@ -2617,7 +2634,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-01T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-14T08:10:20.099Z"
+      "collectedAt": "2026-09-15T08:04:42.229Z"
     },
     {
       "id": "b61b2637e688ad2bd25d",
@@ -2634,7 +2651,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.599Z"
+      "collectedAt": "2026-09-15T08:04:42.829Z"
     },
     {
       "id": "746aab7bf7ed89a86fa8",
@@ -2651,7 +2668,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T16:02:40.000Z",
       "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-      "collectedAt": "2026-09-14T08:10:21.972Z"
+      "collectedAt": "2026-09-15T08:04:43.987Z"
     },
     {
       "id": "a3f03aca463e82452f66",
@@ -2668,7 +2685,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T09:00:00.000Z",
       "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "collectedAt": "2026-09-14T08:10:19.352Z"
+      "collectedAt": "2026-09-15T08:04:41.581Z"
     },
     {
       "id": "eb22f73482b9a1f24d91",
@@ -2685,7 +2702,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-genebench-pro",
-      "collectedAt": "2026-09-14T08:10:19.352Z"
+      "collectedAt": "2026-09-15T08:04:41.582Z"
     },
     {
       "id": "fe2f0670eaeafcdb3ad2",
@@ -2702,7 +2719,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "collectedAt": "2026-09-14T08:10:19.352Z"
+      "collectedAt": "2026-09-15T08:04:41.582Z"
     },
     {
       "id": "25e6e4a270cd66f9b185",
@@ -2719,7 +2736,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-14T08:10:20.100Z"
+      "collectedAt": "2026-09-15T08:04:42.229Z"
     },
     {
       "id": "a01fc084bf5f7a63e0f5",
@@ -2736,7 +2753,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.600Z"
+      "collectedAt": "2026-09-15T08:04:42.830Z"
     },
     {
       "id": "87e0d903c3ade9f63cb9",
@@ -2753,7 +2770,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-09-14T08:10:20.978Z"
+      "collectedAt": "2026-09-15T08:04:43.135Z"
     },
     {
       "id": "88b542cd5d98fc76107a",
@@ -2770,7 +2787,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-14T08:10:21.501Z"
+      "collectedAt": "2026-09-15T08:04:43.642Z"
     },
     {
       "id": "6e59d8aafa7323d938d6",
@@ -2787,7 +2804,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-29T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.601Z"
+      "collectedAt": "2026-09-15T08:04:42.831Z"
     },
     {
       "id": "e724c51a1bdace040134",
@@ -2804,7 +2821,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-26T10:00:00.000Z",
       "url": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "collectedAt": "2026-09-14T08:10:19.353Z"
+      "collectedAt": "2026-09-15T08:04:41.583Z"
     },
     {
       "id": "9f7c2a8b44846309cebe",
@@ -2821,7 +2838,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.601Z"
+      "collectedAt": "2026-09-15T08:04:42.832Z"
     },
     {
       "id": "dfb466b9c1abc7508953",
@@ -2838,7 +2855,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-14T08:10:20.109Z"
+      "collectedAt": "2026-09-15T08:04:42.230Z"
     },
     {
       "id": "f5c353fcba8d18826546",
@@ -2855,7 +2872,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-25T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.602Z"
+      "collectedAt": "2026-09-15T08:04:42.832Z"
     },
     {
       "id": "4dc045a657edc4379886",
@@ -2872,7 +2889,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-24T16:30:01.000Z",
       "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-      "collectedAt": "2026-09-14T08:10:21.972Z"
+      "collectedAt": "2026-09-15T08:04:43.987Z"
     },
     {
       "id": "5e93061480ea98dc8eab",
@@ -2889,7 +2906,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-24T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-14T08:10:21.501Z"
+      "collectedAt": "2026-09-15T08:04:43.643Z"
     },
     {
       "id": "ac21b6b84e065abf715a",
@@ -2906,7 +2923,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-23T17:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-immunology-mystery",
-      "collectedAt": "2026-09-14T08:10:19.354Z"
+      "collectedAt": "2026-09-15T08:04:41.584Z"
     },
     {
       "id": "2beb6e83d413eee747a3",
@@ -2923,7 +2940,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-23T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-14T08:10:20.109Z"
+      "collectedAt": "2026-09-15T08:04:42.237Z"
     },
     {
       "id": "4ee0a46d008431f74c6f",
@@ -2940,7 +2957,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T10:00:00.000Z",
       "url": "https://openai.com/index/daybreak-securing-the-world",
-      "collectedAt": "2026-09-14T08:10:19.354Z"
+      "collectedAt": "2026-09-15T08:04:41.584Z"
     },
     {
       "id": "f1af487b8667894c5069",
@@ -2957,7 +2974,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T00:00:00.000Z",
       "url": "https://openai.com/index/codex-maxxing-long-running-work",
-      "collectedAt": "2026-09-14T08:10:19.355Z"
+      "collectedAt": "2026-09-15T08:04:41.585Z"
     },
     {
       "id": "ecb75c71ae3d46eb61c5",
@@ -2974,7 +2991,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.602Z"
+      "collectedAt": "2026-09-15T08:04:42.836Z"
     },
     {
       "id": "4fba785fb3527574518d",
@@ -2991,7 +3008,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-21T23:00:00.000Z",
       "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "collectedAt": "2026-09-14T08:10:19.355Z"
+      "collectedAt": "2026-09-15T08:04:41.585Z"
     },
     {
       "id": "a744e1d203989e6af98f",
@@ -3008,7 +3025,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T17:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "collectedAt": "2026-09-14T08:10:19.356Z"
+      "collectedAt": "2026-09-15T08:04:41.585Z"
     },
     {
       "id": "4451d1f4fabd696490a6",
@@ -3025,7 +3042,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T11:00:00.000Z",
       "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "collectedAt": "2026-09-14T08:10:19.358Z"
+      "collectedAt": "2026-09-15T08:04:41.588Z"
     },
     {
       "id": "1145e5f5fbfda4f778bc",
@@ -3042,7 +3059,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T08:00:00.000Z",
       "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "collectedAt": "2026-09-14T08:10:19.358Z"
+      "collectedAt": "2026-09-15T08:04:41.588Z"
     },
     {
       "id": "b360a839b1ef98e71882",
@@ -3059,7 +3076,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-14T08:10:20.603Z"
+      "collectedAt": "2026-09-15T08:04:42.837Z"
     },
     {
       "id": "1c76d41068a26bd369b1",
@@ -3076,41 +3093,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T10:00:00.000Z",
       "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "collectedAt": "2026-09-14T08:10:19.359Z"
-    },
-    {
-      "id": "5da9598fb41c1ac93e58",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Introducing LifeSciBench",
-      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
-      "content": "Agentic AI systems are becoming increasingly capable of performing scientific tasks. However, their usefulness to life science researchers depends on how well they handle the complexity of real research. That work rarely looks like a single fact-recall question or a clean prediction problem. Researchers interpret incomplete evidence, reconcile conflicting results, design difficult experiments, troubleshoot assays, evaluate translational risk, and decide what to do next under uncertainty.\n\nCurrent benchmarks do not fully capture these capabilities. Many life science evaluations focus on narrow domains or isolated skills, resulting in questions with structured question formats and clean reference answers. While valuable, they often fail to truly assess whether a model can contribute across the broader span of research-level work.\n\nWe designed LifeSciBench to help close this gap. Every task is grounded in the judgment of practicing life scientists with Ph.D.-level training and direct experience advancing drug discovery programs in biotech and pharmaceutical settings.\n\nLifeSciBench includes 750 expert-authored tasks spanning seven workflows and seven biological domains.\n\n1,062\n\nTask artifacts\n\n173\n\nScientist contributors\n\n19,020\n\nRubric criteria\n\n453\n\nExpert reviewers\n\n## What LifeSciBench measures\n\nLifeSciBench measures whether AI systems can support realistic life science research tasks, not just answer biology questions. To define the benchmark taxonomy, we surveyed practicing life scientists about the workflows they use most often in applied research settings. Then, we grouped their responses into seven recurring categories: evidence handling, analysis, design and optimization, scientific reasoning, validation and operations, translation, and scientific communication.\n\nEach task is structured like a request a scientist might give to a knowledgeable collaborator: scientific prompt, any relevant context or artifacts, and a free-response answer. Expert-written rubrics evaluate whether a model can produce the right answer for a specific problem, with the right level of detail, justification, caveats, and formatting a scientist would expect.\n\n## Dataset construction\n\nLifeSciBench evaluates scientific reasoning alongside the less well-defined, practical skills necessary for real-world scientific use. Its tasks ask models to work through realistic research problems: interpreting evidence, making domain-grounded judgments, and communicating conclusions that would be useful to expert reviewers. Many tasks also require models to handle uncertainty and reason over supporting data files rather than relying on prompt text alone.\n\nThe benchmark is designed to reflect the complexity of life science work. Overall, 79% of tasks require multiple reasoning or decision-making steps, with an average of four steps per task. LifeSciBench includes 1,062 attached artifacts spanning figures, PDFs, tables, sequence files, structure or chemical files, and web references. More than half of tasks (53%) require models to interpret or synthesize information from at least one artifact.\n\nTasks were created by 173 expert scientists across different life science disciplines. Each scientist had Ph.D.-level training and biotechnology or pharmaceutical industry experience. Tasks could undergo as many revision cycles as needed before acceptance, with no fixed cap on the number of rounds; accepted tasks averaged six self-directed automated review cycles and completed at least two rounds of expert reviews. Reviews were anchored in either a verifiable correct answer or strong expert consensus, with at least 90% agreement among reviewers in the relevant domain. This process helped ensure that accepted tasks were scientifically grounded, clear enough to grade, and representative of applied research.\n\n## Grading and rubric breakdown\n\nLifeSciBench tasks are graded with a detailed, task-specific rubric that breaks down the expected response into specific scientific claims, calculations, decisions, justifications, and so on. Across the benchmark, expert-developed rubrics include 19,020 criteria—an average of 25 per task—to assess both scientific correctness and usefulness for research decisions.\n\nThis design reflects how scientific work is evaluated in practice: many life science tasks cannot be graded by checking the final answer alone. A response may reach the correct high-level conclusion but still be judged incomplete if, for example, it overlooks a key assay limitation or fails to proactively bring up a highly consequential biological nuance. Conversely, a partial response may contain high-quality reasoning even if it does not fully solve the task.\n\nThe granular rubrics capture this nuance. LifeSciBench evaluates not only final-answer accuracy, but whether a model reaches its answer in a scientifically valid and operationally useful way.\n\nExtracting, reconciling, and auditing scientific evidence from papers, figures, tables, and experimental records.\n\n## Candidate Response\n\n**Bottom line:** As presented, this package is not strong enough to support accelerated approval on micro-dystrophin expression as a surrogate endpoint reasonably likely to predict clinical benefit. A skeptical FDA reviewer would likely view the biomarker, functional, durability, safety, and generalizability evidence as materially under-supported.\n\n| Package Item | Key Failure Mode | What Would Be Needed |\n| --- | --- | --- |\n| Western blot quantification | MANEX1A binds an N-terminal epitope shared by endogenous full-length dystrophin and the micro-dystrophin transgene, so the assay does not cleanly distinguish transgene from residual/revertant dystrophin. Quantifying a 138 kDa micro-dystrophin against a healthy full-length dystrophin standard is also invalid. | Use a recombinant micro-dystrophin standard and an orthogonal method that distinguishes transgene from endogenous dystrophin, such as targeted mass spectrometry or a transgene-specific/epitope-specific assay. |\n| Immunofluorescence | The C-terminal polyclonal antibody is poorly suited because the 138 kDa construct lacks the C-terminal domain. Many DMD patients have revertant fibers, and revertant dystrophin can retain C-terminal epitopes. Revertant fibers may expand clonally with age, biasing IF signal, especially in older boys. | Repeat IF with an antibody against an epitope present in the transgene but absent from revertant dystrophin. Quantify transgene-positive fibers separately from revertant fibers. |\n| Surrogate endpoint validity | The package conflates protein amount with clinical function. “38% of healthy-control protein mass” does not mean 38% of normal dystrophin function because micro-dystrophin is structurally truncated. | Empirically validate the relationship between micro-dystrophin mass-percent, sarcolemmal localization, downstream functional restoration, and clinical benefit before treating expression as a surrogate endpoint. |\n| Biopsy design | Pre- and post-treatment contralateral vastus lateralis biopsies introduce left-right and intramuscular spatial variability. Disease progression and fibro-fatty replacement can also change total-protein-normalized signal. | Standardize biopsy site using consistent anatomical landmarks, normalize to muscle-specific proteins, and measure fibro-fatty composition in parallel. |\n| NSAA comparator/statistics | An external natural-history cohort is not a randomized concurrent control. Trial eligibility, supportive care, participation effects, baseline NSAA, steroid regimen, age, and exon class can all bias the comparison. An unpaired t-test is not sufficient. Also, a +1.4 NSAA change is within test-retest variability for this age group. | Run a randomized concurrent placebo-controlled study, or at minimum use adjusted analyses accounting for baseline NSAA, age, steroid regimen, exon class, and other confounders. |\n| Age-window confounding | Boys age 4–7 are in a developmental window where untreated ambulatory DMD patients may gain motor function before decline dominates. A 48-week NSAA change mixes developmental gain, disease progression, and possible treatment effect. | Use a concurrent randomized control with age stratification to separate developmental trajectory from treatment effect. |\n| Prior clinical precedent | Open-label micro-dystrophin functional signals have not reliably predicted confirmatory benefit; published precedent includes micro-dystrophin gene therapy confirmatory trials failing to reproduce open-label NSAA improvements. | Do not rely on open-label NSAA change as decisive support. Require controlled functional evidence. |\n| Structural limits of the construct | The 138 kDa construct deletes spectrin repeats R16/17, which contain nNOS-binding sites. Loss of nNOS recruitment can impair functional sympatholysis and ischemia protection during exercise, creating a mechanistic ceiling on rescue independent of expression level. | Add mechanistic studies showing whether this specific construct restores relevant dystrophin-associated complex function, nNOS localization, exercise physiology, and muscle protection. |\n| AAV durability | Vector genomes at 12 weeks do not establish durable expression. AAV9 genomes are largely non-integrating episomes and may decline over time. Vector-genome persistence is not the same as persistent protein expression. | Measure longitudinal transgene protein expression and functional biomarker durability beyond 12 weeks. |\n| Immune/safety profile | Transaminitis in 8/12 patients is consistent with immune response to AAV-transduced cells, but the mechanism is not established. One myocarditis case is concerning given AAV9 cardiac tropism. | Provide deeper immune monitoring, liver/cardiac safety characterization, and intensified cardiac follow-up. |\n| Patient selection/generalizability | Excluding anti-AAV9 neutralizing-antibody-positive patients limits generalizability. Excluding exon-44 deletions limits applicability to that DMD subgroup. n=12 is too small to characterize safety and efficacy across the broader DMD population. | Broaden eligibility where possible or pre-specify stratified analyses by antibody status, genotype/exon class, age, and baseline function before using the result to support broad approval. |\n\n**Regulatory conclusion:** The package may show biological activity, but it does not yet establish that the measured micro-dystrophin expression is a reliable surrogate reasonably likely to predict clinical benefit. The main gaps are assay specificity, invalid quantification standards, possible revertant-fiber confounding, lack of a randomized control, age-related NSAA confounding, uncertain durability, and unresolved safety/generalizability issues.\n\nTo close the gap, the program would need a controlled, age-stratified clinical design with transgene-specific expression assays, orthogonal protein quantification, tissue-composition controls, longitudinal durability data, mechanistic functional assays for the truncated construct, and stronger safety monitoring, especially hepatic and cardiac.\n\n## Rubric Criteria & Grades\n\nCriterion\n\nPoints\n\nIdentifies assay/measurement problems in micro-dystrophin quantification, including MANEX1A epitope sharing, invalid full-length dystrophin standards, and need for recombinant or orthogonal transgene-specific measurement.\n\n+24\n\nExplains why micro-dystrophin expression level is not automatically a valid surrogate for functional clinical benefit.\n\n+22\n\nFlags biopsy-site, tissue-composition, and age-window confounding that weaken expression and NSAA interpretation.\n\n+19\n\nCritiques the NSAA comparator/statistics, especially reliance on external natural-history controls.\n\n+12\n\nAddresses AAV durability, immune response, transaminitis, myocarditis, and need for longer-term expression/safety follow-up.\n\n+15\n\nNotes patient-selection/generalizability gaps, including anti-AAV9 exclusion, exon-44 exclusion, and small sample size.\n\n+8\n\n## Validating LifeSciBench\n\nWe validated LifeSciBench through an independent expert review. Feedback came from 453 reviewers who were not involved in writing the tasks. Of those reviewers, 97% held a Ph.D. or equivalent doctorate, with an average of 12 years of field experience and 14 peer-reviewed publications; 88% reported receiving at least one award or fellowship.\n\nReviewers scored whether each task reflected the qualities needed for a strong benchmark question: alignment with real-world research work, appropriate testing of scientific reasoning and domain expertise, grounding in evidence or expert consensus, and overall usefulness for assessing model performance. Agreement exceeded 96% in every category.\n\nReviewer comments reinforced the quantitative ratings:\n\n1 of 3\n\n## Results\n\nWe report two complementary metrics. Pass rate is the percentage of tasks on which a model meets the task-level success threshold of 70%. Score is the average rubric reward, giving partial credit for individual criteria even when the full task is not solved. Both matter because a response to a scientific task can be partially correct or useful without meeting every requirement for a complete answer.\n\nModel performance varies substantially by task type, workflow, and response format.\n\n## Where AI systems show early strength\n\nLifeSciBench shows that frontier models are relatively strongest on tasks involving scientific synthesis, communication, and structured interpretation. Absolute pass rates are still modest, so these benchmark domains are far from saturated, but GPT‑Rosalind shows meaningful progress over GPT‑5.5, improving overall exact pass rate from 25.7% to 36.1%.\n\nThe strongest directions of progression in model capabilities appear in Scientific Communication and Translation. For example, the Scientific Communication pass rate increases from 56.3% for GPT‑5.5 to 71.1% for GPT‑Rosalind; this category is small (n=9), so it should be interpreted cautiously, but it suggests frontier models are improving rapidly in their ability to organize evidence and produce convincing expert-facing explanations. Translation (the \"bench-to-bedside\" process of drug development) shows a similar pattern, rising from 36.8% for GPT‑5.5 to 57.7% for GPT‑Rosalind, suggesting models are quickly improving on their ability to connect preclinical evidence to clinical implications.\n\nRubric-level results point in the same direction. On tasks requiring expert-useful or actionable outputs, GPT‑Rosalind scores 44.7%, compared with 29.1% for GPT‑5.5. On tasks requiring uncertainty and caveat handling, it scores 44.8%, compared with 29.3%. This pattern suggests models are most useful when the task has a clear evidence boundary and calls for structured scientific judgment.\n\nGPT‑Rosalind leads performance across scientifically-valuable tasks identified by industry and academic experts.\n\nGPT‑Rosalind improves performance over GPT‑5.5 across core life-science workflows, with the strongest gains in translation and scientific communication.\n\n## Where AI systems still fall short\n\nPerformance remains much weaker on artifact-heavy, design-heavy, and operationally constrained scientific work. Namely, Design, Optimization, & Prediction remains one of the hardest workflows, with GPT‑Rosalind passrate at 30.7%; Analysis is similarly difficult at 30.3%.\n\nArtifact use is a particularly clear gap. While GPT‑Rosalind performs better than GPT‑5.5 in artifact-heavy settings, its pass rate still drops from 45.1% on text-only tasks to 28.1% on tasks with artifacts or URLs. GPT‑5.5 shows the same pattern, dropping from 29.9% to 21.9%. A more detailed analysis confirms that frontier models struggle at extracting information from complex figures or large sequence files and integrating that information into the final answer.\n\nPass rates drop when tasks require source-grounded reasoning or working with artifacts\n\nThe answer format also matters. Tasks requiring exact sequence, structure, or construct-level outputs show lower pass rates: GPT‑Rosalind reaches only 14.8% on numeric tasks and 24.0% on sequence or structure outputs. Construct-generation tasks are also brittle, with GPT‑Rosalind at 27.3% and showing little improvement over GPT‑5.5. Some of this gap may reflect a stricter grading surface for exact-answer tasks, where small differences in calculation or formatting can cause a response to fall under pass threshold. Still, these failures are scientifically meaningful because many life science workflows require outputs that are exact enough to be used directly, such as in CRISPR/HDR donor design or siRNA design.\n\nModels also often get part of the way there without fully solving the task. In roughly 14% of tasks, models earned substantial rubric credit despite failing the exact-pass threshold. For GPT‑Rosalind, 109 tasks had pass rates below 20% while still earning at least 50% rubric reward. In practice, this means models may identify relevant evidence or produce a plausible partial answer, but still fail because they miss a key constraint, use the wrong evidence, make an incomplete calculation, or do not connect their reasoning to a scientifically useful final decision.\n\n## Limitations & what’s next\n\nLifeSciBench is a step toward measuring how useful AI systems can be for life science research, but it is not a substitute for studying models in live research environments. The benchmark focuses on self-contained tasks that reflect recurring industry workflows, while leaving many scientific specialties and task types outside its current scope. Real research is iterative: scientists gather new evidence, revise hypotheses, design follow-up experiments, and adapt their plans as results emerge.\n\nStrong performance on LifeSciBench should therefore be interpreted as evidence of realistic task-level capability, not as a direct measure of downstream research impact. The benchmark is grounded in industry workflows, but it does not capture the full diversity or dynamics of live research programs, where progress depends on factors that unfold over time.\n\nThe next step is to connect benchmark performance to deployment studies in live research workflows. While LifeSciBench was developed with practicing scientists, measuring whether AI systems accelerate discovery or improve R&D outcomes will require studying model use and performance in real research settings, over longer horizons, and across multiple rounds of reasoning, feedback, and experimental follow-up.",
-      "contentZh": "代理型AI系统在执行科学任务方面的能力日益增强。然而，它们对生命科学研究者的实用性，取决于其处理真实研究复杂性的能力。真实研究工作很少表现为单一的事实回忆问题或清晰的预测问题。研究者需要解读不完整的证据、调和相互矛盾的结果、设计困难的实验、排除检测故障、评估转化风险，并在不确定情况下决定下一步行动。\n\n当前的基准测试未能完全捕捉这些能力。许多生命科学评估聚焦于狭窄领域或孤立技能，导致问题采用结构化格式并配有清晰的参考答案。虽然这些评估有价值，但它们往往无法真正衡量模型能否在更广泛的研究级工作中做出贡献。\n\n我们设计了LifeSciBench来帮助弥合这一差距。每项任务都基于具有博士水平训练、且在生物技术和制药领域拥有推进药物发现项目直接经验的执业生命科学家的判断。\n\nLifeSciBench包含750个由专家撰写的任务，涵盖七个工作流程和七个生物学领域。\n\n1,062\n任务工件\n\n173\n科学家贡献者\n\n19,020\n评分标准\n\n453\n专家评审员\n\n## LifeSciBench衡量什么\n\nLifeSciBench衡量AI系统能否支持现实的生命科学研究任务，而不仅仅是回答生物学问题。为定义基准分类法，我们调查了执业生命科学家在应用研究环境中最常使用的工作流程。然后，我们将他们的回答归纳为七个反复出现的类别：证据处理、分析、设计与优化、科学推理、验证与操作、转化以及科学沟通。\n\n每个任务的结构都类似于科学家可能向知识渊博的合作者提出的请求：科学提示、任何相关背景或工件，以及自由回答。专家撰写的评分标准评估模型能否针对特定问题给出正确答案，并具备科学家所期望的适当详细程度、论证、注意事项和格式。\n\n## 数据集构建\n\nLifeSciBench评估科学推理能力，同时兼顾现实科学应用所需的不那么明确但实用的技能。其任务要求模型处理真实的研究问题：解读证据、做出基于领域的判断，并传达对专家评审员有用的结论。许多任务还要求模型处理不确定性，并基于支持性数据文件进行推理，而不仅仅依赖提示文本。\n\n该基准旨在反映生命科学工作的复杂性。总体而言，79%的任务需要多个推理或决策步骤，平均每个任务包含四个步骤。LifeSciBench包含1,062个附加工件，涵盖图表、PDF、表格、序列文件、结构或化学文件以及网络参考文献。超过一半的任务（53%）要求模型解读或综合至少一个工件中的信息。\n\n任务由173位来自不同生命科学学科的专家科学家创建。每位科学家均具有博士水平训练以及生物技术或制药行业经验。任务在验收前可根据需要经历任意轮次的修订，无固定上限；已验收任务平均经历六轮自主自动化审查周期，并完成至少两轮专家评审。评审基于可验证的正确答案或强烈的专家共识，相关领域评审员之间的一致性至少达到90%。这一流程有助于确保已验收任务具有科学依据、清晰可评分，并能代表应用研究。\n\n## 评分与评分标准分解\n\nLifeSciBench任务使用详细的、针对具体任务的评分标准进行评分，该标准将预期回答分解为具体的科学主张、计算、决策、论证等。在整个基准中，专家制定的评分标准包含19,020个标准——平均每个任务25个——用于评估科学正确性以及对研究决策的实用性。\n\n这一设计反映了科学工作在实际中的评估方式：许多生命科学任务无法仅通过检查最终答案来评分。一个回答可能得出正确的高层结论，但如果它忽略了关键检测限制或未能主动提出高度重要的生物学细微差别，仍可能被视为不完整。反之，部分回答即使未完全解决任务，也可能包含高质量的推理。\n\n细粒度的评分标准捕捉了这种细微差别。LifeSciBench不仅评估最终答案的准确性，还评估模型是否以科学有效且操作实用的方式得出答案。\n\n从论文、图表、表格和实验记录中提取、核对和审计科学证据。\n\n## 候选回答\n\n**结论：** 就目前呈现的情况而言，该方案不足以支持基于微型肌营养不良蛋白表达作为合理可能预测临床获益的替代终点而加速批准。持怀疑态度的FDA评审员可能会认为生物标志物、功能性、持久性、安全性和普适性证据在实质上缺乏充分支持。\n\n| 项目内容 | 关键失效模式 | 所需改进 |\n| --- | --- | --- |\n| 蛋白质印迹定量 | MANEX1A抗体结合内源性全长肌营养不良蛋白与微型肌营养不良蛋白转基因共有的N端表位，因此检测无法清晰区分转基因产物与残留/回复突变肌营养不良蛋白。使用健康全长肌营养不良蛋白标准品定量138 kDa微型肌营养不良蛋白同样无效。 | 使用重组微型肌营养不良蛋白标准品，并采用能区分转基因产物与内源性肌营养不良蛋白的正交方法，如靶向质谱法或转基因特异性/表位特异性检测。 |\n| 免疫荧光 | C端多克隆抗体不适用，因为138 kDa构建体缺乏C端结构域。许多DMD患者存在回复突变肌纤维，且回复突变肌营养不良蛋白可能保留C端表位。回复突变肌纤维可能随年龄增长发生克隆性扩增，从而干扰免疫荧光信号，尤其在年龄较大的男孩中。 | 使用针对转基因产物中存在但回复突变肌营养不良蛋白中缺失的表位的抗体重复免疫荧光实验。将转基因阳性肌纤维与回复突变肌纤维分别定量。 |\n| 替代终点有效性 | 该方案将蛋白量与临床功能混为一谈。“健康对照蛋白质量的38%”并不意味着正常肌营养不良蛋白功能的38%，因为微型肌营养不良蛋白在结构上被截短。 | 在将表达量视为替代终点前，需通过经验验证微型肌营养不良蛋白质量百分比、肌膜定位、下游功能恢复与临床获益之间的关系。 |\n| 活检设计 | 治疗前后对侧股外侧肌活检引入了左右侧及肌肉内空间变异性。疾病进展和纤维脂肪替代也可能改变总蛋白归一化信号。 | 使用一致的解剖标志标准化活检部位，归一化至肌肉特异性蛋白，并同步测量纤维脂肪成分。 |\n| NSAA比较/统计 | 外部自然病史队列并非随机同期对照。试验入组条件、支持性护理、参与效应、基线NSAA、类固醇方案、年龄和外显子类别均可能使比较产生偏倚。配对t检验不足以解决问题。此外，+1.4的NSAA变化在该年龄组的测试-重测变异范围内。 | 开展随机同期安慰剂对照研究，或至少采用校正基线NSAA、年龄、类固醇方案、外显子类别及其他混杂因素的调整分析。 |\n| 年龄窗口混杂 | 4-7岁男孩处于发育窗口期，未治疗的可步行DMD患者可能在功能衰退前获得运动功能提升。48周NSAA变化混合了发育增益、疾病进展及可能的治疗效果。 | 使用按年龄分层的随机同期对照，以区分发育轨迹与治疗效果。 |\n| 既往临床先例 | 开放标签微型肌营养不良蛋白的功能信号未能可靠预测确证性获益；已发表的先例包括微型肌营养不良蛋白基因治疗的确证性试验未能重现开放标签的NSAA改善。 | 不依赖开放标签NSAA变化作为决定性支持证据。需提供对照的功能性证据。 |\n| 构建体的结构限制 | 138 kDa构建体删除了含有nNOS结合位点的血影蛋白重复序列R16/17。nNOS招募缺失可能损害运动中的功能性交感神经舒张和缺血保护，从而在表达水平之外形成机制性功能恢复上限。 | 增加机制研究，验证该特定构建体是否能恢复相关肌营养不良蛋白复合体功能、nNOS定位、运动生理学及肌肉保护。 |\n| AAV持久性 | 12周的载体基因组无法证明表达的持久性。AAV9基因组主要为非整合型附加体，可能随时间推移而减少。载体基因组持久性不等同于蛋白表达的持久性。 | 测量超过12周的纵向转基因蛋白表达及功能性生物标志物的持久性。 |\n| 免疫/安全性特征 | 8/12患者出现转氨酶升高，与对AAV转导细胞的免疫反应一致，但机制尚未明确。鉴于AAV9的心脏趋向性，一例心肌炎病例值得关注。 | 提供更深入的免疫监测、肝脏/心脏安全性表征，并加强心脏随访。 |\n| 患者选择/普适性 | 排除抗AAV9中和抗体阳性患者限制了普适性。排除外显子44缺失患者则限制了对该DMD亚组的适用性。n=12样本量过小，无法在更广泛的DMD人群中表征安全性和有效性。 | 在可能的情况下放宽入组条件，或在利用该结果支持广泛批准前，预先按抗体状态、基因型/外显子类别、年龄和基线功能进行分层分析。 |\n\n**监管结论：** 该方案可能显示生物学活性，但尚未证明所测得的微型肌营养不良蛋白表达是合理可能预测临床获益的可靠替代终点。主要缺陷包括检测特异性不足、无效的定量标准、可能的回复突变肌纤维干扰、缺乏随机对照、年龄相关的NSAA混杂、持久性不确定以及未解决的安全性和普适性问题。\n\n为弥补这些缺陷，该计划需要采用受控的、按年龄分层的临床设计，包括转基因特异性表达检测、正交蛋白定量、组织成分对照、纵向持久性数据、针对截短构建体的机制性功能检测，以及更强的安全性监测（尤其是肝脏和心脏）。\n\n## 评分标准与等级\n\n| 标准 | 分数 |\n| --- | --- |\n| 识别微型肌营养不良蛋白定量中的检测/测量问题，包括MANEX1A表位共享、无效的全长肌营养不良蛋白标准品，以及需要重组或正交转基因特异性测量。 | +24 |\n| 解释为何微型肌营养不良蛋白表达水平不能自动作为功能性临床获益的有效替代终点。 | +22 |\n| 指出活检部位、组织成分和年龄窗口混杂因素削弱了表达量和NSAA的解释。 | +19 |\n| 批评NSAA比较/统计方法，尤其是依赖外部自然病史对照。 | +12 |\n| 涉及AAV持久性、免疫反应、转氨酶升高、心肌炎，以及需要更长期的表达/安全性随访。 | +15 |\n| 指出患者选择/普适性缺陷，包括抗AAV9排除、外显子44排除及小样本量。 | +8 |\n\n## 验证LifeSciBench\n\n我们通过独立专家评审验证了LifeSciBench。反馈来自453位未参与任务撰写的评审员。其中，97%拥有博士学位或同等学历，平均具有12年领域经验和14篇同行评审论文；88%报告曾获得至少一项奖项或奖学金。\n\n评审员根据每项任务是否具备强基准问题所需的特质进行评分：与现实研究工作的契合度、对科学推理和领域专业知识的恰当测试、基于证据或专家共识的可靠性，以及评估模型性能的整体实用性。每个类别的评分一致性均超过96%。\n\n评审员评论进一步强化了量化评分：\n\n1/3\n\n## 结果\n\n我们报告两个互补指标。通过率指模型达到任务级成功阈值70%的任务百分比。得分指平均评分奖励，即使未完全解决任务，也会对单个标准给予部分分数。两者都很重要，因为对科学任务的回答可能部分正确或有用，但未必满足完整答案的所有要求。\n\n模型性能因任务类型、工作流程和响应格式而显著不同。\n\n## AI系统展现早期优势的领域\n\nLifeSciBench显示，前沿模型在涉及科学综合、沟通和结构化解释的任务中表现相对最强。绝对通过率仍然不高，因此这些基准领域远未饱和，但GPT‑Rosalind相比GPT‑5.5取得了有意义的进步，整体精确通过率从25.7%提升至36.1%。\n\n模型能力进步最显著的方向出现在科学沟通与转化领域。例如，科学沟通通过率从GPT‑5.5的56.3%提升至GPT‑Rosalind的71.1%；该类别样本量较小（n=9），需谨慎解读，但这表明前沿模型在组织证据和生成令人信服的专家级解释方面能力快速提升。转化（药物开发的\"从实验室到临床\"过程）呈现类似模式，从GPT‑5.5的36.8%提升至GPT‑Rosalind的57.7%，表明模型在连接临床前证据与临床意义方面的能力快速提升。\n\n评分级结果指向相同方向。在需要专家有用或可操作输出的任务上，GPT‑Rosalind得分为44.7%，而GPT‑5.5为29.1%。在需要处理不确定性和注意事项的任务上，其得分为44.8%，而GPT‑5.5为29.3%。这一模式表明，当任务具有明确的证据边界并要求结构化科学判断时，模型最为有用。\n\nGPT‑Rosalind在行业和学术专家认定的科学价值任务上领先性能。\n\nGPT‑Rosalind在核心生命科学工作流程上相比GPT‑5.5性能提升，转化和科学沟通领域进步最大。\n\n## AI系统仍显不足的领域\n\n在依赖人工制品、设计密集型以及操作受限的科学工作中，性能仍然较弱。具体而言，设计、优化与预测仍是最困难的工作流程之一，GPT‑Rosalind通过率为30.7%；分析同样困难，通过率为30.3%。\n\n人工制品使用是一个特别明显的差距。虽然GPT‑Rosalind在依赖人工制品场景下表现优于GPT‑5.5，但其通过率从纯文本任务的45.1%下降至涉及人工制品或URL任务的28.1%。GPT‑5.5呈现相同模式，从29.9%下降至21.9%。更详细的分析证实，前沿模型在从复杂图表或大型序列文件中提取信息并将其整合到最终答案方面存在困难。\n\n当任务需要基于来源的推理或处理人工制品时，通过率下降\n\n答案格式也很重要。需要精确序列、结构或构建级输出的任务通过率较低：GPT‑Rosalind在数值任务上仅达14.8%，在序列或结构输出上为24.0%。构建生成任务同样脆弱，GPT‑Rosalind为27.3%，相比GPT‑5.5改进甚微。部分差距可能反映了精确答案任务更严格的评分标准，计算或格式上的微小差异可能导致响应低于通过阈值。然而，这些失败具有科学意义，因为许多生命科学工作流程需要足够精确以直接使用的输出，例如CRISPR/HDR供体设计或siRNA设计。\n\n模型也常常部分完成任务但未完全解决。约14%的任务中，模型尽管未达到精确通过阈值，却获得了大量评分奖励。对于GPT‑Rosalind，109个任务的通过率低于20%，但仍获得至少50%的评分奖励。实践中，这意味着模型可能识别相关证据或生成看似合理的部分答案，但仍因遗漏关键约束、使用错误证据、计算不完整或未将推理与科学有用的最终决策联系起来而失败。\n\n## 局限性与未来方向\n\nLifeSciBench是衡量AI系统对生命科学研究有用性的一个步骤，但不能替代在真实研究环境中研究模型。该基准聚焦于反映重复性行业工作流程的独立任务，同时将许多科学专业和任务类型排除在当前范围之外。真实研究是迭代的：科学家收集新证据、修正假设、设计后续实验，并根据结果调整计划。\n\n因此，LifeSciBench上的强表现应被解读为现实任务级能力的证据，而非下游研究影响的直接衡量。该基准基于行业工作流程，但未捕捉真实研究项目的全部多样性或动态性，其中进展取决于随时间展开的因素。\n\n下一步是将基准性能与真实研究工作流程中的部署研究联系起来。虽然LifeSciBench是与实践科学家共同开发的，但衡量AI系统是否加速发现或改善研发成果，将需要在真实研究环境中、更长时间跨度内、以及多轮推理、反馈和实验跟进中研究模型的使用和性能。",
-      "titleZh": "LifeSciBench 介绍",
-      "summaryZh": "LifeSciBench 是一个由专家编写和审查的基准测试，用于评估 AI 系统如何处理现实世界中的生命科学研究任务和决策。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-17T00:00:00.000Z",
-      "url": "https://openai.com/index/introducing-life-sci-bench",
-      "collectedAt": "2026-09-14T08:10:19.359Z"
-    },
-    {
-      "id": "c264a8015cf38e7b022d",
-      "sourceId": "gemini-api",
-      "company": "Google",
-      "product": "Gemini",
-      "kind": "api",
-      "title": "Streaming support for speech generation: Streaming via streamGenerateContent (and stream: true in the Interactions API) is now supported for the gemini-3.1-flash-tts-preview model.",
-      "summary": "Streaming support for speech generation: Streaming via streamGenerateContent (and stream: true in the Interactions API) is now supported for the gemini-3.1-flash-tts-preview model. To learn more, see the Text-to-Speech guide.",
-      "content": "Streaming support for speech generation: Streaming via streamGenerateContent (and stream: true in the Interactions API) is now supported for the gemini-3.1-flash-tts-preview model. To learn more, see the Text-to-Speech guide.",
-      "contentZh": "语音生成的流式支持：gemini-3.1-flash-tts-preview 模型现已支持通过 streamGenerateContent（以及 Interactions API 中的 stream: true）进行流式处理。了解更多信息，请参阅文本转语音指南。",
-      "titleZh": "语音生成的流式支持：gemini-3.1-flash-tts-preview 模型现已支持通过 streamGenerateContent（以及 Interactions API 中的 stream: true）进行流式处理。",
-      "summaryZh": "语音生成的流式支持：gemini-3.1-flash-tts-preview 模型现已支持通过 streamGenerateContent（以及 Interactions API 中的 stream: true）进行流式处理。更多信息，请参阅文本转语音指南。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-17T00:00:00.000Z",
-      "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-14T08:10:21.502Z"
+      "collectedAt": "2026-09-15T08:04:41.588Z"
     },
     {
       "id": "118693cb868e1641c9c1",
@@ -3127,7 +3110,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-04-24T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-14T08:10:25.235Z"
+      "collectedAt": "2026-09-15T08:04:46.533Z"
     },
     {
       "id": "aeb9a0b6e961ddd9394e",
@@ -3144,7 +3127,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-12-01T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-14T08:10:25.236Z"
+      "collectedAt": "2026-09-15T08:04:46.533Z"
     },
     {
       "id": "f43c8f46501ee2e8d8ed",
@@ -3161,7 +3144,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-09-29T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-14T08:10:25.237Z"
+      "collectedAt": "2026-09-15T08:04:46.534Z"
     },
     {
       "id": "de42c19b7c54bb0dc7ec",
@@ -3178,7 +3161,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-09-22T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-14T08:10:25.238Z"
+      "collectedAt": "2026-09-15T08:04:46.534Z"
     }
   ]
 }
