@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-15T07:47:13.869Z",
+  "updatedAt": "2026-10-16T07:35:23.676Z",
   "sources": [
     {
       "id": "openai-news",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "count": 828
+      "count": 829
     },
     {
       "id": "claude-apps",
@@ -18,7 +18,7 @@
       "id": "claude-platform",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
       "status": "ok",
-      "count": 153
+      "count": 154
     },
     {
       "id": "gemini-apps",
@@ -53,6 +53,40 @@
   ],
   "entries": [
     {
+      "id": "4ed6df5c15d558fd63cd",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "content": "",
+      "contentZh": "",
+      "titleZh": "将GPT-Rosalind引入学术研究实验室",
+      "summaryZh": "推出Rosalind学术计划，为符合条件的学术实验室提供赞助访问GPT-Rosalind及推进生命科学研究工具的机会。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-10-15T19:00:00.000Z",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "collectedAt": "2026-10-16T07:35:10.198Z"
+    },
+    {
+      "id": "03ce5d97e7573b0b3517",
+      "sourceId": "claude-platform",
+      "company": "Anthropic",
+      "product": "Claude",
+      "kind": "api",
+      "title": "The Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise o",
+      "summary": "The Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise organizations. Call GET /v1/compliance/organizations/{org_uuid}/user_preferences with your existing Compliance Access Key and the read:compliance_user_data scope. See List user preferences. Fast mode is out of research preview for Claude Opus 5.5, and you no longer need to request access. Requests to Claude Opus 5.5 no longer require the fast-mode-2026-02-01 beta header, and requests that still send it keep working. Claude Opus 5.5 now has a default fast mode rate limit in the Start, Build, and Scale usage tiers. Fast mode for Claude Opus 5 and Claude Opus 4.8 remains in research preview. Keep sending the beta header with fast mode requests to those models. Fast mode for Claude Opus 5.5 is now available on Claude in Microsoft Foundry for deployments hosted on Azure.",
+      "content": "The Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise organizations. Call GET /v1/compliance/organizations/{org_uuid}/user_preferences with your existing Compliance Access Key and the read:compliance_user_data scope. See List user preferences. Fast mode is out of research preview for Claude Opus 5.5, and you no longer need to request access. Requests to Claude Opus 5.5 no longer require the fast-mode-2026-02-01 beta header, and requests that still send it keep working. Claude Opus 5.5 now has a default fast mode rate limit in the Start, Build, and Scale usage tiers. Fast mode for Claude Opus 5 and Claude Opus 4.8 remains in research preview. Keep sending the beta header with fast mode requests to those models. Fast mode for Claude Opus 5.5 is now available on Claude in Microsoft Foundry for deployments hosted on Azure.",
+      "contentZh": "合规 API 现在会返回每个组织成员在 claude.ai 中保存为 Claude 的 Instructions 以及在 Cowork 中保存为 Global instructions 的文本，该功能在 Claude Enterprise 组织中处于测试阶段。使用您现有的 Compliance Access Key 和 read:compliance_user_data 权限范围调用 GET /v1/compliance/organizations/{org_uuid}/user_preferences。请参阅 List user preferences。Fast mode 已结束研究预览，适用于 Claude Opus 5.5，您不再需要申请访问权限。向 Claude Opus 5.5 发出的请求不再需要 fast-mode-2026-02-01 beta 标头，仍然发送该标头的请求可继续正常工作。Claude Opus 5.5 现在在 Start、Build 和 Scale 使用层级中具有默认的 fast mode 速率限制。Claude Opus 5 和 Claude Opus 4.8 的 Fast mode 仍处于研究预览阶段。向这些模型发送 fast mode 请求时，请继续发送 beta 标头。Claude Opus 5.5 的 Fast mode 现已在 Microsoft Foundry 中的 Claude 上适用于托管在 Azure 上的部署。",
+      "titleZh": "合规 API 现返回每位组织成员在 claude.ai 中保存为 Claude 指令以及在 Cowork 中保存为全局指令的文本，在 Claude Enterprise 组织中为测试版",
+      "summaryZh": "合规 API 现返回每位组织成员在 claude.ai 中保存为 Claude 指令以及在 Cowork 中保存为全局指令的文本，在 Claude Enterprise 组织中为测试版。使用您现有的 Compliance Access Key 和 read:compliance_user_data 范围调用 GET /v1/compliance/organizations/{org_uuid}/user_preferences。请参阅 List user preferences。快速模式已结束 Claude Opus 5.5 的研究预览，您不再需要申请访问权限。对 Claude Opus 5.5 的请求不再需要 fast-mode-2026-02-01 beta 标头，仍发送该标头的请求继续有效。Claude Opus 5.5 现在在 Start、Build 和 Scale 使用层级中具有默认的快速模式速率限制。Claude Opus 5 和 Claude Opus 4.8 的快速模式仍处于研究预览阶段。向这些模型发送快速模式请求时请继续发送 beta 标头。Claude Opus 5.5 的快速模式现已在 Microsoft Foundry 中的 Claude 上提供，适用于托管在 Azure 上的部署。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "collectedAt": "2026-10-16T07:35:11.445Z"
+    },
+    {
       "id": "ae07909e220d84ba5298",
       "sourceId": "openai-news",
       "company": "OpenAI",
@@ -67,7 +101,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-14T12:00:00.000Z",
       "url": "https://openai.com/index/amp-beyond-coding",
-      "collectedAt": "2026-10-15T07:46:43.123Z"
+      "collectedAt": "2026-10-16T07:35:10.201Z"
     },
     {
       "id": "5af941d3347cd0b31e08",
@@ -84,7 +118,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-14T07:00:00.000Z",
       "url": "https://openai.com/index/third-moment-research",
-      "collectedAt": "2026-10-15T07:46:43.124Z"
+      "collectedAt": "2026-10-16T07:35:10.203Z"
     },
     {
       "id": "6725a25b1257a6d7abcf",
@@ -101,7 +135,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-14T02:00:14.000Z",
       "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "collectedAt": "2026-10-15T07:46:45.663Z"
+      "collectedAt": "2026-10-16T07:35:12.879Z"
     },
     {
       "id": "68429fd02b0778a22e21",
@@ -118,7 +152,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.398Z"
+      "collectedAt": "2026-10-16T07:35:11.446Z"
     },
     {
       "id": "ca02af101726c5e29829",
@@ -135,7 +169,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T19:43:07.000Z",
       "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "collectedAt": "2026-10-15T07:46:45.663Z"
+      "collectedAt": "2026-10-16T07:35:12.880Z"
     },
     {
       "id": "79730454c4a0d9bd4cd0",
@@ -152,7 +186,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T16:01:58.000Z",
       "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "collectedAt": "2026-10-15T07:46:45.663Z"
+      "collectedAt": "2026-10-16T07:35:12.880Z"
     },
     {
       "id": "812075165a6f703bcf0c",
@@ -169,7 +203,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T16:01:52.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "collectedAt": "2026-10-15T07:46:45.663Z"
+      "collectedAt": "2026-10-16T07:35:12.880Z"
     },
     {
       "id": "bd0c7d7636bac2d8b368",
@@ -186,7 +220,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T16:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "collectedAt": "2026-10-15T07:46:46.003Z"
+      "collectedAt": "2026-10-16T07:35:13.146Z"
     },
     {
       "id": "88d109f9ffb73d1e9149",
@@ -203,7 +237,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T12:00:00.000Z",
       "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "collectedAt": "2026-10-15T07:46:43.126Z"
+      "collectedAt": "2026-10-16T07:35:10.204Z"
     },
     {
       "id": "c3e57db0842e8aa78965",
@@ -220,7 +254,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-10-15T07:46:44.669Z"
+      "collectedAt": "2026-10-16T07:35:11.780Z"
     },
     {
       "id": "590d3ecaa4e92141387b",
@@ -237,7 +271,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-15T07:46:45.408Z"
+      "collectedAt": "2026-10-16T07:35:12.657Z"
     },
     {
       "id": "6e4f5b7a123143776f19",
@@ -254,7 +288,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-09T07:00:00.000Z",
       "url": "https://openai.com/index/asana-browser-agent",
-      "collectedAt": "2026-10-15T07:46:43.126Z"
+      "collectedAt": "2026-10-16T07:35:10.204Z"
     },
     {
       "id": "42e888a7cc19b4d85cd0",
@@ -271,7 +305,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.399Z"
+      "collectedAt": "2026-10-16T07:35:11.447Z"
     },
     {
       "id": "ea6e3024027050fefc4a",
@@ -288,7 +322,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-08T16:00:00.000Z",
       "url": "https://openai.com/index/oracle",
-      "collectedAt": "2026-10-15T07:46:43.127Z"
+      "collectedAt": "2026-10-16T07:35:10.206Z"
     },
     {
       "id": "5e179cf9fc5230516601",
@@ -305,7 +339,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "url": "https://openai.com/index/pollo-ai",
-      "collectedAt": "2026-10-15T07:46:43.128Z"
+      "collectedAt": "2026-10-16T07:35:10.207Z"
     },
     {
       "id": "f45224b70875029b06cb",
@@ -322,7 +356,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "url": "https://openai.com/index/legalon-halves-codex-costs",
-      "collectedAt": "2026-10-15T07:46:43.128Z"
+      "collectedAt": "2026-10-16T07:35:10.208Z"
     },
     {
       "id": "b00b251fbd09fd510cf8",
@@ -339,7 +373,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-08T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.399Z"
+      "collectedAt": "2026-10-16T07:35:11.447Z"
     },
     {
       "id": "f137c0fe028fb4fef9fd",
@@ -356,7 +390,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-08T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-15T07:46:45.408Z"
+      "collectedAt": "2026-10-16T07:35:12.658Z"
     },
     {
       "id": "053572bc3d224707807d",
@@ -373,7 +407,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T12:00:00.000Z",
       "url": "https://openai.com/index/teens-learn-and-plan",
-      "collectedAt": "2026-10-15T07:46:43.130Z"
+      "collectedAt": "2026-10-16T07:35:10.209Z"
     },
     {
       "id": "e570b3aeb15445d9fd65",
@@ -390,7 +424,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T07:00:00.000Z",
       "url": "https://openai.com/index/radisson",
-      "collectedAt": "2026-10-15T07:46:43.130Z"
+      "collectedAt": "2026-10-16T07:35:10.210Z"
     },
     {
       "id": "44e7004c56ab653cde6e",
@@ -407,7 +441,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-for-everyone",
-      "collectedAt": "2026-10-15T07:46:43.131Z"
+      "collectedAt": "2026-10-16T07:35:10.211Z"
     },
     {
       "id": "ecef651792823cfe8680",
@@ -424,7 +458,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-15T07:46:43.846Z"
+      "collectedAt": "2026-10-16T07:35:10.885Z"
     },
     {
       "id": "cdd7d61b226912ce3beb",
@@ -441,7 +475,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.400Z"
+      "collectedAt": "2026-10-16T07:35:11.449Z"
     },
     {
       "id": "bb24fa22c53afbb99a4c",
@@ -458,7 +492,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T19:57:04.000Z",
       "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-      "collectedAt": "2026-10-15T07:46:45.663Z"
+      "collectedAt": "2026-10-16T07:35:12.880Z"
     },
     {
       "id": "2fb1d1aa61471ba7fc18",
@@ -475,7 +509,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T16:00:00.000Z",
       "url": "https://openai.com/index/atlassian-partnership",
-      "collectedAt": "2026-10-15T07:46:43.132Z"
+      "collectedAt": "2026-10-16T07:35:10.213Z"
     },
     {
       "id": "d08e77e6d7627ad2dedc",
@@ -492,7 +526,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T12:00:00.000Z",
       "url": "https://openai.com/index/jump-trading",
-      "collectedAt": "2026-10-15T07:46:43.132Z"
+      "collectedAt": "2026-10-16T07:35:10.212Z"
     },
     {
       "id": "f468f3b992b29140bb8c",
@@ -509,7 +543,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T12:00:00.000Z",
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "collectedAt": "2026-10-15T07:46:43.132Z"
+      "collectedAt": "2026-10-16T07:35:10.212Z"
     },
     {
       "id": "74514eb7f11fb37fadc6",
@@ -526,7 +560,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.400Z"
+      "collectedAt": "2026-10-16T07:35:11.459Z"
     },
     {
       "id": "0705d1bda5aa645af0aa",
@@ -543,7 +577,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-15T07:46:45.408Z"
+      "collectedAt": "2026-10-16T07:35:12.659Z"
     },
     {
       "id": "aa83e0567f81baa77a53",
@@ -560,7 +594,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-05T10:00:00.000Z",
       "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "collectedAt": "2026-10-15T07:46:43.133Z"
+      "collectedAt": "2026-10-16T07:35:10.213Z"
     },
     {
       "id": "fbb8c8e2a130f51dc857",
@@ -577,7 +611,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.400Z"
+      "collectedAt": "2026-10-16T07:35:11.459Z"
     },
     {
       "id": "384626120891883ee8e2",
@@ -594,7 +628,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-02T16:15:00.000Z",
       "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "collectedAt": "2026-10-15T07:46:43.133Z"
+      "collectedAt": "2026-10-16T07:35:10.214Z"
     },
     {
       "id": "b4075fea819f5adf3283",
@@ -611,7 +645,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "url": "https://openai.com/index/chatham-financial",
-      "collectedAt": "2026-10-15T07:46:43.133Z"
+      "collectedAt": "2026-10-16T07:35:10.214Z"
     },
     {
       "id": "f1ee3e7d0793c6d93b3a",
@@ -628,7 +662,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-01T16:00:00.000Z",
       "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "collectedAt": "2026-10-15T07:46:43.134Z"
+      "collectedAt": "2026-10-16T07:35:10.215Z"
     },
     {
       "id": "13ae9b523ea82b817626",
@@ -645,7 +679,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "url": "https://openai.com/index/the-den-family-social",
-      "collectedAt": "2026-10-15T07:46:43.134Z"
+      "collectedAt": "2026-10-16T07:35:10.215Z"
     },
     {
       "id": "673b1927d3709137950e",
@@ -662,7 +696,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.400Z"
+      "collectedAt": "2026-10-16T07:35:11.459Z"
     },
     {
       "id": "29505882ef55b3b17452",
@@ -679,7 +713,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-30T20:01:45.000Z",
       "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "collectedAt": "2026-10-15T07:46:45.663Z"
+      "collectedAt": "2026-10-16T07:35:12.880Z"
     },
     {
       "id": "7b79633fb1d94ee1fafd",
@@ -696,7 +730,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-30T10:30:00.000Z",
       "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "collectedAt": "2026-10-15T07:46:43.134Z"
+      "collectedAt": "2026-10-16T07:35:10.215Z"
     },
     {
       "id": "7a44f16e721d71f3a40a",
@@ -713,7 +747,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.401Z"
+      "collectedAt": "2026-10-16T07:35:11.460Z"
     },
     {
       "id": "14a93593dd29d9cce2e2",
@@ -730,7 +764,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-10-15T07:46:44.669Z"
+      "collectedAt": "2026-10-16T07:35:11.780Z"
     },
     {
       "id": "b1be4275e9b1957a480b",
@@ -747,7 +781,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-29T10:00:00.000Z",
       "url": "https://openai.com/index/devday-2026-recap",
-      "collectedAt": "2026-10-15T07:46:43.134Z"
+      "collectedAt": "2026-10-16T07:35:10.216Z"
     },
     {
       "id": "8d097496e062f3ca5cfb",
@@ -764,7 +798,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-29T10:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "collectedAt": "2026-10-15T07:46:43.135Z"
+      "collectedAt": "2026-10-16T07:35:10.217Z"
     },
     {
       "id": "8aba59a84f4991b7e02f",
@@ -781,24 +815,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-29T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-dots",
-      "collectedAt": "2026-10-15T07:46:43.135Z"
-    },
-    {
-      "id": "fb33ffedd2ef1f33358e",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-      "content": "[Basis⁠(opens in a new window)](https://www.getbasis.ai/) builds AI agents to automate much of the manual work that accountants do each day, helping them shift their time from repetitive tasks to strategic work. The company’s research focuses on agents that can reliably complete long tasks, and with GPT‑6 Astra, it’s seeing a stronger understanding of what accountants want to accomplish.\n\n> “GPT-6 Astra does a better job of really understanding the intent of the user and the problem.”\n\n—Mitch Troyanovsky, Co-founder, Basis\n\n## Completing a 50-tab tax workbook in half the time\n\nBasis compared GPT‑6 Astra and GPT‑5.6 Sol on a complicated tax workbook with 50 tabs. The task was to complete the workbook accurately and reliably, and GPT‑6 Astra was markedly faster.\n\n> “GPT-6 Astra is able to complete that workbook in half the time that GPT-5.6 Sol is able to.”\n\n—Mitch Troyanovsky, Co-founder, Basis\n\nBasis also noted that GPT‑6 Astra makes better decisions at the start of a task, helping Basis’s agents take a more direct path through the work with less time spent correcting mistakes. Troyanovsky says that also makes the model more efficient in its use of tokens.\n\n## Matching reasoning effort to the task\n\nBasis also has GPT‑6 Astra adjust how much reasoning it uses as a task progresses, dialing up computation when a step is difficult, and using less when a step is easier. The model can make these adjustments while keeping its cache intact. Troyanovsky says this helps reduce cost and response time, making long-running tasks more economical for Basis and its customers.\n\n## Building confidence in real-world use\n\nBasis saw about a 20% improvement in its internal evaluation scores with GPT‑6 Astra, driven by better understanding of user intent, including when to ask questions, flag assumptions, and follow instructions.\n\nBasis evaluates how its agents work and their final answers, including whether they follow templates, consult primary sources for tax questions, and check their own work. GPT‑6 Astra can infer these expectations from a broader context, with fewer explicit instructions.\n\nThat reduces the need for Basis to write rules for individual situations and gives the team more confidence that its agents can handle situations beyond those covered in internal tests.",
-      "contentZh": "[Basis⁠（在新窗口中打开）](https://www.getbasis.ai/)构建 AI 智能体，以自动化会计师每天所做的大量手工工作，帮助他们将时间从重复性任务转向战略性工作。该公司的研究聚焦于能够可靠完成长任务的智能体，而借助 GPT‑6 Astra，它看到模型对会计师想要达成的目标有了更强的理解。\n\n> “GPT-6 Astra 在真正理解用户意图和问题方面做得更好。”\n\n——Mitch Troyanovsky，Basis 联合创始人\n\n## 以一半时间完成 50 个工作表的税务工作簿\n\nBasis 在一个包含 50 个工作表的复杂税务工作簿上比较了 GPT‑6 Astra 和 GPT‑5.6 Sol。任务是准确且可靠地完成该工作簿，而 GPT‑6 Astra 明显更快。\n\n> “GPT-6 Astra 能够在 GPT-5.6 Sol 所需时间的一半内完成该工作簿。”\n\n——Mitch Troyanovsky，Basis 联合创始人\n\nBasis 还指出，GPT‑6 Astra 在任务开始时能做出更好的决策，帮助 Basis 的智能体以更直接的路径完成工作，并减少用于纠正错误的时间。Troyanovsky 表示，这也使模型在 token 使用上更高效。\n\n## 让推理投入与任务相匹配\n\nBasis 还让 GPT‑6 Astra 随着任务推进调整其使用的推理量，在步骤困难时加大计算量，在步骤较容易时减少计算量。该模型可以在保持缓存完整的同时做出这些调整。Troyanovsky 表示，这有助于降低成本和响应时间，使长时间运行的任务对 Basis 及其客户更经济。\n\n## 在真实世界使用中建立信心\n\n借助 GPT‑6 Astra，Basis 的内部评估分数提升了约 20%，这得益于对用户意图更好的理解，包括何时提问、标记假设以及遵循指令。\n\nBasis 会评估其智能体如何工作以及它们的最终答案，包括它们是否遵循模板、就税务问题查阅一手资料，以及检查自己的工作。GPT‑6 Astra 能够从更广泛的上下文中推断这些期望，而所需的明确指令更少。\n\n这减少了 Basis 为个别情况编写规则的需要，并让团队更有信心，认为其智能体能够处理内部测试未覆盖的情况。",
-      "titleZh": "Basis 借助 GPT-6 Astra 将税务工作簿处理速度提升一倍",
-      "summaryZh": "GPT-6 Astra 完成一个包含 50 个工作表的税务工作簿的速度是 GPT-5.6 Sol 的两倍，并且其对用户意图的更强理解让 Basis 对实际应用更有信心。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "collectedAt": "2026-10-15T07:46:43.136Z"
+      "collectedAt": "2026-10-16T07:35:10.217Z"
     },
     {
       "id": "3d0c36ffbad6ec0487a6",
@@ -815,7 +832,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://openai.com/form/codex-originals",
-      "collectedAt": "2026-10-15T07:46:43.136Z"
+      "collectedAt": "2026-10-16T07:35:10.218Z"
+    },
+    {
+      "id": "fb33ffedd2ef1f33358e",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+      "content": "[Basis⁠(opens in a new window)](https://www.getbasis.ai/) builds AI agents to automate much of the manual work that accountants do each day, helping them shift their time from repetitive tasks to strategic work. The company’s research focuses on agents that can reliably complete long tasks, and with GPT‑6 Astra, it’s seeing a stronger understanding of what accountants want to accomplish.\n\n> “GPT-6 Astra does a better job of really understanding the intent of the user and the problem.”\n\n—Mitch Troyanovsky, Co-founder, Basis\n\n## Completing a 50-tab tax workbook in half the time\n\nBasis compared GPT‑6 Astra and GPT‑5.6 Sol on a complicated tax workbook with 50 tabs. The task was to complete the workbook accurately and reliably, and GPT‑6 Astra was markedly faster.\n\n> “GPT-6 Astra is able to complete that workbook in half the time that GPT-5.6 Sol is able to.”\n\n—Mitch Troyanovsky, Co-founder, Basis\n\nBasis also noted that GPT‑6 Astra makes better decisions at the start of a task, helping Basis’s agents take a more direct path through the work with less time spent correcting mistakes. Troyanovsky says that also makes the model more efficient in its use of tokens.\n\n## Matching reasoning effort to the task\n\nBasis also has GPT‑6 Astra adjust how much reasoning it uses as a task progresses, dialing up computation when a step is difficult, and using less when a step is easier. The model can make these adjustments while keeping its cache intact. Troyanovsky says this helps reduce cost and response time, making long-running tasks more economical for Basis and its customers.\n\n## Building confidence in real-world use\n\nBasis saw about a 20% improvement in its internal evaluation scores with GPT‑6 Astra, driven by better understanding of user intent, including when to ask questions, flag assumptions, and follow instructions.\n\nBasis evaluates how its agents work and their final answers, including whether they follow templates, consult primary sources for tax questions, and check their own work. GPT‑6 Astra can infer these expectations from a broader context, with fewer explicit instructions.\n\nThat reduces the need for Basis to write rules for individual situations and gives the team more confidence that its agents can handle situations beyond those covered in internal tests.",
+      "contentZh": "[Basis⁠（在新窗口中打开）](https://www.getbasis.ai/)构建 AI 智能体，以自动化会计师每天所做的大量手工工作，帮助他们将时间从重复性任务转向战略性工作。该公司的研究聚焦于能够可靠完成长任务的智能体，而借助 GPT‑6 Astra，它看到模型对会计师想要达成的目标有了更强的理解。\n\n> “GPT-6 Astra 在真正理解用户意图和问题方面做得更好。”\n\n——Mitch Troyanovsky，Basis 联合创始人\n\n## 以一半时间完成 50 个工作表的税务工作簿\n\nBasis 在一个包含 50 个工作表的复杂税务工作簿上比较了 GPT‑6 Astra 和 GPT‑5.6 Sol。任务是准确且可靠地完成该工作簿，而 GPT‑6 Astra 明显更快。\n\n> “GPT-6 Astra 能够在 GPT-5.6 Sol 所需时间的一半内完成该工作簿。”\n\n——Mitch Troyanovsky，Basis 联合创始人\n\nBasis 还指出，GPT‑6 Astra 在任务开始时能做出更好的决策，帮助 Basis 的智能体以更直接的路径完成工作，并减少用于纠正错误的时间。Troyanovsky 表示，这也使模型在 token 使用上更高效。\n\n## 让推理投入与任务相匹配\n\nBasis 还让 GPT‑6 Astra 随着任务推进调整其使用的推理量，在步骤困难时加大计算量，在步骤较容易时减少计算量。该模型可以在保持缓存完整的同时做出这些调整。Troyanovsky 表示，这有助于降低成本和响应时间，使长时间运行的任务对 Basis 及其客户更经济。\n\n## 在真实世界使用中建立信心\n\n借助 GPT‑6 Astra，Basis 的内部评估分数提升了约 20%，这得益于对用户意图更好的理解，包括何时提问、标记假设以及遵循指令。\n\nBasis 会评估其智能体如何工作以及它们的最终答案，包括它们是否遵循模板、就税务问题查阅一手资料，以及检查自己的工作。GPT‑6 Astra 能够从更广泛的上下文中推断这些期望，而所需的明确指令更少。\n\n这减少了 Basis 为个别情况编写规则的需要，并让团队更有信心，认为其智能体能够处理内部测试未覆盖的情况。",
+      "titleZh": "Basis 借助 GPT-6 Astra 将税务工作簿处理速度提升一倍",
+      "summaryZh": "GPT-6 Astra 完成一个包含 50 个工作表的税务工作簿的速度是 GPT-5.6 Sol 的两倍，并且其对用户意图的更强理解让 Basis 对实际应用更有信心。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "collectedAt": "2026-10-16T07:35:10.219Z"
     },
     {
       "id": "b4c25d5187dd3628a6ae",
@@ -832,7 +866,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-15T07:46:43.846Z"
+      "collectedAt": "2026-10-16T07:35:10.885Z"
     },
     {
       "id": "23a18d1ff8df489d83e6",
@@ -849,7 +883,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.401Z"
+      "collectedAt": "2026-10-16T07:35:11.460Z"
     },
     {
       "id": "958634143951a5262875",
@@ -866,7 +900,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-25T19:00:00.000Z",
       "url": "https://openai.com/index/proaction",
-      "collectedAt": "2026-10-15T07:46:43.137Z"
+      "collectedAt": "2026-10-16T07:35:10.220Z"
     },
     {
       "id": "908b229b34ef0eca1c2c",
@@ -883,7 +917,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-25T07:00:00.000Z",
       "url": "https://openai.com/index/lowes",
-      "collectedAt": "2026-10-15T07:46:43.137Z"
+      "collectedAt": "2026-10-16T07:35:10.220Z"
     },
     {
       "id": "5e679411e8795fb41661",
@@ -900,7 +934,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-25T00:00:00.000Z",
       "url": "https://openai.com/index/wayfair",
-      "collectedAt": "2026-10-15T07:46:43.137Z"
+      "collectedAt": "2026-10-16T07:35:10.220Z"
     },
     {
       "id": "5a1eb82bce206d920902",
@@ -917,7 +951,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-15T07:46:43.847Z"
+      "collectedAt": "2026-10-16T07:35:10.886Z"
     },
     {
       "id": "20a747dfc11440658478",
@@ -934,7 +968,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-24T16:20:39.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "collectedAt": "2026-10-15T07:46:45.663Z"
+      "collectedAt": "2026-10-16T07:35:12.880Z"
     },
     {
       "id": "196cc2368d729b03752f",
@@ -951,7 +985,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-24T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.401Z"
+      "collectedAt": "2026-10-16T07:35:11.461Z"
     },
     {
       "id": "195c546c2f499ad7a563",
@@ -968,7 +1002,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T15:25:14.000Z",
       "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "collectedAt": "2026-10-15T07:46:45.664Z"
+      "collectedAt": "2026-10-16T07:35:12.881Z"
     },
     {
       "id": "98d49239d16302a79008",
@@ -985,7 +1019,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "collectedAt": "2026-10-15T07:46:43.138Z"
+      "collectedAt": "2026-10-16T07:35:10.221Z"
     },
     {
       "id": "d19836357705e0f3bb0f",
@@ -1002,7 +1036,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "collectedAt": "2026-10-15T07:46:43.138Z"
+      "collectedAt": "2026-10-16T07:35:10.223Z"
     },
     {
       "id": "d84366078f8a35d69fd8",
@@ -1019,7 +1053,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "url": "https://openai.com/index/ringg",
-      "collectedAt": "2026-10-15T07:46:43.138Z"
+      "collectedAt": "2026-10-16T07:35:10.224Z"
     },
     {
       "id": "c7ba4d1eb147cdd66b38",
@@ -1036,7 +1070,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T02:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-      "collectedAt": "2026-10-15T07:46:43.139Z"
+      "collectedAt": "2026-10-16T07:35:10.224Z"
     },
     {
       "id": "b6ef8483976563d9823c",
@@ -1053,7 +1087,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T01:00:00.000Z",
       "url": "https://openai.com/index/airbnb-gpt-6-astra",
-      "collectedAt": "2026-10-15T07:46:43.140Z"
+      "collectedAt": "2026-10-16T07:35:10.224Z"
     },
     {
       "id": "cf8033ba83eec6a8c148",
@@ -1070,7 +1104,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.402Z"
+      "collectedAt": "2026-10-16T07:35:11.461Z"
     },
     {
       "id": "0e12b4f460d98cac8731",
@@ -1087,7 +1121,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T21:00:00.000Z",
       "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "collectedAt": "2026-10-15T07:46:43.141Z"
+      "collectedAt": "2026-10-16T07:35:10.225Z"
     },
     {
       "id": "0299d0ca3df23eb91bfb",
@@ -1104,7 +1138,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T18:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "collectedAt": "2026-10-15T07:46:43.141Z"
+      "collectedAt": "2026-10-16T07:35:10.225Z"
     },
     {
       "id": "4e2d2a2c5ea855512c7e",
@@ -1121,7 +1155,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T12:00:00.000Z",
       "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "collectedAt": "2026-10-15T07:46:43.141Z"
+      "collectedAt": "2026-10-16T07:35:10.225Z"
     },
     {
       "id": "25f4610d8559fb3e7ae8",
@@ -1138,7 +1172,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-      "collectedAt": "2026-10-15T07:46:43.141Z"
+      "collectedAt": "2026-10-16T07:35:10.226Z"
     },
     {
       "id": "48cb0cab97e8610721be",
@@ -1155,7 +1189,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-15T07:46:43.847Z"
+      "collectedAt": "2026-10-16T07:35:10.887Z"
     },
     {
       "id": "610bf15c44ede2d5d325",
@@ -1172,7 +1206,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.402Z"
+      "collectedAt": "2026-10-16T07:35:11.462Z"
     },
     {
       "id": "a56f6381fd9bef9a27b2",
@@ -1189,7 +1223,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-15T07:46:45.409Z"
+      "collectedAt": "2026-10-16T07:35:12.659Z"
     },
     {
       "id": "9b5d95c2825df000aa2b",
@@ -1206,7 +1240,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-21T12:00:00.000Z",
       "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "collectedAt": "2026-10-15T07:46:43.142Z"
+      "collectedAt": "2026-10-16T07:35:10.226Z"
     },
     {
       "id": "132e637062c60e5185cf",
@@ -1223,7 +1257,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "url": "https://openai.com/index/v7",
-      "collectedAt": "2026-10-15T07:46:43.142Z"
+      "collectedAt": "2026-10-16T07:35:10.227Z"
     },
     {
       "id": "cf45b7445432b183ccd7",
@@ -1240,7 +1274,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.402Z"
+      "collectedAt": "2026-10-16T07:35:11.462Z"
     },
     {
       "id": "7a94fab2ea3e053d553c",
@@ -1257,7 +1291,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-18T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-15T07:46:45.409Z"
+      "collectedAt": "2026-10-16T07:35:12.660Z"
     },
     {
       "id": "99698296f3d481cb3012",
@@ -1274,7 +1308,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-17T12:00:00.000Z",
       "url": "https://openai.com/index/cooley-gopublic",
-      "collectedAt": "2026-10-15T07:46:43.142Z"
+      "collectedAt": "2026-10-16T07:35:10.227Z"
     },
     {
       "id": "4f0ecd4dc9d7f8f4cb97",
@@ -1291,7 +1325,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-15T07:46:45.410Z"
+      "collectedAt": "2026-10-16T07:35:12.661Z"
     },
     {
       "id": "3db286bcd9ddd5e690c5",
@@ -1308,7 +1342,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T17:00:00.000Z",
       "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "collectedAt": "2026-10-15T07:46:43.143Z"
+      "collectedAt": "2026-10-16T07:35:10.229Z"
     },
     {
       "id": "11eaf0d915ce57f2e5dc",
@@ -1325,7 +1359,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T16:00:00.000Z",
       "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "collectedAt": "2026-10-15T07:46:43.142Z"
+      "collectedAt": "2026-10-16T07:35:10.228Z"
     },
     {
       "id": "b458adf1e7325b78ff00",
@@ -1342,7 +1376,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T13:00:00.000Z",
       "url": "https://openai.com/index/reimagining-advertising-with-ai",
-      "collectedAt": "2026-10-15T07:46:43.143Z"
+      "collectedAt": "2026-10-16T07:35:10.228Z"
     },
     {
       "id": "2dbb90206bf7febc30df",
@@ -1359,7 +1393,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T12:00:00.000Z",
       "url": "https://openai.com/index/hex-gpt-6-astra",
-      "collectedAt": "2026-10-15T07:46:43.143Z"
+      "collectedAt": "2026-10-16T07:35:10.228Z"
     },
     {
       "id": "d7974b87b16b68185695",
@@ -1376,7 +1410,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T12:00:00.000Z",
       "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-      "collectedAt": "2026-10-15T07:46:43.143Z"
+      "collectedAt": "2026-10-16T07:35:10.229Z"
     },
     {
       "id": "1679a9385f8da2856137",
@@ -1393,7 +1427,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-15T07:46:43.848Z"
+      "collectedAt": "2026-10-16T07:35:10.888Z"
     },
     {
       "id": "6027ab1cfd832c602065",
@@ -1410,7 +1444,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-15T17:05:57.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "collectedAt": "2026-10-15T07:46:45.664Z"
+      "collectedAt": "2026-10-16T07:35:12.881Z"
     },
     {
       "id": "0e9e3b47215ca2b8e52d",
@@ -1427,7 +1461,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-15T07:46:43.849Z"
+      "collectedAt": "2026-10-16T07:35:10.889Z"
     },
     {
       "id": "bdfe1a33c2e5abcfb404",
@@ -1444,7 +1478,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-15T07:46:45.410Z"
+      "collectedAt": "2026-10-16T07:35:12.661Z"
     },
     {
       "id": "7b83739b7d5f1c944f9f",
@@ -1461,7 +1495,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-14T12:00:00.000Z",
       "url": "https://openai.com/index/fyxer",
-      "collectedAt": "2026-10-15T07:46:43.144Z"
+      "collectedAt": "2026-10-16T07:35:10.229Z"
     },
     {
       "id": "a4651d8dabcdcb00db87",
@@ -1478,7 +1512,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "collectedAt": "2026-10-15T07:46:43.144Z"
+      "collectedAt": "2026-10-16T07:35:10.230Z"
     },
     {
       "id": "e63da132a40e17f8c5e1",
@@ -1495,7 +1529,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.403Z"
+      "collectedAt": "2026-10-16T07:35:11.463Z"
     },
     {
       "id": "8441c5c7713114dab2dd",
@@ -1512,7 +1546,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-11T16:00:00.000Z",
       "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "collectedAt": "2026-10-15T07:46:43.144Z"
+      "collectedAt": "2026-10-16T07:35:10.231Z"
     },
     {
       "id": "a97d00819fdcee1d0af9",
@@ -1529,7 +1563,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-11T10:00:00.000Z",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "collectedAt": "2026-10-15T07:46:43.144Z"
+      "collectedAt": "2026-10-16T07:35:10.230Z"
     },
     {
       "id": "16d6fc5541d885cd91c8",
@@ -1546,7 +1580,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T16:00:00.000Z",
       "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "collectedAt": "2026-10-15T07:46:43.145Z"
+      "collectedAt": "2026-10-16T07:35:10.231Z"
     },
     {
       "id": "85f5620286a75dba1ad3",
@@ -1563,7 +1597,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T15:00:00.000Z",
       "url": "https://openai.com/index/put-data-to-work",
-      "collectedAt": "2026-10-15T07:46:43.145Z"
+      "collectedAt": "2026-10-16T07:35:10.232Z"
     },
     {
       "id": "f2800aae894b09e0bcf0",
@@ -1580,7 +1614,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T07:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "collectedAt": "2026-10-15T07:46:43.145Z"
+      "collectedAt": "2026-10-16T07:35:10.232Z"
     },
     {
       "id": "02a514a4d6eb4e449b95",
@@ -1597,7 +1631,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-the-agents-api",
-      "collectedAt": "2026-10-15T07:46:43.146Z"
+      "collectedAt": "2026-10-16T07:35:10.233Z"
     },
     {
       "id": "6ca2d4bb7baad47f3b1e",
@@ -1614,7 +1648,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "collectedAt": "2026-10-15T07:46:43.146Z"
+      "collectedAt": "2026-10-16T07:35:10.234Z"
     },
     {
       "id": "50e12afea7a21a8f8a47",
@@ -1631,7 +1665,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-15T07:46:43.850Z"
+      "collectedAt": "2026-10-16T07:35:10.890Z"
     },
     {
       "id": "278864a90b7195a8f9eb",
@@ -1648,7 +1682,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.403Z"
+      "collectedAt": "2026-10-16T07:35:11.463Z"
     },
     {
       "id": "2f6a11a19101188b8eed",
@@ -1665,7 +1699,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-10-15T07:46:44.670Z"
+      "collectedAt": "2026-10-16T07:35:11.781Z"
     },
     {
       "id": "98d7349379f3f9e1561b",
@@ -1682,7 +1716,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-10-15T07:46:47.129Z"
+      "collectedAt": "2026-10-16T07:35:14.273Z"
     },
     {
       "id": "45aecbb9328300ba4629",
@@ -1699,7 +1733,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-09T11:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "collectedAt": "2026-10-15T07:46:43.147Z"
+      "collectedAt": "2026-10-16T07:35:10.234Z"
     },
     {
       "id": "9224e94473422021d0a4",
@@ -1716,7 +1750,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.410Z"
+      "collectedAt": "2026-10-16T07:35:11.464Z"
     },
     {
       "id": "d336adb530d2e7f0e222",
@@ -1733,7 +1767,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T17:00:00.000Z",
       "url": "https://openai.com/index/codex-quantum-computing-experiments",
-      "collectedAt": "2026-10-15T07:46:43.147Z"
+      "collectedAt": "2026-10-16T07:35:10.234Z"
     },
     {
       "id": "48b0669cc37302b20aee",
@@ -1750,7 +1784,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T11:30:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-      "collectedAt": "2026-10-15T07:46:43.147Z"
+      "collectedAt": "2026-10-16T07:35:10.235Z"
     },
     {
       "id": "9b8a0aa3eea1f601cab9",
@@ -1767,7 +1801,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T10:00:00.000Z",
       "url": "https://openai.com/index/navier-stokes-solution",
-      "collectedAt": "2026-10-15T07:46:43.147Z"
+      "collectedAt": "2026-10-16T07:35:10.235Z"
     },
     {
       "id": "fc10a2c83b0e44fbdbfa",
@@ -1784,7 +1818,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "url": "https://openai.com/index/1password",
-      "collectedAt": "2026-10-15T07:46:43.148Z"
+      "collectedAt": "2026-10-16T07:35:10.236Z"
     },
     {
       "id": "0f8e8b7e95228d5352a6",
@@ -1801,24 +1835,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-06T08:00:00.000Z",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "collectedAt": "2026-10-15T07:46:43.148Z"
-    },
-    {
-      "id": "3fdba842a49bbf61f305",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "content": "Playco is using GPT‑6 Astra in building Playbot, an AI-powered IDE for professional game developers. It connects directly to engines such as Unity and Godot so AI models can edit scenes, play and test games, validate changes, and work in parallel inside the tools developers already use.\n\nIn game development, a model needs to do more than write code. It must reason about space, visual references, responsive interfaces, game feel, and whether a change actually works when the game is played. Playbot makes that possible by letting the model build in the engine, run tests, find bugs, and improve what it created.\n\n> “GPT-6 Astra is much better at reasoning about space and positioning elements in a way that makes sense. Also, its vision capabilities seem to be improved. We also saw improvements in UI responsiveness in game engines.”\n\n—Joao Vieira, Lead Product Engineer, Playco\n\n## Building three playable worlds from one grey box\n\nUsing GPT‑6 Astra, the Playco team created an unthemed grey box prototype from simple primitives, and then made a few iterations on gameplay and creative details. From that shared foundation, the team developed three themed game prototypes. Playco says GPT‑6 Astra produced all three in one go.\n\nMost prototypes also worked on the first take. “With Astra, the first prototype was already strong. The only changes we needed to make were based on our gameplay preferences,” said Joao Vieira, Lead Product Engineer. One cyberpunk version needed a performance fix, but the rest came together without additional iteration.\n\n## Cutting manual fixes in half\n\nWith the previous model, Playco’s initial grey box was less polished. Prompting the model to correct it eventually became counterproductive, so engineers had to step in and fix the game by hand. With GPT‑6 Astra, Playco reports 50% fewer manual fixes.\n\nThe team also saw improvements in spatial reasoning, recreating reference images, responsive UI inside Unity, and game feel. Because Playbot can let a model play the game and validate its own changes, Playco says Astra also found bugs more easily and identified places to improve the player experience.\n\nFor Playco, the biggest impact is being able to turn more ideas into something developers can play and compare. As lead product engineer Joao Vieira puts it, “If you have 10 ideas for a game, you can do all 10 and actually play them and see how they would feel rather than just imagine.”",
-      "contentZh": "Playco正在使用GPT-6 Astra构建Playbot，这是一款面向专业游戏开发者的AI驱动IDE。它直接连接Unity和Godot等引擎，使AI模型能够编辑场景、运行和测试游戏、验证更改，并在开发者已使用的工具中并行工作。\n\n在游戏开发中，模型需要做的不仅仅是编写代码。它必须推理空间、视觉参考、响应式界面、游戏手感，以及更改在游戏实际运行时是否有效。Playbot通过让模型在引擎中构建、运行测试、发现错误并改进其创建的内容，使这一切成为可能。\n\n> “GPT-6 Astra在空间推理和元素定位方面表现出色，结果非常合理。此外，其视觉能力似乎也有所提升。我们还看到了游戏引擎中UI响应性的改进。”\n\n——Joao Vieira，Playco首席产品工程师\n\n## 从一个灰盒构建三个可玩的游戏世界\n\n使用GPT-6 Astra，Playco团队从简单图元创建了一个无主题的灰盒原型，然后在游戏玩法和创意细节上进行了几次迭代。基于这一共同基础，团队开发了三个主题游戏原型。Playco表示，GPT-6 Astra一次性生成了全部三个原型。\n\n大多数原型在首次尝试时即可运行。“使用Astra，第一个原型已经非常出色。我们唯一需要做的更改是基于我们的游戏偏好，”首席产品工程师Joao Vieira表示。其中一个赛博朋克版本需要性能修复，但其余部分无需额外迭代即可完成。\n\n## 手动修复减少一半\n\n使用之前的模型时，Playco的初始灰盒不够精细。提示模型进行修正最终适得其反，因此工程师不得不手动介入修复游戏。使用GPT-6 Astra后，Playco报告手动修复减少了50%。\n\n团队还观察到空间推理、参考图像重现、Unity内响应式UI以及游戏手感方面的改进。由于Playbot可以让模型玩游戏并验证自身更改，Playco表示Astra还能更轻松地发现错误，并识别出改善玩家体验的环节。\n\n对Playco而言，最大的影响是能够将更多创意转化为开发者可以实际游玩和比较的内容。正如首席产品工程师Joao Vieira所说：“如果你有10个游戏创意，你可以全部实现，并实际游玩它们，感受它们的体验，而不仅仅是凭空想象。”",
-      "titleZh": "Playco 借助 GPT-6 Astra 将游戏原型制作中的手动修复减少 50%",
-      "summaryZh": "Playco 使用 GPT-6 Astra，从一个灰盒基础构建了三个主题游戏原型，并报告称与之前的模型相比，手动修复减少了 50%。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "collectedAt": "2026-10-15T07:46:43.148Z"
+      "collectedAt": "2026-10-16T07:35:10.236Z"
     },
     {
       "id": "67198b26c462572b168f",
@@ -1835,7 +1852,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "collectedAt": "2026-10-15T07:46:43.148Z"
+      "collectedAt": "2026-10-16T07:35:10.237Z"
+    },
+    {
+      "id": "3fdba842a49bbf61f305",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "content": "Playco is using GPT‑6 Astra in building Playbot, an AI-powered IDE for professional game developers. It connects directly to engines such as Unity and Godot so AI models can edit scenes, play and test games, validate changes, and work in parallel inside the tools developers already use.\n\nIn game development, a model needs to do more than write code. It must reason about space, visual references, responsive interfaces, game feel, and whether a change actually works when the game is played. Playbot makes that possible by letting the model build in the engine, run tests, find bugs, and improve what it created.\n\n> “GPT-6 Astra is much better at reasoning about space and positioning elements in a way that makes sense. Also, its vision capabilities seem to be improved. We also saw improvements in UI responsiveness in game engines.”\n\n—Joao Vieira, Lead Product Engineer, Playco\n\n## Building three playable worlds from one grey box\n\nUsing GPT‑6 Astra, the Playco team created an unthemed grey box prototype from simple primitives, and then made a few iterations on gameplay and creative details. From that shared foundation, the team developed three themed game prototypes. Playco says GPT‑6 Astra produced all three in one go.\n\nMost prototypes also worked on the first take. “With Astra, the first prototype was already strong. The only changes we needed to make were based on our gameplay preferences,” said Joao Vieira, Lead Product Engineer. One cyberpunk version needed a performance fix, but the rest came together without additional iteration.\n\n## Cutting manual fixes in half\n\nWith the previous model, Playco’s initial grey box was less polished. Prompting the model to correct it eventually became counterproductive, so engineers had to step in and fix the game by hand. With GPT‑6 Astra, Playco reports 50% fewer manual fixes.\n\nThe team also saw improvements in spatial reasoning, recreating reference images, responsive UI inside Unity, and game feel. Because Playbot can let a model play the game and validate its own changes, Playco says Astra also found bugs more easily and identified places to improve the player experience.\n\nFor Playco, the biggest impact is being able to turn more ideas into something developers can play and compare. As lead product engineer Joao Vieira puts it, “If you have 10 ideas for a game, you can do all 10 and actually play them and see how they would feel rather than just imagine.”",
+      "contentZh": "Playco正在使用GPT-6 Astra构建Playbot，这是一款面向专业游戏开发者的AI驱动IDE。它直接连接Unity和Godot等引擎，使AI模型能够编辑场景、运行和测试游戏、验证更改，并在开发者已使用的工具中并行工作。\n\n在游戏开发中，模型需要做的不仅仅是编写代码。它必须推理空间、视觉参考、响应式界面、游戏手感，以及更改在游戏实际运行时是否有效。Playbot通过让模型在引擎中构建、运行测试、发现错误并改进其创建的内容，使这一切成为可能。\n\n> “GPT-6 Astra在空间推理和元素定位方面表现出色，结果非常合理。此外，其视觉能力似乎也有所提升。我们还看到了游戏引擎中UI响应性的改进。”\n\n——Joao Vieira，Playco首席产品工程师\n\n## 从一个灰盒构建三个可玩的游戏世界\n\n使用GPT-6 Astra，Playco团队从简单图元创建了一个无主题的灰盒原型，然后在游戏玩法和创意细节上进行了几次迭代。基于这一共同基础，团队开发了三个主题游戏原型。Playco表示，GPT-6 Astra一次性生成了全部三个原型。\n\n大多数原型在首次尝试时即可运行。“使用Astra，第一个原型已经非常出色。我们唯一需要做的更改是基于我们的游戏偏好，”首席产品工程师Joao Vieira表示。其中一个赛博朋克版本需要性能修复，但其余部分无需额外迭代即可完成。\n\n## 手动修复减少一半\n\n使用之前的模型时，Playco的初始灰盒不够精细。提示模型进行修正最终适得其反，因此工程师不得不手动介入修复游戏。使用GPT-6 Astra后，Playco报告手动修复减少了50%。\n\n团队还观察到空间推理、参考图像重现、Unity内响应式UI以及游戏手感方面的改进。由于Playbot可以让模型玩游戏并验证自身更改，Playco表示Astra还能更轻松地发现错误，并识别出改善玩家体验的环节。\n\n对Playco而言，最大的影响是能够将更多创意转化为开发者可以实际游玩和比较的内容。正如首席产品工程师Joao Vieira所说：“如果你有10个游戏创意，你可以全部实现，并实际游玩它们，感受它们的体验，而不仅仅是凭空想象。”",
+      "titleZh": "Playco 借助 GPT-6 Astra 将游戏原型制作中的手动修复减少 50%",
+      "summaryZh": "Playco 使用 GPT-6 Astra，从一个灰盒基础构建了三个主题游戏原型，并报告称与之前的模型相比，手动修复减少了 50%。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "collectedAt": "2026-10-16T07:35:10.237Z"
     },
     {
       "id": "499b8df2de41c3c42a77",
@@ -1852,7 +1886,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T11:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-astra",
-      "collectedAt": "2026-10-15T07:46:43.149Z"
+      "collectedAt": "2026-10-16T07:35:10.237Z"
     },
     {
       "id": "9b8372f5dd9139bf3dfd",
@@ -1869,7 +1903,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "collectedAt": "2026-10-15T07:46:43.149Z"
+      "collectedAt": "2026-10-16T07:35:10.237Z"
     },
     {
       "id": "76e92e71feca11592be4",
@@ -1886,7 +1920,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.410Z"
+      "collectedAt": "2026-10-16T07:35:11.464Z"
     },
     {
       "id": "08b3047f467c4462ae01",
@@ -1903,7 +1937,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-15T07:46:45.411Z"
+      "collectedAt": "2026-10-16T07:35:12.662Z"
     },
     {
       "id": "9ad38e9ab9838c6b598d",
@@ -1920,7 +1954,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-02T16:18:31.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "collectedAt": "2026-10-15T07:46:45.664Z"
+      "collectedAt": "2026-10-16T07:35:12.881Z"
     },
     {
       "id": "23cc665780e07fde7643",
@@ -1937,7 +1971,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-02T12:00:00.000Z",
       "url": "https://openai.com/index/atv-big-air-tour",
-      "collectedAt": "2026-10-15T07:46:43.149Z"
+      "collectedAt": "2026-10-16T07:35:10.238Z"
     },
     {
       "id": "7a7557129f4a0b3fe78e",
@@ -1954,7 +1988,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-15T07:46:45.411Z"
+      "collectedAt": "2026-10-16T07:35:12.662Z"
     },
     {
       "id": "5fd2975f213ab047e365",
@@ -1971,7 +2005,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T17:08:51.000Z",
       "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-      "collectedAt": "2026-10-15T07:46:45.664Z"
+      "collectedAt": "2026-10-16T07:35:12.881Z"
     },
     {
       "id": "0de52357b4b07f25549c",
@@ -1988,7 +2022,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T13:00:00.000Z",
       "url": "https://openai.com/index/path-to-astra",
-      "collectedAt": "2026-10-15T07:46:43.149Z"
+      "collectedAt": "2026-10-16T07:35:10.238Z"
     },
     {
       "id": "210c1577098c3af2295c",
@@ -2005,7 +2039,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T12:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "collectedAt": "2026-10-15T07:46:43.149Z"
+      "collectedAt": "2026-10-16T07:35:10.238Z"
     },
     {
       "id": "c60a9dbb33739fa8f7ff",
@@ -2022,7 +2056,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T01:00:00.000Z",
       "url": "https://openai.com/index/gilbert-tobin",
-      "collectedAt": "2026-10-15T07:46:43.150Z"
+      "collectedAt": "2026-10-16T07:35:10.239Z"
     },
     {
       "id": "f53efa27b0d13a2b8d75",
@@ -2039,7 +2073,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-15T07:46:43.850Z"
+      "collectedAt": "2026-10-16T07:35:10.891Z"
     },
     {
       "id": "3f73d429de5f2ed86a44",
@@ -2056,7 +2090,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.411Z"
+      "collectedAt": "2026-10-16T07:35:11.465Z"
     },
     {
       "id": "6a3e7fac71e57d88cb41",
@@ -2073,7 +2107,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-15T07:46:45.411Z"
+      "collectedAt": "2026-10-16T07:35:12.663Z"
     },
     {
       "id": "62995badc1a46202724b",
@@ -2090,7 +2124,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-31T07:00:00.000Z",
       "url": "https://openai.com/index/polimill",
-      "collectedAt": "2026-10-15T07:46:43.150Z"
+      "collectedAt": "2026-10-16T07:35:10.239Z"
     },
     {
       "id": "89958d19d1f987cb8ada",
@@ -2107,7 +2141,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-31T04:00:00.000Z",
       "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "collectedAt": "2026-10-15T07:46:43.150Z"
+      "collectedAt": "2026-10-16T07:35:10.239Z"
     },
     {
       "id": "6e697a03b79f347648db",
@@ -2124,7 +2158,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-28T06:00:00.000Z",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "collectedAt": "2026-10-15T07:46:43.150Z"
+      "collectedAt": "2026-10-16T07:35:10.240Z"
     },
     {
       "id": "3b034008653d3c2739c4",
@@ -2141,7 +2175,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T16:11:32.000Z",
       "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "collectedAt": "2026-10-15T07:46:45.664Z"
+      "collectedAt": "2026-10-16T07:35:12.881Z"
     },
     {
       "id": "f3885091ef8df6aaae64",
@@ -2158,7 +2192,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T09:00:00.000Z",
       "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "collectedAt": "2026-10-15T07:46:43.150Z"
+      "collectedAt": "2026-10-16T07:35:10.240Z"
     },
     {
       "id": "4707ef7564f9017d5027",
@@ -2175,7 +2209,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.411Z"
+      "collectedAt": "2026-10-16T07:35:11.465Z"
     },
     {
       "id": "c5289a9a45e73f8f78ee",
@@ -2192,7 +2226,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-15T07:46:45.411Z"
+      "collectedAt": "2026-10-16T07:35:12.667Z"
     },
     {
       "id": "038305de768a112cfa08",
@@ -2209,7 +2243,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T17:01:00.000Z",
       "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-      "collectedAt": "2026-10-15T07:46:45.664Z"
+      "collectedAt": "2026-10-16T07:35:12.882Z"
     },
     {
       "id": "df161950e809789b055b",
@@ -2226,7 +2260,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "collectedAt": "2026-10-15T07:46:43.151Z"
+      "collectedAt": "2026-10-16T07:35:10.240Z"
     },
     {
       "id": "92b51a1e3a09499b97f9",
@@ -2243,7 +2277,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "url": "https://openai.com/index/learning-never-stops",
-      "collectedAt": "2026-10-15T07:46:43.151Z"
+      "collectedAt": "2026-10-16T07:35:10.241Z"
     },
     {
       "id": "e8e71766793d0226c88b",
@@ -2260,7 +2294,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "collectedAt": "2026-10-15T07:46:43.151Z"
+      "collectedAt": "2026-10-16T07:35:10.241Z"
     },
     {
       "id": "42d46e03e113f1a48a9f",
@@ -2277,7 +2311,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/loveholidays",
-      "collectedAt": "2026-10-15T07:46:43.151Z"
+      "collectedAt": "2026-10-16T07:35:10.241Z"
     },
     {
       "id": "0e8f06023793c35c12b2",
@@ -2294,7 +2328,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.412Z"
+      "collectedAt": "2026-10-16T07:35:11.466Z"
     },
     {
       "id": "57792a4fc465ac9e4168",
@@ -2311,7 +2345,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-15T07:46:45.411Z"
+      "collectedAt": "2026-10-16T07:35:12.667Z"
     },
     {
       "id": "bdff11d888b055940269",
@@ -2328,7 +2362,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T07:05:00.000Z",
       "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "collectedAt": "2026-10-15T07:46:43.151Z"
+      "collectedAt": "2026-10-16T07:35:10.242Z"
     },
     {
       "id": "b9dd82456710ac7ff739",
@@ -2345,7 +2379,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T07:00:00.000Z",
       "url": "https://openai.com/index/jalapeno-first-results",
-      "collectedAt": "2026-10-15T07:46:43.151Z"
+      "collectedAt": "2026-10-16T07:35:10.242Z"
     },
     {
       "id": "4f3d5193843c2be21102",
@@ -2362,7 +2396,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-admin-plugin",
-      "collectedAt": "2026-10-15T07:46:43.152Z"
+      "collectedAt": "2026-10-16T07:35:10.242Z"
     },
     {
       "id": "98efe21910bba76ddc89",
@@ -2379,7 +2413,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-15T07:46:43.851Z"
+      "collectedAt": "2026-10-16T07:35:10.893Z"
     },
     {
       "id": "a3e38d1146847fcc32c5",
@@ -2396,7 +2430,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-24T12:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "collectedAt": "2026-10-15T07:46:43.152Z"
+      "collectedAt": "2026-10-16T07:35:10.243Z"
     },
     {
       "id": "fb3550ee043ce3089dfb",
@@ -2413,7 +2447,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-10-15T07:46:47.130Z"
+      "collectedAt": "2026-10-16T07:35:14.275Z"
     },
     {
       "id": "2d19306ef234ea7faec5",
@@ -2430,7 +2464,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://openai.com/index/stampli",
-      "collectedAt": "2026-10-15T07:46:43.152Z"
+      "collectedAt": "2026-10-16T07:35:10.243Z"
     },
     {
       "id": "545fb287d7f850c3b01d",
@@ -2447,7 +2481,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.412Z"
+      "collectedAt": "2026-10-16T07:35:11.466Z"
     },
     {
       "id": "3dc55b55b1de08c817b2",
@@ -2464,7 +2498,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T19:00:00.000Z",
       "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "collectedAt": "2026-10-15T07:46:43.152Z"
+      "collectedAt": "2026-10-16T07:35:10.243Z"
     },
     {
       "id": "1e5ef4886d4750bbdc69",
@@ -2481,7 +2515,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T07:00:00.000Z",
       "url": "https://openai.com/index/replit",
-      "collectedAt": "2026-10-15T07:46:43.152Z"
+      "collectedAt": "2026-10-16T07:35:10.244Z"
     },
     {
       "id": "862a5272957677cbb451",
@@ -2498,7 +2532,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.412Z"
+      "collectedAt": "2026-10-16T07:35:11.467Z"
     },
     {
       "id": "dbabefb7176b8899389d",
@@ -2515,7 +2549,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-10-15T07:46:44.670Z"
+      "collectedAt": "2026-10-16T07:35:11.781Z"
     },
     {
       "id": "d02b32736bea62b3185d",
@@ -2532,7 +2566,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T22:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "collectedAt": "2026-10-15T07:46:43.153Z"
+      "collectedAt": "2026-10-16T07:35:10.244Z"
     },
     {
       "id": "755e4db2cccf354bd6df",
@@ -2549,7 +2583,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "collectedAt": "2026-10-15T07:46:43.153Z"
+      "collectedAt": "2026-10-16T07:35:10.244Z"
     },
     {
       "id": "60ed32685f2c13d2be9e",
@@ -2566,7 +2600,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-teens",
-      "collectedAt": "2026-10-15T07:46:43.153Z"
+      "collectedAt": "2026-10-16T07:35:10.245Z"
     },
     {
       "id": "b32d89933b3f566e892d",
@@ -2583,7 +2617,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T07:00:00.000Z",
       "url": "https://openai.com/index/asana",
-      "collectedAt": "2026-10-15T07:46:43.153Z"
+      "collectedAt": "2026-10-16T07:35:10.246Z"
     },
     {
       "id": "cf88f2889563730674dc",
@@ -2600,7 +2634,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://openai.com/index/nvidia/chatgpt-work",
-      "collectedAt": "2026-10-15T07:46:43.153Z"
+      "collectedAt": "2026-10-16T07:35:10.245Z"
     },
     {
       "id": "aa9fbf89108c624b5035",
@@ -2617,7 +2651,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.413Z"
+      "collectedAt": "2026-10-16T07:35:11.468Z"
     },
     {
       "id": "628f79672cb28599f754",
@@ -2634,7 +2668,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T17:04:18.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "collectedAt": "2026-10-15T07:46:45.664Z"
+      "collectedAt": "2026-10-16T07:35:12.882Z"
     },
     {
       "id": "8637785710012aa19327",
@@ -2651,7 +2685,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T11:00:00.000Z",
       "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "collectedAt": "2026-10-15T07:46:43.154Z"
+      "collectedAt": "2026-10-16T07:35:10.246Z"
     },
     {
       "id": "12d8fd2a91a610822616",
@@ -2668,7 +2702,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T10:00:00.000Z",
       "url": "https://openai.com/index/previewing-ultrafast",
-      "collectedAt": "2026-10-15T07:46:43.154Z"
+      "collectedAt": "2026-10-16T07:35:10.247Z"
     },
     {
       "id": "ff9329e42a201fd379a6",
@@ -2685,7 +2719,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-15T07:46:45.412Z"
+      "collectedAt": "2026-10-16T07:35:12.667Z"
     },
     {
       "id": "68c4c83c983d7ad01b30",
@@ -2702,7 +2736,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-10-15T07:46:47.131Z"
+      "collectedAt": "2026-10-16T07:35:14.277Z"
     },
     {
       "id": "5437747d9f7a7fa2a89b",
@@ -2719,7 +2753,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T06:00:00.000Z",
       "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "collectedAt": "2026-10-15T07:46:43.155Z"
+      "collectedAt": "2026-10-16T07:35:10.247Z"
     },
     {
       "id": "1024017ea20ba53c7f72",
@@ -2736,24 +2770,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "url": "https://openai.com/index/ringcentral",
-      "collectedAt": "2026-10-15T07:46:43.155Z"
-    },
-    {
-      "id": "8825eb211c3d1692966b",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Daybreak models are now available on AWS",
-      "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
-      "content": "Earlier this year, OpenAI frontier models and Codex became generally available on AWS, giving enterprises a new path to bring advanced AI into production. Today, we’re sharing the next step in our work with AWS: making Daybreak capabilities available through Amazon Bedrock.\n\nWith [Daybreak Access](https://openai.com/form/enterprise-trusted-access-for-cyber/), defenders can use frontier cyber models within their existing AWS environments. Daybreak Blue and Daybreak Red access levels are both available in AWS:\n\n*   **Daybreak Blue**provides access to frontier general-purpose models, including GPT‑5.6 Sol, with safeguards tailored to authorized defensive security work.\n*   **Daybreak Red**provides access to our purpose-trained cybersecurity models for authorized vulnerability research, exploit validation, and security testing.\n\nThese models help accelerate vulnerability research, detection engineering, and incident response, from initial discovery through a validated fix. They also support complex workflows such as exploit reproduction and mitigation development.\n\n## Bringing frontier cybersecurity capabilities to AWS\n\nFor enterprises, adopting specialized cybersecurity capabilities requires more than model performance. It also requires security review, governance, procurement, access controls, and an operating model teams can support.\n\nThrough Amazon Bedrock, eligible customers can use Daybreak, including Daybreak Red and Daybreak Blue, within the AWS environments where they already build, secure, and operate software. This gives security teams a clearer path to apply frontier AI through familiar AWS security, governance, and operational workflows.\n\nTogether, OpenAI and AWS are helping more organizations put advanced cybersecurity capabilities to work in production.\n\n## Get started\n\nDaybreak Red and Daybreak Blue require enrollment in [Daybreak Access](https://openai.com/form/enterprise-trusted-access-for-cyber/). Once approved, you can access the model through the Amazon Bedrock console or the Responses API using the bedrock-mantle endpoint. To learn more, see the [documentation.⁠(opens in a new window)](https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-openai.html)",
-      "contentZh": "今年早些时候，OpenAI前沿模型和Codex已在AWS上全面可用，为企业将先进AI投入生产提供了新路径。今天，我们分享与AWS合作的下一步：通过Amazon Bedrock提供Daybreak能力。\n\n借助[Daybreak Access](https://openai.com/form/enterprise-trusted-access-for-cyber/)，防御者可以在其现有AWS环境中使用前沿网络模型。Daybreak Blue和Daybreak Red访问级别均已在AWS中可用：\n\n*   **Daybreak Blue**提供对前沿通用模型的访问，包括GPT‑5.6 Sol，并带有针对授权防御性安全工作量身定制的安全防护措施。\n*   **Daybreak Red**提供对我们经过专门训练的网络安防模型的访问，用于授权的漏洞研究、漏洞验证和安全测试。\n\n这些模型有助于加速漏洞研究、检测工程和事件响应，从初始发现到经过验证的修复。它们还支持复杂工作流，如漏洞复现和缓解措施开发。\n\n## 将前沿网络安全能力引入AWS\n\n对于企业而言，采用专业网络安全能力不仅需要模型性能。它还需要安全审查、治理、采购、访问控制以及团队能够支持的运营模式。\n\n通过Amazon Bedrock，符合条件的客户可以在其已用于构建、保护和运营软件的AWS环境中使用Daybreak，包括Daybreak Red和Daybreak Blue。这为安全团队提供了一条更清晰的路径，通过熟悉的AWS安全、治理和运营工作流应用前沿AI。\n\nOpenAI和AWS携手合作，帮助更多组织将先进的网络安全能力投入生产。\n\n## 开始使用\n\nDaybreak Red和Daybreak Blue需要注册[Daybreak Access](https://openai.com/form/enterprise-trusted-access-for-cyber/)。获批后，您可以通过Amazon Bedrock控制台或使用bedrock-mantle端点的Responses API访问该模型。如需了解更多信息，请参阅[文档⁠（在新窗口中打开）](https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-openai.html)。",
-      "titleZh": "Daybreak 模型现已在 AWS 上可用",
-      "summaryZh": "OpenAI 和 AWS 正在通过 Amazon Bedrock 提供 Daybreak 网络安全能力，以支持企业安全工作流程。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-11T10:00:00.000Z",
-      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "collectedAt": "2026-10-15T07:46:43.155Z"
+      "collectedAt": "2026-10-16T07:35:10.248Z"
     },
     {
       "id": "d9485ecefcc38cea5418",
@@ -2770,7 +2787,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "collectedAt": "2026-10-15T07:46:43.156Z"
+      "collectedAt": "2026-10-16T07:35:10.248Z"
+    },
+    {
+      "id": "8825eb211c3d1692966b",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Daybreak models are now available on AWS",
+      "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+      "content": "Earlier this year, OpenAI frontier models and Codex became generally available on AWS, giving enterprises a new path to bring advanced AI into production. Today, we’re sharing the next step in our work with AWS: making Daybreak capabilities available through Amazon Bedrock.\n\nWith [Daybreak Access](https://openai.com/form/enterprise-trusted-access-for-cyber/), defenders can use frontier cyber models within their existing AWS environments. Daybreak Blue and Daybreak Red access levels are both available in AWS:\n\n*   **Daybreak Blue**provides access to frontier general-purpose models, including GPT‑5.6 Sol, with safeguards tailored to authorized defensive security work.\n*   **Daybreak Red**provides access to our purpose-trained cybersecurity models for authorized vulnerability research, exploit validation, and security testing.\n\nThese models help accelerate vulnerability research, detection engineering, and incident response, from initial discovery through a validated fix. They also support complex workflows such as exploit reproduction and mitigation development.\n\n## Bringing frontier cybersecurity capabilities to AWS\n\nFor enterprises, adopting specialized cybersecurity capabilities requires more than model performance. It also requires security review, governance, procurement, access controls, and an operating model teams can support.\n\nThrough Amazon Bedrock, eligible customers can use Daybreak, including Daybreak Red and Daybreak Blue, within the AWS environments where they already build, secure, and operate software. This gives security teams a clearer path to apply frontier AI through familiar AWS security, governance, and operational workflows.\n\nTogether, OpenAI and AWS are helping more organizations put advanced cybersecurity capabilities to work in production.\n\n## Get started\n\nDaybreak Red and Daybreak Blue require enrollment in [Daybreak Access](https://openai.com/form/enterprise-trusted-access-for-cyber/). Once approved, you can access the model through the Amazon Bedrock console or the Responses API using the bedrock-mantle endpoint. To learn more, see the [documentation.⁠(opens in a new window)](https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-openai.html)",
+      "contentZh": "今年早些时候，OpenAI前沿模型和Codex已在AWS上全面可用，为企业将先进AI投入生产提供了新路径。今天，我们分享与AWS合作的下一步：通过Amazon Bedrock提供Daybreak能力。\n\n借助[Daybreak Access](https://openai.com/form/enterprise-trusted-access-for-cyber/)，防御者可以在其现有AWS环境中使用前沿网络模型。Daybreak Blue和Daybreak Red访问级别均已在AWS中可用：\n\n*   **Daybreak Blue**提供对前沿通用模型的访问，包括GPT‑5.6 Sol，并带有针对授权防御性安全工作量身定制的安全防护措施。\n*   **Daybreak Red**提供对我们经过专门训练的网络安防模型的访问，用于授权的漏洞研究、漏洞验证和安全测试。\n\n这些模型有助于加速漏洞研究、检测工程和事件响应，从初始发现到经过验证的修复。它们还支持复杂工作流，如漏洞复现和缓解措施开发。\n\n## 将前沿网络安全能力引入AWS\n\n对于企业而言，采用专业网络安全能力不仅需要模型性能。它还需要安全审查、治理、采购、访问控制以及团队能够支持的运营模式。\n\n通过Amazon Bedrock，符合条件的客户可以在其已用于构建、保护和运营软件的AWS环境中使用Daybreak，包括Daybreak Red和Daybreak Blue。这为安全团队提供了一条更清晰的路径，通过熟悉的AWS安全、治理和运营工作流应用前沿AI。\n\nOpenAI和AWS携手合作，帮助更多组织将先进的网络安全能力投入生产。\n\n## 开始使用\n\nDaybreak Red和Daybreak Blue需要注册[Daybreak Access](https://openai.com/form/enterprise-trusted-access-for-cyber/)。获批后，您可以通过Amazon Bedrock控制台或使用bedrock-mantle端点的Responses API访问该模型。如需了解更多信息，请参阅[文档⁠（在新窗口中打开）](https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-openai.html)。",
+      "titleZh": "Daybreak 模型现已在 AWS 上可用",
+      "summaryZh": "OpenAI 和 AWS 正在通过 Amazon Bedrock 提供 Daybreak 网络安全能力，以支持企业安全工作流程。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-08-11T10:00:00.000Z",
+      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "collectedAt": "2026-10-16T07:35:10.249Z"
     },
     {
       "id": "e253abe92338c77fff32",
@@ -2787,7 +2821,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.413Z"
+      "collectedAt": "2026-10-16T07:35:11.469Z"
     },
     {
       "id": "f50ed5f93da49347ecb6",
@@ -2804,24 +2838,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T12:00:00.000Z",
       "url": "https://openai.com/index/model-ml",
-      "collectedAt": "2026-10-15T07:46:43.156Z"
-    },
-    {
-      "id": "288f6994afc6cc6de385",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Putting frontier cyber models in more trusted hands",
-      "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
-      "content": "We’re bringing OpenAI’s frontier cyber models to the security partners protecting organizations around the world. Together, we’re putting frontier intelligence directly into the products, services, and security operations defenders already depend on. More organizations can now find serious vulnerabilities, fix them faster, and stay ahead of threats moving at machine speed.\n\n![Image 1: Logos of Daybreak Cyber Partner Program participants on an orange gradient background.](https://images.ctfassets.net/kftzwdyauwt9/2o7BXuZ8rPWp0oIUKyLZKo/e004f9b71c871d3dea5edbe0bb38f88d/logo_cloud_for_codex.png?w=3840&q=90&fm=webp)\n\nAI is changing cybersecurity faster than most organizations can respond. Attackers can identify vulnerabilities, develop exploits, and move through complex systems with increasing speed and scale. At the same time, security teams are confronting a growing volume of weaknesses across the software and infrastructure they protect. Finding those vulnerabilities is only the beginning. The harder challenge is determining which ones pose a real threat and fixing them before they can be exploited. Too many defenders still lack access to the frontier models that can help them do that.\n\nOur Daybreak Cyber Partner program includes leading security & services partners such as [Accenture⁠(opens in a new window)](https://www.accenture.com/), [IBM⁠(opens in a new window)](https://www.ibm.com/), [Capgemini⁠(opens in a new window)](https://www.capgemini.com/about-us/technology-partners/openai/), [Cognizant⁠(opens in a new window)](https://www.cognizant.com/), [EY⁠(opens in a new window)](https://www.ey.com/), [KPMG⁠(opens in a new window)](https://kpmg.com/), [PwC⁠(opens in a new window)](https://www.pwc.com/), [NCC Group⁠(opens in a new window)](https://www.nccgroup.com/), and [SpecterOps⁠(opens in a new window)](https://specterops.io/) along with technology partners[Palo Alto Networks⁠(opens in a new window)](https://www.paloaltonetworks.com/) , [CrowdStrike⁠(opens in a new window)](https://www.crowdstrike.com/), [Cisco⁠(opens in a new window)](https://www.cisco.com/), [Sophos⁠(opens in a new window)](https://www.sophos.com/), [Akamai⁠(opens in a new window)](https://www.akamai.com/), [Fortinet⁠(opens in a new window)](https://www.fortinet.com/) and [Cloudflare⁠(opens in a new window)](https://www.cloudflare.com/). These partners bring deep security expertise and established relationships with organizations around the world. By bringing our frontier cyber models into their services, we can help more defenders find serious vulnerabilities, validate which ones matter, and fix them faster.\n\n## From finding vulnerabilities to fixing them\n\nA vulnerability report does not protect an organization. Protection comes from understanding whether a weakness can actually be exploited, identifying the systems at risk, developing a fix, and getting that fix into production.\n\nDaybreak Cyber Partners bring OpenAI’s most advanced cyber models into the work they already do to protect their customers. They know their customers’ systems, understand how their security teams operate, and can help determine which vulnerabilities matter and how to fix them.\n\nDepending on the engagement, partners can help with vulnerability discovery and validation, red teaming, penetration testing, incident response, and remediation across complex enterprise systems.\n\nHear from Daybreak partners\n\n1 of 4\n\n## Bringing frontier models into existing security operations\n\nMost organizations want advanced security capabilities that fit into how their teams already work, integrating with the platforms, providers, and workflows they rely on to protect their business.\n\nThrough the Daybreak Cyber Partner Program, approved partners can bring OpenAI’s frontier cyber models into security products, managed services, and customer engagements.\n\nPartners can access Daybreak Blue or Daybreak Red through Daybreak Access, depending on their needs and the work involved. Daybreak Blue supports a broad range of defensive security workflows, while Daybreak Red is designed for more specialized, closely governed work, including red teaming and penetration testing.\n\nThis gives organizations a practical way to benefit from frontier cyber models without having to build and run their own specialized cyber AI programs.\n\n1 of 4\n\n## More access, with the safeguards to match\n\nDaybreak Cyber Partners use OpenAI’s controlled-access models within trusted, governed engagements. Depending on the work, safeguards can include identity verification, defined testing scopes, logging, monitoring, and human oversight.\n\nAccess to the underlying models remains with the approved partner and is not transferred directly to the customer. Partners work with organizations to define the boundaries of each engagement, review findings, and apply their expertise before action is taken.\n\nThis approach brings advanced defensive capabilities to more organizations while preserving the oversight required for sensitive security work.\n\n1 of 3\n\n## Closing the defense gap together\n\nAttackers are moving faster than many security teams can respond. Closing that gap means getting stronger defenses to the organizations that need them.\n\nMeeting this moment requires frontier models, experienced security practitioners, and trusted partners capable of bringing those capabilities into real-world environments.\n\nBy expanding the Daybreak Cyber Partner Program, we’re making that possible for more organizations and putting stronger defenses within reach.\n\nTo bring Daybreak capabilities into your security operations, contact your cybersecurity provider or [speak with our sales team](https://openai.com/daybreak/contact-cyber-sales/).\n\nCybersecurity companies, service providers, and consultancies interested in joining the program can learn more at [openai.com/daybreak/partners](https://openai.com/daybreak/partners-new/).",
-      "contentZh": "我们正在将OpenAI的前沿网络模型带给全球保护组织的安全合作伙伴。通过携手合作，我们将前沿智能直接融入防御者已经依赖的产品、服务和安全运营中。如今，更多组织能够发现严重漏洞、更快修复它们，并在机器速度的威胁面前保持领先。\n\n![图片1：橙色渐变背景上的Daybreak Cyber合作伙伴计划参与者标志。](https://images.ctfassets.net/kftzwdyauwt9/2o7BXuZ8rPWp0oIUKyLZKo/e004f9b71c871d3dea5edbe0bb38f88d/logo_cloud_for_codex.png?w=3840&q=90&fm=webp)\n\n人工智能正以大多数组织难以应对的速度改变网络安全格局。攻击者能够以越来越快的速度和规模识别漏洞、开发利用程序，并在复杂系统中移动。与此同时，安全团队正面临其保护的软件和基础设施中日益增多的弱点。发现这些漏洞仅仅是开始。更艰巨的挑战是确定哪些漏洞构成真实威胁，并在其被利用之前加以修复。太多防御者仍然无法获得能够帮助他们做到这一点的前沿模型。\n\n我们的Daybreak Cyber合作伙伴计划包括领先的安全与服务合作伙伴，如[埃森哲⁠（在新窗口中打开）](https://www.accenture.com/)、[IBM⁠（在新窗口中打开）](https://www.ibm.com/)、[凯捷⁠（在新窗口中打开）](https://www.capgemini.com/about-us/technology-partners/openai/)、[高知特⁠（在新窗口中打开）](https://www.cognizant.com/)、[安永⁠（在新窗口中打开）](https://www.ey.com/)、[毕马威⁠（在新窗口中打开）](https://kpmg.com/)、[普华永道⁠（在新窗口中打开）](https://www.pwc.com/)、[NCC Group⁠（在新窗口中打开）](https://www.nccgroup.com/)和[SpecterOps⁠（在新窗口中打开）](https://specterops.io/)，以及技术合作伙伴[Palo Alto Networks⁠（在新窗口中打开）](https://www.paloaltonetworks.com/)、[CrowdStrike⁠（在新窗口中打开）](https://www.crowdstrike.com/)、[Cisco⁠（在新窗口中打开）](https://www.cisco.com/)、[Sophos⁠（在新窗口中打开）](https://www.sophos.com/)、[Akamai⁠（在新窗口中打开）](https://www.akamai.com/)、[Fortinet⁠（在新窗口中打开）](https://www.fortinet.com/)和[Cloudflare⁠（在新窗口中打开）](https://www.cloudflare.com/)。这些合作伙伴拥有深厚的安全专业知识和与全球组织的既有合作关系。通过将我们的前沿网络模型引入其服务，我们可以帮助更多防御者发现严重漏洞、验证哪些漏洞至关重要，并更快地修复它们。\n\n## 从发现漏洞到修复漏洞\n\n一份漏洞报告并不能保护组织。保护来自于理解某个弱点是否真的可以被利用、识别面临风险的系统、制定修复方案，并将该修复方案投入生产环境。\n\nDaybreak Cyber合作伙伴将OpenAI最先进的网络模型融入他们为保护客户而开展的现有工作中。他们了解客户的系统，理解其安全团队的运作方式，并能帮助确定哪些漏洞至关重要以及如何修复。\n\n根据合作内容的不同，合作伙伴可以在复杂企业系统中协助进行漏洞发现与验证、红队演练、渗透测试、事件响应和修复工作。\n\n聆听Daybreak合作伙伴的分享\n\n1 / 4\n\n## 将前沿模型引入现有安全运营\n\n大多数组织希望获得能够融入其团队现有工作方式的高级安全能力，与其保护业务所依赖的平台、提供商和工作流程相集成。\n\n通过Daybreak Cyber合作伙伴计划，经批准的合作伙伴可以将OpenAI的前沿网络模型引入安全产品、托管服务和客户合作项目中。\n\n合作伙伴可以根据自身需求和所涉及的工作，通过Daybreak Access访问Daybreak Blue或Daybreak Red。Daybreak Blue支持广泛的防御性安全工作流程，而Daybreak Red则专为更专业、更严格管控的工作而设计，包括红队演练和渗透测试。\n\n这为组织提供了一种切实可行的方式，使其能够从前沿网络模型中受益，而无需自行构建和运行专门的网络AI项目。\n\n1 / 4\n\n## 更多访问权限，并配备相应的保障措施\n\nDaybreak Cyber合作伙伴在可信、受管控的合作中使用OpenAI的受控访问模型。根据工作内容的不同，保障措施可包括身份验证、明确的测试范围、日志记录、监控和人工监督。\n\n对底层模型的访问权限仍归经批准的合作伙伴所有，不会直接转移给客户。合作伙伴与组织合作，界定每次合作的范围、审查发现，并在采取行动前运用其专业知识。\n\n这种方法为更多组织带来了先进的防御能力，同时保留了敏感安全工作所需的监督机制。\n\n1 / 3\n\n## 共同弥合防御差距\n\n攻击者的行动速度超过了许多安全团队的响应能力。弥合这一差距意味着要为需要帮助的组织提供更强大的防御能力。\n\n应对这一时刻需要前沿模型、经验丰富的安全从业者，以及能够将这些能力带入真实环境的可信合作伙伴。\n\n通过扩大Daybreak Cyber合作伙伴计划，我们正在为更多组织实现这一目标，并让更强大的防御能力触手可及。\n\n要将Daybreak能力引入您的安全运营，请联系您的网络安全服务提供商或[与我们的销售团队沟通](https://openai.com/daybreak/contact-cyber-sales/)。\n\n有兴趣加入该计划的网络安全公司、服务提供商和咨询机构可访问[openai.com/daybreak/partners](https://openai.com/daybreak/partners-new/)了解更多信息。",
-      "titleZh": "将前沿网络模型交予更值得信赖的机构",
-      "summaryZh": "经批准的Daybreak合作伙伴可以使用OpenAI的前沿网络模型，为客户提供经授权且受监管的网络安全服务。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-10T10:00:00.000Z",
-      "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
-      "collectedAt": "2026-10-15T07:46:43.157Z"
+      "collectedAt": "2026-10-16T07:35:10.249Z"
     },
     {
       "id": "734c538c439aa3199cf2",
@@ -2838,7 +2855,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T10:00:00.000Z",
       "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "collectedAt": "2026-10-15T07:46:43.157Z"
+      "collectedAt": "2026-10-16T07:35:10.250Z"
+    },
+    {
+      "id": "288f6994afc6cc6de385",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Putting frontier cyber models in more trusted hands",
+      "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+      "content": "We’re bringing OpenAI’s frontier cyber models to the security partners protecting organizations around the world. Together, we’re putting frontier intelligence directly into the products, services, and security operations defenders already depend on. More organizations can now find serious vulnerabilities, fix them faster, and stay ahead of threats moving at machine speed.\n\n![Image 1: Logos of Daybreak Cyber Partner Program participants on an orange gradient background.](https://images.ctfassets.net/kftzwdyauwt9/2o7BXuZ8rPWp0oIUKyLZKo/e004f9b71c871d3dea5edbe0bb38f88d/logo_cloud_for_codex.png?w=3840&q=90&fm=webp)\n\nAI is changing cybersecurity faster than most organizations can respond. Attackers can identify vulnerabilities, develop exploits, and move through complex systems with increasing speed and scale. At the same time, security teams are confronting a growing volume of weaknesses across the software and infrastructure they protect. Finding those vulnerabilities is only the beginning. The harder challenge is determining which ones pose a real threat and fixing them before they can be exploited. Too many defenders still lack access to the frontier models that can help them do that.\n\nOur Daybreak Cyber Partner program includes leading security & services partners such as [Accenture⁠(opens in a new window)](https://www.accenture.com/), [IBM⁠(opens in a new window)](https://www.ibm.com/), [Capgemini⁠(opens in a new window)](https://www.capgemini.com/about-us/technology-partners/openai/), [Cognizant⁠(opens in a new window)](https://www.cognizant.com/), [EY⁠(opens in a new window)](https://www.ey.com/), [KPMG⁠(opens in a new window)](https://kpmg.com/), [PwC⁠(opens in a new window)](https://www.pwc.com/), [NCC Group⁠(opens in a new window)](https://www.nccgroup.com/), and [SpecterOps⁠(opens in a new window)](https://specterops.io/) along with technology partners[Palo Alto Networks⁠(opens in a new window)](https://www.paloaltonetworks.com/) , [CrowdStrike⁠(opens in a new window)](https://www.crowdstrike.com/), [Cisco⁠(opens in a new window)](https://www.cisco.com/), [Sophos⁠(opens in a new window)](https://www.sophos.com/), [Akamai⁠(opens in a new window)](https://www.akamai.com/), [Fortinet⁠(opens in a new window)](https://www.fortinet.com/) and [Cloudflare⁠(opens in a new window)](https://www.cloudflare.com/). These partners bring deep security expertise and established relationships with organizations around the world. By bringing our frontier cyber models into their services, we can help more defenders find serious vulnerabilities, validate which ones matter, and fix them faster.\n\n## From finding vulnerabilities to fixing them\n\nA vulnerability report does not protect an organization. Protection comes from understanding whether a weakness can actually be exploited, identifying the systems at risk, developing a fix, and getting that fix into production.\n\nDaybreak Cyber Partners bring OpenAI’s most advanced cyber models into the work they already do to protect their customers. They know their customers’ systems, understand how their security teams operate, and can help determine which vulnerabilities matter and how to fix them.\n\nDepending on the engagement, partners can help with vulnerability discovery and validation, red teaming, penetration testing, incident response, and remediation across complex enterprise systems.\n\nHear from Daybreak partners\n\n1 of 4\n\n## Bringing frontier models into existing security operations\n\nMost organizations want advanced security capabilities that fit into how their teams already work, integrating with the platforms, providers, and workflows they rely on to protect their business.\n\nThrough the Daybreak Cyber Partner Program, approved partners can bring OpenAI’s frontier cyber models into security products, managed services, and customer engagements.\n\nPartners can access Daybreak Blue or Daybreak Red through Daybreak Access, depending on their needs and the work involved. Daybreak Blue supports a broad range of defensive security workflows, while Daybreak Red is designed for more specialized, closely governed work, including red teaming and penetration testing.\n\nThis gives organizations a practical way to benefit from frontier cyber models without having to build and run their own specialized cyber AI programs.\n\n1 of 4\n\n## More access, with the safeguards to match\n\nDaybreak Cyber Partners use OpenAI’s controlled-access models within trusted, governed engagements. Depending on the work, safeguards can include identity verification, defined testing scopes, logging, monitoring, and human oversight.\n\nAccess to the underlying models remains with the approved partner and is not transferred directly to the customer. Partners work with organizations to define the boundaries of each engagement, review findings, and apply their expertise before action is taken.\n\nThis approach brings advanced defensive capabilities to more organizations while preserving the oversight required for sensitive security work.\n\n1 of 3\n\n## Closing the defense gap together\n\nAttackers are moving faster than many security teams can respond. Closing that gap means getting stronger defenses to the organizations that need them.\n\nMeeting this moment requires frontier models, experienced security practitioners, and trusted partners capable of bringing those capabilities into real-world environments.\n\nBy expanding the Daybreak Cyber Partner Program, we’re making that possible for more organizations and putting stronger defenses within reach.\n\nTo bring Daybreak capabilities into your security operations, contact your cybersecurity provider or [speak with our sales team](https://openai.com/daybreak/contact-cyber-sales/).\n\nCybersecurity companies, service providers, and consultancies interested in joining the program can learn more at [openai.com/daybreak/partners](https://openai.com/daybreak/partners-new/).",
+      "contentZh": "我们正在将OpenAI的前沿网络模型带给全球保护组织的安全合作伙伴。通过携手合作，我们将前沿智能直接融入防御者已经依赖的产品、服务和安全运营中。如今，更多组织能够发现严重漏洞、更快修复它们，并在机器速度的威胁面前保持领先。\n\n![图片1：橙色渐变背景上的Daybreak Cyber合作伙伴计划参与者标志。](https://images.ctfassets.net/kftzwdyauwt9/2o7BXuZ8rPWp0oIUKyLZKo/e004f9b71c871d3dea5edbe0bb38f88d/logo_cloud_for_codex.png?w=3840&q=90&fm=webp)\n\n人工智能正以大多数组织难以应对的速度改变网络安全格局。攻击者能够以越来越快的速度和规模识别漏洞、开发利用程序，并在复杂系统中移动。与此同时，安全团队正面临其保护的软件和基础设施中日益增多的弱点。发现这些漏洞仅仅是开始。更艰巨的挑战是确定哪些漏洞构成真实威胁，并在其被利用之前加以修复。太多防御者仍然无法获得能够帮助他们做到这一点的前沿模型。\n\n我们的Daybreak Cyber合作伙伴计划包括领先的安全与服务合作伙伴，如[埃森哲⁠（在新窗口中打开）](https://www.accenture.com/)、[IBM⁠（在新窗口中打开）](https://www.ibm.com/)、[凯捷⁠（在新窗口中打开）](https://www.capgemini.com/about-us/technology-partners/openai/)、[高知特⁠（在新窗口中打开）](https://www.cognizant.com/)、[安永⁠（在新窗口中打开）](https://www.ey.com/)、[毕马威⁠（在新窗口中打开）](https://kpmg.com/)、[普华永道⁠（在新窗口中打开）](https://www.pwc.com/)、[NCC Group⁠（在新窗口中打开）](https://www.nccgroup.com/)和[SpecterOps⁠（在新窗口中打开）](https://specterops.io/)，以及技术合作伙伴[Palo Alto Networks⁠（在新窗口中打开）](https://www.paloaltonetworks.com/)、[CrowdStrike⁠（在新窗口中打开）](https://www.crowdstrike.com/)、[Cisco⁠（在新窗口中打开）](https://www.cisco.com/)、[Sophos⁠（在新窗口中打开）](https://www.sophos.com/)、[Akamai⁠（在新窗口中打开）](https://www.akamai.com/)、[Fortinet⁠（在新窗口中打开）](https://www.fortinet.com/)和[Cloudflare⁠（在新窗口中打开）](https://www.cloudflare.com/)。这些合作伙伴拥有深厚的安全专业知识和与全球组织的既有合作关系。通过将我们的前沿网络模型引入其服务，我们可以帮助更多防御者发现严重漏洞、验证哪些漏洞至关重要，并更快地修复它们。\n\n## 从发现漏洞到修复漏洞\n\n一份漏洞报告并不能保护组织。保护来自于理解某个弱点是否真的可以被利用、识别面临风险的系统、制定修复方案，并将该修复方案投入生产环境。\n\nDaybreak Cyber合作伙伴将OpenAI最先进的网络模型融入他们为保护客户而开展的现有工作中。他们了解客户的系统，理解其安全团队的运作方式，并能帮助确定哪些漏洞至关重要以及如何修复。\n\n根据合作内容的不同，合作伙伴可以在复杂企业系统中协助进行漏洞发现与验证、红队演练、渗透测试、事件响应和修复工作。\n\n聆听Daybreak合作伙伴的分享\n\n1 / 4\n\n## 将前沿模型引入现有安全运营\n\n大多数组织希望获得能够融入其团队现有工作方式的高级安全能力，与其保护业务所依赖的平台、提供商和工作流程相集成。\n\n通过Daybreak Cyber合作伙伴计划，经批准的合作伙伴可以将OpenAI的前沿网络模型引入安全产品、托管服务和客户合作项目中。\n\n合作伙伴可以根据自身需求和所涉及的工作，通过Daybreak Access访问Daybreak Blue或Daybreak Red。Daybreak Blue支持广泛的防御性安全工作流程，而Daybreak Red则专为更专业、更严格管控的工作而设计，包括红队演练和渗透测试。\n\n这为组织提供了一种切实可行的方式，使其能够从前沿网络模型中受益，而无需自行构建和运行专门的网络AI项目。\n\n1 / 4\n\n## 更多访问权限，并配备相应的保障措施\n\nDaybreak Cyber合作伙伴在可信、受管控的合作中使用OpenAI的受控访问模型。根据工作内容的不同，保障措施可包括身份验证、明确的测试范围、日志记录、监控和人工监督。\n\n对底层模型的访问权限仍归经批准的合作伙伴所有，不会直接转移给客户。合作伙伴与组织合作，界定每次合作的范围、审查发现，并在采取行动前运用其专业知识。\n\n这种方法为更多组织带来了先进的防御能力，同时保留了敏感安全工作所需的监督机制。\n\n1 / 3\n\n## 共同弥合防御差距\n\n攻击者的行动速度超过了许多安全团队的响应能力。弥合这一差距意味着要为需要帮助的组织提供更强大的防御能力。\n\n应对这一时刻需要前沿模型、经验丰富的安全从业者，以及能够将这些能力带入真实环境的可信合作伙伴。\n\n通过扩大Daybreak Cyber合作伙伴计划，我们正在为更多组织实现这一目标，并让更强大的防御能力触手可及。\n\n要将Daybreak能力引入您的安全运营，请联系您的网络安全服务提供商或[与我们的销售团队沟通](https://openai.com/daybreak/contact-cyber-sales/)。\n\n有兴趣加入该计划的网络安全公司、服务提供商和咨询机构可访问[openai.com/daybreak/partners](https://openai.com/daybreak/partners-new/)了解更多信息。",
+      "titleZh": "将前沿网络模型交予更值得信赖的机构",
+      "summaryZh": "经批准的Daybreak合作伙伴可以使用OpenAI的前沿网络模型，为客户提供经授权且受监管的网络安全服务。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-08-10T10:00:00.000Z",
+      "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "collectedAt": "2026-10-16T07:35:10.250Z"
     },
     {
       "id": "2c74e7c8cea6a2ece6de",
@@ -2855,7 +2889,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/zapier",
-      "collectedAt": "2026-10-15T07:46:43.157Z"
+      "collectedAt": "2026-10-16T07:35:10.251Z"
     },
     {
       "id": "8eb1e6a0a260fe518fb3",
@@ -2872,7 +2906,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-      "collectedAt": "2026-10-15T07:46:43.157Z"
+      "collectedAt": "2026-10-16T07:35:10.251Z"
     },
     {
       "id": "02e8effaacedb8dbc2e1",
@@ -2889,7 +2923,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/premium-seats-chatgpt-business",
-      "collectedAt": "2026-10-15T07:46:43.158Z"
+      "collectedAt": "2026-10-16T07:35:10.251Z"
     },
     {
       "id": "968261fb57a0f452cb28",
@@ -2906,7 +2940,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.413Z"
+      "collectedAt": "2026-10-16T07:35:11.469Z"
     },
     {
       "id": "4b892749f4ed6e711322",
@@ -2923,7 +2957,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-07T09:00:00.000Z",
       "url": "https://openai.com/index/hsp-gruppe",
-      "collectedAt": "2026-10-15T07:46:43.158Z"
+      "collectedAt": "2026-10-16T07:35:10.252Z"
     },
     {
       "id": "f08640315c18fbc4f31c",
@@ -2940,7 +2974,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.414Z"
+      "collectedAt": "2026-10-16T07:35:11.470Z"
     },
     {
       "id": "d5755c0b97cd8308ee54",
@@ -2957,7 +2991,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T10:00:00.000Z",
       "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "collectedAt": "2026-10-15T07:46:43.158Z"
+      "collectedAt": "2026-10-16T07:35:10.252Z"
     },
     {
       "id": "0121f2aaabdbc2fbef18",
@@ -2974,7 +3008,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-      "collectedAt": "2026-10-15T07:46:43.158Z"
+      "collectedAt": "2026-10-16T07:35:10.252Z"
     },
     {
       "id": "ac5d129bc56db5435253",
@@ -2991,7 +3025,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-15T07:46:43.851Z"
+      "collectedAt": "2026-10-16T07:35:10.893Z"
     },
     {
       "id": "cbf5ffda58d43478b306",
@@ -3008,7 +3042,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.414Z"
+      "collectedAt": "2026-10-16T07:35:11.470Z"
     },
     {
       "id": "374a02a97939919169d2",
@@ -3025,7 +3059,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T19:00:00.000Z",
       "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "collectedAt": "2026-10-15T07:46:43.158Z"
+      "collectedAt": "2026-10-16T07:35:10.252Z"
     },
     {
       "id": "3feab47dffd4ec330ae5",
@@ -3042,7 +3076,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-      "collectedAt": "2026-10-15T07:46:43.159Z"
+      "collectedAt": "2026-10-16T07:35:10.253Z"
     },
     {
       "id": "c8f43754fdafecb85e1d",
@@ -3059,7 +3093,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T07:00:00.000Z",
       "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "collectedAt": "2026-10-15T07:46:43.159Z"
+      "collectedAt": "2026-10-16T07:35:10.253Z"
     },
     {
       "id": "6559d98a7d1bca755c17",
@@ -3076,7 +3110,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "url": "https://openai.com/index/circles",
-      "collectedAt": "2026-10-15T07:46:43.159Z"
+      "collectedAt": "2026-10-16T07:35:10.253Z"
     },
     {
       "id": "1b43c9e867bdb362c0cc",
@@ -3093,7 +3127,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.414Z"
+      "collectedAt": "2026-10-16T07:35:11.470Z"
     },
     {
       "id": "52e0cd114c7d854c3e96",
@@ -3110,7 +3144,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.414Z"
+      "collectedAt": "2026-10-16T07:35:11.471Z"
     },
     {
       "id": "b9d4476050e5d75f1b97",
@@ -3127,7 +3161,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T07:00:00.000Z",
       "url": "https://openai.com/index/unive",
-      "collectedAt": "2026-10-15T07:46:43.159Z"
+      "collectedAt": "2026-10-16T07:35:10.254Z"
     },
     {
       "id": "8aca00c3ff9728615faa",
@@ -3144,7 +3178,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "collectedAt": "2026-10-15T07:46:43.160Z"
+      "collectedAt": "2026-10-16T07:35:10.255Z"
     },
     {
       "id": "af15e83e5c304730063b",
@@ -3161,7 +3195,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-10-15T07:46:47.131Z"
+      "collectedAt": "2026-10-16T07:35:14.277Z"
     },
     {
       "id": "b1fe0fa429937e85b2ef",
@@ -3178,7 +3212,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T15:00:59.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "collectedAt": "2026-10-15T07:46:45.664Z"
+      "collectedAt": "2026-10-16T07:35:12.882Z"
     },
     {
       "id": "56f1d8a8c0f3af9fdd08",
@@ -3195,7 +3229,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T10:00:00.000Z",
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "collectedAt": "2026-10-15T07:46:43.160Z"
+      "collectedAt": "2026-10-16T07:35:10.255Z"
     },
     {
       "id": "cfbf6b8394b6edd2d1cc",
@@ -3212,7 +3246,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://openai.com/index/avatarin",
-      "collectedAt": "2026-10-15T07:46:43.160Z"
+      "collectedAt": "2026-10-16T07:35:10.255Z"
     },
     {
       "id": "13c5281530ee4a6f4537",
@@ -3229,7 +3263,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-15T07:46:45.412Z"
+      "collectedAt": "2026-10-16T07:35:12.668Z"
     },
     {
       "id": "8aaceda53f7fc93dbf60",
@@ -3246,7 +3280,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T15:00:00.000Z",
       "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-      "collectedAt": "2026-10-15T07:46:43.160Z"
+      "collectedAt": "2026-10-16T07:35:10.256Z"
     },
     {
       "id": "002458279ec72570fffb",
@@ -3263,7 +3297,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "collectedAt": "2026-10-15T07:46:43.160Z"
+      "collectedAt": "2026-10-16T07:35:10.256Z"
     },
     {
       "id": "4c8b6c772be707078bbd",
@@ -3280,7 +3314,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "collectedAt": "2026-10-15T07:46:43.161Z"
+      "collectedAt": "2026-10-16T07:35:10.256Z"
     },
     {
       "id": "ca98ace8cf1a2a8d7872",
@@ -3297,7 +3331,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-10-15T07:46:44.671Z"
+      "collectedAt": "2026-10-16T07:35:11.781Z"
     },
     {
       "id": "57b8f529f115263ec820",
@@ -3314,7 +3348,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-28T13:21:37.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-      "collectedAt": "2026-10-15T07:46:45.664Z"
+      "collectedAt": "2026-10-16T07:35:12.882Z"
     },
     {
       "id": "bc5ed3298105125d299c",
@@ -3331,7 +3365,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-27T03:30:00.000Z",
       "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "collectedAt": "2026-10-15T07:46:43.161Z"
+      "collectedAt": "2026-10-16T07:35:10.257Z"
     },
     {
       "id": "cb2584c1c5ba09bcd3a3",
@@ -3348,7 +3382,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-15T07:46:43.852Z"
+      "collectedAt": "2026-10-16T07:35:10.894Z"
     },
     {
       "id": "b363cad12be0dd76a830",
@@ -3365,7 +3399,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.415Z"
+      "collectedAt": "2026-10-16T07:35:11.471Z"
     },
     {
       "id": "c7991759e1e4a5d32f85",
@@ -3382,7 +3416,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-23T00:00:00.000Z",
       "url": "https://openai.com/index/health-in-chatgpt",
-      "collectedAt": "2026-10-15T07:46:43.161Z"
+      "collectedAt": "2026-10-16T07:35:10.257Z"
     },
     {
       "id": "6ccf2d78b5e86593806b",
@@ -3399,7 +3433,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T13:00:00.000Z",
       "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "collectedAt": "2026-10-15T07:46:43.161Z"
+      "collectedAt": "2026-10-16T07:35:10.257Z"
     },
     {
       "id": "658d60926ab2360afa2e",
@@ -3416,7 +3450,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T05:30:00.000Z",
       "url": "https://openai.com/index/introducing-openai-presence",
-      "collectedAt": "2026-10-15T07:46:43.161Z"
+      "collectedAt": "2026-10-16T07:35:10.258Z"
     },
     {
       "id": "c7e36c4d5f5533523bd4",
@@ -3433,7 +3467,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://openai.com/index/ntt-data",
-      "collectedAt": "2026-10-15T07:46:43.162Z"
+      "collectedAt": "2026-10-16T07:35:10.258Z"
     },
     {
       "id": "a300ec7a4d7064f7179d",
@@ -3450,7 +3484,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-15T07:46:44.415Z"
+      "collectedAt": "2026-10-16T07:35:11.472Z"
     },
     {
       "id": "afa41d5e8e9237f5cad2",
@@ -3467,7 +3501,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "collectedAt": "2026-10-15T07:46:43.162Z"
+      "collectedAt": "2026-10-16T07:35:10.258Z"
     },
     {
       "id": "176c2b61d3ba4a32ae38",
@@ -3484,7 +3518,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T15:16:30.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
-      "collectedAt": "2026-10-15T07:46:45.665Z"
+      "collectedAt": "2026-10-16T07:35:12.883Z"
     },
     {
       "id": "8b4028e43de92d3eef53",
@@ -3501,7 +3535,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T07:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "collectedAt": "2026-10-15T07:46:43.162Z"
+      "collectedAt": "2026-10-16T07:35:10.258Z"
     },
     {
       "id": "9e20c4d4744505bf3590",
@@ -3518,7 +3552,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-10-15T07:46:44.671Z"
+      "collectedAt": "2026-10-16T07:35:11.782Z"
     },
     {
       "id": "7ac3cf4e7948165dd06b",
@@ -3535,7 +3569,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-15T07:46:45.414Z"
+      "collectedAt": "2026-10-16T07:35:12.669Z"
     },
     {
       "id": "5237ec62c64502e0362e",
@@ -3552,24 +3586,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-20T10:00:00.000Z",
       "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "collectedAt": "2026-10-15T07:46:43.162Z"
-    },
-    {
-      "id": "6fa040e6804071ffc67f",
-      "sourceId": "deepmind-news",
-      "company": "Google DeepMind",
-      "product": "Gemini",
-      "kind": "news",
-      "title": "Introducing Gemini 3.5 Flash Cyber",
-      "summary": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
-      "content": "July 21, 2026 Models\n\nRaluca Ada Popa and Four Flynn\n\nGoogle has invested in cybersecurity for years, pioneering automated vulnerability discovery to secure the world’s codebases. Tools like [CodeMender](https://deepmind.google/blog/introducing-codemender-an-ai-agent-for-code-security/), our code security agent, can automatically find and fix critical software vulnerabilities. But as AI agents become more capable at finding vulnerabilities faster than defenders can fix them, addressing this global threat requires a highly capable, affordable, and scalable approach.\n\nToday, we’re expanding our longtime efforts to better prepare defenders by introducing Gemini 3.5 Flash Cyber, our lightweight cybersecurity model built on top of 3.5 Flash and fine-tuned to find, validate, and patch vulnerabilities quickly and efficiently, making it more effective at these tasks than Gemini’s mainline Flash models.\n\nFlash’s performance and efficiency makes it an ideal foundation for our cybersecurity model efforts. By building on top of Flash, 3.5 Flash Cyber offers a cost-efficient and highly capable alternative to large, costly cybersecurity models.\n\nGiven the dual-use nature of this technology, we have taken an intentional approach to how we deploy 3.5 Flash Cyber. As part of a limited-access pilot program, 3.5 Flash Cyber will be exclusively available to governments and trusted partners via CodeMender soon, expanding over time. This will give frontline defenders a head start in finding and fixing critical vulnerabilities before they can be exploited, while mitigating against broader misuse.\n\nSeparately, we're also bringing CodeMender's foundational capabilities directly to customers with generally available Gemini models through the [Gemini Enterprise Agent Platform](https://cloud.google.com/blog/products/identity-security/find-and-fix-software-vulnerabilities-with-codemender).\n\n## The search space problem: The advantage of lightweight models in code security\n\nFinding deep-seated flaws requires exploring an immense execution search space. Relying on a single, expensive call to a massive language model can create a bottleneck. 3.5 Flash Cyber is particularly suitable for finding vulnerabilities where the agent has to scan a large codebase and analyze a large number of codepaths.\n\nCodeMender invokes 3.5 Flash Cyber multiple times, so agents can analyze vastly more code paths to discover and validate vulnerabilities. The sub-agents then produce a single, high-quality report.\n\nThanks to its speed and affordability, 3.5 Flash Cyber can be easily integrated into frequent scans, time-sensitive launch processes or commit scanning pipelines at scale.\n\n## 3.5 Flash Cyber benchmark results: an efficient alternative to larger cybersecurity models\n\nWe tested 3.5 Flash Cyber on a variety of benchmarks. In particular, we tested 3.5 Flash Cyber on the CyberGym benchmark, which evaluates AI agents against hundreds of real-world software vulnerabilities. Leveraging the low cost of 3.5 Flash Cyber by configuring CodeMender to call 3.5 Flash Cyber up to five times for a single, final report, the overall agent achieved competitive performance against significantly larger models on CyberGym*.\n\n_*Competitor results are sourced from provider self-reported scores_\n\nWe also stress-tested the model’s capabilities beyond CyberGym without safety guardrails. [Google’s Big Sleep](https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-our-big-sleep-agent-makes-big-leap) team independently built an evaluation focused on finding critical and hard to find vulnerabilities in some of the world’s most complex codebases like Chrome and Safari. Here, 3.5 Flash Cyber significantly surpassed mainline 3.5 Flash and 3.6 Flash.\n\n#### Success Rate on Big Sleep Evaluation (pass@1)\n\n3.5 Flash Cyber was also evaluated on Google Chrome’s production commit scanning pipeline. The vulnerabilities were not publicly disclosed, which ensured this benchmark remained free of contamination for Gemini and competitor models.\n\nThe results showed a significant uplift from 3.5 Flash Cyber compared to 3.5 Flash. Note: More recent competitor model versions after Opus 4.6 refuse to fulfill the tasks due to built-in safety guardrails, and therefore are not shown.\n\n#### Success Rate on Chrome Production Commit Scanning Pipeline (pass@1)\n\nMoreover, 3.5 Flash Cyber consistently discovered more unique vulnerabilities compared with mainline 3.5 Flash and Claude Opus 4.6. When tested on the highly complex V8 JavaScript Engine across a fixed number of invocations, 3.5 Flash Cyber found 55 unique confirmed issues, compared to 47 found by mainline 3.5 Flash and 36 found by Opus 4.6, including 10 issues that the other two models tested did not catch.\n\nBasic cybersecurity models can get stuck in a loop, finding the same issue repeatedly while missing critical vulnerabilities. A strong model casts a wider net, finding a higher number of unique issues.\n\nAs we scale the number of invocations, we find that 3.5 Flash Cyber continues to discover new code paths and vulnerabilities.\n\n## Real-world application and scaling defenses at Google\n\nBenchmarks are only part of the story. 3.5 Flash Cyber in CodeMender is already finding and fixing vulnerabilities in Google’s internal codebases including Chrome, Android, Cloud, Ads, and YouTube.\n\nThe speed of discovery made possible by a lightweight model has delivered measurable impact.\n\nFor example, Google’s Cloud Vulnerability Research team used 3.5 Flash Cyber to proactively secure our systems in record time. In just 2 hours, the model uncovered remote code execution vulnerabilities in public APIs and found a memory-corruption vulnerability in a sensitive production service. It then generated a 100% reliable remote-code execution exploit that bypassed standard mitigation techniques like Address Space Layout Randomization (ASLR) and Write XOR Execute (W^X) .\n\nEarly feedback from Wiz and Cloud CISO Security Engineering testers confirms the significant capability improvement of 3.5 Flash Cyber over the mainline 3.5 Flash model.\n\n## Empowering defenders at scale\n\nGoogle’s leadership in software security gives us a unique advantage. For example, [OSV.dev](https://osv.dev/), a vulnerability database run by Google spanning over 700,000 open-source vulnerabilities, and more than 10 years of [OSS-Fuzz](https://github.com/google/oss-fuzz) results, help us identify the most high quality vulnerabilities.\n\nThis allows us to move beyond synthetic cybersecurity examples and teach our models how real security professionals work. Our models learn to operate industry-standard tools, read through millions of lines of code in large-scale projects like Chromium, and independently tackle complex security tasks that require hours of continuous, deep analysis.\n\nBy powering CodeMender with 3.5 Flash Cyber, we’re providing a highly capable, scalable, and affordable architecture designed to help more defenders secure software.",
-      "contentZh": "## 2026年7月21日 模型\n\nRaluca Ada Popa 与 Four Flynn\n\n多年来，谷歌持续投资网络安全，率先开展自动化漏洞发现，以保障全球代码库的安全。诸如我们的代码安全智能体 [CodeMender](https://deepmind.google/blog/introducing-codemender-an-ai-agent-for-code-security/) 等工具，能够自动发现并修复关键软件漏洞。然而，随着AI智能体发现漏洞的速度越来越快，甚至超过防御者修复的速度，应对这一全球性威胁需要一种高性能、低成本且可扩展的方案。\n\n今天，我们通过推出 Gemini 3.5 Flash Cyber 来拓展长期以来的努力，更好地武装防御者。这是一款基于 3.5 Flash 构建的轻量级网络安全模型，经过微调后可快速高效地发现、验证并修补漏洞，在这些任务上的表现优于 Gemini 主线的 Flash 模型。\n\nFlash 的性能与效率使其成为我们网络安全模型工作的理想基础。基于 Flash 构建的 3.5 Flash Cyber，为庞大且昂贵的网络安全模型提供了一种成本效益高且性能强大的替代方案。\n\n鉴于该技术的双重用途性质，我们在部署 3.5 Flash Cyber 时采取了审慎的方式。作为有限访问试点计划的一部分，3.5 Flash Cyber 将很快通过 CodeMender 独家提供给政府和受信任的合作伙伴，并逐步扩大范围。这将使一线防御者在关键漏洞被利用之前，率先发现并修复它们，同时降低被滥用的风险。\n\n此外，我们还通过 [Gemini Enterprise Agent Platform](https://cloud.google.com/blog/products/identity-security/find-and-fix-software-vulnerabilities-with-codemender)，将 CodeMender 的基础能力直接以通用 Gemini 模型的形式提供给客户。\n\n## 搜索空间问题：轻量级模型在代码安全中的优势\n\n发现深层缺陷需要探索庞大的执行搜索空间。依赖单一、昂贵的大型模型调用可能形成瓶颈。3.5 Flash Cyber 特别适用于智能体需要扫描大型代码库并分析大量代码路径的漏洞发现场景。\n\nCodeMender 会多次调用 3.5 Flash Cyber，使智能体能够分析更多的代码路径，从而发现并验证漏洞。随后，子智能体会生成一份高质量的综合报告。\n\n凭借其速度和成本优势，3.5 Flash Cyber 可以轻松集成到频繁扫描、时间敏感的发布流程或大规模提交扫描管道中。\n\n## 3.5 Flash Cyber 基准测试结果：大型网络安全模型的高效替代方案\n\n我们在多种基准测试上对 3.5 Flash Cyber 进行了评估。特别是在 CyberGym 基准测试中，我们测试了 AI 智能体应对数百个真实世界软件漏洞的能力。通过利用 3.5 Flash Cyber 的低成本，配置 CodeMender 最多调用 5 次 3.5 Flash Cyber 来生成一份最终报告，整体智能体在 CyberGym* 上取得了与显著更大的模型相竞争的性能。\n\n*_竞争对手结果来源于提供商自行报告的数据_\n\n我们还在没有安全护栏的情况下，对模型在 CyberGym 之外的能力进行了压力测试。[谷歌的 Big Sleep](https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-our-big-sleep-agent-makes-big-leap) 团队独立构建了一项评估，专注于在 Chrome 和 Safari 等全球最复杂的代码库中发现关键且难以发现的漏洞。在此评估中，3.5 Flash Cyber 显著超越了主线的 3.5 Flash 和 3.6 Flash。\n\n#### Big Sleep 评估成功率 (pass@1)\n\n3.5 Flash Cyber 还在谷歌 Chrome 的生产提交扫描管道中接受了评估。这些漏洞并未公开披露，从而确保该基准测试对 Gemini 及竞争对手模型均无污染。\n\n结果显示，与 3.5 Flash 相比，3.5 Flash Cyber 有显著提升。注意：Opus 4.6 之后更新的竞争对手模型版本因内置安全护栏而拒绝执行任务，因此未显示。\n\n#### Chrome 生产提交扫描管道成功率 (pass@1)\n\n此外，与主线 3.5 Flash 和 Claude Opus 4.6 相比，3.5 Flash Cyber 持续发现更多独特的漏洞。在对高度复杂的 V8 JavaScript 引擎进行固定次数调用的测试中，3.5 Flash Cyber 发现了 55 个已确认的独特问题，而主线 3.5 Flash 发现了 47 个，Opus 4.6 发现了 36 个，其中包括另外两个测试模型未捕获的 10 个问题。\n\n基础的网络安全模型可能会陷入循环，重复发现相同的问题，同时遗漏关键漏洞。一个强大的模型能撒下更广的网，发现更多独特的问题。\n\n随着我们增加调用次数，我们发现 3.5 Flash Cyber 会持续发现新的代码路径和漏洞。\n\n## 谷歌内部的实际应用与规模化防御\n\n基准测试只是故事的一部分。CodeMender 中的 3.5 Flash Cyber 已经在谷歌的内部代码库（包括 Chrome、Android、Cloud、Ads 和 YouTube）中发现并修复漏洞。\n\n轻量级模型带来的发现速度已产生可衡量的影响。\n\n例如，谷歌的云漏洞研究团队使用 3.5 Flash Cyber 以前所未有的速度主动保护我们的系统。在短短 2 小时内，该模型在公共 API 中发现了远程代码执行漏洞，并在一个敏感的生产服务中发现了内存损坏漏洞。随后，它生成了一个 100% 可靠的远程代码执行利用程序，绕过了地址空间布局随机化（ASLR）和写异或执行（W^X）等标准缓解技术。\n\n来自 Wiz 和 Cloud CISO 安全工程测试人员的早期反馈证实，3.5 Flash Cyber 相比主线 3.5 Flash 模型在能力上有显著提升。\n\n## 大规模赋能防御者\n\n谷歌在软件安全领域的领导地位赋予了我们独特的优势。例如，[OSV.dev](https://osv.dev/)（谷歌运营的漏洞数据库，涵盖超过 70 万个开源漏洞）以及超过 10 年的 [OSS-Fuzz](https://github.com/google/oss-fuzz) 结果，帮助我们识别最高质量的漏洞。\n\n这使我们能够超越合成的网络安全示例，教会模型真实安全专业人员的工作方式。我们的模型学会操作行业标准工具，阅读 Chromium 等大型项目中数百万行代码，并独立处理需要数小时持续深度分析的复杂安全任务。\n\n通过用 3.5 Flash Cyber 驱动 CodeMender，我们提供了一种高性能、可扩展且经济实惠的架构，旨在帮助更多防御者保障软件安全。",
-      "titleZh": "介绍 Gemini 3.5 Flash Cyber",
-      "summaryZh": "谷歌推出 Gemini 3.5 Flash Cyber，一款轻量级网络安全模型，用于发现和修补漏洞。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-07-17T15:00:11.000Z",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
-      "collectedAt": "2026-10-15T07:46:45.665Z"
+      "collectedAt": "2026-10-16T07:35:10.259Z"
     },
     {
       "id": "118693cb868e1641c9c1",
@@ -3586,7 +3603,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-04-24T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-10-15T07:46:47.131Z"
+      "collectedAt": "2026-10-16T07:35:14.278Z"
     },
     {
       "id": "aeb9a0b6e961ddd9394e",
@@ -3603,7 +3620,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-12-01T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-10-15T07:46:47.132Z"
+      "collectedAt": "2026-10-16T07:35:14.278Z"
     }
   ]
 }
