@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-31T09:00:53.871Z",
+  "updatedAt": "2026-11-01T09:50:15.472Z",
   "sources": [
     {
       "id": "openai-news",
@@ -67,7 +67,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-30T09:00:00.000Z",
       "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "collectedAt": "2026-10-31T09:00:19.636Z"
+      "collectedAt": "2026-11-01T09:50:09.034Z"
     },
     {
       "id": "b0f21a805013f03c7dca",
@@ -84,7 +84,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.050Z"
+      "collectedAt": "2026-11-01T09:50:10.661Z"
     },
     {
       "id": "fc0387c5cec91eaddc7b",
@@ -101,7 +101,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-31T09:00:22.312Z"
+      "collectedAt": "2026-11-01T09:50:13.448Z"
     },
     {
       "id": "c4fc9ca3ccc3cbb3f72d",
@@ -118,7 +118,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-29T17:00:00.000Z",
       "url": "https://openai.com/index/updated-model-spec",
-      "collectedAt": "2026-10-31T09:00:19.637Z"
+      "collectedAt": "2026-11-01T09:50:09.036Z"
     },
     {
       "id": "18cef611588a1193dd4a",
@@ -135,7 +135,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-29T09:00:00.000Z",
       "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "collectedAt": "2026-10-31T09:00:19.638Z"
+      "collectedAt": "2026-11-01T09:50:09.038Z"
     },
     {
       "id": "fc05e6230607d9f27299",
@@ -152,7 +152,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "url": "https://openai.com/index/credit-saison",
-      "collectedAt": "2026-10-31T09:00:19.639Z"
+      "collectedAt": "2026-11-01T09:50:09.039Z"
     },
     {
       "id": "9587d6355203807dd506",
@@ -169,7 +169,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.050Z"
+      "collectedAt": "2026-11-01T09:50:10.661Z"
     },
     {
       "id": "ddcd17d7121c57be0600",
@@ -186,7 +186,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-28T17:00:58.000Z",
       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "collectedAt": "2026-10-31T09:00:22.665Z"
+      "collectedAt": "2026-11-01T09:50:13.627Z"
     },
     {
       "id": "24b6bd430275323c0d5b",
@@ -203,7 +203,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-28T13:15:00.000Z",
       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "collectedAt": "2026-10-31T09:00:19.640Z"
+      "collectedAt": "2026-11-01T09:50:09.039Z"
     },
     {
       "id": "d3623346a5ba4773e870",
@@ -220,7 +220,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-28T09:30:00.000Z",
       "url": "https://openai.com/index/legora",
-      "collectedAt": "2026-10-31T09:00:19.640Z"
+      "collectedAt": "2026-11-01T09:50:09.040Z"
     },
     {
       "id": "7d3a7824e5cdde1c9603",
@@ -237,7 +237,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-28T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.050Z"
+      "collectedAt": "2026-11-01T09:50:10.661Z"
     },
     {
       "id": "0193ff3cd44006bdf062",
@@ -254,7 +254,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-27T15:00:00.000Z",
       "url": "https://openai.com/index/retell-ai",
-      "collectedAt": "2026-10-31T09:00:19.645Z"
+      "collectedAt": "2026-11-01T09:50:09.041Z"
     },
     {
       "id": "c6116b17c346c7c7342b",
@@ -271,7 +271,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-27T07:00:00.000Z",
       "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "collectedAt": "2026-10-31T09:00:19.646Z"
+      "collectedAt": "2026-11-01T09:50:09.042Z"
     },
     {
       "id": "e48ff2e5e39058a7ad0b",
@@ -288,7 +288,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-27T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-31T09:00:22.313Z"
+      "collectedAt": "2026-11-01T09:50:13.448Z"
     },
     {
       "id": "a000ebaf269c8ae5d638",
@@ -305,7 +305,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-26T22:00:00.000Z",
       "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "collectedAt": "2026-10-31T09:00:19.647Z"
+      "collectedAt": "2026-11-01T09:50:09.043Z"
     },
     {
       "id": "32f1798b195a8eeda065",
@@ -322,7 +322,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-26T14:30:00.000Z",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "collectedAt": "2026-10-31T09:00:19.647Z"
+      "collectedAt": "2026-11-01T09:50:09.043Z"
     },
     {
       "id": "a78767db11daafd34d6e",
@@ -339,7 +339,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-26T13:45:00.000Z",
       "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "collectedAt": "2026-10-31T09:00:19.648Z"
+      "collectedAt": "2026-11-01T09:50:09.044Z"
     },
     {
       "id": "fcbae959cfded2c76bf5",
@@ -356,7 +356,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-26T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "collectedAt": "2026-10-31T09:00:19.648Z"
+      "collectedAt": "2026-11-01T09:50:09.045Z"
     },
     {
       "id": "d40d5e0ca15ab25db000",
@@ -373,7 +373,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-26T07:00:00.000Z",
       "url": "https://openai.com/index/openai-cut-incident-investigation",
-      "collectedAt": "2026-10-31T09:00:19.649Z"
+      "collectedAt": "2026-11-01T09:50:09.045Z"
     },
     {
       "id": "c460b2a6c6dc1e3d365d",
@@ -390,7 +390,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-26T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "collectedAt": "2026-10-31T09:00:19.650Z"
+      "collectedAt": "2026-11-01T09:50:09.046Z"
     },
     {
       "id": "c8614f28c65744518349",
@@ -407,7 +407,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-26T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-31T09:00:22.313Z"
+      "collectedAt": "2026-11-01T09:50:13.449Z"
     },
     {
       "id": "9fc10476b2c18ee0001b",
@@ -424,7 +424,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "collectedAt": "2026-10-31T09:00:19.650Z"
+      "collectedAt": "2026-11-01T09:50:09.046Z"
     },
     {
       "id": "fcd67a8854a80133b3f5",
@@ -441,7 +441,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-23T10:00:00.000Z",
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "collectedAt": "2026-10-31T09:00:19.650Z"
+      "collectedAt": "2026-11-01T09:50:09.049Z"
     },
     {
       "id": "de8f360d7618ca283160",
@@ -458,7 +458,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "url": "https://openai.com/index/anima",
-      "collectedAt": "2026-10-31T09:00:19.650Z"
+      "collectedAt": "2026-11-01T09:50:09.049Z"
     },
     {
       "id": "12faaea26af29e3628b9",
@@ -475,7 +475,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.051Z"
+      "collectedAt": "2026-11-01T09:50:10.662Z"
     },
     {
       "id": "b40a489d3dca13c566ea",
@@ -492,7 +492,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-22T19:00:00.000Z",
       "url": "https://openai.com/index/decisions-api",
-      "collectedAt": "2026-10-31T09:00:19.651Z"
+      "collectedAt": "2026-11-01T09:50:09.049Z"
     },
     {
       "id": "e0ac835f8bbbb3d1f9a8",
@@ -509,7 +509,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-22T00:00:00.000Z",
       "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "collectedAt": "2026-10-31T09:00:19.651Z"
+      "collectedAt": "2026-11-01T09:50:09.050Z"
     },
     {
       "id": "ca1eb8e9f0d5ad4b65c6",
@@ -526,7 +526,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.051Z"
+      "collectedAt": "2026-11-01T09:50:10.662Z"
     },
     {
       "id": "a7f4cc0f7267a2cd445c",
@@ -543,7 +543,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-21T13:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "collectedAt": "2026-10-31T09:00:19.652Z"
+      "collectedAt": "2026-11-01T09:50:09.050Z"
     },
     {
       "id": "e26725705d6b7e7f5c32",
@@ -560,7 +560,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-21T12:00:00.000Z",
       "url": "https://openai.com/index/openai-models-google-cloud",
-      "collectedAt": "2026-10-31T09:00:19.651Z"
+      "collectedAt": "2026-11-01T09:50:09.050Z"
     },
     {
       "id": "92ca159e84584b28e39e",
@@ -577,7 +577,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-21T07:00:00.000Z",
       "url": "https://openai.com/index/building-chatgpt-ad-stack",
-      "collectedAt": "2026-10-31T09:00:19.652Z"
+      "collectedAt": "2026-11-01T09:50:09.051Z"
     },
     {
       "id": "f99f7ec39c9e42b8cdb5",
@@ -594,7 +594,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "url": "https://openai.com/index/cloudflare-cyber",
-      "collectedAt": "2026-10-31T09:00:19.652Z"
+      "collectedAt": "2026-11-01T09:50:09.051Z"
     },
     {
       "id": "f96d8d9d61bf99f94f98",
@@ -611,7 +611,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-31T09:00:20.352Z"
+      "collectedAt": "2026-11-01T09:50:09.939Z"
     },
     {
       "id": "0ce4f81341f84770cb28",
@@ -628,7 +628,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.051Z"
+      "collectedAt": "2026-11-01T09:50:10.662Z"
     },
     {
       "id": "c4b1ed46c0fe160229ee",
@@ -645,7 +645,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-20T10:00:00.000Z",
       "url": "https://openai.com/index/ted-taylor-restaurant",
-      "collectedAt": "2026-10-31T09:00:19.653Z"
+      "collectedAt": "2026-11-01T09:50:09.052Z"
     },
     {
       "id": "a880df1b302f86a910fe",
@@ -662,7 +662,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-20T07:00:00.000Z",
       "url": "https://openai.com/index/terminal-x",
-      "collectedAt": "2026-10-31T09:00:19.653Z"
+      "collectedAt": "2026-11-01T09:50:09.052Z"
     },
     {
       "id": "16ee5437764d50779581",
@@ -679,7 +679,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-20T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.052Z"
+      "collectedAt": "2026-11-01T09:50:10.663Z"
     },
     {
       "id": "b330f85b4b03f521aa49",
@@ -696,7 +696,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-19T12:00:00.000Z",
       "url": "https://openai.com/index/low-resource-programming-languages",
-      "collectedAt": "2026-10-31T09:00:19.654Z"
+      "collectedAt": "2026-11-01T09:50:09.053Z"
     },
     {
       "id": "0ac6bba12ed4c8cbdc20",
@@ -713,7 +713,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-17T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-10-31T09:00:24.126Z"
+      "collectedAt": "2026-11-01T09:50:15.459Z"
     },
     {
       "id": "741083893d951a305411",
@@ -730,24 +730,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "url": "https://openai.com/index/localiza-generative-ai",
-      "collectedAt": "2026-10-31T09:00:19.654Z"
-    },
-    {
-      "id": "64b4b57c169ea93d3501",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "content": "People and AI agents need context to get work done, but it’s usually scattered across systems, from Slack to Google Docs. Finding it and understanding how it all fits together can be a challenge.\n\nThat’s why [Stack Overflow⁠(opens in a new window)](https://stackoverflow.co/) is building a knowledge intelligence platform that unifies those sources and turns raw context into verified knowledge available wherever people and agents work.\n\nOpenAI models like GPT‑6 Astra and GPT‑6 Sol power the platform’s AI, with tasks routing to different models based on the reasoning required and cost. Codex helps the company’s engineers build the products, while a ChatGPT plugin makes their newer agentic product, Stack Overflow for Agents, easier to discover and use.\n\n> “We built a ChatGPT plugin for Stack Overflow for Agents, and our registrations tripled overnight.”\n\n—Alexandra Lato, VP of Product, Stack Overflow\n\n## Two engineers ship a net-new product in a few weeks with Codex\n\nStack Overflow for Agents, which extends Stack’s intelligence layer to agents, began with a hypothesis and two engineers using Codex. The engineers gave Codex a development environment and a plan, and then worked with it to build the product. Within a few weeks, Alex says, they had a full-fledged product.\n\n“So it really made their team feel bigger,” Alex says. “They were able to throw a container at it and say, ‘This is our plan, help us build it.’”\n\n## Developing connectors in days, not weeks, with Codex\n\nStack Internal, Stack Overflow’s enterprise product, needs to connect to all the systems where organizations keep their knowledge. Building this capability requires more human involvement than the two-engineer effort behind Stack Overflow for Agents, but Codex is accelerating this work, too.\n\nAlex describes using Codex to pursue a much shorter path to market for the enterprise product: three months rather than a year. Building connectors is one concrete example.\n\n> “On average, it takes us 3 to 6 weeks to build one connector. With Codex, we were able to build it within 4 days.”\n\n—Alexandra Lato, VP of Product, Stack Overflow\n\nMore recently, the team built a connector in a single day. By accelerating connectors, Codex helps Stack Overflow bring enterprise products to market faster.\n\n## Increasing agent creation and signups with a ChatGPT plugin\n\nOnce Stack Overflow for Agents was ready for distribution, the team needed a way to get it into people’s workflows. It built a ChatGPT plugin so users could discover and set up the product in ChatGPT, with fewer steps than a traditional Model Context Protocol (MCP) setup.\n\n> “Once you have a plugin, it becomes a frictionless setup with ChatGPT.”\n\n—Alexandra Lato, VP of Product, Stack Overflow\n\nAlex says the plugin tripled registrations and accelerated agent creation: “I think we were up to 10X last time I checked.”\n\n## Reducing configuration work with the Decisions API\n\nStack Overflow manages its own model routing and configuration, but Alex hopes to explore using the Decisions API to reduce some of that work and put more engineering capacity into the product.\n\n“If we’re able to automate that through OpenAI directly, that saves us a ton of time and money, allows us to focus more on the actual product we’re building rather than the guardrails around it,” Alex says.\n\n## Expanding across the full knowledge lifecycle\n\nStack Overflow is also working on expanding its knowledge product to enable sharing of what people learn. To date, its focus has been pulling information in. Now, Alex is closing the loop so knowledge gained in a one-to-one session with a developer or someone outside engineering can help others, too.\n\n“As I’m learning, how do I make sure that the rest of my organization is learning with me?”, said Alex. “I’m really looking forward to building a product that allows for that full knowledge life cycle.”",
-      "contentZh": "人们和AI代理需要上下文才能完成工作，但这些上下文通常分散在从Slack到Google Docs的各种系统中。找到它并理解它们如何组合在一起可能是一项挑战。\n\n这就是为什么[Stack Overflow⁠（在新窗口中打开）](https://stackoverflow.co/)正在构建一个知识智能平台，该平台统一这些来源，并将原始上下文转化为经过验证的知识，供人们和代理在任何工作场所使用。\n\nGPT‑6 Astra和GPT‑6 Sol等OpenAI模型为该平台的AI提供支持，任务根据所需的推理和成本路由到不同的模型。Codex帮助该公司的工程师构建产品，而ChatGPT插件使他们更新的代理产品Stack Overflow for Agents更容易被发现和使用。\n\n> “我们为Stack Overflow for Agents构建了一个ChatGPT插件，我们的注册量一夜之间增加了两倍。”\n\n—Alexandra Lato，Stack Overflow产品副总裁\n\n## 两名工程师用Codex在几周内交付一个全新产品\n\nStack Overflow for Agents将Stack的智能层扩展到代理，它始于一个假设和两名使用Codex的工程师。工程师们给Codex提供了一个开发环境和一份计划，然后与它合作构建产品。Alex说，在几周内，他们就拥有了一个成熟的产品。\n\n“所以这确实让他们的团队感觉更庞大了，”Alex说。“他们能够扔给它一个容器并说，‘这是我们的计划，帮我们构建它。’”\n\n## 用Codex在几天而非几周内开发连接器\n\nStack Internal是Stack Overflow的企业产品，需要连接到组织存储知识的所有系统。构建这一能力需要比Stack Overflow for Agents背后的两名工程师投入更多的人力，但Codex也在加速这项工作。\n\nAlex描述了使用Codex为企业产品追求更短的市场路径：三个月而不是一年。构建连接器就是一个具体例子。\n\n> “平均而言，我们构建一个连接器需要3到6周。借助Codex，我们能够在4天内完成。”\n\n—Alexandra Lato，Stack Overflow产品副总裁\n\n最近，该团队在一天内构建了一个连接器。通过加速连接器开发，Codex帮助Stack Overflow更快地将企业产品推向市场。\n\n## 通过ChatGPT插件增加代理创建和注册量\n\n一旦Stack Overflow for Agents准备好分发，团队就需要一种方法将其融入人们的工作流程。他们构建了一个ChatGPT插件，以便用户可以在ChatGPT中发现并设置该产品，步骤比传统的模型上下文协议（MCP）设置更少。\n\n> “一旦你有了插件，它就能与ChatGPT实现无摩擦的设置。”\n\n—Alexandra Lato，Stack Overflow产品副总裁\n\nAlex说，该插件使注册量增加了两倍，并加速了代理创建：“我上次查看时，我想我们已经达到了10倍。”\n\n## 通过Decisions API减少配置工作\n\nStack Overflow管理自己的模型路由和配置，但Alex希望探索使用Decisions API来减少部分工作，并将更多工程能力投入产品。\n\n“如果我们能够通过OpenAI直接实现自动化，那将为我们节省大量时间和金钱，使我们能够更多地专注于我们正在构建的实际产品，而不是围绕它的护栏，”Alex说。\n\n## 扩展到整个知识生命周期\n\nStack Overflow还在努力扩展其知识产品，以实现人们所学内容的共享。迄今为止，其重点一直是引入信息。现在，Alex正在闭环，以便在与开发人员或工程以外人员的一对一会话中获得的知识也能帮助其他人。\n\n“当我在学习时，我如何确保我组织的其他成员也在与我一起学习？”Alex说。“我真的很期待构建一个能够支持完整知识生命周期的产品。”",
-      "titleZh": "Stack Overflow for Agents 借助 ChatGPT 插件使注册量增至三倍",
-      "summaryZh": "两名工程师用 Codex 在几周内构建了 Stack Overflow for Agents，其 ChatGPT 插件推动智能体创建量增长高达 10 倍。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "collectedAt": "2026-10-31T09:00:19.655Z"
+      "collectedAt": "2026-11-01T09:50:09.053Z"
     },
     {
       "id": "29c23cec52be23e1fea0",
@@ -764,7 +747,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "url": "https://openai.com/index/benefit-street-partners",
-      "collectedAt": "2026-10-31T09:00:19.655Z"
+      "collectedAt": "2026-11-01T09:50:09.054Z"
+    },
+    {
+      "id": "64b4b57c169ea93d3501",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "content": "People and AI agents need context to get work done, but it’s usually scattered across systems, from Slack to Google Docs. Finding it and understanding how it all fits together can be a challenge.\n\nThat’s why [Stack Overflow⁠(opens in a new window)](https://stackoverflow.co/) is building a knowledge intelligence platform that unifies those sources and turns raw context into verified knowledge available wherever people and agents work.\n\nOpenAI models like GPT‑6 Astra and GPT‑6 Sol power the platform’s AI, with tasks routing to different models based on the reasoning required and cost. Codex helps the company’s engineers build the products, while a ChatGPT plugin makes their newer agentic product, Stack Overflow for Agents, easier to discover and use.\n\n> “We built a ChatGPT plugin for Stack Overflow for Agents, and our registrations tripled overnight.”\n\n—Alexandra Lato, VP of Product, Stack Overflow\n\n## Two engineers ship a net-new product in a few weeks with Codex\n\nStack Overflow for Agents, which extends Stack’s intelligence layer to agents, began with a hypothesis and two engineers using Codex. The engineers gave Codex a development environment and a plan, and then worked with it to build the product. Within a few weeks, Alex says, they had a full-fledged product.\n\n“So it really made their team feel bigger,” Alex says. “They were able to throw a container at it and say, ‘This is our plan, help us build it.’”\n\n## Developing connectors in days, not weeks, with Codex\n\nStack Internal, Stack Overflow’s enterprise product, needs to connect to all the systems where organizations keep their knowledge. Building this capability requires more human involvement than the two-engineer effort behind Stack Overflow for Agents, but Codex is accelerating this work, too.\n\nAlex describes using Codex to pursue a much shorter path to market for the enterprise product: three months rather than a year. Building connectors is one concrete example.\n\n> “On average, it takes us 3 to 6 weeks to build one connector. With Codex, we were able to build it within 4 days.”\n\n—Alexandra Lato, VP of Product, Stack Overflow\n\nMore recently, the team built a connector in a single day. By accelerating connectors, Codex helps Stack Overflow bring enterprise products to market faster.\n\n## Increasing agent creation and signups with a ChatGPT plugin\n\nOnce Stack Overflow for Agents was ready for distribution, the team needed a way to get it into people’s workflows. It built a ChatGPT plugin so users could discover and set up the product in ChatGPT, with fewer steps than a traditional Model Context Protocol (MCP) setup.\n\n> “Once you have a plugin, it becomes a frictionless setup with ChatGPT.”\n\n—Alexandra Lato, VP of Product, Stack Overflow\n\nAlex says the plugin tripled registrations and accelerated agent creation: “I think we were up to 10X last time I checked.”\n\n## Reducing configuration work with the Decisions API\n\nStack Overflow manages its own model routing and configuration, but Alex hopes to explore using the Decisions API to reduce some of that work and put more engineering capacity into the product.\n\n“If we’re able to automate that through OpenAI directly, that saves us a ton of time and money, allows us to focus more on the actual product we’re building rather than the guardrails around it,” Alex says.\n\n## Expanding across the full knowledge lifecycle\n\nStack Overflow is also working on expanding its knowledge product to enable sharing of what people learn. To date, its focus has been pulling information in. Now, Alex is closing the loop so knowledge gained in a one-to-one session with a developer or someone outside engineering can help others, too.\n\n“As I’m learning, how do I make sure that the rest of my organization is learning with me?”, said Alex. “I’m really looking forward to building a product that allows for that full knowledge life cycle.”",
+      "contentZh": "人们和AI代理需要上下文才能完成工作，但这些上下文通常分散在从Slack到Google Docs的各种系统中。找到它并理解它们如何组合在一起可能是一项挑战。\n\n这就是为什么[Stack Overflow⁠（在新窗口中打开）](https://stackoverflow.co/)正在构建一个知识智能平台，该平台统一这些来源，并将原始上下文转化为经过验证的知识，供人们和代理在任何工作场所使用。\n\nGPT‑6 Astra和GPT‑6 Sol等OpenAI模型为该平台的AI提供支持，任务根据所需的推理和成本路由到不同的模型。Codex帮助该公司的工程师构建产品，而ChatGPT插件使他们更新的代理产品Stack Overflow for Agents更容易被发现和使用。\n\n> “我们为Stack Overflow for Agents构建了一个ChatGPT插件，我们的注册量一夜之间增加了两倍。”\n\n—Alexandra Lato，Stack Overflow产品副总裁\n\n## 两名工程师用Codex在几周内交付一个全新产品\n\nStack Overflow for Agents将Stack的智能层扩展到代理，它始于一个假设和两名使用Codex的工程师。工程师们给Codex提供了一个开发环境和一份计划，然后与它合作构建产品。Alex说，在几周内，他们就拥有了一个成熟的产品。\n\n“所以这确实让他们的团队感觉更庞大了，”Alex说。“他们能够扔给它一个容器并说，‘这是我们的计划，帮我们构建它。’”\n\n## 用Codex在几天而非几周内开发连接器\n\nStack Internal是Stack Overflow的企业产品，需要连接到组织存储知识的所有系统。构建这一能力需要比Stack Overflow for Agents背后的两名工程师投入更多的人力，但Codex也在加速这项工作。\n\nAlex描述了使用Codex为企业产品追求更短的市场路径：三个月而不是一年。构建连接器就是一个具体例子。\n\n> “平均而言，我们构建一个连接器需要3到6周。借助Codex，我们能够在4天内完成。”\n\n—Alexandra Lato，Stack Overflow产品副总裁\n\n最近，该团队在一天内构建了一个连接器。通过加速连接器开发，Codex帮助Stack Overflow更快地将企业产品推向市场。\n\n## 通过ChatGPT插件增加代理创建和注册量\n\n一旦Stack Overflow for Agents准备好分发，团队就需要一种方法将其融入人们的工作流程。他们构建了一个ChatGPT插件，以便用户可以在ChatGPT中发现并设置该产品，步骤比传统的模型上下文协议（MCP）设置更少。\n\n> “一旦你有了插件，它就能与ChatGPT实现无摩擦的设置。”\n\n—Alexandra Lato，Stack Overflow产品副总裁\n\nAlex说，该插件使注册量增加了两倍，并加速了代理创建：“我上次查看时，我想我们已经达到了10倍。”\n\n## 通过Decisions API减少配置工作\n\nStack Overflow管理自己的模型路由和配置，但Alex希望探索使用Decisions API来减少部分工作，并将更多工程能力投入产品。\n\n“如果我们能够通过OpenAI直接实现自动化，那将为我们节省大量时间和金钱，使我们能够更多地专注于我们正在构建的实际产品，而不是围绕它的护栏，”Alex说。\n\n## 扩展到整个知识生命周期\n\nStack Overflow还在努力扩展其知识产品，以实现人们所学内容的共享。迄今为止，其重点一直是引入信息。现在，Alex正在闭环，以便在与开发人员或工程以外人员的一对一会话中获得的知识也能帮助其他人。\n\n“当我在学习时，我如何确保我组织的其他成员也在与我一起学习？”Alex说。“我真的很期待构建一个能够支持完整知识生命周期的产品。”",
+      "titleZh": "Stack Overflow for Agents 借助 ChatGPT 插件使注册量增至三倍",
+      "summaryZh": "两名工程师用 Codex 在几周内构建了 Stack Overflow for Agents，其 ChatGPT 插件推动智能体创建量增长高达 10 倍。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "collectedAt": "2026-11-01T09:50:09.054Z"
     },
     {
       "id": "4ed6df5c15d558fd63cd",
@@ -781,7 +781,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-15T19:00:00.000Z",
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "collectedAt": "2026-10-31T09:00:19.655Z"
+      "collectedAt": "2026-11-01T09:50:09.054Z"
     },
     {
       "id": "7e3f9a4a081a50d9fa63",
@@ -798,7 +798,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.052Z"
+      "collectedAt": "2026-11-01T09:50:10.663Z"
     },
     {
       "id": "ae07909e220d84ba5298",
@@ -815,7 +815,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-14T12:00:00.000Z",
       "url": "https://openai.com/index/amp-beyond-coding",
-      "collectedAt": "2026-10-31T09:00:19.656Z"
+      "collectedAt": "2026-11-01T09:50:09.055Z"
     },
     {
       "id": "5af941d3347cd0b31e08",
@@ -832,7 +832,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-14T07:00:00.000Z",
       "url": "https://openai.com/index/third-moment-research",
-      "collectedAt": "2026-10-31T09:00:19.656Z"
+      "collectedAt": "2026-11-01T09:50:09.055Z"
     },
     {
       "id": "6725a25b1257a6d7abcf",
@@ -849,7 +849,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-14T02:00:14.000Z",
       "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "collectedAt": "2026-10-31T09:00:22.665Z"
+      "collectedAt": "2026-11-01T09:50:13.627Z"
     },
     {
       "id": "d6c85c4d2f3339abada7",
@@ -866,7 +866,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.052Z"
+      "collectedAt": "2026-11-01T09:50:10.663Z"
     },
     {
       "id": "ca02af101726c5e29829",
@@ -883,7 +883,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T19:43:07.000Z",
       "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "collectedAt": "2026-10-31T09:00:22.665Z"
+      "collectedAt": "2026-11-01T09:50:13.627Z"
     },
     {
       "id": "79730454c4a0d9bd4cd0",
@@ -900,7 +900,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T16:01:58.000Z",
       "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "collectedAt": "2026-10-31T09:00:22.665Z"
+      "collectedAt": "2026-11-01T09:50:13.627Z"
     },
     {
       "id": "812075165a6f703bcf0c",
@@ -917,7 +917,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T16:01:52.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "collectedAt": "2026-10-31T09:00:22.665Z"
+      "collectedAt": "2026-11-01T09:50:13.627Z"
     },
     {
       "id": "bd0c7d7636bac2d8b368",
@@ -934,7 +934,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T16:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "collectedAt": "2026-10-31T09:00:23.022Z"
+      "collectedAt": "2026-11-01T09:50:13.960Z"
     },
     {
       "id": "88d109f9ffb73d1e9149",
@@ -951,7 +951,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T12:00:00.000Z",
       "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "collectedAt": "2026-10-31T09:00:19.656Z"
+      "collectedAt": "2026-11-01T09:50:09.055Z"
     },
     {
       "id": "c3e57db0842e8aa78965",
@@ -968,7 +968,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-10-31T09:00:21.408Z"
+      "collectedAt": "2026-11-01T09:50:12.835Z"
     },
     {
       "id": "590d3ecaa4e92141387b",
@@ -985,7 +985,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-31T09:00:22.313Z"
+      "collectedAt": "2026-11-01T09:50:13.449Z"
     },
     {
       "id": "6e4f5b7a123143776f19",
@@ -1002,7 +1002,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-09T07:00:00.000Z",
       "url": "https://openai.com/index/asana-browser-agent",
-      "collectedAt": "2026-10-31T09:00:19.657Z"
+      "collectedAt": "2026-11-01T09:50:09.055Z"
     },
     {
       "id": "42e888a7cc19b4d85cd0",
@@ -1019,7 +1019,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.053Z"
+      "collectedAt": "2026-11-01T09:50:10.663Z"
     },
     {
       "id": "ea6e3024027050fefc4a",
@@ -1036,7 +1036,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-08T16:00:00.000Z",
       "url": "https://openai.com/index/oracle",
-      "collectedAt": "2026-10-31T09:00:19.657Z"
+      "collectedAt": "2026-11-01T09:50:09.056Z"
     },
     {
       "id": "5e179cf9fc5230516601",
@@ -1053,7 +1053,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "url": "https://openai.com/index/pollo-ai",
-      "collectedAt": "2026-10-31T09:00:19.657Z"
+      "collectedAt": "2026-11-01T09:50:09.056Z"
     },
     {
       "id": "f45224b70875029b06cb",
@@ -1070,7 +1070,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "url": "https://openai.com/index/legalon-halves-codex-costs",
-      "collectedAt": "2026-10-31T09:00:19.657Z"
+      "collectedAt": "2026-11-01T09:50:09.056Z"
     },
     {
       "id": "b00b251fbd09fd510cf8",
@@ -1087,7 +1087,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-08T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.053Z"
+      "collectedAt": "2026-11-01T09:50:10.664Z"
     },
     {
       "id": "f137c0fe028fb4fef9fd",
@@ -1104,7 +1104,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-08T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-31T09:00:22.314Z"
+      "collectedAt": "2026-11-01T09:50:13.450Z"
     },
     {
       "id": "053572bc3d224707807d",
@@ -1121,7 +1121,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T12:00:00.000Z",
       "url": "https://openai.com/index/teens-learn-and-plan",
-      "collectedAt": "2026-10-31T09:00:19.658Z"
+      "collectedAt": "2026-11-01T09:50:09.056Z"
     },
     {
       "id": "e570b3aeb15445d9fd65",
@@ -1138,7 +1138,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T07:00:00.000Z",
       "url": "https://openai.com/index/radisson",
-      "collectedAt": "2026-10-31T09:00:19.658Z"
+      "collectedAt": "2026-11-01T09:50:09.057Z"
     },
     {
       "id": "44e7004c56ab653cde6e",
@@ -1155,7 +1155,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-for-everyone",
-      "collectedAt": "2026-10-31T09:00:19.658Z"
+      "collectedAt": "2026-11-01T09:50:09.057Z"
     },
     {
       "id": "ecef651792823cfe8680",
@@ -1172,7 +1172,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-31T09:00:20.353Z"
+      "collectedAt": "2026-11-01T09:50:09.940Z"
     },
     {
       "id": "02a4f216cde7ea519cea",
@@ -1189,7 +1189,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.054Z"
+      "collectedAt": "2026-11-01T09:50:10.665Z"
     },
     {
       "id": "bb24fa22c53afbb99a4c",
@@ -1206,7 +1206,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T19:57:04.000Z",
       "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-      "collectedAt": "2026-10-31T09:00:22.666Z"
+      "collectedAt": "2026-11-01T09:50:13.627Z"
     },
     {
       "id": "2fb1d1aa61471ba7fc18",
@@ -1223,7 +1223,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T16:00:00.000Z",
       "url": "https://openai.com/index/atlassian-partnership",
-      "collectedAt": "2026-10-31T09:00:19.659Z"
+      "collectedAt": "2026-11-01T09:50:09.057Z"
     },
     {
       "id": "d08e77e6d7627ad2dedc",
@@ -1240,7 +1240,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T12:00:00.000Z",
       "url": "https://openai.com/index/jump-trading",
-      "collectedAt": "2026-10-31T09:00:19.658Z"
+      "collectedAt": "2026-11-01T09:50:09.057Z"
     },
     {
       "id": "f468f3b992b29140bb8c",
@@ -1257,7 +1257,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T12:00:00.000Z",
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "collectedAt": "2026-10-31T09:00:19.658Z"
+      "collectedAt": "2026-11-01T09:50:09.057Z"
     },
     {
       "id": "6b38c9286c5b7625a0d4",
@@ -1274,7 +1274,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.054Z"
+      "collectedAt": "2026-11-01T09:50:10.665Z"
     },
     {
       "id": "0705d1bda5aa645af0aa",
@@ -1291,7 +1291,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-31T09:00:22.314Z"
+      "collectedAt": "2026-11-01T09:50:13.450Z"
     },
     {
       "id": "aa83e0567f81baa77a53",
@@ -1308,7 +1308,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-05T10:00:00.000Z",
       "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "collectedAt": "2026-10-31T09:00:19.659Z"
+      "collectedAt": "2026-11-01T09:50:09.058Z"
     },
     {
       "id": "f0a951ab418bfaebfffe",
@@ -1325,7 +1325,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.054Z"
+      "collectedAt": "2026-11-01T09:50:10.665Z"
     },
     {
       "id": "384626120891883ee8e2",
@@ -1342,7 +1342,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-02T16:15:00.000Z",
       "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "collectedAt": "2026-10-31T09:00:19.659Z"
+      "collectedAt": "2026-11-01T09:50:09.058Z"
     },
     {
       "id": "b4075fea819f5adf3283",
@@ -1359,7 +1359,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "url": "https://openai.com/index/chatham-financial",
-      "collectedAt": "2026-10-31T09:00:19.659Z"
+      "collectedAt": "2026-11-01T09:50:09.058Z"
     },
     {
       "id": "f1ee3e7d0793c6d93b3a",
@@ -1376,7 +1376,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-01T16:00:00.000Z",
       "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "collectedAt": "2026-10-31T09:00:19.660Z"
+      "collectedAt": "2026-11-01T09:50:09.058Z"
     },
     {
       "id": "13ae9b523ea82b817626",
@@ -1393,7 +1393,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "url": "https://openai.com/index/the-den-family-social",
-      "collectedAt": "2026-10-31T09:00:19.660Z"
+      "collectedAt": "2026-11-01T09:50:09.059Z"
     },
     {
       "id": "b14fbd3a36ccd6c235d6",
@@ -1410,7 +1410,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.054Z"
+      "collectedAt": "2026-11-01T09:50:10.665Z"
     },
     {
       "id": "29505882ef55b3b17452",
@@ -1427,7 +1427,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-30T20:01:45.000Z",
       "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "collectedAt": "2026-10-31T09:00:22.666Z"
+      "collectedAt": "2026-11-01T09:50:13.628Z"
     },
     {
       "id": "7b79633fb1d94ee1fafd",
@@ -1444,7 +1444,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-30T10:30:00.000Z",
       "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "collectedAt": "2026-10-31T09:00:19.660Z"
+      "collectedAt": "2026-11-01T09:50:09.059Z"
     },
     {
       "id": "7a44f16e721d71f3a40a",
@@ -1461,7 +1461,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.055Z"
+      "collectedAt": "2026-11-01T09:50:10.665Z"
     },
     {
       "id": "14a93593dd29d9cce2e2",
@@ -1478,7 +1478,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-10-31T09:00:21.408Z"
+      "collectedAt": "2026-11-01T09:50:12.835Z"
     },
     {
       "id": "dec3c56087ecf835f793",
@@ -1495,7 +1495,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-29T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "collectedAt": "2026-10-31T09:00:19.660Z"
+      "collectedAt": "2026-11-01T09:50:09.059Z"
     },
     {
       "id": "b1be4275e9b1957a480b",
@@ -1512,7 +1512,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-29T10:00:00.000Z",
       "url": "https://openai.com/index/devday-2026-recap",
-      "collectedAt": "2026-10-31T09:00:19.660Z"
+      "collectedAt": "2026-11-01T09:50:09.060Z"
     },
     {
       "id": "8aba59a84f4991b7e02f",
@@ -1529,7 +1529,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-29T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-dots",
-      "collectedAt": "2026-10-31T09:00:19.661Z"
+      "collectedAt": "2026-11-01T09:50:09.060Z"
     },
     {
       "id": "3d0c36ffbad6ec0487a6",
@@ -1546,7 +1546,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://openai.com/form/codex-originals",
-      "collectedAt": "2026-10-31T09:00:19.662Z"
+      "collectedAt": "2026-11-01T09:50:09.061Z"
     },
     {
       "id": "fb33ffedd2ef1f33358e",
@@ -1563,7 +1563,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "collectedAt": "2026-10-31T09:00:19.662Z"
+      "collectedAt": "2026-11-01T09:50:09.061Z"
     },
     {
       "id": "b4c25d5187dd3628a6ae",
@@ -1580,7 +1580,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-31T09:00:20.353Z"
+      "collectedAt": "2026-11-01T09:50:09.941Z"
     },
     {
       "id": "fc6af36a46b4e2940d27",
@@ -1597,7 +1597,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.055Z"
+      "collectedAt": "2026-11-01T09:50:10.666Z"
     },
     {
       "id": "958634143951a5262875",
@@ -1614,7 +1614,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-25T19:00:00.000Z",
       "url": "https://openai.com/index/proaction",
-      "collectedAt": "2026-10-31T09:00:19.663Z"
+      "collectedAt": "2026-11-01T09:50:09.061Z"
     },
     {
       "id": "908b229b34ef0eca1c2c",
@@ -1631,7 +1631,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-25T07:00:00.000Z",
       "url": "https://openai.com/index/lowes",
-      "collectedAt": "2026-10-31T09:00:19.663Z"
+      "collectedAt": "2026-11-01T09:50:09.062Z"
     },
     {
       "id": "5e679411e8795fb41661",
@@ -1648,7 +1648,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-25T00:00:00.000Z",
       "url": "https://openai.com/index/wayfair",
-      "collectedAt": "2026-10-31T09:00:19.663Z"
+      "collectedAt": "2026-11-01T09:50:09.062Z"
     },
     {
       "id": "5a1eb82bce206d920902",
@@ -1665,7 +1665,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-31T09:00:20.353Z"
+      "collectedAt": "2026-11-01T09:50:09.941Z"
     },
     {
       "id": "20a747dfc11440658478",
@@ -1682,7 +1682,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-24T16:20:39.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "collectedAt": "2026-10-31T09:00:22.666Z"
+      "collectedAt": "2026-11-01T09:50:13.628Z"
     },
     {
       "id": "656525516449cb970c4b",
@@ -1699,7 +1699,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-24T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.063Z"
+      "collectedAt": "2026-11-01T09:50:10.666Z"
     },
     {
       "id": "195c546c2f499ad7a563",
@@ -1716,24 +1716,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T15:25:14.000Z",
       "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "collectedAt": "2026-10-31T09:00:22.666Z"
-    },
-    {
-      "id": "d19836357705e0f3bb0f",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-      "content": "Harvey helps law firms and in-house legal teams securely deploy AI across complex legal workflows, from litigation to mergers. Its customers use Harvey to turn vast amounts of information into complex legal documents. With GPT‑6 Astra, Harvey can bring more context into the drafting process and generate more structured outputs.\n\n> “We can give more context to the model and produce better and better structured outputs.”\n\n—Gabe Pereyra, Cofounder and President, Harvey\n\n## Getting more complete documents with better formatting\n\nHarvey uses GPT‑6 Astra to help lawyers analyze, synthesize, and draft from the information that shapes a matter, including court information, law firm documents, case law research, and other sources of legal context.\n\nCompared with other models, Harvey has seen substantial improvements in document formatting and context awareness with GPT‑6 Astra, helping customers get more complete documents that better reflect the material behind them.\n\n## Bringing lawyers’ preferences into the drafting process\n\nHarvey’s memory panel brings individual preferences directly into the drafting workflow. A lawyer can encode preferences such as using numbered lists, prioritizing EDGAR as a source, or color coding issues by priority.\n\nThose preferences appear alongside the source material and the draft memorandum, giving the lawyer a clearer way to guide the output. Because GPT‑6 Astra can process more context, Harvey can produce higher-quality legal documents while customers focus more of their time on strategy.",
-      "contentZh": "Harvey 帮助律师事务所和内部法务团队在从诉讼到并购等复杂法律工作流程中安全部署 AI。其客户使用 Harvey 将海量信息转化为复杂的法律文件。借助 GPT‑6 Astra，Harvey 能够在起草过程中引入更多上下文，并生成结构更完善的输出。\n\n> “我们可以为模型提供更多上下文，并生成越来越好、结构更完善的输出。”\n\n——Gabe Pereyra，Harvey 联合创始人兼总裁\n\n## 获得格式更好、更完整的文件\n\nHarvey 使用 GPT‑6 Astra 帮助律师分析、综合并起草来自塑造案件的信息，包括法院信息、律师事务所文件、判例法研究以及其他法律上下文来源。\n\n与其他模型相比，Harvey 在 GPT‑6 Astra 上看到了文档格式和上下文感知方面的显著改进，帮助客户获得更完整的文件，更好地反映其背后的材料。\n\n## 将律师的偏好带入起草过程\n\nHarvey 的记忆面板将个人偏好直接带入起草工作流程。律师可以编码偏好，例如使用编号列表、优先将 EDGAR 作为来源，或按优先级对问题进行颜色编码。\n\n这些偏好与源材料和备忘录草稿一起显示，为律师提供了更清晰的方式来引导输出。由于 GPT‑6 Astra 能够处理更多上下文，Harvey 可以生成更高质量的法律文件，同时客户可以将更多时间集中在策略上。",
-      "titleZh": "Harvey 利用 GPT-6 Astra 将法律上下文转化为更强大的草稿",
-      "summaryZh": "GPT-6 Astra 生成结构更清晰、更具上下文感知的法律文件，让律师能够专注于策略。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "collectedAt": "2026-10-31T09:00:19.663Z"
+      "collectedAt": "2026-11-01T09:50:13.628Z"
     },
     {
       "id": "98d49239d16302a79008",
@@ -1750,7 +1733,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "collectedAt": "2026-10-31T09:00:19.664Z"
+      "collectedAt": "2026-11-01T09:50:09.062Z"
+    },
+    {
+      "id": "d19836357705e0f3bb0f",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "content": "Harvey helps law firms and in-house legal teams securely deploy AI across complex legal workflows, from litigation to mergers. Its customers use Harvey to turn vast amounts of information into complex legal documents. With GPT‑6 Astra, Harvey can bring more context into the drafting process and generate more structured outputs.\n\n> “We can give more context to the model and produce better and better structured outputs.”\n\n—Gabe Pereyra, Cofounder and President, Harvey\n\n## Getting more complete documents with better formatting\n\nHarvey uses GPT‑6 Astra to help lawyers analyze, synthesize, and draft from the information that shapes a matter, including court information, law firm documents, case law research, and other sources of legal context.\n\nCompared with other models, Harvey has seen substantial improvements in document formatting and context awareness with GPT‑6 Astra, helping customers get more complete documents that better reflect the material behind them.\n\n## Bringing lawyers’ preferences into the drafting process\n\nHarvey’s memory panel brings individual preferences directly into the drafting workflow. A lawyer can encode preferences such as using numbered lists, prioritizing EDGAR as a source, or color coding issues by priority.\n\nThose preferences appear alongside the source material and the draft memorandum, giving the lawyer a clearer way to guide the output. Because GPT‑6 Astra can process more context, Harvey can produce higher-quality legal documents while customers focus more of their time on strategy.",
+      "contentZh": "Harvey 帮助律师事务所和内部法务团队在从诉讼到并购等复杂法律工作流程中安全部署 AI。其客户使用 Harvey 将海量信息转化为复杂的法律文件。借助 GPT‑6 Astra，Harvey 能够在起草过程中引入更多上下文，并生成结构更完善的输出。\n\n> “我们可以为模型提供更多上下文，并生成越来越好、结构更完善的输出。”\n\n——Gabe Pereyra，Harvey 联合创始人兼总裁\n\n## 获得格式更好、更完整的文件\n\nHarvey 使用 GPT‑6 Astra 帮助律师分析、综合并起草来自塑造案件的信息，包括法院信息、律师事务所文件、判例法研究以及其他法律上下文来源。\n\n与其他模型相比，Harvey 在 GPT‑6 Astra 上看到了文档格式和上下文感知方面的显著改进，帮助客户获得更完整的文件，更好地反映其背后的材料。\n\n## 将律师的偏好带入起草过程\n\nHarvey 的记忆面板将个人偏好直接带入起草工作流程。律师可以编码偏好，例如使用编号列表、优先将 EDGAR 作为来源，或按优先级对问题进行颜色编码。\n\n这些偏好与源材料和备忘录草稿一起显示，为律师提供了更清晰的方式来引导输出。由于 GPT‑6 Astra 能够处理更多上下文，Harvey 可以生成更高质量的法律文件，同时客户可以将更多时间集中在策略上。",
+      "titleZh": "Harvey 利用 GPT-6 Astra 将法律上下文转化为更强大的草稿",
+      "summaryZh": "GPT-6 Astra 生成结构更清晰、更具上下文感知的法律文件，让律师能够专注于策略。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "collectedAt": "2026-11-01T09:50:09.063Z"
     },
     {
       "id": "d84366078f8a35d69fd8",
@@ -1767,7 +1767,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "url": "https://openai.com/index/ringg",
-      "collectedAt": "2026-10-31T09:00:19.664Z"
+      "collectedAt": "2026-11-01T09:50:09.063Z"
     },
     {
       "id": "c7ba4d1eb147cdd66b38",
@@ -1784,7 +1784,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T02:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-      "collectedAt": "2026-10-31T09:00:19.664Z"
+      "collectedAt": "2026-11-01T09:50:09.063Z"
     },
     {
       "id": "b6ef8483976563d9823c",
@@ -1801,7 +1801,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T01:00:00.000Z",
       "url": "https://openai.com/index/airbnb-gpt-6-astra",
-      "collectedAt": "2026-10-31T09:00:19.664Z"
+      "collectedAt": "2026-11-01T09:50:09.063Z"
     },
     {
       "id": "cf8033ba83eec6a8c148",
@@ -1818,7 +1818,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.063Z"
+      "collectedAt": "2026-11-01T09:50:10.674Z"
     },
     {
       "id": "0e12b4f460d98cac8731",
@@ -1835,7 +1835,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T21:00:00.000Z",
       "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "collectedAt": "2026-10-31T09:00:19.665Z"
+      "collectedAt": "2026-11-01T09:50:09.063Z"
     },
     {
       "id": "0299d0ca3df23eb91bfb",
@@ -1852,7 +1852,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T18:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "collectedAt": "2026-10-31T09:00:19.665Z"
+      "collectedAt": "2026-11-01T09:50:09.064Z"
     },
     {
       "id": "4e2d2a2c5ea855512c7e",
@@ -1869,7 +1869,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T12:00:00.000Z",
       "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "collectedAt": "2026-10-31T09:00:19.665Z"
+      "collectedAt": "2026-11-01T09:50:09.064Z"
     },
     {
       "id": "25f4610d8559fb3e7ae8",
@@ -1886,7 +1886,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-      "collectedAt": "2026-10-31T09:00:19.665Z"
+      "collectedAt": "2026-11-01T09:50:09.064Z"
     },
     {
       "id": "48cb0cab97e8610721be",
@@ -1903,7 +1903,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-31T09:00:20.354Z"
+      "collectedAt": "2026-11-01T09:50:09.942Z"
     },
     {
       "id": "4e5cbe8e0247f025a726",
@@ -1920,7 +1920,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.064Z"
+      "collectedAt": "2026-11-01T09:50:10.674Z"
     },
     {
       "id": "a56f6381fd9bef9a27b2",
@@ -1937,7 +1937,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-31T09:00:22.319Z"
+      "collectedAt": "2026-11-01T09:50:13.454Z"
     },
     {
       "id": "9b5d95c2825df000aa2b",
@@ -1954,7 +1954,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-21T12:00:00.000Z",
       "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "collectedAt": "2026-10-31T09:00:19.665Z"
+      "collectedAt": "2026-11-01T09:50:09.064Z"
     },
     {
       "id": "132e637062c60e5185cf",
@@ -1971,7 +1971,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "url": "https://openai.com/index/v7",
-      "collectedAt": "2026-10-31T09:00:19.666Z"
+      "collectedAt": "2026-11-01T09:50:09.064Z"
     },
     {
       "id": "cf45b7445432b183ccd7",
@@ -1988,7 +1988,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.064Z"
+      "collectedAt": "2026-11-01T09:50:10.675Z"
     },
     {
       "id": "7a94fab2ea3e053d553c",
@@ -2005,7 +2005,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-18T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-31T09:00:22.320Z"
+      "collectedAt": "2026-11-01T09:50:13.454Z"
     },
     {
       "id": "99698296f3d481cb3012",
@@ -2022,7 +2022,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-17T12:00:00.000Z",
       "url": "https://openai.com/index/cooley-gopublic",
-      "collectedAt": "2026-10-31T09:00:19.666Z"
+      "collectedAt": "2026-11-01T09:50:09.065Z"
     },
     {
       "id": "4f0ecd4dc9d7f8f4cb97",
@@ -2039,7 +2039,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-31T09:00:22.320Z"
+      "collectedAt": "2026-11-01T09:50:13.454Z"
     },
     {
       "id": "3db286bcd9ddd5e690c5",
@@ -2056,7 +2056,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T17:00:00.000Z",
       "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "collectedAt": "2026-10-31T09:00:19.667Z"
+      "collectedAt": "2026-11-01T09:50:09.066Z"
     },
     {
       "id": "11eaf0d915ce57f2e5dc",
@@ -2073,7 +2073,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T16:00:00.000Z",
       "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "collectedAt": "2026-10-31T09:00:19.666Z"
+      "collectedAt": "2026-11-01T09:50:09.065Z"
     },
     {
       "id": "b458adf1e7325b78ff00",
@@ -2090,7 +2090,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T13:00:00.000Z",
       "url": "https://openai.com/index/reimagining-advertising-with-ai",
-      "collectedAt": "2026-10-31T09:00:19.666Z"
+      "collectedAt": "2026-11-01T09:50:09.065Z"
     },
     {
       "id": "2dbb90206bf7febc30df",
@@ -2107,7 +2107,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T12:00:00.000Z",
       "url": "https://openai.com/index/hex-gpt-6-astra",
-      "collectedAt": "2026-10-31T09:00:19.666Z"
+      "collectedAt": "2026-11-01T09:50:09.065Z"
     },
     {
       "id": "d7974b87b16b68185695",
@@ -2124,7 +2124,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T12:00:00.000Z",
       "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-      "collectedAt": "2026-10-31T09:00:19.667Z"
+      "collectedAt": "2026-11-01T09:50:09.065Z"
     },
     {
       "id": "1679a9385f8da2856137",
@@ -2141,7 +2141,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-31T09:00:20.354Z"
+      "collectedAt": "2026-11-01T09:50:09.943Z"
     },
     {
       "id": "6027ab1cfd832c602065",
@@ -2158,7 +2158,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-15T17:05:57.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "collectedAt": "2026-10-31T09:00:22.666Z"
+      "collectedAt": "2026-11-01T09:50:13.628Z"
     },
     {
       "id": "0e9e3b47215ca2b8e52d",
@@ -2175,7 +2175,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-31T09:00:20.355Z"
+      "collectedAt": "2026-11-01T09:50:09.943Z"
     },
     {
       "id": "bdfe1a33c2e5abcfb404",
@@ -2192,7 +2192,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-31T09:00:22.321Z"
+      "collectedAt": "2026-11-01T09:50:13.455Z"
     },
     {
       "id": "7b83739b7d5f1c944f9f",
@@ -2209,7 +2209,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-14T12:00:00.000Z",
       "url": "https://openai.com/index/fyxer",
-      "collectedAt": "2026-10-31T09:00:19.667Z"
+      "collectedAt": "2026-11-01T09:50:09.066Z"
     },
     {
       "id": "a4651d8dabcdcb00db87",
@@ -2226,7 +2226,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "collectedAt": "2026-10-31T09:00:19.667Z"
+      "collectedAt": "2026-11-01T09:50:09.066Z"
     },
     {
       "id": "e63da132a40e17f8c5e1",
@@ -2243,7 +2243,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.064Z"
+      "collectedAt": "2026-11-01T09:50:10.675Z"
     },
     {
       "id": "8441c5c7713114dab2dd",
@@ -2260,7 +2260,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-11T16:00:00.000Z",
       "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "collectedAt": "2026-10-31T09:00:19.668Z"
+      "collectedAt": "2026-11-01T09:50:09.066Z"
     },
     {
       "id": "a97d00819fdcee1d0af9",
@@ -2277,7 +2277,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-11T10:00:00.000Z",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "collectedAt": "2026-10-31T09:00:19.667Z"
+      "collectedAt": "2026-11-01T09:50:09.066Z"
     },
     {
       "id": "16d6fc5541d885cd91c8",
@@ -2294,7 +2294,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T16:00:00.000Z",
       "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "collectedAt": "2026-10-31T09:00:19.668Z"
+      "collectedAt": "2026-11-01T09:50:09.067Z"
     },
     {
       "id": "85f5620286a75dba1ad3",
@@ -2311,7 +2311,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T15:00:00.000Z",
       "url": "https://openai.com/index/put-data-to-work",
-      "collectedAt": "2026-10-31T09:00:19.668Z"
+      "collectedAt": "2026-11-01T09:50:09.067Z"
     },
     {
       "id": "f2800aae894b09e0bcf0",
@@ -2328,7 +2328,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T07:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "collectedAt": "2026-10-31T09:00:19.668Z"
+      "collectedAt": "2026-11-01T09:50:09.067Z"
     },
     {
       "id": "6ca2d4bb7baad47f3b1e",
@@ -2345,7 +2345,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "collectedAt": "2026-10-31T09:00:19.668Z"
+      "collectedAt": "2026-11-01T09:50:09.067Z"
     },
     {
       "id": "02a514a4d6eb4e449b95",
@@ -2362,7 +2362,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-the-agents-api",
-      "collectedAt": "2026-10-31T09:00:19.669Z"
+      "collectedAt": "2026-11-01T09:50:09.067Z"
     },
     {
       "id": "50e12afea7a21a8f8a47",
@@ -2379,7 +2379,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-31T09:00:20.355Z"
+      "collectedAt": "2026-11-01T09:50:09.943Z"
     },
     {
       "id": "278864a90b7195a8f9eb",
@@ -2396,7 +2396,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.064Z"
+      "collectedAt": "2026-11-01T09:50:10.675Z"
     },
     {
       "id": "2f6a11a19101188b8eed",
@@ -2413,7 +2413,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-10-31T09:00:21.409Z"
+      "collectedAt": "2026-11-01T09:50:12.835Z"
     },
     {
       "id": "98d7349379f3f9e1561b",
@@ -2430,7 +2430,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-10-31T09:00:24.126Z"
+      "collectedAt": "2026-11-01T09:50:15.459Z"
     },
     {
       "id": "45aecbb9328300ba4629",
@@ -2447,7 +2447,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-09T11:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "collectedAt": "2026-10-31T09:00:19.669Z"
+      "collectedAt": "2026-11-01T09:50:09.068Z"
     },
     {
       "id": "225c9acc339c587b1fac",
@@ -2464,7 +2464,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.065Z"
+      "collectedAt": "2026-11-01T09:50:10.675Z"
     },
     {
       "id": "d336adb530d2e7f0e222",
@@ -2481,7 +2481,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T17:00:00.000Z",
       "url": "https://openai.com/index/codex-quantum-computing-experiments",
-      "collectedAt": "2026-10-31T09:00:19.669Z"
+      "collectedAt": "2026-11-01T09:50:09.068Z"
     },
     {
       "id": "48b0669cc37302b20aee",
@@ -2498,7 +2498,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T11:30:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-      "collectedAt": "2026-10-31T09:00:19.669Z"
+      "collectedAt": "2026-11-01T09:50:09.068Z"
     },
     {
       "id": "9b8a0aa3eea1f601cab9",
@@ -2515,7 +2515,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T10:00:00.000Z",
       "url": "https://openai.com/index/navier-stokes-solution",
-      "collectedAt": "2026-10-31T09:00:19.670Z"
+      "collectedAt": "2026-11-01T09:50:09.069Z"
     },
     {
       "id": "fc10a2c83b0e44fbdbfa",
@@ -2532,7 +2532,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "url": "https://openai.com/index/1password",
-      "collectedAt": "2026-10-31T09:00:19.670Z"
+      "collectedAt": "2026-11-01T09:50:09.069Z"
     },
     {
       "id": "0f8e8b7e95228d5352a6",
@@ -2549,7 +2549,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-06T08:00:00.000Z",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "collectedAt": "2026-10-31T09:00:19.670Z"
+      "collectedAt": "2026-11-01T09:50:09.070Z"
     },
     {
       "id": "67198b26c462572b168f",
@@ -2566,7 +2566,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "collectedAt": "2026-10-31T09:00:19.670Z"
+      "collectedAt": "2026-11-01T09:50:09.070Z"
     },
     {
       "id": "3fdba842a49bbf61f305",
@@ -2583,7 +2583,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "collectedAt": "2026-10-31T09:00:19.670Z"
+      "collectedAt": "2026-11-01T09:50:09.070Z"
     },
     {
       "id": "499b8df2de41c3c42a77",
@@ -2600,7 +2600,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T11:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-astra",
-      "collectedAt": "2026-10-31T09:00:19.671Z"
+      "collectedAt": "2026-11-01T09:50:09.071Z"
     },
     {
       "id": "9b8372f5dd9139bf3dfd",
@@ -2617,7 +2617,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "collectedAt": "2026-10-31T09:00:19.671Z"
+      "collectedAt": "2026-11-01T09:50:09.071Z"
     },
     {
       "id": "76e92e71feca11592be4",
@@ -2634,7 +2634,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.065Z"
+      "collectedAt": "2026-11-01T09:50:10.676Z"
     },
     {
       "id": "08b3047f467c4462ae01",
@@ -2651,7 +2651,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-31T09:00:22.321Z"
+      "collectedAt": "2026-11-01T09:50:13.455Z"
     },
     {
       "id": "9ad38e9ab9838c6b598d",
@@ -2668,7 +2668,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-02T16:18:31.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "collectedAt": "2026-10-31T09:00:22.666Z"
+      "collectedAt": "2026-11-01T09:50:13.628Z"
     },
     {
       "id": "23cc665780e07fde7643",
@@ -2685,7 +2685,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-02T12:00:00.000Z",
       "url": "https://openai.com/index/atv-big-air-tour",
-      "collectedAt": "2026-10-31T09:00:19.671Z"
+      "collectedAt": "2026-11-01T09:50:09.071Z"
     },
     {
       "id": "7a7557129f4a0b3fe78e",
@@ -2702,7 +2702,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-31T09:00:22.321Z"
+      "collectedAt": "2026-11-01T09:50:13.455Z"
     },
     {
       "id": "5fd2975f213ab047e365",
@@ -2719,7 +2719,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T17:08:51.000Z",
       "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-      "collectedAt": "2026-10-31T09:00:22.666Z"
+      "collectedAt": "2026-11-01T09:50:13.628Z"
     },
     {
       "id": "0de52357b4b07f25549c",
@@ -2736,7 +2736,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T13:00:00.000Z",
       "url": "https://openai.com/index/path-to-astra",
-      "collectedAt": "2026-10-31T09:00:19.672Z"
+      "collectedAt": "2026-11-01T09:50:09.072Z"
     },
     {
       "id": "210c1577098c3af2295c",
@@ -2753,7 +2753,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T12:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "collectedAt": "2026-10-31T09:00:19.672Z"
+      "collectedAt": "2026-11-01T09:50:09.072Z"
     },
     {
       "id": "c60a9dbb33739fa8f7ff",
@@ -2770,7 +2770,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T01:00:00.000Z",
       "url": "https://openai.com/index/gilbert-tobin",
-      "collectedAt": "2026-10-31T09:00:19.672Z"
+      "collectedAt": "2026-11-01T09:50:09.072Z"
     },
     {
       "id": "f53efa27b0d13a2b8d75",
@@ -2787,7 +2787,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-31T09:00:20.356Z"
+      "collectedAt": "2026-11-01T09:50:09.944Z"
     },
     {
       "id": "d6caa9e8974271f4d15b",
@@ -2804,7 +2804,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.066Z"
+      "collectedAt": "2026-11-01T09:50:10.676Z"
     },
     {
       "id": "6a3e7fac71e57d88cb41",
@@ -2821,7 +2821,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-31T09:00:22.322Z"
+      "collectedAt": "2026-11-01T09:50:13.456Z"
     },
     {
       "id": "62995badc1a46202724b",
@@ -2838,7 +2838,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-31T07:00:00.000Z",
       "url": "https://openai.com/index/polimill",
-      "collectedAt": "2026-10-31T09:00:19.672Z"
+      "collectedAt": "2026-11-01T09:50:09.072Z"
     },
     {
       "id": "89958d19d1f987cb8ada",
@@ -2855,7 +2855,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-31T04:00:00.000Z",
       "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "collectedAt": "2026-10-31T09:00:19.672Z"
+      "collectedAt": "2026-11-01T09:50:09.072Z"
     },
     {
       "id": "6e697a03b79f347648db",
@@ -2872,7 +2872,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-28T06:00:00.000Z",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "collectedAt": "2026-10-31T09:00:19.673Z"
+      "collectedAt": "2026-11-01T09:50:09.073Z"
     },
     {
       "id": "3b034008653d3c2739c4",
@@ -2889,7 +2889,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T16:11:32.000Z",
       "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "collectedAt": "2026-10-31T09:00:22.666Z"
+      "collectedAt": "2026-11-01T09:50:13.628Z"
     },
     {
       "id": "f3885091ef8df6aaae64",
@@ -2906,7 +2906,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T09:00:00.000Z",
       "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "collectedAt": "2026-10-31T09:00:19.673Z"
+      "collectedAt": "2026-11-01T09:50:09.073Z"
     },
     {
       "id": "4707ef7564f9017d5027",
@@ -2923,7 +2923,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.066Z"
+      "collectedAt": "2026-11-01T09:50:10.677Z"
     },
     {
       "id": "c5289a9a45e73f8f78ee",
@@ -2940,7 +2940,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-31T09:00:22.322Z"
+      "collectedAt": "2026-11-01T09:50:13.456Z"
     },
     {
       "id": "038305de768a112cfa08",
@@ -2957,7 +2957,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T17:01:00.000Z",
       "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-      "collectedAt": "2026-10-31T09:00:22.666Z"
+      "collectedAt": "2026-11-01T09:50:13.628Z"
     },
     {
       "id": "df161950e809789b055b",
@@ -2974,7 +2974,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "collectedAt": "2026-10-31T09:00:19.673Z"
+      "collectedAt": "2026-11-01T09:50:09.073Z"
     },
     {
       "id": "92b51a1e3a09499b97f9",
@@ -2991,7 +2991,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "url": "https://openai.com/index/learning-never-stops",
-      "collectedAt": "2026-10-31T09:00:19.673Z"
+      "collectedAt": "2026-11-01T09:50:09.073Z"
     },
     {
       "id": "e8e71766793d0226c88b",
@@ -3008,7 +3008,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "collectedAt": "2026-10-31T09:00:19.674Z"
+      "collectedAt": "2026-11-01T09:50:09.073Z"
     },
     {
       "id": "42d46e03e113f1a48a9f",
@@ -3025,7 +3025,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/loveholidays",
-      "collectedAt": "2026-10-31T09:00:19.674Z"
+      "collectedAt": "2026-11-01T09:50:09.074Z"
     },
     {
       "id": "0e8f06023793c35c12b2",
@@ -3042,7 +3042,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.067Z"
+      "collectedAt": "2026-11-01T09:50:10.677Z"
     },
     {
       "id": "57792a4fc465ac9e4168",
@@ -3059,7 +3059,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-31T09:00:22.323Z"
+      "collectedAt": "2026-11-01T09:50:13.456Z"
     },
     {
       "id": "bdff11d888b055940269",
@@ -3076,7 +3076,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T07:05:00.000Z",
       "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "collectedAt": "2026-10-31T09:00:19.674Z"
+      "collectedAt": "2026-11-01T09:50:09.074Z"
     },
     {
       "id": "b9dd82456710ac7ff739",
@@ -3093,7 +3093,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T07:00:00.000Z",
       "url": "https://openai.com/index/jalapeno-first-results",
-      "collectedAt": "2026-10-31T09:00:19.674Z"
+      "collectedAt": "2026-11-01T09:50:09.074Z"
     },
     {
       "id": "4f3d5193843c2be21102",
@@ -3110,7 +3110,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-admin-plugin",
-      "collectedAt": "2026-10-31T09:00:19.675Z"
+      "collectedAt": "2026-11-01T09:50:09.074Z"
     },
     {
       "id": "98efe21910bba76ddc89",
@@ -3127,7 +3127,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-31T09:00:20.356Z"
+      "collectedAt": "2026-11-01T09:50:09.944Z"
     },
     {
       "id": "a3e38d1146847fcc32c5",
@@ -3144,7 +3144,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-24T12:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "collectedAt": "2026-10-31T09:00:19.675Z"
+      "collectedAt": "2026-11-01T09:50:09.075Z"
     },
     {
       "id": "fb3550ee043ce3089dfb",
@@ -3161,7 +3161,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-10-31T09:00:24.127Z"
+      "collectedAt": "2026-11-01T09:50:15.460Z"
     },
     {
       "id": "2d19306ef234ea7faec5",
@@ -3178,7 +3178,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://openai.com/index/stampli",
-      "collectedAt": "2026-10-31T09:00:19.675Z"
+      "collectedAt": "2026-11-01T09:50:09.075Z"
     },
     {
       "id": "0335ae09efe999984d8e",
@@ -3195,7 +3195,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.067Z"
+      "collectedAt": "2026-11-01T09:50:10.678Z"
     },
     {
       "id": "3dc55b55b1de08c817b2",
@@ -3212,7 +3212,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T19:00:00.000Z",
       "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "collectedAt": "2026-10-31T09:00:19.675Z"
+      "collectedAt": "2026-11-01T09:50:09.075Z"
     },
     {
       "id": "1e5ef4886d4750bbdc69",
@@ -3229,7 +3229,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T07:00:00.000Z",
       "url": "https://openai.com/index/replit",
-      "collectedAt": "2026-10-31T09:00:19.675Z"
+      "collectedAt": "2026-11-01T09:50:09.075Z"
     },
     {
       "id": "862a5272957677cbb451",
@@ -3246,7 +3246,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.067Z"
+      "collectedAt": "2026-11-01T09:50:10.678Z"
     },
     {
       "id": "dbabefb7176b8899389d",
@@ -3263,7 +3263,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-10-31T09:00:21.409Z"
+      "collectedAt": "2026-11-01T09:50:12.836Z"
     },
     {
       "id": "d02b32736bea62b3185d",
@@ -3280,7 +3280,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T22:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "collectedAt": "2026-10-31T09:00:19.676Z"
+      "collectedAt": "2026-11-01T09:50:09.075Z"
     },
     {
       "id": "755e4db2cccf354bd6df",
@@ -3297,7 +3297,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "collectedAt": "2026-10-31T09:00:19.676Z"
+      "collectedAt": "2026-11-01T09:50:09.076Z"
     },
     {
       "id": "60ed32685f2c13d2be9e",
@@ -3314,7 +3314,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-teens",
-      "collectedAt": "2026-10-31T09:00:19.676Z"
+      "collectedAt": "2026-11-01T09:50:09.076Z"
     },
     {
       "id": "b32d89933b3f566e892d",
@@ -3331,7 +3331,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T07:00:00.000Z",
       "url": "https://openai.com/index/asana",
-      "collectedAt": "2026-10-31T09:00:19.676Z"
+      "collectedAt": "2026-11-01T09:50:09.076Z"
     },
     {
       "id": "cf88f2889563730674dc",
@@ -3348,7 +3348,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://openai.com/index/nvidia/chatgpt-work",
-      "collectedAt": "2026-10-31T09:00:19.676Z"
+      "collectedAt": "2026-11-01T09:50:09.076Z"
     },
     {
       "id": "aa9fbf89108c624b5035",
@@ -3365,7 +3365,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.068Z"
+      "collectedAt": "2026-11-01T09:50:10.679Z"
     },
     {
       "id": "628f79672cb28599f754",
@@ -3382,7 +3382,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T17:04:18.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "collectedAt": "2026-10-31T09:00:22.666Z"
+      "collectedAt": "2026-11-01T09:50:13.628Z"
     },
     {
       "id": "8637785710012aa19327",
@@ -3399,7 +3399,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T11:00:00.000Z",
       "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "collectedAt": "2026-10-31T09:00:19.677Z"
+      "collectedAt": "2026-11-01T09:50:09.076Z"
     },
     {
       "id": "12d8fd2a91a610822616",
@@ -3416,7 +3416,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T10:00:00.000Z",
       "url": "https://openai.com/index/previewing-ultrafast",
-      "collectedAt": "2026-10-31T09:00:19.677Z"
+      "collectedAt": "2026-11-01T09:50:09.077Z"
     },
     {
       "id": "ff9329e42a201fd379a6",
@@ -3433,7 +3433,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-10-31T09:00:22.323Z"
+      "collectedAt": "2026-11-01T09:50:13.457Z"
     },
     {
       "id": "68c4c83c983d7ad01b30",
@@ -3450,7 +3450,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-10-31T09:00:24.127Z"
+      "collectedAt": "2026-11-01T09:50:15.460Z"
     },
     {
       "id": "5437747d9f7a7fa2a89b",
@@ -3467,7 +3467,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T06:00:00.000Z",
       "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "collectedAt": "2026-10-31T09:00:19.677Z"
+      "collectedAt": "2026-11-01T09:50:09.077Z"
     },
     {
       "id": "1024017ea20ba53c7f72",
@@ -3484,7 +3484,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "url": "https://openai.com/index/ringcentral",
-      "collectedAt": "2026-10-31T09:00:19.677Z"
+      "collectedAt": "2026-11-01T09:50:09.077Z"
     },
     {
       "id": "8825eb211c3d1692966b",
@@ -3501,7 +3501,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "collectedAt": "2026-10-31T09:00:19.678Z"
+      "collectedAt": "2026-11-01T09:50:09.077Z"
     },
     {
       "id": "d9485ecefcc38cea5418",
@@ -3518,7 +3518,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "collectedAt": "2026-10-31T09:00:19.678Z"
+      "collectedAt": "2026-11-01T09:50:09.077Z"
     },
     {
       "id": "1900d0fe225de710b8d9",
@@ -3535,7 +3535,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.068Z"
+      "collectedAt": "2026-11-01T09:50:10.679Z"
     },
     {
       "id": "f50ed5f93da49347ecb6",
@@ -3552,7 +3552,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T12:00:00.000Z",
       "url": "https://openai.com/index/model-ml",
-      "collectedAt": "2026-10-31T09:00:19.678Z"
+      "collectedAt": "2026-11-01T09:50:09.078Z"
     },
     {
       "id": "734c538c439aa3199cf2",
@@ -3569,7 +3569,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T10:00:00.000Z",
       "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "collectedAt": "2026-10-31T09:00:19.679Z"
+      "collectedAt": "2026-11-01T09:50:09.078Z"
     },
     {
       "id": "288f6994afc6cc6de385",
@@ -3586,41 +3586,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T10:00:00.000Z",
       "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
-      "collectedAt": "2026-10-31T09:00:19.679Z"
-    },
-    {
-      "id": "2c74e7c8cea6a2ece6de",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "How Zapier transformed core marketing processes with ChatGPT Work",
-      "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
-      "content": "At Zapier, the enterprise marketing team is using ChatGPT Work to build automated funnel optimization systems, enabling them to deliver more value to their sales team with less manual effort. ChatGPT Work operates autonomously, giving the enterprise marketing team space to focus on strategic, creative efforts.\n\n> “We can do things that we couldn’t possibly have done before, like performing QA/QC on thousands of leads every single month.”\n\n—Angela Ferrante, Head of Enterprise Marketing\n\n## Building a system for automatic funnel optimization\n\nAngela Ferrante, Head of Enterprise Marketing, found that Zapier experienced a high volume of strong inbound leads but a similarly high drop-off rate. Why? Answering the question required an intensive quality assurance (QA) and quality control (QC) process to figure out where in the funnel these leads were dropping off.\n\nBut with ChatGPT Work, Ferrante could automate a process so labor-intensive that it would have been effectively impossible to accomplish otherwise. “It has just transformed how we do work and what we’re able to do,” Ferrante explains.\n\nNow, the enterprise marketing team can perform automatic QA/QC on thousands of leads every month. The difference is stark. “A single person looking at one dropped lead would take 35 to 45 minutes just to get a picture of what went wrong,” Ferrante says.\n\n“With ChatGPT Work, we were able to create a system that determined all of the lead problems, patched all of the issues, and quantified the impact of this project to the tune of seven figures in pipeline we were then able to hand off to sales every single month.”\n\nThe system now delivers ongoing results, including an executive dashboard highlighting recurring issues in their lead pipeline and weekly trends.\n\n> “Within minutes, we have actual campaign assets ready to review and push out. ChatGPT Work can actually go into all the systems we use to build campaigns and do the building for us.”\n\n—Angela Ferrante, Head of Enterprise Marketing\n\n## Freeing up time for creative work\n\nZapier’s marketing teams didn’t always have the time to use the creative energies they had on tap.\n\n“ChatGPT Work frees up our team,” Ferrante explains. “The demand generation team, for example, can get more creative about campaigns and filter that work through ChatGPT Work, which will give them ideas for campaign optimizations.”\n\nThe team can work faster, delivering better results on tighter timelines. “Suddenly, the work is shrunk down, or the timeline is shrunk down,” Ferrante says. “The work moves so quickly from ideation to execution, and the execution is essentially on demand.”\n\nAs the marketing team produces more deliverables, they can also avoid getting bogged down in reporting. With ChatGPT Work, Ferrante says, “We were able to get reporting dialed in so that we can spend more time doing work instead of analyzing the results of the work.”\n\n“It’s really been an unlock for our team, allowing us to focus on more strategic work,” Ferrante says. “We’re suddenly able to have a lot of work just happen on autopilot using ChatGPT Work.”\n\n## What’s next\n\nDespite the benefits ChatGPT Work has already offered, Ferrante sees even greater potential in the future. “Some of the most impactful work, which will really transform the marketing team, is setting always-on loops, not just using prompts,” Ferrante says.\n\nThe eventual goal, Ferrante says, is to have a “shared brain” that uses context from meetings, call recordings, customers, and market insights. “We will have work happening on autopilot, and humans can be the tastemakers,” Ferrante says.",
-      "contentZh": "在Zapier，企业营销团队正在使用ChatGPT Work构建自动化漏斗优化系统，使他们能够以更少的手动工作为销售团队创造更多价值。ChatGPT Work自主运行，为企业营销团队腾出空间，专注于战略性和创造性的工作。\n\n> “我们能够做到以前不可能完成的事情，比如每月对数千条线索进行质量保证和质量控制。”\n\n——Angela Ferrante，企业营销主管\n\n## 构建自动漏斗优化系统\n\n企业营销主管Angela Ferrante发现，Zapier拥有大量高质量的入站线索，但流失率同样很高。原因何在？回答这个问题需要一个密集的质量保证和质量控制流程，以确定这些线索在漏斗的哪个环节流失。\n\n但借助ChatGPT Work，Ferrante能够自动化一个劳动密集程度极高、否则几乎不可能完成的过程。“它彻底改变了我们的工作方式以及我们能够做到的事情，”Ferrante解释道。\n\n现在，企业营销团队每月可以对数千条线索进行自动质量保证和质量控制。差异显而易见。“一个人查看一条流失的线索，需要35到45分钟才能了解问题所在，”Ferrante说。\n\n“借助ChatGPT Work，我们创建了一个系统，能够确定所有线索问题、修复所有问题，并量化这个项目的影响，每月能够向销售团队移交价值七位数的管道。”\n\n该系统现在持续产生成果，包括一个高管仪表板，突出显示线索管道中的重复问题和每周趋势。\n\n> “几分钟之内，我们就能准备好实际的活动资产供审查和发布。ChatGPT Work实际上可以进入我们用于构建活动的所有系统，并替我们完成构建工作。”\n\n——Angela Ferrante，企业营销主管\n\n## 腾出时间进行创造性工作\n\nZapier的营销团队并非总有时间发挥他们随时可用的创造力。\n\n“ChatGPT Work解放了我们的团队，”Ferrante解释道。“例如，需求生成团队可以在活动上更具创意，并通过ChatGPT Work筛选这些工作，它会为他们提供活动优化的想法。”\n\n团队可以更快地工作，在更紧的时间表内交付更好的成果。“突然间，工作被压缩了，或者时间表被压缩了，”Ferrante说。“工作从构思到执行的速度非常快，而且执行基本上是按需进行的。”\n\n随着营销团队产出更多交付物，他们也可以避免陷入报告工作的泥潭。Ferrante表示，借助ChatGPT Work，“我们能够将报告调整到位，这样我们就可以花更多时间做工作，而不是分析工作结果。”\n\n“这确实为我们的团队解锁了新的可能，让我们能够专注于更具战略性的工作，”Ferrante说。“我们突然能够让大量工作通过ChatGPT Work自动驾驶般地完成。”\n\n## 未来展望\n\n尽管ChatGPT Work已经带来了诸多好处，Ferrante看到了未来更大的潜力。“一些最具影响力的工作，将真正改变营销团队，是建立常开循环，而不仅仅是使用提示词，”Ferrante说。\n\nFerrante表示，最终目标是拥有一个“共享大脑”，利用会议、通话录音、客户和市场洞察中的背景信息。“我们将让工作在自动驾驶模式下进行，而人类可以成为品味引领者，”Ferrante说。",
-      "titleZh": "Zapier如何利用ChatGPT Work转型核心营销流程",
-      "summaryZh": "Zapier的企业营销团队使用ChatGPT Work来减少潜在客户漏斗中的流失数量，构建活动资产，并自动化报告。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "url": "https://openai.com/index/zapier",
-      "collectedAt": "2026-10-31T09:00:19.679Z"
-    },
-    {
-      "id": "02e8effaacedb8dbc2e1",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Premium seats are coming to ChatGPT Business",
-      "summary": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
-      "content": "The work that moves your business forward should never have to stop.\n\nTeams are using ChatGPT to take on bigger things: organizing inventory, building marketing campaigns, analyzing business performance, improving customer experiences, and developing new products. As that work becomes more ambitious, our top request from ChatGPT Business customers has been an expanded seat option with more capacity and usage built in.\n\nThat’s why we’re introducing Premium seats for ChatGPT Business. Premium gives your most active teammates 5x more usage than Standard seats and removes the five-hour usage limit, so they can take on larger projects and work with fewer interruptions—all within the same secure Business workspace.\n\nPremium seats cost $125 per user per month, or $100 per user per month when billed annually. Standard seats remain $25 per user per month, or $20 per user per month when billed annually. You can mix both seat types in the same workspace and choose the right option for each person on your team.\n\nAnd for a limited time, eligible workspace owners who [sign up](https://openai.com/form/business/premium-offer/) early will receive **$100 worth of workspace credits (2,500 credits) for every Premium seat they add, up to $500 for five seats**. Some customers may also receive early access before Premium becomes generally available, as a bonus for signing up now.\n\n## Take on more ambitious work without losing momentum\n\nPremium gives your most active teammates the capacity to take on bigger projects and keep work moving.\n\nBusiness owners can turn sales reports, customer feedback, and inventory data into an operating plan. Marketers can build whole campaigns from customer insights. Developers can use Codex to build, test, and improve features across larger codebases. Premium seats unlock added productivity so your team never breaks their flow.\n\nThe new Premium seat usage includes:\n\n*   5x more usage than Standard.\n*   No five-hour usage limit.\n*   Predictable weekly usage resets.\n\nNeed even more intelligence? If you hit a usage limit, businesses can add shared workspace credits, managed by your workspace owner.\n\n## Give each teammate the right seat for their work\n\nEvery team is different, and we know there’s no one-size-fits-all level of AI usage. The Business plan now gives you complete flexibility to tailor your plan to your team’s needs.\n\nWorkspace owners and admins can:\n\n*   Mix Standard and Premium seats across the same team.\n*   Upgrade or reassign seats as business needs change.\n*   Monitor usage across the workspace.\n*   Manage billing, usage, and spend limits in one place.\n*   Keep company work within the same secure Business workspace.\n\nThe result is more flexibility for your team without creating separate subscriptions, fragmented work, or more administrative complexity.\n\n## Get $100 worth of credits for every Premium seat—up to $500\n\nFor a limited time, the first 10,000 eligible ChatGPT Business customers can receive **$100 in workspace credits (2,500 credits) for each Premium seat they add, up to 5 seats**.\n\nTo qualify, [join the waitlist](https://openai.com/form/business/premium-offer/) with the email address associated with your ChatGPT Business workspace owner account. We’ll follow up with instructions for redeeming your credits and let you know when Premium seats become available for your workspace.\n\nSome customers who sign up may also be selected for early access before general availability.\n\nIf you’re not the workspace owner, share the offer with the person who manages your ChatGPT Business account. Sign up today, as the promotion ends on August 20. Learn more about how the promotion works and eligibility details in the [help center article⁠(opens in a new window)](https://help.openai.com/articles/20001420).",
-      "contentZh": "推动业务前进的工作，绝不应被迫中断。\n\n团队正在使用ChatGPT应对更重大的任务：管理库存、构建营销活动、分析业务绩效、改善客户体验，以及开发新产品。随着这些工作变得更加宏大，我们从ChatGPT Business客户那里收到的首要请求，就是提供一个扩展的席位选项，内置更多容量和使用额度。\n\n因此，我们为ChatGPT Business推出了Premium席位。Premium为您的团队中最活跃的成员提供比Standard席位多5倍的使用量，并取消了五小时使用限制，使他们能够承担更大的项目，减少工作中断——所有这些都在同一个安全的Business工作区内完成。\n\nPremium席位费用为每位用户每月100美元，或按年计费时每位用户每月100美元。Standard席位仍为每位用户每月25美元，或按年计费时每位用户每月20美元。您可以在同一个工作区内混合使用两种席位类型，并为团队中的每位成员选择最合适的选项。\n\n此外，在限时优惠期间，符合条件的[注册](https://openai.com/form/business/premium-offer/)工作区所有者，每添加一个Premium席位即可获得**价值100美元的工作区积分（2,500积分），最多五个席位可获500美元**。部分客户还可能在Premium正式推出前获得抢先体验，作为现在注册的额外奖励。\n\n## 承担更宏大的工作，不失前进动力\n\nPremium为您的团队中最活跃的成员提供了承担更大项目和保持工作持续推进的能力。\n\n企业主可以将销售报告、客户反馈和库存数据转化为运营计划。营销人员可以从客户洞察中构建完整的营销活动。开发人员可以使用Codex在更大的代码库中构建、测试和改进功能。Premium席位解锁了额外的生产力，让您的团队永不停歇。\n\n新的Premium席位使用量包括：\n\n*   比Standard多5倍的使用量。\n*   无五小时使用限制。\n*   可预测的每周使用量重置。\n\n需要更多智能吗？如果您达到使用限制，企业可以添加共享工作区积分，由您的工作区所有者管理。\n\n## 为每位团队成员提供适合其工作的席位\n\n每个团队都各不相同，我们知道AI使用没有一刀切的水平。Business计划现在为您提供了完全的灵活性，可以根据团队需求定制您的计划。\n\n工作区所有者和管理员可以：\n\n*   在同一团队中混合使用Standard和Premium席位。\n*   随着业务需求变化升级或重新分配席位。\n*   监控整个工作区的使用情况。\n*   在一个地方管理计费、使用量和支出限制。\n*   将公司工作保留在同一个安全的Business工作区内。\n\n结果是您的团队获得更多灵活性，而无需创建单独的订阅、分散的工作或增加更多管理复杂性。\n\n## 每个Premium席位获100美元积分——最高500美元\n\n在限时优惠期间，前10,000名符合条件的ChatGPT Business客户，每添加一个Premium席位即可获得**100美元的工作区积分（2,500积分），最多五个席位**。\n\n要符合资格，请使用与您的ChatGPT Business工作区所有者账户关联的电子邮件地址[加入等待列表](https://openai.com/form/business/premium-offer/)。我们将通过后续邮件提供兑换积分的说明，并告知您Premium席位何时可用于您的工作区。\n\n部分注册客户还可能被选中在正式发布前获得抢先体验。\n\n如果您不是工作区所有者，请将此优惠分享给管理您ChatGPT Business账户的人员。立即注册，因为促销活动将于8月20日结束。有关促销运作方式和资格要求的更多详情，请参阅[帮助中心文章⁠（在新窗口中打开）](https://help.openai.com/articles/20001420)。",
-      "titleZh": "ChatGPT Business 即将推出高级席位",
-      "summaryZh": "ChatGPT Business 即将推出高级席位。在8月20日前注册，即可获得100美元的工作区积分，并为团队最繁重的工作解锁更高的使用额度。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "url": "https://openai.com/index/premium-seats-chatgpt-business",
-      "collectedAt": "2026-10-31T09:00:19.679Z"
+      "collectedAt": "2026-11-01T09:50:09.078Z"
     },
     {
       "id": "8eb1e6a0a260fe518fb3",
@@ -3637,7 +3603,41 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-      "collectedAt": "2026-10-31T09:00:19.680Z"
+      "collectedAt": "2026-11-01T09:50:09.079Z"
+    },
+    {
+      "id": "2c74e7c8cea6a2ece6de",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+      "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
+      "content": "At Zapier, the enterprise marketing team is using ChatGPT Work to build automated funnel optimization systems, enabling them to deliver more value to their sales team with less manual effort. ChatGPT Work operates autonomously, giving the enterprise marketing team space to focus on strategic, creative efforts.\n\n> “We can do things that we couldn’t possibly have done before, like performing QA/QC on thousands of leads every single month.”\n\n—Angela Ferrante, Head of Enterprise Marketing\n\n## Building a system for automatic funnel optimization\n\nAngela Ferrante, Head of Enterprise Marketing, found that Zapier experienced a high volume of strong inbound leads but a similarly high drop-off rate. Why? Answering the question required an intensive quality assurance (QA) and quality control (QC) process to figure out where in the funnel these leads were dropping off.\n\nBut with ChatGPT Work, Ferrante could automate a process so labor-intensive that it would have been effectively impossible to accomplish otherwise. “It has just transformed how we do work and what we’re able to do,” Ferrante explains.\n\nNow, the enterprise marketing team can perform automatic QA/QC on thousands of leads every month. The difference is stark. “A single person looking at one dropped lead would take 35 to 45 minutes just to get a picture of what went wrong,” Ferrante says.\n\n“With ChatGPT Work, we were able to create a system that determined all of the lead problems, patched all of the issues, and quantified the impact of this project to the tune of seven figures in pipeline we were then able to hand off to sales every single month.”\n\nThe system now delivers ongoing results, including an executive dashboard highlighting recurring issues in their lead pipeline and weekly trends.\n\n> “Within minutes, we have actual campaign assets ready to review and push out. ChatGPT Work can actually go into all the systems we use to build campaigns and do the building for us.”\n\n—Angela Ferrante, Head of Enterprise Marketing\n\n## Freeing up time for creative work\n\nZapier’s marketing teams didn’t always have the time to use the creative energies they had on tap.\n\n“ChatGPT Work frees up our team,” Ferrante explains. “The demand generation team, for example, can get more creative about campaigns and filter that work through ChatGPT Work, which will give them ideas for campaign optimizations.”\n\nThe team can work faster, delivering better results on tighter timelines. “Suddenly, the work is shrunk down, or the timeline is shrunk down,” Ferrante says. “The work moves so quickly from ideation to execution, and the execution is essentially on demand.”\n\nAs the marketing team produces more deliverables, they can also avoid getting bogged down in reporting. With ChatGPT Work, Ferrante says, “We were able to get reporting dialed in so that we can spend more time doing work instead of analyzing the results of the work.”\n\n“It’s really been an unlock for our team, allowing us to focus on more strategic work,” Ferrante says. “We’re suddenly able to have a lot of work just happen on autopilot using ChatGPT Work.”\n\n## What’s next\n\nDespite the benefits ChatGPT Work has already offered, Ferrante sees even greater potential in the future. “Some of the most impactful work, which will really transform the marketing team, is setting always-on loops, not just using prompts,” Ferrante says.\n\nThe eventual goal, Ferrante says, is to have a “shared brain” that uses context from meetings, call recordings, customers, and market insights. “We will have work happening on autopilot, and humans can be the tastemakers,” Ferrante says.",
+      "contentZh": "在Zapier，企业营销团队正在使用ChatGPT Work构建自动化漏斗优化系统，使他们能够以更少的手动工作为销售团队创造更多价值。ChatGPT Work自主运行，为企业营销团队腾出空间，专注于战略性和创造性的工作。\n\n> “我们能够做到以前不可能完成的事情，比如每月对数千条线索进行质量保证和质量控制。”\n\n——Angela Ferrante，企业营销主管\n\n## 构建自动漏斗优化系统\n\n企业营销主管Angela Ferrante发现，Zapier拥有大量高质量的入站线索，但流失率同样很高。原因何在？回答这个问题需要一个密集的质量保证和质量控制流程，以确定这些线索在漏斗的哪个环节流失。\n\n但借助ChatGPT Work，Ferrante能够自动化一个劳动密集程度极高、否则几乎不可能完成的过程。“它彻底改变了我们的工作方式以及我们能够做到的事情，”Ferrante解释道。\n\n现在，企业营销团队每月可以对数千条线索进行自动质量保证和质量控制。差异显而易见。“一个人查看一条流失的线索，需要35到45分钟才能了解问题所在，”Ferrante说。\n\n“借助ChatGPT Work，我们创建了一个系统，能够确定所有线索问题、修复所有问题，并量化这个项目的影响，每月能够向销售团队移交价值七位数的管道。”\n\n该系统现在持续产生成果，包括一个高管仪表板，突出显示线索管道中的重复问题和每周趋势。\n\n> “几分钟之内，我们就能准备好实际的活动资产供审查和发布。ChatGPT Work实际上可以进入我们用于构建活动的所有系统，并替我们完成构建工作。”\n\n——Angela Ferrante，企业营销主管\n\n## 腾出时间进行创造性工作\n\nZapier的营销团队并非总有时间发挥他们随时可用的创造力。\n\n“ChatGPT Work解放了我们的团队，”Ferrante解释道。“例如，需求生成团队可以在活动上更具创意，并通过ChatGPT Work筛选这些工作，它会为他们提供活动优化的想法。”\n\n团队可以更快地工作，在更紧的时间表内交付更好的成果。“突然间，工作被压缩了，或者时间表被压缩了，”Ferrante说。“工作从构思到执行的速度非常快，而且执行基本上是按需进行的。”\n\n随着营销团队产出更多交付物，他们也可以避免陷入报告工作的泥潭。Ferrante表示，借助ChatGPT Work，“我们能够将报告调整到位，这样我们就可以花更多时间做工作，而不是分析工作结果。”\n\n“这确实为我们的团队解锁了新的可能，让我们能够专注于更具战略性的工作，”Ferrante说。“我们突然能够让大量工作通过ChatGPT Work自动驾驶般地完成。”\n\n## 未来展望\n\n尽管ChatGPT Work已经带来了诸多好处，Ferrante看到了未来更大的潜力。“一些最具影响力的工作，将真正改变营销团队，是建立常开循环，而不仅仅是使用提示词，”Ferrante说。\n\nFerrante表示，最终目标是拥有一个“共享大脑”，利用会议、通话录音、客户和市场洞察中的背景信息。“我们将让工作在自动驾驶模式下进行，而人类可以成为品味引领者，”Ferrante说。",
+      "titleZh": "Zapier如何利用ChatGPT Work转型核心营销流程",
+      "summaryZh": "Zapier的企业营销团队使用ChatGPT Work来减少潜在客户漏斗中的流失数量，构建活动资产，并自动化报告。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "url": "https://openai.com/index/zapier",
+      "collectedAt": "2026-11-01T09:50:09.079Z"
+    },
+    {
+      "id": "02e8effaacedb8dbc2e1",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Premium seats are coming to ChatGPT Business",
+      "summary": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+      "content": "The work that moves your business forward should never have to stop.\n\nTeams are using ChatGPT to take on bigger things: organizing inventory, building marketing campaigns, analyzing business performance, improving customer experiences, and developing new products. As that work becomes more ambitious, our top request from ChatGPT Business customers has been an expanded seat option with more capacity and usage built in.\n\nThat’s why we’re introducing Premium seats for ChatGPT Business. Premium gives your most active teammates 5x more usage than Standard seats and removes the five-hour usage limit, so they can take on larger projects and work with fewer interruptions—all within the same secure Business workspace.\n\nPremium seats cost $125 per user per month, or $100 per user per month when billed annually. Standard seats remain $25 per user per month, or $20 per user per month when billed annually. You can mix both seat types in the same workspace and choose the right option for each person on your team.\n\nAnd for a limited time, eligible workspace owners who [sign up](https://openai.com/form/business/premium-offer/) early will receive **$100 worth of workspace credits (2,500 credits) for every Premium seat they add, up to $500 for five seats**. Some customers may also receive early access before Premium becomes generally available, as a bonus for signing up now.\n\n## Take on more ambitious work without losing momentum\n\nPremium gives your most active teammates the capacity to take on bigger projects and keep work moving.\n\nBusiness owners can turn sales reports, customer feedback, and inventory data into an operating plan. Marketers can build whole campaigns from customer insights. Developers can use Codex to build, test, and improve features across larger codebases. Premium seats unlock added productivity so your team never breaks their flow.\n\nThe new Premium seat usage includes:\n\n*   5x more usage than Standard.\n*   No five-hour usage limit.\n*   Predictable weekly usage resets.\n\nNeed even more intelligence? If you hit a usage limit, businesses can add shared workspace credits, managed by your workspace owner.\n\n## Give each teammate the right seat for their work\n\nEvery team is different, and we know there’s no one-size-fits-all level of AI usage. The Business plan now gives you complete flexibility to tailor your plan to your team’s needs.\n\nWorkspace owners and admins can:\n\n*   Mix Standard and Premium seats across the same team.\n*   Upgrade or reassign seats as business needs change.\n*   Monitor usage across the workspace.\n*   Manage billing, usage, and spend limits in one place.\n*   Keep company work within the same secure Business workspace.\n\nThe result is more flexibility for your team without creating separate subscriptions, fragmented work, or more administrative complexity.\n\n## Get $100 worth of credits for every Premium seat—up to $500\n\nFor a limited time, the first 10,000 eligible ChatGPT Business customers can receive **$100 in workspace credits (2,500 credits) for each Premium seat they add, up to 5 seats**.\n\nTo qualify, [join the waitlist](https://openai.com/form/business/premium-offer/) with the email address associated with your ChatGPT Business workspace owner account. We’ll follow up with instructions for redeeming your credits and let you know when Premium seats become available for your workspace.\n\nSome customers who sign up may also be selected for early access before general availability.\n\nIf you’re not the workspace owner, share the offer with the person who manages your ChatGPT Business account. Sign up today, as the promotion ends on August 20. Learn more about how the promotion works and eligibility details in the [help center article⁠(opens in a new window)](https://help.openai.com/articles/20001420).",
+      "contentZh": "推动业务前进的工作，绝不应被迫中断。\n\n团队正在使用ChatGPT应对更重大的任务：管理库存、构建营销活动、分析业务绩效、改善客户体验，以及开发新产品。随着这些工作变得更加宏大，我们从ChatGPT Business客户那里收到的首要请求，就是提供一个扩展的席位选项，内置更多容量和使用额度。\n\n因此，我们为ChatGPT Business推出了Premium席位。Premium为您的团队中最活跃的成员提供比Standard席位多5倍的使用量，并取消了五小时使用限制，使他们能够承担更大的项目，减少工作中断——所有这些都在同一个安全的Business工作区内完成。\n\nPremium席位费用为每位用户每月100美元，或按年计费时每位用户每月100美元。Standard席位仍为每位用户每月25美元，或按年计费时每位用户每月20美元。您可以在同一个工作区内混合使用两种席位类型，并为团队中的每位成员选择最合适的选项。\n\n此外，在限时优惠期间，符合条件的[注册](https://openai.com/form/business/premium-offer/)工作区所有者，每添加一个Premium席位即可获得**价值100美元的工作区积分（2,500积分），最多五个席位可获500美元**。部分客户还可能在Premium正式推出前获得抢先体验，作为现在注册的额外奖励。\n\n## 承担更宏大的工作，不失前进动力\n\nPremium为您的团队中最活跃的成员提供了承担更大项目和保持工作持续推进的能力。\n\n企业主可以将销售报告、客户反馈和库存数据转化为运营计划。营销人员可以从客户洞察中构建完整的营销活动。开发人员可以使用Codex在更大的代码库中构建、测试和改进功能。Premium席位解锁了额外的生产力，让您的团队永不停歇。\n\n新的Premium席位使用量包括：\n\n*   比Standard多5倍的使用量。\n*   无五小时使用限制。\n*   可预测的每周使用量重置。\n\n需要更多智能吗？如果您达到使用限制，企业可以添加共享工作区积分，由您的工作区所有者管理。\n\n## 为每位团队成员提供适合其工作的席位\n\n每个团队都各不相同，我们知道AI使用没有一刀切的水平。Business计划现在为您提供了完全的灵活性，可以根据团队需求定制您的计划。\n\n工作区所有者和管理员可以：\n\n*   在同一团队中混合使用Standard和Premium席位。\n*   随着业务需求变化升级或重新分配席位。\n*   监控整个工作区的使用情况。\n*   在一个地方管理计费、使用量和支出限制。\n*   将公司工作保留在同一个安全的Business工作区内。\n\n结果是您的团队获得更多灵活性，而无需创建单独的订阅、分散的工作或增加更多管理复杂性。\n\n## 每个Premium席位获100美元积分——最高500美元\n\n在限时优惠期间，前10,000名符合条件的ChatGPT Business客户，每添加一个Premium席位即可获得**100美元的工作区积分（2,500积分），最多五个席位**。\n\n要符合资格，请使用与您的ChatGPT Business工作区所有者账户关联的电子邮件地址[加入等待列表](https://openai.com/form/business/premium-offer/)。我们将通过后续邮件提供兑换积分的说明，并告知您Premium席位何时可用于您的工作区。\n\n部分注册客户还可能被选中在正式发布前获得抢先体验。\n\n如果您不是工作区所有者，请将此优惠分享给管理您ChatGPT Business账户的人员。立即注册，因为促销活动将于8月20日结束。有关促销运作方式和资格要求的更多详情，请参阅[帮助中心文章⁠（在新窗口中打开）](https://help.openai.com/articles/20001420)。",
+      "titleZh": "ChatGPT Business 即将推出高级席位",
+      "summaryZh": "ChatGPT Business 即将推出高级席位。在8月20日前注册，即可获得100美元的工作区积分，并为团队最繁重的工作解锁更高的使用额度。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "url": "https://openai.com/index/premium-seats-chatgpt-business",
+      "collectedAt": "2026-11-01T09:50:09.079Z"
     },
     {
       "id": "ea78a3a7551716d6c36f",
@@ -3654,7 +3654,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.068Z"
+      "collectedAt": "2026-11-01T09:50:10.679Z"
     },
     {
       "id": "4b892749f4ed6e711322",
@@ -3671,7 +3671,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-07T09:00:00.000Z",
       "url": "https://openai.com/index/hsp-gruppe",
-      "collectedAt": "2026-10-31T09:00:19.680Z"
+      "collectedAt": "2026-11-01T09:50:09.079Z"
     },
     {
       "id": "e5ffc802e41829426f72",
@@ -3688,7 +3688,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.073Z"
+      "collectedAt": "2026-11-01T09:50:10.680Z"
     },
     {
       "id": "d5755c0b97cd8308ee54",
@@ -3705,7 +3705,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T10:00:00.000Z",
       "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "collectedAt": "2026-10-31T09:00:19.680Z"
+      "collectedAt": "2026-11-01T09:50:09.079Z"
     },
     {
       "id": "0121f2aaabdbc2fbef18",
@@ -3722,7 +3722,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-      "collectedAt": "2026-10-31T09:00:19.680Z"
+      "collectedAt": "2026-11-01T09:50:09.079Z"
     },
     {
       "id": "ac5d129bc56db5435253",
@@ -3739,7 +3739,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-10-31T09:00:20.357Z"
+      "collectedAt": "2026-11-01T09:50:09.945Z"
     },
     {
       "id": "cbf5ffda58d43478b306",
@@ -3756,7 +3756,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.074Z"
+      "collectedAt": "2026-11-01T09:50:10.680Z"
     },
     {
       "id": "374a02a97939919169d2",
@@ -3773,7 +3773,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T19:00:00.000Z",
       "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "collectedAt": "2026-10-31T09:00:19.680Z"
+      "collectedAt": "2026-11-01T09:50:09.080Z"
     },
     {
       "id": "3feab47dffd4ec330ae5",
@@ -3790,58 +3790,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-      "collectedAt": "2026-10-31T09:00:19.680Z"
-    },
-    {
-      "id": "c8f43754fdafecb85e1d",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "How we built a realtime system for responsive voice AI in six months",
-      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
-      "content": "For voice AI, knowing when to speak is harder than it sounds. Human speakers effortlessly hand off to each other in a fraction of a second, but previous voice AI systems couldn’t keep up with this rhythm. Their turn-based architecture relied on tiny models known as turn detectors, which faced an unenviable task: guess too soon, and the user gets cut off; guess too late, and the response feels sluggish. Only after the detector made its decision could the much larger LLM get to work.\n\n[GPT‑Live⁠](https://openai.com/index/introducing-gpt-live/), our third-generation voice system, removes the turn detector from the audio path. Its voice model is full-duplex, which means it can listen and speak at the same time. That eliminates the need for a separate detector and makes conversation feel more immediate and natural. When deeper reasoning or tool use is needed, GPT‑Live can also consult our frontier models, such as GPT‑5.5, without interrupting the flow of the conversation. Together, these capabilities give GPT‑Live an unprecedented combination of conversational responsiveness and intelligence.\n\nDelivering this experience at scale required a new system architecture optimized for low latency. Unlike typical request-response inference, our system streams incoming audio into the voice model and outbound speech back to the user, while handling delegation on a separate asynchronous path. Over the last six months, we reworked model inference, context management, and media transport to keep speech flowing smoothly from end to end.\n\nThe architecture also creates a clean boundary between the core voice path and application logic. This makes it easy to customize application behavior without affecting responsiveness. This foundation powers a growing range of capabilities in ChatGPT Voice, including the newly launched ability to control your computer and coordinate your agents in the ChatGPT desktop app.\n\nIn this post, we’ll explain why earlier turn-based systems couldn’t meet our needs and how we engineered the new system for responsiveness at every layer. We’ll cover stateful inference, dynamic context management, asynchronous delegation, and protocol-level optimization, all working together to make GPT‑Live feel truly _live_.\n\n## Moving from turn taking to streaming\n\nEarlier voice architectures inherited the turn-based nature of text LLMs, but with each turn represented as a discrete audio blob rather than text. In cascaded systems, speech-to-text, the LLM, and text-to-speech each ran in series. This sequencing added latency and ignored cues such as tone and pacing.\n\nSpeech-to-speech models improved on this approach by processing audio directly. Training the model to natively understand and generate speech allowed it to preserve details lost in transcription and respond more quickly. But the system still relied on the turn detector to decide when inference could begin. The model handled more of the interaction, but the interaction remained turn-based.\n\nGPT‑Live puts the voice model in control of the conversation: audio flows in and out of the model, while deeper reasoning and tool use happen asynchronously. The system’s primary job is to sustain an uninterrupted media loop. Other work, such as invoking frontier models and persisting the conversation, happens off the live path.\n\n## Enabling continuous inference\n\nKeeping this media loop uninterrupted is not always straightforward. Any delay in transport, processing, or inference can become an audible pause or artifact. A previous turn-based system could tolerate some variation in when an audio blob arrived. However, a live media system needs to deliver every audio frame on schedule.\n\nEarlier work on ChatGPT Voice and the Realtime API gave us an important foundation. We had already [rebuilt our voice infrastructure⁠](https://openai.com/index/delivering-low-latency-voice-ai-at-scale/) to stream audio and video directly in and out of our systems with lower and more predictable latency. GPT‑Live pushed that design further, streaming media all the way to the model through a new stateful inference system built for continuous conversation.\n\nStreaming inference was only part of the solution though. To make it work well in production, we also had to ensure reliable audio delivery from the client to the inference stack and deal with the challenges of statefulness.\n\nAn early decision we made was to specifically separate media flow from application and business logic. Audio moves between the client and the voice model on a dedicated fast path. Delegation, tool use, and other application work happen behind an asynchronous RPC boundary. A slow tool call or backend service can delay its own result, but cannot stall the flow of media.\n\nThis separation also gives the system a clean boundary for customization. Applications can change their tools, policies, and backend behavior without affecting the media frontend responsible for keeping audio moving. The live path stays small, predictable, and focused on the work that must happen in real time.\n\nWe wrote the media frontend and inference logic in Go, replacing a previous Python `asyncio` implementation. This significantly improved the smoothness of frame delivery, with the new system’s p95 matching the previous system’s p50.\n\nWebRTC provides the transport foundation. It’s designed for low-latency media, and can continue operating through packet loss, clock drift, and client connection changes. If packets arrive late, WebRTC can subtly stretch audio to prevent gaps, and then briefly accelerate playback to catch back up to real time.\n\nBy minimizing buffering and blocking throughout the system, we can deliver the sub-second responsiveness that humans expect from conversation.\n\n### Keeping the (stateful) conversation going\n\nStateful inference has its own operational tradeoffs. A voice session may remain active for a long time, but its context continuously grows, and model instances spin up and down based on demand.\n\nTo address these concerns, we built a seamless handoff mechanism across model instances. When a transition is needed, we can warm a replacement model instance alongside the existing one, prefill it with the current session context, run inference against both in parallel, and cut over when the new instance is fully ready.\n\nThe same basic mechanism also supports dynamic context compaction. As a conversation goes on, its accumulated context can eventually exceed the model’s context limit. Compaction can reduce the context size to fit within the limit, but the operation takes time. And because it changes past context, it also invalidates the model’s key-value (KV) cache, which stores attention keys and values from previously processed tokens. Rebuilding that state requires a new prefill, introducing additional delay.\n\nInstead, we treat compaction as another managed transition. While the original model instance keeps chatting, the system compacts the context and prepares a replacement model instance with the new context. Once that instance is ready, we can switch over without any media interruption. This allows the system to support long-running calls, compacting whenever necessary.\n\nThe heavy lifting stays off the live path, so even during a handoff, the conversation never misses a beat.\n\n## Delegation without blocking the conversation\n\nGPT‑Live’s ability to invoke existing frontier models gives it a lot of power, effectively decoupling “talking” from deeper “thinking”. But making this two-model architecture feel like one system required solving two related engineering problems.\n\n### Delegation for deeper work\n\nGPT-Live provides fast, natural responses, while GPT-5.5 handles search in the background\n\n[Audio 4](https://cdn.openai.com/ctf-cdn/bidi/live-search-mixed.wav)\n\nTranscript\n\nExample conversation with GPT-Live-1, using GPT-5.5 Instant\n\nFirst, results must return quickly enough to be useful in the ongoing exchange, so we had to minimize latency across the entire delegation path, from routing and prompt processing through inference and tool calls. At the same time, systems elsewhere in the product still need discrete messages, so we had to represent the ongoing conversation in a form they could understand.\n\n## Making delegation fast enough to feel natural\n\nWhen a delegation is dispatched, we optimize for the time until the frontier model produces something useful for the conversation. The voice model can briefly keep the exchange moving while a frontier model reasons or uses tools, but it cannot hide an arbitrarily slow response. We therefore treated the full delegation loop—routing, prompt processing, inference, and tool calls—as part of the responsiveness budget.\n\nThe first optimization is to set up the frontier model and any tools it needs before delegation is requested. When a voice session starts, the application server creates an inference session for the frontier model and prefills it with the initial conversation context, ensuring the prompt has been fully processed prior to the first delegated request.\n\nWe then keep that inference session available for the duration of the voice conversation and use stable session affinity for successive requests. Together with prompt caching, these techniques improve latency while a worker failure remains easily recoverable.\n\nReasoning effort, output limits, tool schemas, and model-tool round trips also affect when the conversation receives a useful result, and we adjusted these levers to get faster responses. By minimizing the work needed on the delegation path, we enabled the voice model to quickly incorporate results from our frontier models.\n\n### Deriving discrete turns from continuous speech\n\nEven though the voice model operates on continuous streams of speech, many of the systems around it still operate on user and assistant turns, including ChatGPT’s conversation UI and parts of our analytics and safety infrastructure. So the application server teases apart the overlapping, occasionally ambiguous conversation into discrete messages.\n\nAs audio arrives, the server uses partial transcripts and timing signals to infer which speaker has the floor and build a queue of messages. The newest message remains provisional; its text, timing, and speaker assignment can all change as more speech arrives. Once a speaker has sustained the floor long enough for the attribution to be reliable, the server finalizes the corresponding message.\n\nSpeaker overlap makes this more complicated. A brief acknowledgement from the assistant while the user is talking (e.g. “mm hmm,” or “okay”) should not necessarily become its own message. However, a substantive assistant interjection often should. Similarly, we prioritize coherence in the displayed assistant responses even when the user speaks in the middle.\n\nEvery segmentation policy trades freshness for certainty. Committing too early produces fragmented history and unstable ordering; waiting too long delays transcripts and the features that depend on them. The system therefore maintains two related views of the conversation: a speculative view of the current state and an authoritative record of what was said. The conversation view in the application UI can handle updates, so it uses the speculative view. But logging to the analytics pipeline requires a final transcript.\n\nThis gives the rest of ChatGPT a stable view of the exchange without imposing turn-taking on the live voice path.\n\n## Starting sessions with a faster protocol\n\nResponsiveness starts as soon as the user clicks the button. With GPT‑Live, the system must establish the media path and begin feeding audio through the model before the conversation can begin. That puts every part of the startup sequence on the critical path.\n\nAs noted above, WebRTC provides a strong realtime foundation, but starting a vanilla WebRTC session requires a surprising number of protocol handshakes and network round trips. WebRTC predates the focus on minimizing round trips that shaped later protocols such as QUIC. As a result, its underlying protocols sometimes repeat work when used together. For example, each protocol included its own anti-DoS mechanism, even when it wasn’t needed in the context of the full WebRTC stack.\n\nWe designed WARP as a set of open specifications, working with collaborators from the WebRTC community, so the broader ecosystem can benefit from this work. We’re advancing the proposals through the IETF’s TSVWG working group, and WARP support has already been added to both libwebrtc and Pion, with efforts underway in other WebRTC implementations.\n\nAfter optimizing the media handshake, one remaining delay stood out: the signaling exchange used to share SDP parameters before WebRTC can connect. To remove that exchange from the critical path, we developed what we call Instant Connect. It negotiates these parameters ahead of time without reserving server capacity and without any changes to existing WebRTC implementations.\n\nInstant Connect runs alongside the standard signaling flow. If the pre-negotiated parameters are valid, the server can materialize the session when the first media packet arrives. If they are stale or invalid, the signaling flow is already underway, so the client can fall back with no additional latency.\n\nTogether, Instant Connect and WARP dramatically reduce the time from user intent to live media flow. With the SDP exchange off the critical path and WARP collapsing the transport handshake, the client can now start a session with a single UDP packet. The server can respond immediately, letting the rest of the system begin doing the work the user actually cares about: listening and responding.\n\n## Safely testing GPT‑Live in production with real data\n\nA system can look fast on paper and still stall under real voice traffic. Before letting GPT‑Live chat with users, we ran a silent test that routed a small, gradually increasing share of production ChatGPT Voice sessions to both the existing Advanced Voice Mode experience and our new system. Advanced Voice Mode continued serving users as usual, while the shadow path ran inference in read-only mode. This exposed the system to real clients, networks, session lengths, and geographic distribution without changing what users heard.\n\nOne of the first lessons was that capacity could not be reduced to GPU throughput. Voice sessions stay open and send frames continuously, so CPU-side stream handlers, queues, and network paths must scale alongside inference. Under real load, a supporting component saturated earlier than our load test estimates predicted, causing inference requests to accumulate and latency to compound. We changed the capacity question from “_How many requests can a GPU handle?_” to “_How many concurrent sessions can the system sustain while keeping every frame on schedule?_”\n\nThe test also made geography a first-order concern. Routing a session to distant capacity can add delay at several points during startup and streaming. We began validating model rollouts together with regional capacity and traffic-steering configuration, then breaking latency down by source geography. Moving inference closer to users helped, but it also reinforced the broader lesson: end-to-end responsiveness depends on every service in the path, not only the model server.\n\nOther failures appeared only across realistic session lifecycles. Long-running sessions exposed memory and persistence pressure. Reconnects exercised compaction and state restoration. Ordinary client disconnects revealed races in the shutdown handshake. These problems rarely appeared in short load tests because they depended on time, accumulated state, and behavior across service boundaries.\n\nFinally, production testing forced us to improve observability and rollout controls. We found metrics that conflated different sources of latency, dashboards whose aggregates hid individual unhealthy engines, and configuration drift between tested and deployed systems. In response, we added more granular telemetry, validation against known-good configurations, staged ramps, and the ability to isolate or disable individual paths quickly. The silent test became an early launch rehearsal, not only for how much traffic the system could accept, but for how quickly we could detect, contain, and recover from failure.\n\n## Responsive, from client to model\n\nBringing GPT‑Live to ChatGPT scale required a whole new system built around one fundamental principle: the voice must flow. Streaming inference keeps the full-duplex model supplied with audio. A dedicated media path ensures reliable frame delivery. Asynchronous delegation lets deeper thinking run in parallel. Optimized transport keeps the experience responsive all the way to the user.\n\nThe architecture behind GPT‑Live is already becoming a broader platform for realtime interaction. It powers ChatGPT Voice as it expands from conversation into agentic coordination, and will underpin the upcoming GPT‑Live API. Over time, it will allow voice experiences to span more devices, apps, and modalities without sacrificing the immediacy that makes voice conversation feel live.\n\nIf these are the kinds of engineering problems you want to solve, [come work with us⁠](https://openai.com/careers/search/?c=3b1f84fe-9b58-41c9-8de3-08a361f157cc%2Cff20ae8e-377a-4905-baf7-217536ce5b0c%2Ce1e973fe-6f0a-475f-9361-a9b6c095d869%2Cf002fe09-4cec-46b0-8add-8bf9ff438a62%2Cab2b9da4-24a4-47df-8bed-1ed5a39c7036%2C29457f80-62c5-4420-b64b-53037e8dc25e%2C97c2487e-7ec1-446a-a664-58e7c12fb0e9).",
-      "contentZh": "对于语音AI来说，知道何时开口比听起来更难。人类说话者能在几分之一秒内轻松地互相交接，但以往的语音AI系统无法跟上这种节奏。它们基于轮流发言的架构依赖于被称为“轮流检测器”的小型模型，这些模型面临着一项艰巨的任务：猜得太早，用户会被打断；猜得太晚，响应又会显得迟缓。只有在检测器做出决定后，更大的LLM才能开始工作。\n\n[GPT‑Live⁠](https://openai.com/index/introducing-gpt-live/) 是我们第三代语音系统，它将轮流检测器从音频路径中移除。其语音模型是全双工的，这意味着它可以同时听和说。这消除了对单独检测器的需求，使对话感觉更即时、更自然。当需要更深入的推理或工具使用时，GPT‑Live 还可以咨询我们的前沿模型，如 GPT‑5.5，而不会打断对话的流畅性。这些能力共同赋予 GPT‑Live 前所未有的对话响应速度和智能组合。\n\n大规模提供这种体验需要一种针对低延迟优化的新系统架构。与典型的请求-响应推理不同，我们的系统将传入的音频流式传输到语音模型，并将传出的语音流式传输回用户，同时在单独的异步路径上处理委派任务。在过去的六个月里，我们重新设计了模型推理、上下文管理和媒体传输，以确保语音从端到端流畅传输。\n\n该架构还在核心语音路径和应用逻辑之间创建了清晰的边界。这使得在不影响响应速度的情况下轻松定制应用行为。这一基础支撑了 ChatGPT Voice 中不断扩展的功能，包括新推出的在 ChatGPT 桌面应用中控制你的计算机和协调你的代理的能力。\n\n在这篇文章中，我们将解释为什么早期的轮流系统无法满足我们的需求，以及我们如何在每一层为响应速度设计新系统。我们将涵盖有状态推理、动态上下文管理、异步委派和协议级优化，所有这些协同工作，使 GPT‑Live 真正感觉 _实时_。\n\n## 从轮流发言转向流式传输\n\n早期的语音架构继承了文本LLM的轮流特性，但每一轮表示为离散的音频块而非文本。在级联系统中，语音转文本、LLM 和文本转语音依次运行。这种顺序增加了延迟，并忽略了语调和节奏等线索。\n\n语音到语音模型通过直接处理音频改进了这种方法。训练模型原生理解和生成语音，使其能够保留转录中丢失的细节并更快地响应。但系统仍然依赖轮流检测器来决定推理何时开始。模型处理了更多的交互，但交互仍然是轮流式的。\n\nGPT‑Live 让语音模型掌控对话：音频流入和流出模型，而更深入的推理和工具使用则异步进行。系统的主要任务是维持不间断的媒体循环。其他工作，如调用前沿模型和持久化对话，则在实时路径之外进行。\n\n## 实现持续推理\n\n保持这种媒体循环不间断并不总是简单的。传输、处理或推理中的任何延迟都可能变成可听见的停顿或伪影。以前的轮流系统可以容忍音频块到达时间的一些变化。然而，实时媒体系统需要按计划交付每个音频帧。\n\n早期在 ChatGPT Voice 和 Realtime API 上的工作为我们提供了重要的基础。我们已经[重建了我们的语音基础设施⁠](https://openai.com/index/delivering-low-latency-voice-ai-at-scale/)，以更低且更可预测的延迟将音频和视频直接流式传输进出我们的系统。GPT‑Live 进一步推动了这一设计，通过一个为持续对话构建的新有状态推理系统，将媒体一直流式传输到模型。\n\n流式推理只是解决方案的一部分。为了使其在生产中良好运行，我们还必须确保从客户端到推理栈的可靠音频传输，并应对有状态性的挑战。\n\n我们早期做出的一个决定是明确将媒体流与应用和业务逻辑分离。音频在客户端和语音模型之间通过专用快速路径移动。委派、工具使用和其他应用工作则在异步RPC边界之后进行。缓慢的工具调用或后端服务可能会延迟其自身的结果，但不会阻塞媒体流。\n\n这种分离也为系统提供了清晰的定制边界。应用可以更改其工具、策略和后端行为，而不会影响负责保持音频移动的媒体前端。实时路径保持小巧、可预测，并专注于必须实时完成的工作。\n\n我们用 Go 编写了媒体前端和推理逻辑，取代了之前的 Python `asyncio` 实现。这显著提高了帧传输的平滑度，新系统的 p95 与旧系统的 p50 相当。\n\nWebRTC 提供了传输基础。它专为低延迟媒体设计，并且可以在丢包、时钟漂移和客户端连接变化的情况下继续运行。如果数据包迟到，WebRTC 可以微妙地拉伸音频以防止间隙，然后短暂加速播放以赶上实时时间。\n\n通过最小化整个系统中的缓冲和阻塞，我们可以提供人类在对话中期望的亚秒级响应。\n\n### 保持（有状态的）对话进行\n\n有状态推理有其自身的操作权衡。语音会话可能长时间保持活动，但其上下文持续增长，模型实例根据需求上下旋转。\n\n为了解决这些问题，我们构建了跨模型实例的无缝切换机制。当需要转换时，我们可以在现有实例旁边预热一个替代模型实例，用当前会话上下文预填充它，并行运行两者的推理，并在新实例完全准备好时切换。\n\n相同的基本机制还支持动态上下文压缩。随着对话的进行，累积的上下文最终可能超过模型的上下文限制。压缩可以减少上下文大小以适应限制，但该操作需要时间。而且由于它改变了过去的上下文，它也使模型的键值（KV）缓存失效，该缓存存储了先前处理过的标记的注意力键和值。重建该状态需要新的预填充，从而引入额外的延迟。\n\n相反，我们将压缩视为另一种受管理的转换。原始模型实例继续对话的同时，系统压缩上下文并准备一个带有新上下文的替代模型实例。一旦该实例就绪，我们便可在无任何媒体中断的情况下切换。这使得系统能够支持长时间通话，并在必要时随时压缩。\n\n繁重的工作保持在实时路径之外，因此即使在交接过程中，对话也绝不会错过任何节拍。\n\n## 不阻塞对话的委派\n\nGPT‑Live 调用现有前沿模型的能力赋予其强大功能，实际上将“交谈”与更深层的“思考”解耦。但要让这种双模型架构感觉像一个系统，需要解决两个相关的工程问题。\n\n### 委派以进行更深层的工作\n\nGPT-Live 提供快速、自然的响应，而 GPT-5.5 在后台处理搜索\n\n[音频 4](https://cdn.openai.com/ctf-cdn/bidi/live-search-mixed.wav)\n\n文字记录\n\n与 GPT-Live-1 使用 GPT-5.5 Instant 的示例对话\n\n首先，结果必须足够快速地返回，以便在持续交流中有用，因此我们必须最小化整个委派路径上的延迟，从路由和提示处理到推理和工具调用。同时，产品中其他位置的系统仍需要离散消息，因此我们必须以它们能理解的形式表示持续进行的对话。\n\n## 使委派足够快速以显得自然\n\n当委派被派发时，我们优化的是前沿模型为对话产生有用内容所需的时间。语音模型可以在前沿模型推理或使用工具时短暂维持交流的推进，但无法隐藏任意缓慢的响应。因此，我们将整个委派循环——路由、提示处理、推理和工具调用——视为响应预算的一部分。\n\n第一个优化是在请求委派之前设置好前沿模型及其所需的任何工具。当语音会话开始时，应用服务器为前沿模型创建推理会话，并用初始对话上下文预填充，确保提示在首次委派请求之前已完全处理。\n\n然后，我们在语音对话期间保持该推理会话可用，并对连续请求使用稳定的会话亲和性。结合提示缓存，这些技术改善了延迟，同时工作节点故障仍易于恢复。\n\n推理努力、输出限制、工具模式以及模型与工具之间的往返也会影响对话何时收到有用结果，我们调整了这些杠杆以获得更快的响应。通过最小化委派路径上所需的工作，我们使语音模型能够快速整合来自前沿模型的结果。\n\n### 从连续语音中推导离散轮次\n\n尽管语音模型处理连续的语音流，但周围许多系统仍基于用户和助手轮次运行，包括 ChatGPT 的对话界面以及部分分析和安全基础设施。因此，应用服务器将重叠且偶尔模糊的对话拆分为离散消息。\n\n随着音频到达，服务器使用部分转录和时间信号来推断当前发言者，并构建消息队列。最新消息保持临时状态；其文本、时间和发言者分配都可能随着更多语音到达而变化。一旦某发言者持续发言足够长的时间，使归属可靠，服务器便最终确定相应消息。\n\n发言者重叠使这更加复杂。用户在说话时助手发出的简短确认（例如“嗯嗯”或“好的”）不一定应成为独立消息。然而，助手实质性的插话通常应该如此。同样，即使用户在中间说话，我们也优先保证所显示助手响应的连贯性。\n\n每种分段策略都在新鲜度和确定性之间权衡。过早提交会产生碎片化的历史和不确定的排序；等待过久则会延迟转录及依赖它的功能。因此，系统维护对话的两个相关视图：当前状态的推测视图和已说内容的权威记录。应用界面中的对话视图可以处理更新，因此使用推测视图。但记录到分析管道需要最终转录。\n\n这为 ChatGPT 的其余部分提供了稳定的交流视图，而无需在实时语音路径上强加轮流发言规则。\n\n## 以更快的协议启动会话\n\n响应性从用户点击按钮那一刻开始。使用 GPT‑Live，系统必须在对话开始前建立媒体路径并将音频送入模型。这使得启动序列的每个部分都处于关键路径上。\n\n如上所述，WebRTC 提供了强大的实时基础，但启动一个标准 WebRTC 会话需要大量协议握手和网络往返。WebRTC 早于后来塑造 QUIC 等协议的减少往返关注点。因此，其底层协议在组合使用时有时会重复工作。例如，每个协议都包含自己的反 DoS 机制，即使在完整 WebRTC 栈的上下文中并不需要。\n\n我们将 WARP 设计为一组开放规范，与 WebRTC 社区的协作者合作，使更广泛的生态系统能受益于此工作。我们正在通过 IETF 的 TSVWG 工作组推进提案，并且 WARP 支持已添加到 libwebrtc 和 Pion 中，其他 WebRTC 实现也在努力中。\n\n优化媒体握手后，一个剩余延迟尤为突出：在 WebRTC 连接前用于共享 SDP 参数的信号交换。为将该交换移出关键路径，我们开发了所谓的 Instant Connect。它提前协商这些参数，而不预留服务器容量，也无需更改现有 WebRTC 实现。\n\nInstant Connect 与标准信号流程并行运行。如果预协商参数有效，服务器可在第一个媒体包到达时实例化会话。如果参数过期或无效，信号流程已在进行中，因此客户端可无额外延迟地回退。\n\nInstant Connect 和 WARP 共同大幅缩短了从用户意图到实时媒体流的时间。随着 SDP 交换移出关键路径且 WARP 压缩传输握手，客户端现在可以用单个 UDP 数据包启动会话。服务器可立即响应，让系统其余部分开始做用户真正关心的工作：倾听和回应。\n\n## 使用真实数据在生产环境中安全测试 GPT‑Live\n\n一个系统在纸面上可能看起来很快，但在真实语音流量下仍可能停滞不前。在让 GPT‑Live 与用户对话之前，我们进行了一次静默测试，将生产环境 ChatGPT Voice 会话中一小部分且逐渐增加的流量，同时路由到现有的高级语音模式体验和我们的新系统。高级语音模式继续像往常一样服务用户，而影子路径则以只读模式运行推理。这让系统暴露在真实客户端、网络、会话时长和地理分布之下，而不会改变用户听到的内容。\n\n最初的教训之一是，容量不能简化为 GPU 吞吐量。语音会话保持打开并持续发送帧，因此 CPU 侧的流处理器、队列和网络路径必须与推理同步扩展。在真实负载下，一个支撑组件比我们的负载测试估计预测的更早饱和，导致推理请求累积，延迟加剧。我们将容量问题从“_一个 GPU 能处理多少请求？_”转变为“_系统能在保持每帧按时交付的同时，维持多少并发会话？_”\n\n测试还使地理因素成为首要关注点。将会话路由到远端容量可能在启动和流传输的多个节点增加延迟。我们开始将模型发布与区域容量和流量引导配置一起验证，然后按源地理位置分解延迟。将推理移近用户有所帮助，但也强化了更广泛的教训：端到端响应能力取决于路径中的每个服务，而不仅仅是模型服务器。\n\n其他故障仅在真实会话生命周期中显现。长时间运行的会话暴露了内存和持久性压力。重连考验了压缩和状态恢复。普通客户端断开连接揭示了关闭握手中的竞争条件。这些问题很少出现在短时负载测试中，因为它们依赖于时间、累积状态以及跨服务边界的行为。\n\n最后，生产测试迫使我们改进可观测性和发布控制。我们发现指标混淆了不同来源的延迟，仪表板的聚合掩盖了单个不健康的引擎，以及测试与部署系统之间的配置漂移。作为回应，我们增加了更细粒度的遥测、针对已知良好配置的验证、分阶段逐步上线，以及快速隔离或禁用单个路径的能力。静默测试成为了一次早期发布预演，不仅关乎系统能承受多少流量，还关乎我们能多快地检测、遏制并从故障中恢复。\n\n## 从客户端到模型的响应性\n\n将 GPT‑Live 带到 ChatGPT 规模需要一个围绕基本原则构建的全新系统：语音必须流畅。流式推理确保持续为全双工模型提供音频。专用媒体路径确保可靠的帧交付。异步委派让更深层次的思考并行运行。优化的传输让体验在用户端始终保持响应。\n\nGPT‑Live 背后的架构正在成为一个更广泛的实时交互平台。它驱动着 ChatGPT Voice 从对话扩展到代理协调，并将支撑即将推出的 GPT‑Live API。随着时间的推移，它将使语音体验跨越更多设备、应用和模态，而不牺牲让语音对话感觉实时的即时性。\n\n如果这些是你想解决的工程问题，[来和我们一起工作吧⁠](https://openai.com/careers/search/?c=3b1f84fe-9b58-41c9-8de3-08a361f157cc%2Cff20ae8e-377a-4905-baf7-217536ce5b0c%2Ce1e973fe-6f0a-475f-9361-a9b6c095d869%2Cf002fe09-4cec-46b0-8add-8bf9ff438a62%2Cab2b9da4-24a4-47df-8bed-1ed5a39c7036%2C29457f80-62c5-4420-b64b-53037e8dc25e%2C97c2487e-7ec1-446a-a664-58e7c12fb0e9)。",
-      "titleZh": "我们如何在六个月内构建响应式语音AI的实时系统",
-      "summaryZh": "GPT-Live实现了与AI的连续语音交互，采用无轮次语音模型和低延迟架构，以实现更快、更自然的对话。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-03T07:00:00.000Z",
-      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "collectedAt": "2026-10-31T09:00:19.681Z"
-    },
-    {
-      "id": "6559d98a7d1bca755c17",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Circles powers telco personalization with OpenAI technology",
-      "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
-      "content": "Telcos have rich customer signals across usage, billing, network activity, and location, but turning those signals into timely, personalized action remains difficult. Circles saw an opportunity to rethink the telco experience around that challenge, using OpenAI to build an AI-native telco stack that can connect support, personalization, operations, and monetization in real time.\n\nThe result is a customer experience built around Circles’ AI Concierge, a conversational interface powered by OpenAI’s API platform. In Singapore, Circles’ AI-powered personalization has helped increase ARPU by 22% and reduce churn by 9%. CareX, the multi-agent architecture behind the AI Concierge, now delivers a 65% autonomous resolution rate for customer support.\n\nFounded in Singapore, Circles is a technology company whose SaaS platform helps digital telco operators launch and run AI-powered customer experiences. The company also operates Circles.Life, its own consumer telco business in Singapore. Founded in 2014, Circles works with telco operators across 14 countries and six continents.\n\n## Building the AI Concierge\n\nTraditional telco support is often reactive. Customers navigate menus, repeat information, and wait for help after a problem has already occurred. While operators have rich customer data across usage, billing, network activity, and location, it has remained a challenge to turn those signals into timely, personalized action. To address this, Circles built its AI Concierge on the OpenAI API, creating a conversational interface designed to deliver proactive, context-aware customer engagement.\n\nThe AI Concierge brings search, account management, support, and personalized recommendations into a single experience. By understanding a customer’s real-time context, such as browsing roaming options or investigating a billing issue, it can route requests to the appropriate specialist agents, recommend relevant actions, and resolve issues without requiring customers to repeat information or navigate multiple workflows.\n\n> \"AI should empower users, not force-fit them into outdated journeys. OpenAI's role has been critical in enabling Circles to scale this vision globally. With the AI concierge, we are moving beyond providing simple answers to delivering real-world outcomes, along with balancing cost and latency to maximize value for operators and customers alike.\"\n\n—Awais Malik, Global Chief Growth Officer, Circles\n\n## Orchestrating support with CareX\n\nCareX is the proprietary multi-agent architecture that powers Circles’ AI Concierge. It combines an orchestration agent that understands each customer’s history and current activity with specialist agents for billing, subscriptions, network management, and account services.\n\nUnlike a traditional chatbot, CareX is designed to understand, act, and resolve customer requests. For example, when a customer raises a billing issue, the orchestration agent combines the customer’s app context, account history, and request before routing it to the appropriate specialist agent. The agent receives only the information needed to resolve the issue. If required, the AI agent seamlessly escalates the case to a human agent with the full context attached.\n\nThe approach is already delivering measurable results. In an early deployment, one operator achieved 55% autonomous resolution within the first week. Today, CareX autonomously resolves 65% of customer service interactions across supported workflows, without human intervention.\n\nAs CareX expands into real-time voice support, the platform is targeting 95% autonomous resolution across the entire workflow, including text and voice. This will extend the same AI-driven resolution capabilities to the channel many customers turn to first, while making service more natural, immediate, and accessible.\n\n## Personalizing customer value with Xplore IQ\n\nBuilt on the OpenAI API, Xplore IQ is Circles’ AI-powered personalization engine. It combines customer behavior, account history, and real-time signals to identify the most relevant next action, from recommending a roaming pack or plan upgrade to preventing churn before it happens.\n\nBy replacing broad campaigns with hyper-personalized recommendations, Xplore IQ helps operators engage customers at the right moment. In Singapore, Circles measured its impact by comparing customers who received AI-powered recommendations against those who didn’t. The AI-powered group achieved a 22% increase in ARPU through higher plan upgrades and add-on subscriptions, while timely, relevant recommendations helped reduce churn by 9%.\n\n## Improving engineering velocity with Codex\n\nBeyond its customer-facing AI products, Circles also uses Codex internally to improve engineering velocity across engineering, infosec, and incident management teams. Teams use Codex to accelerate design, coding assistance and testing, while keeping specialists responsible for validation and final review.\n\nCodex has delivered a 29% increase in development efficiency by involving design, coding assistance, and unit testing, allowing engineers to spend their time focusing on higher-value product innovation.\n\n## Keeping governance central\n\nBuilding AI for telcos requires safeguards for both customers and operators. Circles applies automated controls before customer information reaches the model layer, including identifying and encrypting personally identifiable information before it is passed to LLMs. Specialist agents are given scoped access to the information needed for a specific resolution task, rather than unrestricted access to a full customer profile.\n\nCircles also uses human escalation paths, phased rollouts, rate limits, rollback mechanisms, and commercial safeguards to help maintain operational control as AI-powered experiences scale across telco environments.\n\n## What’s next\n\nCircles is expanding its AI-native telco stack with OpenAI by enhancing CareX’s observability and introducing real-time voice support, which makes customer interactions more natural and accessible. Longer term, the company envisions a conversational, context-aware telco experience that moves beyond traditional app navigation, helping operators deliver more proactive, personalized customer engagement.",
-      "contentZh": "电信运营商拥有丰富的客户信号，涵盖使用情况、计费、网络活动和位置，但将这些信号转化为及时、个性化的行动仍然困难重重。Circles看到了围绕这一挑战重新构想电信体验的机会，利用OpenAI构建了一个AI原生的电信技术栈，能够实时连接支持、个性化、运营和变现。\n\n其成果是围绕Circles的AI礼宾服务构建的客户体验，这是一个由OpenAI API平台驱动的对话式界面。在新加坡，Circles的AI驱动个性化帮助将ARPU提升了22%，并将客户流失率降低了9%。CareX是AI礼宾服务背后的多智能体架构，目前为客户支持实现了65%的自主解决率。\n\nCircles成立于新加坡，是一家科技公司，其SaaS平台帮助数字电信运营商推出并运营AI驱动的客户体验。该公司还运营着Circles.Life，这是其在新加坡的自有消费电信业务。Circles成立于2014年，与遍布14个国家和六大洲的电信运营商合作。\n\n## 构建AI礼宾服务\n\n传统的电信支持往往是被动式的。客户在问题发生后需要浏览菜单、重复信息并等待帮助。尽管运营商拥有丰富的客户数据，涵盖使用情况、计费、网络活动和位置，但将这些信号转化为及时、个性化的行动仍然是一个挑战。为了解决这一问题，Circles在OpenAI API上构建了其AI礼宾服务，创建了一个旨在提供主动、情境感知客户参与的对话式界面。\n\nAI礼宾服务将搜索、账户管理、支持和个性化推荐整合到单一体验中。通过理解客户的实时情境，例如浏览漫游选项或调查计费问题，它可以将来请求路由到相应的专家智能体，推荐相关操作，并在无需客户重复信息或浏览多个工作流程的情况下解决问题。\n\n> “AI应该赋能用户，而不是将他们强行塞入过时的流程中。OpenAI在帮助Circles将这一愿景全球扩展方面发挥了关键作用。借助AI礼宾服务，我们正在超越提供简单答案，转向交付实际成果，同时平衡成本和延迟，为运营商和客户最大化价值。”\n\n——Awais Malik，Circles全球首席增长官\n\n## 通过CareX编排支持\n\nCareX是驱动Circles AI礼宾服务的专有多智能体架构。它将一个理解每位客户历史和当前活动的编排智能体与负责计费、订阅、网络管理和账户服务的专家智能体相结合。\n\n与传统聊天机器人不同，CareX旨在理解、行动并解决客户请求。例如，当客户提出计费问题时，编排智能体会结合客户的应用情境、账户历史和请求，然后将其路由到相应的专家智能体。该智能体仅接收解决问题所需的信息。如有必要，AI智能体会将案件无缝升级给人工客服，并附带完整的上下文。\n\n这种方法已经带来了可衡量的成果。在早期部署中，一家运营商在首周内实现了55%的自主解决率。如今，CareX在支持的工作流程中自主解决了65%的客户服务交互，无需人工干预。\n\n随着CareX扩展到实时语音支持，该平台正致力于在整个工作流程中实现95%的自主解决率，包括文本和语音。这将把同样的AI驱动解决能力扩展到许多客户首选的联系渠道，同时使服务更加自然、即时和便捷。\n\n## 通过Xplore IQ个性化客户价值\n\nXplore IQ基于OpenAI API构建，是Circles的AI驱动个性化引擎。它结合客户行为、账户历史和实时信号，识别最相关的下一步行动，从推荐漫游套餐或计划升级到在客户流失发生前进行预防。\n\n通过用超个性化推荐取代大规模营销活动，Xplore IQ帮助运营商在正确的时机与客户互动。在新加坡，Circles通过比较收到AI驱动推荐的客户与未收到推荐的客户来衡量其影响。AI驱动组通过更高的计划升级和附加订阅实现了ARPU增长22%，而及时、相关的推荐帮助将客户流失率降低了9%。\n\n## 利用Codex提升工程效率\n\n除了面向客户的AI产品外，Circles还在内部使用Codex来提升工程、信息安全及事件管理团队的工程效率。团队使用Codex加速设计、编码辅助和测试，同时由专家负责验证和最终审查。\n\nCodex通过涉及设计、编码辅助和单元测试，使开发效率提升了29%，让工程师能够将时间投入到更高价值的产品创新中。\n\n## 保持治理核心地位\n\n为电信运营商构建AI需要对客户和运营商双方都设置保障措施。Circles在客户信息到达模型层之前应用自动化控制，包括在将个人身份信息传递给LLM之前进行识别和加密。专家智能体仅获得完成特定解决任务所需信息的范围访问权限，而非对整个客户档案的无限制访问。\n\nCircles还使用人工升级路径、分阶段部署、速率限制、回滚机制和商业保障措施，以帮助在AI驱动体验在电信环境中扩展时维持运营控制。\n\n## 未来展望\n\nCircles正在通过与OpenAI合作扩展其AI原生电信技术栈，增强CareX的可观测性并引入实时语音支持，使客户交互更加自然和便捷。长期来看，该公司设想一种对话式、情境感知的电信体验，超越传统的应用导航，帮助运营商提供更主动、个性化的客户参与。",
-      "titleZh": "Circles借助OpenAI技术推动电信个性化服务",
-      "summaryZh": "Circles利用OpenAI API和Codex驱动AI原生的电信体验，使ARPU提升22%，客户流失率降低9%，并提高了开发效率。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "url": "https://openai.com/index/circles",
-      "collectedAt": "2026-10-31T09:00:19.681Z"
-    },
-    {
-      "id": "1b43c9e867bdb362c0cc",
-      "sourceId": "claude-platform",
-      "company": "Anthropic",
-      "product": "Claude",
-      "kind": "api",
-      "title": "The Compliance API now returns transcripts of Cowork sessions started on claude.ai web or mobile, in beta for Claude Enterprise organizations.",
-      "summary": "The Compliance API now returns transcripts of Cowork sessions started on claude.ai web or mobile, in beta for Claude Enterprise organizations. GET /v1/compliance/apps/sessions/remote lists sessions and GET /v1/compliance/apps/sessions/remote/{session_id}/messages returns one session's transcript, using your existing Compliance Access Key with the read:compliance_user_data scope. See Retrieve remote sessions.",
-      "content": "The Compliance API now returns transcripts of Cowork sessions started on claude.ai web or mobile, in beta for Claude Enterprise organizations. GET /v1/compliance/apps/sessions/remote lists sessions and GET /v1/compliance/apps/sessions/remote/{session_id}/messages returns one session's transcript, using your existing Compliance Access Key with the read:compliance_user_data scope. See Retrieve remote sessions.",
-      "contentZh": "合规API现在返回在claude.ai网页或移动端开始的Cowork会话记录，该功能面向Claude Enterprise组织处于测试阶段。GET /v1/compliance/apps/sessions/remote列出会话，GET /v1/compliance/apps/sessions/remote/{session_id}/messages返回单个会话的记录，使用您现有的合规访问密钥及read:compliance_user_data作用域。请参阅检索远程会话。",
-      "titleZh": "合规API现可返回在claude.ai网页或移动端发起的Cowork会话记录，面向Claude Enterprise组织提供测试版。",
-      "summaryZh": "合规API现可返回在claude.ai网页或移动端发起的Cowork会话记录，面向Claude Enterprise组织提供测试版。GET /v1/compliance/apps/sessions/remote列出会话，GET /v1/compliance/apps/sessions/remote/{session_id}/messages返回单个会话的记录，使用现有的合规访问密钥及read:compliance_user_data权限范围。参见检索远程会话。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-10-31T09:00:21.074Z"
+      "collectedAt": "2026-11-01T09:50:09.080Z"
     },
     {
       "id": "af15e83e5c304730063b",
@@ -3858,7 +3807,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-10-31T09:00:24.127Z"
+      "collectedAt": "2026-11-01T09:50:15.460Z"
     },
     {
       "id": "118693cb868e1641c9c1",
@@ -3875,7 +3824,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-04-24T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-10-31T09:00:24.128Z"
+      "collectedAt": "2026-11-01T09:50:15.461Z"
     },
     {
       "id": "aeb9a0b6e961ddd9394e",
@@ -3892,7 +3841,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-12-01T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-10-31T09:00:24.128Z"
+      "collectedAt": "2026-11-01T09:50:15.461Z"
     }
   ]
 }
