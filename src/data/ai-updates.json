@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15T10:01:56.955Z",
+  "updatedAt": "2026-11-16T10:16:22.765Z",
   "sources": [
     {
       "id": "openai-news",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "count": 887
+      "count": 889
     },
     {
       "id": "claude-apps",
@@ -53,6 +53,40 @@
   ],
   "entries": [
     {
+      "id": "749e91f18432a6dd206a",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "content": "_This news was originally shared by LVMH’s Media Division and can be read_[_here_⁠(opens in a new window)](https://lesechosleparisien.fr/actualites/le-groupe/le-pole-medias-de-lvmh-annonce-un-partenariat-strategique-avec-openai/)_._\n\n**Paris, 16 November 2026**—LVMH Group’s Media Division and OpenAI announce the signing of a strategic agreement to support new uses of artificial intelligence across all the division’s publications and make their journalism more accessible through ChatGPT. The agreement includes the deployment of OpenAI tools and ChatGPT Enterprise to teams across the media division, enabling them to develop AI applications tailored to their day-to-day work.\n\nTheir shared ambition is to empower teams across the media division to experiment with and develop practical uses of AI that support journalism and high-quality reporting.\n\nArtificial intelligence is a powerful tool that, when put to work in newsrooms, enables journalists to focus on the core of their profession: investigating, analysing and writing. Teams will be able to explore applications such as document research, document comparison and preliminary translation. The goal is to enable them to devote more time to investigative reporting, analysis and reporting in the field.\n\nIn addition, in an increasingly crowded information landscape, personalisation has become a major priority. Artificial intelligence is an essential tool for developing and delivering products and services that meet the needs of customers, readers and advertisers alike, helping to attract and retain them and grow revenue across the publications.\n\nThis partnership is a company-wide initiative that also enhances the presence of content from LVMH Group’s Media Division in ChatGPT, providing summaries and excerpts in response to relevant user questions, identifying their sources and including direct links to the original articles. The partnership will extend across all the division’s publications and support the evolution of roles throughout the organisation: streamlining operations, improving efficiency, and encouraging innovation and creativity to prepare today’s publications for tomorrow. The rollout will be supported by training tailored to everyone’s use cases.\n\n> “LVMH’s Media Division (Les Echos, Le Parisien, Challenges, Paris Match, L’Opinion, Investir, L’Agefi and others) and OpenAI are entering into a strategic partnership. This agreement will position our publications at the forefront of the media industry. Integrating AI will become an everyday asset for all our teams. We are delighted to embark on this journey with a partner whose expertise and reputation are recognised worldwide.”\n\n—Michèle Benbunan, CEO of LVMH Group’s Media Division\n\n> “Quality journalism depends on the people who investigate, verify facts and help audiences make sense of information. We want to help put AI to work for everyone across LVMH’s Media Division, giving teams tools to explore their stories and develop new uses of AI. Our ambition is to help them spend more time on what makes their journalism valuable, while respecting their editorial independence. This partnership will also give ChatGPT users access to high-quality journalism that keeps pace with the news.”\n\n—Emmanuel Marill, Managing Director, EMEA at OpenAI\n\nLVMH Group’s media division, Groupe Les Echos-Le Parisien, brings together 17 media brands covering news, finance, culture, heritage, arts and music. With 1,800 employees, including nearly 700 journalists, it reaches more than 27 million people in France every month.\n\nThe Group’s media brands:[Boursier.com⁠(opens in a new window)](http://boursier.com/), Capital Finance, Challenges, Connaissance des Arts, Historia, Investir, La Lettre de l’Expansion, L’Agefi, Le Parisien, Aujourd’hui en France, Les Echos, L’Opinion,[medici.tv⁠(opens in a new window)](http://medici.tv/), Mezzo, Mieux Vivre Votre Argent, Paris Match, Radio Classique.\n\nThe Group’s exhibitions and publishing houses: Citadelles & Mazenod, Fine Arts Paris, In Fine, Salon du Dessin.",
+      "contentZh": "_此新闻最初由LVMH媒体部共享，可在此处阅读⁠（在新窗口中打开）。_\n\n**巴黎，2026年11月16日**——LVMH集团媒体部与OpenAI宣布签署战略协议，旨在支持该部门所有出版物中人工智能的新应用，并通过ChatGPT使其新闻报道更易于获取。该协议包括向媒体部各团队部署OpenAI工具和ChatGPT Enterprise，使他们能够开发适合日常工作的AI应用。\n\n双方的共同目标是赋能媒体部各团队，试验和开发支持新闻业和高质量报道的AI实际应用。\n\n人工智能是一种强大的工具，当应用于新闻编辑室时，能使记者专注于其职业核心：调查、分析和写作。团队将能够探索文档研究、文档比较和初步翻译等应用。目标是使他们能够将更多时间投入到调查性报道、分析和实地报道中。\n\n此外，在日益拥挤的信息环境中，个性化已成为一大优先事项。人工智能是开发和提供满足客户、读者和广告商需求的产品与服务的关键工具，有助于吸引和留住他们，并促进各出版物的收入增长。\n\n此次合作是一项全公司范围的举措，同时也增强了LVMH集团媒体部内容在ChatGPT中的呈现，针对相关用户问题提供摘要和摘录，标明来源并包含原文的直接链接。该合作将扩展到该部门的所有出版物，并支持整个组织角色的演变：简化运营、提高效率，并鼓励创新和创造力，为当今出版物迎接未来做好准备。推广工作将得到针对每个人使用场景量身定制的培训支持。\n\n> “LVMH媒体部（《回声报》、《巴黎人报》、《挑战》、《巴黎竞赛》、《观点》、《投资》、《年龄报》等）与OpenAI正在建立战略合作伙伴关系。该协议将使我们的出版物处于媒体行业的前沿。整合AI将成为我们所有团队日常的助力。我们很高兴能与一个专业知识和声誉享誉全球的合作伙伴共同踏上这一旅程。”\n\n——Michèle Benbunan，LVMH集团媒体部首席执行官\n\n> “高质量的新闻业依赖于那些进行调查、核实事实并帮助受众理解信息的人。我们希望帮助LVMH媒体部的每个人将AI付诸实践，为团队提供探索其报道和开发AI新用途的工具。我们的目标是帮助他们将更多时间花在使其新闻业有价值的事情上，同时尊重他们的编辑独立性。此次合作还将使ChatGPT用户能够获取与新闻同步的高质量新闻报道。”\n\n——Emmanuel Marill，OpenAI欧洲、中东和非洲地区董事总经理\n\nLVMH集团媒体部——Les Echos-Le Parisien集团，汇集了17个媒体品牌，涵盖新闻、金融、文化、遗产、艺术和音乐。拥有1800名员工，其中包括近700名记者，每月在法国触达超过2700万人。\n\n集团媒体品牌：[Boursier.com⁠（在新窗口中打开）](http://boursier.com/)、Capital Finance、Challenges、Connaissance des Arts、Historia、Investir、La Lettre de l’Expansion、L’Agefi、Le Parisien、Aujourd’hui en France、Les Echos、L’Opinion、[medici.tv⁠（在新窗口中打开）](http://medici.tv/)、Mezzo、Mieux Vivre Votre Argent、Paris Match、Radio Classique。\n\n集团的展览和出版机构：Citadelles & Mazenod、Fine Arts Paris、In Fine、Salon du Dessin。",
+      "titleZh": "LVMH媒体部门宣布与OpenAI建立战略合作伙伴关系",
+      "summaryZh": "LVMH媒体部门与OpenAI宣布建立合作伙伴关系，利用AI支持新闻业，并通过ChatGPT使其出版物更易于获取。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-11-16T09:00:00.000Z",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "collectedAt": "2026-11-16T10:15:47.481Z"
+    },
+    {
+      "id": "464dfb098fbed247bb48",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "content": "The Standard Model of particle physics is an extraordinarily successful theory of nature, describing the known elementary particles and three of the four fundamental forces—the strong force, the weak force, and electromagnetism. The success of the theory rests on outstanding agreement between theoretical calculations and experiments across eighteen orders of magnitude, from the low energies of hydrogen’s 21-centimeter radio emission to the high energies of collisions at the Large Hadron Collider. And yet for all of its successes over the more than fifty years of its existence, a foundational problem remains: how to give the full theory a nonperturbative definition, one that does not rely on treating its interactions as small corrections. In an [October preprint⁠(opens in a new window)](https://arxiv.org/abs/2610.09093) prepared with the aid of GPT‑6 Astra, I proposed a candidate definition on a lattice—a grid representing spacetime.\n\nI had a strategy for tackling this problem, but had not been able to prove that it worked in all the cases it needed to cover. Astra helped turn that strategy into a construction and took the lead in developing the detailed proof. To explain what we did, it helps to start with what is missing from our existing description of the Standard Model.\n\n## What is missing from the Standard Model’s definition?\n\nWhat does it mean to say that we lack a definition of the Standard Model? Quantum mechanics and special relativity tell us how the particles and forces of the Standard Model interact. Unfortunately, we don’t yet know how to make complete predictions based directly on these interactions. Instead, we often start by imagining that the interactions are turned off, so that electrons would no longer repel each other. We can solve that problem exactly, then put the interactions back in as a series of small corrections. When the corrections get progressively smaller, a few terms can give a remarkably precise answer—for example, it has allowed physicists to predict the strength of the electron’s magnetism to within a few parts in a trillion. This approach is known as perturbation theory.\n\nHowever, much of the richness of the Standard Model lies outside the realm of perturbation theory. Take the mass of the proton: the proton is made up of three quarks, but its mass comes primarily from the motion and interactions of the quarks and the strong force-carrying gluons inside it. If you turn off the strong force, the proton falls apart entirely, so perturbation theory is not a useful guide to understanding the size of the proton’s mass. More powerful methods are needed to access information about the theory nonperturbatively, where the interactions are present from the start and not treated as small corrections.\n\nFor the full Standard Model in continuous spacetime, we don’t have a nonperturbative definition, or even an understanding of whether the interacting theory is mathematically well defined. A promising alternative is to discretize spacetime into a grid of points, known as a lattice. The spacing of the grid defines the shortest distance our theory can resolve, and studying a finite grid allows us to give a rigorous nonperturbative definition of the theory at a given spacing. It also enables us to put the theory on a computer, where we can calculate its predictions directly without resorting to perturbation theory. This approach, known as lattice field theory, has led to remarkable progress in our understanding of the strong force over the last few decades, including a quantitative understanding of the mass of the proton from first principles.\n\n## Left-handed particles\n\nIf lattice field theory has been so successful for the strong force, why haven’t we extended it to a nonperturbative lattice definition of the entire Standard Model? Here a crucial difference stands in the way: the Standard Model is an example of what is known as a chiral theory.\n\nA chiral theory is one that looks different under reflection in space. Think of gloves in a mirror: the mirror image of a left-handed glove is a right-handed glove. If you have one of each kind, the mirror image does as well, so your collection of gloves looks the same under reflection in space. But if you only have a left-handed glove, the right-handed glove in the mirror is different.\n\nThis notion of handedness extends to many of the fundamental particles in the Standard Model, known as fermions, including quarks and electrons. Most forces in the Standard Model are not chiral: the strong force and electromagnetism, for example, treat left-handed and right-handed fermions in the same way. Such theories can be put on a lattice more readily.\n\nBut the third fundamental force of the Standard Model, the weak force, lacks this reflection symmetr y. It treats left- and right-handed fermions differently, and so does not look the same under mirror reflections that exchange left and right. This treating of different-handed particles differently is what makes the Standard Model a chiral theory. And it turns out that putting chiral theories on a lattice is profoundly challenging. If we try to put a left-handed fermion on the lattice, the most natural rules give you a right-handed partner you never asked for. This is a surprising outcome, which we’ll unpack momentarily. Whatever the reason, this means a straightforward lattice formulation of the Standard Model gives the wrong particle content for the weak force. Doubling is one reason a complete nonperturbative definition of the Standard Model has been missing since the theory took shape.\n\n## An analogy with light and mirrors\n\nTo understand doubling, consider an analogy with light. Light has two polarizations, which describe the orientation of the electric field as the light moves through space. (This is familiar if you wear polarized sunglasses, which block the horizontally-polarized light that reflects off water or roads while letting through vertically-polarized light.) Although polarized sunglasses pick out a basis of horizontal and vertical polarizations, for our analogy it will be more useful to pick a basis where these two polarizations are left-circular and right-circular, meaning that the electric field is rotating either clockwise or counterclockwise around the direction of motion. As we’ve said, electromagnetism is reflection-symmetric, so its actual laws are the same for both left-circular and right-circular polarizations. (For the technically inclined, left and right refer to _chirality_ when we talk about fermions. In our analogy with light, they refer to the photon’s _helicity_, which tells us whether its spin points along or against its direction of travel.)\n\nBut imagine you wanted to emulate a world with only left-circular light, akin to the way the weak interactions single out left-handed fermions. To study this in the lab, you could put a laser producing left-circular light into a box with a mirror at either end. The light could build up as it bounced back and forth, allowing you to study it carefully—kind of like putting the Standard Model on a lattice. In each case you are bounding the accessible length scales of the theory to gain control—the lattice bounds the shortest accessible distances, while the box bounds the longest distances.\n\nIf you built the box using ordinary mirrors (like putting a chiral theory on the lattice in the most straightforward way), you’d be in for a surprise: the left-circular light coming out of the laser becomes right-circular when it bounces off the mirror at the other end, so now the box contains both polarizations of light. This occurs because the mirror reverses the direction of the light without changing how the electric field is rotating (as seen from the same end of the box), which flips the polarization. This is a bit like the appearance of doublers when you put a left-handed fermion on the lattice. You supplied only left-handed light, and the box supplied the other hand.\n\nThere is a clever fix. You can make a chiral mirror using special films whose molecules line up in layers. The alignment turns a little from one layer to the next, tracing a spiral down into the film. For light whose wavelength and handedness match the spiral, the small reflections from different layers reinforce one another, flipping the rotation of the electric field in the light that bounces back. The film sends left-handed light back left-handed and lets right-handed light pass through. Such chiral mirrors have been around for more than a decade, and the phenomenon even occurs in nature: some scarab beetles have a similar spiral in their shiny shells. If you constructed your box using chiral mirrors, then the light traveling in both directions would be left-circular.\n\nA similar trick works on the lattice: decades ago, Paul Ginsparg and Nobel laureate Ken Wilson[1](https://openai.com/index/step-toward-defining-the-standard-model/#citation-bottom-1) worked out the lattice rules analogous to the requirement that chiral mirrors reverse the rotation of the electric field upon reflection. Rajamani Narayanan and Herbert Neuberger[2](https://openai.com/index/step-toward-defining-the-standard-model/#citation-bottom-2) built the analog of the chiral mirrors by finding the necessary definition of fundamental particles on the lattice, known as overlap fermions. Finally, Martin Lüscher[3](https://openai.com/index/step-toward-defining-the-standard-model/#citation-bottom-3) showed how to tell the difference between left-handed and right-handed overlap fermions on the lattice, while Yoshio Kikukawa[4](https://openai.com/index/step-toward-defining-the-standard-model/#citation-bottom-4) and collaborators explored how this might be used to describe weak interactions in the Standard Model. However, one piece was still missing.\n\n## Getting the phase right\n\nTo identify that piece, let’s come back to our box with chiral mirrors. The circular polarization of light tells us which way the electric field turns as light propagates, but there’s another important property of the light in our experiment: the optical phase. Imagine water waves rolling past the pilings of a dock, and watch the water rise and fall at one piling. The wave’s _phase_ is the stage of that rise and fall you catch it in when you look, perhaps just past its highest point and on its way down. For our circularly polarized light, the optical phase tracks the same kind of cycle at a fixed spot in the beam, with the electric field pointing up at the “crest” and down at the “trough.”\n\nThe relative phase of two waves determines how much they add or cancel at the same point. At one piling of a dock, two waves arriving in phase lift the water higher as their crests meet, while a crest arriving with a trough can leave the water close to its usual level. Similarly, light with the same phase in the same place builds up, while light with different phases can cancel out. In our box with chiral mirrors, left-circular light is now bouncing back and forth inside the box. After a lap, the returning light meets fresh light from the laser going in the same direction. If their electric fields are in step, they reinforce and the light builds up inside the box. If the fields are half a cycle apart, they point in opposite directions and the returning light cancels some of the fresh light. To build up a strong beam, we want the phase of each return to arrive in step with the source.\n\nTo get the phase right, we can rotate one chiral mirror relative to the other. Imagine a mark at twelve o’clock on the rim, and spin the mirror about the beam as though the beam were its axle. Moving the mark to three o’clock turns every layer of the film by a quarter turn and shifts the phase of the reflected light by half a cycle. We can set the angle to make up for the phase accumulated on the rest of the trip. Once the returning light arrives in step with the laser, we have a splendid laboratory for studying purely left-handed light.\n\n![Image 1: Three progressively finer lattices show decreasing orange fermion phase shifts; a teal correction arrow returns the fermion measure to its starting phase.](https://images.ctfassets.net/kftzwdyauwt9/4G0ZXdAgtYGRHIUayuw7AH/1ef11f2013114c08e706289c24b9897d/step-toward-defining-the-standard-model-diagram.png?w=3840&q=90&fm=webp)\n\nImagine changing the force fields until they return to where they started. The orange arcs show the phase the left-handed fermions pick up on that round trip, first on the original grid and then on finer ones. Each bracket pairs two neighboring grids. Adding up the differences between their arcs recovers the phase shift on the original grid. The teal arrow undoes that shift, bringing the fermion measure back to its starting phase.\n\nNathaniel Craig/GPT‑6 Astra\n\nOn the lattice, overlap fermions give us a way of keeping only the left-handed fermions that we want, and getting rid of the doublers. But this doesn’t tell us how to set the phase. (The phase in question is quite different from the one we’ve encountered in our chiral mirror thought experiment, but the analogy is good.) On the lattice, this becomes tricky because the phase depends on what the forces of the Standard Model are doing at every grid point. Lüscher worked out the phase prescription for a simpler class of theories such as a chiral version of electromagnetism, but the alignment for the full Standard Model remained open for more than 25 years.\n\nWe can try to assign a phase by starting with one configuration of forces on the lattice and following the allowed left-handed fermions as we change the force fields in small steps. Now take a series of steps that bring the force fields back to where they started. The same states are allowed at the end, yet the way we carried them around the loop can leave us with a different phase. In the box, we adjusted the mirror to compensate for the phase the light picked up on a lap. On the lattice we have to work out how to compensate for the phase picked up around every loop.\n\n## Building the construction with Astra\n\nMy idea was to take the force fields on the grid where we want to define the theory and represent those same fields on a succession of finer grids. Comparing the allowed fermion states on two successive grids tells us one part of the phase correction for a small change in the forces. Adding up those parts gives us the phase rule on the original grid. The proof shows that it gives the right correction around every allowed loop. The correction for a change at one spot depends mainly on the fields nearby, and different mathematical descriptions of the same fields give the same answer. This supplies the measure for the Standard Model at finite lattice spacing, under a bound on field strengths at the scale of the grid.\n\nDeveloping this refinement strategy into a proof required several rounds of work with Astra and discussions with outside experts. GPT‑6 Astra was essential to turning the refinement idea into a working construction. It suggested the right way to carry a given set of force fields onto finer grids, showed that the comparisons on finer grids would converge to a definite answer, and took the lead in developing the detailed proof. Human experts also played a key role; lattice field theorists Maarten Golterman, Andreas Kronfeld, and Yigal Shamir graciously spent time looking over Astra’s proof and asking probing questions that helped me to build confidence in the result. Their experience with the problem and the questions they asked were invaluable as the construction took shape.\n\n## What comes next\n\nThe result is a candidate nonperturbative lattice definition for the Standard Model, potentially answering a question that had been open for more than fifty years. As with all scientific progress, however, this construction is much more a beginning than an end. Scientific dialogue among experts is required to decide if this prescription has all the properties we desire. The method that Astra and I proposed is far more an answer in principle than an answer in practice; much work lies ahead to make it useful for realistic lattice simulations. Right now I’m thinking a lot about whether this construction satisfies reflection positivity at finite lattice spacing, a condition that helps connect calculations in this lattice model to a quantum theory in which probabilities are conserved.\n\nThe construction also leaves open the question of defining the interacting theory in continuous spacetime. OpenAI’s recent proof of the existence of Yang-Mills theory (of which the strong and weak forces of the Standard Model are examples) provides the missing puzzle piece. This enabled them to prove the existence of the simplest unified Yang-Mills theory that includes the gauge fields and fermions of the Standard Model by starting with overlap fermions on the lattice and taking the continuum limit. I’m optimistic these developments will lead to new progress in our understanding of the Standard Model.",
+      "contentZh": "粒子物理学的标准模型是一个极其成功的自然理论，描述了已知的基本粒子以及四种基本力中的三种——强核力、弱核力和电磁力。该理论的成功建立在理论计算与实验之间在十八个数量级范围内的高度一致性之上，从氢原子21厘米射电辐射的低能区到大型强子对撞机碰撞的高能区。然而，尽管该理论在其存在五十多年间取得了诸多成功，一个基础性问题仍然存在：如何为完整理论给出一个非微扰定义，一个不依赖于将其相互作用视为微小修正的定义。在[10月预印本⁠（在新窗口中打开）](https://arxiv.org/abs/2610.09093)中——该预印本借助GPT‑6 Astra完成——我提出了一个基于格点（代表时空的网格）的候选定义。\n\n我有一个解决这个问题的策略，但一直无法证明它在所有需要覆盖的情况下都有效。Astra帮助将该策略转化为一个构造，并在发展详细证明方面发挥了主导作用。为了解释我们所做的工作，有必要从现有标准模型描述中缺失的内容说起。\n\n## 标准模型定义中缺失了什么？\n\n说我们缺乏标准模型的定义，这意味着什么？量子力学和狭义相对论告诉我们标准模型中的粒子和力如何相互作用。不幸的是，我们尚不知道如何直接基于这些相互作用做出完整预测。相反，我们通常首先设想相互作用被关闭，这样电子就不再相互排斥。我们可以精确求解那个问题，然后将相互作用作为一系列小修正重新引入。当修正逐渐变小时，少数几项就能给出极其精确的答案——例如，它使物理学家能够将电子磁性的强度预测到万亿分之几的精度。这种方法被称为微扰论。\n\n然而，标准模型的许多丰富内容位于微扰论的范围之外。以质子的质量为例：质子由三个夸克组成，但其质量主要来自其内部夸克和传递强核力的胶子的运动与相互作用。如果你关闭强核力，质子会完全瓦解，因此微扰论不是理解质子质量大小的有用指南。需要更强大的方法来获取关于该理论的非微扰信息，即相互作用从一开始就存在且不被视为小修正。\n\n对于连续时空中的完整标准模型，我们没有非微扰定义，甚至不了解相互作用理论是否在数学上有良好定义。一个有前景的替代方案是将时空离散化为一个点阵，称为格点。格点的间距定义了我们理论所能分辨的最短距离，而研究有限格点使我们能够在给定间距下为该理论给出严格的非微扰定义。它还使我们能够将该理论放到计算机上，在那里我们可以直接计算其预测而无需借助微扰论。这种方法被称为格点场论，在过去几十年中使我们对强核力的理解取得了显著进展，包括从第一性原理出发对质子质量的定量理解。\n\n## 左手粒子\n\n如果格点场论对强核力如此成功，为什么我们还没有将其扩展为整个标准模型的非微扰格点定义？这里有一个关键差异阻碍了我们：标准模型是所谓手征理论的一个例子。\n\n手征理论是在空间反射下看起来不同的理论。想想镜子中的手套：左手手套的镜像是一只右手手套。如果你每种各有一只，镜像中也是如此，因此你的手套集合在空间反射下看起来是一样的。但如果你只有一只左手手套，镜子中的右手手套就是不同的。\n\n这种手性概念延伸到标准模型中的许多基本粒子，称为费米子，包括夸克和电子。标准模型中的大多数力不是手征的：例如，强核力和电磁力以相同方式对待左手和右手费米子。这类理论更容易放到格点上。\n\n但标准模型的第三种基本力——弱核力——缺乏这种反射对称性。它区别对待左手和右手费米子，因此在交换左右手的镜像反射下看起来并不相同。这种区别对待不同手性粒子的做法正是使标准模型成为手征理论的原因。而事实证明，将手征理论放到格点上极具挑战性。如果我们试图将左手费米子放到格点上，最自然的规则会给你一个你从未要求的右手伙伴。这是一个令人惊讶的结果，我们稍后会详细解释。无论原因如何，这意味着标准模型的直接格点表述会给出弱核力错误的粒子内容。倍增是自该理论成形以来一直缺失完整非微扰定义的原因之一。\n\n## 光与镜子的类比\n\n为了理解倍增，考虑一个与光的类比。光有两种偏振，描述光在空间中传播时电场的取向。（如果你戴偏振太阳镜，这很熟悉——偏振太阳镜阻挡从水面或路面反射的水平偏振光，而让垂直偏振光通过。）虽然偏振太阳镜选出了水平和垂直偏振的基，但在我们的类比中，选择一个左旋圆偏振和右旋圆偏振的基会更有用，这意味着电场围绕运动方向顺时针或逆时针旋转。正如我们所说，电磁力是反射对称的，因此其实际定律对左旋圆偏振和右旋圆偏振是相同的。（对于有技术背景的读者，当我们谈论费米子时，左和右指的是_手征性_。在我们与光的类比中，它们指的是光子的_螺旋度_，它告诉我们其自旋是指向还是逆着其运动方向。）\n\n但想象一下，你想模拟一个只有左旋圆偏振光的世界，类似于弱相互作用挑选出左手费米子的方式。为了在实验室中研究这一点，你可以将产生左旋圆偏振光的激光器放入一个两端都有镜子的盒子中。光在来回反射时会累积，使你能够仔细研究它——有点像将标准模型放在晶格上。在每种情况下，你都是通过限制理论的可及长度尺度来获得控制——晶格限制了最短的可及距离，而盒子限制了最长的距离。\n\n如果你用普通镜子建造盒子（就像以最直接的方式将手性理论放在晶格上），你会大吃一惊：从激光器出来的左旋圆偏振光在另一端被镜子反射后会变成右旋圆偏振光，所以现在盒子里包含了两种偏振的光。发生这种情况是因为镜子反转了光的传播方向，却没有改变电场旋转的方式（从盒子的同一端看），从而翻转了偏振。这有点像你把左手费米子放在晶格上时出现的倍增子。你只提供了左手光，而盒子提供了另一只手。\n\n有一个巧妙的解决办法。你可以使用特殊薄膜制作手性镜子，其分子分层排列。排列从一层到下一层略微转动，在薄膜中形成螺旋。对于波长和手性与螺旋匹配的光，来自不同层的小反射会相互增强，翻转反射光中电场的旋转。薄膜将左手光以左手形式送回，并让右手光通过。这种手性镜子已经存在了十多年，这种现象甚至出现在自然界中：一些圣甲虫的闪亮外壳中也有类似的螺旋。如果你使用手性镜子建造盒子，那么两个方向传播的光都将是左旋圆偏振的。\n\n类似的技巧在晶格上也有效：几十年前，Paul Ginsparg和诺贝尔奖得主Ken Wilson[1](https://openai.com/index/step-toward-defining-the-standard-model/#citation-bottom-1) 推导出了类似于手性镜子在反射时反转电场旋转这一要求的晶格规则。Rajamani Narayanan和Herbert Neuberger[2](https://openai.com/index/step-toward-defining-the-standard-model/#citation-bottom-2) 通过找到晶格上基本粒子的必要定义（称为重叠费米子）构建了手性镜子的类比物。最后，Martin Lüscher[3](https://openai.com/index/step-toward-defining-the-standard-model/#citation-bottom-3) 展示了如何区分晶格上的左手和右手重叠费米子，而Yoshio Kikukawa[4](https://openai.com/index/step-toward-defining-the-standard-model/#citation-bottom-4) 及其合作者探索了如何利用这一点来描述标准模型中的弱相互作用。然而，还缺少一块拼图。\n\n## 正确设置相位\n\n为了找出那块拼图，让我们回到带有手性镜子的盒子。光的圆偏振告诉我们光传播时电场转向哪个方向，但我们实验中的光还有另一个重要属性：光学相位。想象水波滚过码头的桩子，观察一个桩子处水的涨落。波的_相位_是你观察时捕捉到的涨落阶段，也许是刚过最高点并在下降途中。对于我们圆偏振光，光学相位跟踪光束中固定点的同类循环，电场在“波峰”处指向上方，在“波谷”处指向下方。\n\n两列波的相对相位决定了它们在同一点相加或抵消的程度。在码头的一个桩子处，两列同相到达的波在波峰相遇时使水升得更高，而波峰与波谷同时到达则可能使水接近通常水平。同样，同一位置同相位的光会累积，而不同相位的光会抵消。在我们带有手性镜子的盒子中，左旋圆偏振光现在在盒子内来回反射。经过一圈后，返回的光与来自激光器的同方向新鲜光相遇。如果它们的电场同步，它们会增强，光在盒子内累积。如果电场相差半个周期，它们指向相反方向，返回的光会抵消一些新鲜光。为了建立强光束，我们希望每次返回的相位与光源同步到达。\n\n为了正确设置相位，我们可以相对于另一个手性镜子旋转一个手性镜子。想象边缘上十二点钟方向有一个标记，像光束是轴一样绕光束旋转镜子。将标记移到三点钟方向会使薄膜的每一层旋转四分之一圈，并将反射光的相位移动半个周期。我们可以设置角度来弥补其余行程中累积的相位。一旦返回的光与激光器同步到达，我们就有了一个研究纯左手光的绝佳实验室。\n\n![图片1：三个逐渐精细的晶格显示递减的橙色费米子相移；一个青色校正箭头将费米子测度返回到其起始相位。](https://images.ctfassets.net/kftzwdyauwt9/4G0ZXdAgtYGRHIUayuw7AH/1ef11f2013114c08e706289c24b9897d/step-toward-defining-the-standard-model-diagram.png?w=3840&q=90&fm=webp)\n\n想象改变力场直到它们回到起点。橙色弧线显示左手费米子在那次往返中获得的相位，首先在原始网格上，然后在更精细的网格上。每个括号配对两个相邻网格。将它们弧线之间的差异相加可以恢复原始网格上的相移。青色箭头撤销该相移，使费米子测度回到其起始相位。\n\nNathaniel Craig/GPT‑6 Astra\n\n在晶格上，重叠费米子为我们提供了一种只保留我们想要的左手费米子并消除倍增子的方法。但这并没有告诉我们如何设置相位。（所讨论的相位与我们手性镜子思想实验中遇到的相位截然不同，但这个类比很好。）在晶格上，这变得棘手，因为相位取决于标准模型的力在每个网格点上的作用。Lüscher推导出了更简单理论类别（如电磁学的手性版本）的相位规定，但完整标准模型的匹配在超过25年的时间里仍未解决。\n\n我们可以尝试通过从格点上一种力场配置开始，并随着我们以小步改变力场而追踪允许的左旋费米子，来指定一个相位。现在采取一系列步骤，使力场回到起始位置。最终允许相同的态，然而我们绕环路携带它们的方式可能给我们留下不同的相位。在盒子中，我们调整镜子以补偿光在一圈中获得的相位。在格点上，我们必须弄清楚如何补偿绕每个环路获得的相位。\n\n## 用Astra构建构造\n\n我的想法是取我们想要定义理论的网格上的力场，并在一系列更精细的网格上表示那些相同的场。比较两个连续网格上允许的费米子态，告诉我们力的小变化所对应的相位修正的一部分。将这些部分相加，就得到原始网格上的相位规则。证明表明，它对每个允许的环路都给出正确的修正。对一处变化的修正主要取决于附近的场，而同一场的不同数学描述给出相同的答案。这为有限格点间距下的标准模型提供了测度，但受格点尺度上场强的界限制约。\n\n将这一细化策略发展成证明，需要与Astra进行数轮工作，并与外部专家讨论。GPT‑6 Astra对于将细化想法转化为可行构造至关重要。它提出了将给定一组力场带到更精细网格上的正确方式，表明更精细网格上的比较会收敛到一个确定答案，并带头发展了详细证明。人类专家也发挥了关键作用；格点场论专家Maarten Golterman、Andreas Kronfeld和Yigal Shamir慷慨地花时间审阅Astra的证明，并提出探究性问题，帮助我建立对这一结果的信心。他们在这个问题上的经验以及他们提出的问题，在构造成形过程中非常宝贵。\n\n## 接下来是什么\n\n其结果是一个候选的标准模型非微扰格点定义，可能回答了一个悬而未决五十多年的问题。然而，与所有科学进展一样，这一构造与其说是终点，不如说是起点。需要专家之间的科学对话来决定这一方案是否具备我们所期望的全部性质。Astra和我提出的方法，与其说是实践中的答案，不如说是原则上的答案；要使其对现实格点模拟有用，还有大量工作要做。现在我在深入思考这一构造是否满足有限格点间距下的反射正性，这一条件有助于将这一格点模型中的计算与概率守恒的量子理论联系起来。\n\n这一构造也留下了在连续时空中定义相互作用理论的问题。OpenAI最近关于杨-米尔斯理论存在的证明（标准模型的强力和弱力就是其例子）提供了缺失的拼图。这使他们能够通过从格点上的重叠费米子出发并取连续极限，证明包含标准模型规范场和费米子的最简单统一杨-米尔斯理论的存在。我乐观地认为，这些进展将带来我们对标准模型理解的新进展。",
+      "titleZh": "迈向在格点上定义标准模型的一步",
+      "summaryZh": "探索标准模型的一个候选非微扰格点定义，以及GPT-6 Astra如何帮助将该想法转化为详细证明。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-11-15T22:00:01.000Z",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "collectedAt": "2026-11-16T10:15:47.482Z"
+    },
+    {
       "id": "413f9d3ca2137192e7de",
       "sourceId": "openai-news",
       "company": "OpenAI",
@@ -67,7 +101,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-13T15:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "collectedAt": "2026-11-15T10:01:51.663Z"
+      "collectedAt": "2026-11-16T10:15:47.483Z"
     },
     {
       "id": "8d572eea215850b3eff7",
@@ -84,7 +118,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-13T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-15T10:01:56.945Z"
+      "collectedAt": "2026-11-16T10:15:50.567Z"
     },
     {
       "id": "0da8d0ab65a7212f5fbb",
@@ -101,7 +135,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-12T20:00:00.000Z",
       "url": "https://openai.com/business/customer-stories/amplitude",
-      "collectedAt": "2026-11-15T10:01:51.664Z"
+      "collectedAt": "2026-11-16T10:15:47.484Z"
     },
     {
       "id": "adf57baebe5e72ea826a",
@@ -118,7 +152,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-12T18:00:50.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "collectedAt": "2026-11-15T10:01:54.369Z"
+      "collectedAt": "2026-11-16T10:15:49.216Z"
     },
     {
       "id": "4dcea4b8496516ae6743",
@@ -135,7 +169,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-12T18:00:00.000Z",
       "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "collectedAt": "2026-11-15T10:01:54.564Z"
+      "collectedAt": "2026-11-16T10:15:49.447Z"
     },
     {
       "id": "163a59c4085f2f888d32",
@@ -152,7 +186,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-12T12:00:00.000Z",
       "url": "https://openai.com/business/customer-stories/gondola",
-      "collectedAt": "2026-11-15T10:01:51.665Z"
+      "collectedAt": "2026-11-16T10:15:47.484Z"
     },
     {
       "id": "c6c92673d541185e54df",
@@ -169,7 +203,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-12T09:30:00.000Z",
       "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
-      "collectedAt": "2026-11-15T10:01:51.665Z"
+      "collectedAt": "2026-11-16T10:15:47.484Z"
     },
     {
       "id": "0235b930b103a60c96c6",
@@ -186,7 +220,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-15T10:01:52.569Z"
+      "collectedAt": "2026-11-16T10:15:47.970Z"
     },
     {
       "id": "44c6fe99de9e1548344a",
@@ -203,7 +237,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.245Z"
+      "collectedAt": "2026-11-16T10:15:48.411Z"
     },
     {
       "id": "8256d925e8e259c73ebd",
@@ -220,7 +254,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-11T18:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "collectedAt": "2026-11-15T10:01:54.564Z"
+      "collectedAt": "2026-11-16T10:15:49.447Z"
     },
     {
       "id": "d0c0b7e4e350883223d1",
@@ -237,7 +271,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-11T08:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "collectedAt": "2026-11-15T10:01:51.666Z"
+      "collectedAt": "2026-11-16T10:15:47.488Z"
     },
     {
       "id": "f2971b62e614776194c4",
@@ -254,7 +288,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-10T19:00:00.000Z",
       "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-      "collectedAt": "2026-11-15T10:01:54.565Z"
+      "collectedAt": "2026-11-16T10:15:49.447Z"
     },
     {
       "id": "cf69537b137372cce4ee",
@@ -271,7 +305,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-10T16:03:47.000Z",
       "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-      "collectedAt": "2026-11-15T10:01:54.369Z"
+      "collectedAt": "2026-11-16T10:15:49.216Z"
     },
     {
       "id": "b561ead9b12ffe2a59d2",
@@ -288,7 +322,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-10T14:00:00.000Z",
       "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-      "collectedAt": "2026-11-15T10:01:54.565Z"
+      "collectedAt": "2026-11-16T10:15:49.447Z"
     },
     {
       "id": "32267f6fb227227dd871",
@@ -305,7 +339,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-10T13:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-      "collectedAt": "2026-11-15T10:01:54.565Z"
+      "collectedAt": "2026-11-16T10:15:49.447Z"
     },
     {
       "id": "01be4009896888301ebc",
@@ -322,7 +356,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-10T12:00:00.000Z",
       "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "collectedAt": "2026-11-15T10:01:51.666Z"
+      "collectedAt": "2026-11-16T10:15:47.489Z"
     },
     {
       "id": "6279ffc95ff3eaf22bb3",
@@ -339,7 +373,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-10T10:00:00.000Z",
       "url": "https://openai.com/index/introducing-businesses-chatgpt",
-      "collectedAt": "2026-11-15T10:01:51.669Z"
+      "collectedAt": "2026-11-16T10:15:47.490Z"
     },
     {
       "id": "b3cce5b9299983ce34fe",
@@ -356,7 +390,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-10T08:00:00.000Z",
       "url": "https://openai.com/index/singapore-airlines-travel-work",
-      "collectedAt": "2026-11-15T10:01:51.673Z"
+      "collectedAt": "2026-11-16T10:15:47.491Z"
     },
     {
       "id": "c23c696ec040a40e4074",
@@ -373,7 +407,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-10T00:00:00.000Z",
       "url": "https://openai.com/index/cogent-security",
-      "collectedAt": "2026-11-15T10:01:51.673Z"
+      "collectedAt": "2026-11-16T10:15:47.491Z"
     },
     {
       "id": "343805d488ec12694882",
@@ -390,7 +424,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-09T19:51:47.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-      "collectedAt": "2026-11-15T10:01:54.369Z"
+      "collectedAt": "2026-11-16T10:15:49.216Z"
     },
     {
       "id": "a156b8580e9e9540bab0",
@@ -407,7 +441,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-09T19:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "collectedAt": "2026-11-15T10:01:51.674Z"
+      "collectedAt": "2026-11-16T10:15:47.491Z"
     },
     {
       "id": "7440484a6a903eadbe55",
@@ -424,7 +458,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-09T13:00:00.000Z",
       "url": "https://openai.com/index/control-room",
-      "collectedAt": "2026-11-15T10:01:51.674Z"
+      "collectedAt": "2026-11-16T10:15:47.492Z"
     },
     {
       "id": "b003757fbd33185dc87c",
@@ -441,7 +475,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-09T08:00:00.000Z",
       "url": "https://openai.com/index/coderabbit-codex-daybreak",
-      "collectedAt": "2026-11-15T10:01:51.675Z"
+      "collectedAt": "2026-11-16T10:15:47.492Z"
     },
     {
       "id": "1a6dc37442d600d7536f",
@@ -458,7 +492,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-09T08:00:00.000Z",
       "url": "https://openai.com/index/kuken",
-      "collectedAt": "2026-11-15T10:01:51.675Z"
+      "collectedAt": "2026-11-16T10:15:47.492Z"
     },
     {
       "id": "a88aef5bbd3b48312d71",
@@ -475,7 +509,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.246Z"
+      "collectedAt": "2026-11-16T10:15:48.412Z"
     },
     {
       "id": "4073886389aaa6fb87fc",
@@ -492,7 +526,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-15T10:01:52.570Z"
+      "collectedAt": "2026-11-16T10:15:47.971Z"
     },
     {
       "id": "1b990a96225405b47868",
@@ -509,7 +543,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-05T20:00:00.000Z",
       "url": "https://openai.com/index/cultfit-builds-with-codex",
-      "collectedAt": "2026-11-15T10:01:51.676Z"
+      "collectedAt": "2026-11-16T10:15:47.492Z"
     },
     {
       "id": "d1596b6657890bbc71f7",
@@ -526,7 +560,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-05T17:05:16.000Z",
       "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-      "collectedAt": "2026-11-15T10:01:54.369Z"
+      "collectedAt": "2026-11-16T10:15:49.216Z"
     },
     {
       "id": "73524ffb13240b069fde",
@@ -543,7 +577,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-05T17:00:00.000Z",
       "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "collectedAt": "2026-11-15T10:01:51.675Z"
+      "collectedAt": "2026-11-16T10:15:47.492Z"
     },
     {
       "id": "9faae3e01a16e7011b9a",
@@ -560,7 +594,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-05T17:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "collectedAt": "2026-11-15T10:01:54.565Z"
+      "collectedAt": "2026-11-16T10:15:49.448Z"
     },
     {
       "id": "19917a744f398f405b66",
@@ -577,7 +611,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-05T09:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-cyber",
-      "collectedAt": "2026-11-15T10:01:51.676Z"
+      "collectedAt": "2026-11-16T10:15:47.493Z"
     },
     {
       "id": "873e8e108ed7b5063a1c",
@@ -594,7 +628,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-05T08:00:00.000Z",
       "url": "https://openai.com/index/merge-builds-with-openai",
-      "collectedAt": "2026-11-15T10:01:51.676Z"
+      "collectedAt": "2026-11-16T10:15:47.493Z"
     },
     {
       "id": "8965987cffe62ff69ffe",
@@ -611,7 +645,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-05T00:45:15.000Z",
       "url": "https://openai.com/ads/customers/flipsnack",
-      "collectedAt": "2026-11-15T10:01:51.677Z"
+      "collectedAt": "2026-11-16T10:15:47.493Z"
     },
     {
       "id": "832e8327fa44562a632f",
@@ -628,7 +662,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-05T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-15T10:01:52.574Z"
+      "collectedAt": "2026-11-16T10:15:47.979Z"
     },
     {
       "id": "837b6abe06f00c47953c",
@@ -645,7 +679,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.247Z"
+      "collectedAt": "2026-11-16T10:15:48.412Z"
     },
     {
       "id": "4de8b27be9e0b374feca",
@@ -662,7 +696,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-04T14:30:00.000Z",
       "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "collectedAt": "2026-11-15T10:01:51.677Z"
+      "collectedAt": "2026-11-16T10:15:47.493Z"
     },
     {
       "id": "3e8cb3e76220121ce9d2",
@@ -679,7 +713,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-04T07:00:00.000Z",
       "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-      "collectedAt": "2026-11-15T10:01:51.677Z"
+      "collectedAt": "2026-11-16T10:15:47.493Z"
     },
     {
       "id": "c874291f59b4b2e4c676",
@@ -696,7 +730,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-04T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-images-2-6",
-      "collectedAt": "2026-11-15T10:01:51.677Z"
+      "collectedAt": "2026-11-16T10:15:47.493Z"
     },
     {
       "id": "c53c56c593280d52e6bc",
@@ -713,7 +747,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-04T00:00:00.000Z",
       "url": "https://openai.com/index/devrev-enterprise-self-service",
-      "collectedAt": "2026-11-15T10:01:51.677Z"
+      "collectedAt": "2026-11-16T10:15:47.494Z"
     },
     {
       "id": "47c5f65358ae4d253d36",
@@ -730,7 +764,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-03T12:00:00.000Z",
       "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-      "collectedAt": "2026-11-15T10:01:51.677Z"
+      "collectedAt": "2026-11-16T10:15:47.494Z"
     },
     {
       "id": "949c7b5db36a2e2daf42",
@@ -747,7 +781,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-03T08:00:00.000Z",
       "url": "https://openai.com/index/cisco-cyber",
-      "collectedAt": "2026-11-15T10:01:51.678Z"
+      "collectedAt": "2026-11-16T10:15:47.494Z"
     },
     {
       "id": "4633daa6f18f86c54eb3",
@@ -764,7 +798,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-03T08:00:00.000Z",
       "url": "https://openai.com/index/heimstaden",
-      "collectedAt": "2026-11-15T10:01:51.678Z"
+      "collectedAt": "2026-11-16T10:15:47.494Z"
     },
     {
       "id": "92bdd093b6a518bec6ad",
@@ -781,7 +815,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.247Z"
+      "collectedAt": "2026-11-16T10:15:48.412Z"
     },
     {
       "id": "6f440249a277a8fbbe16",
@@ -798,7 +832,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-02T15:30:00.000Z",
       "url": "https://openai.com/index/scaling-git-at-openai",
-      "collectedAt": "2026-11-15T10:01:51.678Z"
+      "collectedAt": "2026-11-16T10:15:47.495Z"
     },
     {
       "id": "9ed808a8187abb803291",
@@ -815,7 +849,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-02T09:00:00.000Z",
       "url": "https://openai.com/index/lifeval",
-      "collectedAt": "2026-11-15T10:01:51.679Z"
+      "collectedAt": "2026-11-16T10:15:47.495Z"
     },
     {
       "id": "44665529391c2ff9191f",
@@ -832,7 +866,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "url": "https://openai.com/index/qodo-codex-plugin",
-      "collectedAt": "2026-11-15T10:01:51.679Z"
+      "collectedAt": "2026-11-16T10:15:47.495Z"
     },
     {
       "id": "d175ac2cc4f761a12b94",
@@ -849,7 +883,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.247Z"
+      "collectedAt": "2026-11-16T10:15:48.412Z"
     },
     {
       "id": "6a84a600fee99150321d",
@@ -866,7 +900,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-30T09:00:00.000Z",
       "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "collectedAt": "2026-11-15T10:01:51.679Z"
+      "collectedAt": "2026-11-16T10:15:47.495Z"
     },
     {
       "id": "b0f21a805013f03c7dca",
@@ -883,7 +917,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.247Z"
+      "collectedAt": "2026-11-16T10:15:48.413Z"
     },
     {
       "id": "c4fc9ca3ccc3cbb3f72d",
@@ -900,7 +934,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-29T17:00:00.000Z",
       "url": "https://openai.com/index/updated-model-spec",
-      "collectedAt": "2026-11-15T10:01:51.679Z"
+      "collectedAt": "2026-11-16T10:15:47.496Z"
     },
     {
       "id": "18cef611588a1193dd4a",
@@ -917,7 +951,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-29T09:00:00.000Z",
       "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "collectedAt": "2026-11-15T10:01:51.679Z"
+      "collectedAt": "2026-11-16T10:15:47.496Z"
     },
     {
       "id": "fc05e6230607d9f27299",
@@ -934,7 +968,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "url": "https://openai.com/index/credit-saison",
-      "collectedAt": "2026-11-15T10:01:51.679Z"
+      "collectedAt": "2026-11-16T10:15:47.496Z"
     },
     {
       "id": "9587d6355203807dd506",
@@ -951,7 +985,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.247Z"
+      "collectedAt": "2026-11-16T10:15:48.413Z"
     },
     {
       "id": "b3912c20867cd3902d08",
@@ -968,7 +1002,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-28T19:40:49.000Z",
       "url": "https://openai.com/ads/customers/evernote",
-      "collectedAt": "2026-11-15T10:01:51.680Z"
+      "collectedAt": "2026-11-16T10:15:47.496Z"
     },
     {
       "id": "ddcd17d7121c57be0600",
@@ -985,7 +1019,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-28T17:00:58.000Z",
       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "collectedAt": "2026-11-15T10:01:54.369Z"
+      "collectedAt": "2026-11-16T10:15:49.216Z"
     },
     {
       "id": "24b6bd430275323c0d5b",
@@ -1002,7 +1036,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-28T13:15:00.000Z",
       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "collectedAt": "2026-11-15T10:01:51.680Z"
+      "collectedAt": "2026-11-16T10:15:47.496Z"
     },
     {
       "id": "d3623346a5ba4773e870",
@@ -1019,7 +1053,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-28T09:30:00.000Z",
       "url": "https://openai.com/index/legora",
-      "collectedAt": "2026-11-15T10:01:51.680Z"
+      "collectedAt": "2026-11-16T10:15:47.496Z"
     },
     {
       "id": "7d3a7824e5cdde1c9603",
@@ -1036,7 +1070,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-28T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.247Z"
+      "collectedAt": "2026-11-16T10:15:48.413Z"
     },
     {
       "id": "0193ff3cd44006bdf062",
@@ -1053,7 +1087,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-27T15:00:00.000Z",
       "url": "https://openai.com/index/retell-ai",
-      "collectedAt": "2026-11-15T10:01:51.680Z"
+      "collectedAt": "2026-11-16T10:15:47.496Z"
     },
     {
       "id": "c6116b17c346c7c7342b",
@@ -1070,7 +1104,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-27T07:00:00.000Z",
       "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "collectedAt": "2026-11-15T10:01:51.680Z"
+      "collectedAt": "2026-11-16T10:15:47.497Z"
     },
     {
       "id": "a000ebaf269c8ae5d638",
@@ -1087,7 +1121,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-26T22:00:00.000Z",
       "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "collectedAt": "2026-11-15T10:01:51.680Z"
+      "collectedAt": "2026-11-16T10:15:47.497Z"
     },
     {
       "id": "50873b3f4c8bbb10f0ed",
@@ -1104,7 +1138,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-26T18:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "collectedAt": "2026-11-15T10:01:51.681Z"
+      "collectedAt": "2026-11-16T10:15:47.497Z"
     },
     {
       "id": "32f1798b195a8eeda065",
@@ -1121,7 +1155,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-26T14:30:00.000Z",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "collectedAt": "2026-11-15T10:01:51.681Z"
+      "collectedAt": "2026-11-16T10:15:47.497Z"
     },
     {
       "id": "a78767db11daafd34d6e",
@@ -1138,7 +1172,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-26T13:45:00.000Z",
       "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "collectedAt": "2026-11-15T10:01:51.681Z"
+      "collectedAt": "2026-11-16T10:15:47.497Z"
     },
     {
       "id": "fcbae959cfded2c76bf5",
@@ -1155,7 +1189,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-26T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "collectedAt": "2026-11-15T10:01:51.681Z"
+      "collectedAt": "2026-11-16T10:15:47.498Z"
     },
     {
       "id": "d40d5e0ca15ab25db000",
@@ -1172,7 +1206,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-26T07:00:00.000Z",
       "url": "https://openai.com/index/openai-cut-incident-investigation",
-      "collectedAt": "2026-11-15T10:01:51.681Z"
+      "collectedAt": "2026-11-16T10:15:47.498Z"
     },
     {
       "id": "9fc10476b2c18ee0001b",
@@ -1189,7 +1223,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "collectedAt": "2026-11-15T10:01:51.682Z"
+      "collectedAt": "2026-11-16T10:15:47.498Z"
     },
     {
       "id": "fcd67a8854a80133b3f5",
@@ -1206,7 +1240,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-23T10:00:00.000Z",
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "collectedAt": "2026-11-15T10:01:51.682Z"
+      "collectedAt": "2026-11-16T10:15:47.498Z"
     },
     {
       "id": "de8f360d7618ca283160",
@@ -1223,7 +1257,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "url": "https://openai.com/index/anima",
-      "collectedAt": "2026-11-15T10:01:51.682Z"
+      "collectedAt": "2026-11-16T10:15:47.499Z"
     },
     {
       "id": "12faaea26af29e3628b9",
@@ -1240,7 +1274,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.247Z"
+      "collectedAt": "2026-11-16T10:15:48.413Z"
     },
     {
       "id": "b40a489d3dca13c566ea",
@@ -1257,7 +1291,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-22T19:00:00.000Z",
       "url": "https://openai.com/index/decisions-api",
-      "collectedAt": "2026-11-15T10:01:51.682Z"
+      "collectedAt": "2026-11-16T10:15:47.499Z"
     },
     {
       "id": "e0ac835f8bbbb3d1f9a8",
@@ -1274,7 +1308,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-22T00:00:00.000Z",
       "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "collectedAt": "2026-11-15T10:01:51.683Z"
+      "collectedAt": "2026-11-16T10:15:47.499Z"
     },
     {
       "id": "ca1eb8e9f0d5ad4b65c6",
@@ -1291,7 +1325,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.248Z"
+      "collectedAt": "2026-11-16T10:15:48.414Z"
     },
     {
       "id": "a7f4cc0f7267a2cd445c",
@@ -1308,7 +1342,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-21T13:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "collectedAt": "2026-11-15T10:01:51.683Z"
+      "collectedAt": "2026-11-16T10:15:47.500Z"
     },
     {
       "id": "e26725705d6b7e7f5c32",
@@ -1325,7 +1359,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-21T12:00:00.000Z",
       "url": "https://openai.com/index/openai-models-google-cloud",
-      "collectedAt": "2026-11-15T10:01:51.683Z"
+      "collectedAt": "2026-11-16T10:15:47.500Z"
     },
     {
       "id": "92ca159e84584b28e39e",
@@ -1342,7 +1376,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-21T07:00:00.000Z",
       "url": "https://openai.com/index/building-chatgpt-ad-stack",
-      "collectedAt": "2026-11-15T10:01:51.684Z"
+      "collectedAt": "2026-11-16T10:15:47.501Z"
     },
     {
       "id": "f99f7ec39c9e42b8cdb5",
@@ -1359,7 +1393,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "url": "https://openai.com/index/cloudflare-cyber",
-      "collectedAt": "2026-11-15T10:01:51.684Z"
+      "collectedAt": "2026-11-16T10:15:47.501Z"
     },
     {
       "id": "f96d8d9d61bf99f94f98",
@@ -1376,7 +1410,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-15T10:01:52.575Z"
+      "collectedAt": "2026-11-16T10:15:47.979Z"
     },
     {
       "id": "0ce4f81341f84770cb28",
@@ -1393,7 +1427,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.248Z"
+      "collectedAt": "2026-11-16T10:15:48.414Z"
     },
     {
       "id": "c4b1ed46c0fe160229ee",
@@ -1410,7 +1444,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-20T10:00:00.000Z",
       "url": "https://openai.com/index/ted-taylor-restaurant",
-      "collectedAt": "2026-11-15T10:01:51.684Z"
+      "collectedAt": "2026-11-16T10:15:47.501Z"
     },
     {
       "id": "a880df1b302f86a910fe",
@@ -1427,7 +1461,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-20T07:00:00.000Z",
       "url": "https://openai.com/index/terminal-x",
-      "collectedAt": "2026-11-15T10:01:51.684Z"
+      "collectedAt": "2026-11-16T10:15:47.502Z"
     },
     {
       "id": "16ee5437764d50779581",
@@ -1444,7 +1478,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-20T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.248Z"
+      "collectedAt": "2026-11-16T10:15:48.415Z"
     },
     {
       "id": "b330f85b4b03f521aa49",
@@ -1461,7 +1495,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-19T12:00:00.000Z",
       "url": "https://openai.com/index/low-resource-programming-languages",
-      "collectedAt": "2026-11-15T10:01:51.685Z"
+      "collectedAt": "2026-11-16T10:15:47.503Z"
     },
     {
       "id": "0ac6bba12ed4c8cbdc20",
@@ -1478,7 +1512,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-17T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-15T10:01:56.945Z"
+      "collectedAt": "2026-11-16T10:15:50.567Z"
     },
     {
       "id": "741083893d951a305411",
@@ -1495,7 +1529,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "url": "https://openai.com/index/localiza-generative-ai",
-      "collectedAt": "2026-11-15T10:01:51.685Z"
+      "collectedAt": "2026-11-16T10:15:47.504Z"
     },
     {
       "id": "64b4b57c169ea93d3501",
@@ -1512,7 +1546,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "collectedAt": "2026-11-15T10:01:51.686Z"
+      "collectedAt": "2026-11-16T10:15:47.504Z"
     },
     {
       "id": "29c23cec52be23e1fea0",
@@ -1529,7 +1563,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "url": "https://openai.com/index/benefit-street-partners",
-      "collectedAt": "2026-11-15T10:01:51.686Z"
+      "collectedAt": "2026-11-16T10:15:47.504Z"
     },
     {
       "id": "4ed6df5c15d558fd63cd",
@@ -1546,7 +1580,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-15T19:00:00.000Z",
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "collectedAt": "2026-11-15T10:01:51.686Z"
+      "collectedAt": "2026-11-16T10:15:47.504Z"
     },
     {
       "id": "18610e08c678bc8aded1",
@@ -1563,7 +1597,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.249Z"
+      "collectedAt": "2026-11-16T10:15:48.415Z"
     },
     {
       "id": "ae07909e220d84ba5298",
@@ -1580,7 +1614,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-14T12:00:00.000Z",
       "url": "https://openai.com/index/amp-beyond-coding",
-      "collectedAt": "2026-11-15T10:01:51.687Z"
+      "collectedAt": "2026-11-16T10:15:47.504Z"
     },
     {
       "id": "5af941d3347cd0b31e08",
@@ -1597,7 +1631,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-14T07:00:00.000Z",
       "url": "https://openai.com/index/third-moment-research",
-      "collectedAt": "2026-11-15T10:01:51.687Z"
+      "collectedAt": "2026-11-16T10:15:47.504Z"
     },
     {
       "id": "6725a25b1257a6d7abcf",
@@ -1614,7 +1648,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-14T02:00:14.000Z",
       "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "collectedAt": "2026-11-15T10:01:54.369Z"
+      "collectedAt": "2026-11-16T10:15:49.216Z"
     },
     {
       "id": "d6c85c4d2f3339abada7",
@@ -1631,7 +1665,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.249Z"
+      "collectedAt": "2026-11-16T10:15:48.415Z"
     },
     {
       "id": "ca02af101726c5e29829",
@@ -1648,7 +1682,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T19:43:07.000Z",
       "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "collectedAt": "2026-11-15T10:01:54.370Z"
+      "collectedAt": "2026-11-16T10:15:49.216Z"
     },
     {
       "id": "79730454c4a0d9bd4cd0",
@@ -1665,7 +1699,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T16:01:58.000Z",
       "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "collectedAt": "2026-11-15T10:01:54.370Z"
+      "collectedAt": "2026-11-16T10:15:49.216Z"
     },
     {
       "id": "812075165a6f703bcf0c",
@@ -1682,7 +1716,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T16:01:52.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "collectedAt": "2026-11-15T10:01:54.370Z"
+      "collectedAt": "2026-11-16T10:15:49.216Z"
     },
     {
       "id": "bd0c7d7636bac2d8b368",
@@ -1699,7 +1733,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T16:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "collectedAt": "2026-11-15T10:01:54.565Z"
+      "collectedAt": "2026-11-16T10:15:49.448Z"
     },
     {
       "id": "88d109f9ffb73d1e9149",
@@ -1716,7 +1750,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T12:00:00.000Z",
       "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "collectedAt": "2026-11-15T10:01:51.687Z"
+      "collectedAt": "2026-11-16T10:15:47.505Z"
     },
     {
       "id": "c3e57db0842e8aa78965",
@@ -1733,7 +1767,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-11-15T10:01:53.586Z"
+      "collectedAt": "2026-11-16T10:15:48.674Z"
     },
     {
       "id": "6e4f5b7a123143776f19",
@@ -1750,7 +1784,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-09T07:00:00.000Z",
       "url": "https://openai.com/index/asana-browser-agent",
-      "collectedAt": "2026-11-15T10:01:51.688Z"
+      "collectedAt": "2026-11-16T10:15:47.505Z"
     },
     {
       "id": "42e888a7cc19b4d85cd0",
@@ -1767,7 +1801,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.249Z"
+      "collectedAt": "2026-11-16T10:15:48.416Z"
     },
     {
       "id": "ea6e3024027050fefc4a",
@@ -1784,7 +1818,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-08T16:00:00.000Z",
       "url": "https://openai.com/index/oracle",
-      "collectedAt": "2026-11-15T10:01:51.688Z"
+      "collectedAt": "2026-11-16T10:15:47.505Z"
     },
     {
       "id": "5e179cf9fc5230516601",
@@ -1801,7 +1835,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "url": "https://openai.com/index/pollo-ai",
-      "collectedAt": "2026-11-15T10:01:51.688Z"
+      "collectedAt": "2026-11-16T10:15:47.505Z"
     },
     {
       "id": "f45224b70875029b06cb",
@@ -1818,7 +1852,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "url": "https://openai.com/index/legalon-halves-codex-costs",
-      "collectedAt": "2026-11-15T10:01:51.688Z"
+      "collectedAt": "2026-11-16T10:15:47.505Z"
     },
     {
       "id": "b00b251fbd09fd510cf8",
@@ -1835,7 +1869,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-08T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.249Z"
+      "collectedAt": "2026-11-16T10:15:48.416Z"
     },
     {
       "id": "053572bc3d224707807d",
@@ -1852,7 +1886,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T12:00:00.000Z",
       "url": "https://openai.com/index/teens-learn-and-plan",
-      "collectedAt": "2026-11-15T10:01:51.689Z"
+      "collectedAt": "2026-11-16T10:15:47.505Z"
     },
     {
       "id": "e570b3aeb15445d9fd65",
@@ -1869,7 +1903,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T07:00:00.000Z",
       "url": "https://openai.com/index/radisson",
-      "collectedAt": "2026-11-15T10:01:51.689Z"
+      "collectedAt": "2026-11-16T10:15:47.505Z"
     },
     {
       "id": "44e7004c56ab653cde6e",
@@ -1886,7 +1920,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-for-everyone",
-      "collectedAt": "2026-11-15T10:01:51.689Z"
+      "collectedAt": "2026-11-16T10:15:47.506Z"
     },
     {
       "id": "ecef651792823cfe8680",
@@ -1903,7 +1937,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-15T10:01:52.575Z"
+      "collectedAt": "2026-11-16T10:15:47.980Z"
     },
     {
       "id": "02a4f216cde7ea519cea",
@@ -1920,7 +1954,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.250Z"
+      "collectedAt": "2026-11-16T10:15:48.417Z"
     },
     {
       "id": "bb24fa22c53afbb99a4c",
@@ -1937,7 +1971,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T19:57:04.000Z",
       "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-      "collectedAt": "2026-11-15T10:01:54.370Z"
+      "collectedAt": "2026-11-16T10:15:49.216Z"
     },
     {
       "id": "2fb1d1aa61471ba7fc18",
@@ -1954,7 +1988,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T16:00:00.000Z",
       "url": "https://openai.com/index/atlassian-partnership",
-      "collectedAt": "2026-11-15T10:01:51.689Z"
+      "collectedAt": "2026-11-16T10:15:47.506Z"
     },
     {
       "id": "d08e77e6d7627ad2dedc",
@@ -1971,7 +2005,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T12:00:00.000Z",
       "url": "https://openai.com/index/jump-trading",
-      "collectedAt": "2026-11-15T10:01:51.689Z"
+      "collectedAt": "2026-11-16T10:15:47.506Z"
     },
     {
       "id": "f468f3b992b29140bb8c",
@@ -1988,7 +2022,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T12:00:00.000Z",
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "collectedAt": "2026-11-15T10:01:51.689Z"
+      "collectedAt": "2026-11-16T10:15:47.506Z"
     },
     {
       "id": "bdb33ded96b07020b0fa",
@@ -2005,7 +2039,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.250Z"
+      "collectedAt": "2026-11-16T10:15:48.417Z"
     },
     {
       "id": "aa83e0567f81baa77a53",
@@ -2022,7 +2056,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-05T10:00:00.000Z",
       "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "collectedAt": "2026-11-15T10:01:51.689Z"
+      "collectedAt": "2026-11-16T10:15:47.506Z"
     },
     {
       "id": "59441074197a9d52b588",
@@ -2039,7 +2073,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.250Z"
+      "collectedAt": "2026-11-16T10:15:48.417Z"
     },
     {
       "id": "384626120891883ee8e2",
@@ -2056,7 +2090,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-02T16:15:00.000Z",
       "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "collectedAt": "2026-11-15T10:01:51.689Z"
+      "collectedAt": "2026-11-16T10:15:47.506Z"
     },
     {
       "id": "b4075fea819f5adf3283",
@@ -2073,7 +2107,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "url": "https://openai.com/index/chatham-financial",
-      "collectedAt": "2026-11-15T10:01:51.690Z"
+      "collectedAt": "2026-11-16T10:15:47.506Z"
     },
     {
       "id": "f1ee3e7d0793c6d93b3a",
@@ -2090,7 +2124,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-01T16:00:00.000Z",
       "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "collectedAt": "2026-11-15T10:01:51.690Z"
+      "collectedAt": "2026-11-16T10:15:47.507Z"
     },
     {
       "id": "13ae9b523ea82b817626",
@@ -2107,7 +2141,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "url": "https://openai.com/index/the-den-family-social",
-      "collectedAt": "2026-11-15T10:01:51.690Z"
+      "collectedAt": "2026-11-16T10:15:47.507Z"
     },
     {
       "id": "7a981bb6a8fec202e200",
@@ -2124,7 +2158,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.250Z"
+      "collectedAt": "2026-11-16T10:15:48.418Z"
     },
     {
       "id": "29505882ef55b3b17452",
@@ -2141,7 +2175,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-30T20:01:45.000Z",
       "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "collectedAt": "2026-11-15T10:01:54.370Z"
+      "collectedAt": "2026-11-16T10:15:49.216Z"
     },
     {
       "id": "7b79633fb1d94ee1fafd",
@@ -2158,7 +2192,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-30T10:30:00.000Z",
       "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "collectedAt": "2026-11-15T10:01:51.690Z"
+      "collectedAt": "2026-11-16T10:15:47.507Z"
     },
     {
       "id": "7a44f16e721d71f3a40a",
@@ -2175,7 +2209,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.250Z"
+      "collectedAt": "2026-11-16T10:15:48.418Z"
     },
     {
       "id": "14a93593dd29d9cce2e2",
@@ -2192,7 +2226,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-11-15T10:01:53.586Z"
+      "collectedAt": "2026-11-16T10:15:48.675Z"
     },
     {
       "id": "dec3c56087ecf835f793",
@@ -2209,7 +2243,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-29T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "collectedAt": "2026-11-15T10:01:51.690Z"
+      "collectedAt": "2026-11-16T10:15:47.507Z"
     },
     {
       "id": "b1be4275e9b1957a480b",
@@ -2226,7 +2260,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-29T10:00:00.000Z",
       "url": "https://openai.com/index/devday-2026-recap",
-      "collectedAt": "2026-11-15T10:01:51.690Z"
+      "collectedAt": "2026-11-16T10:15:47.507Z"
     },
     {
       "id": "8aba59a84f4991b7e02f",
@@ -2243,7 +2277,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-29T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-dots",
-      "collectedAt": "2026-11-15T10:01:51.690Z"
+      "collectedAt": "2026-11-16T10:15:47.507Z"
     },
     {
       "id": "3d0c36ffbad6ec0487a6",
@@ -2260,7 +2294,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://openai.com/form/codex-originals",
-      "collectedAt": "2026-11-15T10:01:51.691Z"
+      "collectedAt": "2026-11-16T10:15:47.507Z"
     },
     {
       "id": "fb33ffedd2ef1f33358e",
@@ -2277,7 +2311,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "collectedAt": "2026-11-15T10:01:51.691Z"
+      "collectedAt": "2026-11-16T10:15:47.507Z"
     },
     {
       "id": "b4c25d5187dd3628a6ae",
@@ -2294,7 +2328,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-15T10:01:52.575Z"
+      "collectedAt": "2026-11-16T10:15:47.980Z"
     },
     {
       "id": "fc6af36a46b4e2940d27",
@@ -2311,7 +2345,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.251Z"
+      "collectedAt": "2026-11-16T10:15:48.418Z"
     },
     {
       "id": "958634143951a5262875",
@@ -2328,7 +2362,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-25T19:00:00.000Z",
       "url": "https://openai.com/index/proaction",
-      "collectedAt": "2026-11-15T10:01:51.691Z"
+      "collectedAt": "2026-11-16T10:15:47.508Z"
     },
     {
       "id": "908b229b34ef0eca1c2c",
@@ -2345,7 +2379,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-25T07:00:00.000Z",
       "url": "https://openai.com/index/lowes",
-      "collectedAt": "2026-11-15T10:01:51.691Z"
+      "collectedAt": "2026-11-16T10:15:47.508Z"
     },
     {
       "id": "5e679411e8795fb41661",
@@ -2362,7 +2396,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-25T00:00:00.000Z",
       "url": "https://openai.com/index/wayfair",
-      "collectedAt": "2026-11-15T10:01:51.691Z"
+      "collectedAt": "2026-11-16T10:15:47.508Z"
     },
     {
       "id": "5a1eb82bce206d920902",
@@ -2379,7 +2413,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-15T10:01:52.576Z"
+      "collectedAt": "2026-11-16T10:15:47.980Z"
     },
     {
       "id": "20a747dfc11440658478",
@@ -2396,7 +2430,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-24T16:20:39.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "collectedAt": "2026-11-15T10:01:54.370Z"
+      "collectedAt": "2026-11-16T10:15:49.217Z"
     },
     {
       "id": "656525516449cb970c4b",
@@ -2413,7 +2447,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-24T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.251Z"
+      "collectedAt": "2026-11-16T10:15:48.419Z"
     },
     {
       "id": "195c546c2f499ad7a563",
@@ -2430,7 +2464,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T15:25:14.000Z",
       "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "collectedAt": "2026-11-15T10:01:54.370Z"
+      "collectedAt": "2026-11-16T10:15:49.217Z"
     },
     {
       "id": "98d49239d16302a79008",
@@ -2447,7 +2481,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "collectedAt": "2026-11-15T10:01:51.691Z"
+      "collectedAt": "2026-11-16T10:15:47.508Z"
     },
     {
       "id": "d84366078f8a35d69fd8",
@@ -2464,7 +2498,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "url": "https://openai.com/index/ringg",
-      "collectedAt": "2026-11-15T10:01:51.691Z"
+      "collectedAt": "2026-11-16T10:15:47.508Z"
     },
     {
       "id": "d19836357705e0f3bb0f",
@@ -2481,7 +2515,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "collectedAt": "2026-11-15T10:01:51.692Z"
+      "collectedAt": "2026-11-16T10:15:47.508Z"
     },
     {
       "id": "c7ba4d1eb147cdd66b38",
@@ -2498,7 +2532,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T02:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-      "collectedAt": "2026-11-15T10:01:51.692Z"
+      "collectedAt": "2026-11-16T10:15:47.508Z"
     },
     {
       "id": "b6ef8483976563d9823c",
@@ -2515,7 +2549,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T01:00:00.000Z",
       "url": "https://openai.com/index/airbnb-gpt-6-astra",
-      "collectedAt": "2026-11-15T10:01:51.692Z"
+      "collectedAt": "2026-11-16T10:15:47.509Z"
     },
     {
       "id": "cf8033ba83eec6a8c148",
@@ -2532,7 +2566,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.251Z"
+      "collectedAt": "2026-11-16T10:15:48.419Z"
     },
     {
       "id": "0e12b4f460d98cac8731",
@@ -2549,7 +2583,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T21:00:00.000Z",
       "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "collectedAt": "2026-11-15T10:01:51.692Z"
+      "collectedAt": "2026-11-16T10:15:47.509Z"
     },
     {
       "id": "0299d0ca3df23eb91bfb",
@@ -2566,7 +2600,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T18:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "collectedAt": "2026-11-15T10:01:51.692Z"
+      "collectedAt": "2026-11-16T10:15:47.509Z"
     },
     {
       "id": "4e2d2a2c5ea855512c7e",
@@ -2583,7 +2617,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T12:00:00.000Z",
       "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "collectedAt": "2026-11-15T10:01:51.692Z"
+      "collectedAt": "2026-11-16T10:15:47.509Z"
     },
     {
       "id": "25f4610d8559fb3e7ae8",
@@ -2600,7 +2634,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-      "collectedAt": "2026-11-15T10:01:51.692Z"
+      "collectedAt": "2026-11-16T10:15:47.509Z"
     },
     {
       "id": "48cb0cab97e8610721be",
@@ -2617,7 +2651,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-15T10:01:52.576Z"
+      "collectedAt": "2026-11-16T10:15:47.981Z"
     },
     {
       "id": "4e5cbe8e0247f025a726",
@@ -2634,7 +2668,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.252Z"
+      "collectedAt": "2026-11-16T10:15:48.429Z"
     },
     {
       "id": "9b5d95c2825df000aa2b",
@@ -2651,7 +2685,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-21T12:00:00.000Z",
       "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "collectedAt": "2026-11-15T10:01:51.693Z"
+      "collectedAt": "2026-11-16T10:15:47.509Z"
     },
     {
       "id": "132e637062c60e5185cf",
@@ -2668,7 +2702,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "url": "https://openai.com/index/v7",
-      "collectedAt": "2026-11-15T10:01:51.693Z"
+      "collectedAt": "2026-11-16T10:15:47.510Z"
     },
     {
       "id": "cf45b7445432b183ccd7",
@@ -2685,7 +2719,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.260Z"
+      "collectedAt": "2026-11-16T10:15:48.429Z"
     },
     {
       "id": "99698296f3d481cb3012",
@@ -2702,7 +2736,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-17T12:00:00.000Z",
       "url": "https://openai.com/index/cooley-gopublic",
-      "collectedAt": "2026-11-15T10:01:51.693Z"
+      "collectedAt": "2026-11-16T10:15:47.510Z"
     },
     {
       "id": "3db286bcd9ddd5e690c5",
@@ -2719,7 +2753,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T17:00:00.000Z",
       "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "collectedAt": "2026-11-15T10:01:51.694Z"
+      "collectedAt": "2026-11-16T10:15:47.510Z"
     },
     {
       "id": "11eaf0d915ce57f2e5dc",
@@ -2736,7 +2770,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T16:00:00.000Z",
       "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "collectedAt": "2026-11-15T10:01:51.693Z"
+      "collectedAt": "2026-11-16T10:15:47.510Z"
     },
     {
       "id": "b458adf1e7325b78ff00",
@@ -2753,7 +2787,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T13:00:00.000Z",
       "url": "https://openai.com/index/reimagining-advertising-with-ai",
-      "collectedAt": "2026-11-15T10:01:51.693Z"
+      "collectedAt": "2026-11-16T10:15:47.510Z"
     },
     {
       "id": "2dbb90206bf7febc30df",
@@ -2770,7 +2804,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T12:00:00.000Z",
       "url": "https://openai.com/index/hex-gpt-6-astra",
-      "collectedAt": "2026-11-15T10:01:51.693Z"
+      "collectedAt": "2026-11-16T10:15:47.510Z"
     },
     {
       "id": "d7974b87b16b68185695",
@@ -2787,7 +2821,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T12:00:00.000Z",
       "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-      "collectedAt": "2026-11-15T10:01:51.693Z"
+      "collectedAt": "2026-11-16T10:15:47.510Z"
     },
     {
       "id": "1679a9385f8da2856137",
@@ -2804,7 +2838,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-15T10:01:52.576Z"
+      "collectedAt": "2026-11-16T10:15:47.981Z"
     },
     {
       "id": "6027ab1cfd832c602065",
@@ -2821,7 +2855,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-15T17:05:57.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "collectedAt": "2026-11-15T10:01:54.370Z"
+      "collectedAt": "2026-11-16T10:15:49.217Z"
     },
     {
       "id": "0e9e3b47215ca2b8e52d",
@@ -2838,7 +2872,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-15T10:01:52.577Z"
+      "collectedAt": "2026-11-16T10:15:47.982Z"
     },
     {
       "id": "7b83739b7d5f1c944f9f",
@@ -2855,7 +2889,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-14T12:00:00.000Z",
       "url": "https://openai.com/index/fyxer",
-      "collectedAt": "2026-11-15T10:01:51.694Z"
+      "collectedAt": "2026-11-16T10:15:47.510Z"
     },
     {
       "id": "a4651d8dabcdcb00db87",
@@ -2872,7 +2906,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "collectedAt": "2026-11-15T10:01:51.694Z"
+      "collectedAt": "2026-11-16T10:15:47.511Z"
     },
     {
       "id": "e63da132a40e17f8c5e1",
@@ -2889,7 +2923,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.261Z"
+      "collectedAt": "2026-11-16T10:15:48.429Z"
     },
     {
       "id": "8441c5c7713114dab2dd",
@@ -2906,7 +2940,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-11T16:00:00.000Z",
       "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "collectedAt": "2026-11-15T10:01:51.694Z"
+      "collectedAt": "2026-11-16T10:15:47.511Z"
     },
     {
       "id": "a97d00819fdcee1d0af9",
@@ -2923,7 +2957,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-11T10:00:00.000Z",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "collectedAt": "2026-11-15T10:01:51.694Z"
+      "collectedAt": "2026-11-16T10:15:47.511Z"
     },
     {
       "id": "16d6fc5541d885cd91c8",
@@ -2940,7 +2974,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T16:00:00.000Z",
       "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "collectedAt": "2026-11-15T10:01:51.694Z"
+      "collectedAt": "2026-11-16T10:15:47.511Z"
     },
     {
       "id": "85f5620286a75dba1ad3",
@@ -2957,7 +2991,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T15:00:00.000Z",
       "url": "https://openai.com/index/put-data-to-work",
-      "collectedAt": "2026-11-15T10:01:51.694Z"
+      "collectedAt": "2026-11-16T10:15:47.511Z"
     },
     {
       "id": "f2800aae894b09e0bcf0",
@@ -2974,7 +3008,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T07:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "collectedAt": "2026-11-15T10:01:51.694Z"
+      "collectedAt": "2026-11-16T10:15:47.511Z"
     },
     {
       "id": "6ca2d4bb7baad47f3b1e",
@@ -2991,7 +3025,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "collectedAt": "2026-11-15T10:01:51.695Z"
+      "collectedAt": "2026-11-16T10:15:47.511Z"
     },
     {
       "id": "02a514a4d6eb4e449b95",
@@ -3008,7 +3042,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-the-agents-api",
-      "collectedAt": "2026-11-15T10:01:51.695Z"
+      "collectedAt": "2026-11-16T10:15:47.511Z"
     },
     {
       "id": "50e12afea7a21a8f8a47",
@@ -3025,7 +3059,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-15T10:01:52.577Z"
+      "collectedAt": "2026-11-16T10:15:47.982Z"
     },
     {
       "id": "278864a90b7195a8f9eb",
@@ -3042,7 +3076,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.261Z"
+      "collectedAt": "2026-11-16T10:15:48.429Z"
     },
     {
       "id": "2f6a11a19101188b8eed",
@@ -3059,7 +3093,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-11-15T10:01:53.586Z"
+      "collectedAt": "2026-11-16T10:15:48.675Z"
     },
     {
       "id": "98d7349379f3f9e1561b",
@@ -3076,7 +3110,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-15T10:01:56.945Z"
+      "collectedAt": "2026-11-16T10:15:50.567Z"
     },
     {
       "id": "45aecbb9328300ba4629",
@@ -3093,7 +3127,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-09T11:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "collectedAt": "2026-11-15T10:01:51.695Z"
+      "collectedAt": "2026-11-16T10:15:47.512Z"
     },
     {
       "id": "225c9acc339c587b1fac",
@@ -3110,7 +3144,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.261Z"
+      "collectedAt": "2026-11-16T10:15:48.429Z"
     },
     {
       "id": "d336adb530d2e7f0e222",
@@ -3127,7 +3161,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T17:00:00.000Z",
       "url": "https://openai.com/index/codex-quantum-computing-experiments",
-      "collectedAt": "2026-11-15T10:01:51.695Z"
+      "collectedAt": "2026-11-16T10:15:47.512Z"
     },
     {
       "id": "48b0669cc37302b20aee",
@@ -3144,7 +3178,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T11:30:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-      "collectedAt": "2026-11-15T10:01:51.695Z"
+      "collectedAt": "2026-11-16T10:15:47.512Z"
     },
     {
       "id": "9b8a0aa3eea1f601cab9",
@@ -3161,7 +3195,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T10:00:00.000Z",
       "url": "https://openai.com/index/navier-stokes-solution",
-      "collectedAt": "2026-11-15T10:01:51.695Z"
+      "collectedAt": "2026-11-16T10:15:47.512Z"
     },
     {
       "id": "fc10a2c83b0e44fbdbfa",
@@ -3178,7 +3212,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "url": "https://openai.com/index/1password",
-      "collectedAt": "2026-11-15T10:01:51.695Z"
+      "collectedAt": "2026-11-16T10:15:47.512Z"
     },
     {
       "id": "0f8e8b7e95228d5352a6",
@@ -3195,7 +3229,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-06T08:00:00.000Z",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "collectedAt": "2026-11-15T10:01:51.696Z"
+      "collectedAt": "2026-11-16T10:15:47.512Z"
     },
     {
       "id": "67198b26c462572b168f",
@@ -3212,7 +3246,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "collectedAt": "2026-11-15T10:01:51.696Z"
+      "collectedAt": "2026-11-16T10:15:47.513Z"
     },
     {
       "id": "3fdba842a49bbf61f305",
@@ -3229,7 +3263,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "collectedAt": "2026-11-15T10:01:51.696Z"
+      "collectedAt": "2026-11-16T10:15:47.513Z"
     },
     {
       "id": "499b8df2de41c3c42a77",
@@ -3246,7 +3280,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T11:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-astra",
-      "collectedAt": "2026-11-15T10:01:51.696Z"
+      "collectedAt": "2026-11-16T10:15:47.513Z"
     },
     {
       "id": "9b8372f5dd9139bf3dfd",
@@ -3263,7 +3297,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "collectedAt": "2026-11-15T10:01:51.696Z"
+      "collectedAt": "2026-11-16T10:15:47.513Z"
     },
     {
       "id": "76e92e71feca11592be4",
@@ -3280,7 +3314,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.261Z"
+      "collectedAt": "2026-11-16T10:15:48.430Z"
     },
     {
       "id": "9ad38e9ab9838c6b598d",
@@ -3297,7 +3331,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-02T16:18:31.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "collectedAt": "2026-11-15T10:01:54.370Z"
+      "collectedAt": "2026-11-16T10:15:49.217Z"
     },
     {
       "id": "23cc665780e07fde7643",
@@ -3314,7 +3348,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-02T12:00:00.000Z",
       "url": "https://openai.com/index/atv-big-air-tour",
-      "collectedAt": "2026-11-15T10:01:51.696Z"
+      "collectedAt": "2026-11-16T10:15:47.513Z"
     },
     {
       "id": "5fd2975f213ab047e365",
@@ -3331,7 +3365,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T17:08:51.000Z",
       "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-      "collectedAt": "2026-11-15T10:01:54.370Z"
+      "collectedAt": "2026-11-16T10:15:49.217Z"
     },
     {
       "id": "0de52357b4b07f25549c",
@@ -3348,7 +3382,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T13:00:00.000Z",
       "url": "https://openai.com/index/path-to-astra",
-      "collectedAt": "2026-11-15T10:01:51.696Z"
+      "collectedAt": "2026-11-16T10:15:47.514Z"
     },
     {
       "id": "210c1577098c3af2295c",
@@ -3365,7 +3399,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T12:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "collectedAt": "2026-11-15T10:01:51.696Z"
+      "collectedAt": "2026-11-16T10:15:47.514Z"
     },
     {
       "id": "c60a9dbb33739fa8f7ff",
@@ -3382,7 +3416,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T01:00:00.000Z",
       "url": "https://openai.com/index/gilbert-tobin",
-      "collectedAt": "2026-11-15T10:01:51.697Z"
+      "collectedAt": "2026-11-16T10:15:47.514Z"
     },
     {
       "id": "f53efa27b0d13a2b8d75",
@@ -3399,7 +3433,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-15T10:01:52.577Z"
+      "collectedAt": "2026-11-16T10:15:47.982Z"
     },
     {
       "id": "572389d7a48d287c2737",
@@ -3416,7 +3450,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.262Z"
+      "collectedAt": "2026-11-16T10:15:48.430Z"
     },
     {
       "id": "62995badc1a46202724b",
@@ -3433,7 +3467,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-31T07:00:00.000Z",
       "url": "https://openai.com/index/polimill",
-      "collectedAt": "2026-11-15T10:01:51.697Z"
+      "collectedAt": "2026-11-16T10:15:47.514Z"
     },
     {
       "id": "89958d19d1f987cb8ada",
@@ -3450,7 +3484,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-31T04:00:00.000Z",
       "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "collectedAt": "2026-11-15T10:01:51.697Z"
+      "collectedAt": "2026-11-16T10:15:47.514Z"
     },
     {
       "id": "6e697a03b79f347648db",
@@ -3467,7 +3501,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-28T06:00:00.000Z",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "collectedAt": "2026-11-15T10:01:51.697Z"
+      "collectedAt": "2026-11-16T10:15:47.514Z"
     },
     {
       "id": "3b034008653d3c2739c4",
@@ -3484,7 +3518,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T16:11:32.000Z",
       "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "collectedAt": "2026-11-15T10:01:54.370Z"
+      "collectedAt": "2026-11-16T10:15:49.217Z"
     },
     {
       "id": "f3885091ef8df6aaae64",
@@ -3501,7 +3535,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T09:00:00.000Z",
       "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "collectedAt": "2026-11-15T10:01:51.697Z"
+      "collectedAt": "2026-11-16T10:15:47.514Z"
     },
     {
       "id": "4707ef7564f9017d5027",
@@ -3518,7 +3552,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.262Z"
+      "collectedAt": "2026-11-16T10:15:48.430Z"
     },
     {
       "id": "038305de768a112cfa08",
@@ -3535,7 +3569,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T17:01:00.000Z",
       "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-      "collectedAt": "2026-11-15T10:01:54.370Z"
+      "collectedAt": "2026-11-16T10:15:49.217Z"
     },
     {
       "id": "92b51a1e3a09499b97f9",
@@ -3552,7 +3586,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "url": "https://openai.com/index/learning-never-stops",
-      "collectedAt": "2026-11-15T10:01:51.697Z"
+      "collectedAt": "2026-11-16T10:15:47.514Z"
     },
     {
       "id": "df161950e809789b055b",
@@ -3569,7 +3603,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "collectedAt": "2026-11-15T10:01:51.697Z"
+      "collectedAt": "2026-11-16T10:15:47.514Z"
     },
     {
       "id": "e8e71766793d0226c88b",
@@ -3586,7 +3620,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "collectedAt": "2026-11-15T10:01:51.697Z"
+      "collectedAt": "2026-11-16T10:15:47.515Z"
     },
     {
       "id": "42d46e03e113f1a48a9f",
@@ -3603,7 +3637,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/loveholidays",
-      "collectedAt": "2026-11-15T10:01:51.698Z"
+      "collectedAt": "2026-11-16T10:15:47.515Z"
     },
     {
       "id": "0e8f06023793c35c12b2",
@@ -3620,7 +3654,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.263Z"
+      "collectedAt": "2026-11-16T10:15:48.431Z"
     },
     {
       "id": "bdff11d888b055940269",
@@ -3637,7 +3671,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T07:05:00.000Z",
       "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "collectedAt": "2026-11-15T10:01:51.698Z"
+      "collectedAt": "2026-11-16T10:15:47.515Z"
     },
     {
       "id": "b9dd82456710ac7ff739",
@@ -3654,7 +3688,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T07:00:00.000Z",
       "url": "https://openai.com/index/jalapeno-first-results",
-      "collectedAt": "2026-11-15T10:01:51.698Z"
+      "collectedAt": "2026-11-16T10:15:47.515Z"
     },
     {
       "id": "4f3d5193843c2be21102",
@@ -3671,7 +3705,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-admin-plugin",
-      "collectedAt": "2026-11-15T10:01:51.698Z"
+      "collectedAt": "2026-11-16T10:15:47.515Z"
     },
     {
       "id": "98efe21910bba76ddc89",
@@ -3688,7 +3722,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-15T10:01:52.578Z"
+      "collectedAt": "2026-11-16T10:15:47.983Z"
     },
     {
       "id": "a3e38d1146847fcc32c5",
@@ -3705,7 +3739,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-24T12:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "collectedAt": "2026-11-15T10:01:51.698Z"
+      "collectedAt": "2026-11-16T10:15:47.515Z"
     },
     {
       "id": "fb3550ee043ce3089dfb",
@@ -3722,7 +3756,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-15T10:01:56.946Z"
+      "collectedAt": "2026-11-16T10:15:50.568Z"
     },
     {
       "id": "2d19306ef234ea7faec5",
@@ -3739,7 +3773,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://openai.com/index/stampli",
-      "collectedAt": "2026-11-15T10:01:51.698Z"
+      "collectedAt": "2026-11-16T10:15:47.515Z"
     },
     {
       "id": "0335ae09efe999984d8e",
@@ -3756,7 +3790,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.263Z"
+      "collectedAt": "2026-11-16T10:15:48.431Z"
     },
     {
       "id": "3dc55b55b1de08c817b2",
@@ -3773,7 +3807,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T19:00:00.000Z",
       "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "collectedAt": "2026-11-15T10:01:51.698Z"
+      "collectedAt": "2026-11-16T10:15:47.515Z"
     },
     {
       "id": "1e5ef4886d4750bbdc69",
@@ -3790,7 +3824,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T07:00:00.000Z",
       "url": "https://openai.com/index/replit",
-      "collectedAt": "2026-11-15T10:01:51.698Z"
+      "collectedAt": "2026-11-16T10:15:47.516Z"
     },
     {
       "id": "862a5272957677cbb451",
@@ -3807,7 +3841,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.264Z"
+      "collectedAt": "2026-11-16T10:15:48.431Z"
     },
     {
       "id": "dbabefb7176b8899389d",
@@ -3824,7 +3858,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-11-15T10:01:53.586Z"
+      "collectedAt": "2026-11-16T10:15:48.675Z"
     },
     {
       "id": "d02b32736bea62b3185d",
@@ -3841,7 +3875,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T22:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "collectedAt": "2026-11-15T10:01:51.698Z"
+      "collectedAt": "2026-11-16T10:15:47.516Z"
     },
     {
       "id": "755e4db2cccf354bd6df",
@@ -3858,7 +3892,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "collectedAt": "2026-11-15T10:01:51.699Z"
+      "collectedAt": "2026-11-16T10:15:47.517Z"
     },
     {
       "id": "60ed32685f2c13d2be9e",
@@ -3875,58 +3909,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-teens",
-      "collectedAt": "2026-11-15T10:01:51.700Z"
-    },
-    {
-      "id": "b32d89933b3f566e892d",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Asana completed a years-long code migration in 2 weeks with Codex",
-      "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, with about $12K in model and infrastructure costs.",
-      "content": "In order to modernize its frontend stack, Asana needed to finish a long-running code migration that was still years from completion. At its prior pace—with only a few engineers working on the migration incrementally alongside other priorities—Asana projected that it would take roughly five more years to complete. With Codex, Asana completed the project in about two weeks.\n\nAsana helps teams coordinate work. Its platform uses AI agents and automations to help customers manage, track, and execute that work. Asana brings the same approach to its engineering organization, where people use OpenAI Codex, powered by frontier models, to tackle large codebase changes, then review and approve each proposed change.\n\nFor this project, [Codex helped Asana’s engineers remove Enzyme⁠(opens in a new window)](https://asana.com/inside-asana/migrating-off-enzyme-2-weeks), an outdated testing system that had made the company’s code harder to upgrade. Model and infrastructure costs came to about $12,000.\n\n> “Not every years-long project will collapse into weeks. But agents can give engineers more room for craft—and make once-impossible work worth attempting.”\n\n—Amritansh Raghav, Chief Technology Officer, Asana\n\nTheir old testing tool, Enzyme, had fallen out of active maintenance and was becoming a blocker to modernizing Asana’s frontend stack. Asana used Codex, powered by frontier models, to do the work. From a five-sentence prompt, up to four coding agents worked in parallel, each in a separate copy of the codebase. An engineer checked progress twice a day and reviewed every proposed change. Simpler instructions worked better than a more elaborate setup.\n\nAfter 1.5 weeks of engineering effort spread across two calendar weeks, Enzyme was fully removed. The work also delivered benefits beyond the framework migration itself, improving test coverage, fixing poor-quality tests, and cleaning up legacy testing infrastructure. Model and infrastructure costs totaled about $12K. Asana estimates that completing that same scope through manual engineering work would have represented roughly $6M in fully loaded engineering effort. The experience changed which long-running software projects the company believes are practical to take on.\n\nWith this migration complete, Asana can test agents on other migrations, rewrites, and performance problems it once assumed would take years. The team hopes this will give engineers more room to focus on craft while people continue to review the work.",
-      "contentZh": "为了现代化其前端技术栈，Asana 需要完成一项长期运行的代码迁移，而该迁移距离完成还有数年之久。按照其先前的速度——仅有少数工程师在其他优先事项之余逐步推进迁移——Asana 预计还需要大约五年才能完成。借助 Codex，Asana 在大约两周内完成了该项目。\n\nAsana 帮助团队协调工作。其平台利用 AI 代理和自动化来帮助客户管理、跟踪和执行工作。Asana 将同样的方法应用于其工程组织，员工使用由前沿模型驱动的 OpenAI Codex 来处理大型代码库变更，然后审查并批准每一项提议的更改。\n\n对于这个项目，[Codex 帮助 Asana 的工程师移除了 Enzyme⁠（在新窗口中打开）](https://asana.com/inside-asana/migrating-off-enzyme-2-weeks)，这是一个过时的测试系统，曾使公司的代码更难升级。模型和基础设施成本约为 12,000 美元。\n\n> “并非每一个长达数年的项目都会压缩到几周内完成。但代理可以给工程师更多精雕细琢的空间——并让曾经不可能的工作值得尝试。”\n\n——Amritansh Raghav，Asana 首席技术官\n\n他们旧的测试工具 Enzyme 已不再积极维护，并逐渐成为 Asana 前端技术栈现代化的阻碍。Asana 使用由前沿模型驱动的 Codex 来完成这项工作。从一个五句话的提示开始，最多四个编码代理并行工作，每个代理都在代码库的单独副本中运行。一名工程师每天检查两次进度，并审查每一项提议的更改。更简单的指令比更精细的设置效果更好。\n\n在跨越两个日历周的 1.5 周工程投入后，Enzyme 被完全移除。这项工作还带来了框架迁移本身之外的好处，提高了测试覆盖率，修复了质量不佳的测试，并清理了遗留测试基础设施。模型和基础设施成本总计约 12K 美元。Asana 估计，通过人工工程工作完成同样范围的工作，将相当于约 600 万美元的全负荷工程投入。这次经历改变了该公司认为哪些长期软件项目值得实际开展。\n\n随着这次迁移完成，Asana 可以在其他迁移、重写和性能问题上测试代理，而这些工作曾被认为需要数年时间。团队希望这能让工程师有更多空间专注于精雕细琢，同时人们继续审查工作。",
-      "titleZh": "Asana借助Codex在两周内完成了历时数年的代码迁移",
-      "summaryZh": "Asana使用OpenAI Codex在两周内替换了一套过时的测试系统，模型和基础设施成本约为1.2万美元。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-18T07:00:00.000Z",
-      "url": "https://openai.com/index/asana",
-      "collectedAt": "2026-11-15T10:01:51.700Z"
-    },
-    {
-      "id": "cf88f2889563730674dc",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "How NVIDIA scales expertise with ChatGPT Work",
-      "summary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
-      "content": "At NVIDIA, ChatGPT Work is helping knowledge workers spend less time assembling information and more time acting on it.\n\nFor teams like GTM and solutions architecture, ChatGPT has become part of how work gets organized, automated, and scaled. For GTM, it transforms recurring operational processes, while solutions architects are using it to connect fast-moving external developments with NVIDIA’s internal priorities.\n\n## Freeing teams to focus on customers\n\nWill Daney helps NVIDIA’s global sales, business development, and product leaders execute and measure their strategies. One of his recurring responsibilities is supporting the field organization around GTC, NVIDIA’s global AI conference.\n\nPreviously, preparing for GTC required extensive work in spreadsheets: assembling account lists, tracking registrations, and helping teams identify the actions needed to create a productive experience for customers and partners. During the lead-up to the event, Will estimates that manual analysis consumed about 40% of his time. Today, he has turned much of that work into an automated ChatGPT Work process that runs twice a week. Across the 12-week GTC planning cycle, the workflow saves about 16 hours per week.\n\n“I’m able to give time back, work with the actual field team, get to know them better, and help them figure out how to help our customers be more successful,” Will says.\n\nAnd because he owns the workflow, he can adapt it as the event changes without waiting for a new tool to be purchased, implemented, and maintained. He can also share the underlying process with teams in other regions. Colleagues supporting events in San Jose, Taipei, Europe, and Washington, DC have received his ChatGPT workflows and customized them for their local needs.\n\n> “With ChatGPT, I think the real key is that I’m able to take a workflow I’ve already developed and I’m able to automate it event over event with little to no overhead.”\n\n—Will Daney, Go-To-Market Strategist at NVIDIA\n\n## Finding the signal in a fast-moving industry\n\nRachita Jain works on the AI operations team within NVIDIA’s marketing organization, where she builds AI workflows and helps teams adopt new tools. Her challenge is keeping pace with an industry where new models, benchmarks, and research appear every day.\n\nThe information is readily available. The harder task is determining which developments matter to NVIDIA and connecting them with internal projects, conversations, and priorities. Rachita built a workflow with ChatGPT Work that reviews trusted external sources alongside internal context, identifies meaningful areas of overlap, and surfaces insights that can inform action. Each week, it distills roughly 25–40 external AI updates into 5–8 actionable signals.\n\n“ChatGPT helped me change passive reading into active intelligence,” she says.\n\nThe same environment supports the broader building process. Rachita can begin with an idea, explore possible approaches, work through a codebase, debug problems, and refine the result without continually moving between disconnected tools. Initiatives that might once have remained side projects can develop into working products within days. In one case, she moved from idea to working prototype in about 3–5 days, compared with an estimated 2–3 weeks if she had built the components manually across separate tools.\n\n> “I think the biggest problem I’m trying to solve is information overload, because everything is moving so fast. It’s getting harder by the day to keep track of all the changes. And with ChatGPT, it becomes much simpler.”\n\n—Rachita Jain, Solutions Architect at NVIDIA\n\n## What’s next\n\nThe next opportunity is to scale what’s already working. By turning specialized knowledge into reusable workflows, teams across NVIDIA can adapt proven processes across functions, events, and regions—while keeping the people closest to the work in control of how those processes evolve.\n\nAnd as the AI landscape continues to change, these shared workflows can help NVIDIA connect external developments with internal priorities more quickly and extend AI-enabled ways of working to more employees. The goal is to give teams more time to interpret findings, collaborate, and focus on work that supports customers.\n\nThat potential is already visible in Will’s experience. “ChatGPT has really been a force multiplier for me personally,” he says. “It feels like I have a team working for me. It’s helped me get out of the weeds and focus more on the work that matters.”",
-      "contentZh": "在NVIDIA，ChatGPT Work正帮助知识工作者减少收集信息的时间，将更多精力投入到实际行动中。\n\n对于GTM（市场进入）和解决方案架构等团队而言，ChatGPT已成为工作组织、自动化和规模化运作的一部分。对GTM团队来说，它改变了重复性的运营流程；而解决方案架构师则利用它将快速变化的外部动态与NVIDIA的内部优先事项连接起来。\n\n## 释放团队精力，聚焦客户\n\nWill Daney帮助NVIDIA的全球销售、业务拓展和产品领导者执行并衡量其战略。他的常规职责之一是为GTC（NVIDIA全球AI大会）相关的现场团队提供支持。\n\n此前，GTC的筹备工作需要大量使用电子表格：整理客户名单、跟踪注册情况，并帮助团队确定为客户和合作伙伴创造高效体验所需的行动。在活动筹备期间，Will估计手动分析约占其时间的40%。如今，他已将大部分工作转化为自动化ChatGPT Work流程，每周运行两次。在12周的GTC规划周期中，该工作流每周节省约16小时。\n\n“我能够把时间还给自己，与实际的现场团队合作，更好地了解他们，并帮助他们找到让客户更成功的方法，”Will表示。\n\n由于他拥有该工作流的所有权，他可以根据活动变化进行调整，无需等待采购、实施和维护新工具。他还可以将底层流程分享给其他地区的团队。支持圣何塞、台北、欧洲和华盛顿特区活动的同事已收到他的ChatGPT工作流，并根据本地需求进行了定制。\n\n> “借助ChatGPT，我认为真正的关键在于，我能够将自己已经开发的工作流一次又一次地自动化应用到每场活动中，几乎零额外开销。”\n\n——Will Daney，NVIDIA市场进入策略师\n\n## 在快速发展的行业中捕捉关键信号\n\nRachita Jain在NVIDIA营销组织内的AI运营团队工作，负责构建AI工作流并帮助团队采用新工具。她面临的挑战是如何跟上这个每天都有新模型、基准测试和研究出现的行业节奏。\n\n信息随处可得，但更困难的任务是判断哪些动态对NVIDIA至关重要，并将其与内部项目、讨论和优先事项联系起来。Rachita使用ChatGPT Work构建了一个工作流，该工作流在审查可信外部来源的同时结合内部背景信息，识别有意义的交叉领域，并提炼出可供行动参考的洞察。每周，它将约25至40条外部AI动态提炼为5至8条可操作的信号。\n\n“ChatGPT帮助我将被动阅读转变为主动情报，”她说。\n\n同一环境还支持更广泛的构建过程。Rachita可以从一个想法出发，探索可能的方案，处理代码库，调试问题，并优化结果，而无需在互不关联的工具之间来回切换。那些曾经可能只是副业项目的计划，如今可以在几天内发展成可用的产品。在一个案例中，她从想法到工作原型仅用了约3至5天，而如果她使用分散的工具手动构建各组件，预计需要2至3周。\n\n> “我认为我要解决的最大问题是信息过载，因为一切变化太快了。要跟踪所有变化变得越来越困难。而借助ChatGPT，这一切变得简单得多。”\n\n——Rachita Jain，NVIDIA解决方案架构师\n\n## 未来展望\n\n下一个机遇是将已经奏效的方案规模化推广。通过将专业知识转化为可复用的工作流，NVIDIA各团队可以在不同职能、活动和地区之间应用经过验证的流程——同时让最贴近实际工作的人员掌握这些流程的演进方向。\n\n随着AI格局的持续变化，这些共享工作流可以帮助NVIDIA更快地将外部动态与内部优先事项连接起来，并将AI驱动的工作方式扩展到更多员工。目标是让团队有更多时间解读发现、协作，并专注于支持客户的工作。\n\n这一潜力已在Will的经历中显现。“ChatGPT对我来说确实是一个力量倍增器，”他说，“感觉就像有一个团队在为我工作。它帮助我摆脱琐碎事务，更专注于真正重要的工作。”",
-      "titleZh": "NVIDIA如何利用ChatGPT Work扩展专业知识",
-      "summaryZh": "NVIDIA团队使用ChatGPT Work来减少手动任务，连接快速变化的信号，并在全球范围内扩展成功的工作流程。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "url": "https://openai.com/index/nvidia/chatgpt-work",
-      "collectedAt": "2026-11-15T10:01:51.700Z"
-    },
-    {
-      "id": "aa9fbf89108c624b5035",
-      "sourceId": "claude-platform",
-      "company": "Anthropic",
-      "product": "Claude",
-      "kind": "api",
-      "title": "Workbench is now playground in the Claude Console.",
-      "summary": "Workbench is now playground in the Claude Console. Playground supports every Messages API parameter and includes templates that demonstrate API features such as code execution and web search. It shows the full SDK request and the API response for each run, to help you understand the API and build with it. For more, see the Claude Help Center or try it at platform.claude.com/playground.",
-      "content": "Workbench is now playground in the Claude Console. Playground supports every Messages API parameter and includes templates that demonstrate API features such as code execution and web search. It shows the full SDK request and the API response for each run, to help you understand the API and build with it. For more, see the Claude Help Center or try it at platform.claude.com/playground.",
-      "contentZh": "Workbench 现已在 Claude 控制台中更名为 Playground。Playground 支持所有 Messages API 参数，并包含展示 API 功能（如代码执行和网络搜索）的模板。它每次运行都会显示完整的 SDK 请求和 API 响应，以帮助您理解 API 并基于其进行构建。更多信息，请参阅 Claude 帮助中心，或访问 platform.claude.com/playground 试用。",
-      "titleZh": "Workbench 现已成为 Claude 控制台中的 Playground。",
-      "summaryZh": "Workbench 现已成为 Claude 控制台中的 Playground。Playground 支持所有 Messages API 参数，并包含演示 API 功能（如代码执行和网络搜索）的模板。它显示每次运行的完整 SDK 请求和 API 响应，以帮助您理解 API 并基于其进行构建。更多信息，请参阅 Claude 帮助中心或访问 platform.claude.com/playground 试用。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-15T10:01:53.264Z"
+      "collectedAt": "2026-11-16T10:15:47.517Z"
     },
     {
       "id": "68c4c83c983d7ad01b30",
@@ -3943,7 +3926,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-15T10:01:56.946Z"
+      "collectedAt": "2026-11-16T10:15:50.568Z"
     },
     {
       "id": "af15e83e5c304730063b",
@@ -3960,7 +3943,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-15T10:01:56.946Z"
+      "collectedAt": "2026-11-16T10:15:50.568Z"
     },
     {
       "id": "118693cb868e1641c9c1",
@@ -3977,7 +3960,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-04-24T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-15T10:01:56.946Z"
+      "collectedAt": "2026-11-16T10:15:50.568Z"
     },
     {
       "id": "aeb9a0b6e961ddd9394e",
@@ -3994,7 +3977,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-12-01T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-15T10:01:56.947Z"
+      "collectedAt": "2026-11-16T10:15:50.569Z"
     }
   ]
 }
