@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-23T03:24:35.223Z",
+  "updatedAt": "2026-11-23T11:25:30.020Z",
   "sources": [
     {
       "id": "openai-news",
@@ -67,7 +67,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-22T00:00:00.000Z",
       "url": "https://openai.com/index/perplexity-and-intelligence",
-      "collectedAt": "2026-11-23T03:24:30.144Z"
+      "collectedAt": "2026-11-23T11:25:24.478Z"
     },
     {
       "id": "f993504351599a35df66",
@@ -84,7 +84,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-20T10:00:00.000Z",
       "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "collectedAt": "2026-11-23T03:24:30.145Z"
+      "collectedAt": "2026-11-23T11:25:24.479Z"
     },
     {
       "id": "075ce6924edb45eae013",
@@ -101,7 +101,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "url": "https://openai.com/business/customer-stories/hebbia",
-      "collectedAt": "2026-11-23T03:24:30.146Z"
+      "collectedAt": "2026-11-23T11:25:24.480Z"
     },
     {
       "id": "a5c9ad1fc1544bbf515c",
@@ -118,7 +118,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-medchembench",
-      "collectedAt": "2026-11-23T03:24:30.147Z"
+      "collectedAt": "2026-11-23T11:25:24.481Z"
     },
     {
       "id": "f246d927bf750b92dad7",
@@ -135,7 +135,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-23T03:24:30.832Z"
+      "collectedAt": "2026-11-23T11:25:25.177Z"
     },
     {
       "id": "8b01777fc3f142337101",
@@ -152,7 +152,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-19T18:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-      "collectedAt": "2026-11-23T03:24:33.296Z"
+      "collectedAt": "2026-11-23T11:25:26.944Z"
     },
     {
       "id": "24ad2efc2786e0be3c1d",
@@ -169,7 +169,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-19T08:00:00.000Z",
       "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "collectedAt": "2026-11-23T03:24:30.148Z"
+      "collectedAt": "2026-11-23T11:25:24.481Z"
     },
     {
       "id": "cde02a3ba5544606de59",
@@ -186,7 +186,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-19T00:00:00.000Z",
       "url": "https://openai.com/business/learn/codex-security-plugin-demo",
-      "collectedAt": "2026-11-23T03:24:30.149Z"
+      "collectedAt": "2026-11-23T11:25:24.482Z"
     },
     {
       "id": "fdf3dc8a65efb441d1da",
@@ -203,7 +203,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-19T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-11-23T03:24:32.276Z"
+      "collectedAt": "2026-11-23T11:25:26.033Z"
     },
     {
       "id": "2c03ab457fd287531873",
@@ -220,7 +220,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-18T21:35:43.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
-      "collectedAt": "2026-11-23T03:24:33.030Z"
+      "collectedAt": "2026-11-23T11:25:26.655Z"
     },
     {
       "id": "7f883c6982b1981f0ce6",
@@ -237,7 +237,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-18T17:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-      "collectedAt": "2026-11-23T03:24:33.296Z"
+      "collectedAt": "2026-11-23T11:25:26.944Z"
     },
     {
       "id": "949d6b2605415b1fd95c",
@@ -254,7 +254,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-18T08:00:00.000Z",
       "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "collectedAt": "2026-11-23T03:24:30.150Z"
+      "collectedAt": "2026-11-23T11:25:24.483Z"
     },
     {
       "id": "4d98cea6fad29c182bdc",
@@ -271,7 +271,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-18T08:00:00.000Z",
       "url": "https://openai.com/business/customer-stories/sumitomo-life",
-      "collectedAt": "2026-11-23T03:24:30.151Z"
+      "collectedAt": "2026-11-23T11:25:24.484Z"
     },
     {
       "id": "47c123a6fb16bbccf8bf",
@@ -288,7 +288,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-18T08:00:00.000Z",
       "url": "https://openai.com/index/inside-the-codex-sandbox",
-      "collectedAt": "2026-11-23T03:24:30.152Z"
+      "collectedAt": "2026-11-23T11:25:24.484Z"
     },
     {
       "id": "7a81ea33227cbed5d745",
@@ -305,7 +305,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-18T06:00:00.000Z",
       "url": "https://openai.com/index/managing-frontier-ai-risk",
-      "collectedAt": "2026-11-23T03:24:30.153Z"
+      "collectedAt": "2026-11-23T11:25:24.485Z"
     },
     {
       "id": "cd8ba4f7a8935b8d93e7",
@@ -322,7 +322,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-18T00:00:00.000Z",
       "url": "https://openai.com/index/advancing-chip-design-with-our-models",
-      "collectedAt": "2026-11-23T03:24:30.154Z"
+      "collectedAt": "2026-11-23T11:25:24.486Z"
     },
     {
       "id": "719cce0f3c94b0c27be4",
@@ -339,7 +339,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-18T00:00:00.000Z",
       "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-      "collectedAt": "2026-11-23T03:24:30.155Z"
+      "collectedAt": "2026-11-23T11:25:24.487Z"
     },
     {
       "id": "8516d418dcbde5073988",
@@ -356,7 +356,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-17T17:45:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "collectedAt": "2026-11-23T03:24:30.156Z"
+      "collectedAt": "2026-11-23T11:25:24.487Z"
     },
     {
       "id": "f1e89a955f86c5207aad",
@@ -373,7 +373,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-17T17:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-      "collectedAt": "2026-11-23T03:24:33.296Z"
+      "collectedAt": "2026-11-23T11:25:26.944Z"
     },
     {
       "id": "82934184d44eed1ba3a6",
@@ -390,7 +390,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-17T08:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-for-sales",
-      "collectedAt": "2026-11-23T03:24:30.157Z"
+      "collectedAt": "2026-11-23T11:25:24.488Z"
     },
     {
       "id": "dea2442e4fd02f97dfb1",
@@ -407,7 +407,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-17T00:00:00.000Z",
       "url": "https://openai.com/index/astra-law-6-2",
-      "collectedAt": "2026-11-23T03:24:30.157Z"
+      "collectedAt": "2026-11-23T11:25:24.489Z"
     },
     {
       "id": "2d05fead87ac4c558acb",
@@ -424,7 +424,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-17T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-23T03:24:30.842Z"
+      "collectedAt": "2026-11-23T11:25:25.184Z"
     },
     {
       "id": "fb48a78d8c3e84485eeb",
@@ -441,7 +441,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-17T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.023Z"
+      "collectedAt": "2026-11-23T11:25:25.736Z"
     },
     {
       "id": "50f94b3ecaf74cb573a1",
@@ -458,7 +458,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-17T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-11-23T03:24:32.277Z"
+      "collectedAt": "2026-11-23T11:25:26.034Z"
     },
     {
       "id": "3e35e84b6ae031242b8f",
@@ -475,7 +475,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-16T17:00:00.000Z",
       "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "collectedAt": "2026-11-23T03:24:30.158Z"
+      "collectedAt": "2026-11-23T11:25:24.489Z"
     },
     {
       "id": "7bb8b7e768f55b6565ec",
@@ -492,7 +492,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-16T12:00:00.000Z",
       "url": "https://openai.com/index/science-at-the-frontier",
-      "collectedAt": "2026-11-23T03:24:30.158Z"
+      "collectedAt": "2026-11-23T11:25:24.490Z"
     },
     {
       "id": "d094238171022722ea46",
@@ -509,7 +509,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-16T09:30:00.000Z",
       "url": "https://openai.com/business/customer-stories/revolut",
-      "collectedAt": "2026-11-23T03:24:30.159Z"
+      "collectedAt": "2026-11-23T11:25:24.490Z"
     },
     {
       "id": "749e91f18432a6dd206a",
@@ -526,7 +526,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-16T09:00:00.000Z",
       "url": "https://openai.com/index/lvmh-media-division-partnership",
-      "collectedAt": "2026-11-23T03:24:30.159Z"
+      "collectedAt": "2026-11-23T11:25:24.490Z"
     },
     {
       "id": "780cd2f84011a78e7b3d",
@@ -543,7 +543,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-16T08:00:00.000Z",
       "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-      "collectedAt": "2026-11-23T03:24:30.159Z"
+      "collectedAt": "2026-11-23T11:25:24.491Z"
     },
     {
       "id": "c4073cc8b8bcaa186735",
@@ -560,7 +560,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-16T06:00:00.000Z",
       "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-      "collectedAt": "2026-11-23T03:24:30.160Z"
+      "collectedAt": "2026-11-23T11:25:24.491Z"
     },
     {
       "id": "48dedec77be61a4862bf",
@@ -577,7 +577,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-16T06:00:00.000Z",
       "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-      "collectedAt": "2026-11-23T03:24:30.160Z"
+      "collectedAt": "2026-11-23T11:25:24.491Z"
     },
     {
       "id": "c8a3c79f455c0658630e",
@@ -594,7 +594,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-16T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.024Z"
+      "collectedAt": "2026-11-23T11:25:25.736Z"
     },
     {
       "id": "464dfb098fbed247bb48",
@@ -611,7 +611,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-15T22:00:01.000Z",
       "url": "https://openai.com/index/step-toward-defining-the-standard-model",
-      "collectedAt": "2026-11-23T03:24:30.161Z"
+      "collectedAt": "2026-11-23T11:25:24.491Z"
     },
     {
       "id": "413f9d3ca2137192e7de",
@@ -628,7 +628,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-13T15:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "collectedAt": "2026-11-23T03:24:30.161Z"
+      "collectedAt": "2026-11-23T11:25:24.492Z"
     },
     {
       "id": "8d572eea215850b3eff7",
@@ -645,7 +645,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-13T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-23T03:24:35.201Z"
+      "collectedAt": "2026-11-23T11:25:30.004Z"
     },
     {
       "id": "0da8d0ab65a7212f5fbb",
@@ -662,7 +662,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-12T20:00:00.000Z",
       "url": "https://openai.com/business/customer-stories/amplitude",
-      "collectedAt": "2026-11-23T03:24:30.162Z"
+      "collectedAt": "2026-11-23T11:25:24.492Z"
     },
     {
       "id": "adf57baebe5e72ea826a",
@@ -679,7 +679,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-12T18:00:50.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "collectedAt": "2026-11-23T03:24:33.030Z"
+      "collectedAt": "2026-11-23T11:25:26.655Z"
     },
     {
       "id": "4dcea4b8496516ae6743",
@@ -696,7 +696,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-12T18:00:00.000Z",
       "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "collectedAt": "2026-11-23T03:24:33.297Z"
+      "collectedAt": "2026-11-23T11:25:26.945Z"
     },
     {
       "id": "163a59c4085f2f888d32",
@@ -713,7 +713,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-12T12:00:00.000Z",
       "url": "https://openai.com/business/customer-stories/gondola",
-      "collectedAt": "2026-11-23T03:24:30.162Z"
+      "collectedAt": "2026-11-23T11:25:24.493Z"
     },
     {
       "id": "c6c92673d541185e54df",
@@ -730,7 +730,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-12T09:30:00.000Z",
       "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
-      "collectedAt": "2026-11-23T03:24:30.163Z"
+      "collectedAt": "2026-11-23T11:25:24.493Z"
     },
     {
       "id": "5a5d240d21504a52f2c4",
@@ -747,7 +747,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "url": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
-      "collectedAt": "2026-11-23T03:24:30.163Z"
+      "collectedAt": "2026-11-23T11:25:24.494Z"
     },
     {
       "id": "f8f5545ee7883638ffe1",
@@ -764,7 +764,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-23T03:24:30.843Z"
+      "collectedAt": "2026-11-23T11:25:25.185Z"
     },
     {
       "id": "44c6fe99de9e1548344a",
@@ -781,7 +781,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.024Z"
+      "collectedAt": "2026-11-23T11:25:25.736Z"
     },
     {
       "id": "8256d925e8e259c73ebd",
@@ -798,7 +798,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-11T18:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "collectedAt": "2026-11-23T03:24:33.297Z"
+      "collectedAt": "2026-11-23T11:25:26.945Z"
     },
     {
       "id": "d0c0b7e4e350883223d1",
@@ -815,7 +815,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-11T08:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "collectedAt": "2026-11-23T03:24:30.164Z"
+      "collectedAt": "2026-11-23T11:25:24.494Z"
     },
     {
       "id": "f2971b62e614776194c4",
@@ -832,7 +832,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-10T19:00:00.000Z",
       "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-      "collectedAt": "2026-11-23T03:24:33.298Z"
+      "collectedAt": "2026-11-23T11:25:26.945Z"
     },
     {
       "id": "cf69537b137372cce4ee",
@@ -849,7 +849,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-10T16:03:47.000Z",
       "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-      "collectedAt": "2026-11-23T03:24:33.030Z"
+      "collectedAt": "2026-11-23T11:25:26.656Z"
     },
     {
       "id": "b561ead9b12ffe2a59d2",
@@ -866,7 +866,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-10T14:00:00.000Z",
       "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-      "collectedAt": "2026-11-23T03:24:33.298Z"
+      "collectedAt": "2026-11-23T11:25:26.945Z"
     },
     {
       "id": "32267f6fb227227dd871",
@@ -883,7 +883,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-10T13:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-      "collectedAt": "2026-11-23T03:24:33.298Z"
+      "collectedAt": "2026-11-23T11:25:26.945Z"
     },
     {
       "id": "01be4009896888301ebc",
@@ -900,7 +900,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-10T12:00:00.000Z",
       "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "collectedAt": "2026-11-23T03:24:30.165Z"
+      "collectedAt": "2026-11-23T11:25:24.494Z"
     },
     {
       "id": "6279ffc95ff3eaf22bb3",
@@ -917,7 +917,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-10T10:00:00.000Z",
       "url": "https://openai.com/index/introducing-businesses-chatgpt",
-      "collectedAt": "2026-11-23T03:24:30.165Z"
+      "collectedAt": "2026-11-23T11:25:24.494Z"
     },
     {
       "id": "b3cce5b9299983ce34fe",
@@ -934,7 +934,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-10T08:00:00.000Z",
       "url": "https://openai.com/index/singapore-airlines-travel-work",
-      "collectedAt": "2026-11-23T03:24:30.166Z"
+      "collectedAt": "2026-11-23T11:25:24.495Z"
     },
     {
       "id": "c23c696ec040a40e4074",
@@ -951,7 +951,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-10T00:00:00.000Z",
       "url": "https://openai.com/index/cogent-security",
-      "collectedAt": "2026-11-23T03:24:30.166Z"
+      "collectedAt": "2026-11-23T11:25:24.495Z"
     },
     {
       "id": "343805d488ec12694882",
@@ -968,7 +968,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-09T19:51:47.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-      "collectedAt": "2026-11-23T03:24:33.030Z"
+      "collectedAt": "2026-11-23T11:25:26.656Z"
     },
     {
       "id": "a156b8580e9e9540bab0",
@@ -985,7 +985,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-09T19:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "collectedAt": "2026-11-23T03:24:30.166Z"
+      "collectedAt": "2026-11-23T11:25:24.495Z"
     },
     {
       "id": "7440484a6a903eadbe55",
@@ -1002,7 +1002,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-09T13:00:00.000Z",
       "url": "https://openai.com/index/control-room",
-      "collectedAt": "2026-11-23T03:24:30.167Z"
+      "collectedAt": "2026-11-23T11:25:24.496Z"
     },
     {
       "id": "b003757fbd33185dc87c",
@@ -1019,7 +1019,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-09T08:00:00.000Z",
       "url": "https://openai.com/index/coderabbit-codex-daybreak",
-      "collectedAt": "2026-11-23T03:24:30.167Z"
+      "collectedAt": "2026-11-23T11:25:24.496Z"
     },
     {
       "id": "1a6dc37442d600d7536f",
@@ -1036,7 +1036,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-09T08:00:00.000Z",
       "url": "https://openai.com/index/kuken",
-      "collectedAt": "2026-11-23T03:24:30.167Z"
+      "collectedAt": "2026-11-23T11:25:24.496Z"
     },
     {
       "id": "e3b7f4c09b9c4f33981b",
@@ -1053,7 +1053,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-09T00:00:00.000Z",
       "url": "https://openai.com/ads/customers/vistaprint",
-      "collectedAt": "2026-11-23T03:24:30.168Z"
+      "collectedAt": "2026-11-23T11:25:24.496Z"
     },
     {
       "id": "a88aef5bbd3b48312d71",
@@ -1070,7 +1070,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.026Z"
+      "collectedAt": "2026-11-23T11:25:25.738Z"
     },
     {
       "id": "4073886389aaa6fb87fc",
@@ -1087,7 +1087,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-23T03:24:30.843Z"
+      "collectedAt": "2026-11-23T11:25:25.185Z"
     },
     {
       "id": "1b990a96225405b47868",
@@ -1104,7 +1104,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-05T20:00:00.000Z",
       "url": "https://openai.com/index/cultfit-builds-with-codex",
-      "collectedAt": "2026-11-23T03:24:30.169Z"
+      "collectedAt": "2026-11-23T11:25:24.497Z"
     },
     {
       "id": "d1596b6657890bbc71f7",
@@ -1121,7 +1121,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-05T17:05:16.000Z",
       "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-      "collectedAt": "2026-11-23T03:24:33.030Z"
+      "collectedAt": "2026-11-23T11:25:26.656Z"
     },
     {
       "id": "73524ffb13240b069fde",
@@ -1138,7 +1138,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-05T17:00:00.000Z",
       "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "collectedAt": "2026-11-23T03:24:30.168Z"
+      "collectedAt": "2026-11-23T11:25:24.497Z"
     },
     {
       "id": "9faae3e01a16e7011b9a",
@@ -1155,7 +1155,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-05T17:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "collectedAt": "2026-11-23T03:24:33.298Z"
+      "collectedAt": "2026-11-23T11:25:26.945Z"
     },
     {
       "id": "19917a744f398f405b66",
@@ -1172,7 +1172,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-05T09:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-cyber",
-      "collectedAt": "2026-11-23T03:24:30.169Z"
+      "collectedAt": "2026-11-23T11:25:24.498Z"
     },
     {
       "id": "873e8e108ed7b5063a1c",
@@ -1189,7 +1189,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-05T08:00:00.000Z",
       "url": "https://openai.com/index/merge-builds-with-openai",
-      "collectedAt": "2026-11-23T03:24:30.169Z"
+      "collectedAt": "2026-11-23T11:25:24.498Z"
     },
     {
       "id": "8965987cffe62ff69ffe",
@@ -1206,7 +1206,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-05T00:45:15.000Z",
       "url": "https://openai.com/ads/customers/flipsnack",
-      "collectedAt": "2026-11-23T03:24:30.170Z"
+      "collectedAt": "2026-11-23T11:25:24.498Z"
     },
     {
       "id": "832e8327fa44562a632f",
@@ -1223,7 +1223,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-05T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-23T03:24:30.844Z"
+      "collectedAt": "2026-11-23T11:25:25.186Z"
     },
     {
       "id": "837b6abe06f00c47953c",
@@ -1240,7 +1240,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.027Z"
+      "collectedAt": "2026-11-23T11:25:25.738Z"
     },
     {
       "id": "4de8b27be9e0b374feca",
@@ -1257,7 +1257,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-04T14:30:00.000Z",
       "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "collectedAt": "2026-11-23T03:24:30.170Z"
+      "collectedAt": "2026-11-23T11:25:24.499Z"
     },
     {
       "id": "3e8cb3e76220121ce9d2",
@@ -1274,7 +1274,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-04T07:00:00.000Z",
       "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-      "collectedAt": "2026-11-23T03:24:30.171Z"
+      "collectedAt": "2026-11-23T11:25:24.499Z"
     },
     {
       "id": "c874291f59b4b2e4c676",
@@ -1291,7 +1291,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-04T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-images-2-6",
-      "collectedAt": "2026-11-23T03:24:30.171Z"
+      "collectedAt": "2026-11-23T11:25:24.499Z"
     },
     {
       "id": "c53c56c593280d52e6bc",
@@ -1308,7 +1308,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-04T00:00:00.000Z",
       "url": "https://openai.com/index/devrev-enterprise-self-service",
-      "collectedAt": "2026-11-23T03:24:30.171Z"
+      "collectedAt": "2026-11-23T11:25:24.500Z"
     },
     {
       "id": "47c5f65358ae4d253d36",
@@ -1325,7 +1325,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-03T12:00:00.000Z",
       "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-      "collectedAt": "2026-11-23T03:24:30.172Z"
+      "collectedAt": "2026-11-23T11:25:24.500Z"
     },
     {
       "id": "949c7b5db36a2e2daf42",
@@ -1342,7 +1342,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-03T08:00:00.000Z",
       "url": "https://openai.com/index/cisco-cyber",
-      "collectedAt": "2026-11-23T03:24:30.172Z"
+      "collectedAt": "2026-11-23T11:25:24.500Z"
     },
     {
       "id": "4633daa6f18f86c54eb3",
@@ -1359,7 +1359,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-03T08:00:00.000Z",
       "url": "https://openai.com/index/heimstaden",
-      "collectedAt": "2026-11-23T03:24:30.172Z"
+      "collectedAt": "2026-11-23T11:25:24.500Z"
     },
     {
       "id": "92bdd093b6a518bec6ad",
@@ -1376,7 +1376,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.028Z"
+      "collectedAt": "2026-11-23T11:25:25.739Z"
     },
     {
       "id": "6f440249a277a8fbbe16",
@@ -1393,7 +1393,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-02T15:30:00.000Z",
       "url": "https://openai.com/index/scaling-git-at-openai",
-      "collectedAt": "2026-11-23T03:24:30.173Z"
+      "collectedAt": "2026-11-23T11:25:24.501Z"
     },
     {
       "id": "9ed808a8187abb803291",
@@ -1410,7 +1410,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-02T09:00:00.000Z",
       "url": "https://openai.com/index/lifeval",
-      "collectedAt": "2026-11-23T03:24:30.174Z"
+      "collectedAt": "2026-11-23T11:25:24.501Z"
     },
     {
       "id": "44665529391c2ff9191f",
@@ -1427,7 +1427,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "url": "https://openai.com/index/qodo-codex-plugin",
-      "collectedAt": "2026-11-23T03:24:30.174Z"
+      "collectedAt": "2026-11-23T11:25:24.502Z"
     },
     {
       "id": "d175ac2cc4f761a12b94",
@@ -1444,7 +1444,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.029Z"
+      "collectedAt": "2026-11-23T11:25:25.739Z"
     },
     {
       "id": "6a84a600fee99150321d",
@@ -1461,7 +1461,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-30T09:00:00.000Z",
       "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "collectedAt": "2026-11-23T03:24:30.175Z"
+      "collectedAt": "2026-11-23T11:25:24.502Z"
     },
     {
       "id": "b0f21a805013f03c7dca",
@@ -1478,7 +1478,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.029Z"
+      "collectedAt": "2026-11-23T11:25:25.739Z"
     },
     {
       "id": "c4fc9ca3ccc3cbb3f72d",
@@ -1495,7 +1495,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-29T17:00:00.000Z",
       "url": "https://openai.com/index/updated-model-spec",
-      "collectedAt": "2026-11-23T03:24:30.176Z"
+      "collectedAt": "2026-11-23T11:25:24.503Z"
     },
     {
       "id": "18cef611588a1193dd4a",
@@ -1512,7 +1512,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-29T09:00:00.000Z",
       "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "collectedAt": "2026-11-23T03:24:30.176Z"
+      "collectedAt": "2026-11-23T11:25:24.503Z"
     },
     {
       "id": "fc05e6230607d9f27299",
@@ -1529,7 +1529,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "url": "https://openai.com/index/credit-saison",
-      "collectedAt": "2026-11-23T03:24:30.177Z"
+      "collectedAt": "2026-11-23T11:25:24.504Z"
     },
     {
       "id": "9587d6355203807dd506",
@@ -1546,7 +1546,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.030Z"
+      "collectedAt": "2026-11-23T11:25:25.739Z"
     },
     {
       "id": "b3912c20867cd3902d08",
@@ -1563,7 +1563,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-28T19:40:49.000Z",
       "url": "https://openai.com/ads/customers/evernote",
-      "collectedAt": "2026-11-23T03:24:30.178Z"
+      "collectedAt": "2026-11-23T11:25:24.504Z"
     },
     {
       "id": "ddcd17d7121c57be0600",
@@ -1580,7 +1580,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-28T17:00:58.000Z",
       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "collectedAt": "2026-11-23T03:24:33.031Z"
+      "collectedAt": "2026-11-23T11:25:26.656Z"
     },
     {
       "id": "24b6bd430275323c0d5b",
@@ -1597,7 +1597,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-28T13:15:00.000Z",
       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "collectedAt": "2026-11-23T03:24:30.178Z"
+      "collectedAt": "2026-11-23T11:25:24.504Z"
     },
     {
       "id": "d3623346a5ba4773e870",
@@ -1614,7 +1614,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-28T09:30:00.000Z",
       "url": "https://openai.com/index/legora",
-      "collectedAt": "2026-11-23T03:24:30.179Z"
+      "collectedAt": "2026-11-23T11:25:24.505Z"
     },
     {
       "id": "7d3a7824e5cdde1c9603",
@@ -1631,7 +1631,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-28T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.030Z"
+      "collectedAt": "2026-11-23T11:25:25.740Z"
     },
     {
       "id": "0193ff3cd44006bdf062",
@@ -1648,7 +1648,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-27T15:00:00.000Z",
       "url": "https://openai.com/index/retell-ai",
-      "collectedAt": "2026-11-23T03:24:30.179Z"
+      "collectedAt": "2026-11-23T11:25:24.505Z"
     },
     {
       "id": "c6116b17c346c7c7342b",
@@ -1665,7 +1665,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-27T07:00:00.000Z",
       "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "collectedAt": "2026-11-23T03:24:30.179Z"
+      "collectedAt": "2026-11-23T11:25:24.506Z"
     },
     {
       "id": "a000ebaf269c8ae5d638",
@@ -1682,7 +1682,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-26T22:00:00.000Z",
       "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "collectedAt": "2026-11-23T03:24:30.180Z"
+      "collectedAt": "2026-11-23T11:25:24.506Z"
     },
     {
       "id": "50873b3f4c8bbb10f0ed",
@@ -1699,7 +1699,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-26T18:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "collectedAt": "2026-11-23T03:24:30.180Z"
+      "collectedAt": "2026-11-23T11:25:24.506Z"
     },
     {
       "id": "32f1798b195a8eeda065",
@@ -1716,7 +1716,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-26T14:30:00.000Z",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "collectedAt": "2026-11-23T03:24:30.180Z"
+      "collectedAt": "2026-11-23T11:25:24.507Z"
     },
     {
       "id": "a78767db11daafd34d6e",
@@ -1733,7 +1733,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-26T13:45:00.000Z",
       "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "collectedAt": "2026-11-23T03:24:30.181Z"
+      "collectedAt": "2026-11-23T11:25:24.507Z"
     },
     {
       "id": "fcbae959cfded2c76bf5",
@@ -1750,7 +1750,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-26T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "collectedAt": "2026-11-23T03:24:30.182Z"
+      "collectedAt": "2026-11-23T11:25:24.507Z"
     },
     {
       "id": "d40d5e0ca15ab25db000",
@@ -1767,7 +1767,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-26T07:00:00.000Z",
       "url": "https://openai.com/index/openai-cut-incident-investigation",
-      "collectedAt": "2026-11-23T03:24:30.182Z"
+      "collectedAt": "2026-11-23T11:25:24.508Z"
     },
     {
       "id": "9fc10476b2c18ee0001b",
@@ -1784,7 +1784,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "collectedAt": "2026-11-23T03:24:30.183Z"
+      "collectedAt": "2026-11-23T11:25:24.508Z"
     },
     {
       "id": "fcd67a8854a80133b3f5",
@@ -1801,7 +1801,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-23T10:00:00.000Z",
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "collectedAt": "2026-11-23T03:24:30.183Z"
+      "collectedAt": "2026-11-23T11:25:24.509Z"
     },
     {
       "id": "de8f360d7618ca283160",
@@ -1818,7 +1818,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "url": "https://openai.com/index/anima",
-      "collectedAt": "2026-11-23T03:24:30.184Z"
+      "collectedAt": "2026-11-23T11:25:24.509Z"
     },
     {
       "id": "12faaea26af29e3628b9",
@@ -1835,7 +1835,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.031Z"
+      "collectedAt": "2026-11-23T11:25:25.740Z"
     },
     {
       "id": "b40a489d3dca13c566ea",
@@ -1852,7 +1852,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-22T19:00:00.000Z",
       "url": "https://openai.com/index/decisions-api",
-      "collectedAt": "2026-11-23T03:24:30.184Z"
+      "collectedAt": "2026-11-23T11:25:24.509Z"
     },
     {
       "id": "e0ac835f8bbbb3d1f9a8",
@@ -1869,7 +1869,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-22T00:00:00.000Z",
       "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "collectedAt": "2026-11-23T03:24:30.184Z"
+      "collectedAt": "2026-11-23T11:25:24.509Z"
     },
     {
       "id": "ca1eb8e9f0d5ad4b65c6",
@@ -1886,7 +1886,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.032Z"
+      "collectedAt": "2026-11-23T11:25:25.740Z"
     },
     {
       "id": "a7f4cc0f7267a2cd445c",
@@ -1903,7 +1903,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-21T13:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "collectedAt": "2026-11-23T03:24:30.185Z"
+      "collectedAt": "2026-11-23T11:25:24.510Z"
     },
     {
       "id": "e26725705d6b7e7f5c32",
@@ -1920,7 +1920,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-21T12:00:00.000Z",
       "url": "https://openai.com/index/openai-models-google-cloud",
-      "collectedAt": "2026-11-23T03:24:30.185Z"
+      "collectedAt": "2026-11-23T11:25:24.510Z"
     },
     {
       "id": "92ca159e84584b28e39e",
@@ -1937,7 +1937,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-21T07:00:00.000Z",
       "url": "https://openai.com/index/building-chatgpt-ad-stack",
-      "collectedAt": "2026-11-23T03:24:30.186Z"
+      "collectedAt": "2026-11-23T11:25:24.510Z"
     },
     {
       "id": "f99f7ec39c9e42b8cdb5",
@@ -1954,7 +1954,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "url": "https://openai.com/index/cloudflare-cyber",
-      "collectedAt": "2026-11-23T03:24:30.186Z"
+      "collectedAt": "2026-11-23T11:25:24.510Z"
     },
     {
       "id": "f96d8d9d61bf99f94f98",
@@ -1971,7 +1971,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-23T03:24:30.845Z"
+      "collectedAt": "2026-11-23T11:25:25.187Z"
     },
     {
       "id": "0ce4f81341f84770cb28",
@@ -1988,7 +1988,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.032Z"
+      "collectedAt": "2026-11-23T11:25:25.740Z"
     },
     {
       "id": "c4b1ed46c0fe160229ee",
@@ -2005,7 +2005,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-20T10:00:00.000Z",
       "url": "https://openai.com/index/ted-taylor-restaurant",
-      "collectedAt": "2026-11-23T03:24:30.187Z"
+      "collectedAt": "2026-11-23T11:25:24.511Z"
     },
     {
       "id": "a880df1b302f86a910fe",
@@ -2022,7 +2022,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-20T07:00:00.000Z",
       "url": "https://openai.com/index/terminal-x",
-      "collectedAt": "2026-11-23T03:24:30.187Z"
+      "collectedAt": "2026-11-23T11:25:24.511Z"
     },
     {
       "id": "16ee5437764d50779581",
@@ -2039,7 +2039,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-20T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.033Z"
+      "collectedAt": "2026-11-23T11:25:25.741Z"
     },
     {
       "id": "b330f85b4b03f521aa49",
@@ -2056,7 +2056,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-19T12:00:00.000Z",
       "url": "https://openai.com/index/low-resource-programming-languages",
-      "collectedAt": "2026-11-23T03:24:30.188Z"
+      "collectedAt": "2026-11-23T11:25:24.511Z"
     },
     {
       "id": "0ac6bba12ed4c8cbdc20",
@@ -2073,7 +2073,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-17T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-23T03:24:35.202Z"
+      "collectedAt": "2026-11-23T11:25:30.005Z"
     },
     {
       "id": "741083893d951a305411",
@@ -2090,7 +2090,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "url": "https://openai.com/index/localiza-generative-ai",
-      "collectedAt": "2026-11-23T03:24:30.188Z"
+      "collectedAt": "2026-11-23T11:25:24.512Z"
     },
     {
       "id": "64b4b57c169ea93d3501",
@@ -2107,7 +2107,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "collectedAt": "2026-11-23T03:24:30.189Z"
+      "collectedAt": "2026-11-23T11:25:24.512Z"
     },
     {
       "id": "29c23cec52be23e1fea0",
@@ -2124,7 +2124,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "url": "https://openai.com/index/benefit-street-partners",
-      "collectedAt": "2026-11-23T03:24:30.189Z"
+      "collectedAt": "2026-11-23T11:25:24.513Z"
     },
     {
       "id": "4ed6df5c15d558fd63cd",
@@ -2141,7 +2141,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-15T19:00:00.000Z",
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "collectedAt": "2026-11-23T03:24:30.190Z"
+      "collectedAt": "2026-11-23T11:25:24.513Z"
     },
     {
       "id": "18610e08c678bc8aded1",
@@ -2158,7 +2158,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.033Z"
+      "collectedAt": "2026-11-23T11:25:25.741Z"
     },
     {
       "id": "ae07909e220d84ba5298",
@@ -2175,7 +2175,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-14T12:00:00.000Z",
       "url": "https://openai.com/index/amp-beyond-coding",
-      "collectedAt": "2026-11-23T03:24:30.191Z"
+      "collectedAt": "2026-11-23T11:25:24.513Z"
     },
     {
       "id": "5af941d3347cd0b31e08",
@@ -2192,7 +2192,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-14T07:00:00.000Z",
       "url": "https://openai.com/index/third-moment-research",
-      "collectedAt": "2026-11-23T03:24:30.191Z"
+      "collectedAt": "2026-11-23T11:25:24.514Z"
     },
     {
       "id": "6725a25b1257a6d7abcf",
@@ -2209,7 +2209,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-14T02:00:14.000Z",
       "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "collectedAt": "2026-11-23T03:24:33.031Z"
+      "collectedAt": "2026-11-23T11:25:26.656Z"
     },
     {
       "id": "d6c85c4d2f3339abada7",
@@ -2226,7 +2226,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.034Z"
+      "collectedAt": "2026-11-23T11:25:25.741Z"
     },
     {
       "id": "ca02af101726c5e29829",
@@ -2243,7 +2243,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T19:43:07.000Z",
       "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "collectedAt": "2026-11-23T03:24:33.031Z"
+      "collectedAt": "2026-11-23T11:25:26.657Z"
     },
     {
       "id": "79730454c4a0d9bd4cd0",
@@ -2260,7 +2260,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T16:01:58.000Z",
       "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "collectedAt": "2026-11-23T03:24:33.031Z"
+      "collectedAt": "2026-11-23T11:25:26.657Z"
     },
     {
       "id": "812075165a6f703bcf0c",
@@ -2277,7 +2277,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T16:01:52.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "collectedAt": "2026-11-23T03:24:33.031Z"
+      "collectedAt": "2026-11-23T11:25:26.657Z"
     },
     {
       "id": "bd0c7d7636bac2d8b368",
@@ -2294,7 +2294,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T16:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "collectedAt": "2026-11-23T03:24:33.299Z"
+      "collectedAt": "2026-11-23T11:25:26.946Z"
     },
     {
       "id": "88d109f9ffb73d1e9149",
@@ -2311,7 +2311,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T12:00:00.000Z",
       "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "collectedAt": "2026-11-23T03:24:30.192Z"
+      "collectedAt": "2026-11-23T11:25:24.514Z"
     },
     {
       "id": "c3e57db0842e8aa78965",
@@ -2328,7 +2328,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-13T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-11-23T03:24:32.284Z"
+      "collectedAt": "2026-11-23T11:25:26.039Z"
     },
     {
       "id": "6e4f5b7a123143776f19",
@@ -2345,7 +2345,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-09T07:00:00.000Z",
       "url": "https://openai.com/index/asana-browser-agent",
-      "collectedAt": "2026-11-23T03:24:30.192Z"
+      "collectedAt": "2026-11-23T11:25:24.514Z"
     },
     {
       "id": "42e888a7cc19b4d85cd0",
@@ -2362,7 +2362,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.034Z"
+      "collectedAt": "2026-11-23T11:25:25.742Z"
     },
     {
       "id": "ea6e3024027050fefc4a",
@@ -2379,7 +2379,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-08T16:00:00.000Z",
       "url": "https://openai.com/index/oracle",
-      "collectedAt": "2026-11-23T03:24:30.192Z"
+      "collectedAt": "2026-11-23T11:25:24.515Z"
     },
     {
       "id": "5e179cf9fc5230516601",
@@ -2396,7 +2396,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "url": "https://openai.com/index/pollo-ai",
-      "collectedAt": "2026-11-23T03:24:30.193Z"
+      "collectedAt": "2026-11-23T11:25:24.515Z"
     },
     {
       "id": "f45224b70875029b06cb",
@@ -2413,7 +2413,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "url": "https://openai.com/index/legalon-halves-codex-costs",
-      "collectedAt": "2026-11-23T03:24:30.193Z"
+      "collectedAt": "2026-11-23T11:25:24.515Z"
     },
     {
       "id": "b00b251fbd09fd510cf8",
@@ -2430,7 +2430,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-08T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.034Z"
+      "collectedAt": "2026-11-23T11:25:25.742Z"
     },
     {
       "id": "053572bc3d224707807d",
@@ -2447,7 +2447,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T12:00:00.000Z",
       "url": "https://openai.com/index/teens-learn-and-plan",
-      "collectedAt": "2026-11-23T03:24:30.193Z"
+      "collectedAt": "2026-11-23T11:25:24.515Z"
     },
     {
       "id": "e570b3aeb15445d9fd65",
@@ -2464,7 +2464,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T07:00:00.000Z",
       "url": "https://openai.com/index/radisson",
-      "collectedAt": "2026-11-23T03:24:30.194Z"
+      "collectedAt": "2026-11-23T11:25:24.515Z"
     },
     {
       "id": "44e7004c56ab653cde6e",
@@ -2481,7 +2481,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-for-everyone",
-      "collectedAt": "2026-11-23T03:24:30.194Z"
+      "collectedAt": "2026-11-23T11:25:24.516Z"
     },
     {
       "id": "ecef651792823cfe8680",
@@ -2498,7 +2498,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-23T03:24:30.846Z"
+      "collectedAt": "2026-11-23T11:25:25.188Z"
     },
     {
       "id": "02a4f216cde7ea519cea",
@@ -2515,7 +2515,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.035Z"
+      "collectedAt": "2026-11-23T11:25:25.743Z"
     },
     {
       "id": "bb24fa22c53afbb99a4c",
@@ -2532,7 +2532,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T19:57:04.000Z",
       "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-      "collectedAt": "2026-11-23T03:24:33.032Z"
+      "collectedAt": "2026-11-23T11:25:26.657Z"
     },
     {
       "id": "2fb1d1aa61471ba7fc18",
@@ -2549,7 +2549,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T16:00:00.000Z",
       "url": "https://openai.com/index/atlassian-partnership",
-      "collectedAt": "2026-11-23T03:24:30.195Z"
+      "collectedAt": "2026-11-23T11:25:24.517Z"
     },
     {
       "id": "d08e77e6d7627ad2dedc",
@@ -2566,7 +2566,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T12:00:00.000Z",
       "url": "https://openai.com/index/jump-trading",
-      "collectedAt": "2026-11-23T03:24:30.194Z"
+      "collectedAt": "2026-11-23T11:25:24.516Z"
     },
     {
       "id": "f468f3b992b29140bb8c",
@@ -2583,7 +2583,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T12:00:00.000Z",
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "collectedAt": "2026-11-23T03:24:30.195Z"
+      "collectedAt": "2026-11-23T11:25:24.516Z"
     },
     {
       "id": "bdb33ded96b07020b0fa",
@@ -2600,7 +2600,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-06T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.036Z"
+      "collectedAt": "2026-11-23T11:25:25.743Z"
     },
     {
       "id": "aa83e0567f81baa77a53",
@@ -2617,7 +2617,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-05T10:00:00.000Z",
       "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "collectedAt": "2026-11-23T03:24:30.195Z"
+      "collectedAt": "2026-11-23T11:25:24.517Z"
     },
     {
       "id": "59441074197a9d52b588",
@@ -2634,7 +2634,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.036Z"
+      "collectedAt": "2026-11-23T11:25:25.743Z"
     },
     {
       "id": "384626120891883ee8e2",
@@ -2651,7 +2651,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-02T16:15:00.000Z",
       "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "collectedAt": "2026-11-23T03:24:30.196Z"
+      "collectedAt": "2026-11-23T11:25:24.517Z"
     },
     {
       "id": "b4075fea819f5adf3283",
@@ -2668,7 +2668,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "url": "https://openai.com/index/chatham-financial",
-      "collectedAt": "2026-11-23T03:24:30.196Z"
+      "collectedAt": "2026-11-23T11:25:24.517Z"
     },
     {
       "id": "f1ee3e7d0793c6d93b3a",
@@ -2685,7 +2685,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-01T16:00:00.000Z",
       "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "collectedAt": "2026-11-23T03:24:30.196Z"
+      "collectedAt": "2026-11-23T11:25:24.517Z"
     },
     {
       "id": "13ae9b523ea82b817626",
@@ -2702,7 +2702,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "url": "https://openai.com/index/the-den-family-social",
-      "collectedAt": "2026-11-23T03:24:30.197Z"
+      "collectedAt": "2026-11-23T11:25:24.518Z"
     },
     {
       "id": "7a981bb6a8fec202e200",
@@ -2719,7 +2719,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.037Z"
+      "collectedAt": "2026-11-23T11:25:25.743Z"
     },
     {
       "id": "29505882ef55b3b17452",
@@ -2736,7 +2736,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-30T20:01:45.000Z",
       "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "collectedAt": "2026-11-23T03:24:33.032Z"
+      "collectedAt": "2026-11-23T11:25:26.657Z"
     },
     {
       "id": "7b79633fb1d94ee1fafd",
@@ -2753,7 +2753,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-30T10:30:00.000Z",
       "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "collectedAt": "2026-11-23T03:24:30.197Z"
+      "collectedAt": "2026-11-23T11:25:24.518Z"
     },
     {
       "id": "7a44f16e721d71f3a40a",
@@ -2770,7 +2770,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.037Z"
+      "collectedAt": "2026-11-23T11:25:25.743Z"
     },
     {
       "id": "14a93593dd29d9cce2e2",
@@ -2787,7 +2787,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-11-23T03:24:32.284Z"
+      "collectedAt": "2026-11-23T11:25:26.040Z"
     },
     {
       "id": "dec3c56087ecf835f793",
@@ -2804,7 +2804,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-29T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "collectedAt": "2026-11-23T03:24:30.197Z"
+      "collectedAt": "2026-11-23T11:25:24.518Z"
     },
     {
       "id": "b1be4275e9b1957a480b",
@@ -2821,7 +2821,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-29T10:00:00.000Z",
       "url": "https://openai.com/index/devday-2026-recap",
-      "collectedAt": "2026-11-23T03:24:30.198Z"
+      "collectedAt": "2026-11-23T11:25:24.518Z"
     },
     {
       "id": "8aba59a84f4991b7e02f",
@@ -2838,7 +2838,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-29T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-dots",
-      "collectedAt": "2026-11-23T03:24:30.198Z"
+      "collectedAt": "2026-11-23T11:25:24.519Z"
     },
     {
       "id": "3d0c36ffbad6ec0487a6",
@@ -2855,7 +2855,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://openai.com/form/codex-originals",
-      "collectedAt": "2026-11-23T03:24:30.199Z"
+      "collectedAt": "2026-11-23T11:25:24.519Z"
     },
     {
       "id": "fb33ffedd2ef1f33358e",
@@ -2872,7 +2872,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "collectedAt": "2026-11-23T03:24:30.199Z"
+      "collectedAt": "2026-11-23T11:25:24.519Z"
     },
     {
       "id": "b4c25d5187dd3628a6ae",
@@ -2889,7 +2889,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-23T03:24:30.847Z"
+      "collectedAt": "2026-11-23T11:25:25.188Z"
     },
     {
       "id": "fc6af36a46b4e2940d27",
@@ -2906,7 +2906,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.038Z"
+      "collectedAt": "2026-11-23T11:25:25.744Z"
     },
     {
       "id": "958634143951a5262875",
@@ -2923,7 +2923,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-25T19:00:00.000Z",
       "url": "https://openai.com/index/proaction",
-      "collectedAt": "2026-11-23T03:24:30.200Z"
+      "collectedAt": "2026-11-23T11:25:24.520Z"
     },
     {
       "id": "908b229b34ef0eca1c2c",
@@ -2940,7 +2940,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-25T07:00:00.000Z",
       "url": "https://openai.com/index/lowes",
-      "collectedAt": "2026-11-23T03:24:30.200Z"
+      "collectedAt": "2026-11-23T11:25:24.520Z"
     },
     {
       "id": "5e679411e8795fb41661",
@@ -2957,7 +2957,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-25T00:00:00.000Z",
       "url": "https://openai.com/index/wayfair",
-      "collectedAt": "2026-11-23T03:24:30.200Z"
+      "collectedAt": "2026-11-23T11:25:24.520Z"
     },
     {
       "id": "5a1eb82bce206d920902",
@@ -2974,7 +2974,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-23T03:24:30.848Z"
+      "collectedAt": "2026-11-23T11:25:25.189Z"
     },
     {
       "id": "20a747dfc11440658478",
@@ -2991,7 +2991,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-24T16:20:39.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "collectedAt": "2026-11-23T03:24:33.032Z"
+      "collectedAt": "2026-11-23T11:25:26.657Z"
     },
     {
       "id": "656525516449cb970c4b",
@@ -3008,7 +3008,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-24T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.039Z"
+      "collectedAt": "2026-11-23T11:25:25.744Z"
     },
     {
       "id": "195c546c2f499ad7a563",
@@ -3025,7 +3025,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T15:25:14.000Z",
       "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "collectedAt": "2026-11-23T03:24:33.032Z"
+      "collectedAt": "2026-11-23T11:25:26.657Z"
     },
     {
       "id": "d19836357705e0f3bb0f",
@@ -3042,7 +3042,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "collectedAt": "2026-11-23T03:24:30.201Z"
+      "collectedAt": "2026-11-23T11:25:24.520Z"
     },
     {
       "id": "d84366078f8a35d69fd8",
@@ -3059,7 +3059,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "url": "https://openai.com/index/ringg",
-      "collectedAt": "2026-11-23T03:24:30.201Z"
+      "collectedAt": "2026-11-23T11:25:24.520Z"
     },
     {
       "id": "98d49239d16302a79008",
@@ -3076,7 +3076,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "collectedAt": "2026-11-23T03:24:30.201Z"
+      "collectedAt": "2026-11-23T11:25:24.520Z"
     },
     {
       "id": "c7ba4d1eb147cdd66b38",
@@ -3093,7 +3093,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T02:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-      "collectedAt": "2026-11-23T03:24:30.202Z"
+      "collectedAt": "2026-11-23T11:25:24.521Z"
     },
     {
       "id": "b6ef8483976563d9823c",
@@ -3110,7 +3110,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T01:00:00.000Z",
       "url": "https://openai.com/index/airbnb-gpt-6-astra",
-      "collectedAt": "2026-11-23T03:24:30.202Z"
+      "collectedAt": "2026-11-23T11:25:24.521Z"
     },
     {
       "id": "cf8033ba83eec6a8c148",
@@ -3127,7 +3127,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.040Z"
+      "collectedAt": "2026-11-23T11:25:25.744Z"
     },
     {
       "id": "0e12b4f460d98cac8731",
@@ -3144,7 +3144,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T21:00:00.000Z",
       "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "collectedAt": "2026-11-23T03:24:30.202Z"
+      "collectedAt": "2026-11-23T11:25:24.521Z"
     },
     {
       "id": "0299d0ca3df23eb91bfb",
@@ -3161,7 +3161,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T18:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "collectedAt": "2026-11-23T03:24:30.202Z"
+      "collectedAt": "2026-11-23T11:25:24.521Z"
     },
     {
       "id": "4e2d2a2c5ea855512c7e",
@@ -3178,7 +3178,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T12:00:00.000Z",
       "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "collectedAt": "2026-11-23T03:24:30.203Z"
+      "collectedAt": "2026-11-23T11:25:24.524Z"
     },
     {
       "id": "25f4610d8559fb3e7ae8",
@@ -3195,7 +3195,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-      "collectedAt": "2026-11-23T03:24:30.203Z"
+      "collectedAt": "2026-11-23T11:25:24.524Z"
     },
     {
       "id": "48cb0cab97e8610721be",
@@ -3212,7 +3212,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-23T03:24:30.848Z"
+      "collectedAt": "2026-11-23T11:25:25.190Z"
     },
     {
       "id": "4e5cbe8e0247f025a726",
@@ -3229,7 +3229,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.040Z"
+      "collectedAt": "2026-11-23T11:25:25.755Z"
     },
     {
       "id": "9b5d95c2825df000aa2b",
@@ -3246,7 +3246,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-21T12:00:00.000Z",
       "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "collectedAt": "2026-11-23T03:24:30.203Z"
+      "collectedAt": "2026-11-23T11:25:24.524Z"
     },
     {
       "id": "132e637062c60e5185cf",
@@ -3263,7 +3263,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "url": "https://openai.com/index/v7",
-      "collectedAt": "2026-11-23T03:24:30.204Z"
+      "collectedAt": "2026-11-23T11:25:24.524Z"
     },
     {
       "id": "cf45b7445432b183ccd7",
@@ -3280,7 +3280,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.053Z"
+      "collectedAt": "2026-11-23T11:25:25.756Z"
     },
     {
       "id": "99698296f3d481cb3012",
@@ -3297,7 +3297,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-17T12:00:00.000Z",
       "url": "https://openai.com/index/cooley-gopublic",
-      "collectedAt": "2026-11-23T03:24:30.204Z"
+      "collectedAt": "2026-11-23T11:25:24.525Z"
     },
     {
       "id": "3db286bcd9ddd5e690c5",
@@ -3314,7 +3314,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T17:00:00.000Z",
       "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "collectedAt": "2026-11-23T03:24:30.209Z"
+      "collectedAt": "2026-11-23T11:25:24.526Z"
     },
     {
       "id": "11eaf0d915ce57f2e5dc",
@@ -3331,7 +3331,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T16:00:00.000Z",
       "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "collectedAt": "2026-11-23T03:24:30.208Z"
+      "collectedAt": "2026-11-23T11:25:24.525Z"
     },
     {
       "id": "b458adf1e7325b78ff00",
@@ -3348,7 +3348,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T13:00:00.000Z",
       "url": "https://openai.com/index/reimagining-advertising-with-ai",
-      "collectedAt": "2026-11-23T03:24:30.208Z"
+      "collectedAt": "2026-11-23T11:25:24.525Z"
     },
     {
       "id": "2dbb90206bf7febc30df",
@@ -3365,7 +3365,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T12:00:00.000Z",
       "url": "https://openai.com/index/hex-gpt-6-astra",
-      "collectedAt": "2026-11-23T03:24:30.208Z"
+      "collectedAt": "2026-11-23T11:25:24.525Z"
     },
     {
       "id": "d7974b87b16b68185695",
@@ -3382,7 +3382,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T12:00:00.000Z",
       "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-      "collectedAt": "2026-11-23T03:24:30.209Z"
+      "collectedAt": "2026-11-23T11:25:24.526Z"
     },
     {
       "id": "1679a9385f8da2856137",
@@ -3399,7 +3399,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-23T03:24:30.850Z"
+      "collectedAt": "2026-11-23T11:25:25.191Z"
     },
     {
       "id": "6027ab1cfd832c602065",
@@ -3416,7 +3416,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-15T17:05:57.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "collectedAt": "2026-11-23T03:24:33.032Z"
+      "collectedAt": "2026-11-23T11:25:26.657Z"
     },
     {
       "id": "0e9e3b47215ca2b8e52d",
@@ -3433,7 +3433,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-23T03:24:30.851Z"
+      "collectedAt": "2026-11-23T11:25:25.191Z"
     },
     {
       "id": "7b83739b7d5f1c944f9f",
@@ -3450,7 +3450,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-14T12:00:00.000Z",
       "url": "https://openai.com/index/fyxer",
-      "collectedAt": "2026-11-23T03:24:30.209Z"
+      "collectedAt": "2026-11-23T11:25:24.526Z"
     },
     {
       "id": "a4651d8dabcdcb00db87",
@@ -3467,7 +3467,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "collectedAt": "2026-11-23T03:24:30.210Z"
+      "collectedAt": "2026-11-23T11:25:24.526Z"
     },
     {
       "id": "e63da132a40e17f8c5e1",
@@ -3484,7 +3484,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.054Z"
+      "collectedAt": "2026-11-23T11:25:25.756Z"
     },
     {
       "id": "8441c5c7713114dab2dd",
@@ -3501,7 +3501,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-11T16:00:00.000Z",
       "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "collectedAt": "2026-11-23T03:24:30.210Z"
+      "collectedAt": "2026-11-23T11:25:24.527Z"
     },
     {
       "id": "a97d00819fdcee1d0af9",
@@ -3518,7 +3518,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-11T10:00:00.000Z",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "collectedAt": "2026-11-23T03:24:30.210Z"
+      "collectedAt": "2026-11-23T11:25:24.526Z"
     },
     {
       "id": "16d6fc5541d885cd91c8",
@@ -3535,7 +3535,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T16:00:00.000Z",
       "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "collectedAt": "2026-11-23T03:24:30.210Z"
+      "collectedAt": "2026-11-23T11:25:24.527Z"
     },
     {
       "id": "85f5620286a75dba1ad3",
@@ -3552,7 +3552,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T15:00:00.000Z",
       "url": "https://openai.com/index/put-data-to-work",
-      "collectedAt": "2026-11-23T03:24:30.211Z"
+      "collectedAt": "2026-11-23T11:25:24.527Z"
     },
     {
       "id": "f2800aae894b09e0bcf0",
@@ -3569,7 +3569,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T07:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "collectedAt": "2026-11-23T03:24:30.211Z"
+      "collectedAt": "2026-11-23T11:25:24.527Z"
     },
     {
       "id": "02a514a4d6eb4e449b95",
@@ -3586,7 +3586,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-the-agents-api",
-      "collectedAt": "2026-11-23T03:24:30.211Z"
+      "collectedAt": "2026-11-23T11:25:24.527Z"
     },
     {
       "id": "6ca2d4bb7baad47f3b1e",
@@ -3603,7 +3603,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "collectedAt": "2026-11-23T03:24:30.212Z"
+      "collectedAt": "2026-11-23T11:25:24.527Z"
     },
     {
       "id": "50e12afea7a21a8f8a47",
@@ -3620,7 +3620,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-23T03:24:30.851Z"
+      "collectedAt": "2026-11-23T11:25:25.192Z"
     },
     {
       "id": "278864a90b7195a8f9eb",
@@ -3637,7 +3637,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.054Z"
+      "collectedAt": "2026-11-23T11:25:25.756Z"
     },
     {
       "id": "2f6a11a19101188b8eed",
@@ -3654,7 +3654,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-11-23T03:24:32.285Z"
+      "collectedAt": "2026-11-23T11:25:26.040Z"
     },
     {
       "id": "98d7349379f3f9e1561b",
@@ -3671,7 +3671,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-23T03:24:35.203Z"
+      "collectedAt": "2026-11-23T11:25:30.007Z"
     },
     {
       "id": "45aecbb9328300ba4629",
@@ -3688,7 +3688,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-09T11:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "collectedAt": "2026-11-23T03:24:30.212Z"
+      "collectedAt": "2026-11-23T11:25:24.528Z"
     },
     {
       "id": "225c9acc339c587b1fac",
@@ -3705,7 +3705,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.055Z"
+      "collectedAt": "2026-11-23T11:25:25.756Z"
     },
     {
       "id": "d336adb530d2e7f0e222",
@@ -3722,7 +3722,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T17:00:00.000Z",
       "url": "https://openai.com/index/codex-quantum-computing-experiments",
-      "collectedAt": "2026-11-23T03:24:30.212Z"
+      "collectedAt": "2026-11-23T11:25:24.528Z"
     },
     {
       "id": "48b0669cc37302b20aee",
@@ -3739,7 +3739,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T11:30:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-      "collectedAt": "2026-11-23T03:24:30.213Z"
+      "collectedAt": "2026-11-23T11:25:24.528Z"
     },
     {
       "id": "9b8a0aa3eea1f601cab9",
@@ -3756,7 +3756,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T10:00:00.000Z",
       "url": "https://openai.com/index/navier-stokes-solution",
-      "collectedAt": "2026-11-23T03:24:30.213Z"
+      "collectedAt": "2026-11-23T11:25:24.529Z"
     },
     {
       "id": "fc10a2c83b0e44fbdbfa",
@@ -3773,7 +3773,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "url": "https://openai.com/index/1password",
-      "collectedAt": "2026-11-23T03:24:30.213Z"
+      "collectedAt": "2026-11-23T11:25:24.529Z"
     },
     {
       "id": "0f8e8b7e95228d5352a6",
@@ -3790,7 +3790,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-06T08:00:00.000Z",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "collectedAt": "2026-11-23T03:24:30.214Z"
+      "collectedAt": "2026-11-23T11:25:24.529Z"
     },
     {
       "id": "3fdba842a49bbf61f305",
@@ -3807,7 +3807,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "collectedAt": "2026-11-23T03:24:30.215Z"
+      "collectedAt": "2026-11-23T11:25:24.530Z"
     },
     {
       "id": "67198b26c462572b168f",
@@ -3824,7 +3824,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "collectedAt": "2026-11-23T03:24:30.215Z"
+      "collectedAt": "2026-11-23T11:25:24.530Z"
     },
     {
       "id": "499b8df2de41c3c42a77",
@@ -3841,7 +3841,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T11:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-astra",
-      "collectedAt": "2026-11-23T03:24:30.216Z"
+      "collectedAt": "2026-11-23T11:25:24.530Z"
     },
     {
       "id": "9b8372f5dd9139bf3dfd",
@@ -3858,7 +3858,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "collectedAt": "2026-11-23T03:24:30.216Z"
+      "collectedAt": "2026-11-23T11:25:24.530Z"
     },
     {
       "id": "76e92e71feca11592be4",
@@ -3875,7 +3875,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.056Z"
+      "collectedAt": "2026-11-23T11:25:25.757Z"
     },
     {
       "id": "9ad38e9ab9838c6b598d",
@@ -3892,7 +3892,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-02T16:18:31.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "collectedAt": "2026-11-23T03:24:33.032Z"
+      "collectedAt": "2026-11-23T11:25:26.658Z"
     },
     {
       "id": "23cc665780e07fde7643",
@@ -3909,7 +3909,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-02T12:00:00.000Z",
       "url": "https://openai.com/index/atv-big-air-tour",
-      "collectedAt": "2026-11-23T03:24:30.217Z"
+      "collectedAt": "2026-11-23T11:25:24.531Z"
     },
     {
       "id": "5fd2975f213ab047e365",
@@ -3926,7 +3926,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T17:08:51.000Z",
       "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-      "collectedAt": "2026-11-23T03:24:33.033Z"
+      "collectedAt": "2026-11-23T11:25:26.658Z"
     },
     {
       "id": "0de52357b4b07f25549c",
@@ -3943,7 +3943,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T13:00:00.000Z",
       "url": "https://openai.com/index/path-to-astra",
-      "collectedAt": "2026-11-23T03:24:30.217Z"
+      "collectedAt": "2026-11-23T11:25:24.531Z"
     },
     {
       "id": "210c1577098c3af2295c",
@@ -3960,7 +3960,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T12:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "collectedAt": "2026-11-23T03:24:30.217Z"
+      "collectedAt": "2026-11-23T11:25:24.531Z"
     },
     {
       "id": "c60a9dbb33739fa8f7ff",
@@ -3977,7 +3977,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T01:00:00.000Z",
       "url": "https://openai.com/index/gilbert-tobin",
-      "collectedAt": "2026-11-23T03:24:30.218Z"
+      "collectedAt": "2026-11-23T11:25:24.531Z"
     },
     {
       "id": "f53efa27b0d13a2b8d75",
@@ -3994,7 +3994,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-23T03:24:30.852Z"
+      "collectedAt": "2026-11-23T11:25:25.192Z"
     },
     {
       "id": "572389d7a48d287c2737",
@@ -4011,7 +4011,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.057Z"
+      "collectedAt": "2026-11-23T11:25:25.757Z"
     },
     {
       "id": "62995badc1a46202724b",
@@ -4028,7 +4028,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-31T07:00:00.000Z",
       "url": "https://openai.com/index/polimill",
-      "collectedAt": "2026-11-23T03:24:30.218Z"
+      "collectedAt": "2026-11-23T11:25:24.531Z"
     },
     {
       "id": "89958d19d1f987cb8ada",
@@ -4045,7 +4045,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-31T04:00:00.000Z",
       "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "collectedAt": "2026-11-23T03:24:30.218Z"
+      "collectedAt": "2026-11-23T11:25:24.531Z"
     },
     {
       "id": "6e697a03b79f347648db",
@@ -4062,7 +4062,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-28T06:00:00.000Z",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "collectedAt": "2026-11-23T03:24:30.218Z"
+      "collectedAt": "2026-11-23T11:25:24.532Z"
     },
     {
       "id": "3b034008653d3c2739c4",
@@ -4079,7 +4079,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T16:11:32.000Z",
       "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "collectedAt": "2026-11-23T03:24:33.033Z"
+      "collectedAt": "2026-11-23T11:25:26.658Z"
     },
     {
       "id": "f3885091ef8df6aaae64",
@@ -4096,7 +4096,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T09:00:00.000Z",
       "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "collectedAt": "2026-11-23T03:24:30.219Z"
+      "collectedAt": "2026-11-23T11:25:24.532Z"
     },
     {
       "id": "4707ef7564f9017d5027",
@@ -4113,7 +4113,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.057Z"
+      "collectedAt": "2026-11-23T11:25:25.758Z"
     },
     {
       "id": "038305de768a112cfa08",
@@ -4130,7 +4130,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T17:01:00.000Z",
       "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-      "collectedAt": "2026-11-23T03:24:33.033Z"
+      "collectedAt": "2026-11-23T11:25:26.658Z"
     },
     {
       "id": "92b51a1e3a09499b97f9",
@@ -4147,7 +4147,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "url": "https://openai.com/index/learning-never-stops",
-      "collectedAt": "2026-11-23T03:24:30.219Z"
+      "collectedAt": "2026-11-23T11:25:24.532Z"
     },
     {
       "id": "df161950e809789b055b",
@@ -4164,7 +4164,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "collectedAt": "2026-11-23T03:24:30.219Z"
+      "collectedAt": "2026-11-23T11:25:24.532Z"
     },
     {
       "id": "e8e71766793d0226c88b",
@@ -4181,7 +4181,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "collectedAt": "2026-11-23T03:24:30.220Z"
+      "collectedAt": "2026-11-23T11:25:24.532Z"
     },
     {
       "id": "42d46e03e113f1a48a9f",
@@ -4198,7 +4198,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/loveholidays",
-      "collectedAt": "2026-11-23T03:24:30.220Z"
+      "collectedAt": "2026-11-23T11:25:24.533Z"
     },
     {
       "id": "0e8f06023793c35c12b2",
@@ -4215,41 +4215,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-23T03:24:32.058Z"
-    },
-    {
-      "id": "bdff11d888b055940269",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "The full stack behind abundant intelligence",
-      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-      "content": "Progress in AI compounds fastest when the entire system improves together. That is how I think about OpenAI’s compute strategy: one integrated system spanning data centers and chips, frontier models, our developer platform, consumer and enterprise products, and AI-native devices, with each layer strengthening the next.\n\nBetter software makes hardware more productive. Hardware designed for our workloads improves speed and efficiency. More capable models unlock better products, which generate more demand, usage, and learning. Those signals flow back through the system and help us improve it again.\n\nToday, [we shared](https://openai.com/index/jalapeno-first-results/) the first measured performance results from Jalapeño, OpenAI’s first custom inference chip. On InferenceX, a public benchmark using GPT‑OSS 120B, Jalapeño delivered more peak throughput per kilowatt and lower token latency than the commercial systems in the comparison. It also performed strongly on DeepSeek R1 and Kimi K2, showing that its gains extend across model families.\n\n## Jalapeño widens the lead at previous-best TBT\n\nJalapeño gives us greater control over how our models run and over the economics of serving them. By developing the model, serving software, chip, memory, and network together, we can improve throughput, latency, energy efficiency, and cost as one system. It creates a credible first-party path alongside the accelerators we use from other partners, expanding our ability to match each workload to the strongest system at the right economics. We now have working first-party silicon with measured results, and future generations are already underway.\n\n## Build for breadth, own for leverage\n\nDifferent workloads place different demands on the system. Frontier training, high-volume inference, and always-on agents have different requirements across chips, software, networks, power, and latency.\n\nOur goal is to stay on the Pareto frontier: continually seeking the strongest mix of capability, speed, reliability, efficiency, and cost for each workload. Different chips and providers lead on different dimensions, and the frontier keeps moving.\n\nOur portfolio gives us the range to meet those needs. Microsoft’s compute and NVIDIA’s chips have been foundational to OpenAI’s growth. Today, our portfolio also includes AWS, AMD, Broadcom, Cerebras, CoreWeave, Oracle, SB Energy and SoftBank. Each brings different strengths across cloud infrastructure, accelerated computing, low-latency inference, data-center development, and energy delivery.\n\nWe actively manage this portfolio for both capability and economics. We use premium systems where capability matters most and optimize for efficiency where scale and cost matter more. Preserving credible choice across providers, hardware, and deployment models lets us direct demand toward the strongest performance per dollar, maintain pricing discipline as market conditions change, and move with the frontier as stronger technology emerges. Direct control adds leverage where tighter integration can improve the entire system. We partner where the ecosystem helps us move faster and build where co-design creates a meaningful advantage.\n\nData centers create another point of leverage. [Project Camellia⁠](https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community/) in Georgia shows how we can design facilities around customer workloads while creating jobs, supporting local businesses, covering project infrastructure and energy costs, conserving water through a closed-loop system, and subjecting its commitments to an annual independent public audit.\n\n## Turning efficiency into economic value\n\nThe value of this system is measured by what it produces: more useful intelligence from every unit of compute.\n\nBetter models reach the right answer with fewer attempts. Smarter routing and context management reduce wasted work. Optimized software and purpose-built hardware improve speed and energy efficiency.\n\nOn the Artificial Analysis Coding Agent Index, GPT‑5.6 Sol with max reasoning reached a new high while using 54% fewer output tokens than another leading model. For customers, improvements like these mean faster results, more dependable products, fewer retries, agents that complete longer workflows, and a lower total cost for successful work. The best economics come from useful intelligence per dollar.\n\nAs useful intelligence becomes more capable and affordable, more work becomes economically practical. A company can provide tailored analysis to every customer, review every contract, run live financial scenarios, and help engineers test more ideas. This is Jevons paradox: greater efficiency makes more uses worthwhile, expanding consumption and creating new economic activity through more work completed, better decisions, more products launched, and more revenue generated.\n\n## A compounding advantage\n\nMore productive compute and a more competitive supply base help us serve more customers at lower cost and carry those efficiency gains through to users. Growth funds continued investment in research, infrastructure, and safety. That is OpenAI’s compounding advantage: better technology creates better economics, better economics fund the next wave of progress, and every gain makes the whole system stronger.",
-      "contentZh": "AI的进步，当整个系统协同提升时，其复合效应最为显著。这正是我对OpenAI计算策略的思考方式：一个整合的系统，涵盖数据中心与芯片、前沿模型、开发者平台、消费级与企业级产品，以及AI原生设备，每一层都强化着下一层。\n\n更优秀的软件让硬件更具生产力。针对我们的工作负载设计的硬件则提升速度与效率。更强的模型解锁更好的产品，进而产生更多需求、使用和学习。这些信号回流至整个系统，帮助我们再次改进。\n\n今天，我们[分享了](https://openai.com/index/jalapeno-first-results/)Jalapeño——OpenAI首款定制推理芯片——的首批实测性能结果。在InferenceX（一个使用GPT‑OSS 120B的公开基准测试）上，Jalapeño在每千瓦峰值吞吐量上高于对比中的商业系统，且token延迟更低。它在DeepSeek R1和Kimi K2上也表现出色，表明其优势跨越了不同模型系列。\n\n## Jalapeño在先前最佳TBT基础上进一步扩大领先优势\n\nJalapeño让我们对模型的运行方式及其服务的经济性有了更强的掌控。通过将模型、服务软件、芯片、内存和网络协同开发，我们能够将吞吐量、延迟、能效和成本作为一个整体系统来优化。它在我们使用的其他合作伙伴加速器之外，开辟了一条可靠的第一方路径，增强了我们为每项工作负载匹配最强大系统并以合理经济性运行的能力。我们现在已拥有具备实测结果的可工作的第一方硅片，未来几代产品也已在推进中。\n\n## 为广度而建，以自主掌控获取杠杆\n\n不同的工作负载对系统提出不同要求。前沿训练、高容量推理和常驻代理在芯片、软件、网络、功耗和延迟方面有着各异的诉求。\n\n我们的目标是保持在帕累托前沿：持续为每项工作负载寻求能力、速度、可靠性、效率和成本的最优组合。不同芯片和供应商在不同维度上各有领先，而前沿也在不断移动。\n\n我们的组合提供了满足这些需求的广度。微软的计算能力和NVIDIA的芯片一直是OpenAI成长的基石。如今，我们的组合还包括AWS、AMD、博通、Cerebras、CoreWeave、甲骨文、SB Energy和软银。每家都在云基础设施、加速计算、低延迟推理、数据中心开发和能源供应方面带来不同的优势。\n\n我们积极管理这一组合，兼顾能力与经济性。在能力至上的地方使用高端系统，在规模与成本更关键的地方优化效率。在供应商、硬件和部署模式之间保持可信的选择，使我们能够将需求导向每美元性能最优的方向，在市场条件变化时维持定价纪律，并在更强技术出现时紧随前沿。直接掌控在更紧密的整合能改善整个系统的地方增加了杠杆。我们在生态系统能帮助我们更快推进的地方开展合作，在协同设计能创造显著优势的地方进行自建。\n\n数据中心是另一个杠杆点。佐治亚州的[山茶花项目](https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community/)展示了我们如何围绕客户工作负载设计设施，同时创造就业、支持本地企业、承担项目基础设施和能源成本、通过闭环系统节约用水，并接受年度独立公开审计以履行承诺。\n\n## 将效率转化为经济价值\n\n这一系统的价值以其产出衡量：每一单位计算产生更多有用的智能。\n\n更好的模型用更少的尝试就能得出正确答案。更智能的路由和上下文管理减少了无效工作。优化的软件和专用硬件提升了速度和能效。\n\n在Artificial Analysis编码代理指数上，GPT‑5.6 Sol在最大推理模式下达到新高，同时比另一领先模型少用了54%的输出token。对客户而言，这些改进意味着更快的结果、更可靠的产品、更少的重试、能完成更长工作流的代理，以及成功工作的更低总成本。最佳经济性来自每美元的有用智能。\n\n随着有用智能变得更强大、更实惠，更多工作在经济上变得可行。一家公司可以为每位客户提供定制分析、审查每份合同、运行实时财务情景，并帮助工程师测试更多想法。这就是杰文斯悖论：更高的效率让更多用途变得有价值，通过完成更多工作、做出更好决策、推出更多产品、创造更多收入，扩大消费并催生新的经济活动。\n\n## 复合优势\n\n更具生产力的计算和更具竞争力的供应基础，帮助我们以更低成本服务更多客户，并将这些效率提升传递给用户。增长带来的资金持续投入研究、基础设施和安全。这就是OpenAI的复合优势：更好的技术创造更好的经济性，更好的经济性为下一波进步提供资金，而每一项成果都让整个系统更加强大。",
-      "titleZh": "丰富智能背后的全栈技术",
-      "summaryZh": "OpenAI首席财务官Sarah Friar解释了芯片、计算、模型和产品方面的进步如何相互叠加，以更大规模、更低成本提供更有用的智能。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-25T07:05:00.000Z",
-      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "collectedAt": "2026-11-23T03:24:30.220Z"
-    },
-    {
-      "id": "b9dd82456710ac7ff739",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-      "content": "![Image 1: Close-up of the Jalapeño inference chip mounted on a teal circuit board.](https://images.ctfassets.net/kftzwdyauwt9/3zePuVBRvgyZ4IgOwnI0jI/65ba02edadf6a0a1c33d2c2abf260fab/Jalapeno-chip-final.jpg?w=3840&q=90&fm=webp)\n\nSince announcing Jalapeño, OpenAI’s first custom inference chip, we have been testing the chip and the system built around it. The results show a significant performance advance: Jalapeño can serve more AI work per unit of power while also returning responses more quickly. Jalapeño delivers both higher throughput and lower latency with one architecture, where existing hardware systems often have to make a tradeoff between the two.\n\nFor customers, that can mean faster responses, more responsive agents, and more reliable access as demand grows. Our mission is to ensure that artificial general intelligence benefits all of humanity. These gains will help make increasingly capable AI more affordable and more broadly available.\n\nOpenAI models also accelerated Jalapeño’s development. Earlier generations helped the team design and bring up the chip, while our latest models are accelerating how we optimize and program it. Jalapeño’s performance extends across GPT‑OSS 120B, DeepSeek R1, and Kimi K2.5 1T, showing that the architecture works across models developed both inside and outside OpenAI. Across all three, Jalapeño delivered 1.5 to 1.9 times more AI work per watt at peak throughput and 1.7 to 3.6 times lower end-to-end latency than the comparison systems. For highly interactive workloads, it delivered 2.1 to 4.1 times higher performance.\n\nJalapeño is also evidence of a broader full-stack advantage. OpenAI can design models, products, serving software, chips, memory, networking, and systems together, using what we learn from real workloads to improve every layer of the stack. Jalapeño is working first-party silicon with measured results, and it is the beginning of a multigenerational platform. In the months ahead, we will ramp Jalapeño to deliver faster, more capable, and more efficient products for our customers.\n\n## How we measured Jalapeño’s performance\n\nWe evaluate performance at a matched user experience, measuring how much useful AI work each system can complete per unit of power while meeting the latency customers and interactive agents require. This matters especially for agents, which need to complete many steps in sequence, so delays can compound across an entire task.\n\nTo understand how Jalapeño performs in practice, we tested it on InferenceX, a public benchmark from SemiAnalysis that measures the full process of serving an AI request. We compared Jalapeño with leading commercially available AI systems across the tested operating range, from high-throughput serving to highly interactive, low-latency use. Jalapeño delivered a better combination of throughput, power efficiency, and latency. Although performance is sometimes reported per chip, we believe the more useful standard is performance per unit of power.\n\n### Jalapeño widens the lead at previous-best TBT\n\n### Jalapeño delivers more tokens per user\n\n### Jalapeño delivers more throughput per kilowatt\n\nAcross all three public models, Jalapeño delivered a better combination of performance per watt and latency across the tested operating range, placing it on the Pareto frontier. To compare the systems consistently, we normalized the results using each accelerator’s published chip power rating. Jalapeño is rated at 700 watts, although its measured sustained power remained at or below 550 watts on the workloads tested.\n\nJalapeño performed strongly across GPT‑OSS 120B, DeepSeek R1 670B, and Kimi K2.5 1T. On Kimi, the largest public model we tested, it delivered approximately 1.5 times higher peak performance per watt and 3.4 times lower end-to-end latency than the comparison system. In our internal testing, Jalapeño’s advantage widened further on frontier OpenAI models, suggesting that the architecture becomes more valuable as workloads grow larger and more demanding.\n\n## Architecting for speed and efficiency within a single chip\n\nJalapeño was designed from the start by asking: what hardware would we build if its primary job were serving modern and future language models, especially interactive agents? Jalapeño’s gains come from designing the chip, memory, network, software, and rack-scale system together around real language-model workloads. Language-model inference moves through several distinct phases with different bottlenecks. Prefill, when the system processes a prompt, is compute-intensive, while decode, when the system generates the response token by token, is constrained more by memory bandwidth. Communication can also add latency when data must move between cores and chips, leaving some processing units idle while they wait. A system that excels at one phase can lose that advantage while waiting for data or moving model state between different resources.\n\nWe designed Jalapeño to minimize data movement and communication delays. This means that model state, including the KV cache used while generating a response, can be explicitly placed and kept local while the system activates the right combination of compute, memory, and networking for each inference phase. The network is integral to the architecture. Its large domain allows the entire workload to remain within one connected system, minimizing data movement and helping the complete request stay fast and efficient from beginning to end. The result is a balanced and fungible accelerator that can support changing model architectures, excel at both prefill and decode, and adapt as the balance between them changes, a defining feature of agentic workloads.\n\n## We used AI to design the chip, and designed the chip so AI could program it\n\nAI played a direct role in Jalapeño’s development, enabling the team to move from initial design to tapeout in nine months by exploring implementations, shortening design, measurement, and verification loops, and continuously iterating on model workloads. AI also helped optimize the chip’s arithmetic circuits, allowing the team to fit more compute performance into the chip on schedule.\n\nJalapeño was designed as a clear, predictable programming target for both humans and AI. Engineers can describe work through local tensors, explicit communication, and predictable synchronization. AI can then optimize how that work is mapped, placed, scheduled, and coordinated across the system. That clear, predictable structure gives AI a tractable way to tackle the traditionally difficult problem of parallel programming.\n\nSupporting each new model family still requires new kernels and model-specific optimizations. Using Codex with GPT‑Astra, the team brought three open-weight models that were not part of Jalapeño’s original production plan to high performance within two months. This demonstrated both the flexibility of the architecture and the speed at which AI can help us program it. For selected GPT‑OSS attention and mixture-of-experts blocks, AI-generated implementations ran 1.5 to 1.8 times faster than the existing human-expert-written implementations. Those figures apply to the selected blocks, not the full model, but they point toward a powerful new development loop.\n\n## The path ahead for efficient, ultra-fast inference\n\nAI infrastructure is valuable because of the useful real-world work it enables. By producing more useful work from the same power and hardware, Jalapeño can help us serve more demand and lower the cost of delivering a successful result. For OpenAI, that can improve operating leverage by allowing useful work and revenue to grow faster than the cost to serve. It can also support broader adoption and continued investment in better models, products, and infrastructure. Faster inference can enable faster iteration and new use cases.\n\nJalapeño expands what is possible for efficient, low-latency inference:\n\n*   Ultra-fast-mode inference at efficiencies previously available only in fast mode\n*   Fast-mode inference at efficiencies previously available only in batched mode\n*   Higher efficiency for batched-mode inference\n\nWe plan to begin deploying Jalapeño within OpenAI’s compute infrastructure by the end of the year. It is the first generation of a multigenerational roadmap: Gen 2 is deep in development, and Gen 3 is taking shape. Each generation will build on what we learn and further advance both efficiency and speed.\n\nMeeting growing demand for AI will require more compute from every available source. We will continue to widely deploy accelerators from NVIDIA and other partners for both training and inference workloads. Our mission is to ensure that artificial general intelligence benefits all of humanity.\n\nAs we prepare for deployment, we are continuing production qualification, maturing the software, preparing to operate Jalapeño at scale, and validating performance across more models. The results so far show what is possible when we design the full system together: more responsive, capable, and agentic AI delivered more efficiently to more people.\n\n## Appendix\n\n### Jalapeño is pareto frontier at GPT‑OSS 120B\n\nTHROUGHPUT-per-kW FRONTIER\n\nInferenceX · GPT‑OSS‑120B · nominal 8k/1k · STP · package TDP: Jalapeño 700 W; GB200 1,200 W\n\n### Jalapeño leads across GPT‑OSS operating points\n\nPEAK AND MATCHED THROUGHPUT\n\nInferenceX · GPT‑OSS‑120B · nominal 8k/1k · STP · package TDP: Jalapeño 700 W; GB200 1,200 W\n\nHigher peak mixed TPS / kW\n\n≈1.9×\n\n85,448 vs. 44,960 mixed / kW\n\nLower end-to-end latency\n\n≈1.7×\n\n1.03 s vs. 1.80 s\n\nLower min TBT\n\n≈2.7×\n\n0.69 vs. 1.87 ms (1,459 vs. 535 tok/s/user)\n\nMore throughput at previous TBT\n\n≈53.7×\n\n22,935 vs. 427 mixed / kW (at 535.28 tok/s/user)\n\n### Jalapeño is pareto frontier at DeepSeek R1 670B\n\nTHROUGHPUT-per-kW FRONTIER\n\nInferenceX · DeepSeek R1 MXFP4 · nominal 8k/1k · STP · package TDP: Jalapeño 700 W; GB300 1,400 W\n\n### Jalapeño leads across DeepSeek R1 operating points\n\nPEAK AND MATCHED THROUGHPUT\n\nInferenceX · DeepSeek R1 MXFP4 · nominal 8k/1k · STP · package TDP: Jalapeño 700 W; GB300 1,400 W\n\nHigher peak mixed TPS / kW\n\n≈1.7×\n\n19,641 vs. 11,781 mixed / kW\n\nLower end-to-end latency\n\n≈3.6×\n\n1.65 s vs. 5.99 s\n\nLower min TBT\n\n≈4.1×\n\n1.43 vs. 5.90 ms (700 vs. 169 tok/s/user)\n\nMore throughput at previous TBT\n\n≈104.3×\n\n12,258 vs. 118 mixed / kW (at 169.41 tok/s/user)\n\n### Jalapeño is pareto frontier at Kimi K2.5 1T\n\nTHROUGHPUT-per-kW FRONTIER\n\nInferenceX · Kimi K2.5 MXFP4 · nominal 8k/1k · STP · package TDP: Jalapeño 700 W; GB300 1,400 W\n\n### Jalapeño leads across Kimi K2.5 operating points\n\nPEAK AND MATCHED THROUGHPUT\n\nInferenceX · Kimi K2.5 MXFP4 · nominal 8k/1k · STP · package TDP: Jalapeño 700 W; GB300 1,400 W\n\nHigher peak mixed TPS / kW\n\n≈1.5×\n\n18,195 vs. 11,862 mixed / kW\n\nLower end-to-end latency\n\n≈3.4×\n\n1.56 s vs. 5.31 s\n\nLower min TBT\n\n≈3.8×\n\n1.44 vs. 5.48 ms (694 vs. 182 tok/s/user)\n\nMore throughput at previous TBT\n\n≈56.1×\n\n6,744 vs. 120 mixed / kW (at 182.46 tok/s/user)",
-      "contentZh": "![Image 1: 安装在青绿色电路板上的Jalapeño推理芯片特写。](https://images.ctfassets.net/kftzwdyauwt9/3zePuVBRvgyZ4IgOwnI0jI/65ba02edadf6a0a1c33d2c2abf260fab/Jalapeno-chip-final.jpg?w=3840&q=90&fm=webp)\n\n自发布OpenAI首款定制推理芯片Jalapeño以来，我们一直在测试该芯片及其配套构建的系统。结果显示其性能显著提升：Jalapeño在单位功耗下可处理更多AI工作负载，同时响应速度更快。Jalapeño以单一架构同时实现更高吞吐量和更低延迟，而现有硬件系统往往需要在两者之间做出取舍。\n\n对客户而言，这意味着更快的响应、更灵敏的智能体，以及随着需求增长更可靠的访问体验。我们的使命是确保通用人工智能惠及全人类。这些进步将有助于让日益强大的AI变得更加经济实惠、更广泛可用。\n\nOpenAI的模型也加速了Jalapeño的开发进程。早期模型帮助团队设计和启动芯片，而我们最新的模型正在加速芯片的优化和编程工作。Jalapeño的性能覆盖GPT‑OSS 120B、DeepSeek R1和Kimi K2.5 1T，表明该架构适用于OpenAI内外开发的各类模型。在这三个模型上，Jalapeño在峰值吞吐量下每瓦特可完成的AI工作量是对比系统的1.5至1.9倍，端到端延迟则低1.7至3.6倍。对于高交互性工作负载，其性能提升达2.1至4.1倍。\n\nJalapeño也证明了更广泛的全栈优势。OpenAI能够协同设计模型、产品、服务软件、芯片、内存、网络和系统，利用从真实工作负载中获得的经验来改进技术栈的每一层。Jalapeño是经过实测验证的自研硅片，也是多代际平台的起点。未来数月内，我们将逐步扩大Jalapeño的部署，为客户提供更快、更强、更高效的产品。\n\n## 我们如何衡量Jalapeño的性能\n\n我们在匹配的用户体验条件下评估性能，衡量每个系统在满足客户和交互式智能体所需延迟的同时，单位功耗可完成的有效AI工作量。这对智能体尤为重要，因为它们需要按顺序完成多个步骤，延迟会在整个任务中不断累积。\n\n为了解Jalapeño在实际中的表现，我们在InferenceX上进行了测试——这是SemiAnalysis推出的公开基准，用于衡量AI请求服务的完整流程。我们将Jalapeño与市面上领先的商用AI系统在测试运行范围内进行了比较，涵盖高吞吐量服务到高交互性、低延迟使用场景。Jalapeño在吞吐量、功耗效率和延迟方面实现了更优组合。虽然性能有时按单芯片报告，但我们认为更有用的标准是单位功耗的性能。\n\n### Jalapeño在先前最佳TBT水平上扩大了领先优势\n\n### Jalapeño为每位用户提供更多token\n\n### Jalapeño每千瓦时提供更高吞吐量\n\n在全部三个公开模型上，Jalapeño在测试运行范围内实现了每瓦性能与延迟的更优组合，处于帕累托前沿。为保持比较的一致性，我们使用各加速器公布的芯片功耗额定值对结果进行了归一化处理。Jalapeño额定功率为700瓦，但在测试工作负载下其持续实测功耗保持在550瓦或以下。\n\nJalapeño在GPT‑OSS 120B、DeepSeek R1 670B和Kimi K2.5 1T上均表现强劲。在我们测试的最大公开模型Kimi上，其每瓦峰值性能约为对比系统的1.5倍，端到端延迟低3.4倍。在我们的内部测试中，Jalapeño在OpenAI前沿模型上的优势进一步扩大，表明随着工作负载规模更大、要求更高，该架构的价值也愈发凸显。\n\n## 在单芯片内实现速度与效率的架构设计\n\nJalapeño从设计之初就围绕一个问题展开：如果硬件的主要任务是服务现代和未来的语言模型，尤其是交互式智能体，我们会构建什么样的硬件？Jalapeño的优势源于围绕真实语言模型工作负载，将芯片、内存、网络、软件和机架级系统进行协同设计。语言模型推理会经历多个瓶颈各异的阶段。预填充阶段（系统处理提示词时）为计算密集型，而解码阶段（系统逐token生成响应时）更多受内存带宽限制。当数据需要在核心和芯片之间移动时，通信也会增加延迟，导致部分处理单元在等待时闲置。一个在某阶段表现出色的系统，可能在等待数据或在不同资源间移动模型状态时丧失优势。\n\n我们设计Jalapeño的目标是最大限度减少数据移动和通信延迟。这意味着模型状态（包括生成响应时使用的KV缓存）可以被显式放置并保持本地化，同时系统为每个推理阶段激活合适的计算、内存和网络组合。网络是架构的有机组成部分。其大域（large domain）使整个工作负载能够保持在单一互联系统内，最大限度减少数据移动，确保完整请求从始至终保持快速高效。最终成果是一款均衡且可灵活调配的加速器，能够支持不断变化的模型架构，在预填充和解码阶段均表现出色，并能适应两者之间平衡的变化——这正是智能体工作负载的典型特征。\n\n## 我们用AI设计芯片，并让芯片便于AI编程\n\nAI在Jalapeño的开发中发挥了直接作用，使团队能够在九个月内从初始设计推进到流片，通过探索实现方案、缩短设计、测量和验证循环，并基于模型工作负载持续迭代。AI还帮助优化了芯片的算术电路，使团队能够按时在芯片中集成更多计算性能。\n\nJalapeño被设计为对人类和AI都清晰、可预测的编程目标。工程师可以通过局部张量、显式通信和可预测的同步来描述工作。AI随后可以优化这些工作在系统中的映射、放置、调度和协调方式。这种清晰、可预测的结构为AI提供了一条可行的路径，来解决传统上棘手的并行编程问题。\n\n支持每一个新模型家族仍然需要新的内核和针对模型的优化。通过使用 Codex 与 GPT‑Astra，团队在两个月内将三个未纳入 Jalapeño 原始生产计划的开权重模型提升到了高性能水平。这既展示了架构的灵活性，也体现了 AI 帮助我们编程的速度。对于选定的 GPT‑OSS 注意力机制和混合专家模块，AI 生成的实现比现有的人类专家编写的实现运行速度快 1.5 到 1.8 倍。这些数据适用于选定的模块，而非整个模型，但它们指向了一个强大的新开发循环。\n\n## 高效、超快推理的前进之路\n\nAI 基础设施的价值在于它能够实现有用的现实世界工作。通过从相同的功耗和硬件中产生更多有用的工作，Jalapeño 可以帮助我们满足更多需求，并降低交付成功结果的成本。对于 OpenAI 来说，这可以通过让有用工作和收入的增长速度超过服务成本来提高运营杠杆。它还可以支持更广泛的采用，并持续投资于更好的模型、产品和基础设施。更快的推理可以实现更快的迭代和新的用例。\n\nJalapeño 扩展了高效、低延迟推理的可能性：\n\n*   以以前仅在快速模式下可用的效率进行超快速模式推理\n*   以以前仅在批处理模式下可用的效率进行快速模式推理\n*   批处理模式推理的更高效率\n\n我们计划在今年年底前开始在 OpenAI 的计算基础设施内部署 Jalapeño。这是一个多代路线图的第一代：Gen 2 正在深入开发中，Gen 3 正在成形。每一代都将建立在我们所学到的基础上，并进一步推动效率和速度的提升。\n\n满足日益增长的 AI 需求将需要从所有可用来源获得更多计算资源。我们将继续广泛部署来自 NVIDIA 和其他合作伙伴的加速器，用于训练和推理工作负载。我们的使命是确保通用人工智能惠及全人类。\n\n在准备部署的过程中，我们正在继续进行生产资格认证、完善软件、准备大规模运营 Jalapeño，并在更多模型上验证性能。迄今为止的结果展示了当我们共同设计整个系统时可能实现的目标：以更高的效率向更多人提供更灵敏、更有能力、更具代理性的 AI。\n\n## 附录\n\n### Jalapeño 在 GPT‑OSS 120B 上处于帕累托前沿\n\n每千瓦吞吐量前沿\n\nInferenceX · GPT‑OSS‑120B · 标称 8k/1k · STP · 封装 TDP：Jalapeño 700 W；GB200 1,200 W\n\n### Jalapeño 在 GPT‑OSS 各运行点上领先\n\n峰值和匹配吞吐量\n\nInferenceX · GPT‑OSS‑120B · 标称 8k/1k · STP · 封装 TDP：Jalapeño 700 W；GB200 1,200 W\n\n更高的峰值混合 TPS / kW\n\n≈1.9×\n\n85,448 vs. 44,960 混合 / kW\n\n更低的端到端延迟\n\n≈1.7×\n\n1.03 秒 vs. 1.80 秒\n\n更低的 TBT 最小值\n\n≈2.7×\n\n0.69 vs. 1.87 毫秒（1,459 vs. 535 令牌/秒/用户）\n\n在先前 TBT 下更高的吞吐量\n\n≈53.7×\n\n22,935 vs. 427 混合 / kW（在 535.28 令牌/秒/用户时）\n\n### Jalapeño 在 DeepSeek R1 670B 上处于帕累托前沿\n\n每千瓦吞吐量前沿\n\nInferenceX · DeepSeek R1 MXFP4 · 标称 8k/1k · STP · 封装 TDP：Jalapeño 700 W；GB300 1,400 W\n\n### Jalapeño 在 DeepSeek R1 各运行点上领先\n\n峰值和匹配吞吐量\n\nInferenceX · DeepSeek R1 MXFP4 · 标称 8k/1k · STP · 封装 TDP：Jalapeño 700 W；GB300 1,400 W\n\n更高的峰值混合 TPS / kW\n\n≈1.7×\n\n19,641 vs. 11,781 混合 / kW\n\n更低的端到端延迟\n\n≈3.6×\n\n1.65 秒 vs. 5.99 秒\n\n更低的 TBT 最小值\n\n≈4.1×\n\n1.43 vs. 5.90 毫秒（700 vs. 169 令牌/秒/用户）\n\n在先前 TBT 下更高的吞吐量\n\n≈104.3×\n\n12,258 vs. 118 混合 / kW（在 169.41 令牌/秒/用户时）\n\n### Jalapeño 在 Kimi K2.5 1T 上处于帕累托前沿\n\n每千瓦吞吐量前沿\n\nInferenceX · Kimi K2.5 MXFP4 · 标称 8k/1k · STP · 封装 TDP：Jalapeño 700 W；GB300 1,400 W\n\n### Jalapeño 在 Kimi K2.5 各运行点上领先\n\n峰值和匹配吞吐量\n\nInferenceX · Kimi K2.5 MXFP4 · 标称 8k/1k · STP · 封装 TDP：Jalapeño 700 W；GB300 1,400 W\n\n更高的峰值混合 TPS / kW\n\n≈1.5×\n\n18,195 vs. 11,862 混合 / kW\n\n更低的端到端延迟\n\n≈3.4×\n\n1.56 秒 vs. 5.31 秒\n\n更低的 TBT 最小值\n\n≈3.8×\n\n1.44 vs. 5.48 毫秒（694 vs. 182 令牌/秒/用户）\n\n在先前 TBT 下更高的吞吐量\n\n≈56.1×\n\n6,744 vs. 120 混合 / kW（在 182.46 令牌/秒/用户时）",
-      "titleZh": "Jalapeño首批结果显示AI推理速度与效率行业领先",
-      "summaryZh": "Jalapeño是OpenAI推出的定制推理芯片，提供更快、更节能的AI推理，为现代模型带来更高吞吐量和更低延迟。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-25T07:00:00.000Z",
-      "url": "https://openai.com/index/jalapeno-first-results",
-      "collectedAt": "2026-11-23T03:24:30.220Z"
+      "collectedAt": "2026-11-23T11:25:25.758Z"
     },
     {
       "id": "fb3550ee043ce3089dfb",
@@ -4266,7 +4232,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-23T03:24:35.203Z"
+      "collectedAt": "2026-11-23T11:25:30.008Z"
     },
     {
       "id": "68c4c83c983d7ad01b30",
@@ -4283,7 +4249,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-23T03:24:35.204Z"
+      "collectedAt": "2026-11-23T11:25:30.008Z"
     },
     {
       "id": "af15e83e5c304730063b",
@@ -4300,7 +4266,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-23T03:24:35.204Z"
+      "collectedAt": "2026-11-23T11:25:30.009Z"
     },
     {
       "id": "118693cb868e1641c9c1",
@@ -4317,7 +4283,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-04-24T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-23T03:24:35.205Z"
+      "collectedAt": "2026-11-23T11:25:30.009Z"
     },
     {
       "id": "aeb9a0b6e961ddd9394e",
@@ -4334,7 +4300,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-12-01T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-23T03:24:35.205Z"
+      "collectedAt": "2026-11-23T11:25:30.009Z"
     }
   ]
 }
